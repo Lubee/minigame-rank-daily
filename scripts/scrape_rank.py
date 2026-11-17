@@ -46,7 +46,8 @@ _setup_playwright_env()
 from openpyxl import Workbook  # noqa: E402
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout  # noqa: E402
 
-URL = "https://rank.gravity-engine.com/#/"
+URL = "https://rank.gravity-engine.com/wechat/day/"
+DOUYIN_URL = "https://rank.gravity-engine.com/douyin/day/"
 DEFAULT_OUT_DIR = Path("D:/claude/rank_output")
 DEFAULT_AUTH_FILE = Path("D:/claude/rank_auth.json")
 
@@ -137,96 +138,45 @@ def kill_overlays(page, log=print):
         pass
 
 
-def _scroll_board_to_load(page, board_handle, target: int,
-                          log=print,
-                          max_idle_rounds: int = 6,
-                          max_rounds: int = 40) -> int:
-    """Scroll inside one board card to trigger lazy-load until we have
-    `target` rank rows, or rows stop growing for `max_idle_rounds` ticks.
-
-    The real scroll container isn't always the board card itself — we
-    walk up from the last row to the nearest ancestor whose scrollHeight
-    exceeds its clientHeight and scroll THAT. We also click any
-    加载更多 / 查看更多 button, since the site may have switched from
-    scroll-lazy to a button trigger. (As of 2026-07 the scroll path
-    stopped firing pages 2-5; the robust fix is to call the rank API
-    directly — see _on_response sample capture + future replay.)
-    """
-    rows_locator = board_handle.locator(".rank-child-item")
-    prev = rows_locator.count()
+def _scroll_boards_to_load(page, boards, target: int, log=print) -> None:
+    """Scroll the page container. The site loads the next page for all boards."""
+    rank_rows = [board.locator(".rank-child-item") for board in boards]
+    scroll = page.locator("#app")
+    prev = min(rows.count() for rows in rank_rows)
     idle = 0
-
-    def _click_load_more() -> bool:
-        for sel in ("text=加载更多", "text=查看更多", "text=更多",
-                   "text=展开", "text=Load more", "text=More"):
-            try:
-                btn = board_handle.locator(sel).first
-                if btn.is_visible(timeout=300):
-                    btn.click(timeout=1000)
-                    return True
-            except Exception:
-                pass
-        return False
-
-    for _ in range(max_rounds):
-        if prev >= target:
-            return prev
-        _click_load_more()
-        # Scroll the true scroll container to the bottom: walk up from
-        # the last row to the nearest ancestor that actually scrolls.
-        try:
-            board_handle.evaluate(
-                """(root) => {
-                  let el = root.querySelector('.rank-child-item:last-child') || root;
-                  let node = el;
-                  while (node && node !== document.body) {
-                    if (node.scrollHeight > node.clientHeight + 2) {
-                      node.scrollTop = node.scrollHeight;
-                      return;
-                    }
-                    node = node.parentElement;
-                  }
-                  const s = root.querySelector('[class*="scroll"]') || root;
-                  s.scrollTop = s.scrollHeight;
-                }"""
-            )
-        except Exception:
-            pass
-        try:
-            last = rows_locator.nth(prev - 1) if prev else board_handle
-            last.scroll_into_view_if_needed(timeout=1200)
-        except Exception:
-            pass
+    for _ in range(40):
+        if prev >= target or idle >= 6:
+            break
+        scroll.evaluate("""root => {
+          const before = root.scrollTop;
+          root.scrollTop = root.scrollHeight;
+          if (root.scrollTop === before) root.dispatchEvent(new Event("scroll"));
+        }""", timeout=2000)
         page.wait_for_timeout(800)
-        cur = rows_locator.count()
-        if cur == prev:
-            idle += 1
-            if idle >= max_idle_rounds:
-                break
-        else:
-            idle = 0
-        prev = cur
+        current = min(rows.count() for rows in rank_rows)
+        idle = idle + 1 if current <= prev else 0
+        prev = current
     if prev < target:
-        log(f"[warn] 榜单只加载到 {prev}/{target} 行 — 分页可能已改（见 [xhr-sample]）")
-    return prev
+        log(f"[warn] 条数最少的榜单只加载到 {prev}/{target} 行")
 
 
 def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
     boards_out = []
     labels = BOARD_LABELS[platform]
-    board_handles = page.locator(".rank-list > div").all()
-    if len(board_handles) < len(labels):
-        log(f"[warn] {platform}: expected {len(labels)} boards, "
-            f"found {len(board_handles)}")
-    for i, label in enumerate(labels):
-        if i >= len(board_handles):
+    board_types = ("popularity", "bestseller", "fresh_game" if platform == "douyin" else "most_played")
+    board_handles = [
+        page.locator(f'.rank-card[aria-labelledby="rank-heading-{kind}"]')
+        for kind in board_types
+    ]
+    if top_n > 20 and all(board.count() for board in board_handles):
+        _scroll_boards_to_load(page, board_handles, top_n, log)
+
+    for label, bh in zip(labels, board_handles):
+        if not bh.count():
+            log(f"[warn] {platform}/{label}: 未找到榜单卡片")
             boards_out.append({"label": label, "rows": []})
             continue
-        bh = board_handles[i]
-        if top_n > 20:
-            loaded = _scroll_board_to_load(page, bh, top_n, log=log)
-        else:
-            loaded = bh.locator(".rank-child-item").count()
+        loaded = bh.locator(".rank-child-item").count()
         rows_text = bh.locator(".rank-child-item").all_inner_texts()
         icons = bh.locator(".rank-child-item").evaluate_all("""items => items.map(item => {
           const image = item.querySelector(".rank-center-item img");
@@ -295,27 +245,11 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
 
 
 def switch_to_douyin(page, log=print) -> bool:
-    tab = page.locator("img[src*='douyin_tab_rank']").first
     try:
-        tab.scroll_into_view_if_needed(timeout=2000)
-    except Exception:
-        pass
-    try:
-        clickable = tab.locator(
-            "xpath=ancestor::*[self::div or self::a or self::button][1]"
-        )
-        try:
-            with page.expect_response(
-                lambda r: "rank/public_list" in r.url or "rank/list" in r.url,
-                timeout=8000,
-            ):
-                clickable.click(timeout=4000)
-        except PWTimeout:
-            clickable.click(timeout=4000)
-        page.wait_for_timeout(1200)
+        page.goto(DOUYIN_URL, wait_until="domcontentloaded", timeout=120000)
         return True
     except Exception as e:
-        log(f"[warn] could not click 抖音 tab: {e}")
+        log(f"[warn] 抖音榜单页面打开失败（{type(e).__name__}）")
         return False
 
 
@@ -484,7 +418,7 @@ def do_scrape(top_n: int | None,
     use_auth = auth_file.exists() and not force_anon
     if top_n is None:
         top_n = 100 if use_auth else 20
-    log(f"模式：{'已登录' if use_auth else '匿名'} | Top {top_n}"
+    log(f"模式：{'使用登录态' if use_auth else '匿名'} | Top {top_n}"
         + (f" | 历史日期：{historical_date}" if historical_date else ""))
 
     result = {
@@ -508,13 +442,18 @@ def do_scrape(top_n: int | None,
         # fires an XHR per board and re-renders. If we read the DOM
         # before those XHRs return, we get yesterday's data.
         rank_xhr_count = {"n": 0}
+        rank_endpoints = {}
         auth_expired = False
 
         def _on_response(resp):
             nonlocal auth_expired
             url = resp.url
-            if ("rank/public_list" in url or "rank/list" in url) \
-                    and resp.status == 200:
+            if "rank/public_list" in url or "rank/list" in url:
+                endpoint = "public_list" if "rank/public_list" in url else "list"
+                key = f"{endpoint}:{resp.status}"
+                rank_endpoints[key] = rank_endpoints.get(key, 0) + 1
+                if resp.status != 200:
+                    return
                 rank_xhr_count["n"] += 1
                 if use_auth and not auth_expired:
                     try:
@@ -526,6 +465,14 @@ def do_scrape(top_n: int | None,
                         log("[auth] 登录态已过期（code 2001），请更新 GRAVITY_AUTH。")
 
         page.on("response", _on_response)
+
+        def wait_rank_responses(platform, baseline, expected):
+            for _ in range(30):
+                if rank_xhr_count["n"] >= baseline + expected:
+                    break
+                page.wait_for_timeout(500)
+            log(f"[{platform}] 榜单响应 +{rank_xhr_count['n'] - baseline}，累计端点状态：{rank_endpoints}")
+            page.wait_for_timeout(1500)
 
         # Gravity Engine is slow / flaky from GitHub Actions' overseas IPs
         # (since 2026-08-28 CI hits 60s Page.goto timeouts while CN IPs are
@@ -554,14 +501,7 @@ def do_scrape(top_n: int | None,
         # Wait for at least 3 rank XHRs (one per WeChat board) to
         # complete before we trust the DOM. Each response triggers a
         # re-render; give Vue a beat after each.
-        deadline_ms = 15000
-        elapsed = 0
-        while rank_xhr_count["n"] < 3 and elapsed < deadline_ms:
-            page.wait_for_timeout(500)
-            elapsed += 500
-        log(f"[wx] rank XHRs observed before scrape: {rank_xhr_count['n']}")
-        # Extra settle time for the DOM to reflect the last XHR.
-        page.wait_for_timeout(1500)
+        wait_rank_responses("wx", 0, 3)
 
         kill_overlays(page, log=log)
 
@@ -575,8 +515,12 @@ def do_scrape(top_n: int | None,
             page, "wx", top_n, log=log
         )
 
+        baseline = rank_xhr_count["n"]
         if switch_to_douyin(page, log=log):
+            wait_rank_responses("douyin", baseline, 4)
             kill_overlays(page, log=log)
+            if historical_date:
+                _pick_historical_date(page, historical_date, rank_xhr_count, log)
             result["platforms"]["douyin"] = scrape_current_platform(
                 page, "douyin", top_n, log=log
             )
