@@ -1,11 +1,4 @@
-/* Dashboard for the gravity-engine ranking tracker.
- * Reads from Supabase (see sb.js). Boards are loaded lazily: only the
- * active board's snapshot + diff are fetched (not all boards at once),
- * and results are cached per date so switching back to a seen board or
- * date is instant. The full-board table renders in pages of PAGE_SIZE
- * rows at a time via a "加载更多" button instead of dumping every row
- * into the DOM up front.
- */
+/* Dashboard for daily snapshots and diffs published alongside this site. */
 
 const PLATFORM_ORDER = [
   ["wx", "微信小游戏"],
@@ -48,6 +41,8 @@ const PAGE_SIZE = 50;
 const state = {
   currentDate: null,          // YYYY-MM-DD (Beijing)
   availableDates: [],         // sorted asc
+  diffDates: new Set(),
+  dailyData: new Map(),        // date -> shared snapshot and diff request
   // cache[date]["plat/label"] = { rows, diff }
   cache: {},
   activePlatform: null,       // current top-level platform key
@@ -80,92 +75,37 @@ function setCacheEntry(date, plat, label, data) {
 
 // ---------- data loading ----------
 
+async function fetchData(path) {
+  const response = await fetch(`./data/${path}`, { cache: "no-cache" });
+  if (!response.ok) throw new Error(`${path} (HTTP ${response.status})`);
+  return response.json();
+}
+
 async function loadAvailableDates() {
-  // Distinct dates in daily_snapshots. PostgREST doesn't have DISTINCT,
-  // but with a small dataset we can just fetch dates ordered desc and
-  // dedup. If snapshot count grows unbounded, swap to an RPC / view.
-  const rows = await window.sb.select("daily_snapshots", {
-    select: "snapshot_date",
-    order: "snapshot_date.desc",
-    limit: 5000,
-  });
-  const seen = new Set();
-  const dates = [];
-  for (const r of rows) {
-    if (!seen.has(r.snapshot_date)) {
-      seen.add(r.snapshot_date);
-      dates.push(r.snapshot_date);
-    }
-  }
-  dates.sort();  // ascending
-  state.availableDates = dates;
-  return dates;
+  const index = await fetchData("index.json");
+  state.availableDates = index.daily.slice().sort();
+  state.diffDates = new Set(index.diff);
+  return state.availableDates;
 }
 
-function mapSnapshotRow(r) {
-  return {
-    rank: r.rank,
-    name: r.game_name,
-    publisher: r.publisher_name || "",
-    change: r.change_raw || "",
-    change_direction: r.change_direction,
-    category: r.category || "",
-    category_rank: r.category_rank,
-    subcategory: r.subcategory || "",
-    slogan: r.slogan || "",
-  };
-}
-
-// Fetch one board's snapshot + diff in parallel. `date` is the snapshot
-// date; `plat`/`label` select the board. Returns { rows, diff }.
 async function loadBoardData(date, plat, label) {
-  const [snapRows, diffRows, pbhRows] = await Promise.all([
-    window.sb.select("daily_snapshots", {
-      match: { snapshot_date: date, platform: plat, board: label },
-      order: "rank.asc",
-      limit: 500,
-    }),
-    window.sb.select("daily_diffs", {
-      match: { snapshot_date: date, platform: plat, board: label },
-      order: "rank.asc",
-      limit: 1000,
-    }),
-    window.sb.select("publisher_board_history", {
-      raw: {
-        first_seen: `eq.${date}`,
-        platform: `eq.${plat}`,
-        board: `eq.${label}`,
-      },
-      limit: 1000,
-    }),
-  ]);
-
-  const rows = snapRows.map(mapSnapshotRow);
-
-  const diff = { new_to_board: [], returning: [], new_publishers: [] };
-  for (const r of diffRows) {
-    const rec = {
-      rank: r.rank,
-      name: r.game_name,
-      publisher: r.publisher_name || "",
-    };
-    if (r.category === "returning") diff.returning.push(rec);
-    else diff.new_to_board.push(rec);
+  if (!state.dailyData.has(date)) {
+    const request = Promise.all([
+      fetchData(`daily/${date}.json`),
+      state.diffDates.has(date) ? fetchData(`diff/${date}.json`) : null,
+    ]).catch(error => {
+      state.dailyData.delete(date);
+      throw error;
+    });
+    state.dailyData.set(date, request);
   }
-
-  // "New publishers" on this board today = publisher_board_history says
-  // the publisher's first_seen on this board equals today.
-  const newPubKeys = new Set(pbhRows.map(r => r.publisher));
-  const seen = new Set();
-  for (const r of rows) {
-    if (!r.publisher || seen.has(r.publisher)) continue;
-    if (newPubKeys.has(r.publisher)) {
-      seen.add(r.publisher);
-      diff.new_publishers.push({ rank: r.rank, name: r.name, publisher: r.publisher });
-    }
-  }
-
-  return { rows, diff };
+  const [snapshot, diff] = await state.dailyData.get(date);
+  const board = snapshot.platforms?.[plat]?.boards?.find(b => b.label === label);
+  return {
+    rows: board?.rows ?? [],
+    diff: diff?.boards?.[boardKey(plat, label)] ?? null,
+    error: board?.error,
+  };
 }
 
 // ---------- UI: tabs / date picker ----------
@@ -229,26 +169,28 @@ function updateTabActive() {
 }
 
 async function setActiveBoard(plat, label) {
+  const date = state.currentDate;
   state.activeBoard = { plat, label };
+  const selection = state.activeBoard;
   state.lastBoard[plat] = label;
   state.fullBoardPage = 0;
   updateTabActive();
 
   // Cached for this date → render instantly, no network.
-  if (cacheEntry(state.currentDate, plat, label)) {
+  if (cacheEntry(date, plat, label)) {
     renderBoardViews();
     return;
   }
 
   showBoardLoading();
   try {
-    const data = await loadBoardData(state.currentDate, plat, label);
-    setCacheEntry(state.currentDate, plat, label, data);
+    const data = await loadBoardData(date, plat, label);
+    setCacheEntry(date, plat, label, data);
   } catch (e) {
-    showBoardError(e);
+    if (state.currentDate === date && state.activeBoard === selection) showBoardError(e);
     return;
   }
-  renderBoardViews();
+  if (state.currentDate === date && state.activeBoard === selection) renderBoardViews();
 }
 
 function renderDatePicker() {
@@ -269,16 +211,8 @@ function renderDatePicker() {
     $("date-load").disabled = true;
     try {
       state.currentDate = d;
-      state.fullBoardPage = 0;
       renderKPIs();
-      if (!cacheEntry(d, ab.plat, ab.label)) {
-        showBoardLoading();
-        const data = await loadBoardData(d, ab.plat, ab.label);
-        setCacheEntry(d, ab.plat, ab.label, data);
-      }
-      renderBoardViews();
-    } catch (e) {
-      alert(`加载失败：${e.message}`);
+      await setActiveBoard(ab.plat, ab.label);
     } finally {
       $("date-load").disabled = false;
     }
@@ -291,7 +225,6 @@ function getBoardData(plat, label) {
   return cacheEntry(state.currentDate, plat, label) || { rows: [], diff: null };
 }
 function findRows(plat, label) { return getBoardData(plat, label).rows; }
-function findDiff(plat, label) { return getBoardData(plat, label).diff; }
 
 function renderKPIs() {
   const dateLabel = state.currentDate || "—";
@@ -302,7 +235,7 @@ function renderKPIs() {
 function renderDiffTables() {
   const ab = state.activeBoard;
   if (!ab) return;
-  const diff = findDiff(ab.plat, ab.label);
+  const { diff, error } = getBoardData(ab.plat, ab.label);
   $("panel-new-board").textContent =
     ` · ${platLabelOf(ab.plat)} · ${ab.label}`;
 
@@ -327,10 +260,11 @@ function renderDiffTables() {
   const tbodyG = document.querySelector("#tbl-new tbody");
   tbodyG.innerHTML = "";
 
-  if (!diff) {
+  if (!diff || error) {
     const cnt = $("panel-new-count");
     if (cnt) cnt.textContent = "";
-    tbodyG.innerHTML = `<tr><td colspan="7" class="muted">尚无对比数据（首日运行后才有）</td></tr>`;
+    const message = error ? "本次抓取失败，无法比较" : "尚无对比数据";
+    tbodyG.innerHTML = `<tr><td colspan="7" class="muted">${message}</td></tr>`;
     return;
   }
 
@@ -403,12 +337,16 @@ function changeCell(r) {
 function renderFullBoard() {
   const ab = state.activeBoard;
   if (!ab) return;
-  const rows = findRows(ab.plat, ab.label);
+  const { rows, diff, error } = getBoardData(ab.plat, ab.label);
   $("panel-board-name").textContent =
     `${platLabelOf(ab.plat)} · ${ab.label} · 共 ${rows.length} 条`;
   const tbody = document.querySelector("#tbl-full tbody");
   tbody.innerHTML = "";
-  const diff = findDiff(ab.plat, ab.label);
+  if (!rows.length) {
+    const message = error ? `榜单抓取失败：${escapeHTML(error)}` : "所选日期暂无此榜单数据";
+    tbody.innerHTML = `<tr><td colspan="7" class="muted">${message}</td></tr>`;
+    return;
+  }
   const newGameSet = new Set(((diff?.new_to_board) || []).map(r => r.name));
 
   // Always render in rank order (ascending). No user-sorting anymore.
@@ -465,8 +403,9 @@ function showBoardLoading() {
 }
 
 function showBoardError(e) {
-  const tFull = document.querySelector("#tbl-full tbody");
-  tFull.innerHTML = `<tr><td colspan="7" class="muted">加载失败：${escapeHTML(e.message)}</td></tr>`;
+  const message = `<tr><td colspan="7" class="muted">加载失败：${escapeHTML(e.message)}</td></tr>`;
+  document.querySelector("#tbl-full tbody").innerHTML = message;
+  document.querySelector("#tbl-new tbody").innerHTML = message;
 }
 
 function renderBoardViews() {
