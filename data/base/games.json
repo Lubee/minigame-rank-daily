@@ -934,8 +934,8 @@
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 84,
-          "first_rank": 84,
+          "best_rank": 82,
+          "first_rank": 82,
           "appearances": 1
         }
       }
@@ -1423,7 +1423,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 38,
+          "best_rank": 36,
           "first_rank": 93,
           "appearances": 18,
           "_last_day_counted": "2026-11-17"
@@ -1991,7 +1991,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 46,
+          "best_rank": 44,
           "first_rank": 63,
           "appearances": 25,
           "_last_day_counted": "2026-11-17"
@@ -35599,7 +35599,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-09-06",
           "last_seen": "2026-11-17",
-          "best_rank": 60,
+          "best_rank": 61,
           "first_rank": 93,
           "appearances": 3,
           "_last_day_counted": "2026-11-17"
@@ -41660,11 +41660,11 @@
         },
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-10-13",
+          "last_seen": "2026-11-17",
           "best_rank": 3,
           "first_rank": 7,
-          "appearances": 49,
-          "_last_day_counted": "2026-10-13"
+          "appearances": 50,
+          "_last_day_counted": "2026-11-17"
         }
       }
     },
@@ -42089,11 +42089,11 @@
         },
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-09-13",
+          "last_seen": "2026-11-17",
           "best_rank": 26,
           "first_rank": 26,
-          "appearances": 24,
-          "_last_day_counted": "2026-09-13"
+          "appearances": 25,
+          "_last_day_counted": "2026-11-17"
         },
         "android/美区免费榜": {
           "first_seen": "2026-08-21",
@@ -42562,7 +42562,7 @@
         "ios/美区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 26,
+          "best_rank": 30,
           "first_rank": 34,
           "appearances": 25,
           "_last_day_counted": "2026-11-17"
@@ -43580,7 +43580,7 @@
         "ios/美区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 43,
+          "best_rank": 45,
           "first_rank": 73,
           "appearances": 16,
           "_last_day_counted": "2026-11-17"
@@ -43736,8 +43736,8 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 99,
-          "first_rank": 99,
+          "best_rank": 98,
+          "first_rank": 98,
           "appearances": 1
         }
       }
@@ -44084,7 +44084,7 @@
         "ios/美区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 31,
+          "best_rank": 29,
           "first_rank": 93,
           "appearances": 21,
           "_last_day_counted": "2026-11-17"
@@ -44909,7 +44909,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 34,
+          "best_rank": 35,
           "first_rank": 42,
           "appearances": 25,
           "_last_day_counted": "2026-11-17"
@@ -45169,7 +45169,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 44,
+          "best_rank": 45,
           "first_rank": 62,
           "appearances": 25,
           "_last_day_counted": "2026-11-17"
@@ -45309,7 +45309,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 35,
+          "best_rank": 33,
           "first_rank": 73,
           "appearances": 20,
           "_last_day_counted": "2026-11-17"
@@ -45349,7 +45349,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 39,
+          "best_rank": 40,
           "first_rank": 75,
           "appearances": 25,
           "_last_day_counted": "2026-11-17"
@@ -45509,7 +45509,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 77,
+          "best_rank": 73,
           "first_rank": 83,
           "appearances": 22,
           "_last_day_counted": "2026-11-17"
@@ -45769,7 +45769,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 76,
+          "best_rank": 72,
           "first_rank": 97,
           "appearances": 10,
           "_last_day_counted": "2026-11-17"
@@ -46098,7 +46098,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 10,
+          "best_rank": 11,
           "first_rank": 19,
           "appearances": 28,
           "_last_day_counted": "2026-11-17"
@@ -46935,11 +46935,11 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-11-17",
+          "last_seen": "2026-09-13",
           "best_rank": 38,
           "first_rank": 66,
-          "appearances": 24,
-          "_last_day_counted": "2026-11-17"
+          "appearances": 23,
+          "_last_day_counted": "2026-09-13"
         }
       }
     },
@@ -47051,11 +47051,11 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-09-13",
+          "last_seen": "2026-11-17",
           "best_rank": 37,
           "first_rank": 72,
-          "appearances": 23,
-          "_last_day_counted": "2026-09-13"
+          "appearances": 24,
+          "_last_day_counted": "2026-11-17"
         }
       }
     },
@@ -47350,7 +47350,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 60,
+          "best_rank": 65,
           "first_rank": 88,
           "appearances": 15,
           "_last_day_counted": "2026-11-17"
@@ -47370,7 +47370,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 67,
+          "best_rank": 69,
           "first_rank": 90,
           "appearances": 23,
           "_last_day_counted": "2026-11-17"
@@ -47410,7 +47410,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
-          "best_rank": 64,
+          "best_rank": 67,
           "first_rank": 92,
           "appearances": 25,
           "_last_day_counted": "2026-11-17"
@@ -50733,11 +50733,11 @@
       "board_history": {
         "ios/美区免费榜": {
           "first_seen": "2026-08-22",
-          "last_seen": "2026-09-13",
+          "last_seen": "2026-11-17",
           "best_rank": 71,
           "first_rank": 93,
-          "appearances": 9,
-          "_last_day_counted": "2026-09-13"
+          "appearances": 10,
+          "_last_day_counted": "2026-11-17"
         },
         "android/美区免费榜": {
           "first_seen": "2026-09-12",
@@ -50910,7 +50910,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-08-22",
           "last_seen": "2026-11-17",
-          "best_rank": 16,
+          "best_rank": 12,
           "first_rank": 95,
           "appearances": 24,
           "_last_day_counted": "2026-11-17"
@@ -53233,7 +53233,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-24",
           "last_seen": "2026-11-17",
-          "best_rank": 75,
+          "best_rank": 78,
           "first_rank": 98,
           "appearances": 16,
           "_last_day_counted": "2026-11-17"
@@ -53321,11 +53321,11 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-08-24",
-          "last_seen": "2026-09-13",
+          "last_seen": "2026-11-17",
           "best_rank": 75,
           "first_rank": 99,
-          "appearances": 12,
-          "_last_day_counted": "2026-09-13"
+          "appearances": 13,
+          "_last_day_counted": "2026-11-17"
         }
       }
     },
@@ -54657,7 +54657,7 @@
         "ios/美区免费榜": {
           "first_seen": "2026-08-26",
           "last_seen": "2026-11-17",
-          "best_rank": 60,
+          "best_rank": 62,
           "first_rank": 93,
           "appearances": 15,
           "_last_day_counted": "2026-11-17"
@@ -55502,7 +55502,7 @@
         "ios/美区免费榜": {
           "first_seen": "2026-08-27",
           "last_seen": "2026-11-17",
-          "best_rank": 38,
+          "best_rank": 37,
           "first_rank": 94,
           "appearances": 12,
           "_last_day_counted": "2026-11-17"
@@ -55601,7 +55601,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-27",
           "last_seen": "2026-11-17",
-          "best_rank": 72,
+          "best_rank": 79,
           "first_rank": 95,
           "appearances": 4,
           "_last_day_counted": "2026-11-17"
@@ -55621,7 +55621,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-08-27",
           "last_seen": "2026-11-17",
-          "best_rank": 41,
+          "best_rank": 39,
           "first_rank": 100,
           "appearances": 8,
           "_last_day_counted": "2026-11-17"
@@ -55915,7 +55915,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-08-28",
           "last_seen": "2026-11-17",
-          "best_rank": 59,
+          "best_rank": 60,
           "first_rank": 86,
           "appearances": 4,
           "_last_day_counted": "2026-11-17"
@@ -58931,11 +58931,11 @@
       "board_history": {
         "ios/国区免费榜": {
           "first_seen": "2026-09-02",
-          "last_seen": "2026-11-17",
+          "last_seen": "2026-09-13",
           "best_rank": 77,
           "first_rank": 98,
-          "appearances": 11,
-          "_last_day_counted": "2026-11-17"
+          "appearances": 10,
+          "_last_day_counted": "2026-09-13"
         }
       }
     },
@@ -58952,7 +58952,7 @@
         "ios/国区免费榜": {
           "first_seen": "2026-09-02",
           "last_seen": "2026-11-17",
-          "best_rank": 82,
+          "best_rank": 76,
           "first_rank": 100,
           "appearances": 2,
           "_last_day_counted": "2026-11-17"
@@ -60828,8 +60828,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 76,
-          "first_rank": 76,
+          "best_rank": 79,
+          "first_rank": 79,
           "appearances": 1
         }
       }
@@ -61153,7 +61153,7 @@
         "ios/美区免费榜": {
           "first_seen": "2026-09-08",
           "last_seen": "2026-11-17",
-          "best_rank": 66,
+          "best_rank": 63,
           "first_rank": 99,
           "appearances": 6,
           "_last_day_counted": "2026-11-17"
@@ -62090,11 +62090,11 @@
       "board_history": {
         "ios/国区免费榜": {
           "first_seen": "2026-09-05",
-          "last_seen": "2026-11-17",
+          "last_seen": "2026-09-09",
           "best_rank": 63,
           "first_rank": 63,
-          "appearances": 6,
-          "_last_day_counted": "2026-11-17"
+          "appearances": 5,
+          "_last_day_counted": "2026-09-09"
         }
       }
     },
@@ -63499,11 +63499,11 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-09-08",
-          "last_seen": "2026-11-17",
-          "best_rank": 89,
+          "last_seen": "2026-09-09",
+          "best_rank": 94,
           "first_rank": 98,
-          "appearances": 3,
-          "_last_day_counted": "2026-11-17"
+          "appearances": 2,
+          "_last_day_counted": "2026-09-09"
         }
       }
     },
@@ -63961,11 +63961,11 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-09-10",
-          "last_seen": "2026-11-17",
+          "last_seen": "2026-09-13",
           "best_rank": 48,
           "first_rank": 66,
-          "appearances": 5,
-          "_last_day_counted": "2026-11-17"
+          "appearances": 4,
+          "_last_day_counted": "2026-09-13"
         }
       }
     },
@@ -64070,8 +64070,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 95,
-          "first_rank": 95,
+          "best_rank": 97,
+          "first_rank": 97,
           "appearances": 1
         }
       }
@@ -64436,7 +64436,7 @@
         "ios/美区免费榜": {
           "first_seen": "2026-09-11",
           "last_seen": "2026-11-17",
-          "best_rank": 71,
+          "best_rank": 72,
           "first_rank": 100,
           "appearances": 3,
           "_last_day_counted": "2026-11-17"
@@ -65181,8 +65181,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 82,
-          "first_rank": 82,
+          "best_rank": 81,
+          "first_rank": 81,
           "appearances": 1
         }
       }
@@ -72836,7 +72836,7 @@
         "taptap/预约榜": {
           "first_seen": "2026-10-29",
           "last_seen": "2026-11-17",
-          "best_rank": 8,
+          "best_rank": 6,
           "first_rank": 9,
           "appearances": 6,
           "_last_day_counted": "2026-11-17"
@@ -74111,7 +74111,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-06",
           "last_seen": "2026-11-17",
-          "best_rank": 13,
+          "best_rank": 14,
           "first_rank": 18,
           "appearances": 11,
           "_last_day_counted": "2026-11-17"
@@ -74453,11 +74453,11 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-11-08",
-          "last_seen": "2026-11-17",
+          "last_seen": "2026-11-11",
           "best_rank": 7,
           "first_rank": 8,
-          "appearances": 5,
-          "_last_day_counted": "2026-11-17"
+          "appearances": 4,
+          "_last_day_counted": "2026-11-11"
         }
       }
     },
@@ -75368,7 +75368,7 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-13",
           "last_seen": "2026-11-17",
-          "best_rank": 5,
+          "best_rank": 4,
           "first_rank": 5,
           "appearances": 5,
           "_last_day_counted": "2026-11-17"
@@ -75964,8 +75964,8 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 40,
-          "first_rank": 40,
+          "best_rank": 49,
+          "first_rank": 49,
           "appearances": 1
         }
       }
@@ -75983,8 +75983,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 21,
-          "first_rank": 21,
+          "best_rank": 22,
+          "first_rank": 22,
           "appearances": 1
         }
       }
@@ -76002,8 +76002,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 35,
-          "first_rank": 35,
+          "best_rank": 36,
+          "first_rank": 36,
           "appearances": 1
         }
       }
@@ -76022,15 +76022,15 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 42,
-          "first_rank": 42,
+          "best_rank": 41,
+          "first_rank": 41,
           "appearances": 1
         },
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 16,
-          "first_rank": 16,
+          "best_rank": 19,
+          "first_rank": 19,
           "appearances": 1
         }
       }
@@ -76048,27 +76048,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 56,
-          "first_rank": 56,
-          "appearances": 1
-        }
-      }
-    },
-    "Cutie Sort - Cat Color Fever": {
-      "name": "Cutie Sort - Cat Color Fever",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "Games"
-      ],
-      "publishers": [
-        "Ladaneta Games"
-      ],
-      "board_history": {
-        "ios/美区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 64,
-          "first_rank": 64,
+          "best_rank": 57,
+          "first_rank": 57,
           "appearances": 1
         }
       }
@@ -76086,8 +76067,27 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 65,
-          "first_rank": 65,
+          "best_rank": 60,
+          "first_rank": 60,
+          "appearances": 1
+        }
+      }
+    },
+    "Cutie Sort - Cat Color Fever": {
+      "name": "Cutie Sort - Cat Color Fever",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Ladaneta Games"
+      ],
+      "board_history": {
+        "ios/美区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 66,
+          "first_rank": 66,
           "appearances": 1
         }
       }
@@ -76130,44 +76130,6 @@
         }
       }
     },
-    "FanDuel Casino - Real Money": {
-      "name": "FanDuel Casino - Real Money",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "Games"
-      ],
-      "publishers": [
-        "FanDuel, Inc."
-      ],
-      "board_history": {
-        "ios/美区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 69,
-          "first_rank": 69,
-          "appearances": 1
-        }
-      }
-    },
-    "Street League Football": {
-      "name": "Street League Football",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "Games"
-      ],
-      "publishers": [
-        "Hues House LLC"
-      ],
-      "board_history": {
-        "ios/美区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 73,
-          "first_rank": 73,
-          "appearances": 1
-        }
-      }
-    },
     "Victory Blast Casino": {
       "name": "Victory Blast Casino",
       "first_seen_anywhere": "2026-11-17",
@@ -76181,8 +76143,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 77,
-          "first_rank": 77,
+          "best_rank": 73,
+          "first_rank": 73,
           "appearances": 1
         }
       }
@@ -76200,8 +76162,46 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 79,
-          "first_rank": 79,
+          "best_rank": 77,
+          "first_rank": 77,
+          "appearances": 1
+        }
+      }
+    },
+    "FanDuel Casino - Real Money": {
+      "name": "FanDuel Casino - Real Money",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "FanDuel, Inc."
+      ],
+      "board_history": {
+        "ios/美区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 78,
+          "first_rank": 78,
+          "appearances": 1
+        }
+      }
+    },
+    "Street League Football": {
+      "name": "Street League Football",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Hues House LLC"
+      ],
+      "board_history": {
+        "ios/美区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 84,
+          "first_rank": 84,
           "appearances": 1
         }
       }
@@ -76219,27 +76219,8 @@
         "ios/美区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 86,
-          "first_rank": 86,
-          "appearances": 1
-        }
-      }
-    },
-    "Pullz": {
-      "name": "Pullz",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "Games"
-      ],
-      "publishers": [
-        "Delta Two Inc"
-      ],
-      "board_history": {
-        "ios/美区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 96,
-          "first_rank": 96,
+          "best_rank": 91,
+          "first_rank": 91,
           "appearances": 1
         }
       }
@@ -76282,25 +76263,6 @@
         }
       }
     },
-    "斗破苍穹：异火降世": {
-      "name": "斗破苍穹：异火降世",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "游戏"
-      ],
-      "publishers": [
-        "Guangdong Xinghui Teamtop Interactive Entertainment Co., Ltd."
-      ],
-      "board_history": {
-        "ios/国区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 28,
-          "first_rank": 28,
-          "appearances": 1
-        }
-      }
-    },
     "超自然行动组-伊藤润二联动": {
       "name": "超自然行动组-伊藤润二联动",
       "first_seen_anywhere": "2026-11-17",
@@ -76314,27 +76276,27 @@
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 30,
-          "first_rank": 30,
+          "best_rank": 29,
+          "first_rank": 29,
           "appearances": 1
         }
       }
     },
-    "原神": {
-      "name": "原神",
+    "斗破苍穹：异火降世": {
+      "name": "斗破苍穹：异火降世",
       "first_seen_anywhere": "2026-11-17",
       "categories": [
         "游戏"
       ],
       "publishers": [
-        "miHoYo Games"
+        "Guangdong Xinghui Teamtop Interactive Entertainment Co., Ltd."
       ],
       "board_history": {
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 36,
-          "first_rank": 36,
+          "best_rank": 31,
+          "first_rank": 31,
           "appearances": 1
         }
       }
@@ -76358,21 +76320,21 @@
         }
       }
     },
-    "球球大作战-无条件送超大": {
-      "name": "球球大作战-无条件送超大",
+    "原神": {
+      "name": "原神",
       "first_seen_anywhere": "2026-11-17",
       "categories": [
         "游戏"
       ],
       "publishers": [
-        "巨人网络科技有限公司"
+        "miHoYo Games"
       ],
       "board_history": {
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 45,
-          "first_rank": 45,
+          "best_rank": 38,
+          "first_rank": 38,
           "appearances": 1
         }
       }
@@ -76390,8 +76352,27 @@
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 50,
-          "first_rank": 50,
+          "best_rank": 46,
+          "first_rank": 46,
+          "appearances": 1
+        }
+      }
+    },
+    "球球大作战-无条件送超大": {
+      "name": "球球大作战-无条件送超大",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "游戏"
+      ],
+      "publishers": [
+        "巨人网络科技有限公司"
+      ],
+      "board_history": {
+        "ios/国区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 47,
+          "first_rank": 47,
           "appearances": 1
         }
       }
@@ -76409,8 +76390,8 @@
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 51,
-          "first_rank": 51,
+          "best_rank": 50,
+          "first_rank": 50,
           "appearances": 1
         }
       }
@@ -76447,8 +76428,8 @@
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 65,
-          "first_rank": 65,
+          "best_rank": 66,
+          "first_rank": 66,
           "appearances": 1
         }
       }
@@ -76466,8 +76447,8 @@
         "ios/国区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 88,
-          "first_rank": 88,
+          "best_rank": 89,
+          "first_rank": 89,
           "appearances": 1
         }
       }
@@ -76480,6 +76461,25 @@
       ],
       "publishers": [
         "北京金海部落文化有限公司"
+      ],
+      "board_history": {
+        "ios/国区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 91,
+          "first_rank": 91,
+          "appearances": 1
+        }
+      }
+    },
+    "桃源深处有人家": {
+      "name": "桃源深处有人家",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "游戏"
+      ],
+      "publishers": [
+        "Tencent Technology (Chengdu) Co., Ltd."
       ],
       "board_history": {
         "ios/国区免费榜": {
@@ -76510,21 +76510,21 @@
         }
       }
     },
-    "桃源深处有人家": {
-      "name": "桃源深处有人家",
+    "スヌーピー ゲームズ ～サクッと脳トレパズル": {
+      "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
       "first_seen_anywhere": "2026-11-17",
       "categories": [
-        "游戏"
+        "ゲーム"
       ],
       "publishers": [
-        "Tencent Technology (Chengdu) Co., Ltd."
+        "TV TOKYO Communications Corporation"
       ],
       "board_history": {
-        "ios/国区免费榜": {
+        "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 98,
-          "first_rank": 98,
+          "best_rank": 9,
+          "first_rank": 9,
           "appearances": 1
         }
       }
@@ -76542,8 +76542,8 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 46,
-          "first_rank": 46,
+          "best_rank": 42,
+          "first_rank": 42,
           "appearances": 1
         }
       }
@@ -76561,8 +76561,8 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 49,
-          "first_rank": 49,
+          "best_rank": 52,
+          "first_rank": 52,
           "appearances": 1
         }
       }
@@ -76580,8 +76580,27 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 52,
-          "first_rank": 52,
+          "best_rank": 55,
+          "first_rank": 55,
+          "appearances": 1
+        }
+      }
+    },
+    "Bus Rush: パーキングゲーム": {
+      "name": "Bus Rush: パーキングゲーム",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "ゲーム"
+      ],
+      "publishers": [
+        "Longwind Studio"
+      ],
+      "board_history": {
+        "ios/日区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 56,
+          "first_rank": 56,
           "appearances": 1
         }
       }
@@ -76599,8 +76618,8 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 56,
-          "first_rank": 56,
+          "best_rank": 59,
+          "first_rank": 59,
           "appearances": 1
         }
       }
@@ -76618,8 +76637,8 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 62,
-          "first_rank": 62,
+          "best_rank": 64,
+          "first_rank": 64,
           "appearances": 1
         }
       }
@@ -76632,25 +76651,6 @@
       ],
       "publishers": [
         "Hyper Surfer Games"
-      ],
-      "board_history": {
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 65,
-          "first_rank": 65,
-          "appearances": 1
-        }
-      }
-    },
-    "Bus Rush: パーキングゲーム": {
-      "name": "Bus Rush: パーキングゲーム",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "ゲーム"
-      ],
-      "publishers": [
-        "Longwind Studio"
       ],
       "board_history": {
         "ios/日区免费榜": {
@@ -76681,59 +76681,21 @@
         }
       }
     },
-    "ReLevel": {
-      "name": "ReLevel",
+    "トゥーンブラスト": {
+      "name": "トゥーンブラスト",
       "first_seen_anywhere": "2026-11-17",
       "categories": [
         "ゲーム"
       ],
       "publishers": [
-        "PONIX LLC"
+        "Peak Games"
       ],
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 71,
-          "first_rank": 71,
-          "appearances": 1
-        }
-      }
-    },
-    "Top Force: 最強指揮官": {
-      "name": "Top Force: 最強指揮官",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "ゲーム"
-      ],
-      "publishers": [
-        "Century Games Innovation Pte. Ltd."
-      ],
-      "board_history": {
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 72,
-          "first_rank": 72,
-          "appearances": 1
-        }
-      }
-    },
-    "VS BOAT－3D競艇オンライン対戦ゲーム": {
-      "name": "VS BOAT－3D競艇オンライン対戦ゲーム",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "ゲーム"
-      ],
-      "publishers": [
-        "soma anraku"
-      ],
-      "board_history": {
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 73,
-          "first_rank": 73,
+          "best_rank": 74,
+          "first_rank": 74,
           "appearances": 1
         }
       }
@@ -76751,20 +76713,39 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 74,
-          "first_rank": 74,
+          "best_rank": 76,
+          "first_rank": 76,
           "appearances": 1
         }
       }
     },
-    "ナンバーマッチ - 数字パズル": {
-      "name": "ナンバーマッチ - 数字パズル",
+    "トラベルソート：カラー＆マッチ (Travel Sort)": {
+      "name": "トラベルソート：カラー＆マッチ (Travel Sort)",
       "first_seen_anywhere": "2026-11-17",
       "categories": [
         "ゲーム"
       ],
       "publishers": [
-        "Easybrain Ltd"
+        "Happy Hour Games"
+      ],
+      "board_history": {
+        "ios/日区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 77,
+          "first_rank": 77,
+          "appearances": 1
+        }
+      }
+    },
+    "Top Force: 最強指揮官": {
+      "name": "Top Force: 最強指揮官",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "ゲーム"
+      ],
+      "publishers": [
+        "Century Games Innovation Pte. Ltd."
       ],
       "board_history": {
         "ios/日区免费榜": {
@@ -76776,78 +76757,21 @@
         }
       }
     },
-    "トゥーンブラスト": {
-      "name": "トゥーンブラスト",
+    "VS BOAT－3D競艇オンライン対戦ゲーム": {
+      "name": "VS BOAT－3D競艇オンライン対戦ゲーム",
       "first_seen_anywhere": "2026-11-17",
       "categories": [
         "ゲーム"
       ],
       "publishers": [
-        "Peak Games"
+        "soma anraku"
       ],
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 88,
-          "first_rank": 88,
-          "appearances": 1
-        }
-      }
-    },
-    "[スロスピ]パチスロ鉄拳2nd": {
-      "name": "[スロスピ]パチスロ鉄拳2nd",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "ゲーム"
-      ],
-      "publishers": [
-        "SPIRIDGE INC."
-      ],
-      "board_history": {
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 92,
-          "first_rank": 92,
-          "appearances": 1
-        }
-      }
-    },
-    "Jewel Color Sort: ピクセルアートパズル": {
-      "name": "Jewel Color Sort: ピクセルアートパズル",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "ゲーム"
-      ],
-      "publishers": [
-        "HappyTapLand Technology Co., Ltd."
-      ],
-      "board_history": {
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 93,
-          "first_rank": 93,
-          "appearances": 1
-        }
-      }
-    },
-    "Color Puzzle Jam - バスゲーム 車のジャム": {
-      "name": "Color Puzzle Jam - バスゲーム 車のジャム",
-      "first_seen_anywhere": "2026-11-17",
-      "categories": [
-        "ゲーム"
-      ],
-      "publishers": [
-        "Gloryway Puzzle"
-      ],
-      "board_history": {
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "best_rank": 94,
-          "first_rank": 94,
+          "best_rank": 85,
+          "first_rank": 85,
           "appearances": 1
         }
       }
@@ -76865,12 +76789,69 @@
         "ios/日区免费榜": {
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
-          "best_rank": 97,
-          "first_rank": 97,
+          "best_rank": 86,
+          "first_rank": 86,
+          "appearances": 1
+        }
+      }
+    },
+    "ReLevel": {
+      "name": "ReLevel",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "ゲーム"
+      ],
+      "publishers": [
+        "PONIX LLC"
+      ],
+      "board_history": {
+        "ios/日区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 87,
+          "first_rank": 87,
+          "appearances": 1
+        }
+      }
+    },
+    "Color Puzzle Jam - バスゲーム 車のジャム": {
+      "name": "Color Puzzle Jam - バスゲーム 車のジャム",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "ゲーム"
+      ],
+      "publishers": [
+        "Gloryway Puzzle"
+      ],
+      "board_history": {
+        "ios/日区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 89,
+          "first_rank": 89,
+          "appearances": 1
+        }
+      }
+    },
+    "学園アイドルマスター": {
+      "name": "学園アイドルマスター",
+      "first_seen_anywhere": "2026-11-17",
+      "categories": [
+        "ゲーム"
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment Inc."
+      ],
+      "board_history": {
+        "ios/日区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "best_rank": 96,
+          "first_rank": 96,
           "appearances": 1
         }
       }
     }
   },
-  "updated_at": "2026-11-17T09:28:09Z"
+  "updated_at": "2026-11-17T14:17:40Z"
 }
