@@ -58,6 +58,7 @@
       const r = await fetch(`${url("/" + table)}?${params}`, {
         headers: headers({ Range: `${from}-${to}`, "Range-Unit": "items" }),
         cache: "no-cache",
+        signal: opts.signal,
       });
       if (!r.ok) {
         const detail = await r.text().catch(() => "");

@@ -4,7 +4,7 @@
  * 由 scripts/detail/ 下的构建脚本生成，前端只读。
  *
  * 对外接口：
- *   GameDetail.render(name, box)   把详情渲染进 box；无档案时自动隐藏 box
+ *   GameDetail.render(name, box)   把详情或对应的读取状态渲染进 box
  *   GameDetail.get(name)           取单款详情对象（带缓存）
  *   GameDetail.shots(name)         取该款的截图数组，供别处复用
  *   GameDetail.badge(name)         取索引里的徽章字段（成本档/复刻结论）
@@ -19,7 +19,8 @@
 
   let indexPromise = null;
   let index = null;
-  const recCache = {};
+  const recCache = new Map();
+  const activeRender = new WeakMap();
 
   const COST_DIMS = [
     ["engine", "引擎与框架"],
@@ -109,13 +110,18 @@
     return { primary: fams.length ? fams.slice(0, 2).join(" / ") : s.slice(0, 24), inferred, raw };
   }
 
+  async function fetchDetail(path) {
+    const response = await fetch(assetUrl(path), { cache: "no-cache" });
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    return response.json();
+  }
+
   function loadIndex(force) {
     if (index && !force) return Promise.resolve(index);
     if (indexPromise && !force) return indexPromise;
-    indexPromise = fetch(assetUrl(INDEX_URL), { cache: "force-cache" })
-      .then((r) => (r.ok ? r.json() : null))
-      .then((d) => { index = d || { games: {} }; return index; })
-      .catch(() => { index = { games: {} }; return index; });
+    indexPromise = fetchDetail(INDEX_URL)
+      .then((d) => { index = d; return index; })
+      .finally(() => { indexPromise = null; });
     return indexPromise;
   }
 
@@ -124,13 +130,11 @@
   }
 
   function get(name) {
-    if (recCache[name]) return Promise.resolve(recCache[name]);
+    if (recCache.has(name)) return Promise.resolve(recCache.get(name));
     return entryFor(name).then((e) => {
       if (!e || !e.slug || !e.collected) return null;
-      return fetch(assetUrl(REC_DIR + e.slug + ".json"), { cache: "force-cache" })
-        .then((r) => (r.ok ? r.json() : null))
-        .then((rec) => { if (rec) recCache[name] = rec; return rec; })
-        .catch(() => null);
+      return fetchDetail(REC_DIR + encodeURIComponent(e.slug) + ".json")
+        .then((rec) => { recCache.set(name, rec); return rec; });
     });
   }
 
@@ -479,11 +483,15 @@
 
   function render(name, box) {
     if (!box) return Promise.resolve(false);
+    const request = get(name);
+    activeRender.set(box, request);
+    box.style.display = "";
+    box.removeAttribute("data-first-shot");
     box.innerHTML = '<div class="gd-loading">读取档案…</div>';
-    return get(name).then((rec) => {
+    return request.then((rec) => {
+      if (activeRender.get(box) !== request) return false;
       if (!rec) {
-        box.innerHTML = "";
-        box.style.display = "none";
+        box.innerHTML = '<div class="gd-loading">暂无公开调研档案</div>';
         return false;
       }
       box.style.display = "";
@@ -495,7 +503,9 @@
       if (firstShot) box.setAttribute("data-first-shot", firstShot.url);
       return true;
     }).catch(() => {
-      box.innerHTML = '<div class="gd-loading">档案读取失败</div>';
+      if (activeRender.get(box) === request) {
+        box.innerHTML = '<div class="gd-loading">公开档案读取失败，请刷新重试。</div>';
+      }
       return false;
     });
   }

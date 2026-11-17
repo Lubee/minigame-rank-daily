@@ -1,8 +1,8 @@
 """
 CI scrape entry: invoked by GitHub Actions.
 
-Reads the auth state from $GRAVITY_AUTH (JSON content of a Playwright
-storage_state file). If unset, runs anonymously (Top 20).
+Tries the Playwright storage state from $GRAVITY_AUTH first. For today's
+rankings, falls back to anonymous scraping (Top 20) if login fails.
 
 Writes:
   data/daily/<YYYY-MM-DD>.json   one snapshot per UTC date
@@ -60,6 +60,58 @@ def resolve_auth(log) -> Path | None:
     return None
 
 
+def scrape_gravity(auth, top_n, daily_dir, hist_date, log):
+    def scrape_browser(auth_file, limit):
+        data = core.do_scrape(
+            top_n=limit,
+            force_anon=auth_file is None,
+            out_dir=daily_dir,
+            auth_file=auth_file or core.DEFAULT_AUTH_FILE,
+            log=log,
+            historical_date=hist_date,
+        )
+        data["source_mode"] = "playwright"
+        return data
+
+    if auth:
+        log("[引力引擎] 优先使用登录态抓取")
+        try:
+            data = scrape_browser(auth, top_n)
+        except Exception as e:
+            log(f"[引力引擎] 登录抓取失败（{type(e).__name__}）")
+        else:
+            counts = {
+                (platform, board["label"]): len(board.get("rows", []))
+                for platform, result in data.get("platforms", {}).items()
+                for board in result.get("boards", [])
+            }
+            expected = [(platform, label) for platform, labels in core.BOARD_LABELS.items()
+                        for label in labels]
+            if data.get("auth_expired") or not data.get("logged_in"):
+                log("[引力引擎] 登录态不可用")
+            elif not all(counts.get(board, 0) for board in expected):
+                log("[引力引擎] 登录抓取未取得完整六榜")
+            elif not hist_date and top_n > 20 and max(counts[board] for board in expected) <= 20:
+                log("[引力引擎] 登录抓取未超过匿名条数上限")
+            else:
+                return data
+
+    if hist_date:
+        raise SystemExit("[引力引擎] 历史补抓需要有效登录态和完整榜单，保留原快照。")
+
+    anonymous_limit = min(top_n, 20)
+    try:
+        import scrape_gravity_http as ghttp
+        log("[引力引擎] 使用匿名 HTTP 接口")
+        data = ghttp.do_scrape(top_n=anonymous_limit, daily_dir=daily_dir, log=log)
+        data["source_mode"] = "gravity_http"
+        return data
+    except Exception as e:
+        log(f"[引力引擎] 匿名 HTTP 失败，回落匿名 Playwright（{type(e).__name__}）")
+
+    return scrape_browser(None, anonymous_limit)
+
+
 def main():
     log = print
     auth = resolve_auth(log)
@@ -102,49 +154,19 @@ def main():
     # with stdlib-only modules and may still succeed while gravity-engine
     # times out — e.g. a transient outage or a slow day). Degrade to a
     # partial snapshot so iOS/TapTap data still lands in the daily file.
-    # --- 引力引擎（微信 / 抖音小游戏）：优先纯 HTTP 公开接口 ---------------
-    # scrape_gravity_http 直接调用站点自身使用的公开接口，不启动浏览器、
-    # 不依赖登录态，匿名稳定拿每榜 TOP20。比 Playwright 渲染稳定得多：
-    # 后者依赖 SPA 加载与 DOM 结构，实测会出现
-    # `Page.goto: net::ERR_CONNECTION_CLOSED`，一次失败全天数据就整块缺失。
-    #
-    # 回落顺序：HTTP → Playwright（接口签名若变更，浏览器路径可能仍可用）
-    #          → 仅独立源快照（taptap/ios），保证当天数据总能落地。
-    #
-    # 历史重拉（GRAVITY_DATE）走不了 HTTP：匿名接口只暴露"今天"，因此该
-    # 场景仍交给 Playwright + 站点日期选择器。
-    data = None
-    if not hist_date:
-        try:
-            import scrape_gravity_http as ghttp
-            data = ghttp.do_scrape(top_n=top_n, log=log)
-            data["source_mode"] = "gravity_http"
-            log("[引力引擎] HTTP 接口抓取成功（匿名 TOP20）")
-        except Exception as e:
-            log(f"[引力引擎-HTTP] 失败，回落 Playwright: {e}")
-
-    if data is None:
-        try:
-            data = core.do_scrape(
-                top_n=top_n,
-                force_anon=auth is None,
-                out_dir=daily_dir,       # core writes its own xlsx/json there
-                auth_file=auth or core.DEFAULT_AUTH_FILE,
-                log=log,
-                historical_date=hist_date,
-            )
-            data["source_mode"] = "playwright"
-        except Exception as e:
-            log(f"[引力引擎] 两条路径均失败，降级为仅独立源快照（taptap/ios）: {e}")
-            data = {
-                "scraped_at": datetime.now().isoformat(timespec="seconds"),
-                "period": "日榜",
-                "logged_in": auth is not None,
-                "top_n_target": top_n,
-                "source": core.URL,
-                "platforms": {},
-                "gravity_error": str(e),
-            }
+    try:
+        data = scrape_gravity(auth, top_n, daily_dir, hist_date, log)
+    except Exception as e:
+        log(f"[引力引擎] 抓取失败，继续采集独立数据源（{type(e).__name__}）")
+        data = {
+            "scraped_at": datetime.now().isoformat(timespec="seconds"),
+            "period": "日榜",
+            "logged_in": False,
+            "top_n_target": top_n,
+            "source": core.URL,
+            "platforms": {},
+            "gravity_error": str(e),
+        }
 
     # Tag with absolute and Beijing timestamps for the UI.
     data["scraped_at_utc"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -228,6 +250,12 @@ def main():
         with histfile.open("a", encoding="utf-8") as f:
             f.write(json.dumps(summary, ensure_ascii=False) + "\n")
         log(f"追加 {histfile}")
+
+        try:
+            from store_apps import update_store_apps
+            update_store_apps(data, ROOT / "data", day_label, log)
+        except Exception as e:
+            log(f"[商店资料] 更新失败，保留已有资料与当天榜单：{e}")
 
     # Don't keep the per-snapshot xlsx that core wrote alongside;
     # the web UI reads JSON, and xlsx files would bloat the repo fast.

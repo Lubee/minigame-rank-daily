@@ -61,6 +61,22 @@ _NAME_RE = re.compile(r'<a[^>]*>([^<]+)</a>')
 _DEV_RE = re.compile(r'/dev/[^"]+"[^>]*>([^<]+)</a>')
 _PKG_RE = re.compile(r"/app/[^/]+/([A-Za-z0-9_.]+)")
 _CAT_RE = re.compile(r'class="ranking-category-cell"[^>]*>\s*<a[^>]*>([^<]+)</a>', re.S)
+_PLAY_ICON_RE = re.compile(r'<meta property="og:image" content="([^"]+)"')
+_PLAY_SCREENSHOT_RE = re.compile(r'<img\s+src="([^"]+)"[^>]*\bdata-screenshot-index="\d+"')
+
+
+def fetch_media(store_url: str) -> dict:
+    """Extract original Google Play image URLs from the public listing."""
+    html = _fetch(store_url + "&hl=en", timeout=6, retries=0)
+    media = {}
+    icon = _PLAY_ICON_RE.search(html)
+    if icon and icon[1].startswith("https://play-lh.googleusercontent.com/"):
+        media["icon"] = html_mod.unescape(icon[1])
+    media["screenshots"] = list(dict.fromkeys(
+        html_mod.unescape(url) for url in _PLAY_SCREENSHOT_RE.findall(html)
+        if url.startswith("https://play-lh.googleusercontent.com/")
+    ))
+    return media
 
 
 def _fetch(url: str, timeout: float = 25, retries: int = 3) -> str:

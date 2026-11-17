@@ -228,6 +228,10 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
         else:
             loaded = bh.locator(".rank-child-item").count()
         rows_text = bh.locator(".rank-child-item").all_inner_texts()
+        icons = bh.locator(".rank-child-item").evaluate_all("""items => items.map(item => {
+          const image = item.querySelector(".rank-center-item img");
+          return image ? image.currentSrc || image.src : "";
+        })""")
         # The arrow (up/down/flat) is a SVG inside `.rank-right-item`,
         # so it's invisible to innerText. Read it separately and zip
         # the result back onto each row.
@@ -277,6 +281,8 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
         rows = []
         for j, t in enumerate(rows_text):
             r = parse_row(t, j)
+            if j < len(icons) and icons[j].startswith("https://"):
+                r["icon"] = icons[j]
             r["change_direction"] = (
                 directions[j] if j < len(directions) else "unknown"
             )
@@ -502,23 +508,22 @@ def do_scrape(top_n: int | None,
         # fires an XHR per board and re-renders. If we read the DOM
         # before those XHRs return, we get yesterday's data.
         rank_xhr_count = {"n": 0}
-        # Capture the FIRST rank XHR's url + body so we can learn the
-        # pagination param + response shape. The site's scroll-based
-        # lazy-load stopped firing pages 2-5 (2026-07); the robust fix is
-        # to call this API directly for pages 2+, which needs these two.
-        rank_xhr_sample = {"url": None, "body": None}
+        auth_expired = False
 
         def _on_response(resp):
+            nonlocal auth_expired
             url = resp.url
             if ("rank/public_list" in url or "rank/list" in url) \
                     and resp.status == 200:
                 rank_xhr_count["n"] += 1
-                if rank_xhr_sample["url"] is None:
-                    rank_xhr_sample["url"] = url
+                if use_auth and not auth_expired:
                     try:
-                        rank_xhr_sample["body"] = resp.text()[:2000]
+                        body = resp.text()
                     except Exception:
-                        rank_xhr_sample["body"] = "<read failed>"
+                        return
+                    if "登录异常" in body or re.search(r'"code"\s*:\s*2001\b', body):
+                        auth_expired = True
+                        log("[auth] 登录态已过期（code 2001），请更新 GRAVITY_AUTH。")
 
         page.on("response", _on_response)
 
@@ -555,23 +560,6 @@ def do_scrape(top_n: int | None,
             page.wait_for_timeout(500)
             elapsed += 500
         log(f"[wx] rank XHRs observed before scrape: {rank_xhr_count['n']}")
-        if rank_xhr_sample["url"]:
-            log(f"[xhr-sample] url = {rank_xhr_sample['url']}")
-            log(f"[xhr-sample] body = {rank_xhr_sample['body']}")
-        # Detect expired login: the rank API returns code 2001 / "登录异常"
-        # when the GRAVITY_AUTH session has died. The site then falls back
-        # to the anonymous top-20 preview, which looks like "pagination
-        # broke" but is really just auth. Surface it loudly so the next
-        # expiry is self-diagnosing instead of a silent 20-row day.
-        auth_expired = False
-        _body = rank_xhr_sample.get("body") or ""
-        if ("登录异常" in _body or '"code": 2001' in _body
-                or '"code":2001' in _body):
-            auth_expired = True
-            log("[auth] 登录态已过期：rank API 返回「登录异常」(code 2001)。"
-                "本次回落匿名 Top 20。请重跑桌面版登录拿新的 rank_auth.json，"
-                "更新 GitHub Secret GRAVITY_AUTH 后 force 重跑。")
-        result["auth_expired"] = auth_expired
         # Extra settle time for the DOM to reflect the last XHR.
         page.wait_for_timeout(1500)
 
@@ -600,6 +588,9 @@ def do_scrape(top_n: int | None,
             }
 
         browser.close()
+        result["auth_expired"] = auth_expired
+        if auth_expired:
+            result["logged_in"] = False
     return result
 
 

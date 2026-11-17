@@ -7,10 +7,38 @@
   const SB_URL = (window.APP_CONFIG && window.APP_CONFIG.SUPABASE_URL) || "";
   const ASSET_VERSION = (window.APP_CONFIG && window.APP_CONFIG.ASSET_VERSION) || "1";
   const assetUrl = (path) => path + "?v=" + encodeURIComponent(ASSET_VERSION);
+  let baseGamesRequest;
+  let storeAppsRequest;
+
+  function loadBaseGames() {
+    return baseGamesRequest ||= fetch(assetUrl("data/base/games.json"), { cache: "no-cache" })
+      .then((r) => r.ok ? r.json() : null)
+      .then((base) => base?.games || {})
+      .catch(() => ({}));
+  }
+
+  function baseGame(name, entry) {
+    return {
+      name,
+      first_seen_at: entry?.first_seen_anywhere || "",
+      category: entry?.categories?.[0] || "",
+      publisher_name: entry?.publishers?.[0] || "",
+    };
+  }
+
+  async function readOptional(table, options) {
+    try {
+      return await window.sb.select(table, { ...options, signal: AbortSignal.timeout(8000) });
+    } catch (error) {
+      console.warn("档案补充数据加载失败", table, error.name);
+      return table === "game_profiles" ? null : [];
+    }
+  }
 
   const state = {
     games: [],        // [{name}]
     profiles: {},     // name -> profile row
+    profilesLoaded: false,
     shots: {},        // name -> [shot rows]
     list: [],         // computed merged list
     current: null,
@@ -72,7 +100,7 @@
   }
 
   async function loadScreenshots() {
-    const shots = await window.sb.select("game_screenshots", {
+    const shots = await readOptional("game_screenshots", {
       select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000,
     });
     state.shots = {};
@@ -83,9 +111,8 @@
   }
 
   async function loadDetailIndex() {
-    const detail = await fetch(assetUrl("data/detail/index.json"), { cache: "force-cache" })
-      .then((r) => r.ok ? r.json() : null).catch(() => null);
-    state.detailIndex = (detail && detail.games) || {};
+    const detail = await window.GameDetail.loadIndex();
+    state.detailIndex = detail.games || {};
   }
 
   async function loadAll() {
@@ -93,17 +120,22 @@
       // 排序键必须**唯一**：sb.select 用 Range 分页（每页 1000），而
       // first_seen_at 精确到日、大量记录同值，仅按它排会得到不确定的顺序，
       // 跨页可能重复返回同一行（列表里出现两条同名记录）。补 name 兜底成全序。
-      window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc,name.asc", limit: 5000 }),
-      window.sb.select("game_profiles", { limit: 5000 }),
-      fetch(assetUrl("data/base/games.json"), { cache: "force-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
-      fetch(assetUrl("data/latest.json"), { cache: "force-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+      readOptional("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc,name.asc", limit: 5000 }),
+      readOptional("game_profiles", { limit: 5000 }),
+      loadBaseGames(),
+      fetch(assetUrl("data/latest.json"), { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
     ]);
-    state.detailIndex = {};
-    if (base && base.games) {
-      for (const [name, entry] of Object.entries(base.games)) {
-        if (entry && entry.board_history) state.boardMap[name] = entry.board_history;
-      }
+    const byName = new Map(Object.entries(base).map(([name, entry]) => [name, baseGame(name, entry)]));
+    for (const game of games) {
+      const fallback = byName.get(game.name);
+      byName.set(game.name, {
+        ...game,
+        first_seen_at: game.first_seen_at || fallback?.first_seen_at,
+        publisher_name: game.publisher_name || fallback?.publisher_name,
+        category: game.category || fallback?.category,
+      });
     }
+    state.boardMap = Object.fromEntries(Object.entries(base).map(([name, entry]) => [name, entry.board_history || {}]));
     // 从最新榜单快照构建: 名称 -> {榜单key: 当前排名}
     if (latest && latest.platforms) {
       const rm = {};
@@ -121,60 +153,65 @@
       }
       state.latestRankMap = rm;
     }
-    state.games = games || [];
+    state.games = [...byName.values()];
     state.profiles = {};
+    state.profilesLoaded = profiles !== null;
     for (const p of profiles || []) state.profiles[p.game_name] = p;
     state.shots = {};
     buildList();
     state.fullListLoaded = true;
     // Thumbnails and detail badges are enhancements; don't hold first paint
     // on either of these secondary requests.
-    Promise.allSettled([loadScreenshots(), loadDetailIndex()]).then(() => buildList());
+    loadScreenshots().then(buildList);
+    loadDetailIndex().then(buildList).catch(() => {});
   }
 
-  async function loadFastGame(name) {
-    // Start the detail request immediately; it is independent of the profile
-    // queries below and will usually be cached on repeat visits.
-    const detailPromise = window.GameDetail ? window.GameDetail.get(name) : Promise.resolve(null);
-    // Screenshots are enhancement content. Fetch them in parallel, but don't
-    // make the profile shell wait for a potentially slow storage query.
-    const shotsPromise = window.sb.select("game_screenshots", {
+  async function loadFastGame(name, storeContext) {
+    showView(name, storeContext);
+    $("gp-edit-btn").disabled = true;
+    const shotsPromise = readOptional("game_screenshots", {
       raw: { game_name: `eq.${name}` },
       select: "id,game_name,url,sort_order",
       order: "sort_order.asc,id.asc",
       limit: 200,
-    }).catch(() => []);
-    const gamePromise = window.sb.select("games", {
+    });
+    const gamePromise = readOptional("games", {
       raw: { name: `eq.${name}` },
       select: "name,first_seen_at,category,publisher_name",
       limit: 1,
-    }).catch(() => []);
-    const profiles = await window.sb.select("game_profiles", {
+    });
+    const profilesPromise = readOptional("game_profiles", {
       raw: { game_name: `eq.${name}` },
       select: "game_name,developer,gameplay_desc,tags,notes,value,favorite,abandon_reason,updated_at",
       limit: 1,
     });
-    // A profile can render without waiting for its optional game metadata.
-    state.games = [{ name }];
-    state.profiles = {};
-    for (const p of profiles || []) state.profiles[p.game_name] = p;
-    state.shots = { [name]: [] };
-    state.detailIndex = {};
-    state.fullListLoaded = false;
-    buildList();
-    // Fetch the selected detail record only; the complete index can wait until
-    // the user returns to the list.
-    detailPromise.then(() => renderDetail(name));
+    const basePromise = loadBaseGames().then((base) => {
+      const entry = base[name];
+      if (state.current !== name || state.fullListLoaded || !entry) return;
+      state.games = [baseGame(name, entry)];
+      state.boardMap[name] = entry.board_history || {};
+      renderView(state.profiles[name] || { game_name: name }, false);
+    });
     shotsPromise.then((shots) => {
-      state.shots[name] = shots || [];
-      if (state.current === name) renderViewShots(name);
+      if (state.current !== name || state.fullListLoaded) return;
+      state.shots[name] = shots;
+      renderViewShots(name);
     });
-    gamePromise.then((games) => {
-      if (games && games.length) {
-        state.games = games;
-        buildList();
-      }
-    });
+    const [[game], profiles] = await Promise.all([gamePromise, profilesPromise, basePromise]);
+    if (state.current !== name || state.fullListLoaded) return;
+    if (game) {
+      state.games = [{
+        ...game,
+        first_seen_at: game.first_seen_at || state.games[0]?.first_seen_at,
+        publisher_name: game.publisher_name || state.games[0]?.publisher_name,
+        category: game.category || state.games[0]?.category,
+      }];
+    }
+    const profile = profiles?.[0];
+    state.profilesLoaded = profiles !== null;
+    if (profile) state.profiles[name] = profile;
+    renderView(profile || { game_name: name }, false);
+    $("gp-edit-btn").disabled = false;
   }
 
   function buildList() {
@@ -333,7 +370,7 @@
     });
     const tbody = document.querySelector("#tbl-game tbody");
     tbody.innerHTML = "";
-    $("gp-count").textContent = `共 ${filtered.length} 款（已建档 ${filtered.filter((r) => r.has).length}）`;
+    $("gp-count").textContent = `共 ${filtered.length} 份档案`;
     if (!filtered.length) {
       tbody.innerHTML = '<tr><td colspan="5" class="muted" style="text-align:center;padding:24px">没有匹配的产品。</td></tr>';
       renderMore(0);
@@ -380,7 +417,7 @@
         ? `<span class="badge-detail" title="已有详情页">详情${r.detailCost ? "·成本" + esc(r.detailCost) : ""}${r.detailVerdict ? "·" + esc(r.detailVerdict) : ""}</span>`
         : "";
       tr.innerHTML = `
-        <td class="gp-td-name">${thumb}<span class="gp-name">${esc(r.name)}</span>${r.has ? '<span class="badge-has">已建档</span>' : '<span class="badge-no">未建档</span>'}${detailBadge}
+        <td class="gp-td-name">${thumb}<span class="gp-name">${esc(r.name)}</span>${r.has || r.hasDetail ? "" : '<span class="badge-has">基础档案</span>'}${detailBadge}
           ${r.abandonReason ? `<div class="gp-card-abandon-reason">放弃理由：${esc(r.abandonReason)}</div>` : ""}</td>
         <td class="gp-td-dev">${esc(r.developer)}</td>
         <td class="gp-td-src">${srcBoards}</td>
@@ -388,12 +425,12 @@
         <td class="gp-td-view"><button type="button" class="gp-view-btn" data-name="${esc(r.name)}" title="查看/编辑档案">档案</button></td>`;
       tr.addEventListener("click", (e) => {
         if (e.target.closest(".gp-card-fav") || e.target.closest(".gp-card-val")) return;
-        if (isEditor()) showEdit(r.name); else showView(r.name);
+        showView(r.name, { platform: state.platformFilter, board: state.boardFilter });
       });
       const viewBtn = tr.querySelector(".gp-view-btn");
       if (viewBtn) viewBtn.addEventListener("click", (e) => {
         e.stopPropagation();
-        if (isEditor()) showEdit(r.name); else showView(r.name);
+        showView(r.name, { platform: state.platformFilter, board: state.boardFilter });
       });
       tbody.appendChild(tr);
     }
@@ -402,7 +439,7 @@
     tbody.querySelectorAll(".gp-card-fav").forEach((btn) => {
       btn.addEventListener("click", async (e) => {
         e.stopPropagation();
-        if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
+        if (!canEditProfile()) return;
         const name = btn.dataset.name;
         const cur = state.profiles[name] || { game_name: name, developer: "", gameplay_desc: "", tags: [], notes: "", value: "", favorite: false };
         const next = !cur.favorite;
@@ -436,7 +473,7 @@
     tbody.querySelectorAll(".gp-card-val").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
-        if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
+        if (!canEditProfile()) return;
         openValueMenu(btn);
       });
     });
@@ -571,58 +608,20 @@
     if (e.key === "Enter") jumpToPage();
   });
 
-  function showEdit(name) {
-    if (!isEditor()) { showView(name); return; }
+  function showView(name, storeContext) {
     state.current = name;
     state.isNew = false;
     $("gp-toolbar").style.display = "none";
     $("gp-table-wrap").style.display = "none";
     $("gp-form").style.display = "block";
-
-    // 进入前先隐藏两个子视图,避免状态残留
-    document.getElementById("gp-view").style.display = "none";
-    document.getElementById("gp-edit-mode").style.display = "none";
-
-    const p = state.profiles[name] || null;
-    if (p) {
-      renderView(p);          // 已建档 -> 只读展示 + 编辑按钮
-    } else {
-      enterEditMode();        // 未建档 -> 直接编辑表单
-    }
-    $("gp-status").textContent = "";
-  }
-
-
-  function showView(name) {
-    state.current = name;
-    state.isNew = false;
-    $("gp-toolbar").style.display = "none";
-    $("gp-table-wrap").style.display = "none";
-    $("gp-form").style.display = "block";
-    document.getElementById("gp-view").style.display = "none";
-    document.getElementById("gp-edit-mode").style.display = "none";
-    const p = state.profiles[name] || null;
-    if (p) {
-      renderView(p);
-    } else {
-      const view = document.getElementById("gp-view");
-      view.style.display = "block";
-      view.querySelector(".gp-view-name").textContent = name;
-      setBoardTag("gp-view-board", name);
-      const dl = view.querySelector(".gp-view-fields");
-      dl.innerHTML = "";
-      const dt = document.createElement("dt"); dt.textContent = "状态";
-      const dd = document.createElement("dd"); dd.textContent = "未建档 · 需要编辑者账号登录后才能编辑";
-      dl.appendChild(dt); dl.appendChild(dd);
-      renderViewShots(name);
-      renderDetail(name);
-      document.getElementById("gp-edit-mode").style.display = "none";
-    }
+    $("gp-edit-btn").disabled = false;
+    renderView(state.profiles[name] || { game_name: name });
+    renderStoreApps(name, storeContext);
     $("gp-status").textContent = "";
   }
 
   function startNewGame() {
-    if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; }
+    if (!canEditProfile()) return;
     const name = prompt("输入新游戏名称:");
     if (!name || !name.trim()) return;
     state.current = name.trim();
@@ -639,14 +638,30 @@
     $("gp-status").textContent = "新建游戏，填写完成后保存，上榜日期为今天。";
   }
 
-  function renderView(p) {
+  function renderView(p, loadDetail = true) {
+    const game = state.games.find((row) => row.name === p.game_name);
+    const history = state.boardMap[p.game_name] || {};
+    const lastSeen = Object.values(history).map((entry) => entry.last_seen).filter(Boolean).sort().pop();
+    const boardHistory = sortBoardKeys(Object.keys(history)).map((key) => {
+      const entry = history[key];
+      return [
+        fmtBoard(key),
+        entry.best_rank == null ? "" : `最高第 ${entry.best_rank} 名`,
+        entry.appearances ? `上榜 ${entry.appearances} 天` : "",
+      ].filter(Boolean).join(" · ");
+    }).join("\n");
     const fields = [
-      ["开发商", p.developer || "—", false],
-      ["玩法", p.gameplay_desc || "—", true],
-      ["标签", (p.tags || []).join(", ") || "—", false],
-      ["备注", p.notes || "—", false],
-      ...(p.abandon_reason ? [["放弃理由", p.abandon_reason, false]] : []),
-      ["更新时间", (p.updated_at || "").slice(0, 16).replace("T", " "), false],
+      ["开发商", p.developer],
+      ["发行商", game?.publisher_name],
+      ["分类", game?.category],
+      ["首次上榜", game?.first_seen_at?.slice(0, 10)],
+      ["最近上榜", lastSeen],
+      ["上榜记录", boardHistory],
+      ["玩法", p.gameplay_desc, true],
+      ["标签", (p.tags || []).join(", ")],
+      ["备注", p.notes],
+      ["放弃理由", p.abandon_reason],
+      ["更新时间", (p.updated_at || "").slice(0, 16).replace("T", " ")],
     ];
     const view = document.getElementById("gp-view");
     view.style.display = "block";
@@ -655,18 +670,124 @@
     const dl = view.querySelector(".gp-view-fields");
     dl.innerHTML = "";
     for (const [k, v, isMd] of fields) {
+      if (!v) continue;
       const dt = document.createElement("dt");
       dt.textContent = k;
       const dd = document.createElement("dd");
-      if (isMd) dd.innerHTML = renderMarkdown(v); else dd.textContent = v;
+      if (isMd) dd.innerHTML = renderMarkdown(v);
+      else {
+        dd.textContent = v;
+        dd.style.whiteSpace = "pre-wrap";
+      }
       dl.appendChild(dt);
       dl.appendChild(dd);
     }
     renderViewShots(p.game_name);
-    renderDetail(p.game_name);
+    if (loadDetail) renderDetail(p.game_name);
     document.getElementById("gp-edit-mode").style.display = "none";
     const editBtn = document.getElementById("gp-edit-btn");
     if (editBtn) editBtn.style.display = "";
+  }
+
+  async function renderStoreApps(name, { platform, board, storeKey } = {}) {
+    const detail = $("gp-detail");
+    $("gp-store-apps")?.remove();
+    if (platform && !["ios", "android", "taptap"].includes(platform)) return;
+
+    const section = document.createElement("section");
+    section.id = "gp-store-apps";
+    section.hidden = true;
+    detail.before(section);
+    storeAppsRequest ||= fetch(assetUrl("data/base/store-apps.json"), { cache: "no-cache" })
+      .then((response) => response.ok ? response.json() : {})
+      .catch(() => ({}));
+    const [records, base] = await Promise.all([storeAppsRequest, platform ? null : loadBaseGames()]);
+    if (!section.isConnected) return;
+    const regions = { "美区免费榜": "us", "国区免费榜": "cn", "日区免费榜": "jp" };
+    const country = regions[board];
+    const history = base?.[name]?.board_history || {};
+    const apps = storeKey
+      ? [Object.hasOwn(records, storeKey) ? records[storeKey] : null].filter(Boolean)
+      : Object.values(records).filter((app) => {
+        if (app.name !== name && !app.names?.includes(name)) return false;
+        if (platform) return app.platform === platform && (platform !== "ios" || app.country === country);
+        return Object.keys(history).some((key) => {
+          const [source, label] = key.split("/");
+          return source === app.platform && (source !== "ios" || regions[label] === app.country);
+        });
+      });
+    for (const app of apps) {
+      if (platform && app.platform !== platform) continue;
+      const ios = app.platform === "ios";
+      const tap = app.platform === "taptap";
+      const storeName = ios ? "App Store" : tap ? "TapTap" : "Google Play";
+      const heading = document.createElement("h3");
+      heading.textContent = ios ? `${storeName} · ${app.country.toUpperCase()}` : storeName;
+      const fields = [
+        ["应用名称", app.name],
+        ["开发者", app.developer || app.publisher],
+        ["商店分类", app.category],
+        [ios || tap ? "App ID" : "包名", app.id],
+        ["版本", app.version],
+        ["应用简介", app.description],
+      ];
+      const list = document.createElement("dl");
+      list.className = "gp-view-fields";
+      for (const [label, value] of fields) {
+        if (!value) continue;
+        const term = document.createElement("dt");
+        term.textContent = label;
+        const definition = document.createElement("dd");
+        definition.textContent = value;
+        definition.style.whiteSpace = "pre-wrap";
+        list.append(term, definition);
+      }
+      section.append(heading, list);
+      const storeOrigin = ios ? "https://apps.apple.com/" : tap ? "https://www.taptap.cn/" : "https://play.google.com/";
+      if (app.url?.startsWith(storeOrigin)) {
+        const link = document.createElement("a");
+        link.href = app.url;
+        link.textContent = "查看商店详情";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        section.append(link);
+      }
+      renderStoreScreenshots(section, app.screenshots || [], storeName);
+      section.hidden = false;
+    }
+  }
+
+  function renderStoreScreenshots(section, urls, storeName) {
+    const gallery = document.createElement("div");
+    gallery.className = "gp-store-shots";
+    const heading = document.createElement("h4");
+    heading.textContent = `${storeName} 官方截图`;
+    for (const url of urls) {
+      if (!/^https:\/\/(?:[\w.-]+\.(?:mzstatic\.com|tapimg\.com)|play-lh\.googleusercontent\.com)\//.test(url)) continue;
+      const link = document.createElement("a");
+      link.href = url;
+      const img = document.createElement("img");
+      img.alt = `${storeName} 截图 ${gallery.childElementCount + 1}`;
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.referrerPolicy = "no-referrer";
+      img.addEventListener("error", () => {
+        link.remove();
+        if (!gallery.childElementCount) {
+          gallery.remove();
+          heading.remove();
+        }
+      });
+      link.addEventListener("click", (event) => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        openLightbox(url);
+      });
+      img.src = url;
+      link.append(img);
+      gallery.append(link);
+    }
+    if (gallery.childElementCount) section.append(heading, gallery);
   }
 
   function renderMarkdown(src) {
@@ -999,13 +1120,28 @@
     if (state.fullListLoaded) buildList();
     else {
       $("gp-loading").style.display = "";
-      loadAll().finally(() => { $("gp-loading").style.display = "none"; });
+      loadAll().then(() => {
+        $("gp-loading").style.display = "none";
+      }).catch(() => {
+        $("gp-loading").textContent = "产品列表加载失败";
+      });
     }
   }
 
 
   // ---------- auth ??? (????? auth.js) ----------
   function isEditor() { return window.Auth ? window.Auth.isEditor() : false; }
+  function canEditProfile() {
+    if (!isEditor()) {
+      if (window.Auth) window.Auth.openModal();
+      return false;
+    }
+    if (!state.profilesLoaded) {
+      alert("手工档案尚未载入，请刷新后再编辑。");
+      return false;
+    }
+    return true;
+  }
   function authHeaders() {
     if (window.Auth) return window.Auth.authHeaders();
     return { "x-client-info": ADMIN_KEY };
@@ -1034,7 +1170,7 @@
     $("gp-save").addEventListener("click", save);
     $("gp-view-back").addEventListener("click", backToList);
     $("gp-back").addEventListener("click", backToList);
-    $("gp-edit-btn").addEventListener("click", () => { if (!isEditor()) { if (window.Auth) window.Auth.openModal(); return; } enterEditMode(); });
+    $("gp-edit-btn").addEventListener("click", () => { if (canEditProfile()) enterEditMode(); });
     document.querySelectorAll('input[name="gp-value"]').forEach((r) => {
       r.addEventListener("change", () => {
         const show = r.value === "abandoned" && r.checked;
@@ -1053,23 +1189,19 @@
   (async function () {
     init();
     try {
-      const queryName = new URLSearchParams(location.search).get("name");
-      // Direct links are common from the ranking table. Load just that record
-      // first so the profile becomes interactive without waiting for the
-      // complete archive payload.
-      const authPromise = restoreAuth();
+      const params = new URLSearchParams(location.search);
+      const queryName = params.get("name");
+      restoreAuth().catch(() => {});
       if (queryName) {
-        // Authentication is only needed for editing. Let a viewer see the
-        // requested profile as soon as its own record arrives; if a saved
-        // editor session is restored, switch to edit mode afterward.
-        await loadFastGame(queryName);
         $("gp-loading").style.display = "none";
         renderBoardFilter();
-        showEdit(queryName);
-        await authPromise;
-        if (isEditor()) showEdit(queryName);
+        await loadFastGame(queryName, {
+          platform: params.get("platform"),
+          board: params.get("board"),
+          storeKey: params.get("store"),
+        });
       } else {
-        await Promise.all([authPromise, loadAll()]);
+        await loadAll();
         $("gp-loading").style.display = "none";
         renderBoardFilter();  // initial board sub-filter for the default platform
       }

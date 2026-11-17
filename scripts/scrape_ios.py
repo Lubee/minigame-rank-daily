@@ -46,6 +46,7 @@ from __future__ import annotations
 
 import json
 import time
+import urllib.parse
 import urllib.request
 from typing import Callable
 
@@ -93,6 +94,17 @@ def _entry_artist(e: dict) -> str:
     if isinstance(artist, dict):
         return (artist.get("label") or "").strip()
     return ""
+
+
+def lookup_apps(country: str, app_ids: list[str]) -> list[dict]:
+    query = urllib.parse.urlencode({
+        "country": country,
+        "id": ",".join(app_ids),
+        "entity": "software",
+    })
+    return _fetch_json(
+        f"https://itunes.apple.com/lookup?{query}", timeout=8, retries=0,
+    ).get("results") or []
 
 
 def _entry_link(e: dict) -> str:

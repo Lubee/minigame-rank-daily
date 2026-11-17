@@ -117,10 +117,10 @@ def _app_id(url: str) -> str | None:
     return m.group(1) if m else None
 
 
-def _parse_app(html: str) -> tuple[str | None, list[str]]:
-    """From an /app/{id} page, return (publisher, tags). Best-effort:
-    missing fields return (None, [])."""
+def _parse_app(html: str) -> tuple[str | None, list[str], dict]:
+    """Read publisher, tags and public media URLs from the app page."""
     publisher = None
+    media = {}
 
     # publisher ← VideoGame JSON-LD author.name
     for block in _LDJSON_RE.findall(html):
@@ -135,6 +135,15 @@ def _parse_app(html: str) -> tuple[str | None, list[str]]:
             author = author[0] if author else {}
         if isinstance(author, dict):
             publisher = author.get("name") or publisher
+        icon = d.get("image")
+        if isinstance(icon, str) and icon.startswith("https://"):
+            media["icon"] = icon
+        screenshots = [
+            item["url"] for item in (d.get("screenshot") or [])
+            if isinstance(item, dict) and str(item.get("url", "")).startswith("https://")
+        ]
+        if screenshots:
+            media["screenshots"] = screenshots
         break  # only one VideoGame block per page
 
     # tags ← app-intro__tag-item chip texts (strip Vue comment markers)
@@ -145,18 +154,17 @@ def _parse_app(html: str) -> tuple[str | None, list[str]]:
         if text:
             tags.append(text)
 
-    return publisher, tags
+    return publisher, tags, media
 
 
-def _enrich_one(app_id: str | None) -> tuple[str | None, list[str]]:
-    """Fetch one app page and return (publisher, tags). On any failure,
-    returns (None, []) so the row still keeps rank + name."""
+def _enrich_one(app_id: str | None) -> tuple[str | None, list[str], dict]:
+    """Read optional app information without dropping the ranked row."""
     if not app_id:
-        return None, []
+        return None, [], {}
     try:
         html = _fetch(f"https://www.taptap.cn/app/{app_id}", timeout=15, retries=1)
     except Exception:
-        return None, []
+        return None, [], {}
     return _parse_app(html)
 
 
@@ -222,7 +230,7 @@ def scrape(top_n: int = 100, log=print, max_workers: int = 5) -> dict:
     # 2) Enrich each item with publisher + tags from its app page,
     #    concurrently with a small worker pool (gentle on TapTap).
     app_ids = [_app_id(it["url"]) for it in items]
-    enriched_results: list[tuple[str | None, list[str]]]
+    enriched_results: list[tuple[str | None, list[str], dict]]
     if items:
         with ThreadPoolExecutor(max_workers=max_workers) as pool:
             enriched_results = list(pool.map(_enrich_one, app_ids))
@@ -232,8 +240,11 @@ def scrape(top_n: int = 100, log=print, max_workers: int = 5) -> dict:
     # 3) Build rows.
     rows = []
     enriched_count = 0
-    for it, (pub, tags) in zip(items, enriched_results):
+    for it, app_id, (pub, tags, media) in zip(items, app_ids, enriched_results):
         row: dict = {"rank": it["position"], "name": it["name"]}
+        if app_id:
+            row.update(app_id=app_id, url=f"https://www.taptap.cn/app/{app_id}")
+        row.update(media)
         if pub:
             row["publisher"] = pub
         if tags:

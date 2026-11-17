@@ -39,6 +39,8 @@ const PLATFORM_ICON = {
 const PAGE_SIZE = 50;
 
 const state = {
+  gameIcons: {},
+  storeIcons: new Map(),
   currentDate: null,          // YYYY-MM-DD (Beijing)
   availableDates: [],         // sorted asc
   diffDates: new Set(),
@@ -168,6 +170,21 @@ function updateTabActive() {
   }
 }
 
+let storeIconsRequest;
+
+function loadStoreIcons(platform) {
+  if (platform !== "android" && platform !== "taptap") return;
+  return storeIconsRequest ||= fetchData("base/store-apps.json").then((apps) => {
+    for (const app of Object.values(apps)) {
+      if (!app.icon) continue;
+      state.storeIcons.set(`${app.platform}:${app.id}`, app.icon);
+      if (app.platform === "taptap") {
+        for (const name of app.names || [app.name]) state.storeIcons.set(`taptap-name:${name}`, app.icon);
+      }
+    }
+  }).catch(() => {});
+}
+
 async function setActiveBoard(plat, label) {
   const date = state.currentDate;
   state.activeBoard = { plat, label };
@@ -184,7 +201,7 @@ async function setActiveBoard(plat, label) {
 
   showBoardLoading();
   try {
-    const data = await loadBoardData(date, plat, label);
+    const [data] = await Promise.all([loadBoardData(date, plat, label), loadStoreIcons(plat)]);
     setCacheEntry(date, plat, label, data);
   } catch (e) {
     if (state.currentDate === date && state.activeBoard === selection) showBoardError(e);
@@ -305,7 +322,7 @@ function renderDiffTables() {
     tr.innerHTML = `
       <td><span class="badge ${r._cls}">${r._tag}</span></td>
       <td class="rank-num">${r.rank ?? ""}</td>
-      <td><strong>${escapeHTML(r.name || "")}</strong>${profileBtn(r.name || "")}</td>
+      <td>${gameCell(r.name, s, ab)}</td>
       <td>${escapeHTML(category)}</td>
       <td class="cell-truncate" title="${escapeHTML(subcategory || slogan)}">${escapeHTML(subcategory) || `<span class="slogan">${escapeHTML(slogan)}</span>`}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
@@ -314,10 +331,34 @@ function renderDiffTables() {
   }
 }
 
-function profileBtn(name) {
-  const url = "./game.html?name=" + encodeURIComponent(name);
+function profileBtn(name, row, board) {
+  const params = new URLSearchParams({ name, platform: board.plat, board: board.label });
+  const country = { "美区免费榜": "us", "国区免费榜": "cn", "日区免费榜": "jp" }[board.label];
+  if (board.plat === "ios" && country && row.app_id) {
+    params.set("store", `ios:${country}:${row.app_id}`);
+  } else if (board.plat === "android" && row.package) {
+    params.set("store", `android:${row.package}`);
+  } else if (board.plat === "taptap" && row.app_id) {
+    params.set("store", `taptap:${row.app_id}`);
+  }
+  const url = "./game.html?" + params;
   return ` <a href="${url}" class="profile-link" title="产品档案">档案</a>`;
 }
+
+function gameCell(name, row, board, slogan = "") {
+  const icon = row.icon || state.gameIcons[board.plat]?.[row.app_id]
+    || state.storeIcons.get(`${board.plat}:${row.package || row.app_id}`)
+    || (board.plat === "taptap" && !row.app_id && state.storeIcons.get(`taptap-name:${name}`));
+  const image = typeof icon === "string" && icon.startsWith("https://")
+    ? `<img src="${escapeHTML(icon)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
+    : "";
+  return `<div class="rank-game">
+    <span class="rank-game-icon" aria-hidden="true">${escapeHTML(Array.from(name || "—")[0])}${image}</span>
+    <div><strong>${escapeHTML(name || "")}</strong>${profileBtn(name || "", row, board)}
+      ${slogan ? `<div class="slogan" title="${escapeHTML(slogan)}">${escapeHTML(slogan)}</div>` : ""}</div>
+  </div>`;
+}
+
 function changeCell(r) {
   const dir = r.change_direction;
   const raw = (r.change || "").trim();
@@ -361,8 +402,7 @@ function renderFullBoard() {
     const isNew = newGameSet.has(r.name);
     tr.innerHTML = `
       <td class="rank-num">${r.rank ?? ""}</td>
-      <td><strong>${escapeHTML(r.name || "")}</strong>${profileBtn(r.name || "")}
-        ${r.slogan ? `<div class="slogan" title="${escapeHTML(r.slogan)}">${escapeHTML(r.slogan)}</div>` : ""}</td>
+      <td>${gameCell(r.name, r, ab, r.slogan)}</td>
       <td>${escapeHTML(r.category || "")}${r.category_rank ? ` <span class="muted">#${r.category_rank}</span>` : ""}</td>
       <td>${escapeHTML(r.subcategory || "")}</td>
       <td>${escapeHTML(r.publisher || "")}</td>
@@ -414,10 +454,16 @@ function renderBoardViews() {
 }
 
 async function init() {
+  document.addEventListener("error", ({ target }) => {
+    if (target.matches?.(".rank-game-icon img")) target.remove();
+  }, true);
   buildPlatformTabs();
+  const iconsRequest = fetchData("base/game-icons.json").then((icons) => {
+    state.gameIcons = icons;
+  }).catch(() => {});
 
   try {
-    const dates = await loadAvailableDates();
+    const [dates] = await Promise.all([loadAvailableDates(), iconsRequest]);
     if (!dates.length) throw new Error("no snapshots yet");
     state.currentDate = dates[dates.length - 1];
     renderDatePicker();

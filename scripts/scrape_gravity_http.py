@@ -258,6 +258,7 @@ def normalize_row(raw: dict, prev_ranks: dict, board_key: str) -> dict:
         "subcategory": info.get("game_type_sub_name") or "",
         "slogan": info.get("subtitle") or "",
         "publisher": info.get("publisher_name") or "",
+        "icon": info.get("icon_url") or "",
         "change": change_text,
         "change_direction": direction,
         # 以下两个是接口独有、原 Playwright 版拿不到的稳定标识，供分析层使用
