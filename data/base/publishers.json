@@ -18228,9 +18228,9 @@
         },
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-10-13",
-          "appearances": 49,
-          "_last_day_counted": "2026-10-13"
+          "last_seen": "2026-11-17",
+          "appearances": 50,
+          "_last_day_counted": "2026-11-17"
         }
       }
     },
@@ -18526,9 +18526,9 @@
         },
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-09-13",
-          "appearances": 24,
-          "_last_day_counted": "2026-09-13"
+          "last_seen": "2026-11-17",
+          "appearances": 25,
+          "_last_day_counted": "2026-11-17"
         },
         "android/美区免费榜": {
           "first_seen": "2026-08-21",
@@ -19316,20 +19316,13 @@
       "first_seen_anywhere": "2026-08-21",
       "games": [
         "Sudoku.com - Number Games",
-        "Number Match - Numbers Game",
-        "ナンバーマッチ - 数字パズル"
+        "Number Match - Numbers Game"
       ],
       "board_history": {
         "ios/美区免费榜": {
           "first_seen": "2026-08-21",
           "last_seen": "2026-11-17",
           "appearances": 25,
-          "_last_day_counted": "2026-11-17"
-        },
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "appearances": 1,
           "_last_day_counted": "2026-11-17"
         }
       }
@@ -21121,7 +21114,8 @@
         "ONE PIECE バウンティラッシュ - アクションゲーム",
         "デジモンUP",
         "BLEACH Mirrors High",
-        "BLEACH Mirrors High【ミラハイ】"
+        "BLEACH Mirrors High【ミラハイ】",
+        "学園アイドルマスター"
       ],
       "board_history": {
         "ios/日区免费榜": {
@@ -21295,9 +21289,9 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-11-17",
-          "appearances": 24,
-          "_last_day_counted": "2026-11-17"
+          "last_seen": "2026-09-13",
+          "appearances": 23,
+          "_last_day_counted": "2026-09-13"
         }
       }
     },
@@ -21355,9 +21349,9 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-09-13",
-          "appearances": 23,
-          "_last_day_counted": "2026-09-13"
+          "last_seen": "2026-11-17",
+          "appearances": 24,
+          "_last_day_counted": "2026-11-17"
         },
         "ios/美区免费榜": {
           "first_seen": "2026-08-23",
@@ -21393,9 +21387,9 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-08-21",
-          "last_seen": "2026-11-17",
-          "appearances": 13,
-          "_last_day_counted": "2026-11-17"
+          "last_seen": "2026-09-13",
+          "appearances": 12,
+          "_last_day_counted": "2026-09-13"
         },
         "ios/美区免费榜": {
           "first_seen": "2026-08-22",
@@ -23701,9 +23695,9 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-08-24",
-          "last_seen": "2026-09-13",
-          "appearances": 12,
-          "_last_day_counted": "2026-09-13"
+          "last_seen": "2026-11-17",
+          "appearances": 13,
+          "_last_day_counted": "2026-11-17"
         }
       }
     },
@@ -26333,8 +26327,7 @@
       "name": "HappyTapLand Technology Co., Ltd.",
       "first_seen_anywhere": "2026-09-05",
       "games": [
-        "Jewel Color Sort: Diamond Game",
-        "Jewel Color Sort: ピクセルアートパズル"
+        "Jewel Color Sort: Diamond Game"
       ],
       "board_history": {
         "ios/美区免费榜": {
@@ -26342,12 +26335,6 @@
           "last_seen": "2026-09-10",
           "appearances": 2,
           "_last_day_counted": "2026-09-10"
-        },
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "appearances": 1,
-          "_last_day_counted": "2026-11-17"
         }
       }
     },
@@ -26391,9 +26378,9 @@
       "board_history": {
         "ios/国区免费榜": {
           "first_seen": "2026-09-05",
-          "last_seen": "2026-11-17",
-          "appearances": 6,
-          "_last_day_counted": "2026-11-17"
+          "last_seen": "2026-09-09",
+          "appearances": 5,
+          "_last_day_counted": "2026-09-09"
         }
       }
     },
@@ -30151,9 +30138,9 @@
       "board_history": {
         "ios/日区免费榜": {
           "first_seen": "2026-11-08",
-          "last_seen": "2026-11-17",
-          "appearances": 5,
-          "_last_day_counted": "2026-11-17"
+          "last_seen": "2026-11-11",
+          "appearances": 4,
+          "_last_day_counted": "2026-11-11"
         }
       }
     },
@@ -30488,6 +30475,21 @@
         }
       }
     },
+    "Luma Field Inc": {
+      "name": "Luma Field Inc",
+      "first_seen_anywhere": "2026-11-17",
+      "games": [
+        "Victory Blast Casino"
+      ],
+      "board_history": {
+        "ios/美区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "appearances": 1,
+          "_last_day_counted": "2026-11-17"
+        }
+      }
+    },
     "FanDuel, Inc.": {
       "name": "FanDuel, Inc.",
       "first_seen_anywhere": "2026-11-17",
@@ -30518,41 +30520,11 @@
         }
       }
     },
-    "Luma Field Inc": {
-      "name": "Luma Field Inc",
-      "first_seen_anywhere": "2026-11-17",
-      "games": [
-        "Victory Blast Casino"
-      ],
-      "board_history": {
-        "ios/美区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "appearances": 1,
-          "_last_day_counted": "2026-11-17"
-        }
-      }
-    },
     "Fanatee": {
       "name": "Fanatee",
       "first_seen_anywhere": "2026-11-17",
       "games": [
         "Everyday Puzzles: Mini Games"
-      ],
-      "board_history": {
-        "ios/美区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "appearances": 1,
-          "_last_day_counted": "2026-11-17"
-        }
-      }
-    },
-    "Delta Two Inc": {
-      "name": "Delta Two Inc",
-      "first_seen_anywhere": "2026-11-17",
-      "games": [
-        "Pullz"
       ],
       "board_history": {
         "ios/美区免费榜": {
@@ -30638,11 +30610,11 @@
         }
       }
     },
-    "MOBIBRAIN TECHNOLOGY PTE. LTD.": {
-      "name": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
+    "TV TOKYO Communications Corporation": {
+      "name": "TV TOKYO Communications Corporation",
       "first_seen_anywhere": "2026-11-17",
       "games": [
-        "武器の王者：鍛造放置RPG"
+        "スヌーピー ゲームズ ～サクッと脳トレパズル"
       ],
       "board_history": {
         "ios/日区免费榜": {
@@ -30653,11 +30625,11 @@
         }
       }
     },
-    "Ko Keruma": {
-      "name": "Ko Keruma",
+    "MOBIBRAIN TECHNOLOGY PTE. LTD.": {
+      "name": "MOBIBRAIN TECHNOLOGY PTE. LTD.",
       "first_seen_anywhere": "2026-11-17",
       "games": [
-        "SOFT TENNIS SPARK"
+        "武器の王者：鍛造放置RPG"
       ],
       "board_history": {
         "ios/日区免费榜": {
@@ -30683,6 +30655,21 @@
         }
       }
     },
+    "Ko Keruma": {
+      "name": "Ko Keruma",
+      "first_seen_anywhere": "2026-11-17",
+      "games": [
+        "SOFT TENNIS SPARK"
+      ],
+      "board_history": {
+        "ios/日区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "appearances": 1,
+          "_last_day_counted": "2026-11-17"
+        }
+      }
+    },
     "Chengmai Jiutai Technology Co.. Ltd.": {
       "name": "Chengmai Jiutai Technology Co.. Ltd.",
       "first_seen_anywhere": "2026-11-17",
@@ -30698,11 +30685,11 @@
         }
       }
     },
-    "PONIX LLC": {
-      "name": "PONIX LLC",
+    "Happy Hour Games": {
+      "name": "Happy Hour Games",
       "first_seen_anywhere": "2026-11-17",
       "games": [
-        "ReLevel"
+        "トラベルソート：カラー＆マッチ (Travel Sort)"
       ],
       "board_history": {
         "ios/日区免费榜": {
@@ -30728,21 +30715,6 @@
         }
       }
     },
-    "SPIRIDGE INC.": {
-      "name": "SPIRIDGE INC.",
-      "first_seen_anywhere": "2026-11-17",
-      "games": [
-        "[スロスピ]パチスロ鉄拳2nd"
-      ],
-      "board_history": {
-        "ios/日区免费榜": {
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-17",
-          "appearances": 1,
-          "_last_day_counted": "2026-11-17"
-        }
-      }
-    },
     "MULTICAST GAMES LIMITED": {
       "name": "MULTICAST GAMES LIMITED",
       "first_seen_anywhere": "2026-11-17",
@@ -30757,7 +30729,22 @@
           "_last_day_counted": "2026-11-17"
         }
       }
+    },
+    "PONIX LLC": {
+      "name": "PONIX LLC",
+      "first_seen_anywhere": "2026-11-17",
+      "games": [
+        "ReLevel"
+      ],
+      "board_history": {
+        "ios/日区免费榜": {
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "appearances": 1,
+          "_last_day_counted": "2026-11-17"
+        }
+      }
     }
   },
-  "updated_at": "2026-11-17T09:28:09Z"
+  "updated_at": "2026-11-17T14:17:40Z"
 }
