@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>新游监控系统</title>
+  <link rel="stylesheet" href="style.css?v=109" />
+</head>
+<body>
+  <header>
+    <h1>新游监控系统</h1>
+    <div class="meta">
+      <span id="meta-date">—</span>
+      <span class="sep">·</span>
+      <span>已追踪 <strong id="meta-days">—</strong> 天</span>
+      <span class="sep">·</span>
+      <span id="meta-source">数据来源：rank.gravity-engine.com</span>
+    </div>
+  </header>
+
+  <div class="tabs-row">
+    <div class="tabs-left">
+      <nav class="platform-tabs" id="platform-tabs"></nav>
+      <nav class="board-tabs" id="board-tabs"></nav>
+    </div>
+    <div class="tabs-right">
+      <a href="./publishers.html" class="board-tab tab-cta">新厂商冒泡</a>
+      <a href="./game.html" class="board-tab tab-cta">产品档案</a>
+      <div class="date-picker-inline">
+        <span class="dp-label">历史日期</span>
+        <select id="date-picker"></select>
+        <button id="date-load">载入</button>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="panel" id="panel-new">
+      <h2><span id="panel-new-title">新进产品</span> <span class="muted"><span id="panel-new-board"></span><span id="panel-new-count"></span></span></h2>
+      <div class="next-update" id="panel-new-hint"></div>
+      <div class="sub">
+        <span id="panel-new-baseline" class="baseline">基于此榜历史。</span>
+        <span class="legend">
+          <span class="badge first-board">新进榜</span>
+          <span class="hint" title="此榜历史从未出现过的游戏">ⓘ</span>
+        </span>
+        <span class="legend">
+          <span class="badge returning">回归</span>
+          <span class="hint" title="此榜以前出现过、消失过、又回来（间隔 ≥ 2 天）">ⓘ</span>
+        </span>
+        <span class="legend">
+          <span class="badge new-pub">新厂</span>
+          <span class="hint" title="该发行商在此榜首次出现">ⓘ</span>
+        </span>
+        <span class="legend">
+          <span class="badge studio-old">老厂</span>
+          <span class="hint" title="该发行商之前已在此榜出现过其他作品">ⓘ</span>
+        </span>
+      </div>
+      <div class="table-wrap">
+      <table id="tbl-new">
+        <thead>
+          <tr>
+            <th>类型</th><th>排名</th><th>游戏名</th><th>分类</th>
+            <th>子类 / 标语</th><th>发行商</th><th>厂商</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>当前榜单全貌 <span class="muted" id="panel-board-name"></span></h2>
+    <div class="table-wrap">
+    <table id="tbl-full">
+      <thead>
+        <tr>
+          <th>排名</th><th>游戏名</th><th>分类</th>
+          <th>子类</th><th>发行商</th><th>变化</th><th>新</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      数据来源：
+      <a href="https://rank.gravity-engine.com/" target="_blank" rel="noopener">rank.gravity-engine.com</a>
+      （榜单每日 10:00 更新）
+      ·
+      本站每日北京时间 <strong>10:30</strong> 自动抓取（GitHub Actions + Pages）
+      ·
+      <a href="https://github.com/hawaiimao/minigame-rank-daily" target="_blank" rel="noopener">源码</a>
+    </p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="sb.js?v=109" defer></script>
+  <script src="app.js?v=109" defer></script>
+</body>
+</html>

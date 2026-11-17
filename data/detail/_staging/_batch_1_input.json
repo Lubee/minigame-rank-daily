@@ -1,0 +1,389 @@
+{
+ "batch": 1,
+ "total_batches": 7,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_1.json",
+ "games": [
+  {
+   "name": "我的花园世界",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 14,
+    "douyin/热门榜": 18,
+    "douyin/畅销榜": 17
+   },
+   "category_l1": "休闲",
+   "category_l2": "模拟经营",
+   "publisher": "厦门麟贝互娱科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 72,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "我的花园世界",
+    "country": "cn",
+    "track_id": 6746321359,
+    "seller": "Xiamen Linbei Interactive Entertainment Technology Co.,LTD",
+    "genres": [
+     "游戏",
+     "休闲",
+     "模拟"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/8c/ec/078cec06-9946-9fff-6856-73b7935a41d1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/af/65/28af65fb-ccdc-d5f0-55e5-fac1b99c5785/1320x2868_U00281_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/8c/a4/c08ca476-1103-e2c4-2860-af0944d24f1e/BF7952E343A6B569CFF5ED17578D0239.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/a2/e8/6fa2e8f7-be10-6ba1-cee7-76d48d0aad0b/1320x2868__U00282_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/f5/98/20f59832-426e-0585-66eb-93802061a196/_U5320_U5fc3_U5de7_U7b511320x2868.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/cb/85/19cb8534-b796-08f4-7fa4-0f77b58d2808/_U840c_U5ba0_U76f8_U4f34.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/97/69/88976953-cafa-bccf-e926-003ab4f46417/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/15/dd/5b15dd55-d74a-8fad-61aa-f617ecacb92f/_U4e07_U5343.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/a1/87/71a18714-0d81-6a65-10c1-009fc985c7d8/_U5999_U624b_U62c8_U82b122.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/f4/d0/caf4d01b-e5b0-ea21-c980-c2c4aa339015/_U77e5_U5df1_U65e0_U754c.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/52/7d/8e527d25-3738-3c39-fad6-aad00b3f0fa3/2064x2752.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/95/d7/f795d717-0ad0-bbed-ff79-b0ef5c68f4e6/A9C18EC817B771BA9099488905E2EC34.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/e4/73/02e473e4-90a3-25ca-b09e-493c32b34670/2064x2752__U00281_U0029.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/30/a5/9f30a50d-c490-7c9a-f088-5aa5550681e7/_U5320_U5fc3_U5de7_U7b512064x2752.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/81/65/758165a7-2139-f446-d585-a1b8e452aafe/_U840c_U5ba0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/66/b9/f566b969-6da4-a573-edea-e89a8692bc87/_U82b1_U5f71_U4f5c_U88f3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/cc/1c/55cc1cbc-6a42-2d0c-7f51-4be9031e753a/_U4e07_U5343.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/ea/a6/88eaa6d5-c733-2f18-b9b7-11a1a2cde0a0/_U5999_U624b.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/44/0c/be440c35-ec93-10e5-4955-b5accdf943f6/_U77e5_U5df1.jpg/626x1112bb.jpg"
+    ],
+    "description": "指尖耕耘，清香入怀。玩「我的花园世界」有机会收获真实花束！\n\n《我的花园世界》是一款模拟经营类的花坊营建治愈手游，在游戏里玩家可以种下玫瑰、雏菊、郁金香等数百种鲜花，摸清每一种花草习性，沉浸式体验花艺师的日常；收获鲜花后搭配花瓶花材，创作独属于你的插花作品；每天接各种订单赚金币攒经验，还能串门好友花园顺手“偷”几朵珍稀花朵，和公会伙伴携手参赛冲刺榜单，领取丰厚奖励。还有超多花园装扮任你搭配，打造梦中情园；参与公会任务，认领梭梭树，一边悠闲种花一边投身公益，温暖又有意义！",
+    "release_notes": "· 正式官宣《我的花园世界》品牌大使张新成！以笃定之心，种治愈之花，欢迎张新成与花园并肩同行；以潜心积淀，让美好生根，和花艺师们一起悉心莳花，静待满园花开！\n\n· 全新 iOS 专属“控制”功能【立即收花】【公会竞赛】上线（需系统版本至少为 iOS 18.0），进入设置-操作按钮-向左划至控制-选取控制-搜索我的花园世界；进入控制中心-长按空白区域-添加控制-搜索我的花园世界，即可将其添加至快捷操作按钮或下拉控制中心中。\n\n· 全新 iOS 专属桌面小组件【鲜花种植】【我的花园】上线（需系统版本至少为 iOS 16.1），长按桌面-左上角编辑-添加小组件-搜索我的花园世界，即可将其添加至桌面。别忘记种花哟！\n\n· 花漾相逢，共植美好。杨紫成为《我的花园世界》品牌代言人！期待与你一起，邂逅花园里的万般美好——种虚拟鲜花，收获真实鲜花。年度专属福利码【杨紫邀你共赏新花】敬请前往游戏内兑换领取！\n\n· 花园公益·阳关新绿 正式开启——花艺师们，以花园公会合力、积攒能量，抵漫天风沙；方寸花园里的点滴美好，将跨越山海，兑换真实梭梭树落地敦煌阳关。",
+    "file_size_bytes": 690323456,
+    "min_os": "12.0",
+    "version": "1.1.25",
+    "release_date": "2025-08-05",
+    "rating": 4.12923,
+    "rating_count": 48393,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C/id6746321359?uo=4",
+    "fetched_at": "2026-09-15T21:47:58+08:00"
+   }
+  },
+  {
+   "name": "空格之境",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 17,
+    "douyin/热门榜": 20,
+    "douyin/畅销榜": 16
+   },
+   "category_l1": "1",
+   "category_l2": "模拟经营",
+   "publisher": "江西启游互动科技有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 61,
+   "best_rank": 5,
+   "profile_value": "high",
+   "seed": {
+    "gameplay_desc": "二合",
+    "tags": [
+     "二合"
+    ],
+    "notes": "",
+    "developer": "全民互动"
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "空格之境",
+    "country": "cn",
+    "track_id": 6771265430,
+    "seller": "Jiangxi Mengrao Interactive Entertainment Technology Co., Ltd",
+    "genres": [
+     "游戏",
+     "休闲"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/14/3a/a5143a7a-02f7-faef-505e-ab91880ff777/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/9c/99/389c9921-467a-b8c5-a546-7ed8cf30c956/0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/26/a9/e926a9df-050d-1ef7-48e0-915f87dcbda4/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fa/49/a4/fa49a409-8886-e174-e00f-227801294fbc/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/2c/31/852c31ad-8605-b8b6-0218-605ca177436e/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/55/e0/a855e00a-7e5a-8239-f1c1-1e250d693279/5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/c8/e2/6ac8e2be-7222-017b-20b0-8485d12af53f/0.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/69/ad/6269add4-2f76-08b4-42c2-4f853dd24e34/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/86/1e/33861e2a-9d0e-2172-5184-656c61448530/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/5d/3c/3c5d3cf5-f7f3-f675-86d8-b0864ed96537/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/3b/41/513b4147-e235-4c6d-a23a-7194f219d4d6/5.jpg/626x1112bb.jpg"
+    ],
+    "description": "在这里，你不再是普通的社畜，而是身负血海深仇的丝织世家嫡女；想要逃离这荒诞的命运重返现实，唯一的筹码便是揭开尘封已久的“元熙官锦贪墨案”真相，并在重重迷雾中寻回失踪的父亲沈朔。这不仅是一场关于生存的博弈，更是一次穿越时空的灵魂救赎……\n\n【达成契约 · 汇聚四方财源】\n核心订单交付玩法。 在任务界面查看各方势力的物资需求，通过合成与收集凑齐指定道具进行交付。完成契约不仅能获得金币和经验奖励，还能提升势力好感度，是游戏中积累财富、推动进度的主要途径。\n【卷轴轻展 · 沉浸主线篇章】\n丰富的剧情对话系统。 随着游戏进程解锁跌宕起伏的主线故事，通过与NPC的互动点击推进剧情发展。在探案过程中做出你的关键选择，逐步揭开“元熙官锦贪墨案”背后的秘密，享受视觉小说般的阅读体验。\n【积少成多 · 铺就繁华之路】\n剧情道具收纳与空间解放。 面对有限的合成空地，背包就是你的第二仓库！将合成好的大型建筑（剧情必备工具）存入背包，不仅不占用外面的操作格位，还能随取随用。合理规划库存，让你的合成场地不再拥挤，闯关效率翻倍。\n【四时流转 · 静观岁月枯荣】\n真实的动态四季变换系统。 游戏场景会随着时间推移呈现春、夏、秋、冬不同的视觉风貌。从春花到冬雪，地图背景和光影效果会实时更迭，让你在经营之余也能欣赏到生动细腻的环境变化。\n【指尖生花 · 重拾古镇旧梦】\n剧情驱动的古建修复。 采用精致的古风俯瞰视角，随着主线任务的推进，亲手将一座座特色建筑安置于古镇之中。看着原本荒芜的土地在你的努力下逐渐恢复生机，体验从零开始重建繁华市镇的成就感与归属感。",
+    "release_notes": "活动更新，快来玩吧！",
+    "file_size_bytes": 93415424,
+    "min_os": "15.0",
+    "version": "9.3",
+    "release_date": "2026-06-28",
+    "rating": 4.87488,
+    "rating_count": 1031,
+    "price": "免费",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E5%A2%83/id6771265430?uo=4",
+    "fetched_at": "2026-09-15T21:47:59+08:00"
+   }
+  },
+  {
+   "name": "Mahjong Blast",
+   "boards": [
+    "android/美区免费榜",
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 16,
+    "android/美区免费榜": 14
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Nebula Studio",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 6,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Mahjong Blast",
+    "country": "us",
+    "track_id": 6747492600,
+    "seller": "HURELAX PTE. LTD.",
+    "genres": [
+     "Games",
+     "Entertainment",
+     "Board",
+     "Puzzle"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/0c/70/a20c7039-190b-ca71-2dcd-d65661149ed7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/52/d1/2e52d1fa-c989-36c2-0747-167cb756f8e5/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/d3/32/89d33264-aafd-c42d-6ba2-67aa9c1b7267/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/1f/c7/d81fc72a-7138-3edd-21a6-f91d64983e05/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/79/37/1a793734-2150-d771-b68f-31464171e68a/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/0f/a3/b00fa378-87a0-60f7-2048-c8b971fccb7a/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8b/e8/868be823-5318-6f3b-c61e-8e988071f93d/6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/2e/45/f52e45e1-ae9c-9f4e-cb70-3fbc5ee768bd/1.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/ae/07/fbae075c-1cf9-26ef-527d-c62cb98abe82/2.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/2f/4f/082f4fb5-df3f-d98d-d6af-33dc873fe786/3.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/42/ba/a942babd-66bf-7b48-f299-3eac6bb09627/4.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/c4/7e/70c47ed9-568e-13e3-1354-db8663ca2b79/5.jpeg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/5d/0c/da5d0c0b-fc06-a8dd-0e6b-a155f1a6ebb5/6.jpeg/626x1112bb.jpg"
+    ],
+    "description": "Mahjong Blast is the best free puzzle game for seniors and adults — a relaxing offline mahjong solitaire game designed for players who love matching games, tile games, brain games, casual games, and calming puzzle solving experiences. 100% ad free with no annoying pop-ups or interruptions, play anytime, anywhere — no WiFi or internet connection required.\n\nMatch identical tiles, clear satisfying boards, and enjoy smooth gameplay. Whether you enjoy classic mahjong solitaire, free matching games, relaxing brain training, or engaging mind puzzles, Mahjong Blast delivers large clear tiles, simple one-tap controls, and distraction-free fun.\n\nClassic Mahjong Solitaire & Tile Connect\nMahjong Blast combines traditional mahjong solitaire with modern board puzzle mechanics. Match identical tiles, unlock blocked pieces, and complete relaxing puzzle challenges. Fans of pair matching games, tile connect mechanics, and classic tile puzzles will enjoy the satisfying balance of relaxation and strategy. Every level provides fun brain-training gameplay and a rewarding puzzle journey.\n\nRelaxing Games for Stress Relief\nExperience a peaceful game with soft visuals, clean layouts, and smooth animations. Mahjong Blast is one of the top relaxing games created to help players unwind and reduce stress. If you enjoy calm games, stress relief games, satisfying games, casual games, or zen puzzles, we offer a soothing tile-matching experience with no pressure and no timers.\n\nBrain Games for Adults & Seniors\nA fun brain game for adults and seniors who enjoy memory games, logic puzzles, mind games, cognitive training challenges, and brain-training games. Matching tiles improves focus, observation, memory, and concentration. Designed for older adults, the game features large visible tiles and an easy interface. Whether you seek games for seniors, easy games, relaxing brain puzzles, or free tile games, enjoy a comfortable experience.\n\nOffline Games – No WiFi Needed\nA fully offline game that works without WiFi, mobile data, or internet access. Enjoy free offline games during travel or commutes. Unlike many online apps, Mahjong Blast supports true offline gameplay with uninterrupted tile matching. If you are looking for offline games, games without WiFi, internet-free games, offline puzzle games, or offline matching games, this is the perfect choice for any puzzle solver.\n\nDaily Puzzles & Endless Fun\nEnjoy daily puzzle challenges, relaxing matching gameplay, and satisfying tile-clearing fun. With thousands of handcrafted levels, Mahjong Blast offers endless entertainment for players who love casual games and relaxing logic puzzles.\n\nAmerican Mahjong Practice to Enjoy With Friends\nCan't get the group together for mahjong 4 friends? Relax with Mahjong Blast! While it’s not like american mahjong, our mahjong puzzles are the perfect way to unwind. Consider it a fun, stress-free mahjong practice to sharpen your eyes and clear your mind before your next real game night. \n\n100% Ad Free – No forced ads or pop-ups\nPlay Offline Anytime – Free games without WiFi or internet\nBrain Training Fun – Improve memory, focus, and cognitive skills\nRelaxing Gameplay – Calm visuals and stress-free puzzle mechanics\nDesigned for Seniors – Extra-large tiles and simple controls\nThousands of Levels – Daily puzzles and endless matching challenges\n\nMahjong Blast, formerly known as Mahjong Wonders, combines classic mahjong solitaire, relaxing matching gameplay, and reliable offline play. Whether you love matching games, tile games, brain games, relaxing games, casual games, free puzzle games, offline games, or free games for adults and seniors, play anytime, anywhere.\n\nDownload now and join millions of players in this ultimate puzzle classic!\n\nPrivacy policy: https://www.hurelax.com/privacy-policy \nTerms of Use: https://www.hurelax.com/term-service",
+    "release_notes": "Bug fixes & performance improvements\nEnjoy a smoother Mahjong experience designed to help you unwind and sleep better.",
+    "file_size_bytes": 486385664,
+    "min_os": "15.0",
+    "version": "2.0.6",
+    "release_date": "2025-06-24",
+    "rating": 4.86404,
+    "rating_count": 548567,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=4",
+    "fetched_at": "2026-09-15T21:48:03+08:00"
+   }
+  },
+  {
+   "name": "星布谷地",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 10
+   },
+   "category_l1": "模拟经营",
+   "category_l2": "3D、休闲、社交、种田、多人联机、角色扮演、建造、治愈、模拟",
+   "publisher": "miHoYo",
+   "first_seen": "2026-07-06",
+   "appearances": 57,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "星布谷地",
+    "country": "cn",
+    "track_id": 6776623426,
+    "seller": "Shanghai miHoYo YingTie Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "模拟",
+     "休闲"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/5b/0e/6b5b0e50-6f39-13b7-b73d-f64979f8e697/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/70/92/91709237-c8f5-da38-af2d-92c6f984e63a/2208x1242-CHS-CHT.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/b4/cc/26b4cca1-5329-a086-be26-ef26f53ab961/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/37/68/ea/3768eabf-eff8-ba17-bcb0-a251fe99bcea/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/35/a3/2435a3d5-e7ca-010a-8a64-646e005e2972/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/48/05/e7/4805e750-cf7b-bc49-6b10-0eda7c2def87/6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/89/b0/2289b0a4-d783-2420-fada-311944b9ae1c/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/ae/d9/a1aed9d7-dc66-ffb0-e718-090bed219552/5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/08/e7/4b08e7e6-7ec1-794b-0982-90c04229c0ad/2732x2048-CHS-CHT.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/2d/dc/d82ddc07-cd16-8cf2-ae34-be95b68c8a07/1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/7a/ee/f27aee7b-22a6-5e36-0b0a-3e8c1f09099c/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/b8/45/b3b8459b-e87c-bd10-fb4f-ac7a87edb7da/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/37/6f/3c376f85-102e-bf35-36af-092cd4ce791d/6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/b1/bd/35b1bd0c-8239-9db1-7bed-86838651aacf/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/49/8e/ad498e41-36b0-fc5d-a6d8-48eff1ae7b27/5.jpg/626x1112bb.jpg"
+    ],
+    "description": "《星布谷地》是米哈游自主研发的生活模拟游戏。\n在这里，你将拥有一颗属于自己的星球，遇见生活的无限可能。\n\n种植、钓鱼、赶海、烹饪，感受生活本身的意义；\n改变星球的景观，塑造不同风格的山川大地；\n设计家具、装修建造，尽情打造理想中的家园；\n探索广袤星海，与性格各异的毛茸茸友邻们缔结友谊；\n走进热闹的星空街市，漫步、休憩，感受欢声笑语……\n在共度的时光中，建立起与世间万物的「连接」。",
+    "release_notes": "小星球生活模拟游戏",
+    "file_size_bytes": 3471921152,
+    "min_os": "14.0",
+    "version": "0.9.1",
+    "release_date": "2026-12-31",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0/id6776623426?uo=4",
+    "fetched_at": "2026-09-15T21:48:05+08:00"
+   }
+  },
+  {
+   "name": "MiniMuse",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 1
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Studio Sirenia",
+   "first_seen": "2026-09-12",
+   "appearances": 3,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.96,
+    "match_name": "MiniMuses",
+    "country": "cn",
+    "track_id": 6798905825,
+    "seller": "STUDIO SIRENIA LTD",
+    "genres": [
+     "游戏"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/ce/a3/f1cea3c1-89e7-26ea-940b-6410ffef46f7/01art.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/d0/c3/b0d0c36b-f70d-afa7-7f05-273e43da112a/02_customise_2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/f9/07/99f907e2-23c1-2220-aaa9-6d38ec03a2f1/01_studio_2778x1284.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f7/7f/5af77fdc-89a8-03c3-684f-7b5e651d40bd/customise_ipad_2752x2064.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/10/37/d310374c-5bb0-bebd-450e-fe11271e87f2/studio_ipad_2752x2064.png/626x1112bb.jpg"
+    ],
+    "description": "Your Muse, Your Story.\n\nMiniMuse is a character creator where every detail is yours to design. Build your characters, style them from a wardrobe of over 1,500 assets, and bring them to life in Studio Mode.\n\nCREATE YOUR MUSE\n- Customise everything tied to your muse: hair, eyes, limbs, accessories and more\n- Colour every layer with custom palettes, patterns, and saved colours\n- Add as many assets as you'd like, and reorder layers to create looks unique to your tastes\n- Import your own assets to use in your designs\n\nDIRECT YOUR STORY\n- Set the scene with backgrounds and props, add chat bubbles and text\n- Save your scenes and build your stories\n\nNo account needed. Your characters are saved on your device.",
+    "release_notes": "Bug fixes, and unlocked export character sheets feature.",
+    "file_size_bytes": 419776512,
+    "min_os": "15.0",
+    "version": "1.0.1",
+    "release_date": "2026-09-07",
+    "rating": 4.625,
+    "rating_count": 24,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4",
+    "fetched_at": "2026-09-15T21:48:07+08:00"
+   }
+  },
+  {
+   "name": "Meowdoku: Brain Puzzle Games",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 3
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Oakever Games",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.833,
+    "match_name": "Meow Sudoku: Cat Puzzle Games",
+    "country": "cn",
+    "track_id": 6781143433,
+    "seller": "MINA SONANI",
+    "genres": [
+     "游戏",
+     "益智解谜",
+     "桌面"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/69/1d/4d691ded-2f9a-eac1-adf2-8ed9d6bfaa09/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/74/f7/2e74f7b4-10dc-9e5d-77e1-0add0901708c/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/3b/6b/093b6bbc-1d34-4790-b94a-abe9edcce682/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/d2/12/ccd212e8-43f5-30ba-5cdf-f376e5ecc633/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/4d/b2/f64db270-6a91-3cdb-8429-6045856ccec1/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/2e/86/292e8696-bc20-c267-bc6e-f11455e7983f/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/d2/4a/efd24a62-335e-6545-73a6-a5e3f11527a0/6.png/626x1112bb.jpg"
+    ],
+    "description": "Relax. Solve. Collect.\n\nWelcome to Meow Sudoku: Cat Puzzle Games, a cozy and addictive Classic Sudoku adventure that combines relaxing gameplay, brain-training puzzles, adorable cats, beautiful themed worlds, and rewarding postcard collections.\n\nInspired by the timeless Classic Sudoku experience, Meow Sudoku offers carefully crafted puzzles that are easy to learn yet satisfying to master. Solve puzzles using pure logic, travel through charming worlds, unlock collectible cat postcards, and enjoy a peaceful puzzle experience designed for every player.\n\nWhether you're looking to relax after a busy day or challenge your brain with thoughtful Classic Sudoku puzzles, Meow Sudoku is the perfect companion for puzzle lovers and cat enthusiasts alike.\n\nHow to Play:\n\nEvery puzzle follows three simple rules:\n\n• One Cat Per Color\n\n• One Cat Per Row and Column\n\n• Cats Cannot Be Adjacent\n\n- Study the board, eliminate possibilities, and use logical thinking to discover the correct placement for every cat.\n\n- Simple rules create surprisingly deep and satisfying puzzles.\n\nExplore Your Journey\n\n- Progress through beautifully designed worlds as you complete more puzzles and unlock new adventures.\n\n- Travel through charming destinations including:\n\n• Milk & Cookies\n• Flower Shop\n• Candy Shop\n• Sunset Picnic\n• Magic Garden\n• Cloud Kingdom\n\nEach world features its own relaxing atmosphere and keeps your puzzle journey fresh and rewarding.\n\nKey Features:\n\nClassic Sudoku Gameplay\n\nEnjoy the timeless Classic Sudoku experience with intuitive controls, relaxing gameplay, and carefully balanced difficulty levels.\n\nHundreds of Logic Puzzles\n\nSolve beginner-friendly puzzles before progressing to more challenging brain teasers that reward observation, strategy, and logical thinking.\n\nBeautiful Journey Progression\n\nAdvance through themed worlds as you unlock charming new destinations and continue your relaxing adventure.\n\nCollect Cute Cat Postcards\n\nComplete puzzles to earn postcard pieces and build your adorable collection of charming cat-themed artwork.\n\nHelpful Hints\n\nNeed a little assistance? Use hints to learn new solving techniques and continue your journey with confidence.\n\nTrack Your Progress\n\nMonitor your score, level progression, and journey as you improve your Classic Sudoku skills.\n\nClean & Relaxing Design\n\nEnjoy a beautiful, colorful interface designed to provide a comfortable and stress-free puzzle experience.\n\nTrain Your Brain\n\nEvery puzzle helps strengthen your:\n\n• Logical Thinking\n• Focus & Concentration\n• Pattern Recognition\n• Memory\n• Critical Thinking\n• Problem-Solving Skills\n\nThe more puzzles you solve, the stronger your deduction and reasoning abilities become.\n\nPerfect For Fans Of\n\nWhether you enjoy Classic Sudoku, Sudoku puzzles, number games, logic puzzles, brain training games, mind games, strategy games, relaxing games, or casual puzzle adventures, Meow Sudoku has something for everyone.\n\nCat lovers will adore collecting charming postcards and exploring cozy themed worlds, while puzzle enthusiasts will enjoy the satisfying combination of strategy, deduction, and steadily increasing challenges.\n\nWhether you play for a few minutes or settle in for a longer session, every completed puzzle brings you one step closer to mastering your journey.\n\nDownload Meow Sudoku: Cat Puzzle Games today and enjoy the perfect blend of Classic Sudoku, relaxing gameplay, adorable cats, beautiful worlds, collectible postcards, and brain-teasing puzzles.",
+    "release_notes": "- Classic Sudoku module added\n- New worlds added in meow levels\n- Improved levels & difficulty\n- Minor bug fixes & performance improvements",
+    "file_size_bytes": 85995520,
+    "min_os": "16.0",
+    "version": "1.1.0",
+    "release_date": "2026-06-18",
+    "rating": 4.42856,
+    "rating_count": 7,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/meow-sudoku-cat-puzzle-games/id6781143433?uo=4",
+    "fetched_at": "2026-09-15T21:48:09+08:00"
+   }
+  }
+ ]
+}

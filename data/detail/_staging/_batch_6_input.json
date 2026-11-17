@@ -1,0 +1,351 @@
+{
+ "batch": 6,
+ "total_batches": 7,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_6.json",
+ "games": [
+  {
+   "name": "王者征途",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 15
+   },
+   "category_l1": "角色",
+   "category_l2": "MMO",
+   "publisher": "上海巨人统平网络科技有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 56,
+   "best_rank": 14,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "王者征途",
+    "country": "cn",
+    "track_id": 6446988505,
+    "seller": "Giant Network Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "角色扮演",
+     "策略"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/94/92/e19492ef-848c-28b0-8432-92c7ccb5946d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/0e/6c/120e6cec-d4d9-4b30-e6eb-7998ac8dab5a/13202868_iPhone_U9996_U9875.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/62/55/31625591-a78c-5cdc-b9f3-7ecead426c5d/13202868_iPhone1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/cd/98/15cd9821-6358-7f9d-c577-8f5d5d801ea5/13202868_iPhone2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/17/cc/c317cc9b-1c78-241e-08f2-bdd50340d195/13202868_iPhone3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/12/77/f712773a-f134-cfcd-9358-66aa909b09c7/13202868_iPhone4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ac/87/f2/ac87f241-474d-0c4a-d7e7-22bba5407c42/20642752_iPad_U9996_U9875.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/69/c8/af/69c8af01-579e-3ee4-8e4a-662633a60507/20642752_iPad1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/51/2d/9b512d04-2d58-6333-9bd7-a4b68bcba382/20642752_iPad2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/70/4e/a1704e66-36a4-6635-1577-94da72312146/20642752_iPad3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/2d/49/8d2d49be-5a46-e765-7c88-3f43fa0df4fa/20642752_iPad4.jpg/626x1112bb.jpg"
+    ],
+    "description": "巨人网络首款挂机放置类征途手游，轻松游戏，好玩不累！\n【轻松挂机 离线升级】简化繁琐任务流程，离线自动成长，上线领取收益，角色养成轻松无压力！\n【角色搭配 推图不累】五大特色职业随心组合，一人成军，组建不同的战斗策略！\n【海量副本 自给自足】日常任务简洁，支持一键扫荡，不肝不氪畅快征途！\n【经典玩法 一个不落】太庙搬砖、刺探运镖、家族篝火……还是熟悉的味道！\n【万人同屏 激情酣战】包含家族战、王城战、圣坛战等多种联机战斗模式，肆意热血激战！\n\n【联系我们】\n-官方网站：wzzt.ztgame.com\n-官方公众号：wangzhezt",
+    "release_notes": "更新内容：\n\n· 全新职业-魔化枪客上线，魔武双修，枪破万法！\n· 全新副本-补天塔开启，爽拿海量补天石；\n· 全新兽魂-龙魂来袭，各项属性全面暴涨；\n· 全新法宝-太乙拂尘、七宝玲珑塔登场，超强特效助力PK连胜！",
+    "file_size_bytes": 386405376,
+    "min_os": "9.0",
+    "version": "1.0.8",
+    "release_date": "2024-10-24",
+    "rating": 4.80403,
+    "rating_count": 7389,
+    "price": "免费",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E7%8E%8B%E8%80%85%E5%BE%81%E9%80%94/id6446988505?uo=4",
+    "fetched_at": "2026-09-15T21:49:23+08:00"
+   }
+  },
+  {
+   "name": "爽到飞起",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 14
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "北京安思科技发展有限公司",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 14,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:49:27+08:00"
+   }
+  },
+  {
+   "name": "ArrowCube - 3DPuzzle",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 15
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "GOODROID,Inc.",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 15,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Arrow Cube: 3D Puzzle",
+    "country": "us",
+    "track_id": 6797838134,
+    "seller": "KUNHAR GAMES LTD",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/36/b5/a936b56a-c7d9-5038-594d-88cae4ca768a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/1c/44/951c44f6-9a92-11fe-0a4a-cadca65b082f/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/1a/f8/151af8d7-8883-ed6c-496d-d3e08f7fdb81/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/f1/99/a2f199d4-e20d-98ad-ea53-fd08670fb294/7.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/aa/8b/32aa8b64-9f9b-923a-e4d4-c91da9909337/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/17/36/c21736cb-fad8-6407-a654-af12eac2f2d7/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/cb/c7/aecbc7b4-e092-7808-df2c-3dd6ea8a97b2/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/04/b3/0c04b33a-e7af-e5bb-0bec-f04290b17784/6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/58/91/595891a8-9fb1-622e-2164-e7b08efb80cf/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/85/60/2e8560c9-a993-45de-7d2c-544c9a6453b9/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/b3/0f/cbb30f55-7efa-4316-ec24-b39656952eea/7.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/a8/21/c1a821c0-70a0-c2e4-1968-424061d19ecf/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/16/50/a5165013-80d6-2b46-cb8a-244214c88dce/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/45/f8/a645f8d5-a2db-716b-29ee-8f5673983d71/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f7/5e/2c/f75e2c9a-3722-82b2-5080-f6902a1e6aa4/6.png/626x1112bb.jpg"
+    ],
+    "description": "Arrow Cube: 3D Puzzle\nReady for a brain-teasing challenge? Arrow Cube: 3D Puzzle puts you in control of a cube filled with arrows, and every move matters.\nYour goal is simple: clear all the arrows and find a way out. The controls are easy to learn, but finding the right solution can be surprisingly tricky.\n \nHow to Play\nTap an arrow to release it. If an arrow is blocked, clear the arrows in its way first. Rotate the cube in order to see the layout of the puzzle from different perspectives and discover what is stopping you. Keep tapping until you remove all arrows from the puzzle.\n \nWhat Makes It Different?\nArrow Cube: 3D Puzzle puts a fresh spin on the traditional arrow puzzle with a fully 3D layout. Each level has its own arrow shapes and layout, giving you a new challenge to solve every time.  Some puzzles are easy to figure out, while others will really make you think. You can also switch to Colorful Mode to enjoy the same puzzles with a more vibrant look.\n \nOur Features\n- Satisfying 3D arrow puzzle gameplay\n- Simple tap controls that are easy to learn\n- Different arrow shapes and maze layouts\n- Puzzles that put your logic to the test\n- New challenges as you progress\n- Relaxing gameplay with satisfying clears\n \nThink, Tap & Escape\nThe further you go, the more challenging the puzzles become. New layouts and tighter spaces turn each level into a brain-teasing challenge, putting your logic to the test.\nTake your time, plan your moves, and work through each escape puzzle one arrow at a time. Can you clear the cube and make it through every level?",
+    "release_notes": "- New Levels Added\n- Gameplay Enhanced",
+    "file_size_bytes": 179041280,
+    "min_os": "15.0",
+    "version": "1.1.4",
+    "release_date": "2026-08-16",
+    "rating": 4.77778,
+    "rating_count": 9,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/arrow-cube-3d-puzzle/id6797838134?uo=4",
+    "fetched_at": "2026-09-15T21:49:30+08:00"
+   }
+  },
+  {
+   "name": "Colorever: Gem Art Puzzle",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 17
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Oakever Games",
+   "first_seen": "2026-09-01",
+   "appearances": 14,
+   "best_rank": 17,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Colorever: Gem Art Puzzle",
+    "country": "us",
+    "track_id": 6761757565,
+    "seller": "OAKEVER GAMES PTE. LTD.",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f1/e3/2bf1e381-80b3-121c-8fa4-bb535555b615/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/69/79/466979da-bb73-c35b-a422-abf393bb3c39/01a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/21/eb/9c21eb32-e540-fd66-194a-7bb54fe5910b/02a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/83/d2/4683d219-1ea2-c2b2-406f-a16676c93e73/03a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/38/6a/21386a11-3ac5-0970-3170-bc955fb8d6af/04a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/60/2b/84602bce-ed25-1d9c-5a32-6f36bed280cf/05a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/17/fd/3217fde3-af95-a913-db9d-36f57e1abb9f/01c.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/0c/2b/eb0c2b9b-7dad-0d85-5a59-155f06984a97/02c.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/19/d3/9a19d3c8-5995-687f-8ad5-3991c26d08ae/03c.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/4a/e6/614ae69d-17ac-6ca3-4380-40414909dae4/04c.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/24/64/cd246425-b041-0ff9-3b42-8b33b1f7ab37/05c.png/626x1112bb.jpg"
+    ],
+    "description": "\"Colorever: relax with sparkling gems and beautiful coloring art.\n\nEvery gem belongs somewhere. Tap a gem and watch the whole cluster glide home, one by one, until a bright gem art picture is complete. Easy for everyone, fun for all ages. No timers. No fail screens. No game over. Just you, the gems, and a calm little puzzle you can always solve.\n\nWHY PLAYERS STAY\n\nSee the whole picture from the start. Nothing is hidden, nothing is guesswork. You always know where every gem is going, so the pleasure comes from planning the route, not from hunting for a secret. Colorever is a puzzle funny game you can play with your shoulders down.\n\nHOW TO PLAY\n\nTap a gem, move a cluster. Tap one gem and every connected gem of the same color is picked up together, then flies to its matching space one gem at a time.\nRead the board. Each space on the board already shows the color of the gem it is waiting for. Match gem to space and it locks into place with a satisfying click.\nUse the tray. The tray holds gems you are not ready to place yet. Park a few, open up the board, then bring them back in when the space is free.\nFinish the picture. Place the last gem and the full gem art scene lights up, ready for your gallery.\n\nA GROWING GEM GALLERY\n\nHundreds of pixel art pictures to complete, from animals and food to flowers, cities and cozy little scenes, with fresh sets added regularly. Every picture you finish is saved to your gallery, so your collection of gems and gem art keeps growing as you play.\n\nFEATURES\n\nRelaxing by design. No countdown, no losing streak, no pressure. Play one puzzle on a coffee break or twenty in a row.\nAlways solvable. Every level has a solution, so getting stuck is temporary, never fatal.\nGentle learning curve. The first gem puzzles teach themselves. Later boards are wide, layered and genuinely worth thinking about.\nHandy helpers. Add an extra tray space, undo a move, take a hint, or let a smart tap tidy up the easy gems for you.\nMade to feel good. Crisp gems, glowing diamonds, soft sound and light haptics on every placement.\nPlay offline, anywhere. No connection needed. Pause mid puzzle and pick it up hours later, exactly where you left it.\nFor everyone. Simple enough for a first ever puzzle game, deep enough for players who like to plan three moves ahead.\n\nFOR PLAYERS WHO LIKE\n\nRelaxing puzzle games. Gem art and coloring pixel pictures. Gem, jewel and diamond puzzles. Calm brain games and quiet logic. Satisfying, oddly soothing placement games.\n\nTake a breath. Tap a gem. Let the gem art shine.\"",
+    "release_notes": "◆ Feature Updates\n◆ Bug fixes and other optimizations",
+    "file_size_bytes": 235854848,
+    "min_os": "15.0",
+    "version": "1.19.0",
+    "release_date": "2026-04-20",
+    "rating": 4.8836,
+    "rating_count": 2586,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=4",
+    "fetched_at": "2026-09-15T21:49:33+08:00"
+   }
+  },
+  {
+   "name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
+   "boards": [
+    "ios/国区免费榜"
+   ],
+   "ranks": {
+    "ios/国区免费榜": 19
+   },
+   "category_l1": "游戏",
+   "category_l2": "",
+   "publisher": "Happy Bubble Information Technology Co., Ltd.",
+   "first_seen": "2026-08-21",
+   "appearances": 21,
+   "best_rank": 17,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "毛线大师 - 毛线消除游戏 疯狂毛线消不停",
+    "country": "cn",
+    "track_id": 6748351662,
+    "seller": "Wuhan Happy Bubble Information Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "休闲",
+     "益智解谜"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/34/be/bb34be6b-a846-ae18-997e-af647d1f581d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/ea/59/15ea59f2-6bc2-e0d0-9dc7-f0a47ddaa39f/6.9-5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6c/eb/b3/6cebb3e8-06a6-fa1f-35c8-9b0f9a20ccc6/6.9-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/1a/77/531a7775-de6e-4094-0f07-cbf7b986a068/6.9-3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/9b/b7/9c9bb7c8-559b-ef82-36b4-fda44d377cb6/6.9-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f1/96/df/f196dfc9-ebbe-74b1-2999-eee524009a5b/6.9-6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/cc/b5/7bccb50d-3a91-bcba-8613-f51111396cae/6.9-4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/6d/f2/576df2b9-bf2d-f7bb-1100-a3a4df60be01/pad-2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/e1/e6/cae1e6a4-3452-f3de-ad9b-797044a15768/pad-5.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/9a/fa/1f9afa27-1391-61ab-8de2-efbd7ee74f13/pad-3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0e/89/df/0e89df22-851c-b716-210b-ad50455f3917/pad-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/40/b5/d440b5fd-6ef0-d59e-6daa-a072de264ef8/pad-6.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/10/fc/c2/10fcc252-a82c-7286-e3ce-7f3ba043d4d2/pad-4.jpg/626x1112bb.jpg"
+    ],
+    "description": "告别焦虑，拥抱指尖上的色彩疗愈！\n你是否感觉生活有点灰蒙蒙？压力山大，想要找点简单快乐的小确幸？别担心！这款色彩缤纷的指尖小玩意儿，就像一杯鲜榨果汁，瞬间点亮你的心情！\n\n面对一团团可爱又五颜六色的毛线球，你的任务很简单：动动手指，解开它们，让每种颜色都各归其位，整整齐齐！\n看似简单？错啦！这其中可是藏着无穷的乐趣和挑战！你需要仔细观察，开动脑筋，巧妙运用各种技巧，才能成功闯过一关又一关。\n\n为什么你会爱不释手？\n -超级简单，一玩就上瘾： 操作简单到飞起，瞬间沉浸在解线的乐趣中，根本停不下来！\n -色彩爆炸，心情Duang Duang Duang： 鲜艳的色彩搭配，萌萌哒的画面，让你的心情瞬间像坐火箭一样UP UP UP！\n -动脑筋，不无聊： 难度逐渐提升的关卡，挑战你的思维极限，让你在玩乐中锻炼大脑！\n -随时随地，轻松一下： 等公交、排队、睡不着？拿出它，随时随地享受解线的乐趣，告别压力！\n\n还等什么？快来释放你的色彩天赋，体验解开毛线团的惊喜快感吧！让你的指尖在色彩的海洋里自由舞动，开启一段充满乐趣的解线之旅！",
+    "release_notes": "新增关卡，快来挑战吧",
+    "file_size_bytes": 417969152,
+    "min_os": "13.0",
+    "version": "2.6",
+    "release_date": "2025-07-18",
+    "rating": 4.57469,
+    "rating_count": 11521,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/%E6%AF%9B%E7%BA%BF%E5%A4%A7%E5%B8%88-%E6%AF%9B%E7%BA%BF%E6%B6%88%E9%99%A4%E6%B8%B8%E6%88%8F-%E7%96%AF%E7%8B%82%E6%AF%9B%E7%BA%BF%E6%B6%88%E4%B8%8D%E5%81%9C/id6748351662?uo=4",
+    "fetched_at": "2026-09-15T21:49:35+08:00"
+   }
+  },
+  {
+   "name": "Food Hunt: Pixel Puzzle",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 17
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "FUNFINITY PTE. LTD",
+   "first_seen": "2026-08-21",
+   "appearances": 24,
+   "best_rank": 17,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Food Hunt: Pixel Puzzle",
+    "country": "us",
+    "track_id": 6769314786,
+    "seller": "FUNFINITY PTE. LTD",
+    "genres": [
+     "Games",
+     "Casual",
+     "Puzzle"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/69/81/e3698133-d61d-b655-7ddf-f6fac07e0bf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/92/56/8b92569c-792a-caa2-ec51-362d3e6a100d/01.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/06/e5/1606e5f9-7246-9d9d-9c16-3f8b3a642fee/02.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/25/80/b1258083-700b-2d8d-e40d-bd6a0166762d/04.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/90/8e/bf/908ebf57-b757-e377-2b73-56b0f7841b81/06.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/4c/7b/c54c7b8b-6cf9-a5de-657e-a95d4395ecad/05.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/6a/81/256a8163-a7e7-7de3-4193-84cbed524e75/08.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/a4/ea/47a4ea5e-97a5-0f50-50bc-35ffb38c79d9/07.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/30/e3/d230e33c-cc00-f8e6-c18a-e8c6ad2d6621/03.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/33/ce/4033cee7-600f-5846-61d2-6f777cfac759/01.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/a5/65/51a5653f-51ae-070b-ae45-e87d0416058e/02.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/75/85/777585a6-9105-1187-1119-77060473eda7/04.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/74/ed/a374ed8c-2b4a-e63e-7d9b-ab9f1a06fac1/06.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/5a/53/aa5a53a6-c85f-4eb9-827c-28f51410526b/05.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8a/04/70/8a047049-a2b4-5ee6-eedf-9c1efb97be46/07.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/3b/9d/383b9d64-713a-2ca3-372c-7d9621078fde/03.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/de/99/e9de9931-42cc-2a16-95f0-2213e955c67b/08.jpg/626x1112bb.jpg"
+    ],
+    "description": "Every level is a pixel art masterpiece. Your ants will devour it - one color at a time.\n\nFood Hunt is a satisfying color sort puzzle where the puzzle board IS the art. Each level presents a hand-crafted pixel art image built entirely from colored blocks. Sort your ants by color, send them in, and watch them eat the picture clean - block by block, until the board is empty and the level is cleared.\n\nHOW TO PLAY\nThe board is filled with a pixel art image - built entirely from colored blocks. Below the board: your holding slots and block stacks waiting to be tapped.\n\nTap a block stack to load your ants. They march up and devour every matching colored block in the image. Clear all colors - wipe the board completely - and you win.\n\nBut choose your order carefully:\n\n- Holding slots are limited - wrong tap order fills them fast\n- Stuck slots = ants can't move = game over\n- Plan which color to clear first\n- Eat every last block - board empty - level clear!\n\nTHE PIXEL ART IS THE PUZZLE\nForget collecting rewards after you win. In Food Hunt, the pixel art image is the challenge itself.\n\nEvery level is a different image, built from hundreds of colored blocks. Watch your ants devour it layer by layer, color by color, until nothing remains.\n\nYou don't unlock the art. You clear it. And that's exactly what makes it satisfying.\n\nFEATURES\n-  200+ color sort puzzle levels -  new images, new challenges\n-  Cute ants with ASMR-quality chomping animations\n-  Simple one-tap controls - play with one hand\n-  No timer, no pressure - relax at your own pace\n- Levels designed to surprise - no two boards look the same\n- 2× speed mode for snappier ant action\n\nEASY TO LEARN. HARD TO STOP.\nEarly levels are breezy. Later levels pack in more colors, tighter slots, and bigger images that demand real planning.\n\nWhich color do you clear first? When do you free a slot before it jams? Every tap matters.\n\nA true logic brain teaser - wrapped in pixel art you'll actually enjoy destroying.\n\nWHY YOU CHOOSE FOOD HUNT?\nMost color sort games show you an empty grid and ask you to fill it. Food Hunt flips it - every board starts full, alive with pixel art, and your only goal is to wipe it clean.\nSame satisfying sort. A completely different feeling. \n\nDownload Food Hunt - the color sort puzzle where the art is the game.",
+    "release_notes": "- New levels added\n- Introducing the new Gun Booster.\n- Shop improvements for a smoother experience.\n- New Super Cave mechanic added.\n- Performance improvements and bug fixes.",
+    "file_size_bytes": 300217344,
+    "min_os": "15.0",
+    "version": "1.28",
+    "release_date": "2026-05-14",
+    "rating": 4.73023,
+    "rating_count": 33847,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/food-hunt-pixel-puzzle/id6769314786?uo=4",
+    "fetched_at": "2026-09-15T21:49:38+08:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,366 @@
+{
+ "batch": 5,
+ "total_batches": 7,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_5.json",
+ "games": [
+  {
+   "name": "Candy Crush Saga",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 20
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "King",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Candy Crush Saga",
+    "country": "us",
+    "track_id": 553834731,
+    "seller": "King.com Limited",
+    "genres": [
+     "Games",
+     "Entertainment",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/de/33/8fde33a2-a5d3-ee30-cc04-36ec1ed1ef91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ed/54/54/ed5454a8-609c-2299-3f70-71266afcd62c/e6a5aa2d-db24-4004-b409-d0ca33f961f0_v4-candies_478284_423160_CCS_Creative_Results_First_Screenshots_Nov_23_sta_ios-6.7_1290x2796_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/42/bd/1b42bd4f-d144-246a-3a4b-91e3316c51c0/26184b20-fd91-4296-8a58-d32d7134e1b4_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/7d/fe/c27dfe08-476f-d179-b763-3e82e9c174ae/97738c29-af03-4b0e-8790-db5b9fbdc62b_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/9c/60/909c60c4-5c51-c7c7-f8b9-404ef0458d93/113c4621-26f9-4a3f-b46c-1af889bc5dce_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/92/a4/a192a4cd-9619-8745-7b20-4d600dac32d7/09ced3e6-d696-417a-b598-99536cbccc6f_563552_CCS_Taglines_Banner_Route_4_Resize_Screenshots_June_24_sta_ios-6.7_1290x2796_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/c8/25/e5c8257e-10bb-9345-081b-bb98f6374ec0/8a8c72de-0a95-4858-a977-e6a5d42b4dba_Copy_of__sta_ios-6.7_1290x2796_6_EN.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/88/17/90881761-5132-bc63-cd05-bc872c63fce2/31c32041-00b0-4500-a550-99ce01c945ff_Copy_of__sta_ios-6.7_1290x2796_7_EN.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/fa/a9/3efaa9c7-c7ad-48a8-4e3a-ecbcc45e4d79/b981a09b-610e-4ed3-8930-9135c5bb1e06_Copy_of__sta_ios-6.7_1290x2796_8_EN.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/17/91/0d1791e0-2994-3976-63e2-637abe2059b5/e994b495-63cd-4c0b-bc72-d640bee44757_Copy_of__sta_ios-6.7_1290x2796_9_EN.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/16/7c/df167c9e-9f3f-1d64-8d35-78a431185478/89b1faee-9df2-4d83-bc7c-ee5a734344ef_v4-candies_478284_423160_CCS_Creative_Results_First_Screenshots_Nov_23_sta_ios-iPad_2048x2732_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/13/b2/4e13b2aa-60a0-6f2a-a98e-f77777dcaf90/77bc4e75-e791-4479-91cb-ca98312abc59_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/3e/0e/ae3e0e9a-0f58-2821-1bdb-a255a7e5eb22/448fc95c-7091-443f-b359-40884cff34c9_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/2c/62/f72c6262-aebb-67df-a223-b0c9faf020d0/65eec630-c5f0-46f4-98fb-1ce029fb36d2_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/ff/c1/b4ffc168-1df6-b637-6204-d76e1cf6efdc/10511ee6-b050-4f6f-9f5e-1644ff5d158a_479855_CCS_Rewording_Taglines_Screenshots_Nov_23_route4_sta_ios-iPad_2048x2732_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/fd/d8/94fdd8cb-4f7f-09e7-6172-1a9776f268b8/43dbc8a0-5f8c-4f42-ad4b-9de28521386a_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/e7/02/7ee702e6-4047-7d32-91f0-515b21c68710/96b029b6-7822-4ed5-8367-552646806b1b_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/89/12/0c891284-77e6-c5b6-23b6-72bd696bcbab/835e9d44-e4b3-4f74-b6f0-a01a8f1f0ec3_285580_ccs_lt_aso-true-to-gameplay-ss_sta_ios-iPad_2048x2732_3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/cc/6a/f9cc6a54-5910-0f5c-7a49-3888ea0e6370/d1c5f541-5d59-4cb6-abf7-b9d68d943277_364295_CCS_Saga-Map-Update_ss_2048x2732_en.jpg/626x1112bb.jpg"
+    ],
+    "description": "Explore a world full of delicious match-3 puzzles and endless fun! Blast through thousands of challenging levels in this timeless puzzle game from King. Match candies, conquer jelly, toffees, and jam, and uncover sweet surprises in every puzzle.\n\nClassic Match-3 Gameplay with Fresh Twists\n\n- Discover unique game modes like Gummy Dragons and Bubblegum Pop. \n- Match and blast your way through matching levels full of sugar-coated fun.\n- Master tricky puzzles and create explosive combos to clear the board!\n\nBrain-Boosting Challenges & Special Events\n\n- Daily Rewards: Log in every day to claim free boosters and extra lives.\n- Time-Limited Events: Compete in themed challenges and win exclusive prizes.\n- Tournaments & Leaderboards: Crush more candies than your friends and rise to the top to become the ultimate match-3 master!\n\nBonbon Blitz Your Way Through Extra Sticky Levels\n\n- Use powerful boosters like Bonbon Blitz, Lollipop Hammer, and Jelly Fish to solve puzzles and boost your score.\n- Stuck on a level? Boosters and extra moves will help you blast through any obstacle.\n\nPlay Offline or Online, Anytime and Anywhere\n\n- No internet, no problem: Enjoy offline gameplay and keep the fun going wherever you are.\n- Ad-free fun means uninterrupted candy-matching bliss!\n\nConnect with Friends & Join the Candy Kingdom\n\n- Share lives, compare scores, and see who’s the match-3 master in your friends circle.\n- Connect your game to Facebook to sync progress, compete with friends, and unlock exclusive rewards!\n\nDiscover more from King\n\nLooking for more brain-teasing fun? Try Candy Crush Soda Saga or Farm Heroes Saga for fresh twists on classic match-3 puzzles. Or dive into sweet solitaire action with the new Candy Crush Solitaire!\n\nCandy Crush Saga is free to play, but optional in-game items require payment. You can turn off the payment feature in your device’s settings.\n\nAll Stars 2026\n\nSelected level 5+. 18+. In-game event from 09:00 EST 5 March to 09:00 EDT 8 April, 2026. Participating countries only. Void where prohibited. Win the in-game event and receive an invite to the live contest 3-6 June in London for a chance to win a share of $1,000,000 USD. Requires travel to London. T&Cs: to.king.com/terms. Candy Crush Saga contains optional in-game purchases. © /TM / ® 2026 King.com Ltd. “King”, “Candy Crush All Stars\" and associated marks and logos are trademarks of King.com Ltd or related entities.",
+    "release_notes": "We hope you’re having fun playing Candy Crush Saga! \n\nWe update the game every week with sweet new features, exciting levels, and important bug fixes to keep everything running smoothly. \n\nDon't forget to download the latest version for the best experience!\n\nNew to the game? Don’t be shy, join the fun!",
+    "file_size_bytes": 325522432,
+    "min_os": "15.0",
+    "version": "1.336.2.1",
+    "release_date": "2012-11-14",
+    "rating": 4.70469,
+    "rating_count": 4004565,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/candy-crush-saga/id553834731?uo=4",
+    "fetched_at": "2026-09-15T21:49:08+08:00"
+   }
+  },
+  {
+   "name": "欢乐麻将",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 17
+   },
+   "category_l1": "棋牌",
+   "category_l2": "牌类",
+   "publisher": "深圳市腾讯计算机系统有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 61,
+   "best_rank": 10,
+   "profile_value": "abandoned",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": "深圳市腾讯计算机系统有限公司"
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "欢乐麻将",
+    "country": "cn",
+    "track_id": 689180123,
+    "seller": "Shenzhen Tencent Computer Systems Company Limited",
+    "genres": [
+     "游戏",
+     "桌面",
+     "卡牌",
+     "娱乐"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/e5/b4/17e5b478-5943-cdc8-78c7-a621af4c2fb8/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/74/b5/64/74b564b4-f5d8-0446-35b9-f9f9802b6565/20260907155036-e00fa380-3e04-4e3c-b1cd-aa496344f7be-b74571f02fae747432765138ed8bbf4aa5a062c1-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/f1/90/07f19057-6249-7bbf-3ace-70c5dac22840/20260907155042-e00fa380-3e04-4e3c-b1cd-aa496344f7be-31f57b5fbf515cfd4e589691f4a4a1fa98c8d917-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/b2/ca/95b2ca88-4386-99fb-4573-0f46778fed74/20260907155048-e00fa380-3e04-4e3c-b1cd-aa496344f7be-bddf6089a1389888fcc69733895ba6cb116faf9a-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/eb/b6/6debb673-3a9c-c6ed-fd06-bb3c006d970e/20260907155054-e00fa380-3e04-4e3c-b1cd-aa496344f7be-e3fa54b7d21bf6f3819b71f166d83800d1c2dac5-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/9c/c6/fd9cc657-c5cf-84c2-d2e7-0d4e78b320cc/20260907155100-e00fa380-3e04-4e3c-b1cd-aa496344f7be-049f4a69c5c941925a54c1b1b405244017a7ea40-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/7f/d4/597fd44e-536b-aec9-93ad-4901b3dd3eec/20260907155037-cd03f7de-2312-4365-9445-9eff1f812f72-b686e9ae18b73d168cbd769da6403f0cceb97437-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/ab/3a/ceab3af8-16ec-1dc0-3a26-4d1c42f26106/20260907155043-cd03f7de-2312-4365-9445-9eff1f812f72-fabfad57572185f7b50c6bf023d4e84c31983255-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a7/d4/fe/a7d4fe33-a93f-50c2-679b-2deab4595317/20260907155049-cd03f7de-2312-4365-9445-9eff1f812f72-9736bdf4efe9e106b256d190192ef0c27cb53e1f-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/50/30/a15030e2-1c29-bb30-736b-4175cec81198/20260907155055-cd03f7de-2312-4365-9445-9eff1f812f72-90be99c37ebaca76726520ffef75c4d1f8237e20-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/48/46/77484605-8e38-14e8-b44c-b00792fe67c6/20260907155102-cd03f7de-2312-4365-9445-9eff1f812f72-bacf6e6a3a81b4c1e1824115d640b371371c3c30-1.jpg/626x1112bb.jpg"
+    ],
+    "description": "《欢乐麻将全集》是腾讯首款经典3D免费麻将游戏！5亿用户都在玩的麻将全集游戏，真人实时对战，地方玩法应有尽有。\n\n【各地玩法 全民搓麻】\n覆盖全国所有地方麻将玩法，各地玩法一应俱全！\n刺激四川麻将换三张，地道广东麻将，休闲娱乐大众麻将，推倒胡、卡五星、武汉麻将、长沙麻将、贵阳捉鸡、杭州麻将等，各地玩法应有尽有！\n\n【组队PK  好友约战】\n和好友一起组队2v2，迅速邀约好友开局，好友助力配合搓麻，让你轻松躺赢！\n\n【甄稀外观 限量发售】\n极品套装、绝美雀境华丽上架，更有限时免费赠送活动，引领精美搓麻风潮，辅助排位上分做全场最闪耀雀神！\n\n【竞技段位争霸】\n麻将段位新赛季，与全球5亿玩家一起切磋牌技！\n至尊雀神，等你来战！\n\n【全新玩法 刺激翻倍】\n创新玩法百变斗牌、四龙麻将火热上线。番型更多样，成牌更轻松，助你畅爽搓麻，刺激翻倍！\n\n【特别声明】\n在本款《欢乐麻将全集》中，用户登录时可以选择“与QQ好友玩/与微信好友玩/游客登录”，三种登录方式在iOS设备上的数据不互通。用户在游戏中购买的游戏代币“钻石”仅限于在本应用中使用，腾讯的虚拟货币, 比如Q币，Q点都无法在游戏内使用，特此说明。",
+    "release_notes": "欢乐麻将节启动！\n本次更新内容：\n1、【麻将节】9月8日欢乐来袭，登录礼、主题站轻松参与，海量豆子、永久服饰等你来领！\n2、【角色上桌】红中血流、大众麻将、大众胡到底三大玩法新增角色上桌模式，沉浸视角带来全新体验！\n3、【百变斗牌】9月中旬更新，新增摸牌秘宝，内容更丰富，随心所欲做大牌。\n4、【红中血流】9月下旬更新，强化防作弊，更公平竞技；2v2模式带来更多配合空间。\n5、【至臻套装】绝世九尾套装登场，免费复活天赋和魅惑吸分技能，美美上分！\n6、【全新雀牌】赛博矩阵闪耀登场，首款牌面和牌背一体化麻将子，帅翻全场！",
+    "file_size_bytes": 812593152,
+    "min_os": "13.0",
+    "version": "8.19.112",
+    "release_date": "2013-10-25",
+    "rating": 4.76478,
+    "rating_count": 1934381,
+    "price": "免费",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E6%AC%A2%E4%B9%90%E9%BA%BB%E5%B0%86/id689180123?uo=4",
+    "fetched_at": "2026-09-15T21:49:10+08:00"
+   }
+  },
+  {
+   "name": "天天象棋",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 19
+   },
+   "category_l1": "棋牌",
+   "category_l2": "棋类",
+   "publisher": "深圳市腾讯天游科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 62,
+   "best_rank": 10,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "天天象棋",
+    "country": "cn",
+    "track_id": 403941510,
+    "seller": "Shenzhen Tencent Tianyou Technology Ltd",
+    "genres": [
+     "游戏",
+     "策略",
+     "娱乐",
+     "桌面"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/3b/8d/4f3b8d0f-55ed-2c1a-c684-7f370019cb3e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/12/54/42125489-9b0b-9f1b-7cb6-58c1525d0670/1._U7ecf_U5178_U6728_U7eb9_U56de_U5f52_U4f20_U7edf.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/9b/86/d69b8678-da8d-e48c-ad8e-ad2af694a64e/2._U68cb_U529b_U8bc4_U6d4b_U65c1_U89c2_U5c40_U52bf.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/c6/e1/22c6e132-6db1-9944-b810-472bff3a0ec6/3._U667a_U80fd_U590d_U76d8_U5206_U6790_U4f18_U52a3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/32/46/193246e7-d0c4-41b7-7c24-913d2298bb3d/4._U9898_U5e93_U8bad_U7ec3_U63d0_U5347_U68cb_U529b.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/fa/db/e4fadbe1-4faa-89cf-4658-dfa4adc28aa6/5._U63ed_U68cb_U5bf9_U5f08_U4e09_U5206_U8fd0_U6c14.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/08/57/b5085724-242f-bc89-71df-a60ea81bee8b/6._U7ffb_U7ffb_U73a9_U6cd5_U4f11_U95f2_U5a31_U4e50.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/0f/95/b80f95d7-36e2-fafd-9951-3befb34faebd/8._U5728_U7ebf_U8bfe_U7a0b.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/94/34/30943402-c05c-3022-0109-62cc1c416d9e/9._U68cb_U793e_U4ea4_U6d41_U5207_U78cb_U68cb_U827a.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/d3/12/e2d312d6-af66-2153-a5c0-1cfad3782019/tns.xztobkrr.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/26/0c/91260c12-c005-a7f3-51bd-590cf13a35be/tns.nlkodixu.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/22/bf/ad22bfea-4a26-16a8-a5e3-ddd0872b8881/tns.rpfvbtxi.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/16/b1/fd16b1e2-b082-ae52-00ec-366fb1925fc8/tns.uqdpbwqw.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/6e/61/ea6e6117-ecd2-8010-cb29-f7da2998cda4/tns.laqnxbga.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/a8/de/7da8decc-945f-8b54-cb81-4006c643c290/tns.vgspxdpm.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/45/1c/25451cb2-1b73-5390-2575-d29f5186ce4a/tns.gkkpxiou.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bc/d2/03bcd242-dc2e-994b-f647-a8362fff97b3/tns.gvgqxpbb.jpg/626x1112bb.jpg"
+    ],
+    "description": "《天天象棋》是腾讯出品的中国象棋，除了象棋、揭棋、翻棋三大玩法，还增加学棋模块，助力棋友棋力大涨。\n【棋力评测】棋友公认的棋力评测系统，新增局势分析。\n【智能复盘】智能复盘分析对局招法优劣，报告对局质量，从错误中温故知新。\n【题库训练】千年经典残局和真实对局6万多道习题，训练残局杀法和中局战术。\n【在线课程】从入门到基础杀法、开局布局、中局战术，初学者系统学棋的好帮手。\n【大师课程】30+签约大师直播及视频课程教学，让你深入了解顶尖棋手的思维模式。\n【棋社私人房】随时随地开展比赛切磋棋艺，收获友谊。\n【棋谱收藏】海量古谱，大师棋谱，赛事棋谱及时更新。\n【残局闯关】挑战难度逐渐上升的关卡。\n【翻翻棋】休闲娱乐，寻找儿时记忆的玩法。\n【揭棋】源于港澳台地区，无AI作弊的象棋新玩法。\n\n【自动订阅服务说明】\n--订阅周期：1个月。\n--订阅价格：单月订阅30元/月，自动订阅24元/月。\n--自动订阅的账号，会在每个月到期前24小时，自动在 iTunes账户扣费并延长1个月的特权有效期。\n--如需取消订阅，请手动打开苹果手机“设置”-->进入 “iTunes Store与App Store”-->点击“Apple ID”，选择“查看Apple ID”，进入“账户设置”页面，点击“订阅”，选择天天象棋特权，取消订阅即可。如未在订阅期结束的至少24小时前取消订阅，此特权将会自动续订。\n--隐私政策：https://rule.tencent.com/rule/preview/38a6f77a-753f-4919-858b-ca713e1c5260\n--会员服务协议：http://image.qqchess.qq.com/ok/html/vipservice.html\n--自动续费协议：http://image.qqchess.qq.com/ok/html/vipautopay.html",
+    "release_notes": "1.首届冠军联赛开启\n2.大师视频解说更新\n3.修复棋友反馈bug，提升游戏体验",
+    "file_size_bytes": 295690240,
+    "min_os": "14.0",
+    "version": "4.4.6.4",
+    "release_date": "2010-12-07",
+    "rating": 3.2416,
+    "rating_count": 20683,
+    "price": "免费",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E8%B1%A1%E6%A3%8B/id403941510?uo=4",
+    "fetched_at": "2026-09-15T21:49:12+08:00"
+   }
+  },
+  {
+   "name": "Tasty Travels: Merge Game",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "ranks": {
+    "ios/美区免费榜": 15
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Century Games Pte. Ltd.",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Tasty Travels: Merge Game",
+    "country": "us",
+    "track_id": 6471045672,
+    "seller": "Century Games Pte. Ltd.",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/45/bb/e045bb47-6e25-55e1-c687-8e64a7dea9d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/2c/cb/fb2ccbfa-a1d9-a599-cc97-9dbfe4a96ff1/1290x2796-0_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/5d/bf/665dbf0a-25e4-abd8-8e1b-5d5222e44fb9/1290x2796-1a_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/df/30/0fdf3004-300a-6169-599a-d7a58713d760/1290x2796-2_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/ff/e4/82ffe412-e086-2481-4b57-8cb088914b89/1290x2796-3_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/9b/d6/af9bd61d-39d8-7649-5253-98a5e2871a3a/1290x2796-4_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/9e/13/0f9e1305-2274-311e-11fa-33b2cbdd7309/1290x2796-5_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/2a/e6/d82ae693-9601-9ffd-c8b7-5d04a24e545e/1290x2796-ios-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/17/e2/1e17e235-8ab3-009f-eac1-4d94bd3eb829/1290x2796-6_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/63/5e/5e635eca-ebea-78bf-49e5-dc9d58043ae8/2048x2732-0_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/95/b8/c995b8e2-ff95-0925-d4bb-a0235b8418ac/2048x2732-1a_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/04/7d/9a047d2b-9f92-10f9-26d2-7b891fc8ff76/2048x2732-2_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/22/9b/74229b8a-d1f5-2bfe-b842-d2a374ab703b/2048x2732-3_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/5b/0a/325b0aaa-a226-7e03-3b44-498709103c82/2048x2732-4_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/3f/31/7a3f3138-a570-a6e1-876d-00492e88af44/2048x2732-5_english.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/1b/02/891b028d-f073-9b58-c894-874ffea0ef17/2048x2732-ios-1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/79/b1/c579b1a5-5d9b-cbd0-e7bc-75a3f35f5886/2048x2732-6_english.jpg/626x1112bb.jpg"
+    ],
+    "description": "Embark on a culinary journey in Tasty Travels: Merge Game, where your passion for cooking meets the excitement of exploration! Merge ingredients to create mouth-watering dishes as you travel the world!\n\nUnlock the secrets of world cuisine, master regional specialties, and share your gastronomic tales with friends everywhere!\n\nStay connected with Tasty Travels: Merge Game on Facebook for exclusive offers and updates!\nFacebook: https://www.facebook.com/profile.php?id=61551040873010\n\nMerge Ingredients \n • Discover and merge over 500 unique ingredients across different levels!\n • Drag and merge ingredients in your home kitchen to whip up fabulous new dishes!\n • Complete quests for tourists to unlock new recipes and destinations, from renowned culinary capitals to quaint town squares!\n\nSocial Interaction \n • Connect with friends worldwide, share your culinary adventures, and earn their admiration!\n • Share recipes to enhance your food adventures and host delightful virtual cooking parties!\n\nUnlock Travel Destinations \n • Collect coins to unlock exciting new travel destinations, from bustling town markets to serene garden parks!\n • Visit and savor the ambiance of the world's most celebrated culinary cities, each brimming with unique flavors and traditions!\n • Dive into the immersive challenges scattered across each new destination, solving culinary-themed puzzles to progress!\n • Unearth hidden gems in charming towns, where local chefs challenge you with their master recipes.\n\nEngaging Stories \n • Embark on a captivating story that takes you through various towns, each with its own mystery and unique recipes to uncover!\n • Help a young girl realize her dream of becoming a vlogger, exploring her family's secrets as she travels the world with her friends.",
+    "release_notes": "Minor bug fixes and improvements.",
+    "file_size_bytes": 714832896,
+    "min_os": "12.0",
+    "version": "63.0",
+    "release_date": "2024-04-11",
+    "rating": 4.618,
+    "rating_count": 50746,
+    "price": "Free",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/us/app/tasty-travels-merge-game/id6471045672?uo=4",
+    "fetched_at": "2026-09-15T21:49:15+08:00"
+   }
+  },
+  {
+   "name": "意味怖ストーリー:バッドエンドを回避せよ!",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 18
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "CHICKEN SKIN LLC",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 11,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "意味怖ストーリー：バッドエンドを回避せよ！",
+    "country": "us",
+    "track_id": 6762239563,
+    "seller": "CHICKEN SKIN LLC",
+    "genres": [
+     "Games",
+     "Simulation",
+     "Adventure"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/5f/d4/bf5fd431-4758-2e79-cd5c-eaeb46cdcd0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/c0/5b/6dc05b2e-6053-b35b-df4e-e0720895a6ac/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/62/43/6d62431a-e41f-50d0-dc8b-e8474b52df6e/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/c6/f6/a6c6f620-db85-a88c-8ca8-5ce58c6e0ee7/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/73/c1/1e73c1f6-d3e0-87c8-6314-e78e2d49858d/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/cc/0f/eccc0f3d-0e39-93f7-b326-d53445edf714/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/86/44/4b8644ae-94bb-e9ae-dcd3-020f3f584bbf/6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5e/df/1d/5edf1dd6-9784-bd1f-dbc5-1d3d6eee7b70/7.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/2e/50/922e50ac-9c03-6cc2-81c9-70975c7e78ab/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/80/db/7980db3b-7b0c-8b29-9da7-b2b0dbd5504c/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/f2/0c/6af20cd1-e73f-8a46-27a8-893a053b06ab/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/91/b3/b191b3a1-6589-365a-28a0-d976f30fc501/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/c3/d9/57c3d9a3-a5dc-c384-676d-f401f0f2958c/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/92/b9/5f92b94c-a8ae-d3c1-f007-b552968c141d/6.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/53/d8/5c53d8fe-aed8-2bd1-5a7a-ad60131133d7/7.png/626x1112bb.jpg"
+    ],
+    "description": "会話の違和感を見抜き、\nBAD ENDを回避する意味怖ストーリーゲームです。\n\n普通の会話をしているだけなのに、\nなんとなく怖い。\n\n相手の返答。\nちょっとした違和感。\n何気ない選択。\n\nその違和感を見逃すと、\n恐ろしい結末につながるかもしれません。\n\n空気を読みながら、\n相手を刺激しないように、\n危険を回避してください。",
+    "release_notes": "・新しいステージを追加しました\n・一部ステージの演出を調整しました",
+    "file_size_bytes": 610705408,
+    "min_os": "18.0",
+    "version": "1.0.6",
+    "release_date": "2026-06-14",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/%E6%84%8F%E5%91%B3%E6%80%96%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E3%83%90%E3%83%83%E3%83%89%E3%82%A8%E3%83%B3%E3%83%89%E3%82%92%E5%9B%9E%E9%81%BF%E3%81%9B%E3%82%88/id6762239563?uo=4",
+    "fetched_at": "2026-09-15T21:49:18+08:00"
+   }
+  },
+  {
+   "name": "全民单挑篮球",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 12
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "武汉爆鸣互娱科技有限公司",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 12,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:49:21+08:00"
+   }
+  }
+ ]
+}

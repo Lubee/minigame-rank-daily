@@ -1,0 +1,420 @@
+[
+  {
+    "name": "我的花园世界",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos Creator",
+      "engine_evidence": "confirmed",
+      "dimension": "2D",
+      "art_style": "扁平卡通风，古风花坊场景 + 人物立绘 + 数百种鲜花/花瓶贴图",
+      "dims": {
+        "engine": 2,
+        "art": 4,
+        "anim": 3,
+        "physics": 1,
+        "logic": 4,
+        "data": 5,
+        "server": 3,
+        "audio": 2
+      },
+      "dim_notes": {
+        "data": "五档品级(凡/普/珍/华/仙) + 每种花独立经验升级线 + 多货币体系(金币/元宝/花坊币/代钞/水滴) + 公会/订单/图鉴长线循环，数值体系极深",
+        "art": "690MB 包体含数百种鲜花与花瓶贴图、人物立绘、大量花坊/古镇场景，成体系美术资产量偏重",
+        "logic": "培育→种植→收获→订单交付→解锁新花种的核心循环外加背包/体力调度，系统编排较复杂",
+        "physics": "纯点击式模拟经营，无物理/碰撞/刚体需求，1 分"
+      },
+      "asset_notes": "2D 卡通贴图，可用 AI 生图 + 人工修图批量产出；无 3D 资产，素材层不是主要瓶颈，瓶颈在内容量",
+      "notes": "成熟模拟经营框架 + 自研花艺养成与多货币经济，技术风险低但内容生产量很大；引擎已由开发商 Cocos Creator 招聘 JD 证实"
+    },
+    "play": {
+      "core_loop": "培育花种→种入花田浇水→等 CD 收获鲜花→完成顾客/居民/宫廷订单换资源→解锁新花种与地皮，一局即一次种植-收获-交付循环，靠体力与订单节奏驱动每日复访。",
+      "highlights": [
+        "花开花落的即时收获动画 + 概率掉落「鲜花贺卡」，把单局爽感接到「填地址收真实花束」的线下惊喜",
+        "每种花独立升级与品级(凡→仙)收集，提供清晰的长线目标与氪金锚点",
+        "好友「偷花」+ 公会竞赛，把单机种植变成轻度社交竞争，提升留存"
+      ],
+      "innovations": [
+        "「种虚拟花、寄真实花束」的线上线下联动营销，是区别于同类模拟经营的最大差异点（属运营创新而非玩法创新）",
+        "以女频短剧式逆袭剧情(出轨丈夫→独立养花)做前期吸量包装，剧情嵌而不重"
+      ],
+      "target_user": "25-45 岁女性向休闲用户，偏好治愈/种田/剧情",
+      "monetization": "IAP 内购为主(体力/资源礼包/限定花种)，辅以去广告；付费卡体力和稀缺资源",
+      "lifecycle": "长线运营，靠每日订单、公会活动、赛季与限定花种持续拉回收"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "核心种植-订单循环是成熟模拟经营框架，机制零门槛、技术风险低；真正的差异化在于「花艺题材 + 线下真花」包装与首关留存设计，同题材换皮即可成立。原产品已高度验证，但同类女性向经营赛道拥挤。",
+      "suggestions": [
+        "换题材到「茶艺工坊 / 汉服裁缝铺 / 宠物美容院」，用同类种植-订单循环替换花艺外壳",
+        "保留「线上玩、线下寄实物」的联动作为差异化钩子，但换成低成本的实体周边(贴纸/种子卡)",
+        "首关把堆叠层数/资源缺口后移，把失败点推到第 5 关之后以保首留"
+      ],
+      "risks": [
+        "女性向模拟经营品类已饱和，买量 CPA 偏高",
+        "「线下寄真花」成本高、难复制，照搬会拖垮毛利",
+        "厦门麟贝已凭此 IP 占榜，同题材正面撞车风险高"
+      ],
+      "effort": "40–60 人日（1 前端 + 1 美术 + 1 策划，基于成熟小游戏基建）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "引擎为 Cocos Creator，依据厦门麟贝互娱「客户端(COCOS)」招聘 JD（要求 2 年以上 Cocos Creator 经验、项目含模拟经营）", "level": "confirmed"},
+      {"claim": "包体 690MB，含数百种鲜花/花瓶贴图与大量场景，美术资产量偏重", "level": "confirmed"},
+      {"claim": "海外由厦门摩多科技(Modo Game)以 My Garden Life / My Garden Tale 发行，国内微信端由厦门麟贝互娱发行", "level": "confirmed"},
+      {"claim": "核心循环为种植-收获-订单交付的模拟经营，无物理需求", "level": "confirmed"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C/id6746321359?uo=4",
+      "https://www.quanzhi.com/job/69b05ec53e67084e25d9848e",
+      "https://www.baijing.cn/m/article/55006",
+      "https://zh.moegirl.tw/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9B%AD%E4%B8%96%E7%95%8C"
+    ]
+  },
+  {
+    "name": "空格之境",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Cocos Creator",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "淡雅国风水墨江南，俯瞰视角古镇，立绘对话 + 棋盘二合",
+      "dims": {
+        "engine": 2,
+        "art": 2,
+        "anim": 2,
+        "physics": 1,
+        "logic": 4,
+        "data": 4,
+        "server": 2,
+        "audio": 2
+      },
+      "dim_notes": {
+        "logic": "13 级合成链(原始织机→手摇缫车→…) + 订单交付 + 背包库存规划，合成树与关卡逻辑较复杂",
+        "data": "阅历等级/体力经济/建筑解锁/探案剧情进度多线养成，比重度 SLG 浅但比纯二合深",
+        "physics": "纯拖拽合成与点选交互，无物理/刚体模拟，1 分"
+      },
+      "asset_notes": "2D 国风贴图，93MB 轻量包体，素材量不大；美术风格(淡雅江南)辨识度高但生产可控",
+      "notes": "二合 + 经营 + 探案剧情的组合，机制成熟；引擎依据微信小游戏主流技术栈(微信小游戏以 Cocos Creator / LayaAir 为主)推断，未找到官方确认。注意：微信小游戏/应用宝开发者为「江西启游互动科技有限公司」，而 App Store 卖方字段为「Jiangxi Mengrao Interactive Entertainment(江西梦饶互娱)」，两者主体不完全一致，疑为同厂多主体或发行分工，已如实标注"
+    },
+    "play": {
+      "core_loop": "拖两个同类素材合成升级产物→双击交付订单换铜钱/锤子→用资源修复织坊建筑、推进探案剧情，一个棋盘格上的二合循环串起短线与长线双留存。",
+      "highlights": [
+        "前期订单节奏极慢(完成 1-2 单才刷新)，无限时焦虑，纯碎片化解压",
+        "「轻订单 + 探案剧情」双循环：剧情推进提升阅历等级直接奖励体力，把看剧情变成资源的一环",
+        "建筑自由摆放触发「连携」效率加成，提供经营策略爽点"
+      ],
+      "innovations": [
+        "把欧美卡通/萌宠二合换皮到「淡雅江南织坊 + 穿越嫡女探案」国风题材，差异化辨识度高",
+        "剧情选择直接奖励体力，使叙事嵌入资源循环而非外部包装"
+      ],
+      "target_user": "女性占比超 70% 的国风休闲用户，偏好慢节奏经营",
+      "monetization": "IAA + IAP 混合：体力清零弹「免费补充」看广告，内购卖灵玉/礼包/加速",
+      "lifecycle": "长线运营，靠双端(微信/抖音)同频爬榜与赛季活动维持"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "二合核心机制在赛道内已高度成熟且饱和，照搬机制即成立，瓶颈完全在题材与美术包装(古风江南)。研发主体是原创 IP 而非同厂换皮矩阵，因此直接换题材复制即可，无需结构改动。",
+      "suggestions": [
+        "换题材到「修仙丹炉 / 西游取经 / 末世废土工坊」，保留棋盘二合 + 轻订单 + 剧情奖励体力的双循环",
+        "把「探案剧情」换成更易量产的文字互动模板，降低剧情生产成本",
+        "首关把合成链压到 5-8 级，把卡关点后移以保首留"
+      ],
+      "risks": [
+        "二合赛道极度饱和(柠檬微趣等头部占榜)，买量 CPA 高",
+        "国风题材已被本作占榜，正面撞车风险高",
+        "微信/抖音/Tap 多端码池隔离与版号主体分工复杂，发行合规需注意"
+      ],
+      "effort": "25–40 人日（1 前端 + 1 美术 + 0.5 策划）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "微信小游戏/应用宝开发者为「江西启游互动科技有限公司」(应用宝 ID wx0e0531466ba56547)", "level": "confirmed"},
+      {"claim": "App Store 卖方字段为「Jiangxi Mengrao Interactive Entertainment(江西梦饶互娱科技有限公司)」，与微信端主体不一致", "level": "confirmed"},
+      {"claim": "玩法为棋盘二合 + 订单经营 + 探案剧情，合成链达 13 级", "level": "confirmed"},
+      {"claim": "引擎推断为 Cocos Creator(微信小游戏主流引擎)，未找到官方技术确认", "level": "inferred"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E5%A2%83/id6771265430",
+      "https://sj.qq.com/appdetail/wx0e0531466ba56547"
+    ]
+  },
+  {
+    "name": "Mahjong Blast",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "柔和扁平，大字号麻将牌，干净留白布局，多主题世界",
+      "dims": {
+        "engine": 2,
+        "art": 3,
+        "anim": 2,
+        "physics": 1,
+        "logic": 3,
+        "data": 2,
+        "server": 1,
+        "audio": 2
+      },
+      "dim_notes": {
+        "art": "486MB 包体，含数千手工关卡 + 多主题世界背景与麻将牌皮肤，素材量中等偏重",
+        "physics": "纯点击配对消除，无物理/刚体，1 分",
+        "server": "100% 离线单机，无联网/排行榜/云存档，1 分",
+        "logic": "关卡可解性校验与数千关梯度设计需要算法支撑，但规则本身简单"
+      },
+      "asset_notes": "2D 麻将牌贴图 + 主题背景，皮肤可程序化换色；无 3D，素材层轻",
+      "notes": "经典麻将接龙(mahjong solitaire) + 现代包装，机制零门槛；引擎未公开确认，依据同类麻将接龙手游常见技术栈推断为 Unity。开发商 HURELAX PTE. LTD.(新加坡，2024 成立)以 Nebula Studio 名义发布，前身 Mahjong Wonders"
+    },
+    "play": {
+      "core_loop": "在立体麻将牌堆里点选两张相同且未被压住的牌配对消除，清空整盘即过关，一局 1-3 分钟，纯离线、无计时压力。",
+      "highlights": [
+        "大字号麻将牌 + 干净布局，消除瞬间顺滑动画，对成年/老年用户友好",
+        "100% 无广告干扰(官方主打)，靠内购去广告，体验纯净",
+        "数千手工关卡 + 每日谜题，提供持续可玩内容"
+      ],
+      "innovations": [
+        "无实质玩法创新，属经典 mahjong solitaire 的现代美术/体验优化(大牌面、离线、无广告)"
+      ],
+      "target_user": "成年/老年偏好的解压、脑训练、离线用户",
+      "monetization": "IAP 为主(去广告订阅/提示道具)，宣称无强制广告",
+      "lifecycle": "长线运营，靠关卡更新与每日谜题维持"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "经典麻将接龙机制零门槛、无版权与品牌壁垒；本作差异仅在美术风格、主题世界与离线纯净体验，直接换皮即成立。机制属公共领域玩法原型。",
+      "suggestions": [
+        "换主题到「国风园林 / 节日 / 动漫授权 IP」麻将牌皮肤，复用同一配对消除内核",
+        "在保留离线的基础上加入轻度广告变现(过关后激励视频)，提升 ROI",
+        "增加「每日挑战 + 全球排行榜」轻联网要素拉留存"
+      ],
+      "risks": [
+        "品类极老、同质化严重，差异化难做",
+        "买量 CPA 高，纯 IAP 回收慢",
+        "无品牌壁垒，易被快速复制导致价格战"
+      ],
+      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "开发商 HURELAX PTE. LTD.(新加坡)，品牌 Nebula Studio，前身为 Mahjong Wonders", "level": "confirmed"},
+      {"claim": "100% 离线、无强制广告，包体约 462-486MB", "level": "confirmed"},
+      {"claim": "引擎推断为 Unity，未找到官方技术确认", "level": "inferred"}
+    ],
+    "sources": [
+      "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=4",
+      "https://foxdata.com/en/app-marketing-analytics/6747492600/as/US/mahjong-blast/",
+      "https://iosapps.de/spiele/mahjong-blast/"
+    ]
+  },
+  {
+    "name": "星布谷地",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "confirmed",
+      "dimension": "3D",
+      "art_style": "3D 卡通渲染(Q 版)，拟人毛绒动物友邻，可塑星球地貌与家具",
+      "dims": {
+        "engine": 5,
+        "art": 5,
+        "anim": 4,
+        "physics": 3,
+        "logic": 5,
+        "data": 5,
+        "server": 5,
+        "audio": 4
+      },
+      "dim_notes": {
+        "engine": "Unity 基础上自研 AI NPC 跨玩家/跨会话记忆与主动输出、UGC 编辑器与多端同步，远超现成框架",
+        "art": "3.47GB 包体，含 3D 角色/家具/地貌/动物海量资产与卡通渲染，素材量顶格",
+        "logic": "UGC 创造系统 + AI 社交 NPC + 多星球建造探索 + 装修，系统复杂度顶格",
+        "data": "无抽卡无战力但有长线星球养成、经济循环与 UGC 生态",
+        "server": "多人联机 + 云存档 + 跨端(手机/PC/Switch 2) + AI 服务后端，强联网",
+        "audio": "全定制配乐与角色语音，制作规格高"
+      },
+      "asset_notes": "3D 资产极重，需专业建模/动画/技术美术团队持续产出，小团队在资产与产能上均不可行",
+      "notes": "米哈游(上海米哈游璃月科技)自研 3D 生活模拟，AI NPC + UGC + 多人联机是三大核心壁垒；引擎 Unity 已由萌娘百科、米哈游社招(要求精通 Unity/Unreal)及百度百科(3D 卡通渲染)多方证实。2026 年冬季上线，登陆 iOS/Android/PC/Switch 2"
+    },
+    "play": {
+      "core_loop": "在属于自己的星球上种植/钓鱼/赶海/烹饪→用「露卡活力」改造地貌、建造家园→与拟人动物友邻社交、探索星海，一局即一段生活化经营活动，无体力无战力压力。",
+      "highlights": [
+        "AI 社交 NPC 能记住玩家此前说过的话、识别穿搭风格并主动编故事，营造「活人感」",
+        "无抽卡无战力系统，纯生活模拟减压，反套路爽点",
+        "UGC 创造 + 星空街市社交，提供长线表达与连接目标"
+      ],
+      "innovations": [
+        "把 LLM 驱动的「跨会话记忆 AI NPC」引入生活模拟，解决 NPC 像活人的行业难题",
+        "「种星球 + 改地貌」的星球尺度建造，区别于传统地块农场"
+      ],
+      "target_user": "全年龄休闲/治愈/社交用户，偏好慢节奏与换装建造",
+      "monetization": "未上线，预计 IAP(外观/家具/季票) + 可能混合，具体待公测",
+      "lifecycle": "长线运营，靠 UGC 生态、赛季与社交维持"
+    },
+    "clone": {
+      "verdict": "不建议",
+      "rationale": "米哈游自有 IP + 顶级 3D 制作 + AI NPC/UGC/多人联机三大壁垒，小团队在资产产能、AI 技术与发行上都无法复刻；且直接抄美术/IP 面临高侵权风险，与头部正面竞争无意义。",
+      "suggestions": [
+        "只借鉴「星球生活模拟 + 轻社交」方向，做 2D 轻量版(参考《星露谷》体量的独立产品)",
+        "AI NPC 的记忆/主动交互思路可降配为「预设好感度 + 分支对话」实现",
+        "不要复制美术风格与角色 IP，避免侵权"
+      ],
+      "risks": [
+        "版权/IP 侵权风险(米哈游自有角色与世界观)",
+        "3D + AI + 联机制作成本与团队门槛极高",
+        "与米哈游及腾讯/网易同赛道产品正面竞争，获量困难"
+      ],
+      "effort": "300+ 人日（需专业 3D + AI 团队，预算千万级，不建议立项）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "引擎为 Unity，依据萌娘百科「引擎 Unity」条目、米哈游社招(要求精通 Unity/Unreal)及百度百科(3D 卡通渲染)", "level": "confirmed"},
+      {"claim": "包体 3.47GB，3D 卡通渲染，登陆 iOS/Android/PC/Switch 2", "level": "confirmed"},
+      {"claim": "核心含 AI 社交 NPC(跨会话记忆)、UGC 创造、多人联机", "level": "confirmed"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0/id6776623426?uo=4",
+      "https://mzh.moegirl.org.cn/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0",
+      "https://baike.baidu.com/item/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0/64096424"
+    ]
+  },
+  {
+    "name": "MiniMuse",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "法式少女风 + 日系动漫，分层换装贴图，清新柔和配色",
+      "dims": {
+        "engine": 2,
+        "art": 4,
+        "anim": 3,
+        "physics": 1,
+        "logic": 3,
+        "data": 2,
+        "server": 2,
+        "audio": 2
+      },
+      "dim_notes": {
+        "art": "420MB 含 1500+ 可换发型/五官/服装/配饰分层贴图，素材量大",
+        "physics": "纯 UI 换装与拖拽摆放，无物理/刚体，1 分",
+        "logic": "捏人参数系统 + 剧场编辑(背景/道具/对话气泡) + 高清导出，逻辑中等"
+      },
+      "asset_notes": "2D 分层换装贴图，换装类素材可批量生产；核心是美术风格辨识度而非技术难度",
+      "notes": "本质是 Gacha Club 类捏脸换装创作工具的差异化重制(中文圈称「迷你缪斯/加查」)，技术门槛低，关键在于美术风格与素材库。引擎未公开确认，依据 Gacha 类工具主流技术栈(多为 Unity)推断"
+    },
+    "play": {
+      "core_loop": "从发型/五官/体型/配饰逐层捏人→在衣柜里搭配服装→进 Studio 模式摆背景道具、加对话气泡编排小剧场→一键导出高清图分享，核心乐趣是创作与表达而非过关。",
+      "highlights": [
+        "1500+ 可分层资产 + 自定义调色板，单人设自由度极高",
+        "Studio 模式把角色放进场景编剧情并导出，满足 OC 创作与社交分享欲",
+        "无抽卡无闯关压力，纯创意表达，零挫败"
+      ],
+      "innovations": [
+        "无实质玩法创新，属成熟 Gacha 捏脸框架的美术风格差异化重制(法式少女 + 日系)"
+      ],
+      "target_user": "喜欢人设设计/同人创作的青少年与年轻女性 OC 创作者",
+      "monetization": "IAP 内购(额外素材/资产包)，核心创建工具免费",
+      "lifecycle": "工具型长线，靠素材库更新与社区 UGC 维持"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "捏脸换装框架已被 Gacha Club 等验证成熟，技术零门槛；差异完全在美术风格与素材库丰富度，换皮即成立。需警惕与加查类同人 IP 的擦边风险。",
+      "suggestions": [
+        "换美术风格到「国风汉服 / 赛博朋克 / 像素风」，做出差异化 OC 工具",
+        "强化「剧场导出 + 社区分享」闭环，比单纯捏人更易形成留存",
+        "用 AI 生图补充素材库，降低美术产能压力"
+      ],
+      "risks": [
+        "加查类(Gacha)赛道已有大量竞品且用户忠诚度低",
+        "同人/擦边 IP 素材有侵权与下架风险",
+        "工具型产品变现弱，纯 IAP 回收有限"
+      ],
+      "effort": "20–35 人日（1 前端 + 1 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "开发者 Studio Sirenia，定位角色创建/换装创作工具，含 1500+ 资产与 Studio 模式", "level": "confirmed"},
+      {"claim": "中文圈称「迷你缪斯/加查」，基于加查俱乐部世界观的同人换装创作定位", "level": "confirmed"},
+      {"claim": "引擎推断为 Unity，未找到官方技术确认", "level": "inferred"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/minimuses/id6798905825?uo=4",
+      "https://m.cr173.com/x/1701095",
+      "https://m.9k9k.com/game/380546.html"
+    ]
+  },
+  {
+    "name": "Meowdoku: Brain Puzzle Games",
+    "updated_at": "2026-09-15",
+    "generated_by": "agent",
+    "tech": {
+      "engine": "Unity",
+      "engine_evidence": "inferred",
+      "dimension": "2D",
+      "art_style": "柔和色块 + 卡通猫，Q 版动态反馈，干净浅色布局",
+      "dims": {
+        "engine": 2,
+        "art": 2,
+        "anim": 2,
+        "physics": 1,
+        "logic": 3,
+        "data": 2,
+        "server": 2,
+        "audio": 2
+      },
+      "dim_notes": {
+        "physics": "纯逻辑落子(放猫/标记 X)，无物理/碰撞，1 分",
+        "logic": "「Queens」谜题的合法布局随机生成与可解性校验 + 梯度难度曲线，需要算法支撑",
+        "art": "86MB 轻量包体，色块 + 猫贴图，素材量小"
+      },
+      "asset_notes": "2D 色块 + 猫贴图极轻量，可程序化生成；技术零门槛，瓶颈在关卡生成算法与买量",
+      "notes": "核心机制是公开「Queens」数独变体(每行/每列/每色区仅 1 猫且猫互不相邻)的猫咪换皮，Oakever Games(北京乐信圣文出海发行主体)凭此登顶美区免费榜。引擎未公开确认，依据乐信圣文休闲矩阵常见技术栈推断为 Unity"
+    },
+    "play": {
+      "core_loop": "在彩色分区棋盘里双击放猫，满足「每色区/每行/每列仅 1 猫且猫互不相邻」规则、用单击标 X 排除，3 次失误耗尽即失败，一局即一道逻辑推理谜题，1-3 分钟。",
+      "highlights": [
+        "通关触发猫叫 + 吹号小猫动画，萌系反馈提供明确正激励",
+        "「3 颗心」容错替代倒计时，无焦虑、纯逻辑推导更轻松",
+        "灯泡/猫猫头两类提示道具降低卡关挫败"
+      ],
+      "innovations": [
+        "把 2024 年走红的「Queens」逻辑谜题用猫咪主题 + 扫雷式排除做情感包装，属成熟谜题的微创新换皮而非新机制"
+      ],
+      "target_user": "全年龄解压/脑训练用户，偏好短局逻辑挑战",
+      "monetization": "IAA 为主(过关后激励视频/插屏)，辅以轻 IAP，无强制广告",
+      "lifecycle": "长线运营，靠每日谜题、关卡梯度与买量维持"
+    },
+    "clone": {
+      "verdict": "换肤",
+      "rationale": "核心「Queens」机制是公开免费逻辑谜题(Oakever 自身即猫咪换皮)，照搬机制 + 换题材即成立，无技术或版权壁垒；瓶颈在题材美术与买量效率。",
+      "suggestions": [
+        "换题材到「水果 / 宝石 / emoji / 国风物件」，复用同一 Queens 规则内核",
+        "保留「3 命 + 灯泡提示」容错与广告变现节奏，照搬到新题材",
+        "加「每日挑战 + 全球通关时长榜」轻社交拉留存"
+      ],
+      "risks": [
+        "机制无壁垒，易被更快团队复制导致同质化",
+        "逻辑解谜品类拥挤、买量 CPA 高",
+        "Oakever 已占榜，正面撞车获量困难"
+      ],
+      "effort": "15–25 人日（1 前端 + 0.5 美术）"
+    },
+    "shots": [],
+    "evidence": [
+      {"claim": "开发商 Oakever Games，实为中国厂商北京乐信圣文(新加坡发行主体)出海产品", "level": "confirmed"},
+      {"claim": "玩法为「Queens」数独变体(每色区/行列 1 猫、互不相邻)，猫咪主题换皮", "level": "confirmed"},
+      {"claim": "引擎推断为 Unity，未找到官方技术确认", "level": "inferred"}
+    ],
+    "sources": [
+      "https://apps.apple.com/cn/app/meow-sudoku-cat-puzzle-games/id6781143433?uo=4",
+      "https://news.sohu.com/a/1037891522_122479556",
+      "https://www.baijing.cn/article/55664"
+    ]
+  }
+]

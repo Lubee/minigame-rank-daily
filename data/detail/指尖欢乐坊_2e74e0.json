@@ -1,0 +1,152 @@
+{
+ "schema_version": 1,
+ "name": "指尖欢乐坊",
+ "updated_at": "2026-09-16",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "广州粤良科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 5
+  },
+  "platform_app_ids": {
+   "douyin": "tt53d3256ecdb74eba02"
+  },
+  "first_seen": "2026-09-11",
+  "appearances": 4,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "未知（按轻量休闲卡通推断）",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 2,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "玩法未确认，美术按轻量休闲推断",
+   "logic": "玩法未确认，按休闲轻逻辑推断"
+  },
+  "asset_notes": "未能确认，需实机测试",
+  "notes": "检索未获一手资料，以下为推断，置信度低",
+  "cost_score": 1.88,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "（推断）指尖操作类休闲小游戏，具体核心循环未确认，疑似单局短、一键操作+关卡推进。",
+  "highlights": [
+   "（推断）单局短、操作轻，适配碎片时间"
+  ],
+  "innovations": [
+   "（推断）玩法未确认，无法判断创新点"
+  ],
+  "target_user": "推断泛休闲用户",
+  "monetization": "推断 IAA",
+  "lifecycle": "推断 短平快"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "玩法未确认但为新游榜产品，按休闲换皮逻辑换题材即可；需先实测核心机制。",
+  "suggestions": [
+   "先实机确认机制再立项",
+   "若为指尖操作类，参考同类做一键解压"
+  ],
+  "risks": [
+   "玩法美术均未确认",
+   "抖音新游榜依赖买量"
+  ],
+  "effort": "待确认（预估 15–30 人日）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "指尖欢乐坊为广州粤良抖音小游戏，玩法未确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%8A%96%E9%9F%B3%E5%B0%8F%E6%B8%B8%E6%88%8F/68584728"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:52+08:00"
+ },
+ "slug": "指尖欢乐坊_2e74e0",
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "指尖操作类休闲踩中碎片时间轻操作需求，本作登抖音**新游榜**最好**第 5**、仅**4 天**在榜，题材新鲜但机制待实测"
+    },
+    {
+     "lens": "用户",
+     "text": "推断为单局短、一键操作，规则认知通用，搬进产品存量用户零教学，但需先实机确认核心机制再立项"
+    },
+    {
+     "lens": "业务",
+     "text": "玩法未确认但按休闲换皮逻辑，题材与美术可低成本换，可整块搬进活动位做指尖解压专区（待实测）"
+    },
+    {
+     "lens": "业务",
+     "text": "抖音新游榜依赖买量、生命周期短，现在自有休闲位若空着易被同款吸走，先做低成本的验证位比盲目买量稳"
+    }
+   ],
+   "how": [
+    "先实机确认核心机制再立项，确认后把「指尖一键操作」搬成常驻解压专区，入口挂休闲位",
+    "复刻同类一键解压的连击反馈做广告节奏，按频次A/B校准自有激励视频点"
+   ],
+   "gain": [
+    "一套待实测的轻量指尖解压模块，确认后约 15–30 人日可复用",
+    "沉淀「一键操作+连击反馈」解压范式，可复用到其他休闲玩法",
+    "不占主玩法排期，验证失败不影响主线",
+    "规避盲目买量：先做自有验证位承接自然量，省掉一轮新游买量实验"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "广州粤良科技自研自发，玩法未确认，无明确对外通道，需先实机确认",
+    "若为指尖操作类，换皮联运有空间，但须先谈清机制授权与买量分工"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "电商指尖试用",
+     "how": "把「指尖一键操作」换成「滑动试用商品」，连击换试用打卡，接品牌内容"
+    },
+    {
+     "scene": "品牌互动打卡",
+     "how": "每日指尖任务换积分，一键操作接会员体系"
+    }
+   ]
+  },
+  "summary": "指尖解压机制待实测后搬；对外可观望"
+ }
+}

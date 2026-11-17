@@ -1,0 +1,25 @@
+// Runtime config for the dashboard.
+//
+// Supabase URL + publishable key (a.k.a. anon key) below are safe to
+// expose in a public repo — they're the same tier of secret as any
+// browser-side key. Row-Level Security policies on the database
+// (defined in Supabase SQL editor) are what actually gate access.
+window.APP_CONFIG = {
+  // Bump when publishing a new static data snapshot. Stable URLs allow
+  // browsers and GitHub Pages to reuse cached JSON between visits.
+  ASSET_VERSION: "20260915d",
+  SUPABASE_URL: "https://pjwwwxanhtvzkscumedm.supabase.co",
+  SUPABASE_KEY: "sb_publishable_Iv1KM4p6hceRR16rB61x1w_Wy7LMJsj",
+  PROFILE_ADMIN_KEY: "pF25wrJOEzjL4lUcg3ZM7ThuVXb9IYfq",
+};
+
+// The profile page talks to Supabase before it can render its first record.
+// Open the connection while the parser is still processing the document so
+// DNS/TLS setup overlaps HTML and script loading.
+try {
+  const preconnect = document.createElement("link");
+  preconnect.rel = "preconnect";
+  preconnect.href = window.APP_CONFIG.SUPABASE_URL;
+  preconnect.crossOrigin = "";
+  document.head.appendChild(preconnect);
+} catch (e) {}

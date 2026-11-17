@@ -1,0 +1,231 @@
+{
+ "batch": 7,
+ "total_batches": 7,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_7.json",
+ "games": [
+  {
+   "name": "Word Search Explorer",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 19
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "PlaySimple Games",
+   "first_seen": "2026-08-21",
+   "appearances": 22,
+   "best_rank": 17,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.935,
+    "match_name": "Word Search Explorer - Puzzel",
+    "country": "cn",
+    "track_id": 6752920897,
+    "seller": "Quang Thu Nguyen",
+    "genres": [
+     "游戏",
+     "娱乐",
+     "益智解谜",
+     "字谜"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/a9/f8/eea9f8be-b15a-b968-7eea-16a7b5dfea83/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/14/fc/2514fc72-fbd8-88a7-0f3b-7553e874ab38/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/62/42/d162426b-3027-c954-0512-ce1fcaedb08b/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/0d/f2/030df2cc-87e1-52d2-85d2-11701ff280b1/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/1a/73/491a73a1-bac5-8cc2-1af9-384a4368fb26/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/07/fc/f407fc0d-cbab-613c-59ff-189c46adb04b/2.png/626x1112bb.jpg"
+    ],
+    "description": "Embark on a fun and relaxing word adventure with Word Search Explorer!\nDiscover hundreds of word search puzzles designed to challenge your mind, boost your vocabulary, and keep you entertained anytime, anywhere.\n\n◉ How to Play\nSwipe to connect letters and form hidden words. Each level brings new challenges and exciting themes to explore.\n\n◉ Features\n\nThousands of puzzles to enjoy\n\nDaily challenges and special rewards\n\nEasy to play, hard to master\n\nBeautiful designs and relaxing music\n\nPlay offline anytime, no Wi-Fi needed\n\nWhether you want to relax after a long day or train your brain with stimulating puzzles, Word Search Explorer is the perfect choice. Suitable for players of all ages!\n\nDownload now and start your word-finding journey today!",
+    "release_notes": "- Add New Future\n- Update UI\n- Update Performance",
+    "file_size_bytes": 33428480,
+    "min_os": "13.0",
+    "version": "1.1",
+    "release_date": "2025-09-25",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "免费",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/cn/app/word-search-explorer-puzzel/id6752920897?uo=4",
+    "fetched_at": "2026-09-15T21:49:40+08:00"
+   }
+  },
+  {
+   "name": "ゴシップハーバー:マージ & ストーリー",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 20
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Microfun Limited",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 18,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:49:44+08:00"
+   }
+  },
+  {
+   "name": "完全没难度",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 19
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "成都木木互娱科技有限公司",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 19,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:49:48+08:00"
+   }
+  },
+  {
+   "name": "Fish Sort Puzzle:フィッシュソート泡を消そう",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "ranks": {
+    "ios/日区免费榜": 19
+   },
+   "category_l1": "ゲーム",
+   "category_l2": "",
+   "publisher": "Shycheese",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 19,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:49:52+08:00"
+   }
+  },
+  {
+   "name": "生肖挖挖乐",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 20
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "庆阳趣玩网络科技有限责任公司",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 20,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:49:55+08:00"
+   }
+  },
+  {
+   "name": "Block Crush!",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 18
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Wonderful  Studio",
+   "first_seen": "2026-08-24",
+   "appearances": 21,
+   "best_rank": 30,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Block Crush！",
+    "country": "us",
+    "track_id": 1638139403,
+    "seller": "WONDERFUL TYCOON LIMITED",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Entertainment",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/6f/2b/b36f2b4a-21eb-6371-7124-d4e2b707b2ee/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/a0/2e/15a02e64-b98b-ccec-ebd6-331fcf58f05d/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/8d/82/8a8d82db-c9f3-c159-e38f-be386b5d7469/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/e8/bb/e1e8bb7c-9d18-5e5b-8f43-598eb912e6be/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/30/01/a3300189-bb83-7e36-2c03-83faf56afc5d/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/af/24/16af2419-8898-7593-9211-fb724cde7a3a/5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/05/ba/5f05ba20-caf4-b555-f440-1691a8833bb4/1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/b5/4b/a5b54b86-a253-9d64-e90e-42789a2ec4e8/4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/4b/d9/6a4bd9e2-41bb-8189-b35c-893618b8fd98/2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/4d/8e/eb4d8ed4-8400-55ea-a03b-9eb5f2147396/3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/6d/c5/506dc535-9710-9665-7176-a5f65000c627/5.png/626x1112bb.jpg"
+    ],
+    "description": "Block Crush is a classic block puzzle game designed around clear boards, simple rules, and structured logic. It offers a focused block puzzle experience where gameplay is easy to understand from the first move and remains consistent throughout each session.\n\nIn this block puzzle game, players place blocks of different shapes onto the board to complete full rows or columns. Clearing lines creates space and allows the block puzzle to continue. Each move requires planning and spatial awareness to keep the board playable for as long as possible.\n\nClassic Block Puzzle Gameplay\nBlock Crush follows familiar classic block puzzle mechanics. Blocks appear in various shapes and must be placed carefully to avoid filling the board. Completing rows or columns clears space and keeps the block puzzle gameplay flowing without interruption.\n\nThe board layout remains clean and consistent, allowing players to focus entirely on block placement logic without time limits, pressure, or unnecessary visual distractions.\n\nHow to Play\n• Place blocks onto the board\n• Complete rows or columns to clear space\n• Plan moves to manage available areas\n• Continue playing as long as space remains\n• Try a new daily block puzzle challenge\n• Play offline anytime\n\nFeatures\n• Classic Block Puzzle Game — clear rules and simple logic\n• Clean Board Design — easy to read and visually structured\n• Daily Block Puzzle Mode — refreshed puzzle layouts each day\n• Smooth Controls — intuitive drag-and-drop placement\n• Offline Puzzle Play — no internet connection required\n• No Ads Mode — uninterrupted block puzzle sessions\n\nA Focused Block Puzzle Experience\nBlock Crush is a logic-based block puzzle built for players who enjoy structured gameplay and thoughtful decision-making. With consistent mechanics and readable boards, it delivers a reliable block puzzle experience suited for repeated play.\n\nDownload Block Crush and enjoy a classic block puzzle game with clean design, offline support, and straightforward gameplay—free to play and designed for focus.",
+    "release_notes": "This update brings performance improvements and a smoother gameplay experience.",
+    "file_size_bytes": 426544128,
+    "min_os": "15.0",
+    "version": "4.1.3",
+    "release_date": "2022-08-05",
+    "rating": 4.84837,
+    "rating_count": 144688,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/block-crush/id1638139403?uo=4",
+    "fetched_at": "2026-09-15T21:49:59+08:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "batch": 2,
+ "total_batches": 7,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_2.json",
+ "games": [
+  {
+   "name": "兵器王者",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 19
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "青岛蓝飞互娱科技股份有限公司",
+   "first_seen": "2026-06-30",
+   "appearances": 64,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:13+08:00"
+   }
+  },
+  {
+   "name": "我要消光光",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 10
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "上海密幂科技有限公司",
+   "first_seen": "2026-09-03",
+   "appearances": 11,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:16+08:00"
+   }
+  },
+  {
+   "name": "蓝色星原:旅谣",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 3
+   },
+   "category_l1": "角色扮演",
+   "category_l2": "二次元、开放世界、冒险、动作、养成、收集",
+   "publisher": "蛮奈网络",
+   "first_seen": "2026-07-06",
+   "appearances": 54,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "蓝色星原：旅谣",
+    "country": "cn",
+    "track_id": 6754017631,
+    "seller": "Shanghai ManNai Network Technology Co., Ltd",
+    "genres": [
+     "游戏",
+     "角色扮演",
+     "冒险"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/6f/71/8e6f710c-03f5-9a08-870d-ebb5f9ebc221/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/e5/57/1ce557d1-4879-3966-df8b-c2ef1f10950c/_U3010_U624b_U673a_U301101__U6211_U5168_U90fd_U8981_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/05/87/72058778-33b8-6f3e-3581-02047ffb6d5c/_U3010_U624b_U673a_U301102_BOSS_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/1c/4d/631c4d47-e878-e80b-b46f-2dcbfe1cfd5e/_U3010_U624b_U673a_U301103__U5750_U9a91_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/bd/7b/b1bd7b16-ddfd-3ad7-dbc3-70ef7d335ddf/_U3010_U624b_U673a_U301104__U5947_U6ce2_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/b5/25/bdb5256d-b937-bd14-e71f-e892312d6a47/_U3010_U624b_U673a_U301105__U5bb6_U56ed_0802.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/db/b2/c4dbb2bc-6418-633c-4fd9-f520c7c2affd/_U3010iPad_U301101__U6211_U5168_U90fd_U8981_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ad/5a/07ad5abc-7f38-e6e6-db71-dfba985c052c/_U3010iPad_U301102_BOSS_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/c5/34/0dc5344e-c934-7932-9b51-be5d560bf3bb/_U3010iPad_U301103__U5750_U9a91_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7d/55/97/7d559763-9475-572c-e8fd-c3c18e9c93ef/_U3010iPad_U301104__U5947_U6ce2_0802.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/27/3f/e7273fe3-0ed7-631f-fdf0-3e8aec4a0b1d/_U3010iPad_U301105__U5bb6_U56ed_0802.jpg/626x1112bb.jpg"
+    ],
+    "description": "【顶级美术实力，多人社交幻想世界】\n老牌二游厂商的顶级审美和美术实力，追求卓越、比肩二游旗舰的品质。细腻的建模、材质与光影，让少女们的面部表现、服装设计和战斗姿态自然且鲜活；广阔的大陆、有趣的奇波生态，充满张力的剧情与演出，共同织就一幅可以自由探索的幻想画卷。你可以深入遗迹追寻古老传说，也可以在群星之下驻足远望，也可以叫上三五好友，在城市中合影聊天，一同分享美好时光。\n\n【与美少女邂逅，踏上心动冒险之旅】\n在这片名为普罗米利亚的大陆上，你会在不同的故事里邂逅众多性格各异的少女。她们拥有不同的身份性格与故事，也将在这段旅途中与你相识同行、并肩迎敌。你们会共同穿越森林、城邦与古老遗迹，最终在一次次冒险中逐渐了解彼此。每一次坚定同行、每一句珍贵约定，都将化作旅途中动人的回忆，谱写出只属于你的歌谣。\n \n【收集奇波伙伴，领略丰富星原生态】\n普罗米利亚各处都活跃着名为“奇波”的生物，它们拥有不同的成长阶段、独一无二的特点和习性，共同构成了这片大陆的生态。你可以观察到它们在原野、森林、水域甚至空中的生活，发现不同族群之间真实有趣的互动；也可以寻找可靠的伙伴，彼此认可进行星结。无论是探索未知还是与强敌交锋，奇波都会成为你不可或缺的伙伴，陪你领略这片大陆的奇幻旅程。\n \n【打造专属家园，置身其中享受治愈时光】\n在家园中，你可以亲手开垦土地、种植孵化和制作装备，也可以和少女们进行温馨互动。同时，奇波伙伴也可以入驻家园，它们可以帮助你进行种植、采集、制作与生产，陪你见证作物生长、资源积累和家园的日渐繁荣。暂别外界的喧嚣，在家园度过的悠闲时光里，感受每一次互动带来的满足，每一次耕耘带来的丰收吧。\n \n【超爽操作体验，行云流水的战斗节奏】\n与少女们和奇波伙伴们并肩作战，在快节奏的战斗中进行格挡、闪避、连携等爽快操作。不同职业定位、属性与奇波能力彼此呼应，让队伍搭配和临场决策都拥有更多可能。另外，还可以与朋友们组队挑战，获得不一样的战斗体验。相信所有反馈拉满的打击、富有张力的动作与爽快连贯的节奏，都能给你带来酣畅淋漓的战斗体验。\n\n\n【关注我们】\n《蓝色星原：旅谣》官方网站：https://azurpromilia.manjuu.com/\n《蓝色星原：旅谣》官方微信：蓝色星原旅谣\n《蓝色星原：旅谣》官方微博：@蓝色星原旅谣\n《蓝色星原：旅谣》B站动态：https://space.bilibili.com/3546569016085336/dynamic",
+    "release_notes": "美少女、奇波、大世界，我全都要！",
+    "file_size_bytes": 3330390016,
+    "min_os": "15.0",
+    "version": "0.0.2",
+    "release_date": "2026-12-31",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "",
+    "advisory": "17+",
+    "url": "https://apps.apple.com/cn/app/%E8%93%9D%E8%89%B2%E6%98%9F%E5%8E%9F-%E6%97%85%E8%B0%A3/id6754017631?uo=4",
+    "fetched_at": "2026-09-15T21:48:18+08:00"
+   }
+  },
+  {
+   "name": "指尖幻影",
+   "boards": [
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 3
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "海南异界科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 64,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "指尖幻影",
+    "country": "cn",
+    "track_id": 6748455249,
+    "seller": "Wuhan Full Blossom Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "策略"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/e8/93/e6e893da-d3de-54d8-4880-247e691e5d30/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/05/41/5d05410f-21d1-16ef-356d-bbeb13b89843/1242-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/85/08/d0850804-676a-a4d7-bfab-fe93fcaada0d/1242-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/f6/da/50f6da58-b899-9373-2a39-7625168f68f0/_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/34/66/de/3466def7-9612-6d6a-3240-69e47e0ce574/1242-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/e7/91/b6e791e6-6e28-6488-ac6b-dbba383daa39/1242-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/22/9a/a0229aaf-0b8b-bf90-598c-bb6c5b38fa10/2064-_U5272_U8349_U65e0_U53cc.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/a5/5a/aaa55a0c-beb0-090f-3083-4c1ad3ef0eb3/2064-_U82f1_U96c4_U767b_U573a.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/c2/cc/46c2cc4e-ad62-2d60-23e4-1a94c6055a7e/2064-_U8089_U9e3d_U5bf9_U51b3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/d5/2b/27d52b46-f7dd-3e2c-7bad-d34bf2a01d3a/2064-_U8d85_U5f3a_U88c5_U5907.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/eb/92/0aeb9249-0abe-1b73-6066-a66c310929eb/2064-_U6b27_U7687_U4e0a_U7ebf.png/626x1112bb.jpg"
+    ],
+    "description": "游戏内有丰富的地图和各种各样极具特色的boss，以及完全随机武器与技能强化；战斗之余还可以前往武器库研发各种稀有武器，提高各项能力；在玩法上兼具养成趣味与Roguelike的爽感，血脉偾张爽感拉满\n\n\n爽快割草感「一棍倒一片」\n整理背包自定义武器\n科技与魔法是左膀右臂\n局内技能完全随机，自由搭配武器技能以弱胜强\n精美画面+诙谐风格，休闲解压\n作为先锋官的你将依靠背包里的武器组合，独守前线，横扫来袭的怪物和尸潮！",
+    "release_notes": "【优化与调整】\n1、荣耀联盟赛为提高公平性原则，防止个别联盟之间徇私舞弊，初赛第四场的防守雕像，强制采用第三场数据\n2、【时装】【载具】【宠物】【伙伴】界面中，提高/增加可解锁状态的排序\n3、体力扫荡界面增加当前体力信息展示\n【问题修复】\n1、修复联合作战入口红点异常问题\n2、修复武器强化界面消耗的道具数量过多导致数字显示不完全的问题",
+    "file_size_bytes": 1562663936,
+    "min_os": "15.6",
+    "version": "2.64.10",
+    "release_date": "2025-10-15",
+    "rating": 3.05556,
+    "rating_count": 54,
+    "price": "免费",
+    "advisory": "9+",
+    "url": "https://apps.apple.com/cn/app/%E6%8C%87%E5%B0%96%E5%B9%BB%E5%BD%B1/id6748455249?uo=4",
+    "fetched_at": "2026-09-15T21:48:20+08:00"
+   }
+  },
+  {
+   "name": "飞行模拟大师",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 4
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "广州易游互玩科技有限公司",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:24+08:00"
+   }
+  },
+  {
+   "name": "星途天城",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 9
+   },
+   "category_l1": "卡牌",
+   "category_l2": "养成、神话、美少女",
+   "publisher": "广州春芒网络科技有限公司",
+   "first_seen": "2026-08-29",
+   "appearances": 13,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "星途天城",
+    "country": "cn",
+    "track_id": 6503579813,
+    "seller": "Guangzhou Mengqu Information Technology Co., Ltd.",
+    "genres": [
+     "游戏",
+     "策略",
+     "卡牌"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/f4/89/eef48920-2e16-e497-2638-4bf5039cd0d9/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/5d/1a/a25d1aaf-4ed2-9b5b-5b4e-42c13b07d753/_U9996_U9875-_U62f7_U8d1d.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ae/13/21/ae13212d-17f1-2e07-0907-548715e36753/_U6307_U5c16_U7b56_U7565-_U767e_U53d8_U642d_U914d.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/72/fa/f572fa44-9f56-a888-645e-5fb997886d22/_U65b0_U5361_U79d2_U4e0a.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/80/91/878091c0-22db-0d17-61c6-6f5414b84eec/_U795e_U683c_U89c9_U9192-_U5171_U62b5_U707e_U5384.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/70/62/c5706203-33f8-9fb8-0c10-894d85352de2/_U8f7b_U5ea6_U63a2_U7d22-_U5de1_U6e38_U5929_U57ce.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/60/6d/31606dc4-d4a9-eb54-0724-62aec1ad8b26/f_U003f_U0026MsgID_U003d3910050645186805125_U0026skey_U003d@crypt_59f012f4_d2823ad19f0653b6034d3cfc9b728086_U0026mmweb_appid_U003dwx_webfilehelper.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/fc/49/6afc499c-09f1-b2e1-4745-f02fa9d4b9dd/2.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/12/d4/8712d477-0283-601a-82a2-fe78d9271332/3.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/27/4d/6c274d03-8648-d7d6-3bea-32c1c6b593aa/4.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/a9/04/43a904f6-5bae-9b44-bbc2-d0fdf400e814/5.jpg/626x1112bb.jpg"
+    ],
+    "description": "【游戏简介】\t\n\t\t\t\t\n《星途天城》是一款轻探索策略卡牌革新之作。\t\t\t\t\t\n游戏以19世纪工业幻想为背景，结合蒸汽朋克、神秘学、神话等题材，构建了一个多文明的幻想大陆。\t\t\t\t\t\n无法根治的感染病与名为不洁者的怪物遍布世界，预言中未知的神明和灾厄即将再度降临。\t\t\t\t\t\n而你，作为异世界的“神明”即将展开一场全新、未知、怪诞的旅途。\t\n\n\n【游戏特色】\n\n【降神觉醒，共抵灾厄】\n“你”是来自异世界的原初之神，在这个众神混灭的时代，唯有你能再度引发神迹。帮助众多星灵重塑神格觉醒三阶形态，与他们一起抵抗灾厄，守护天城！\n\n【蒸汽幻想，巡游天城】\n驾驶飞艇单手畅游埃努玛浮空世界，探索复古蒸汽天城。七大地区奇遇不断，在星河与不同风格的城市中探索未知。\n\n【指尖策略，百变搭配】\n打破传统卡牌的数值压制，创造丰富耐玩的回合制战斗体验。主角职业无损切换，技能百种组合搭配，巧用星灵进阶、元素弱点等战斗机制，持续产生新流派变化，实现回合制策略逆袭。\n\n【新卡秒上，豪华开局】\n全面减负养成压力，放置挂机轻松获取资源；角色等级、进阶进度全局同步，零养成置换成本，抽到新卡无需养成直接上战场。",
+    "release_notes": "星途闪耀，共赴天城。策略手游《星途天城》预约正式开启！",
+    "file_size_bytes": 589846528,
+    "min_os": "12.0",
+    "version": "1.0.1",
+    "release_date": "2026-10-22",
+    "rating": 0,
+    "rating_count": 0,
+    "price": "",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/cn/app/%E6%98%9F%E9%80%94%E5%A4%A9%E5%9F%8E/id6503579813?uo=4",
+    "fetched_at": "2026-09-15T21:48:26+08:00"
+   }
+  }
+ ]
+}

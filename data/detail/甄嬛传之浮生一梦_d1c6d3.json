@@ -1,0 +1,157 @@
+{
+ "schema_version": 1,
+ "name": "甄嬛传之浮生一梦",
+ "updated_at": "2026-09-16",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "深圳乘游科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 7
+  },
+  "platform_app_ids": {
+   "douyin": "tt331945a4ad7d79c102"
+  },
+  "first_seen": "2026-09-06",
+  "appearances": 9,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / Cocos（inferred）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "古风卡通，精致宫廷人物",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 2,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "各渠道包体差异大（34MB~439MB），古风卡通美术量级中等",
+   "logic": "女性向宫斗含剧情分支+换装+养成+社交，系统中等"
+  },
+  "asset_notes": "古风人物与场景立绘为主，美术量中等；核心资产是剧情文本与立绘。",
+  "notes": "深圳乘游科技，甄嬛传正版授权女性向宫斗，IP即壁垒。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "随机生成身份从宫女起步，通过剧情选择、宫斗博弈、换装与红颜/蓝颜互动逐步提升位分，争夺后宫第一。",
+  "highlights": [
+   "剧情分支选择直接改变命运走向的掌控爽感",
+   "华丽宫廷换装与身份彰显的收集欲满足",
+   "宫斗智斗以智逆袭的爽文式反馈"
+  ],
+  "innovations": [
+   "无实质创新，属女性向宫斗养成的成熟品类执行（借甄嬛传IP）"
+  ],
+  "target_user": "女性向、宫斗/古风爱好者，18–35岁",
+  "monetization": "IAP（剧情解锁/时装/抽卡，推测）",
+  "lifecycle": "长线，靠剧情章节与活动维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "甄嬛传为已授权IP，克隆涉及版权风险；且女性向宫斗品类已有大量同类，复刻价值低。",
+  "suggestions": [
+   "若做宫斗用原创剧本替代IP规避风险",
+   "聚焦‘随机身份+分支命运’机制做轻量文字向",
+   "用换装+社交做差异化而非硬蹭IP"
+  ],
+  "risks": [
+   "甄嬛传IP版权（深圳乘游已获授权）",
+   "女性向宫斗同质化严重",
+   "剧情内容产能要求高"
+  ],
+  "effort": "60–100 人日（仅技术侧，不含IP授权）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "甄嬛传正版授权女性向宫斗养成，深圳乘游科技",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎与包体量级",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "http://crsky.com/soft/920233.html",
+  "https://www.cssmoban.com/game/491470.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:11+08:00"
+ },
+ "slug": "甄嬛传之浮生一梦_d1c6d3",
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户被甄嬛传正版授权锁死，随机身份+宫斗分支+华丽换装是IP情怀驱动，本作**9 天在榜**、**最好名次 3**，离开IP无认知基础"
+    },
+    {
+     "lens": "用户",
+     "text": "本作**9 天在榜**但用户基础全靠甄嬛传IP，我们的女性向用户要玩宫斗可直接去同品类授权作，不缺一个无IP的同类"
+    },
+    {
+     "lens": "业务",
+     "text": "甄嬛传为已授权IP，克隆涉及版权风险，且女性向宫斗品类已大量同类，换皮必撞车"
+    },
+    {
+     "lens": "业务",
+     "text": "剧情内容产能要求高，需**60–100 人日**且剧情章节长线维持，复刻价值低"
+    }
+   ],
+   "how": [
+    "只取可迁移的「随机身份+分支命运选择」机制，做原创剧本轻量文字向宫斗，规避IP",
+    "把「换装+身份彰显收集」抽成通用换装组件，复用其收集欲设计"
+   ],
+   "gain": [
+    "规避甄嬛传IP版权风险，不踩授权红线",
+    "仍可拿走「随机身份+分支命运」叙事机制，沉淀为女性向产品的通用模块",
+    "省掉一轮宫斗剧情产能投入，团队无需为文案扩编",
+    "规避与授权同品类产品的直接撞车"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "深圳乘游已获甄嬛传正版授权，IP无对外开放",
+    "女性向宫斗同质化严重，无安全合作点"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "古风品牌联名",
+     "how": "把「换装+身份彰显」改成古风品牌联名换装，做私域会员任务"
+    }
+   ]
+  },
+  "summary": "甄嬛IP锁死不宜搬；只取分支命运机制复用"
+ }
+}

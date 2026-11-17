@@ -1,0 +1,162 @@
+{
+ "schema_version": 1,
+ "name": "拳皇·命运",
+ "updated_at": "2026-09-16",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Wanda Game",
+  "category_l1": "动作",
+  "category_l2": "格斗、竞技、PVP、街机、休闲",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 4
+  },
+  "platform_app_ids": {},
+  "first_seen": "2026-07-11",
+  "appearances": 13,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity / 乐道Valhalla（inferred，来源冲突）",
+  "engine_evidence": "inferred",
+  "dimension": "2D（含3D场景特效）",
+  "art_style": "街机格斗还原，角色立绘+骨骼动画",
+  "dims": {
+   "engine": 4,
+   "art": 4,
+   "anim": 5,
+   "physics": 3,
+   "logic": 4,
+   "data": 3,
+   "server": 4,
+   "audio": 4
+  },
+  "dim_notes": {
+   "engine": "引擎来源冲突：有称乐道Valhalla、有称Unity，均未见官方确认，标inferred",
+   "anim": "格斗游戏需逐帧连招手感与骨骼动画、打击感调校，动画难度最高",
+   "server": "3v3跨服实时对战，网络同步要求高"
+  },
+  "asset_notes": "格斗角色立绘/骨骼动画+技能特效+原声还原，动画与音频是主要成本。",
+  "notes": "银汉研发、腾讯代理、SNK正版授权，格斗品类技术与IP双壁垒。",
+  "cost_score": 3.88,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "选拳皇角色，在3v3或单人对战中用精准出招/连招击败对手，公平竞技无数值加成，排位上分。",
+  "highlights": [
+   "毫秒级出招判定与十割连招的硬核打击爽感",
+   "经典角色（八神/草薙/不知火舞）情怀唤醒",
+   "3v3推塔/跨服KOF的组队博弈"
+  ],
+  "innovations": [
+   "无实质创新，属拳皇IP的移动端格斗还原"
+  ],
+  "target_user": "格斗/街机情怀玩家，18–35岁",
+  "monetization": "IAP（角色/皮肤/升星，推测含数值争议）",
+  "lifecycle": "长线，靠角色/活动维持"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "SNK拳皇IP授权+格斗游戏逐帧手感技术壁垒，复刻既有版权风险也难达打击感。",
+  "suggestions": [
+   "做原创IP的轻量横版格斗验证手感",
+   "用‘简易连招’降低移动端操作门槛差异化",
+   "聚焦单机闯关+异步排行规避实时同步成本"
+  ],
+  "risks": [
+   "SNK拳皇IP版权",
+   "格斗手感调校技术门槛高",
+   "格斗品类买量贵且头部垄断"
+  ],
+  "effort": "200+ 人日（不在中小团队轻松可行范围）"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "SNK正版授权格斗手游，银汉研发、腾讯代理，2D",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎Unity或乐道Valhalla（来源冲突）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%8B%B3%E7%9A%87%C2%B7%E5%91%BD%E8%BF%90/68207789",
+  "https://www.xiagai.com/youxi/26758.html"
+ ],
+ "notes": "",
+ "issues": [
+  "tech.dimension 取值非常规：2D（含3D场景特效）"
+ ],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:37:17+08:00"
+ },
+ "slug": "拳皇_命运_c135f2",
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户被**SNK拳皇正版IP+八神/草薙/不知火舞角色情怀**锁死，要的是正统街机打击感而非通用格斗壳；本作**13 天**在榜、TapTap**预约榜**最好**第 3**"
+    },
+    {
+     "lens": "用户",
+     "text": "我们的泛休闲产品线用户要的是碎片化解压，不缺一套硬核 3v3 格斗（操作门槛高、单局长），强塞会拉高流失"
+    },
+    {
+     "lens": "业务",
+     "text": "壁垒是**SNK拳皇授权+逐帧手感技术**，复刻既有版权风险也难达打击感，与自有产品线（休闲/活动位）冲突"
+    },
+    {
+     "lens": "业务",
+     "text": "格斗品类买量贵且头部（拳皇/街霸）垄断，现在投入重资本做格斗不如守好休闲基本盘，不做的代价仅是放弃高投入低性价比赛道"
+    }
+   ],
+   "how": [
+    "若只取可迁移层，拿「3v3 组队博弈+排位」的社交框架做休闲竞技活动，剥离IP与逐帧手感",
+    "取其「简易连招降低移动端门槛」思路验证轻量横版动作demo，而非完整格斗"
+   ],
+   "gain": [
+    "规避SNK拳皇IP授权费与版权诉讼风险",
+    "省掉格斗逐帧手感调校的重资本投入（200+人日量级）",
+    "还能拿走「组队博弈+排位」的休闲竞技社交范式复用",
+    "团队资源聚焦休闲基本盘，避免在高门槛赛道反复试错"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "SNK正版授权+腾讯代理+银汉研发，IP与发行双锁死，无对外合作入口",
+    "格斗品类资本与版权门槛极高，无换皮或联运空间"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌赛事联动",
+     "how": "只借「排位赛」框架做品牌积分榜，剥离拳皇IP与角色"
+    },
+    {
+     "scene": "电竞主题营销",
+     "how": "把 3v3 博弈包装成品牌战队PK，纯活动层不碰玩法"
+    }
+   ]
+  },
+  "summary": "拳皇IP锁死不宜搬；仅可借排位社交框架"
+ }
+}

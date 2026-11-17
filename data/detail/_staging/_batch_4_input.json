@@ -1,0 +1,242 @@
+{
+ "batch": 4,
+ "total_batches": 7,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_4.json",
+ "games": [
+  {
+   "name": "Smash Land!",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 16
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Flow Games A.S.",
+   "first_seen": "2026-08-21",
+   "appearances": 23,
+   "best_rank": 8,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:47+08:00"
+   }
+  },
+  {
+   "name": "王者舰队",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 9
+   },
+   "category_l1": "角色",
+   "category_l2": "卡牌",
+   "publisher": "北京赫德时代科技有限公司",
+   "first_seen": "2026-07-22",
+   "appearances": 32,
+   "best_rank": 9,
+   "profile_value": "low",
+   "seed": {
+    "gameplay_desc": "海战，回合",
+    "tags": [
+     "海战，回合"
+    ],
+    "notes": "",
+    "developer": "北京赫德时代科技有限公司"
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:51+08:00"
+   }
+  },
+  {
+   "name": "天天台球",
+   "boards": [
+    "douyin/热门榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 14
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "北京喜云网络科技有限公司",
+   "first_seen": "2026-06-29",
+   "appearances": 66,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:55+08:00"
+   }
+  },
+  {
+   "name": "卤蛋兄弟",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 9
+   },
+   "category_l1": "1",
+   "category_l2": "",
+   "publisher": "个人开发者",
+   "first_seen": "2026-09-15",
+   "appearances": 1,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-15T21:48:59+08:00"
+   }
+  },
+  {
+   "name": "Fish Sort Puzzle",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 11
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Shycheese",
+   "first_seen": "2026-09-12",
+   "appearances": 3,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 0.91,
+    "match_name": "Fish Sort Puzzle - Bubble Jam",
+    "country": "us",
+    "track_id": 6771681639,
+    "seller": "SUPLIFE PTE. LTD.",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/86/39/5986391c-4a07-7794-f2a0-016fbca50e38/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/55/fc/5955fcd9-c6a0-634b-b495-6434ca71e782/6.9_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/43/45/2b4345fe-2f42-0b5b-98ed-c4c5a0ba9478/6.9_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/70/f5/3070f548-8924-2902-82e0-69e8cafc1a78/6.9_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/b7/c0/2db7c0c0-12af-b5f2-ed31-b00489f4201e/6.9_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/34/7a/d1347acf-6d20-99e9-6d89-60b6bba682b5/6.9_5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/7b/31/c67b315a-f67b-a6ab-f901-f852d86f3504/0x0ss.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/0c/82/200c82c9-0634-e0d8-b87a-693867f6f03e/ipad_1.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/84/ce/1784ce92-2ce1-3fb8-b87d-0585eee0d444/ipad_2.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/bd/ab/38bdab55-ebd5-5f78-aa91-8e4f3d7be3df/ipad_3.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/57/c708572f-43fd-9f7d-fc20-ae49a548eb34/ipad_4.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/6a/43/1b6a43cb-099f-6063-f7d0-cf338154e602/ipad_5.png/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/c5/f0/2cc5f0c8-0a14-dcea-7df4-8968a3b552e9/0x0ss.png/626x1112bb.jpg"
+    ],
+    "description": "Dive into an underwater adventure!\nTap the fish and watch them swim into their new homes. Each aquarium displays the number of fish it needs. Collect the required amount of each type to complete the collection!\nClear the bubbles below to make way for new ones from above. Eliminate all the bubbles to advance to the next level.\nKeep an eye on the temporary holding area! Any fish that don’t match the target types will go there. But beware, if it fills up, it’s all over!\nReady to test your skills and sort all the aquatic creatures? Join the fun and see how far you can go!",
+    "release_notes": "Added new levels. Come take on the challenge.\nA new limited-time event has begun. Join to win exclusive rewards.",
+    "file_size_bytes": 292459520,
+    "min_os": "13.0",
+    "version": "1.7",
+    "release_date": "2026-05-27",
+    "rating": 4.84478,
+    "rating_count": 1398,
+    "price": "Free",
+    "advisory": "4+",
+    "url": "https://apps.apple.com/us/app/fish-sort-puzzle-bubble-jam/id6771681639?uo=4",
+    "fetched_at": "2026-09-15T21:49:02+08:00"
+   }
+  },
+  {
+   "name": "Gossip Harbor: Merge & Story",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "ranks": {
+    "android/美区免费榜": 13
+   },
+   "category_l1": "Games",
+   "category_l2": "",
+   "publisher": "Microfun Limited",
+   "first_seen": "2026-08-21",
+   "appearances": 25,
+   "best_rank": 9,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": true,
+    "match_score": 1.0,
+    "match_name": "Gossip Harbor®: Merge & Story",
+    "country": "us",
+    "track_id": 1623318294,
+    "seller": "Microfun Limited",
+    "genres": [
+     "Games",
+     "Puzzle",
+     "Casual"
+    ],
+    "genre": "Games",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "screenshots": [
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/d0/40/76d040ad-56c7-8c64-58fb-0c4ca20f3801/help-them-iPx-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/5f/e6/f05fe60f-ebe0-1aac-c69d-d4d52b66ff24/story-iPx-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/4b/7c/ed4b7ca5-cf7a-9903-5c83-1663cfbd51b1/New-Life-iPx-26-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/be/d1/6f/bed16fa5-c2d3-2284-47fe-fecc0b8373d7/Renvoate-2-ipx.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/a3/65/02a365b6-5ef1-ca1a-5311-78193edd7964/ipx-Design-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/74/c4/3874c47e-fe8b-6af6-bfe5-58c50c29abcd/ipx-merge-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/99/0f/ab990fc7-f8dc-71e9-cba4-1935cf7d52eb/ipx-loading-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/1d/c9/a51dc986-994b-b1dd-4f2c-d52e9fbfc829/help-them-iPad-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/11/1b/3f111b64-ff69-5dd5-9101-015001dad94f/story-iPad-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/0f/72/ea0f7294-5590-0f9e-fa38-9b026a6a274c/New-Life-iPad-26-_U82f1.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/d9/8f/fad98f0e-5555-5b68-2656-d848071cc197/Renvoate-2-ipad.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/22/d4/6722d4bc-773e-3b6a-fdfc-8a6858575bed/ipad-Design-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/86/5c/b4865cbf-a8f9-bdac-f6cb-94f6393efba5/ipad-merge-en.jpg/626x1112bb.jpg",
+     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/97/7e/b5977e65-3f9d-5535-de9e-04eab4fd9118/ipad-loading-en.jpg/626x1112bb.jpg"
+    ],
+    "description": "Welcome to Gossip Harbor \nFollow Quinn Castillo as her picture perfect life on Brimwave Island crumbles around her. Divorce, sabotage and secrets. Help answer the question everyone's thinking: Who's trying to ruin her life? \nMerge flavorful dishes, restore and decorate Quinn's restaurant and watch the mystery unfold. \nBut who can you trust in Brimwave? \n\nWhip Up Tasty Dishes\nServe coffee, sandwiches, seafood, and a range of other dishes, to your customers. The more you play, the more dishes you’ll find to add to your menu!\n\nRestore the Restaurant\nRebuild and design the best beach restaurant around! Choose the flooring, wallpaper and furniture to restore restaurant to its former glory! \n\nBuild Relationships\nConverse with customers and hang out with old friends. Or explore the possibility of a new budding romance. \n\nCatch up on the Gossip\nYou'll renovate and merged to reveal clues, and uncover hidden secrets of the residents on Brimwave Island. And perhaps even unveil the Castillo's hidden secrets…\n\nEnjoying Gossip Harbor? Learn more about the game on our Facebook Fan Page!\nhttps://www.facebook.com/GossipHarbor\n\nNeed help? Contact us by sending an email to gossipharbor-service@microfun.com\nWe're here to help you! \n\nPrivacy Policy: https://www.microfun.com/privacy_EN.html\nTerms of Service: https://www.microfun.com/userAgreementEN.html",
+    "release_notes": "NEW EPISODE EVERY FRIDAY!\n- NEW EPISODE: With new chapter updates every Friday; follow Quinn as she exposes secrets and solves puzzles.\n- NEW EVENT:Quinn's investigating a celestial mystery that takes her to the realm of talking rabbits, toads, and mooncakes galore!",
+    "file_size_bytes": 306719744,
+    "min_os": "13.0",
+    "version": "3.98.0",
+    "release_date": "2022-07-07",
+    "rating": 4.62207,
+    "rating_count": 202392,
+    "price": "Free",
+    "advisory": "12+",
+    "url": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=4",
+    "fetched_at": "2026-09-15T21:49:05+08:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+name: Daily Rank Snapshot
+
+on:
+  # 北京时间每日 10:30 + 11:30 双触发（10:00 榜单更新后各留出 30/90 分钟）
+  # 加两个时间是因为 GitHub schedule 偶尔静默跳过某次触发。
+  # 第一次成功后第二次的数据一样，git commit 会跳过——无副作用。
+  schedule:
+    - cron: "30 2 * * *"
+    - cron: "30 3 * * *"
+  # 也允许手动触发
+  workflow_dispatch:
+    inputs:
+      top_n:
+        description: "Top N per board (overrides default)"
+        required: false
+        default: ""
+      force:
+        description: "Overwrite today's snapshot even if already scraped"
+        required: false
+        type: boolean
+        default: false
+      date:
+        description: "Historical re-pull: YYYY-MM-DD to re-scrape a past day via the site's date picker. Empty = today. Implies force on that date."
+        required: false
+        default: ""
+      backfill:
+        description: "Backfill Supabase from existing data/daily/*.json (no re-scrape). Skips scrape/diff; only runs ci_sync in BACKFILL mode. Use to recover history after a DB reset or sync outage."
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        # pycryptodome 供 scripts/scrape_gravity_http.py 解密接口响应（主抓取路径）。
+        # playwright 保留作为兜底：接口签名若变更，浏览器渲染路径可能仍可用。
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright openpyxl pycryptodome
+          python -m playwright install --with-deps chromium
+
+      - name: Scrape daily snapshot
+        if: ${{ github.event.inputs.backfill != 'true' }}
+        env:
+          GRAVITY_AUTH: ${{ secrets.GRAVITY_AUTH }}
+          GRAVITY_TOP_N: ${{ github.event.inputs.top_n }}
+          GRAVITY_FORCE: ${{ github.event.inputs.force }}
+          GRAVITY_DATE: ${{ github.event.inputs.date }}
+        run: python scripts/ci_scrape.py
+
+      - name: Compute diff vs previous day
+        if: ${{ github.event.inputs.backfill != 'true' }}
+        env:
+          GRAVITY_DATE: ${{ github.event.inputs.date }}
+        run: python scripts/ci_diff.py
+
+      - name: Sync snapshot to Supabase
+        # Runs before the git commit so a DB-only failure doesn't leave
+        # the repo out of sync with the DB.
+        #
+        # 未配置 Supabase 时自动跳过（不阻塞抓取与提交）。仓库暂时不需要
+        # 数据库也能完整运行：分析层直接读 data/daily/*.json。
+        # 要启用同步：Settings → Secrets 里加 SUPABASE_URL / SUPABASE_SERVICE_KEY。
+        #
+        # BACKFILL (backfill input = true) replays every existing
+        # data/daily/*.json into Supabase without scraping; GRAVITY_DATE
+        # makes it sync just that re-pulled day instead of latest.json.
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GRAVITY_DATE: ${{ github.event.inputs.date }}
+          BACKFILL: ${{ github.event.inputs.backfill }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "未配置 SUPABASE_URL，跳过 Supabase 同步（不影响数据落库到仓库）。"
+            exit 0
+          fi
+          python scripts/ci_sync_supabase.py
+
+      - name: Commit & push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          DATE="${{ github.event.inputs.date }}"
+          if [ -z "$DATE" ]; then DATE=$(date -u -d "+8 hours" +%F); fi
+          git commit -m "data: $DATE snapshot"
+          git push
+
+      - name: Trigger Pages deploy
+        # GitHub does NOT auto-trigger downstream workflows from a
+        # bot-authored push, so we kick off pages.yml explicitly.
+        if: ${{ success() }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --ref main

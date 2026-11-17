@@ -1,0 +1,165 @@
+{
+ "schema_version": 1,
+ "name": "找个儿不同",
+ "updated_at": "2026-09-16",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "厦门市指丰科技有限公司",
+  "category_l1": "休闲",
+  "category_l2": "消除",
+  "boards": [
+   "wx/人气榜",
+   "wx/畅玩榜"
+  ],
+  "ranks": {
+   "wx/人气榜": 16,
+   "wx/畅玩榜": 19
+  },
+  "platform_app_ids": {
+   "wx": "wx3b074a5ad3884b31"
+  },
+  "first_seen": "2026-08-26",
+  "appearances": 13,
+  "best_rank": 14,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Cocos Creator / Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "卡通温馨成对图片",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 1,
+   "logic": 1,
+   "data": 1,
+   "server": 2,
+   "audio": 1,
+   "physics": 1
+  },
+  "dim_notes": {
+   "anim": "几乎无动画，仅点击标记反馈",
+   "logic": "单规则找茬，无系统",
+   "data": "无成长线，仅关卡解锁 / 图集",
+   "audio": "通用音效，无定制",
+   "physics": "纯点击标记，无物理"
+  },
+  "asset_notes": "核心瓶颈是成对图片素材，可用 AI 生图 / 摄影批量产出，需注意图库版权",
+  "notes": "经典找茬品类，机制零门槛，瓶颈完全在素材与题材",
+  "cost_score": 1.38,
+  "cost_level": "极低"
+ },
+ "play": {
+  "core_loop": "在两幅相似图片中找出指定数量（通常 5 / 12 处）的不同，点击标记，限时或无尽模式下找全即过关。",
+  "highlights": [
+   "「发现了！」的眼力确认爽感",
+   "限时模式的时间压力驱动",
+   "图集 / 主题收集"
+  ],
+  "innovations": [
+   "无实质创新，属于成熟品类的执行优化"
+  ],
+  "target_user": "全年龄观察向用户，亲子互动",
+  "monetization": "IAA（看广告获提示 / 放大镜）",
+  "lifecycle": "长线（持续更新图集）"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "找茬机制零门槛、代码量极小；瓶颈在成对图片素材与题材，换题材 + AI 出图即可差异化。",
+  "suggestions": [
+   "换题材为「国风古画找茬」「品牌联名图」「职场梗图」",
+   "用 AI 批量产出成对图，降低素材成本",
+   "加「放大镜 / 提示」付费道具提升变现"
+  ],
+  "risks": [
+   "影视 / IP 图片涉及素材版权",
+   "品类老旧但换皮仍多"
+  ],
+  "effort": "10–18 人日（1 前端 + 0.5 美术）+ 素材"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为经典找不同 / 找茬",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Cocos/Unity 推断",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://baike.baidu.com/item/%E6%89%BE%E4%B8%8D%E5%90%8C/2465039",
+  "https://www.17yoo.cn/detail/47038"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "fetched_at": "2026-09-15T00:35:52+08:00"
+ },
+ "slug": "找个儿不同_79cdf1",
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "找茬的「发现了！」眼力确认爽感踩中观察向用户的成就感，本作**13 天**在榜、同时登**人气榜与畅玩榜**最好**第 14**，说明亲子/观察场景有稳定需求"
+    },
+    {
+     "lens": "用户",
+     "text": "玩法零门槛（两幅图找不同），全年龄都懂规则、不需要教学，搬进产品首日零理解成本"
+    },
+    {
+     "lens": "业务",
+     "text": "机制零门槛、代码量极小、不依赖独家资源，可整块搬进活动位做「每日找茬」轻栏目"
+    },
+    {
+     "lens": "业务",
+     "text": "瓶颈在成对图片素材，现在若用AI批量出图，自有内容产能正好能补上，不做就缺一个低成本的日更内容钩子"
+    }
+   ],
+   "how": [
+    "把「限时找N处不同」搬成日更栏目：用AI批量产出成对图，入口挂休闲位，一周内看日活复访",
+    "复刻「提示/放大镜」付费道具做广告位（看广告得提示），A/B校准自有激励视频价值"
+   ],
+   "gain": [
+    "一套极小代码的找茬框架，配合AI出图可日更，长期复用",
+    "沉淀「AI批量成对图」素材产能，可复用到其他图集类内容",
+    "不占主玩法排期，验证失败不影响主线",
+    "规避素材版权坑：用原创/AI图替代影视IP图，省掉一轮版权风险排查"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "厦门市指丰科技自研自发，公开规则的找茬品类无对外代理需求",
+    "品类老旧但换皮仍多，无题材授权空间；要参考用其图集创意即可"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌联名图找茬",
+     "how": "把「找不同」换成「找品牌物料差异」，集齐换优惠券，图集接品牌内容"
+    },
+    {
+     "scene": "教育机构看图",
+     "how": "每日找茬换知识点图，找全解锁习题，接教育内容体系"
+    }
+   ]
+  },
+  "summary": "找茬机制可整块搬做日更栏目；对外无合作空间"
+ }
+}
