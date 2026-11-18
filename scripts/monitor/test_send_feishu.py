@@ -63,6 +63,19 @@ class FeishuPayloadTests(unittest.TestCase):
         self.assertIn("[查看完整周报](" + link + ")", content)
         self.assertNotIn("完整正文", content)
 
+    def test_full_report_with_too_many_tables_falls_back_to_summary(self):
+        full_report = "\n\n".join(
+            f"| A{i} | B{i} |\n|---|---|\n| x | y |" for i in range(5))
+        fallback = "# 游戏应用市场周报\n\n摘要\n\n[查看完整周报](https://example.com/report.md)"
+
+        payload, _, used_fallback = prepare_payload(
+            full_report, "example-secret", fallback,
+            timestamp="1700000000")
+
+        self.assertTrue(used_fallback)
+        content = payload["card"]["body"]["elements"][0]["content"]
+        self.assertEqual(content, fallback)
+
 
 if __name__ == "__main__":
     unittest.main()

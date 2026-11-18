@@ -9,6 +9,7 @@ import hashlib
 import hmac
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -20,6 +21,7 @@ import send_wecom as report_sender
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 MAX_BYTES = 20 * 1024
+MAX_TABLES = 4
 EXIT_OK = 0
 EXIT_BADCONFIG = 2
 EXIT_SENDFAIL = 3
@@ -63,12 +65,18 @@ def with_report_link(summary: str, report_url: str) -> str:
     return f"{summary.rstrip()}\n\n[查看完整周报]({report_url})"
 
 
+def markdown_table_count(content: str) -> int:
+    separator = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)+\|?\s*$")
+    return sum(bool(separator.match(line)) for line in content.splitlines())
+
+
 def prepare_payload(content: str, secret: str,
                     fallback_content: str | None = None,
                     timestamp: str | None = None) -> tuple[dict, bytes, bool]:
     payload = build_payload(content, secret, timestamp)
     body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-    if len(body) > MAX_BYTES and fallback_content is not None:
+    if (len(body) > MAX_BYTES or markdown_table_count(content) > MAX_TABLES) \
+            and fallback_content is not None:
         payload = build_payload(fallback_content, secret, payload["timestamp"])
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         return payload, body, True
@@ -165,7 +173,7 @@ def main() -> int:
         else:
             content = report_sender.build_wecom_markdown(
                 data, prefix, report_url, v2=True)
-        style = "完整周报（超限回退精简版）" if args.full else (
+        style = "完整周报（超限时回退精简版）" if args.full else (
             "本周变化卡片" if args.card else "周报摘要")
         print(f"发送周报：{report.name}（{style}）")
 
