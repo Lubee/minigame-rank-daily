@@ -39,7 +39,7 @@ def build_payload(content: str, secret: str, timestamp: str | None = None) -> di
         "msg_type": "interactive",
         "card": {
             "schema": "2.0",
-            "config": {"update_multi": False},
+            "config": {"update_multi": True},
             "body": {
                 "direction": "vertical",
                 "elements": [{"tag": "markdown", "content": content}],

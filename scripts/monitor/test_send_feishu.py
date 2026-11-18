@@ -16,6 +16,7 @@ class FeishuPayloadTests(unittest.TestCase):
         self.assertEqual(payload["msg_type"], "interactive")
         self.assertEqual(payload["timestamp"], "1700000000")
         self.assertEqual(payload["sign"], "Gs3YRutIJpVN2FvEXKXHU6bEj2pVdSriQ0niig9EbUk=")
+        self.assertTrue(payload["card"]["config"]["update_multi"])
         self.assertEqual(
             payload["card"]["body"]["elements"][0],
             {"tag": "markdown", "content": "# 周报\n本周变化"},
