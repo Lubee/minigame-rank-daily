@@ -1,66 +1,23 @@
-"""Scrape the Google Play (Android) US top-free GAMES chart via AppBrain.
+"""Google Play US top-free games via the pinned Node.js scraper.
 
-AppBrain (appbrain.com) aggregates Google Play rankings and server-renders
-them as plain HTML — no JS, no login, no API key needed:
-
-    https://www.appbrain.com/stats/google-play-rankings/top_free/game/us
-
-  - top_free     = free chart
-  - game         = Games category only (also: all / application / per-genre)
-  - us           = United States storefront (also: jp, kr, de, fr, ...)
-
-The page title confirms the chart ("Google Play Ranking: Top Free Games in
-the United States"). Each table row carries:
-  ranking-rank  -> rank
-  /app/{slug}/{package} -> package name
-  app title     -> game name
-  /dev/...      -> developer (publisher, feeds the publisher base)
-  category      -> "Games"
-  rating/installs -> bonus fields (kept on the row, not required downstream)
-
-Why AppBrain and not Google Play directly: play.google.com renders the
-chart client-side — the SSR HTML contains no app data (verified). AppBrain
-is SSR, free, and needs only a plain urllib GET (same philosophy as
-scrape_taptap.py). Known caveat: free-tier rate limits — a 429 appeared
-once during probing, so we retry with backoff and keep to one fetch per
-day. ~100 rows per chart.
-
-Emits the standard snapshot fragment consumed by ci_scrape.py:
-
-    {"label": "Android", "boards": [{"label": "美区免费榜", "rows": [...]}]}
-
-Downstream base/diff/sync treats `android` as a normal platform key;
-publishers automatically enter the publisher base (base.py reads
-rank/name/publisher/category).
+fetch_media retains public listing-image support for store_apps.py.
 """
 from __future__ import annotations
 
 import html as html_mod
 import json
 import re
+import subprocess
 import time
 import urllib.request
+from pathlib import Path
 from typing import Callable
-
-# US free GAMES chart. To add more storefronts, extend with
-# f".../top_free/game/{cc}" — and mirror in site/app.js BOARD_LABELS.
-CHART_URL = (
-    "https://www.appbrain.com/stats/google-play-rankings/top_free/game/us"
-)
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
 
-# One <tr> per ranked app.
-_ROW_RE = re.compile(
-    r'<tr>\s*<td class="ranking-rank">(\d+)</td>(.*?)</tr>', re.S
-)
-_NAME_RE = re.compile(r'<a[^>]*>([^<]+)</a>')
-_DEV_RE = re.compile(r'/dev/[^"]+"[^>]*>([^<]+)</a>')
-_PKG_RE = re.compile(r"/app/[^/]+/([A-Za-z0-9_.]+)")
-_CAT_RE = re.compile(r'class="ranking-category-cell"[^>]*>\s*<a[^>]*>([^<]+)</a>', re.S)
 _PLAY_ICON_RE = re.compile(r'<meta property="og:image" content="([^"]+)"')
 _PLAY_SCREENSHOT_RE = re.compile(r'<img\s+src="([^"]+)"[^>]*\bdata-screenshot-index="\d+"')
 
@@ -100,32 +57,28 @@ def _fetch(url: str, timeout: float = 25, retries: int = 3) -> str:
     raise last_err  # type: ignore[misc]
 
 
-def parse_ranking(html_text: str) -> list[dict]:
-    """Extract ranked rows from the AppBrain rankings table HTML."""
-    rows: list[dict] = []
-    for m in _ROW_RE.finditer(html_text):
-        rk = int(m.group(1))
-        cell = m.group(2)
-        name_m = _NAME_RE.search(cell)
-        pkg_m = _PKG_RE.search(cell)
-        if not name_m or not pkg_m:
-            continue
-        name = html_mod.unescape(name_m.group(1)).strip()
-        if not name:
-            continue
-        dev_m = _DEV_RE.search(cell)
-        cat_m = _CAT_RE.search(cell)
-        publisher = html_mod.unescape(dev_m.group(1)).strip() if dev_m else ""
-        category = html_mod.unescape(cat_m.group(1)).strip() if cat_m else "Games"
-        rows.append({
-            "rank": rk,
-            "name": name,
-            "publisher": publisher,
-            "category": category,
-            "package": pkg_m.group(1),
-        })
-    rows.sort(key=lambda r: r["rank"])
-    return rows
+def _run_scraper(*args: str):
+    # Local Windows jobs may still have Node 18 on PATH; CI uses setup-node.
+    local_node = Path(__file__).resolve().parents[1] / ".runtime" / "node.exe"
+    result = subprocess.run(
+        [str(local_node) if local_node.is_file() else "node", "--use-env-proxy", "--use-system-ca",
+         str(Path(__file__).with_name("googleplay_chart.mjs")), *args],
+        capture_output=True, text=True, encoding="utf-8", check=True, timeout=45,
+    )
+    return json.loads(result.stdout)
+
+
+def fetch_details(package: str) -> dict:
+    """Fetch official listing material only for a selected research target."""
+    if not re.fullmatch(r"[A-Za-z0-9_]+(?:\.[A-Za-z0-9_]+)+", package):
+        raise ValueError("无效 Google Play 包名")
+    try:
+        app = _run_scraper("--app", package)
+    except subprocess.CalledProcessError as error:
+        raise ValueError((error.stderr or str(error)).strip()[:500]) from error
+    if not isinstance(app, dict) or app.get("appId") != package or not app.get("title"):
+        raise ValueError("Google Play 详情缺失或包名不匹配")
+    return app
 
 
 def scrape(top_n: int = 100, log: Callable = print) -> dict:
@@ -136,16 +89,45 @@ def scrape(top_n: int = 100, log: Callable = print) -> dict:
     merge never blocks the rest of the snapshot.
     """
     try:
-        raw = _fetch(CHART_URL)
+        if not isinstance(top_n, int) or not 1 <= top_n <= 100:
+            raise ValueError("Google Play 条数必须为 1–100")
+        apps = _run_scraper(str(top_n))
+        if not isinstance(apps, list) or not apps or len(apps) > top_n:
+            raise ValueError("Google Play 返回空榜或无效榜单")
+        packages = set()
+        rows = []
+        for rank, app in enumerate(apps, 1):
+            package = app.get("appId")
+            name = app.get("title")
+            publisher = app.get("developer")
+            if (not isinstance(package, str)
+                    or not re.fullmatch(r"[A-Za-z0-9_]+(?:\.[A-Za-z0-9_]+)+", package)
+                    or not isinstance(name, str) or not name.strip()
+                    or not isinstance(publisher, str) or not publisher.strip()):
+                raise ValueError(f"Google Play 第 {rank} 条缺少有效包名、名称或开发者")
+            if package in packages:
+                raise ValueError(f"Google Play 包名重复：{package}")
+            packages.add(package)
+            rows.append({
+                "rank": rank, "name": name.strip(), "package": package,
+                "publisher": publisher.strip(), "category": "Games",
+                "url": f"https://play.google.com/store/apps/details?id={package}&gl=US&hl=en",
+                "icon": app.get("icon", ""),
+            })
     except Exception as e:  # noqa: BLE001
-        log(f"[android] 抓取失败（美区免费榜将为空）: {e}")
+        error = str(e)
+        if isinstance(e, subprocess.CalledProcessError):
+            error = (e.stderr or error).strip()[:500]
+        log(f"[android] 抓取失败（美区免费榜将为空）: {error}")
         return {
             "label": "Android",
-            "boards": [{"label": "美区免费榜", "rows": [], "error": str(e)}],
+            "boards": [{"label": "美区免费榜", "source": "google_play",
+                        "rows": [], "error": error}],
         }
-    rows = parse_ranking(raw)[:top_n]
     log(f"[android] 美区免费游戏榜: {len(rows)} 条")
-    return {"label": "Android", "boards": [{"label": "美区免费榜", "rows": rows}]}
+    return {"label": "Android", "boards": [{"label": "美区免费榜",
+            "source": "google_play", "rows": rows,
+            "scraped_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}]}
 
 
 if __name__ == "__main__":

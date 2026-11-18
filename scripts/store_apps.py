@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -12,7 +13,7 @@ from urllib.error import HTTPError
 from urllib.parse import urlencode
 
 from scrape_ios import COUNTRIES, lookup_apps
-from scrape_googleplay import fetch_media as fetch_googleplay_media
+from scrape_googleplay import fetch_details as fetch_googleplay_details
 
 
 def chart_apps(snapshot: dict, platform: str):
@@ -115,15 +116,20 @@ def refresh_ios(apps: dict, keys: list[str], today: str, log):
 
 def refresh_googleplay(apps: dict, keys: list[str], today: str, log):
     cutoff = (date.fromisoformat(today) - timedelta(days=7)).isoformat()
-    pending = [key for key in keys if apps[key].get("media_checked_on", "") <= cutoff]
-    pending.sort(key=lambda key: apps[key].get("media_checked_on", ""))
+    pending = [key for key in keys if apps[key].get("details_checked_on", "") <= cutoff]
+    pending.sort(key=lambda key: apps[key].get("details_checked_on", ""))
     pending = pending[:12]
 
     def fetch(key):
         try:
-            return fetch_googleplay_media(apps[key]["url"])
-        except OSError as error:
-            log(f"[Google Play/{apps[key]['id']}] 图片链接查询失败：{error}")
+            app = fetch_googleplay_details(apps[key]["id"])
+            return {
+                "developer": app.get("developer"), "description": app.get("description"),
+                "version": app.get("version"), "icon": app.get("icon"),
+                "screenshots": app.get("screenshots"),
+            }
+        except (OSError, ValueError, subprocess.SubprocessError) as error:
+            log(f"[Google Play/{apps[key]['id']}] 详情查询失败，保留已有资料：{error}")
             return None
 
     with ThreadPoolExecutor(max_workers=3) as pool:
@@ -131,6 +137,7 @@ def refresh_googleplay(apps: dict, keys: list[str], today: str, log):
             if media is not None:
                 apps[key].update({field: value for field, value in media.items() if value})
                 apps[key]["media_checked_on"] = today
+                apps[key]["details_checked_on"] = today
 
 
 def update_store_apps(snapshot: dict, data_dir: Path, today: str, log=print, *, backfill=False):
@@ -151,7 +158,7 @@ def update_store_apps(snapshot: dict, data_dir: Path, today: str, log=print, *, 
     if include_history:
         keys = [key for key, app in apps.items() if app["platform"] == "ios"]
     refresh_ios(apps, keys, today, log)
-    android_keys = [key for key in reversed(apps) if key.startswith("android:") and "media_checked_on" not in apps[key]]
+    android_keys = [key for key in reversed(apps) if key.startswith("android:") and "details_checked_on" not in apps[key]]
     refresh_googleplay(apps, list(dict.fromkeys([*android, *android_keys])), today, log)
     if apps == previous:
         return

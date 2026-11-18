@@ -272,7 +272,9 @@ function renderDiffTables() {
   }
 
   const baselineEl = $("panel-new-baseline");
-  if (baselineEl) baselineEl.textContent = "对照此榜全部历史快照。";
+  if (baselineEl) baselineEl.textContent = diff?.baseline
+    ? "Google Play 新数据源首次采集，本日建立对比基线。"
+    : "对照此榜全部历史快照。";
 
   const tbodyG = document.querySelector("#tbl-new tbody");
   tbodyG.innerHTML = "";

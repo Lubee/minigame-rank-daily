@@ -23,6 +23,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+import tempfile
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -58,6 +59,52 @@ def resolve_auth(log) -> Path | None:
         return None
     log("未设置 $GRAVITY_AUTH，匿名模式（Top 20）")
     return None
+
+
+def supplement_googleplay(out_path, log):
+    """Repair today's missing Android chart without changing other platforms."""
+    data = json.loads(out_path.read_text(encoding="utf-8"))
+    boards = data.get("platforms", {}).get("android", {}).get("boards", [])
+    if any(b.get("rows") and not b.get("error") for b in boards):
+        log(f"快照 {out_path.name} 已有 Google Play 榜单，跳过")
+        return
+    from scrape_googleplay import scrape
+    fragment = scrape(top_n=100, log=log)
+    board = fragment["boards"][0]
+    if board.get("error") or not board.get("rows"):
+        log("[android] 补采失败，保留已有快照")
+        return
+    data.setdefault("platforms", {})["android"] = fragment
+    day = out_path.stem
+    documents = {}
+    latest = ROOT / "data" / "latest.json"
+    if latest.exists() and json.loads(latest.read_text(encoding="utf-8")).get("date_beijing") == day:
+        documents[latest] = json.dumps(data, ensure_ascii=False, indent=2)
+    history = ROOT / "data" / "history.jsonl"
+    if history.exists():
+        summaries = [json.loads(line) for line in history.read_text(encoding="utf-8").splitlines() if line.strip()]
+        for summary in summaries:
+            if summary.get("date") == day:
+                summary.setdefault("boards", {})["android/美区免费榜"] = len(board["rows"])
+        documents[history] = "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in summaries)
+    # Write the daily snapshot last so an interrupted supplement can be retried.
+    documents[out_path] = json.dumps(data, ensure_ascii=False, indent=2)
+    for path, content in documents.items():
+        temporary = None
+        try:
+            with tempfile.NamedTemporaryFile(dir=path.parent, mode="w", encoding="utf-8", delete=False) as output:
+                temporary = Path(output.name)
+                output.write(content)
+            temporary.replace(path)
+        finally:
+            if temporary is not None:
+                temporary.unlink(missing_ok=True)
+    log(f"[android] 已补采 {len(board['rows'])} 条，更新当天快照与趋势")
+    try:
+        from store_apps import update_store_apps
+        update_store_apps({"platforms": {"android": fragment}}, ROOT / "data", day, log)
+    except Exception as e:
+        log(f"[商店资料] 更新失败，保留当天榜单：{e}")
 
 
 def scrape_gravity(auth, top_n, daily_dir, hist_date, log):
@@ -114,12 +161,6 @@ def scrape_gravity(auth, top_n, daily_dir, hist_date, log):
 
 def main():
     log = print
-    auth = resolve_auth(log)
-    top_env = os.environ.get("GRAVITY_TOP_N", "").strip()
-    if top_env:
-        top_n = int(top_env)
-    else:
-        top_n = 100 if auth else 20
 
     daily_dir = ROOT / "data" / "daily"
     daily_dir.mkdir(parents=True, exist_ok=True)
@@ -136,7 +177,7 @@ def main():
     day_label = hist_date or now_bj.strftime("%Y-%m-%d")
     out_path = daily_dir / f"{day_label}.json"
 
-    # First-run-of-the-day wins: if today's snapshot already exists, skip.
+    # Keep the first daily snapshot; only repair a missing Google Play chart.
     # The Gravity Engine site occasionally rewrites its own rankings
     # later in the day (e.g. rank 89 changes at 12:00), so subsequent
     # scrapes would overwrite the initial "correct" 10:30 data. Force
@@ -145,13 +186,15 @@ def main():
     # so it implies force — overwriting that past snapshot is the point.
     force = bool(hist_date) or os.environ.get("GRAVITY_FORCE", "").lower() in ("1", "true", "yes")
     if out_path.exists() and not force:
-        log(f"快照 {out_path.name} 已存在，跳过（如需强制覆盖，"
-            f"设置 GRAVITY_FORCE=1）")
+        supplement_googleplay(out_path, log)
         return
 
+    auth = resolve_auth(log)
+    top_env = os.environ.get("GRAVITY_TOP_N", "").strip()
+    top_n = int(top_env) if top_env else (100 if auth else 20)
+
     # Gravity Engine (wx/douyin) is the primary source, but a failure here
-    # must NOT block the auxiliary sources below (taptap/ios are scraped
-    # with stdlib-only modules and may still succeed while gravity-engine
+    # must NOT block the auxiliary sources below (they may succeed while gravity-engine
     # times out — e.g. a transient outage or a slow day). Degrade to a
     # partial snapshot so iOS/TapTap data still lands in the daily file.
     try:
@@ -173,12 +216,11 @@ def main():
     data["scraped_at_beijing"] = now_bj.isoformat(timespec="seconds")
     data["date_beijing"] = day_label
 
-    # Merge auxiliary platforms (separate data sources, scraped with
-    # stdlib-only modules — see scrape_taptap.py / scrape_ios.py /
+    # Merge auxiliary platforms (separate data sources — see scrape_taptap.py / scrape_ios.py /
     # scrape_googleplay.py):
     #   taptap   -> TapTap 预约榜 (SSR JSON-LD)
     #   ios      -> App Store 美/国/日区游戏免费榜 (Apple 官方 iTunes RSS)
-    #   android  -> Google Play 美区免费游戏榜 (AppBrain SSR)
+    #   android  -> Google Play 美区免费游戏榜 (Node.js RPC adapter)
     # Wrapped so a failure never blocks the gravity-engine snapshot for
     # wx/douyin.
     #
@@ -210,7 +252,7 @@ def main():
         ):
             try:
                 mod = __import__(modname)
-                frag = mod.scrape(top_n=top_n, log=log)
+                frag = mod.scrape(top_n=100 if pkey == "android" else top_n, log=log)
                 data.setdefault("platforms", {})[pkey] = frag
                 n_rows = sum(len(b.get("rows", []))
                              for b in frag.get("boards", []))

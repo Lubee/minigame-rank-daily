@@ -65,6 +65,7 @@ def main():
     # base/games.json if it's already in sync. Rebuild is cheap (linear
     # scan) and avoids drift, so we just always rebuild from history.
     base_before = basemod._empty()
+    android_sources = {}
     # 注意：这里不能再写 history_files = files[:-1]。
     # 历史重拉分支已把 history_files 限定为「严格早于目标日」的文件；
     # 若无条件覆盖成 files[:-1]，目标日之后的快照会被折进 base，
@@ -74,8 +75,19 @@ def main():
         snap = json.loads(p.read_text(encoding="utf-8"))
         day = snap.get("date_beijing") or p.stem
         basemod.absorb_snapshot(base_before, snap, day)
+        for board in snap.get("platforms", {}).get("android", {}).get("boards", []):
+            if board.get("rows") and not board.get("error"):
+                android_sources[board["label"]] = board.get("source", "appbrain")
 
     classified = basemod.classify_today(base_before, today_snap, today)
+    for board in today_snap.get("platforms", {}).get("android", {}).get("boards", []):
+        if (board.get("source") == "google_play" and board.get("rows")
+                and not board.get("error") and android_sources.get(board["label"]) != "google_play"):
+            baseline = classified["boards"][f"android/{board['label']}"]
+            for bucket in ("first_anywhere", "first_on_board", "returning", "new_publishers"):
+                baseline[bucket] = []
+            baseline["baseline"] = True
+            baseline["totals"] = dict.fromkeys(baseline["totals"], 0)
 
     # The frontend cares about a single "new to this board" bucket — the
     # difference between "first ever seen anywhere" and "first time on

@@ -3,7 +3,7 @@ name: Daily Rank Snapshot
 on:
   # 北京时间每日 10:30 + 11:30 双触发（10:00 榜单更新后各留出 30/90 分钟）
   # 加两个时间是因为 GitHub schedule 偶尔静默跳过某次触发。
-  # 第一次成功后第二次的数据一样，git commit 会跳过——无副作用。
+  # 当天快照已存在时，只补采缺失的 Google Play 榜单。
   schedule:
     - cron: "30 2 * * *"
     - cron: "30 3 * * *"
@@ -33,6 +33,10 @@ permissions:
   contents: write
   actions: write
 
+concurrency:
+  group: daily-rank-snapshot
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -45,6 +49,15 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Install Google Play dependencies
+        run: npm ci --omit=dev
 
       - name: Install dependencies
         # pycryptodome 供 scripts/scrape_gravity_http.py 解密接口响应（主抓取路径）。

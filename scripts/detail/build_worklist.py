@@ -161,8 +161,9 @@ def collect_from_snapshots(days: int | None) -> dict[str, dict]:
                                      ("publisher", "publisher")):
                         if not rec[dst] and row.get(src):
                             rec[dst] = row[src]
-                    if row.get("app_id"):
-                        rec["app_ids"].setdefault(plat, str(row["app_id"]))
+                    app_id = row.get("package") if plat == "android" else row.get("app_id")
+                    if app_id:
+                        rec["app_ids"].setdefault(plat, str(app_id))
     return out
 
 

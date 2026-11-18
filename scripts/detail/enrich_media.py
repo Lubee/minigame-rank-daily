@@ -37,6 +37,7 @@ import argparse
 import difflib
 import json
 import re
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -47,6 +48,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 DETAIL_DIR = ROOT / "data" / "detail"
 WORKLIST = DETAIL_DIR / "_worklist.json"
 MEDIA = DETAIL_DIR / "_media.json"
@@ -149,9 +151,16 @@ def identity_media(entry: dict) -> dict:
     for path in sorted((ROOT / "data" / "daily").glob("????-??-??.json"), reverse=True):
         snapshot = json.loads(path.read_text(encoding="utf-8"))
         for platform, data in snapshot.get("platforms", {}).items():
+            identities = entry.get("platform_app_ids") or {}
+            if identities.get("android") and platform != "android":
+                continue
             for board in data.get("boards", []):
                 for row in board.get("rows", []):
-                    if norm_name(row.get("name")) != norm_name(entry["name"]):
+                    row_id = row.get("package") if platform == "android" else row.get("app_id")
+                    expected_id = identities.get(platform)
+                    if expected_id and str(row_id) != str(expected_id):
+                        continue
+                    if not expected_id and norm_name(row.get("name")) != norm_name(entry["name"]):
                         continue
                     if row.get("url") and row["url"] not in sources:
                         sources.append(row["url"])
@@ -175,11 +184,26 @@ def identity_media(entry: dict) -> dict:
                     elif platform in ("android", "taptap"):
                         app_id = row.get("package") if platform == "android" else row.get("app_id")
                         known = store.get(f"{platform}:{app_id}")
+                        cutoff = (datetime.now(BEIJING) - timedelta(days=7)).date().isoformat()
+                        if (platform == "android" and app_id
+                                and (not known or known.get("details_checked_on", "") <= cutoff)):
+                            from scrape_googleplay import fetch_details
+                            try:
+                                app = fetch_details(app_id)
+                                known = {
+                                    "name": app["title"], "country": "us", "developer": app.get("developer"),
+                                    "icon": app.get("icon") or "", "screenshots": app.get("screenshots") or [],
+                                    "description": app.get("description") or "", "url": app.get("url") or row.get("url"),
+                                    "version": app.get("version") or "",
+                                }
+                            except (OSError, ValueError, subprocess.SubprocessError) as error:
+                                print(f"[media] {entry['name']} Google Play 查询失败：{error}")
                     else:
                         continue
                     if known:
                         return {
-                            "matched": True, "identity_match": "app_id", "platform": platform,
+                            "matched": True, "identity_match": "package" if platform == "android" else "app_id",
+                            "platform": platform, "package": app_id if platform == "android" else None,
                             "match_name": known["name"], "match_score": 1.0,
                             "country": known.get("country"), "seller": known.get("developer") or known.get("publisher"),
                             "icon": known.get("icon"), "screenshots": known.get("screenshots") or [],
