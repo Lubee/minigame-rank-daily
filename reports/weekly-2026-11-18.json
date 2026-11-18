@@ -1,0 +1,3054 @@
+{
+  "meta": {
+    "generated_at": "2026-11-18T18:00:33+08:00",
+    "week_end": "2026-11-18",
+    "baseline_date": "2026-11-11",
+    "baseline_gap_days": 7,
+    "snapshot_count": 141,
+    "history_start": "2026-06-29",
+    "learned_size": 566,
+    "trend_weeks": 4,
+    "trend_baseline_date": "2026-10-21",
+    "primary_board": "畅销榜",
+    "boards": [
+      "wx/人气榜",
+      "wx/畅销榜",
+      "wx/畅玩榜"
+    ],
+    "data_limit_note": "数据源匿名态每榜仅 TOP20：从榜外（21名以后）升入的会被计为「新进」而非「上升」；「腰部」指榜内 11-20 名。",
+    "site_url": "https://lubee.github.io/minigame-rank-daily/",
+    "clone_board": "微信三榜（畅销/人气/畅玩）TOP20 并集",
+    "clone_pool_size": 48,
+    "clone_index_size": 3854
+  },
+  "boards": [
+    {
+      "platform": "wx",
+      "board": "人气榜",
+      "date": "2026-11-18",
+      "baseline_date": "2026-11-11",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "羊了个羊：星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 1名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b36708406e382cbe105bdccf2fca1da0",
+          "change_direction": "top"
+        },
+        {
+          "rank": 2,
+          "name": "偷吃模拟器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "益智",
+          "change": "--",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0153284981e7ccfc7b4fc379e11b8b05",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 3,
+          "name": "上课偷吃模拟器",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "益智",
+          "change": "--",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/75f42c654440f8074097fdb5eec932c1",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 4,
+          "name": "疯狂收杂物",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 4名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a65524f1ea2cb91e4072a3d363f25402",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 5,
+          "name": "QQ经典农场",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 5名",
+          "publisher": "模拟经营",
+          "change": "深圳市腾讯计算机系统有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/45966eb06e92a14455ad134a095cebb7",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 6,
+          "name": "腾讯欢乐斗地主",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 1名",
+          "publisher": "牌类",
+          "change": "+2",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3346274bed9aabffae3b4fb958caa380",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 7,
+          "name": "不停找找找",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "益智",
+          "change": "长沙指色网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8addc03a4ede61ac3daeb7ecfbf6f401",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 8,
+          "name": "整理师竞争",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 7名",
+          "publisher": "益智",
+          "change": "武汉昀路安洋信息技术有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/096e2cd473bbf7365625c24361510912",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 9,
+          "name": "我带过的最差一届正版",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "益智",
+          "change": "--",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c8f484345555da0359febbcb58f39750",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 10,
+          "name": "抓大鹅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 9名",
+          "publisher": "益智",
+          "change": "青岛蓝飞互娱科技股份有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d85af53c8b419374c68c23931d867133",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "一箭又一箭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "益智",
+          "change": "海南掌趣网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2b80997e88fca1eed8b6a9147852d2e3",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 12,
+          "name": "向末日开炮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "海南易多量科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07f3346ce3cd03764e6cbbbf1a9d7b52",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5fcd26c17fae8f98cc7324486dac864e",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "开心消消乐",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "消除",
+          "change": "乐元素科技(北京)股份有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/13c4bcfdf3ec13ce93d309ef952f6a1c",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 14名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6f1ac8898cfd2673180a9e2e4a3d826",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "一找一个准",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "益智",
+          "change": "长沙指米网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d6642889c973c97ef1dabb9b7959f20a",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "贪吃蛇大作战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "益智",
+          "change": "+2",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4a56206194cf97be05b32771b213b3e2",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "天天斗地主真人版",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 2名",
+          "publisher": "牌类",
+          "change": "+2",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/02c285946634f5250b60b4f4c7dd1667",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "甄嬛传：归来",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "益智",
+          "change": "深圳市拾光筑梦文化传媒有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f46ec606ee313d68c0c7d1b3a1b95697",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "益智闯一关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3000ef283ed7896e698396d13a197b57",
+          "change_direction": "flat"
+        }
+      ],
+      "total": 20,
+      "new_entrants": [
+        {
+          "name": "偷吃模拟器",
+          "rank": 2,
+          "publisher": "益智",
+          "l1": "休闲",
+          "l2": "益智",
+          "streak": 5
+        },
+        {
+          "name": "上课偷吃模拟器",
+          "rank": 3,
+          "publisher": "益智",
+          "l1": "休闲",
+          "l2": "益智",
+          "streak": 3
+        },
+        {
+          "name": "整理师竞争",
+          "rank": 8,
+          "publisher": "益智",
+          "l1": "休闲",
+          "l2": "益智",
+          "streak": 6
+        },
+        {
+          "name": "我带过的最差一届正版",
+          "rank": 9,
+          "publisher": "益智",
+          "l1": "其他",
+          "l2": "其他",
+          "streak": 2
+        },
+        {
+          "name": "躺平发育",
+          "rank": 13,
+          "publisher": "塔防",
+          "l1": "休闲",
+          "l2": "塔防",
+          "streak": 4
+        },
+        {
+          "name": "赵云与阿斗",
+          "rank": 15,
+          "publisher": "塔防",
+          "l1": "角色RPG",
+          "l2": "卡牌",
+          "streak": 4
+        },
+        {
+          "name": "一找一个准",
+          "rank": 16,
+          "publisher": "益智",
+          "l1": "休闲",
+          "l2": "益智",
+          "streak": 3
+        },
+        {
+          "name": "贪吃蛇大作战",
+          "rank": 17,
+          "publisher": "益智",
+          "l1": "休闲",
+          "l2": "益智",
+          "streak": 3
+        },
+        {
+          "name": "甄嬛传：归来",
+          "rank": 19,
+          "publisher": "益智",
+          "l1": "其他",
+          "l2": "其他",
+          "streak": 2
+        }
+      ],
+      "risers": [],
+      "fallers": [
+        {
+          "name": "益智闯一关",
+          "rank": 20,
+          "prev_rank": 10,
+          "delta": -10,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "开心消消乐",
+          "rank": 14,
+          "prev_rank": 7,
+          "delta": -7,
+          "l1": "休闲",
+          "l2": "消除",
+          "publisher": "消除"
+        },
+        {
+          "name": "腾讯欢乐斗地主",
+          "rank": 6,
+          "prev_rank": 2,
+          "delta": -4,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        },
+        {
+          "name": "抓大鹅",
+          "rank": 10,
+          "prev_rank": 6,
+          "delta": -4,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "不停找找找",
+          "rank": 7,
+          "prev_rank": 4,
+          "delta": -3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "一箭又一箭",
+          "rank": 11,
+          "prev_rank": 8,
+          "delta": -3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "向末日开炮",
+          "rank": 12,
+          "prev_rank": 9,
+          "delta": -3,
+          "l1": "休闲",
+          "l2": "塔防",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "天天斗地主真人版",
+          "rank": 18,
+          "prev_rank": 15,
+          "delta": -3,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        }
+      ],
+      "head_stability": {
+        "head_n": 10,
+        "retained": 6,
+        "turnover": 4,
+        "retention_rate": 60.0,
+        "turnover_rate": 40.0,
+        "entered": [
+          "偷吃模拟器",
+          "上课偷吃模拟器",
+          "整理师竞争",
+          "我带过的最差一届正版"
+        ],
+        "exited": [
+          "一箭又一箭",
+          "向末日开炮",
+          "开心消消乐",
+          "益智闯一关"
+        ]
+      },
+      "waist": [
+        {
+          "name": "向末日开炮",
+          "rank": 12,
+          "streak": 106,
+          "l1": "休闲",
+          "l2": "塔防",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "一箭又一箭",
+          "rank": 11,
+          "streak": 51,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "开心消消乐",
+          "rank": 14,
+          "streak": 43,
+          "l1": "休闲",
+          "l2": "消除",
+          "publisher": "消除"
+        },
+        {
+          "name": "躺平发育",
+          "rank": 13,
+          "streak": 4,
+          "l1": "休闲",
+          "l2": "塔防",
+          "publisher": "塔防"
+        },
+        {
+          "name": "赵云与阿斗",
+          "rank": 15,
+          "streak": 4,
+          "l1": "角色RPG",
+          "l2": "卡牌",
+          "publisher": "塔防"
+        },
+        {
+          "name": "一找一个准",
+          "rank": 16,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "贪吃蛇大作战",
+          "rank": 17,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "天天斗地主真人版",
+          "rank": 18,
+          "streak": 3,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        },
+        {
+          "name": "甄嬛传：归来",
+          "rank": 19,
+          "streak": 2,
+          "l1": "其他",
+          "l2": "其他",
+          "publisher": "益智"
+        },
+        {
+          "name": "益智闯一关",
+          "rank": 20,
+          "streak": 2,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        }
+      ],
+      "waist_long": [
+        {
+          "name": "一箭又一箭",
+          "rank": 11,
+          "streak": 51,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "向末日开炮",
+          "rank": 12,
+          "streak": 106,
+          "l1": "休闲",
+          "l2": "塔防",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "开心消消乐",
+          "rank": 14,
+          "streak": 43,
+          "l1": "休闲",
+          "l2": "消除",
+          "publisher": "消除"
+        }
+      ],
+      "waist_short": [
+        {
+          "name": "躺平发育",
+          "rank": 13,
+          "streak": 4,
+          "l1": "休闲",
+          "l2": "塔防",
+          "publisher": "塔防"
+        },
+        {
+          "name": "赵云与阿斗",
+          "rank": 15,
+          "streak": 4,
+          "l1": "角色RPG",
+          "l2": "卡牌",
+          "publisher": "塔防"
+        },
+        {
+          "name": "一找一个准",
+          "rank": 16,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "贪吃蛇大作战",
+          "rank": 17,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "天天斗地主真人版",
+          "rank": 18,
+          "streak": 3,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        },
+        {
+          "name": "甄嬛传：归来",
+          "rank": 19,
+          "streak": 2,
+          "l1": "其他",
+          "l2": "其他",
+          "publisher": "益智"
+        },
+        {
+          "name": "益智闯一关",
+          "rank": 20,
+          "streak": 2,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        }
+      ],
+      "category_structure": {
+        "total": 20,
+        "unclassified": 0,
+        "l1": [
+          {
+            "name": "休闲",
+            "count": 15,
+            "share": 75.0,
+            "examples": [
+              "羊了个羊：星球",
+              "偷吃模拟器",
+              "上课偷吃模拟器"
+            ]
+          },
+          {
+            "name": "棋牌",
+            "count": 2,
+            "share": 10.0,
+            "examples": [
+              "腾讯欢乐斗地主",
+              "天天斗地主真人版"
+            ]
+          },
+          {
+            "name": "其他",
+            "count": 2,
+            "share": 10.0,
+            "examples": [
+              "我带过的最差一届正版",
+              "甄嬛传：归来"
+            ]
+          },
+          {
+            "name": "角色RPG",
+            "count": 1,
+            "share": 5.0,
+            "examples": [
+              "赵云与阿斗"
+            ]
+          }
+        ],
+        "l2": [
+          {
+            "name": "益智",
+            "count": 10,
+            "share": 50.0
+          },
+          {
+            "name": "消除",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "name": "牌类",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "name": "其他",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "name": "塔防",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "name": "模拟经营",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "卡牌",
+            "count": 1,
+            "share": 5.0
+          }
+        ]
+      },
+      "category_trend": {
+        "baseline_date": "2026-10-21",
+        "weeks": 4,
+        "actual_days": 28,
+        "items": [
+          {
+            "name": "其他",
+            "count": 2,
+            "share": 10.0,
+            "prev_share": 0.0,
+            "delta": 10.0,
+            "is_new": true
+          },
+          {
+            "name": "休闲",
+            "count": 15,
+            "share": 75.0,
+            "prev_share": 70.0,
+            "delta": 5.0,
+            "is_new": false
+          },
+          {
+            "name": "角色RPG",
+            "count": 1,
+            "share": 5.0,
+            "prev_share": 5.0,
+            "delta": 0.0,
+            "is_new": false
+          },
+          {
+            "name": "棋牌",
+            "count": 2,
+            "share": 10.0,
+            "prev_share": 25.0,
+            "delta": -15.0,
+            "is_new": false
+          }
+        ],
+        "dropped": []
+      },
+      "concentration": {
+        "total": 20,
+        "distinct_publishers": 5,
+        "top_publishers": [
+          {
+            "publisher": "益智",
+            "count": 12,
+            "share": 60.0
+          },
+          {
+            "publisher": "消除",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "publisher": "模拟经营",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "publisher": "牌类",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "publisher": "塔防",
+            "count": 2,
+            "share": 10.0
+          }
+        ],
+        "top1_share": 60.0,
+        "top3_share": 80.0
+      }
+    },
+    {
+      "platform": "wx",
+      "board": "畅销榜",
+      "date": "2026-11-18",
+      "baseline_date": "2026-11-11",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "向僵尸开炮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 1名",
+          "publisher": "益智",
+          "change": "海南盛昌网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2ff6b3e53aa84522c310ef0ab9765ae4",
+          "change_direction": "top"
+        },
+        {
+          "rank": 2,
+          "name": "三国：冰河时代",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "其他 · 1名",
+          "publisher": "其他",
+          "change": "欢游互动（北京）科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8266f46649fb00772ba1363069d1ab3e",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 3,
+          "name": "浪漫餐厅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "益智",
+          "change": "北京柠檬微趣科技股份有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e6117ad571bb3900200f3927f1b5592",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 4,
+          "name": "向往的生活",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "模拟经营",
+          "change": "深圳市必凡娱乐科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6a81f2015080659e31f805f5b555ae2e",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 5,
+          "name": "向末日开炮",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 4名",
+          "publisher": "模拟经营",
+          "change": "海南易多量科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07f3346ce3cd03764e6cbbbf1a9d7b52",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 6,
+          "name": "无尽冬日",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 1名",
+          "publisher": "对战",
+          "change": "点点互动（北京）科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/23581fa35013fd5ff1c3319332df3482",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 7,
+          "name": "疯狂水世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 5名",
+          "publisher": "模拟经营",
+          "change": "益世界网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f96d902ca11e623ed393c5dc6f92c410",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 8,
+          "name": "造化仙府",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "模拟经营",
+          "change": "上海沛炫网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0107234bc21f91b8d57cfb07f6489014",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 9,
+          "name": "永夜起源",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 1名",
+          "publisher": "卡牌",
+          "change": "广州招崭信息科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5c18378bf8d31e9164dfcfa11e05bff9",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 10,
+          "name": "青云诀之伏魔",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 2名",
+          "publisher": "MMO",
+          "change": "海南元游信息技术有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ca986d9b655de9845ffe6bc210982c49",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "灵画师",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 3名",
+          "publisher": "ARPG",
+          "change": "广州光游网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/af04c4d0bf59cf9d7b30a429fc053532",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 12,
+          "name": "我的花园世界",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 7名",
+          "publisher": "模拟经营",
+          "change": "厦门麟贝互娱科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/56bdf38b0e0dc79934938bd4f73b9850",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 13,
+          "name": "梦幻消除战",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "模拟经营",
+          "change": "广州喜势网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cccc2dbc474523aae89612ebe5866b24",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 14,
+          "name": "奔奔王国",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "竞技 · 2名",
+          "publisher": "对战",
+          "change": "福州点点松云网络有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4fd1672124806da7d544d6190b07faa6",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 15,
+          "name": "跃动小子",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 9名",
+          "publisher": "益智",
+          "change": "波克科技集团有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9b55ac030b0c695137f8079c6524cae2",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 16,
+          "name": "西游灵兽纪",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 4名",
+          "publisher": "ARPG",
+          "change": "--",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7f5252c37d15cccc2a53128def347292",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 17,
+          "name": "腾讯欢乐斗地主",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 1名",
+          "publisher": "牌类",
+          "change": "+2",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3346274bed9aabffae3b4fb958caa380",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "工匠小能手",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "益智",
+          "change": "深圳市飞鸟与鱼科技开发有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fc59c61916efd8fd9e3a58612bcd7a0f",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 19,
+          "name": "空格之境",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "模拟经营",
+          "change": "江西启游互动科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e855d7117ec9c560c1160fc0ea10085",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 20,
+          "name": "道友来挖宝",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "角色 · 5名",
+          "publisher": "回合",
+          "change": "深圳雷霆信息技术有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/58ee1f163b07ece4ebbf6d452512e775",
+          "change_direction": "flat"
+        }
+      ],
+      "total": 20,
+      "new_entrants": [
+        {
+          "name": "梦幻消除战",
+          "rank": 13,
+          "publisher": "模拟经营",
+          "l1": "休闲",
+          "l2": "消除",
+          "streak": 7
+        },
+        {
+          "name": "西游灵兽纪",
+          "rank": 16,
+          "publisher": "ARPG",
+          "l1": "其他",
+          "l2": "其他",
+          "streak": 2
+        },
+        {
+          "name": "道友来挖宝",
+          "rank": 20,
+          "publisher": "回合",
+          "l1": "角色RPG",
+          "l2": "放置RPG",
+          "streak": 2
+        }
+      ],
+      "risers": [
+        {
+          "name": "永夜起源",
+          "rank": 9,
+          "prev_rank": 19,
+          "delta": 10,
+          "l1": "角色RPG",
+          "l2": "卡牌",
+          "publisher": "卡牌"
+        },
+        {
+          "name": "跃动小子",
+          "rank": 15,
+          "prev_rank": 20,
+          "delta": 5,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "浪漫餐厅",
+          "rank": 3,
+          "prev_rank": 6,
+          "delta": 3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "益智"
+        },
+        {
+          "name": "向往的生活",
+          "rank": 4,
+          "prev_rank": 7,
+          "delta": 3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "我的花园世界",
+          "rank": 12,
+          "prev_rank": 15,
+          "delta": 3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        }
+      ],
+      "fallers": [
+        {
+          "name": "疯狂水世界",
+          "rank": 7,
+          "prev_rank": 3,
+          "delta": -4,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "灵画师",
+          "rank": 11,
+          "prev_rank": 8,
+          "delta": -3,
+          "l1": "角色RPG",
+          "l2": "ARPG",
+          "publisher": "ARPG"
+        },
+        {
+          "name": "奔奔王国",
+          "rank": 14,
+          "prev_rank": 11,
+          "delta": -3,
+          "l1": "竞技",
+          "l2": "SLG",
+          "publisher": "对战"
+        },
+        {
+          "name": "腾讯欢乐斗地主",
+          "rank": 17,
+          "prev_rank": 14,
+          "delta": -3,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        },
+        {
+          "name": "空格之境",
+          "rank": 19,
+          "prev_rank": 16,
+          "delta": -3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        }
+      ],
+      "head_stability": {
+        "head_n": 10,
+        "retained": 9,
+        "turnover": 1,
+        "retention_rate": 90.0,
+        "turnover_rate": 10.0,
+        "entered": [
+          "永夜起源"
+        ],
+        "exited": [
+          "灵画师"
+        ]
+      },
+      "waist": [
+        {
+          "name": "灵画师",
+          "rank": 11,
+          "streak": 44,
+          "l1": "角色RPG",
+          "l2": "ARPG",
+          "publisher": "ARPG"
+        },
+        {
+          "name": "奔奔王国",
+          "rank": 14,
+          "streak": 25,
+          "l1": "竞技",
+          "l2": "SLG",
+          "publisher": "对战"
+        },
+        {
+          "name": "腾讯欢乐斗地主",
+          "rank": 17,
+          "streak": 15,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        },
+        {
+          "name": "梦幻消除战",
+          "rank": 13,
+          "streak": 7,
+          "l1": "休闲",
+          "l2": "消除",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "跃动小子",
+          "rank": 15,
+          "streak": 5,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "我的花园世界",
+          "rank": 12,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "工匠小能手",
+          "rank": 18,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "益智"
+        },
+        {
+          "name": "西游灵兽纪",
+          "rank": 16,
+          "streak": 2,
+          "l1": "其他",
+          "l2": "其他",
+          "publisher": "ARPG"
+        },
+        {
+          "name": "空格之境",
+          "rank": 19,
+          "streak": 2,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "道友来挖宝",
+          "rank": 20,
+          "streak": 2,
+          "l1": "角色RPG",
+          "l2": "放置RPG",
+          "publisher": "回合"
+        }
+      ],
+      "waist_long": [
+        {
+          "name": "灵画师",
+          "rank": 11,
+          "streak": 44,
+          "l1": "角色RPG",
+          "l2": "ARPG",
+          "publisher": "ARPG"
+        },
+        {
+          "name": "梦幻消除战",
+          "rank": 13,
+          "streak": 7,
+          "l1": "休闲",
+          "l2": "消除",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "奔奔王国",
+          "rank": 14,
+          "streak": 25,
+          "l1": "竞技",
+          "l2": "SLG",
+          "publisher": "对战"
+        },
+        {
+          "name": "腾讯欢乐斗地主",
+          "rank": 17,
+          "streak": 15,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        }
+      ],
+      "waist_short": [
+        {
+          "name": "我的花园世界",
+          "rank": 12,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "跃动小子",
+          "rank": 15,
+          "streak": 5,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "西游灵兽纪",
+          "rank": 16,
+          "streak": 2,
+          "l1": "其他",
+          "l2": "其他",
+          "publisher": "ARPG"
+        },
+        {
+          "name": "工匠小能手",
+          "rank": 18,
+          "streak": 3,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "益智"
+        },
+        {
+          "name": "空格之境",
+          "rank": 19,
+          "streak": 2,
+          "l1": "休闲",
+          "l2": "模拟经营",
+          "publisher": "模拟经营"
+        },
+        {
+          "name": "道友来挖宝",
+          "rank": 20,
+          "streak": 2,
+          "l1": "角色RPG",
+          "l2": "放置RPG",
+          "publisher": "回合"
+        }
+      ],
+      "category_structure": {
+        "total": 20,
+        "unclassified": 0,
+        "l1": [
+          {
+            "name": "休闲",
+            "count": 10,
+            "share": 50.0,
+            "examples": [
+              "向僵尸开炮",
+              "浪漫餐厅",
+              "向往的生活"
+            ]
+          },
+          {
+            "name": "角色RPG",
+            "count": 5,
+            "share": 25.0,
+            "examples": [
+              "造化仙府",
+              "永夜起源",
+              "青云诀之伏魔"
+            ]
+          },
+          {
+            "name": "竞技",
+            "count": 3,
+            "share": 15.0,
+            "examples": [
+              "三国：冰河时代",
+              "无尽冬日",
+              "奔奔王国"
+            ]
+          },
+          {
+            "name": "其他",
+            "count": 1,
+            "share": 5.0,
+            "examples": [
+              "西游灵兽纪"
+            ]
+          },
+          {
+            "name": "棋牌",
+            "count": 1,
+            "share": 5.0,
+            "examples": [
+              "腾讯欢乐斗地主"
+            ]
+          }
+        ],
+        "l2": [
+          {
+            "name": "模拟经营",
+            "count": 6,
+            "share": 30.0
+          },
+          {
+            "name": "SLG",
+            "count": 3,
+            "share": 15.0
+          },
+          {
+            "name": "塔防",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "name": "放置RPG",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "name": "卡牌",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "MMO",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "ARPG",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "消除",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "益智",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "其他",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "牌类",
+            "count": 1,
+            "share": 5.0
+          }
+        ]
+      },
+      "category_trend": {
+        "baseline_date": "2026-10-21",
+        "weeks": 4,
+        "actual_days": 28,
+        "items": [
+          {
+            "name": "其他",
+            "count": 1,
+            "share": 5.0,
+            "prev_share": 0.0,
+            "delta": 5.0,
+            "is_new": true
+          },
+          {
+            "name": "休闲",
+            "count": 10,
+            "share": 50.0,
+            "prev_share": 50.0,
+            "delta": 0.0,
+            "is_new": false
+          },
+          {
+            "name": "竞技",
+            "count": 3,
+            "share": 15.0,
+            "prev_share": 15.0,
+            "delta": 0.0,
+            "is_new": false
+          },
+          {
+            "name": "棋牌",
+            "count": 1,
+            "share": 5.0,
+            "prev_share": 5.0,
+            "delta": 0.0,
+            "is_new": false
+          },
+          {
+            "name": "角色RPG",
+            "count": 5,
+            "share": 25.0,
+            "prev_share": 30.0,
+            "delta": -5.0,
+            "is_new": false
+          }
+        ],
+        "dropped": []
+      },
+      "concentration": {
+        "total": 20,
+        "distinct_publishers": 9,
+        "top_publishers": [
+          {
+            "publisher": "模拟经营",
+            "count": 7,
+            "share": 35.0
+          },
+          {
+            "publisher": "益智",
+            "count": 4,
+            "share": 20.0
+          },
+          {
+            "publisher": "对战",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "publisher": "ARPG",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "publisher": "其他",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "publisher": "卡牌",
+            "count": 1,
+            "share": 5.0
+          }
+        ],
+        "top1_share": 35.0,
+        "top3_share": 65.0
+      }
+    },
+    {
+      "platform": "wx",
+      "board": "畅玩榜",
+      "date": "2026-11-18",
+      "baseline_date": "2026-11-11",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "羊了个羊：星球",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 1名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b36708406e382cbe105bdccf2fca1da0",
+          "change_direction": "top"
+        },
+        {
+          "rank": 2,
+          "name": "疯狂收杂物",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 2名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a65524f1ea2cb91e4072a3d363f25402",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 3,
+          "name": "不停找找找",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 3名",
+          "publisher": "益智",
+          "change": "长沙指色网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8addc03a4ede61ac3daeb7ecfbf6f401",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 4,
+          "name": "赵云与阿斗",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 4名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6f1ac8898cfd2673180a9e2e4a3d826",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 5,
+          "name": "一箭又一箭",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 5名",
+          "publisher": "益智",
+          "change": "海南掌趣网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2b80997e88fca1eed8b6a9147852d2e3",
+          "change_direction": "down"
+        },
+        {
+          "rank": 6,
+          "name": "抓大鹅",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 6名",
+          "publisher": "益智",
+          "change": "青岛蓝飞互娱科技股份有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d85af53c8b419374c68c23931d867133",
+          "change_direction": "up"
+        },
+        {
+          "rank": 7,
+          "name": "打个螺丝",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 7名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/97ae2031d5d42970e0cf826293d0695c",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 8,
+          "name": "整理师竞争",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 8名",
+          "publisher": "益智",
+          "change": "武汉昀路安洋信息技术有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/096e2cd473bbf7365625c24361510912",
+          "change_direction": "down"
+        },
+        {
+          "rank": 9,
+          "name": "对子乐消消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 9名",
+          "publisher": "消除",
+          "change": "厦门市宙火科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/36e66248557eb6309edc54daed4321db",
+          "change_direction": "up"
+        },
+        {
+          "rank": 10,
+          "name": "指尖快消",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 10名",
+          "publisher": "消除",
+          "change": "厦门营火科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e7bcd97ef0f07e273ec377bde340abc6",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 11,
+          "name": "砖了个砖",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 11名",
+          "publisher": "消除",
+          "change": "北京简游科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c23699e145c0dc74d0a211136931b622",
+          "change_direction": "down"
+        },
+        {
+          "rank": 12,
+          "name": "猪了个猪",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "动作 · 1名",
+          "publisher": "益智",
+          "change": "杭州同趣科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c38648dfe350b66e28185dc691134608",
+          "change_direction": "up"
+        },
+        {
+          "rank": 13,
+          "name": "上个了车",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 12名",
+          "publisher": "益智",
+          "change": "广州指望科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d4cd5f522c9462f319cde715c7847163",
+          "change_direction": "down"
+        },
+        {
+          "rank": 14,
+          "name": "解压闯一关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 13名",
+          "publisher": "益智",
+          "change": "广州探游网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4093c5813c37f9c427965bbdc2ba8557",
+          "change_direction": "down"
+        },
+        {
+          "rank": 15,
+          "name": "解压打毛线",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 14名",
+          "publisher": "益智",
+          "change": "广州池骋网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/108ecdb9b855db5ab69177b2be7253a2",
+          "change_direction": "down"
+        },
+        {
+          "rank": 16,
+          "name": "躺平发育",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 15名",
+          "publisher": "塔防",
+          "change": "北京蜜獾工坊娱乐文化有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5fcd26c17fae8f98cc7324486dac864e",
+          "change_direction": "up"
+        },
+        {
+          "rank": 17,
+          "name": "益智闯一关",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 16名",
+          "publisher": "益智",
+          "change": "广州尊悦文化发展有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3000ef283ed7896e698396d13a197b57",
+          "change_direction": "flat"
+        },
+        {
+          "rank": 18,
+          "name": "一找一个准",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 17名",
+          "publisher": "益智",
+          "change": "长沙指米网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d6642889c973c97ef1dabb9b7959f20a",
+          "change_direction": "down"
+        },
+        {
+          "rank": 19,
+          "name": "掼蛋",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "棋牌 · 1名",
+          "publisher": "牌类",
+          "change": "+2",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7a7b7f31466e9000a9459d579611ac5e",
+          "change_direction": "up"
+        },
+        {
+          "rank": 20,
+          "name": "看谁先上车",
+          "category": "",
+          "category_rank": null,
+          "subcategory": "",
+          "slogan": "休闲 · 18名",
+          "publisher": "益智",
+          "change": "长沙四五互娱网络科技有限公司",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/887a15ac0f50bfa3831353fd8c29d543",
+          "change_direction": "up"
+        }
+      ],
+      "total": 20,
+      "new_entrants": [
+        {
+          "name": "整理师竞争",
+          "rank": 8,
+          "publisher": "益智",
+          "l1": "休闲",
+          "l2": "益智",
+          "streak": 7
+        }
+      ],
+      "risers": [],
+      "fallers": [
+        {
+          "name": "打个螺丝",
+          "rank": 7,
+          "prev_rank": 4,
+          "delta": -3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "解压闯一关",
+          "rank": 14,
+          "prev_rank": 11,
+          "delta": -3,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        }
+      ],
+      "head_stability": {
+        "head_n": 10,
+        "retained": 9,
+        "turnover": 1,
+        "retention_rate": 90.0,
+        "turnover_rate": 10.0,
+        "entered": [
+          "整理师竞争"
+        ],
+        "exited": [
+          "砖了个砖"
+        ]
+      },
+      "waist": [
+        {
+          "name": "砖了个砖",
+          "rank": 11,
+          "streak": 137,
+          "l1": "休闲",
+          "l2": "消除",
+          "publisher": "消除"
+        },
+        {
+          "name": "猪了个猪",
+          "rank": 12,
+          "streak": 137,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "一找一个准",
+          "rank": 18,
+          "streak": 137,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "掼蛋",
+          "rank": 19,
+          "streak": 137,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        },
+        {
+          "name": "解压打毛线",
+          "rank": 15,
+          "streak": 90,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "解压闯一关",
+          "rank": 14,
+          "streak": 89,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "上个了车",
+          "rank": 13,
+          "streak": 55,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "益智闯一关",
+          "rank": 17,
+          "streak": 17,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "看谁先上车",
+          "rank": 20,
+          "streak": 12,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "躺平发育",
+          "rank": 16,
+          "streak": 4,
+          "l1": "休闲",
+          "l2": "塔防",
+          "publisher": "塔防"
+        }
+      ],
+      "waist_long": [
+        {
+          "name": "砖了个砖",
+          "rank": 11,
+          "streak": 137,
+          "l1": "休闲",
+          "l2": "消除",
+          "publisher": "消除"
+        },
+        {
+          "name": "猪了个猪",
+          "rank": 12,
+          "streak": 137,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "上个了车",
+          "rank": 13,
+          "streak": 55,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "解压闯一关",
+          "rank": 14,
+          "streak": 89,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "解压打毛线",
+          "rank": 15,
+          "streak": 90,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "益智闯一关",
+          "rank": 17,
+          "streak": 17,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "一找一个准",
+          "rank": 18,
+          "streak": 137,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        },
+        {
+          "name": "掼蛋",
+          "rank": 19,
+          "streak": 137,
+          "l1": "棋牌",
+          "l2": "牌类",
+          "publisher": "牌类"
+        },
+        {
+          "name": "看谁先上车",
+          "rank": 20,
+          "streak": 12,
+          "l1": "休闲",
+          "l2": "益智",
+          "publisher": "益智"
+        }
+      ],
+      "waist_short": [
+        {
+          "name": "躺平发育",
+          "rank": 16,
+          "streak": 4,
+          "l1": "休闲",
+          "l2": "塔防",
+          "publisher": "塔防"
+        }
+      ],
+      "category_structure": {
+        "total": 20,
+        "unclassified": 0,
+        "l1": [
+          {
+            "name": "休闲",
+            "count": 18,
+            "share": 90.0,
+            "examples": [
+              "羊了个羊：星球",
+              "疯狂收杂物",
+              "不停找找找"
+            ]
+          },
+          {
+            "name": "角色RPG",
+            "count": 1,
+            "share": 5.0,
+            "examples": [
+              "赵云与阿斗"
+            ]
+          },
+          {
+            "name": "棋牌",
+            "count": 1,
+            "share": 5.0,
+            "examples": [
+              "掼蛋"
+            ]
+          }
+        ],
+        "l2": [
+          {
+            "name": "益智",
+            "count": 13,
+            "share": 65.0
+          },
+          {
+            "name": "消除",
+            "count": 4,
+            "share": 20.0
+          },
+          {
+            "name": "卡牌",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "塔防",
+            "count": 1,
+            "share": 5.0
+          },
+          {
+            "name": "牌类",
+            "count": 1,
+            "share": 5.0
+          }
+        ]
+      },
+      "category_trend": {
+        "baseline_date": "2026-10-21",
+        "weeks": 4,
+        "actual_days": 28,
+        "items": [
+          {
+            "name": "休闲",
+            "count": 18,
+            "share": 90.0,
+            "prev_share": 85.0,
+            "delta": 5.0,
+            "is_new": false
+          },
+          {
+            "name": "角色RPG",
+            "count": 1,
+            "share": 5.0,
+            "prev_share": 5.0,
+            "delta": 0.0,
+            "is_new": false
+          },
+          {
+            "name": "棋牌",
+            "count": 1,
+            "share": 5.0,
+            "prev_share": 10.0,
+            "delta": -5.0,
+            "is_new": false
+          }
+        ],
+        "dropped": []
+      },
+      "concentration": {
+        "total": 20,
+        "distinct_publishers": 4,
+        "top_publishers": [
+          {
+            "publisher": "益智",
+            "count": 13,
+            "share": 65.0
+          },
+          {
+            "publisher": "消除",
+            "count": 4,
+            "share": 20.0
+          },
+          {
+            "publisher": "塔防",
+            "count": 2,
+            "share": 10.0
+          },
+          {
+            "publisher": "牌类",
+            "count": 1,
+            "share": 5.0
+          }
+        ],
+        "top1_share": 65.0,
+        "top3_share": 95.0
+      }
+    }
+  ],
+  "primary": {
+    "platform": "wx",
+    "board": "畅销榜",
+    "date": "2026-11-18",
+    "baseline_date": "2026-11-11",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "向僵尸开炮",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 1名",
+        "publisher": "益智",
+        "change": "海南盛昌网络科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2ff6b3e53aa84522c310ef0ab9765ae4",
+        "change_direction": "top"
+      },
+      {
+        "rank": 2,
+        "name": "三国：冰河时代",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "其他 · 1名",
+        "publisher": "其他",
+        "change": "欢游互动（北京）科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8266f46649fb00772ba1363069d1ab3e",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 3,
+        "name": "浪漫餐厅",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 2名",
+        "publisher": "益智",
+        "change": "北京柠檬微趣科技股份有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e6117ad571bb3900200f3927f1b5592",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 4,
+        "name": "向往的生活",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 3名",
+        "publisher": "模拟经营",
+        "change": "深圳市必凡娱乐科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6a81f2015080659e31f805f5b555ae2e",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 5,
+        "name": "向末日开炮",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 4名",
+        "publisher": "模拟经营",
+        "change": "海南易多量科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07f3346ce3cd03764e6cbbbf1a9d7b52",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 6,
+        "name": "无尽冬日",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "竞技 · 1名",
+        "publisher": "对战",
+        "change": "点点互动（北京）科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/23581fa35013fd5ff1c3319332df3482",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 7,
+        "name": "疯狂水世界",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 5名",
+        "publisher": "模拟经营",
+        "change": "益世界网络科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f96d902ca11e623ed393c5dc6f92c410",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 8,
+        "name": "造化仙府",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 6名",
+        "publisher": "模拟经营",
+        "change": "上海沛炫网络科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0107234bc21f91b8d57cfb07f6489014",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 9,
+        "name": "永夜起源",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "角色 · 1名",
+        "publisher": "卡牌",
+        "change": "广州招崭信息科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5c18378bf8d31e9164dfcfa11e05bff9",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 10,
+        "name": "青云诀之伏魔",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "角色 · 2名",
+        "publisher": "MMO",
+        "change": "海南元游信息技术有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ca986d9b655de9845ffe6bc210982c49",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 11,
+        "name": "灵画师",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "角色 · 3名",
+        "publisher": "ARPG",
+        "change": "广州光游网络科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/af04c4d0bf59cf9d7b30a429fc053532",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 12,
+        "name": "我的花园世界",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 7名",
+        "publisher": "模拟经营",
+        "change": "厦门麟贝互娱科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/56bdf38b0e0dc79934938bd4f73b9850",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 13,
+        "name": "梦幻消除战",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 8名",
+        "publisher": "模拟经营",
+        "change": "广州喜势网络科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cccc2dbc474523aae89612ebe5866b24",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 14,
+        "name": "奔奔王国",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "竞技 · 2名",
+        "publisher": "对战",
+        "change": "福州点点松云网络有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4fd1672124806da7d544d6190b07faa6",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 15,
+        "name": "跃动小子",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 9名",
+        "publisher": "益智",
+        "change": "波克科技集团有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9b55ac030b0c695137f8079c6524cae2",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 16,
+        "name": "西游灵兽纪",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "角色 · 4名",
+        "publisher": "ARPG",
+        "change": "--",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7f5252c37d15cccc2a53128def347292",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 17,
+        "name": "腾讯欢乐斗地主",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "棋牌 · 1名",
+        "publisher": "牌类",
+        "change": "+2",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3346274bed9aabffae3b4fb958caa380",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 18,
+        "name": "工匠小能手",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 10名",
+        "publisher": "益智",
+        "change": "深圳市飞鸟与鱼科技开发有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fc59c61916efd8fd9e3a58612bcd7a0f",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 19,
+        "name": "空格之境",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "休闲 · 11名",
+        "publisher": "模拟经营",
+        "change": "江西启游互动科技有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e855d7117ec9c560c1160fc0ea10085",
+        "change_direction": "flat"
+      },
+      {
+        "rank": 20,
+        "name": "道友来挖宝",
+        "category": "",
+        "category_rank": null,
+        "subcategory": "",
+        "slogan": "角色 · 5名",
+        "publisher": "回合",
+        "change": "深圳雷霆信息技术有限公司",
+        "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/58ee1f163b07ece4ebbf6d452512e775",
+        "change_direction": "flat"
+      }
+    ],
+    "total": 20,
+    "new_entrants": [
+      {
+        "name": "梦幻消除战",
+        "rank": 13,
+        "publisher": "模拟经营",
+        "l1": "休闲",
+        "l2": "消除",
+        "streak": 7
+      },
+      {
+        "name": "西游灵兽纪",
+        "rank": 16,
+        "publisher": "ARPG",
+        "l1": "其他",
+        "l2": "其他",
+        "streak": 2
+      },
+      {
+        "name": "道友来挖宝",
+        "rank": 20,
+        "publisher": "回合",
+        "l1": "角色RPG",
+        "l2": "放置RPG",
+        "streak": 2
+      }
+    ],
+    "risers": [
+      {
+        "name": "永夜起源",
+        "rank": 9,
+        "prev_rank": 19,
+        "delta": 10,
+        "l1": "角色RPG",
+        "l2": "卡牌",
+        "publisher": "卡牌"
+      },
+      {
+        "name": "跃动小子",
+        "rank": 15,
+        "prev_rank": 20,
+        "delta": 5,
+        "l1": "休闲",
+        "l2": "益智",
+        "publisher": "益智"
+      },
+      {
+        "name": "浪漫餐厅",
+        "rank": 3,
+        "prev_rank": 6,
+        "delta": 3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "益智"
+      },
+      {
+        "name": "向往的生活",
+        "rank": 4,
+        "prev_rank": 7,
+        "delta": 3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "我的花园世界",
+        "rank": 12,
+        "prev_rank": 15,
+        "delta": 3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      }
+    ],
+    "fallers": [
+      {
+        "name": "疯狂水世界",
+        "rank": 7,
+        "prev_rank": 3,
+        "delta": -4,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "灵画师",
+        "rank": 11,
+        "prev_rank": 8,
+        "delta": -3,
+        "l1": "角色RPG",
+        "l2": "ARPG",
+        "publisher": "ARPG"
+      },
+      {
+        "name": "奔奔王国",
+        "rank": 14,
+        "prev_rank": 11,
+        "delta": -3,
+        "l1": "竞技",
+        "l2": "SLG",
+        "publisher": "对战"
+      },
+      {
+        "name": "腾讯欢乐斗地主",
+        "rank": 17,
+        "prev_rank": 14,
+        "delta": -3,
+        "l1": "棋牌",
+        "l2": "牌类",
+        "publisher": "牌类"
+      },
+      {
+        "name": "空格之境",
+        "rank": 19,
+        "prev_rank": 16,
+        "delta": -3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      }
+    ],
+    "head_stability": {
+      "head_n": 10,
+      "retained": 9,
+      "turnover": 1,
+      "retention_rate": 90.0,
+      "turnover_rate": 10.0,
+      "entered": [
+        "永夜起源"
+      ],
+      "exited": [
+        "灵画师"
+      ]
+    },
+    "waist": [
+      {
+        "name": "灵画师",
+        "rank": 11,
+        "streak": 44,
+        "l1": "角色RPG",
+        "l2": "ARPG",
+        "publisher": "ARPG"
+      },
+      {
+        "name": "奔奔王国",
+        "rank": 14,
+        "streak": 25,
+        "l1": "竞技",
+        "l2": "SLG",
+        "publisher": "对战"
+      },
+      {
+        "name": "腾讯欢乐斗地主",
+        "rank": 17,
+        "streak": 15,
+        "l1": "棋牌",
+        "l2": "牌类",
+        "publisher": "牌类"
+      },
+      {
+        "name": "梦幻消除战",
+        "rank": 13,
+        "streak": 7,
+        "l1": "休闲",
+        "l2": "消除",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "跃动小子",
+        "rank": 15,
+        "streak": 5,
+        "l1": "休闲",
+        "l2": "益智",
+        "publisher": "益智"
+      },
+      {
+        "name": "我的花园世界",
+        "rank": 12,
+        "streak": 3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "工匠小能手",
+        "rank": 18,
+        "streak": 3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "益智"
+      },
+      {
+        "name": "西游灵兽纪",
+        "rank": 16,
+        "streak": 2,
+        "l1": "其他",
+        "l2": "其他",
+        "publisher": "ARPG"
+      },
+      {
+        "name": "空格之境",
+        "rank": 19,
+        "streak": 2,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "道友来挖宝",
+        "rank": 20,
+        "streak": 2,
+        "l1": "角色RPG",
+        "l2": "放置RPG",
+        "publisher": "回合"
+      }
+    ],
+    "waist_long": [
+      {
+        "name": "灵画师",
+        "rank": 11,
+        "streak": 44,
+        "l1": "角色RPG",
+        "l2": "ARPG",
+        "publisher": "ARPG"
+      },
+      {
+        "name": "梦幻消除战",
+        "rank": 13,
+        "streak": 7,
+        "l1": "休闲",
+        "l2": "消除",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "奔奔王国",
+        "rank": 14,
+        "streak": 25,
+        "l1": "竞技",
+        "l2": "SLG",
+        "publisher": "对战"
+      },
+      {
+        "name": "腾讯欢乐斗地主",
+        "rank": 17,
+        "streak": 15,
+        "l1": "棋牌",
+        "l2": "牌类",
+        "publisher": "牌类"
+      }
+    ],
+    "waist_short": [
+      {
+        "name": "我的花园世界",
+        "rank": 12,
+        "streak": 3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "跃动小子",
+        "rank": 15,
+        "streak": 5,
+        "l1": "休闲",
+        "l2": "益智",
+        "publisher": "益智"
+      },
+      {
+        "name": "西游灵兽纪",
+        "rank": 16,
+        "streak": 2,
+        "l1": "其他",
+        "l2": "其他",
+        "publisher": "ARPG"
+      },
+      {
+        "name": "工匠小能手",
+        "rank": 18,
+        "streak": 3,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "益智"
+      },
+      {
+        "name": "空格之境",
+        "rank": 19,
+        "streak": 2,
+        "l1": "休闲",
+        "l2": "模拟经营",
+        "publisher": "模拟经营"
+      },
+      {
+        "name": "道友来挖宝",
+        "rank": 20,
+        "streak": 2,
+        "l1": "角色RPG",
+        "l2": "放置RPG",
+        "publisher": "回合"
+      }
+    ],
+    "category_structure": {
+      "total": 20,
+      "unclassified": 0,
+      "l1": [
+        {
+          "name": "休闲",
+          "count": 10,
+          "share": 50.0,
+          "examples": [
+            "向僵尸开炮",
+            "浪漫餐厅",
+            "向往的生活"
+          ]
+        },
+        {
+          "name": "角色RPG",
+          "count": 5,
+          "share": 25.0,
+          "examples": [
+            "造化仙府",
+            "永夜起源",
+            "青云诀之伏魔"
+          ]
+        },
+        {
+          "name": "竞技",
+          "count": 3,
+          "share": 15.0,
+          "examples": [
+            "三国：冰河时代",
+            "无尽冬日",
+            "奔奔王国"
+          ]
+        },
+        {
+          "name": "其他",
+          "count": 1,
+          "share": 5.0,
+          "examples": [
+            "西游灵兽纪"
+          ]
+        },
+        {
+          "name": "棋牌",
+          "count": 1,
+          "share": 5.0,
+          "examples": [
+            "腾讯欢乐斗地主"
+          ]
+        }
+      ],
+      "l2": [
+        {
+          "name": "模拟经营",
+          "count": 6,
+          "share": 30.0
+        },
+        {
+          "name": "SLG",
+          "count": 3,
+          "share": 15.0
+        },
+        {
+          "name": "塔防",
+          "count": 2,
+          "share": 10.0
+        },
+        {
+          "name": "放置RPG",
+          "count": 2,
+          "share": 10.0
+        },
+        {
+          "name": "卡牌",
+          "count": 1,
+          "share": 5.0
+        },
+        {
+          "name": "MMO",
+          "count": 1,
+          "share": 5.0
+        },
+        {
+          "name": "ARPG",
+          "count": 1,
+          "share": 5.0
+        },
+        {
+          "name": "消除",
+          "count": 1,
+          "share": 5.0
+        },
+        {
+          "name": "益智",
+          "count": 1,
+          "share": 5.0
+        },
+        {
+          "name": "其他",
+          "count": 1,
+          "share": 5.0
+        },
+        {
+          "name": "牌类",
+          "count": 1,
+          "share": 5.0
+        }
+      ]
+    },
+    "category_trend": {
+      "baseline_date": "2026-10-21",
+      "weeks": 4,
+      "actual_days": 28,
+      "items": [
+        {
+          "name": "其他",
+          "count": 1,
+          "share": 5.0,
+          "prev_share": 0.0,
+          "delta": 5.0,
+          "is_new": true
+        },
+        {
+          "name": "休闲",
+          "count": 10,
+          "share": 50.0,
+          "prev_share": 50.0,
+          "delta": 0.0,
+          "is_new": false
+        },
+        {
+          "name": "竞技",
+          "count": 3,
+          "share": 15.0,
+          "prev_share": 15.0,
+          "delta": 0.0,
+          "is_new": false
+        },
+        {
+          "name": "棋牌",
+          "count": 1,
+          "share": 5.0,
+          "prev_share": 5.0,
+          "delta": 0.0,
+          "is_new": false
+        },
+        {
+          "name": "角色RPG",
+          "count": 5,
+          "share": 25.0,
+          "prev_share": 30.0,
+          "delta": -5.0,
+          "is_new": false
+        }
+      ],
+      "dropped": []
+    },
+    "concentration": {
+      "total": 20,
+      "distinct_publishers": 9,
+      "top_publishers": [
+        {
+          "publisher": "模拟经营",
+          "count": 7,
+          "share": 35.0
+        },
+        {
+          "publisher": "益智",
+          "count": 4,
+          "share": 20.0
+        },
+        {
+          "publisher": "对战",
+          "count": 2,
+          "share": 10.0
+        },
+        {
+          "publisher": "ARPG",
+          "count": 2,
+          "share": 10.0
+        },
+        {
+          "publisher": "其他",
+          "count": 1,
+          "share": 5.0
+        },
+        {
+          "publisher": "卡牌",
+          "count": 1,
+          "share": 5.0
+        }
+      ],
+      "top1_share": 35.0,
+      "top3_share": 65.0
+    }
+  },
+  "clone": {
+    "board": "微信三榜（畅销/人气/畅玩）TOP20 并集",
+    "pool": 48,
+    "matched": 48,
+    "groups": [
+      {
+        "verdict": "换肤",
+        "band": "一线",
+        "tier": 0,
+        "label": "换皮即用",
+        "short": "成本最低，换题材即差异化",
+        "note": "机制照搬就成立，瓶颈在题材/美术；换题材即差异化，成本最低",
+        "items": [
+          {
+            "name": "一箭又一箭",
+            "rank": 5,
+            "board": "畅玩榜",
+            "publisher": "益智",
+            "verdict": "换肤",
+            "tier": 0,
+            "band": "一线",
+            "label": "换皮即用",
+            "verdict_note": "机制照搬就成立，瓶颈在题材/美术；换题材即差异化，成本最低",
+            "cost_level": "极低",
+            "cost_score": 1.38,
+            "effort": "15–25人日（1前端+0.5美术）",
+            "type": "休闲·益智",
+            "play": "点阵网格上点击箭头线段，使其像贪吃蛇向箭头方向前进，无遮挡则移出边界消除，消除全部箭头即胜",
+            "reason": "机制极简、无美术无物理，代码量极小",
+            "how": "换题材为'光线折射'或'管道连通'，复用线段移动+可解生成",
+            "status": "在榜",
+            "icon": "",
+            "slug": "一箭又一箭_0f018b"
+          },
+          {
+            "name": "羊了个羊:星球",
+            "rank": 1,
+            "board": "人气榜",
+            "publisher": "消除",
+            "verdict": "换肤",
+            "tier": 0,
+            "band": "一线",
+            "label": "换皮即用",
+            "verdict_note": "机制照搬就成立，瓶颈在题材/美术；换题材即差异化，成本最低",
+            "cost_level": "低",
+            "cost_score": 2.5,
+            "effort": "20–30人日（1前端+1美术+0.5策划）",
+            "type": "消除",
+            "play": "在多层堆叠的牌堆里点选可见牌移入下方7格槽位，集齐3个同图案即消除",
+            "reason": "三层堆叠消除机制简单、已被验证，代码量小、素材轻",
+            "how": "把题材换成『中药抓药台』，三张同药材合成一副方子，天然带知识感",
+            "status": "在榜",
+            "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/f8/2d/cff82daf-d527-24d5-0d18-47d703c68494/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+            "slug": "羊了个羊_星球_6c2eba"
+          },
+          {
+            "name": "赵云与阿斗",
+            "rank": 4,
+            "board": "畅玩榜",
+            "publisher": "塔防",
+            "verdict": "换肤",
+            "tier": 0,
+            "band": "一线",
+            "label": "换皮即用",
+            "verdict_note": "机制照搬就成立，瓶颈在题材/美术；换题材即差异化，成本最低",
+            "cost_level": "低",
+            "cost_score": 2.5,
+            "effort": "25–40人日（1前端+1美术+0.5服务端）",
+            "type": "塔防",
+            "play": "玩家消耗『馒头』征兵随机获得汉字兵种或武将碎片…",
+            "reason": "核心机制（汉字合成+拖拽布阵塔防+1V1PvP）代码量可控、框架可复用，差异化完全在题材…",
+            "how": "把『汉字武将』换成『西游妖怪字牌』或『职场职位字牌』，合成召唤机制原样保…",
+            "status": "新晋",
+            "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/ae/4a/26ae4a85-1440-7ae3-9389-420710851180/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg",
+            "slug": "赵云与阿斗_911d95"
+          },
+          {
+            "name": "向往的生活",
+            "rank": 4,
+            "board": "畅销榜",
+            "publisher": "模拟经营",
+            "verdict": "换肤",
+            "tier": 0,
+            "band": "一线",
+            "label": "换皮即用",
+            "verdict_note": "机制照搬就成立，瓶颈在题材/美术；换题材即差异化，成本最低",
+            "cost_level": "低",
+            "cost_score": 2.38,
+            "effort": "25–40人日（1前端+1美术+0.5策划）",
+            "type": "模拟经营",
+            "play": "指尖轻触合成作物/物品（二合），完成订单收获资源，逐步重建田园家园",
+            "reason": "二合+建造机制成熟且已被验证，代码量与素材量适中",
+            "how": "换题材为'小森林食堂'或'茶馆日常'，二合合成做饭/招待客人，复用同框架",
+            "status": "上升 +3",
+            "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f8/b9/09f8b92a-7ba3-4cc4-5262-2d84f60445e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+            "slug": "向往的生活_75ce2b"
+          },
+          {
+            "name": "打个螺丝",
+            "rank": 7,
+            "board": "畅玩榜",
+            "publisher": "益智",
+            "verdict": "换肤",
+            "tier": 0,
+            "band": "一线",
+            "label": "换皮即用",
+            "verdict_note": "机制照搬就成立，瓶颈在题材/美术；换题材即差异化，成本最低",
+            "cost_level": "低",
+            "cost_score": 2.12,
+            "effort": "15–25人日（1前端+0.5美术）",
+            "type": "休闲·益智",
+            "play": "点选与顶部工具箱同色的螺丝，集满3颗同色消除",
+            "reason": "拧螺丝消除机制成熟、包体仅19MB、技术极轻，照搬即成立",
+            "how": "把螺丝换成'拔罐/印章'国风题材，拧下即解除",
+            "status": "在榜",
+            "icon": "",
+            "slug": "打个螺丝_cab89d"
+          }
+        ],
+        "total": 24
+      },
+      {
+        "verdict": "变种创意",
+        "band": "一线",
+        "tier": 0,
+        "label": "需改一处",
+        "short": "机制可取，需改一处结构",
+        "note": "核心机制可取，但必须改一处结构，照抄会撞车",
+        "items": [
+          {
+            "name": "向僵尸开炮",
+            "rank": 1,
+            "board": "畅销榜",
+            "publisher": "益智",
+            "verdict": "变种创意",
+            "tier": 0,
+            "band": "一线",
+            "label": "需改一处",
+            "verdict_note": "核心机制可取，但必须改一处结构，照抄会撞车",
+            "cost_level": "高",
+            "cost_score": 3.75,
+            "effort": "80–120人日（2前端+2美术+1策划），含海量素材与深养成系统，重资本",
+            "type": "益智",
+            "play": "2D俯视角下先锋官镇守防线，僵尸如潮涌来",
+            "reason": "俯视割草+肉鸽三选一机制已被弹壳特攻队/吸血鬼幸存者验证且本作(wx畅销第1)头部锁死",
+            "how": "保留『俯视割草+局内三选一build』核心，换为『机甲/西游妖怪』等非僵…",
+            "status": "在榜",
+            "icon": "",
+            "slug": "向僵尸开炮_3c34cb"
+          },
+          {
+            "name": "向末日开炮",
+            "rank": 5,
+            "board": "畅销榜",
+            "publisher": "模拟经营",
+            "verdict": "变种创意",
+            "tier": 0,
+            "band": "一线",
+            "label": "需改一处",
+            "verdict_note": "核心机制可取，但必须改一处结构，照抄会撞车",
+            "cost_level": "高",
+            "cost_score": 3.88,
+            "effort": "80–120人日（2前端+1后端+1策划+1美术）",
+            "type": "休闲·模拟经营",
+            "play": "开局数字门跑酷射击（左右移动选门吃加成），通关推进主线解锁地块/建筑…",
+            "reason": "数字门+SLG框架已被LastWar/向僵尸开炮验证，整体成熟、创新有限",
+            "how": "换题材为'西游降妖'或'末日修仙'，复用数字门+SLG框架",
+            "status": "在榜",
+            "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/66/32/ab663220-0d2a-7e55-b95f-12a88477410f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+            "slug": "向末日开炮_83f57c"
+          }
+        ],
+        "total": 2
+      },
+      {
+        "verdict": "微创新",
+        "band": "二线",
+        "tier": 1,
+        "label": "细节升级",
+        "short": "只值得细节升级",
+        "note": "整体已成熟，只值得做细节体验升级，不建议独立立项",
+        "items": [
+          {
+            "name": "造化仙府",
+            "rank": 8,
+            "board": "畅销榜",
+            "publisher": "模拟经营",
+            "verdict": "微创新",
+            "tier": 1,
+            "band": "二线",
+            "label": "细节升级",
+            "verdict_note": "整体已成熟，只值得做细节体验升级，不建议独立立项",
+            "cost_level": "高",
+            "cost_score": 3.75,
+            "effort": "90–130人日（2前端+1后端+1策划+1美术）",
+            "type": "模拟经营",
+            "play": "从零规划仙府，升级聚灵阵/开辟灵田，收弟子自动产出资源",
+            "reason": "修仙放置+SLG品类已成熟且内容极重（1.1GB），纯复刻成本与买量都高",
+            "how": "换题材为'妖修洞天'或'红楼别院'，复用放置+建设框架",
+            "status": "在榜",
+            "icon": "",
+            "slug": "造化仙府_d5903e"
+          }
+        ],
+        "total": 1
+      }
+    ],
+    "picked": 8,
+    "candidates": 27,
+    "excluded": 7,
+    "missing": [],
+    "unmatched": [
+      "偷吃模拟器",
+      "疯狂收杂物",
+      "上课偷吃模拟器",
+      "不停找找找",
+      "整理师竞争",
+      "我带过的最差一届正版",
+      "对子乐消消",
+      "青云诀之伏魔",
+      "指尖快消",
+      "西游灵兽纪",
+      "益智闯一关",
+      "工匠小能手",
+      "甄嬛传：归来",
+      "道友来挖宝"
+    ],
+    "generated_from": "data/detail/index.json"
+  }
+}
