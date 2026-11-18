@@ -48,6 +48,33 @@ def build_payload(content: str, secret: str, timestamp: str | None = None) -> di
     }
 
 
+def set_report_title(markdown: str, title: str) -> str:
+    lines = markdown.splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith("# "):
+            lines[i] = f"# {title}"
+            return "\n".join(lines).replace("<br>", "；")
+    return f"# {title}\n\n{markdown}".replace("<br>", "；")
+
+
+def with_report_link(summary: str, report_url: str) -> str:
+    if not report_url:
+        return summary
+    return f"{summary.rstrip()}\n\n[查看完整周报]({report_url})"
+
+
+def prepare_payload(content: str, secret: str,
+                    fallback_content: str | None = None,
+                    timestamp: str | None = None) -> tuple[dict, bytes, bool]:
+    payload = build_payload(content, secret, timestamp)
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    if len(body) > MAX_BYTES and fallback_content is not None:
+        payload = build_payload(fallback_content, secret, payload["timestamp"])
+        body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        return payload, body, True
+    return payload, body, False
+
+
 def response_succeeded(response: dict) -> bool:
     return (isinstance(response, dict)
             and response.get("code", response.get("StatusCode")) == 0)
@@ -60,9 +87,11 @@ def valid_webhook(webhook: str) -> bool:
             and bool(parsed.path.removeprefix("/open-apis/bot/v2/hook/")))
 
 
-def post_message(webhook: str, secret: str, content: str) -> bool:
-    payload = build_payload(content, secret)
-    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+def post_message(webhook: str, secret: str, content: str,
+                 fallback_content: str | None = None) -> bool:
+    payload, body, used_fallback = prepare_payload(content, secret, fallback_content)
+    if used_fallback:
+        print("完整周报超过飞书消息上限，改发精简版并附完整周报链接。")
     if len(body) > MAX_BYTES:
         print(f"消息请求体 {len(body)} 字节，超过飞书自定义机器人 20 KB 限制")
         return False
@@ -100,6 +129,8 @@ def main() -> int:
     ap.add_argument("--latest", action="store_true", help="取 reports/ 下最新一期")
     ap.add_argument("--check", action="store_true", help="发送一条飞书通道自检消息")
     ap.add_argument("--dry-run", action="store_true", help="只打印消息，不发送")
+    ap.add_argument("--full", action="store_true",
+                    help="优先发送完整周报，超限时回退到精简版")
     ap.add_argument("--card", action="store_true", help="发送本周变化卡片而非周报摘要")
     ap.add_argument("--preview", default=None, help="发送现有消息预览文件的内容")
     ap.add_argument("--prefix", default=None, help="覆盖消息标题")
@@ -107,7 +138,8 @@ def main() -> int:
 
     webhook = (os.environ.get("FEISHU_WEBHOOK") or "").strip()
     secret = (os.environ.get("FEISHU_SECRET") or "").strip()
-    prefix = args.prefix or "微信小游戏周报"
+    prefix = args.prefix or "游戏应用市场周报"
+    fallback_content = None
     print(f"飞书机器人  {'已配置' if webhook else '未配置'}")
 
     if args.check:
@@ -117,16 +149,32 @@ def main() -> int:
         if not report.is_absolute():
             report = (ROOT / report).resolve()
         data, md_path = report_sender.load_bundle(report)
-        report_url = report_sender.github_blob_url(md_path or report)
-        if args.card:
+        report_url = report_sender.github_blob_url(md_path) if md_path else ""
+        if args.full:
+            summary = report_sender.build_card_markdown(
+                data, "", v2=True, preview=args.preview)
+            fallback_content = with_report_link(summary, report_url)
+            if md_path:
+                content = set_report_title(md_path.read_text(encoding="utf-8"), prefix)
+            else:
+                print("::warning::找不到完整周报 Markdown，改发精简版。")
+                content = fallback_content
+        elif args.card:
             content = report_sender.build_card_markdown(
                 data, args.prefix or "", v2=True, preview=args.preview)
         else:
             content = report_sender.build_wecom_markdown(
                 data, prefix, report_url, v2=True)
-        print(f"发送周报：{report.name}（{'本周变化卡片' if args.card else '周报摘要'}）")
+        style = "完整周报（超限回退精简版）" if args.full else (
+            "本周变化卡片" if args.card else "周报摘要")
+        print(f"发送周报：{report.name}（{style}）")
 
     if args.dry_run:
+        _, body, used_fallback = prepare_payload(content, "dry-run", fallback_content)
+        if used_fallback:
+            content = fallback_content or content
+            print("完整周报超限，dry-run 展示精简版回退内容。")
+        print(f"消息请求体：{len(body)} / {MAX_BYTES} 字节")
         print("-" * 60)
         print(content)
         print("-" * 60)
@@ -139,7 +187,8 @@ def main() -> int:
     if not valid_webhook(webhook):
         print("FEISHU_WEBHOOK 必须是飞书 v2 群机器人地址（open.feishu.cn）。")
         return EXIT_BADCONFIG
-    return EXIT_OK if post_message(webhook, secret, content) else EXIT_SENDFAIL
+    return EXIT_OK if post_message(
+        webhook, secret, content, fallback_content) else EXIT_SENDFAIL
 
 
 if __name__ == "__main__":

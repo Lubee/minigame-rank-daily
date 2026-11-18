@@ -340,7 +340,7 @@ def render_html(result: dict) -> str:
         '<div style="max-width:760px;margin:0 auto;padding:4px 2px;'
         'font-family:-apple-system,BlinkMacSystemFont,\'PingFang SC\','
         '\'Microsoft YaHei\',sans-serif;color:%s;line-height:1.55;">' % C_HEAD,
-        '<h1 style="font-size:20px;margin:0 0 4px;">微信小游戏周报</h1>',
+        '<h1 style="font-size:20px;margin:0 0 4px;">游戏应用市场周报</h1>',
         f'<div style="font-size:13px;color:{C_MUTED};margin-bottom:10px;">'
         f'{esc(period)}　·　数据源：引力引擎（匿名 TOP{A.TOP_N}）　·　'
         f'生成 {esc(m["generated_at"][:16].replace("T", " "))}</div>',
@@ -634,7 +634,7 @@ def render_markdown(result: dict) -> str:
     period = (f"{m['baseline_date']} → {m['week_end']}"
               if m.get("baseline_date") else m["week_end"])
     links = site_links(_base_of(result))
-    L = [f"# 微信小游戏周报", "",
+    L = ["# 游戏应用市场周报", "",
          f"**周期** {period}　|　**数据源** 引力引擎（匿名 TOP{A.TOP_N}）"
          f"　|　**生成** {m['generated_at'][:16].replace('T', ' ')}", "",
          f"**主页**　<{links['home']}>", "",

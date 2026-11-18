@@ -311,7 +311,7 @@ def build_card(result: dict, hist: list[tuple[str, dict]] | None = None,
 
 def _insufficient(meta: dict, as_of: str, site_url: str) -> dict:
     """没有可比基准时的最小产出：一句说明 + 自检，不发任何判断。"""
-    text = (f"# 游戏周热榜　{_period(meta.get('baseline_date'), as_of)}\n\n"
+    text = (f"# 游戏应用市场周报　{_period(meta.get('baseline_date'), as_of)}\n\n"
             "本周缺少可比基准（基准日在历史快照里找不到），暂不判断变化。")
     if site_url:
         text += f"\n\n[数据主页]({site_url})"
@@ -354,7 +354,7 @@ def _render_once(data: dict, level: int) -> str:
     只有名次数据 → 正文就是那一句（不再加首句，避免为凑结构造一句空话）
     """
     m = data["meta"]
-    L = [f"# 游戏周热榜　{m['period']}", ""]
+    L = [f"# 游戏应用市场周报　{m['period']}", ""]
 
     stories = data["stories"]
     if level >= 2:

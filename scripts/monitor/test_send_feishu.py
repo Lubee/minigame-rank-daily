@@ -1,6 +1,15 @@
 import unittest
 
-from send_feishu import build_payload, make_sign, response_succeeded, valid_webhook
+from send_feishu import (
+    MAX_BYTES,
+    build_payload,
+    make_sign,
+    prepare_payload,
+    response_succeeded,
+    set_report_title,
+    valid_webhook,
+    with_report_link,
+)
 
 
 class FeishuPayloadTests(unittest.TestCase):
@@ -36,6 +45,23 @@ class FeishuPayloadTests(unittest.TestCase):
             "https://example.com/open-apis/bot/v2/hook/example-token"))
         self.assertFalse(valid_webhook(
             "http://open.feishu.cn/open-apis/bot/v2/hook/example-token"))
+
+    def test_full_report_heading_uses_configured_title(self):
+        report = set_report_title("# 微信小游戏周报\n\n玩法<br>详细说明", "游戏应用市场周报")
+        self.assertEqual(report, "# 游戏应用市场周报\n\n玩法；详细说明")
+
+    def test_oversized_full_report_falls_back_to_summary_with_full_report_link(self):
+        link = "https://github.com/example/reports/weekly-2026-11-15.md"
+        fallback = with_report_link("# 游戏应用市场周报\n摘要", link)
+        payload, body, used_fallback = prepare_payload(
+            "完整正文" * MAX_BYTES, "example-secret", fallback,
+            timestamp="1700000000")
+
+        self.assertTrue(used_fallback)
+        self.assertLessEqual(len(body), MAX_BYTES)
+        content = payload["card"]["body"]["elements"][0]["content"]
+        self.assertIn("[查看完整周报](" + link + ")", content)
+        self.assertNotIn("完整正文", content)
 
 
 if __name__ == "__main__":

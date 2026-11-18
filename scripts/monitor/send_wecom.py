@@ -17,7 +17,7 @@
                          默认从 git origin 现场推导当期报告地址
     REPORT_SITE_URL      可选，覆盖群消息末尾的「数据主页」链接；
                          默认从 git origin 推导 GitHub Pages 主页地址
-    REPORT_PREFIX        可选，消息标题，默认「微信小游戏周报」
+    REPORT_PREFIX        可选，消息标题，默认「游戏应用市场周报」
 
 用法：
     python scripts/monitor/send_wecom.py --check               # 往群里发一条通道自检
@@ -84,7 +84,7 @@ def parse_chatids(raw: str) -> list[str]:
 
 class Config:
     def __init__(self) -> None:
-        self.prefix = env("REPORT_PREFIX", "微信小游戏周报")
+        self.prefix = env("REPORT_PREFIX", "游戏应用市场周报")
         self.webhook = env("WECOM_WEBHOOK")
         self.msg_type = env("WECOM_MSG_TYPE", "markdown")
         self.report_url = env("WECOM_REPORT_URL")
@@ -495,7 +495,7 @@ def main() -> int:
     style = "本周变化（卡片）" if args.card else "周报摘要"
     if args.card:
         try:
-            # 卡片自带「游戏周热榜」标题，默认不再叠加前缀
+            # 卡片自带周报标题，默认不再叠加前缀
             content = build_card_markdown(data, args.prefix or "",
                                           v2=(cfg.msg_type == "markdown_v2"),
                                           preview=args.preview)

@@ -11,7 +11,7 @@
   <a href="https://github.com/Miracle-Shen/minigame-rank-daily">[源码]</a>
 </p>
 
-**minigame-rank-daily** 每天北京时间 10:30 自动抓取微信小游戏 / 抖音小游戏的 6 个榜单，叠加 TapTap 预约榜、**iOS 美 / 国 / 日区**与 **Android 美区**免费榜，与累积 base 库比对算出每条榜单的「新进榜 / 回归 / 新发行商」，发布成一面纯静态仪表盘；每周一 07:30 再产出一份微信小游戏周报，可分别推送到飞书群和企业微信群。
+**minigame-rank-daily** 每天北京时间 10:30 自动抓取微信小游戏 / 抖音小游戏的 6 个榜单，叠加 TapTap 预约榜、**iOS 美 / 国 / 日区**与 **Android 美区**免费榜，与累积 base 库比对算出每条榜单的「新进榜 / 回归 / 新发行商」，发布成一面纯静态仪表盘；每周一 07:30 再产出一份游戏应用市场周报，可分别推送到飞书群和企业微信群。
 
 <table>
   <tr>
@@ -308,7 +308,7 @@ python scripts/detail/verify.py --require-biz         # 硬门禁：要求全部
 
 ## 📊 周报（game-market-monitor）
 
-每周一北京时间 07:30，`weekly.yml` 基于仓库里的历史快照生成一份微信小游戏周报。
+每周一北京时间 07:30，`weekly.yml` 基于仓库里的历史快照生成一份游戏应用市场周报。
 
 **版式是领导视角**：把「大盘往哪走」和「抄哪个」放在最前面，明细全部后置为附录。
 
@@ -362,9 +362,8 @@ REPORT_SITE_URL=https://rank.example.com/ python scripts/monitor/report.py --for
 python scripts/monitor/report.py --format both --site-url https://rank.example.com/
 ```
 
-群消息末尾也会带链接：周报摘要是 `[查看图文周报](…)` + `[数据主页](…)`，
-**「本周变化」群消息只留 `[数据主页](…)`**（图文周报入口已下线）。
-主页地址取自报告 `meta.site_url`，老报告没有该字段时现场推导。
+飞书默认发送完整周报；若消息超限，则回退到精简卡片并附 `[查看完整周报](…)` 链接。企业微信摘要会附 `[查看图文周报](…)` + `[数据主页](…)`，
+企业微信「本周变化」卡片只留 `[数据主页](…)`。主页地址取自报告 `meta.site_url`，老报告没有该字段时现场推导。
 
 ### 品类口径为什么需要归一化
 
@@ -466,7 +465,7 @@ CI 里推送的是 `reports/push-<week_end>.md`（`weekly.yml` 先生成、再�
    - `FEISHU_SECRET`：签名校验密钥。
 4. 手动运行 Actions → `Push Channel Test`。飞书群收到「飞书通道自检」即表示链路可用。
 
-飞书使用交互式消息卡片承载 Markdown 内容。自定义机器人只向添加它的那个群推送；多个群需分别创建机器人并配置各自 Webhook（当前配置支持一个飞书目标群）。Webhook 和签名密钥只保存在 GitHub Secrets，不要写入仓库。签名密钥由飞书机器人安全设置生成，GitHub Actions 每次发送时动态签名。
+飞书使用交互式消息卡片发送完整 Markdown 周报。若请求体超过 20 KB，自动改发精简版卡片，并附上当期完整周报的 GitHub 查看链接。自定义机器人只向添加它的那个群推送；多个群需分别创建机器人并配置各自 Webhook（当前配置支持一个飞书目标群）。Webhook 和签名密钥只保存在 GitHub Secrets，不要写入仓库。签名密钥由飞书机器人安全设置生成，GitHub Actions 每次发送时动态签名。
 
 ### 企业微信推送方式（原方式 A / B）
 

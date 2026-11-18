@@ -13,7 +13,7 @@ on:
         required: false
         default: ""
       style:
-        description: "群消息样式：card=本周变化（默认）/ digest=周报摘要"
+        description: "企业微信群消息样式：card=本周变化（默认）/ digest=周报摘要"
         required: false
         default: "card"
 
@@ -126,24 +126,19 @@ jobs:
           fi
 
       - name: Send weekly report to Feishu
-        # 飞书自定义机器人 Webhook。仅配置 Webhook 和签名密钥后才发送。
+        # 优先发送完整周报；超过飞书消息上限时，发送精简预览并附完整报告链接。
         if: ${{ always() && steps.send_wecom.outcome != 'skipped' }}
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
-          FEISHU_STYLE: ${{ github.event.inputs.style || 'card' }}
         run: |
           if [ -z "$FEISHU_WEBHOOK" ] && [ -z "$FEISHU_SECRET" ]; then
             echo "::warning::未配置 FEISHU_WEBHOOK / FEISHU_SECRET，跳过飞书推送。"
             exit 0
           fi
-          if [ "$FEISHU_STYLE" = "digest" ]; then
-            python scripts/monitor/send_feishu.py --latest
+          if [ -n "$PREVIEW" ] && [ -f "$PREVIEW" ]; then
+            python scripts/monitor/send_feishu.py --latest --full --preview "$PREVIEW"
           else
-            if [ -n "$PREVIEW" ] && [ -f "$PREVIEW" ]; then
-              python scripts/monitor/send_feishu.py --latest --card --preview "$PREVIEW"
-            else
-              echo "::warning::没有生成群消息预览，按报告现场重算后发送。"
-              python scripts/monitor/send_feishu.py --latest --card
-            fi
+            echo "::warning::没有生成群消息预览，超限时将按报告现场重算精简版。"
+            python scripts/monitor/send_feishu.py --latest --full
           fi

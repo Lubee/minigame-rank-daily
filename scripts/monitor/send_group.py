@@ -46,7 +46,7 @@ from send_wecom import (  # noqa: E402
 
 CLI = "wecom-cli"
 # 群消息里不放内部 ID；这两个是「给用户看」的兜底文案
-DEFAULT_PREFIX = "微信小游戏周报"
+DEFAULT_PREFIX = "游戏应用市场周报"
 
 # 目标群：--group-id 可重复；环境变量 WECOM_GROUP_ID 内可用分隔符拼多个，
 # 也可另开 WECOM_GROUP_ID_2..5（与 send_wecom.py 的 WECOM_CHATID 命名保持一致）。
@@ -176,7 +176,7 @@ def main() -> int:
     data, md_p = load_bundle(report)
     # 链接指向 .md —— GitHub 上会渲染成可读页面；.json 点开是一屏原始 JSON
     url = github_blob_url(md_p or report)
-    # 卡片自带「游戏周热榜」标题，不给默认前缀；摘要样式沿用 REPORT_PREFIX
+    # 卡片自带周报标题，不给默认前缀；摘要样式沿用 REPORT_PREFIX
     if a.card:
         prefix = a.prefix or ""
     else:
