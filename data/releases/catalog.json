@@ -14996,25 +14996,25 @@
   },
   "sources": {
     "apple:newapplications": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
-      "source_updated_at": "2026-11-18T00:42:30-07:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
+      "source_updated_at": "2026-11-18T02:25:49-07:00",
       "candidates": 19,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newfreeapplications": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
-      "source_updated_at": "2026-11-18T00:42:31-07:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
+      "source_updated_at": "2026-11-18T02:25:50-07:00",
       "candidates": 16,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newpaidapplications": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
-      "source_updated_at": "2026-11-18T00:42:32-07:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
+      "source_updated_at": "2026-11-18T02:25:51-07:00",
       "candidates": 35,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
@@ -15034,21 +15034,21 @@
       "error": null
     },
     "apple:free": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
       "source_updated_at": "2026-11-18T03:38:24+00:00",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     },
     "google:free": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
       "source_updated_at": "2026-11-18T03:38:38Z",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     }
   },
-  "updated_at": "2026-11-18T08:42:32.724153+00:00"
+  "updated_at": "2026-11-18T10:25:51.947117+00:00"
 }

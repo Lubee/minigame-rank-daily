@@ -1,6 +1,6 @@
 {
   "date_beijing": "2026-11-18",
-  "scraped_at_utc": "2026-11-18T08:42:30.581842+00:00",
+  "scraped_at_utc": "2026-11-18T10:25:49.014699+00:00",
   "country": "us",
   "coverage": "官方美区榜单与新应用候选，覆盖有限，不保证枚举全部新游戏；发布日期不代表美国区首次开放日期。",
   "verification": {
@@ -14,25 +14,25 @@
   },
   "sources": {
     "apple:newapplications": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
-      "source_updated_at": "2026-11-18T00:42:30-07:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
+      "source_updated_at": "2026-11-18T02:25:49-07:00",
       "candidates": 19,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newfreeapplications": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
-      "source_updated_at": "2026-11-18T00:42:31-07:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
+      "source_updated_at": "2026-11-18T02:25:50-07:00",
       "candidates": 16,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newpaidapplications": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
-      "source_updated_at": "2026-11-18T00:42:32-07:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
+      "source_updated_at": "2026-11-18T02:25:51-07:00",
       "candidates": 35,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
@@ -52,16 +52,16 @@
       "error": null
     },
     "apple:free": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
       "source_updated_at": "2026-11-18T03:38:24+00:00",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     },
     "google:free": {
-      "attempted_at": "2026-11-18T08:42:30.581842+00:00",
-      "last_success_at": "2026-11-18T08:42:30.581842+00:00",
+      "attempted_at": "2026-11-18T10:25:49.014699+00:00",
+      "last_success_at": "2026-11-18T10:25:49.014699+00:00",
       "source_updated_at": "2026-11-18T03:38:38Z",
       "candidates": 100,
       "error": null,
