@@ -1710,6 +1710,22 @@
       },
       "baseline": true,
       "new_to_board": []
+    },
+    "android/美区免费新游榜": {
+      "platform": "android",
+      "platform_label": "Android",
+      "board_label": "美区免费新游榜",
+      "first_anywhere": [],
+      "first_on_board": [],
+      "returning": [],
+      "new_publishers": [],
+      "totals": {
+        "new_to_board": 0,
+        "returning": 0,
+        "new_publishers": 0
+      },
+      "baseline": true,
+      "new_to_board": []
     }
   }
 }

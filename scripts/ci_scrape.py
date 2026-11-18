@@ -65,16 +65,20 @@ def supplement_googleplay(out_path, log):
     """Repair today's missing Android chart without changing other platforms."""
     data = json.loads(out_path.read_text(encoding="utf-8"))
     boards = data.get("platforms", {}).get("android", {}).get("boards", [])
-    if any(b.get("rows") and not b.get("error") for b in boards):
+    from scrape_googleplay import CHARTS, scrape
+    missing = [chart for chart in ("free", "new_free") if not any(
+        b.get("label") == CHARTS[chart] and b.get("rows") and not b.get("error") for b in boards)]
+    if not missing:
         log(f"快照 {out_path.name} 已有 Google Play 榜单，跳过")
         return
-    from scrape_googleplay import scrape
-    fragment = scrape(top_n=100, log=log)
-    board = fragment["boards"][0]
-    if board.get("error") or not board.get("rows"):
+    fragment = scrape(top_n=100, log=log, charts=missing)
+    repaired = [b for b in fragment["boards"] if b.get("rows") and not b.get("error")]
+    if not repaired:
         log("[android] 补采失败，保留已有快照")
         return
-    data.setdefault("platforms", {})["android"] = fragment
+    merged = {b["label"]: b for b in boards}
+    merged.update({b["label"]: b for b in repaired})
+    data.setdefault("platforms", {})["android"] = {"label": "Android", "boards": list(merged.values())}
     day = out_path.stem
     documents = {}
     latest = ROOT / "data" / "latest.json"
@@ -85,7 +89,8 @@ def supplement_googleplay(out_path, log):
         summaries = [json.loads(line) for line in history.read_text(encoding="utf-8").splitlines() if line.strip()]
         for summary in summaries:
             if summary.get("date") == day:
-                summary.setdefault("boards", {})["android/美区免费榜"] = len(board["rows"])
+                for board in repaired:
+                    summary.setdefault("boards", {})[f"android/{board['label']}"] = len(board["rows"])
         documents[history] = "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in summaries)
     # Write the daily snapshot last so an interrupted supplement can be retried.
     documents[out_path] = json.dumps(data, ensure_ascii=False, indent=2)
@@ -99,7 +104,7 @@ def supplement_googleplay(out_path, log):
         finally:
             if temporary is not None:
                 temporary.unlink(missing_ok=True)
-    log(f"[android] 已补采 {len(board['rows'])} 条，更新当天快照与趋势")
+    log(f"[android] 已补采 {len(repaired)} 份榜单，更新当天快照与趋势")
     try:
         from store_apps import update_store_apps
         update_store_apps({"platforms": {"android": fragment}}, ROOT / "data", day, log)

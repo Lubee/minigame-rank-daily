@@ -43062,7 +43062,8 @@
         "Games"
       ],
       "publishers": [
-        "SpinShift Limited"
+        "SpinShift Limited",
+        "DEV AI"
       ],
       "board_history": {
         "ios/美区免费榜": {
@@ -43072,6 +43073,13 @@
           "first_rank": 43,
           "appearances": 26,
           "_last_day_counted": "2026-11-18"
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 51,
+          "first_rank": 51,
+          "appearances": 1
         }
       }
     },
@@ -72283,6 +72291,13 @@
           "best_rank": 16,
           "first_rank": 16,
           "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 9,
+          "first_rank": 9,
+          "appearances": 1
         }
       }
     },
@@ -75403,6 +75418,13 @@
           "best_rank": 20,
           "first_rank": 20,
           "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 36,
+          "first_rank": 36,
+          "appearances": 1
         }
       }
     },
@@ -75904,6 +75926,13 @@
           "best_rank": 37,
           "first_rank": 37,
           "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 5,
+          "first_rank": 5,
+          "appearances": 1
         }
       }
     },
@@ -76011,6 +76040,13 @@
           "last_seen": "2026-11-18",
           "best_rank": 2,
           "first_rank": 2,
+          "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 1,
+          "first_rank": 1,
           "appearances": 1
         }
       }
@@ -78524,6 +78560,13 @@
           "best_rank": 46,
           "first_rank": 46,
           "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 8,
+          "first_rank": 8,
+          "appearances": 1
         }
       }
     },
@@ -78756,7 +78799,8 @@
         "Games"
       ],
       "publishers": [
-        "Hues House LLC"
+        "Hues House LLC",
+        "Hues House"
       ],
       "board_history": {
         "ios/美区免费榜": {
@@ -78766,6 +78810,13 @@
           "first_rank": 84,
           "appearances": 2,
           "_last_day_counted": "2026-11-18"
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 31,
+          "first_rank": 31,
+          "appearances": 1
         }
       }
     },
@@ -80189,6 +80240,13 @@
           "best_rank": 6,
           "first_rank": 6,
           "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 2,
+          "first_rank": 2,
+          "appearances": 1
         }
       }
     },
@@ -80207,6 +80265,13 @@
           "last_seen": "2026-11-18",
           "best_rank": 15,
           "first_rank": 15,
+          "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 3,
+          "first_rank": 3,
           "appearances": 1
         }
       }
@@ -80265,6 +80330,13 @@
           "best_rank": 31,
           "first_rank": 31,
           "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 4,
+          "first_rank": 4,
+          "appearances": 1
         }
       }
     },
@@ -80303,6 +80375,13 @@
           "best_rank": 43,
           "first_rank": 43,
           "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 7,
+          "first_rank": 7,
+          "appearances": 1
         }
       }
     },
@@ -80321,6 +80400,13 @@
           "last_seen": "2026-11-18",
           "best_rank": 45,
           "first_rank": 45,
+          "appearances": 1
+        },
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 6,
+          "first_rank": 6,
           "appearances": 1
         }
       }
@@ -80666,7 +80752,1679 @@
           "appearances": 1
         }
       }
+    },
+    "Dino Dig Tycoon": {
+      "name": "Dino Dig Tycoon",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "SFungames"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 10,
+          "first_rank": 10,
+          "appearances": 1
+        }
+      }
+    },
+    "SoEasy Mahjong 2: Make Ten": {
+      "name": "SoEasy Mahjong 2: Make Ten",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "SOFISH GAMES"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 11,
+          "first_rank": 11,
+          "appearances": 1
+        }
+      }
+    },
+    "Mahjong Maris": {
+      "name": "Mahjong Maris",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "BREDA BEST LIMITED"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 12,
+          "first_rank": 12,
+          "appearances": 1
+        }
+      }
+    },
+    "Squishy Trade: Dumpling Master": {
+      "name": "Squishy Trade: Dumpling Master",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "HIGAME Jsc"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 13,
+          "first_rank": 13,
+          "appearances": 1
+        }
+      }
+    },
+    "Fidget Dumpling: Trade Master": {
+      "name": "Fidget Dumpling: Trade Master",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Isandares"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 14,
+          "first_rank": 14,
+          "appearances": 1
+        }
+      }
+    },
+    "Hidden Christmas: Find Objects": {
+      "name": "Hidden Christmas: Find Objects",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "PawPop Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 15,
+          "first_rank": 15,
+          "appearances": 1
+        }
+      }
+    },
+    "Break Master Ace": {
+      "name": "Break Master Ace",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Shuping"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 16,
+          "first_rank": 16,
+          "appearances": 1
+        }
+      }
+    },
+    "Cashier Life: Store Simulator": {
+      "name": "Cashier Life: Store Simulator",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Wuhan Sonow technology co ltd"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 17,
+          "first_rank": 17,
+          "appearances": 1
+        }
+      }
+    },
+    "Pinball Adventure Launcher": {
+      "name": "Pinball Adventure Launcher",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Mind Engine"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 18,
+          "first_rank": 18,
+          "appearances": 1
+        }
+      }
+    },
+    "Duck War": {
+      "name": "Duck War",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "HM Games Pty Ltd"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 19,
+          "first_rank": 19,
+          "appearances": 1
+        }
+      }
+    },
+    "Shock 'Em All": {
+      "name": "Shock 'Em All",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "ABI GLOBAL LTD."
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 20,
+          "first_rank": 20,
+          "appearances": 1
+        }
+      }
+    },
+    "Kitten Escape": {
+      "name": "Kitten Escape",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Loyalty Gaming"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 21,
+          "first_rank": 21,
+          "appearances": 1
+        }
+      }
+    },
+    "Tidy Room!": {
+      "name": "Tidy Room!",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Circle Games Teknoloji A.Ş."
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 22,
+          "first_rank": 22,
+          "appearances": 1
+        }
+      }
+    },
+    "Arrow Story: Home Design": {
+      "name": "Arrow Story: Home Design",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Wahoo Info"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 23,
+          "first_rank": 23,
+          "appearances": 1
+        }
+      }
+    },
+    "Spin & Triumph Arena": {
+      "name": "Spin & Triumph Arena",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Pixel matter"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 24,
+          "first_rank": 24,
+          "appearances": 1
+        }
+      }
+    },
+    "Block Pets": {
+      "name": "Block Pets",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Loyalty Gaming"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 25,
+          "first_rank": 25,
+          "appearances": 1
+        }
+      }
+    },
+    "GlowFit: Jigsaw Makeover Story": {
+      "name": "GlowFit: Jigsaw Makeover Story",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "XinHangTech"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 26,
+          "first_rank": 26,
+          "appearances": 1
+        }
+      }
+    },
+    "My KeyCap - ASMR Clicker": {
+      "name": "My KeyCap - ASMR Clicker",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "PLAYSTROM"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 27,
+          "first_rank": 27,
+          "appearances": 1
+        }
+      }
+    },
+    "Pink Pour: Water Sort": {
+      "name": "Pink Pour: Water Sort",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "NEW PACE PRODUCTIONS"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 28,
+          "first_rank": 28,
+          "appearances": 1
+        }
+      }
+    },
+    "Sea Playground: Ship Sandbox": {
+      "name": "Sea Playground: Ship Sandbox",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Freeplay Inc"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 29,
+          "first_rank": 29,
+          "appearances": 1
+        }
+      }
+    },
+    "Wildhorn Gold Slots": {
+      "name": "Wildhorn Gold Slots",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Ysonappsdev"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 30,
+          "first_rank": 30,
+          "appearances": 1
+        }
+      }
+    },
+    "Krakio: Daily Trivia Dive": {
+      "name": "Krakio: Daily Trivia Dive",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "TyroSoft LLC"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 32,
+          "first_rank": 32,
+          "appearances": 1
+        }
+      }
+    },
+    "Dumpling Trading: Squishy Fun": {
+      "name": "Dumpling Trading: Squishy Fun",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "SinoJoy Digital Limited"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 33,
+          "first_rank": 33,
+          "appearances": 1
+        }
+      }
+    },
+    "GoreBox 27": {
+      "name": "GoreBox 27",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "F²Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 34,
+          "first_rank": 34,
+          "appearances": 1
+        }
+      }
+    },
+    "Sand Out - Drop Puzzle": {
+      "name": "Sand Out - Drop Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Tripledot Studios Limited"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 35,
+          "first_rank": 35,
+          "appearances": 1
+        }
+      }
+    },
+    "Silver Moonmane: Slot Machine": {
+      "name": "Silver Moonmane: Slot Machine",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "City pub"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 37,
+          "first_rank": 37,
+          "appearances": 1
+        }
+      }
+    },
+    "Wordeex": {
+      "name": "Wordeex",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Ganko"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 38,
+          "first_rank": 38,
+          "appearances": 1
+        }
+      }
+    },
+    "Voxel Crushman": {
+      "name": "Voxel Crushman",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "KAYAC Inc."
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 39,
+          "first_rank": 39,
+          "appearances": 1
+        }
+      }
+    },
+    "Angel Spot": {
+      "name": "Angel Spot",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Rinbow Game Studio"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 40,
+          "first_rank": 40,
+          "appearances": 1
+        }
+      }
+    },
+    "Crime City: Zombie Shooter": {
+      "name": "Crime City: Zombie Shooter",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Universe Game Labs"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 41,
+          "first_rank": 41,
+          "appearances": 1
+        }
+      }
+    },
+    "Squeeze: Jelly Cat Puzzle": {
+      "name": "Squeeze: Jelly Cat Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Little Hugo"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 42,
+          "first_rank": 42,
+          "appearances": 1
+        }
+      }
+    },
+    "Spooky Survival Playground": {
+      "name": "Spooky Survival Playground",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Doublentil"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 43,
+          "first_rank": 43,
+          "appearances": 1
+        }
+      }
+    },
+    "Arrow Logic Dash": {
+      "name": "Arrow Logic Dash",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "DIA Deep Cleaning LTD"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 44,
+          "first_rank": 44,
+          "appearances": 1
+        }
+      }
+    },
+    "Arrow Puzzle:Beauty Prize": {
+      "name": "Arrow Puzzle:Beauty Prize",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Cenblu"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 45,
+          "first_rank": 45,
+          "appearances": 1
+        }
+      }
+    },
+    "Happy Tidy Room": {
+      "name": "Happy Tidy Room",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Lumos Play"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 46,
+          "first_rank": 46,
+          "appearances": 1
+        }
+      }
+    },
+    "Random Dice 2": {
+      "name": "Random Dice 2",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "111%"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 47,
+          "first_rank": 47,
+          "appearances": 1
+        }
+      }
+    },
+    "Sand ASMR Coloring": {
+      "name": "Sand ASMR Coloring",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Mad1 Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 48,
+          "first_rank": 48,
+          "appearances": 1
+        }
+      }
+    },
+    "UFO.io - Alien Invader": {
+      "name": "UFO.io - Alien Invader",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "BRAINWORKS PUBLISHING PTE. LTD."
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 49,
+          "first_rank": 49,
+          "appearances": 1
+        }
+      }
+    },
+    "Everforge: Gods Awaken": {
+      "name": "Everforge: Gods Awaken",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "bananagamehk"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 50,
+          "first_rank": 50,
+          "appearances": 1
+        }
+      }
+    },
+    "Laundry Simulator: 3D Sim Game": {
+      "name": "Laundry Simulator: 3D Sim Game",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "CASUAL AZUR GAMES"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 52,
+          "first_rank": 52,
+          "appearances": 1
+        }
+      }
+    },
+    "Vampir": {
+      "name": "Vampir",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Netmarble"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 53,
+          "first_rank": 53,
+          "appearances": 1
+        }
+      }
+    },
+    "Mahjong Match: Cash Rewards": {
+      "name": "Mahjong Match: Cash Rewards",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "THE BESTOFJOYS LIMITED"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 54,
+          "first_rank": 54,
+          "appearances": 1
+        }
+      }
+    },
+    "Spin Ring Cash Puzzle": {
+      "name": "Spin Ring Cash Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Bgt groups"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 55,
+          "first_rank": 55,
+          "appearances": 1
+        }
+      }
+    },
+    "Lucky Scratch": {
+      "name": "Lucky Scratch",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "PlayWill"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 56,
+          "first_rank": 56,
+          "appearances": 1
+        }
+      }
+    },
+    "Circle Release: Ring Puzzle": {
+      "name": "Circle Release: Ring Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "IEC Games Australia"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 57,
+          "first_rank": 57,
+          "appearances": 1
+        }
+      }
+    },
+    "Dreamy Dress Jigcard Puzzle": {
+      "name": "Dreamy Dress Jigcard Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "LoveColoring Game"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 58,
+          "first_rank": 58,
+          "appearances": 1
+        }
+      }
+    },
+    "Bubble Blitz - Ball Shooter": {
+      "name": "Bubble Blitz - Ball Shooter",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Onebutton Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 59,
+          "first_rank": 59,
+          "appearances": 1
+        }
+      }
+    },
+    "Pure Crime: Gangster City RP": {
+      "name": "Pure Crime: Gangster City RP",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Miniclip.com"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 60,
+          "first_rank": 60,
+          "appearances": 1
+        }
+      }
+    },
+    "ArrowIQ: Logic Puzzle": {
+      "name": "ArrowIQ: Logic Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Adaric Music"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 61,
+          "first_rank": 61,
+          "appearances": 1
+        }
+      }
+    },
+    "Hop In One": {
+      "name": "Hop In One",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Gimica GmbH"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 62,
+          "first_rank": 62,
+          "appearances": 1
+        }
+      }
+    },
+    "Wordsect - Word Puzzle Games": {
+      "name": "Wordsect - Word Puzzle Games",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Oakever Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 63,
+          "first_rank": 63,
+          "appearances": 1
+        }
+      }
+    },
+    "Pencil Run: Crowd Rush 3D": {
+      "name": "Pencil Run: Crowd Rush 3D",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "TopNotch Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 64,
+          "first_rank": 64,
+          "appearances": 1
+        }
+      }
+    },
+    "Bingo Rise": {
+      "name": "Bingo Rise",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "SparkCreative"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 65,
+          "first_rank": 65,
+          "appearances": 1
+        }
+      }
+    },
+    "3D Bubble Blast - Shooter": {
+      "name": "3D Bubble Blast - Shooter",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Peak Plus"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 66,
+          "first_rank": 66,
+          "appearances": 1
+        }
+      }
+    },
+    "KPOP Sandbox Battle Playground": {
+      "name": "KPOP Sandbox Battle Playground",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "LogicLabs Limited"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 67,
+          "first_rank": 67,
+          "appearances": 1
+        }
+      }
+    },
+    "Rings Out - Rotate Circles": {
+      "name": "Rings Out - Rotate Circles",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Easybrain"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 68,
+          "first_rank": 68,
+          "appearances": 1
+        }
+      }
+    },
+    "Coins Clicker : Idle Collector": {
+      "name": "Coins Clicker : Idle Collector",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Dead Pixel Labs"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 69,
+          "first_rank": 69,
+          "appearances": 1
+        }
+      }
+    },
+    "Move to Rise": {
+      "name": "Move to Rise",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "GIF COMPUTERS LLC"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 70,
+          "first_rank": 70,
+          "appearances": 1
+        }
+      }
+    },
+    "Pool Rush Win": {
+      "name": "Pool Rush Win",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Marilyn studio"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 71,
+          "first_rank": 71,
+          "appearances": 1
+        }
+      }
+    },
+    "Mystery Dumpling: DIY ASMR": {
+      "name": "Mystery Dumpling: DIY ASMR",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "BLACKGEMS GLOBAL JOINT STOCK COMPANY"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 72,
+          "first_rank": 72,
+          "appearances": 1
+        }
+      }
+    },
+    "Ricochet Grove": {
+      "name": "Ricochet Grove",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Gimica GmbH"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 73,
+          "first_rank": 73,
+          "appearances": 1
+        }
+      }
+    },
+    "Scary Baboon: Night Escape": {
+      "name": "Scary Baboon: Night Escape",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Firsthub Gaming Op LLC"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 74,
+          "first_rank": 74,
+          "appearances": 1
+        }
+      }
+    },
+    "Secret Backrooms: School Prank": {
+      "name": "Secret Backrooms: School Prank",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "HyperFusion Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 75,
+          "first_rank": 75,
+          "appearances": 1
+        }
+      }
+    },
+    "Numhop: Math Puzzle": {
+      "name": "Numhop: Math Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Little Hugo"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 76,
+          "first_rank": 76,
+          "appearances": 1
+        }
+      }
+    },
+    "Kill Shot: Bang Bang": {
+      "name": "Kill Shot: Bang Bang",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "TapRomance"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 77,
+          "first_rank": 77,
+          "appearances": 1
+        }
+      }
+    },
+    "Rumor Heights": {
+      "name": "Rumor Heights",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Cloud Dweller LLC"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 78,
+          "first_rank": 78,
+          "appearances": 1
+        }
+      }
+    },
+    "Lit Till Dawn": {
+      "name": "Lit Till Dawn",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "XCOMPUTEC PTE. LTD."
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 79,
+          "first_rank": 79,
+          "appearances": 1
+        }
+      }
+    },
+    "Slow Mo Hit": {
+      "name": "Slow Mo Hit",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "TopNotch Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 80,
+          "first_rank": 80,
+          "appearances": 1
+        }
+      }
+    },
+    "Fluffy Tales: Wild Girls": {
+      "name": "Fluffy Tales: Wild Girls",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Gaia Games Technology Limited"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 81,
+          "first_rank": 81,
+          "appearances": 1
+        }
+      }
+    },
+    "Picoradrop: Jigsaw Solitaire": {
+      "name": "Picoradrop: Jigsaw Solitaire",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "ZenEcho Studio"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 82,
+          "first_rank": 82,
+          "appearances": 1
+        }
+      }
+    },
+    "Boom Blast": {
+      "name": "Boom Blast",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "KingsGroup Holdings"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 83,
+          "first_rank": 83,
+          "appearances": 1
+        }
+      }
+    },
+    "AutoRace: Idle Racing": {
+      "name": "AutoRace: Idle Racing",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Peb"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 84,
+          "first_rank": 84,
+          "appearances": 1
+        }
+      }
+    },
+    "Punch Arena: Battle Clash": {
+      "name": "Punch Arena: Battle Clash",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Logic Apz"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 85,
+          "first_rank": 85,
+          "appearances": 1
+        }
+      }
+    },
+    "Arrow Route: Grid Rush": {
+      "name": "Arrow Route: Grid Rush",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "BIDADARI PUTRI TERNATE DEV"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 86,
+          "first_rank": 86,
+          "appearances": 1
+        }
+      }
+    },
+    "The Last Walk: Survival Story": {
+      "name": "The Last Walk: Survival Story",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "2cm Studio"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 87,
+          "first_rank": 87,
+          "appearances": 1
+        }
+      }
+    },
+    "Cooking Joy": {
+      "name": "Cooking Joy",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "gameone"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 88,
+          "first_rank": 88,
+          "appearances": 1
+        }
+      }
+    },
+    "Dino Marshal": {
+      "name": "Dino Marshal",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Blue Stone Fun"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 89,
+          "first_rank": 89,
+          "appearances": 1
+        }
+      }
+    },
+    "Bike Driving Gangster Game 3D": {
+      "name": "Bike Driving Gangster Game 3D",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "GamePark"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 90,
+          "first_rank": 90,
+          "appearances": 1
+        }
+      }
+    },
+    "Mahjong Match: Lucky Cash": {
+      "name": "Mahjong Match: Lucky Cash",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "LIT Network AI LLC"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 91,
+          "first_rank": 91,
+          "appearances": 1
+        }
+      }
+    },
+    "Penalty Kicks Launcher": {
+      "name": "Penalty Kicks Launcher",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Mind Engine"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 92,
+          "first_rank": 92,
+          "appearances": 1
+        }
+      }
+    },
+    "Color Vibes: Color by Number": {
+      "name": "Color Vibes: Color by Number",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "PIXELSPARK TECHNOLOGY LIMITED"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 93,
+          "first_rank": 93,
+          "appearances": 1
+        }
+      }
+    },
+    "Magic Hexa": {
+      "name": "Magic Hexa",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "YAUHENI NOVIKAU"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 94,
+          "first_rank": 94,
+          "appearances": 1
+        }
+      }
+    },
+    "Candy Jam: Block Puzzle!": {
+      "name": "Candy Jam: Block Puzzle!",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Bigger Games"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 95,
+          "first_rank": 95,
+          "appearances": 1
+        }
+      }
+    },
+    "Hexa Word - Relaxing Puzzle": {
+      "name": "Hexa Word - Relaxing Puzzle",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Agave Plus"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 96,
+          "first_rank": 96,
+          "appearances": 1
+        }
+      }
+    },
+    "Skyscraper Simulator": {
+      "name": "Skyscraper Simulator",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Alex Barabash"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 97,
+          "first_rank": 97,
+          "appearances": 1
+        }
+      }
+    },
+    "Scary Hot Dogs: Horror Game": {
+      "name": "Scary Hot Dogs: Horror Game",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "Estoty"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 98,
+          "first_rank": 98,
+          "appearances": 1
+        }
+      }
+    },
+    "Happy Fishing Village": {
+      "name": "Happy Fishing Village",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "DYNAWAVE GAMES"
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 99,
+          "first_rank": 99,
+          "appearances": 1
+        }
+      }
+    },
+    "Grab Cat Hospital": {
+      "name": "Grab Cat Hospital",
+      "first_seen_anywhere": "2026-11-18",
+      "categories": [
+        "Games"
+      ],
+      "publishers": [
+        "EYESTORM PTE. LTD."
+      ],
+      "board_history": {
+        "android/美区免费新游榜": {
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "best_rank": 100,
+          "first_rank": 100,
+          "appearances": 1
+        }
+      }
     }
   },
-  "updated_at": "2026-11-18T03:38:43Z"
+  "updated_at": "2026-11-18T07:17:50Z"
 }

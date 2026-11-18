@@ -34,6 +34,10 @@ jobs:
             cp -r data/daily _publish/data/ || true
             cp -r data/diff _publish/data/ || true
             cp -r data/base _publish/data/ || true
+            if [ -d data/releases ]; then
+              mkdir -p _publish/data/releases
+              cp data/releases/????-??-??.json _publish/data/releases/ 2>/dev/null || true
+            fi
             # 游戏详情页：只发正式档案（index.json + 单款文件），
             # 中间的 _worklist/_media/_icons/_staging 属构建产物，不上线
             if [ -d data/detail ]; then

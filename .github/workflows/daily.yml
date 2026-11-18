@@ -3,7 +3,7 @@ name: Daily Rank Snapshot
 on:
   # 北京时间每日 10:30 + 11:30 双触发（10:00 榜单更新后各留出 30/90 分钟）
   # 加两个时间是因为 GitHub schedule 偶尔静默跳过某次触发。
-  # 当天快照已存在时，只补采缺失的 Google Play 榜单。
+  # 当天快照已存在时，补齐缺失的 Google Play 榜单并续跑上架监控。
   schedule:
     - cron: "30 2 * * *"
     - cron: "30 3 * * *"
@@ -40,7 +40,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -75,6 +75,11 @@ jobs:
           GRAVITY_FORCE: ${{ github.event.inputs.force }}
           GRAVITY_DATE: ${{ github.event.inputs.date }}
         run: python scripts/ci_scrape.py
+
+      - name: Monitor US game releases
+        if: ${{ github.event.inputs.backfill != 'true' && github.event.inputs.date == '' }}
+        timeout-minutes: 8
+        run: python scripts/release_monitor.py
 
       - name: Compute diff vs previous day
         if: ${{ github.event.inputs.backfill != 'true' }}

@@ -38,7 +38,7 @@ def build() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     shutil.copytree(SITE, OUT, dirs_exist_ok=True)
     (OUT / "data").mkdir(parents=True, exist_ok=True)
-    for sub in ("daily", "diff", "base"):
+    for sub in ("daily", "diff", "base", "releases"):
         src = DATA / sub
         if src.exists():
             shutil.copytree(src, OUT / "data" / sub, dirs_exist_ok=True)

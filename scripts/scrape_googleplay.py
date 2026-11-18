@@ -57,23 +57,23 @@ def _fetch(url: str, timeout: float = 25, retries: int = 3) -> str:
     raise last_err  # type: ignore[misc]
 
 
-def _run_scraper(*args: str):
+def _run_scraper(*args: str, timeout: int = 45):
     # Local Windows jobs may still have Node 18 on PATH; CI uses setup-node.
     local_node = Path(__file__).resolve().parents[1] / ".runtime" / "node.exe"
     result = subprocess.run(
         [str(local_node) if local_node.is_file() else "node", "--use-env-proxy", "--use-system-ca",
          str(Path(__file__).with_name("googleplay_chart.mjs")), *args],
-        capture_output=True, text=True, encoding="utf-8", check=True, timeout=45,
+        capture_output=True, text=True, encoding="utf-8", check=True, timeout=timeout,
     )
     return json.loads(result.stdout)
 
 
-def fetch_details(package: str) -> dict:
+def fetch_details(package: str, timeout: int = 25) -> dict:
     """Fetch official listing material only for a selected research target."""
     if not re.fullmatch(r"[A-Za-z0-9_]+(?:\.[A-Za-z0-9_]+)+", package):
         raise ValueError("无效 Google Play 包名")
     try:
-        app = _run_scraper("--app", package)
+        app = _run_scraper("--app", package, str(timeout * 1000), timeout=timeout + 5)
     except subprocess.CalledProcessError as error:
         raise ValueError((error.stderr or str(error)).strip()[:500]) from error
     if not isinstance(app, dict) or app.get("appId") != package or not app.get("title"):
@@ -81,7 +81,16 @@ def fetch_details(package: str) -> dict:
     return app
 
 
-def scrape(top_n: int = 100, log: Callable = print) -> dict:
+CHARTS = {"free": "美区免费榜", "new_free": "美区免费新游榜", "new_paid": "美区付费新游榜"}
+
+
+def scrape(top_n: int = 100, log: Callable = print, charts: list[str] | None = None) -> dict:
+    return {"label": "Android", "boards": [
+        scrape_board(chart, top_n, log) for chart in (charts if charts is not None else ["free", "new_free"])
+    ]}
+
+
+def scrape_board(chart: str, top_n: int, log: Callable) -> dict:
     """Scrape up to `top_n` entries of the US free GAMES chart.
 
     Returns the standard snapshot fragment (one board). On fetch/parse
@@ -89,10 +98,11 @@ def scrape(top_n: int = 100, log: Callable = print) -> dict:
     merge never blocks the rest of the snapshot.
     """
     try:
+        label = CHARTS[chart]
         if not isinstance(top_n, int) or not 1 <= top_n <= 100:
             raise ValueError("Google Play 条数必须为 1–100")
-        apps = _run_scraper(str(top_n))
-        if not isinstance(apps, list) or not apps or len(apps) > top_n:
+        apps = _run_scraper(str(top_n), chart)
+        if not isinstance(apps, list) or (not apps and chart != "new_paid") or len(apps) > top_n:
             raise ValueError("Google Play 返回空榜或无效榜单")
         packages = set()
         rows = []
@@ -113,21 +123,17 @@ def scrape(top_n: int = 100, log: Callable = print) -> dict:
                 "publisher": publisher.strip(), "category": "Games",
                 "url": f"https://play.google.com/store/apps/details?id={package}&gl=US&hl=en",
                 "icon": app.get("icon", ""),
+                "free": app.get("free"), "price": app.get("price"), "currency": app.get("currency"),
             })
     except Exception as e:  # noqa: BLE001
         error = str(e)
         if isinstance(e, subprocess.CalledProcessError):
             error = (e.stderr or error).strip()[:500]
-        log(f"[android] 抓取失败（美区免费榜将为空）: {error}")
-        return {
-            "label": "Android",
-            "boards": [{"label": "美区免费榜", "source": "google_play",
-                        "rows": [], "error": error}],
-        }
-    log(f"[android] 美区免费游戏榜: {len(rows)} 条")
-    return {"label": "Android", "boards": [{"label": "美区免费榜",
-            "source": "google_play", "rows": rows,
-            "scraped_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}]}
+        log(f"[android/{chart}] 抓取失败: {error}")
+        return {"label": CHARTS.get(chart, chart), "source": "google_play", "rows": [], "error": error}
+    log(f"[android] {label}: {len(rows)} 条")
+    return {"label": label, "source": "google_play", "rows": rows,
+            "scraped_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
 
 
 if __name__ == "__main__":

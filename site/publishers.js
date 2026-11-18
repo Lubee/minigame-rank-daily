@@ -356,7 +356,7 @@ function shortBoard(key) {
     : m[1] === "douyin" ? "抖"
     : m[1] === "taptap" ? "Tap"
     : m[1] === "ios" ? "iOS"
-    : m[1] === "android" ? "安卓"
+    : m[1] === "android" ? "Google Play"
     : "";
   const board = m[2].replace("榜", "");
   return `${plat}·${board}`;

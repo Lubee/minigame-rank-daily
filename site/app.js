@@ -4,15 +4,15 @@ const PLATFORM_ORDER = [
   ["wx", "微信小游戏"],
   ["douyin", "抖音小游戏"],
   ["ios", "iOS App Store"],
-  ["android", "Android"],
+  ["android", "Google Play"],
   ["taptap", "TapTap"],
 ];
 const BOARD_LABELS = {
   wx: ["畅销榜", "畅玩榜", "人气榜"],
   douyin: ["畅销榜", "热门榜", "新游榜"],
   taptap: ["预约榜"],
-  ios: ["美区免费榜", "国区免费榜", "日区免费榜"],
-  android: ["美区免费榜"],
+  ios: ["美区免费榜", "美区每日新上架", "国区免费榜", "日区免费榜"],
+  android: ["美区免费榜", "美区每日新上架", "美区免费新游榜"],
 };
 
 // Icon per board name (works across platforms).
@@ -57,7 +57,7 @@ function $(id) { return document.getElementById(id); }
 
 function platLabelOf(key) {
   return ({ wx: "微信小游戏", douyin: "抖音小游戏", taptap: "TapTap",
-            ios: "iOS App Store", android: "Android" })[key] || key;
+            ios: "iOS App Store", android: "Google Play" })[key] || key;
 }
 
 function escapeHTML(s) {
@@ -192,6 +192,15 @@ async function setActiveBoard(plat, label) {
   state.lastBoard[plat] = label;
   state.fullBoardPage = 0;
   updateTabActive();
+  const releases = label === "美区每日新上架";
+  $("panel-new").hidden = releases;
+  $("panel-full").hidden = releases;
+  $("panel-releases").hidden = !releases;
+  window.ReleaseMonitor.cancel();
+  if (releases) {
+    await window.ReleaseMonitor.show(date, plat);
+    return;
+  }
 
   // Cached for this date → render instantly, no network.
   if (cacheEntry(date, plat, label)) {
@@ -340,7 +349,8 @@ function renderDiffTables() {
 
 function profileBtn(name, row, board) {
   const params = new URLSearchParams({ name, platform: board.plat, board: board.label });
-  const country = { "美区免费榜": "us", "国区免费榜": "cn", "日区免费榜": "jp" }[board.label];
+  const country = { "美区免费榜": "us", "美区每日新上架": "us", "国区免费榜": "cn", "日区免费榜": "jp" }[board.label];
+  if (board.label === "美区每日新上架") params.set("release", state.currentDate);
   if (board.plat === "ios" && country && row.app_id) {
     params.set("store", `ios:${country}:${row.app_id}`);
   } else if (board.plat === "android" && row.package) {

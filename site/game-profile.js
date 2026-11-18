@@ -64,7 +64,7 @@
     }[m]));
   }
 
-  const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap", ios: "iOS", android: "安卓" };
+  const BOARD_PLATFORM = { wx: "微信", douyin: "抖音", taptap: "TapTap", ios: "iOS", android: "Google Play" };
   // Fixed platform ordering for board tags: 微信 → 抖音 → iOS → 安卓 → TapTap.
   const PLATFORM_SEQ = { wx: 0, douyin: 1, ios: 2, android: 3, taptap: 4 };
   // Boards available under each platform (mirrors site/app.js BOARD_LABELS).
@@ -72,7 +72,7 @@
     wx: ["畅销榜", "畅玩榜", "人气榜"],
     douyin: ["畅销榜", "热门榜", "新游榜"],
     ios: ["美区免费榜", "国区免费榜", "日区免费榜"],
-    android: ["美区免费榜"],
+    android: ["美区免费榜", "美区免费新游榜"],
     taptap: ["预约榜"],
   };
   function boardSeq(key) {
@@ -689,7 +689,7 @@
     if (editBtn) editBtn.style.display = "";
   }
 
-  async function renderStoreApps(name, { platform, board, storeKey } = {}) {
+  async function renderStoreApps(name, { platform, board, storeKey, release } = {}) {
     const detail = $("gp-detail");
     $("gp-store-apps")?.remove();
     if (platform && !["ios", "android", "taptap"].includes(platform)) return;
@@ -701,13 +701,22 @@
     storeAppsRequest ||= fetch(assetUrl("data/base/store-apps.json"), { cache: "no-cache" })
       .then((response) => response.ok ? response.json() : {})
       .catch(() => ({}));
-    const [records, base] = await Promise.all([storeAppsRequest, platform ? null : loadBaseGames()]);
+    const releaseRequest = /^\d{4}-\d{2}-\d{2}$/.test(release || "")
+      ? fetch(assetUrl(`data/releases/${release}.json`), { cache: "no-cache" })
+        .then(response => response.ok ? response.json() : null).catch(() => null) : null;
+    const [records, base, releaseSnapshot] = await Promise.all([storeAppsRequest, platform ? null : loadBaseGames(), releaseRequest]);
     if (!section.isConnected) return;
-    const regions = { "美区免费榜": "us", "国区免费榜": "cn", "日区免费榜": "jp" };
+    const regions = { "美区免费榜": "us", "美区每日新上架": "us", "国区免费榜": "cn", "日区免费榜": "jp" };
     const country = regions[board];
     const history = base?.[name]?.board_history || {};
+    const candidate = releaseSnapshot?.apps?.find(app => app.platform === platform
+      && storeKey === (platform === "ios" ? `ios:us:${app.id}` : `android:${app.id}`));
+    const releaseApp = candidate ? { ...candidate, country: "us", developer: candidate.publisher } : null;
+    const knownApp = storeKey && Object.hasOwn(records, storeKey) ? records[storeKey] : null;
+    const selectedApp = releaseApp ? { ...knownApp, ...Object.fromEntries(Object.entries(releaseApp).filter(([key, value]) =>
+      value !== null && value !== undefined && value !== "" && (!Array.isArray(value) || value.length || key === "media_missing"))) } : knownApp;
     const apps = storeKey
-      ? [Object.hasOwn(records, storeKey) ? records[storeKey] : null].filter(Boolean)
+      ? [selectedApp].filter(Boolean)
       : Object.values(records).filter((app) => {
         if (app.name !== name && !app.names?.includes(name)) return false;
         if (platform) return app.platform === platform && (platform !== "ios" || app.country === country);
@@ -729,6 +738,7 @@
         ["商店分类", app.category],
         [ios || tap ? "App ID" : "包名", app.id],
         ["版本", app.version],
+        ["适用设备", (app.supported_platforms || []).join("、")],
         ["应用简介", app.description],
       ];
       const list = document.createElement("dl");
@@ -743,6 +753,15 @@
         list.append(term, definition);
       }
       section.append(heading, list);
+      if (release && (!app.description || !app.screenshots?.length || !app.version)) {
+        const missing = [!app.description && "游戏介绍", !app.version && "版本", !app.screenshots?.length && "官方截图"].filter(Boolean);
+        const note = document.createElement("p");
+        note.className = "muted";
+        note.textContent = app.media_checked_at
+          ? `本次官方查询未返回完整资料：${missing.join("、")}。已有资料保留，后续采集会重试。`
+          : `基础资料待获取：${missing.join("、")}。已进入采集队列，与 AI 深度补档分开处理。`;
+        section.append(note);
+      }
       const storeOrigin = ios ? "https://apps.apple.com/" : tap ? "https://www.taptap.cn/" : "https://play.google.com/";
       if (app.url?.startsWith(storeOrigin)) {
         const link = document.createElement("a");
@@ -776,6 +795,10 @@
         if (!gallery.childElementCount) {
           gallery.remove();
           heading.remove();
+          const note = document.createElement("p");
+          note.className = "muted";
+          note.textContent = `${storeName} 官方截图暂时加载失败，可通过商店详情核对。`;
+          section.append(note);
         }
       });
       link.addEventListener("click", (event) => {
@@ -1199,6 +1222,7 @@
           platform: params.get("platform"),
           board: params.get("board"),
           storeKey: params.get("store"),
+          release: params.get("release"),
         });
       } else {
         await loadAll();

@@ -95,6 +95,10 @@ def refresh_ios(apps: dict, keys: list[str], today: str, log):
             for key in batch:
                 app = apps[key]
                 result = by_id.get(app["id"], {})
+                if result:
+                    app["release_info"] = {field: result.get(field) for field in (
+                        "trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "price",
+                        "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices")}
                 for field, source in (
                     ("developer", "sellerName"),
                     ("description", "description"),
@@ -102,7 +106,7 @@ def refresh_ios(apps: dict, keys: list[str], today: str, log):
                 ):
                     if result.get(source):
                         app[field] = result[source]
-                urls = result.get("screenshotUrls") or result.get("ipadScreenshotUrls") or []
+                urls = (result.get("screenshotUrls") or []) + (result.get("ipadScreenshotUrls") or []) + (result.get("appletvScreenshotUrls") or [])
                 screenshots = list(dict.fromkeys(
                     url for url in urls if re.match(r"https://[\w.-]+\.mzstatic\.com/", url)
                 ))
@@ -127,6 +131,8 @@ def refresh_googleplay(apps: dict, keys: list[str], today: str, log):
                 "developer": app.get("developer"), "description": app.get("description"),
                 "version": app.get("version"), "icon": app.get("icon"),
                 "screenshots": app.get("screenshots"),
+                "release_info": {field: app.get(field) for field in (
+                    "appId", "title", "genreId", "released", "developer", "free", "price", "currency", "icon")},
             }
         except (OSError, ValueError, subprocess.SubprocessError) as error:
             log(f"[Google Play/{apps[key]['id']}] 详情查询失败，保留已有资料：{error}")

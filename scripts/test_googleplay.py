@@ -26,6 +26,23 @@ def fragment(name="Test Game"):
 
 
 class GooglePlayTests(unittest.TestCase):
+    def test_existing_free_board_is_preserved_when_only_new_chart_is_missing(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            target = root / "data/daily/2026-11-18.json"
+            target.parent.mkdir(parents=True)
+            original = fragment()
+            target.write_text(json.dumps({"platforms": {"android": original}}), encoding="utf-8")
+            new = fragment("New chart")
+            new["boards"][0]["label"] = "美区免费新游榜"
+            with patch.object(ci_scrape, "ROOT", root), patch.object(googleplay, "scrape", return_value=new) as scrape, \
+                    patch("store_apps.update_store_apps"):
+                ci_scrape.supplement_googleplay(target, lambda _: None)
+            self.assertEqual(scrape.call_args.kwargs["charts"], ["new_free"])
+            boards = json.loads(target.read_text(encoding="utf-8"))["platforms"]["android"]["boards"]
+            self.assertEqual(boards[0], original["boards"][0])
+            self.assertEqual(boards[1]["label"], "美区免费新游榜")
+
     def test_adapter_and_invalid_responses(self):
         responses = [
             [app()], [], [app(), app()], [app(package="invalid")],
@@ -79,7 +96,11 @@ class GooglePlayTests(unittest.TestCase):
                 before = target.read_bytes()
                 ci_scrape.main()
                 self.assertEqual(target.read_bytes(), before)
-                scrape.return_value = fragment()
+                repaired = fragment()
+                new_board = copy.deepcopy(repaired["boards"][0])
+                new_board["label"] = "美区免费新游榜"
+                repaired["boards"].append(new_board)
+                scrape.return_value = repaired
                 ci_scrape.main()
                 result = json.loads(target.read_text(encoding="utf-8"))
                 self.assertEqual(result["platforms"]["wx"], snapshot["platforms"]["wx"])

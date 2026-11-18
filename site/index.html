@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>新游监控系统</title>
-  <link rel="stylesheet" href="style.css?v=112" />
+  <link rel="stylesheet" href="style.css?v=113" />
 </head>
 <body>
   <header>
@@ -71,7 +71,7 @@
     </div>
   </section>
 
-  <section class="panel">
+  <section class="panel" id="panel-full">
     <h2>当前榜单全貌 <span class="muted" id="panel-board-name"></span></h2>
     <div class="table-wrap">
     <table id="tbl-full">
@@ -86,6 +86,23 @@
     </div>
   </section>
 
+  <section class="panel" id="panel-releases" hidden>
+    <h2 id="release-title">美区每日新上架</h2>
+    <p id="release-coverage" class="muted"></p>
+    <div class="release-filters">
+      <label>记录 <select id="release-status"><option value="all">所有</option><option value="verified">已核实上架</option><option value="pending">待核验 / 日期未知 / 美区暂不可查</option><option value="scheduled">待发布</option></select></label>
+      <label>官方发布日期 <select id="release-day"></select></label>
+      <label>价格 <select id="release-price"><option value="all">全部</option><option value="free">免费</option><option value="paid">付费</option></select></label>
+      <span id="release-count" class="muted" aria-live="polite"></span>
+    </div>
+    <p class="muted">发布日期以官方商店提供的日期为准，不代表美国区首次开放日期。首次发现的老游戏按原发布日期归档；版本更新不算新上架。</p>
+    <div class="table-wrap"><table id="tbl-releases">
+      <thead><tr><th>官方发布日期</th><th>游戏</th><th>价格</th><th>开发者</th><th>首次发现（北京时间）</th><th>来源 / 核验状态</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <details open><summary>来源状态与覆盖范围</summary><div id="release-sources" class="release-sources"></div></details>
+  </section>
+
   <footer>
     <p>
       数据来源：
@@ -98,6 +115,7 @@
     </p>
   </footer>
 
-  <script src="app.js?v=116" defer></script>
+  <script src="releases.js?v=5" defer></script>
+  <script src="app.js?v=119" defer></script>
 </body>
 </html>

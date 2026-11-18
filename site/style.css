@@ -1604,3 +1604,8 @@ footer {
 .gd-lb-x:hover { opacity: 1; }
 
 .gd-loading { font-size: 12.5px; color: var(--muted); padding: 10px 0; }
+[hidden] { display: none !important; }
+.release-filters { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: 20px 0; }
+.release-filters select { padding: 6px; border: 1px solid #ddd; border-radius: 6px; }
+.release-sources { font-size: 13px; overflow-wrap: anywhere; }
+#tbl-releases td { vertical-align: top; }

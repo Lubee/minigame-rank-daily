@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 node_modules/
 .runtime/
+/debug.log
 
 # macOS 元数据（曾把 data/detail/.DS_Store 带进待提交列表）
 .DS_Store
