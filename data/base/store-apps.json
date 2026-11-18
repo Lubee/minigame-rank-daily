@@ -14,6 +14,7 @@
   "android:ball.sort.puzzle.color.sorting.bubble.games": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/A-E2jczrwGXsu42MoQdEFQ0YFhMT_9Svyk_7eOCiyYQx8PVcs6gUV99ZYycWiqGca2Zzr8YqUHtxSHhdmm1uw0I",
     "id": "ball.sort.puzzle.color.sorting.bubble.games",
     "name": "Ball Sort Puzzle - Color Game",
     "names": [
@@ -22,6 +23,32 @@
     "platform": "android",
     "publisher": "Guru Puzzle Game",
     "url": "https://play.google.com/store/apps/details?id=ball.sort.puzzle.color.sorting.bubble.games&gl=us"
+  },
+  "android:bus.sand.fall.jam.loop.traffic.flow": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/-TcLefDSecp5lo9jZbNF1LcnFVef7kv0pUNUGEBoX-Q22Ipc8wSWk8Z9cv-dHE4s7c4_hy8j4x8h1H_IFzO-kH0",
+    "id": "bus.sand.fall.jam.loop.traffic.flow",
+    "name": "Jam Bus:Sandfall",
+    "names": [
+      "Jam Bus:Sandfall"
+    ],
+    "platform": "android",
+    "publisher": "Nova Games Technology Limited",
+    "url": "https://play.google.com/store/apps/details?id=bus.sand.fall.jam.loop.traffic.flow&gl=us"
+  },
+  "android:busflow.traffic.puzzle": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/RwFIyYCHn8ZliNj_xfaV4Ndc3h3J6tb9Q8xhKB80WFA_cia_i6QDwW5Dun_3ILx6mS1AKmNWG3wGjSp6LoOCIg",
+    "id": "busflow.traffic.puzzle",
+    "name": "Bus Crowd - Traffic Jam",
+    "names": [
+      "Bus Crowd - Traffic Jam"
+    ],
+    "platform": "android",
+    "publisher": "Hyper Surfer Games",
+    "url": "https://play.google.com/store/apps/details?id=busflow.traffic.puzzle&gl=us"
   },
   "android:color.number.paint.pixle.art.sort.jigsaw": {
     "category": "Games",
@@ -62,6 +89,7 @@
   "android:com.Garawell.LoopSort": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/5wPzX6vBVV-kr4jknuW4ACmYrRgD5m2UwjXw9VFlWAhIsJ5k_8BND8m8NGUv6hOgPuXQzOmvNBQYKY-GWNfDxg",
     "id": "com.Garawell.LoopSort",
     "name": "Loop Sort",
     "names": [
@@ -120,6 +148,19 @@
     "publisher": "Estoty",
     "url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmCat&gl=us"
   },
+  "android:com.RC67.surprise.dumpling.ASMR.box": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/1m7DlKP8dyNCfbbdDx2O0_NiFzQBqXkvtUpWHPwHriqChJgqJXjfHOUgMTKMH7OSllbC0ncIHgNASYYs9L5J_Q",
+    "id": "com.RC67.surprise.dumpling.ASMR.box",
+    "name": "Surprise Dumpling: ASMR Box",
+    "names": [
+      "Surprise Dumpling: ASMR Box"
+    ],
+    "platform": "android",
+    "publisher": "NAMIGAME",
+    "url": "https://play.google.com/store/apps/details?id=com.RC67.surprise.dumpling.ASMR.box&gl=us"
+  },
   "android:com.VisualConcepts.MyNBASherpa": {
     "category": "Games",
     "country": "us",
@@ -155,6 +196,19 @@
     "platform": "android",
     "publisher": "ABI GAMES PTE. LTD.",
     "url": "https://play.google.com/store/apps/details?id=com.abi.colony.flow&gl=us"
+  },
+  "android:com.activision.callofduty.shooter": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/cKXlbU72_2wSXdjcD_zPWED3EVaaOQVqqHgiA9JoRQMprYen49arNUMTngcRc9UWLnv-ANT9gyQBDQpvAn61lg",
+    "id": "com.activision.callofduty.shooter",
+    "name": "Call of Duty®: Mobile",
+    "names": [
+      "Call of Duty®: Mobile"
+    ],
+    "platform": "android",
+    "publisher": "Activision Publishing, Inc.",
+    "url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&gl=us"
   },
   "android:com.advant.streamer": {
     "category": "Games",
@@ -195,7 +249,7 @@
   "android:com.agavegames.wordtiles": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/gYYiR-72QhIzDE3ZYVmJfVc9TlHyTFQIwPDA_mwGpqwVViWNtsuqa-JXXmUrzqDDgMC2rvF7mE-kEBVc9Eh1nn4=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/gYYiR-72QhIzDE3ZYVmJfVc9TlHyTFQIwPDA_mwGpqwVViWNtsuqa-JXXmUrzqDDgMC2rvF7mE-kEBVc9Eh1nn4",
     "id": "com.agavegames.wordtiles",
     "media_checked_on": "2026-11-17",
     "name": "Word Tiles - Relaxing Puzzle",
@@ -244,6 +298,19 @@
     "platform": "android",
     "publisher": "CozyCraft",
     "url": "https://play.google.com/store/apps/details?id=com.animal.hunter.shooting.apex&gl=us"
+  },
+  "android:com.arcshoot.arena": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/MWtMrPC9UTHmODrCM823gi70fuA3RaW5tyepeFfP4GkU0B9O0hcUb2Tm_WeovU0hCILTBOU9r62y9aJDEz1Xvw",
+    "id": "com.arcshoot.arena",
+    "name": "Archery Duel 3D",
+    "names": [
+      "Archery Duel 3D"
+    ],
+    "platform": "android",
+    "publisher": "GreenTTeaGame",
+    "url": "https://play.google.com/store/apps/details?id=com.arcshoot.arena&gl=us"
   },
   "android:com.arrow.out": {
     "category": "Games",
@@ -320,18 +387,64 @@
   "android:com.block.juggle": {
     "category": "Games",
     "country": "us",
+    "description": "Welcome to Block Blast, a relaxing block puzzle for fans of puzzle games, offline games, and single-player games!\n\nPlace colorful blocks on the 8x8 board, clear rows and columns, create combos, and beat your best score. Block Blast combines simple puzzle gameplay with thoughtful strategy, making every round easy to learn, relaxing to play, and rewarding to master.\n\nWhether you want a quick puzzle or a longer session, Block Blast gives you the fun of puzzle games with the convenience of offline games. Play anytime without WiFi and enjoy smooth single-player gameplay wherever you are.\n\n🌟 Why You’ll Love Block Blast\n\n🔸 Relaxing puzzle games\nDrag and place blocks, clear complete lines, and keep space open for your next move. If you enjoy puzzle games that are simple, satisfying, and strategic, Block Blast is ready to play.\n\n🔹 Offline games anywhere\nNo connection is required. Enjoy Block Blast at home, while traveling, or during a short break. It is a convenient choice for players who prefer offline games without interruptions.\n\n🔸 A satisfying single-player puzzle\nPlay at your own pace, improve your strategy, and compete with your personal best. Block Blast is designed for players who enjoy single-player games and independent challenges.\n\n🔹 Easy to play, challenging to master\nThe rules are simple, but every block matters. Think ahead, protect open spaces, and create bigger combos to improve your score.\n\n🔸 No WiFi? No problem\nSearching for no wifi games that are easy to start and fun to replay? Block Blast delivers smooth puzzle gameplay without an internet connection.\n\n💥 Features of Block Blast\n\n● Relaxing block puzzle gameplay on an 8x8 board\n● Fun and strategic puzzle games for all skill levels\n● Convenient offline games with no WiFi required\n● Satisfying single-player games at your own pace\n● Simple controls with strategic depth\n● Combos, high scores, and endless replay value\n● Daily puzzle challenges and new goals\n● Smooth animations and satisfying effects\n\n🎮 How to Play\n\n● Drag blocks onto the 8x8 board.\n● Complete rows or columns to clear blocks.\n● Clear multiple lines to create bigger combos.\n● Keep enough open space for upcoming pieces.\n● Plan each move and beat your best score.\n\n🧩 Made for Puzzle Fans\n\nBlock Blast is a great choice for anyone who enjoys puzzle games, block puzzles, and relaxing brain challenges. Every round presents a new puzzle and rewards careful planning.\n\nUnlike fast-paced competitive games, Block Blast lets you play calmly and focus on your own progress. It combines relaxing casual puzzle games with the smart decisions found in strategic single-player games.\n\n🌐 Enjoy Offline Games Anytime\n\nBlock Blast is designed for players who want reliable offline games wherever they go. Open the game without WiFi, place your blocks, clear the board, and keep improving your score.\n\nIf you are looking for no internet games for traveling, commuting, or relaxing at home, Block Blast offers a simple and dependable way to play. It is also ideal for fans of no wifi games who want uninterrupted puzzle fun.\n\n🏆 Challenge Yourself\n\nEvery round is a new chance to improve. Plan better moves, create longer combos, and keep the board open for as long as possible. There are no opponents and no pressure—just satisfying single-player gameplay and your next personal record.\n\n🔥 Download Block Blast Today!\n\nDiscover relaxing puzzle games, satisfying block-clearing action, and strategic single-player games in one easy-to-play experience. Enjoy offline games without WiFi, challenge your brain with every puzzle, and keep improving your score.\n\nBlock Blast brings together puzzle games, offline games, and single-player games anytime and anywhere. Download now and start clearing the board!",
+    "details_checked_on": "2026-11-18",
+    "developer": "HungryStudio",
+    "icon": "https://play-lh.googleusercontent.com/5FLR-EBlfNvoV9ydZkOMDqRF10nV64XcKdZzW_oQzmz2e8Me9PS5Zncnvviki0J3XumjO2a_lg6_IdwOqwnV",
     "id": "com.block.juggle",
+    "media_checked_on": "2026-11-18",
     "name": "Block Blast!",
     "names": [
       "Block Blast!"
     ],
     "platform": "android",
     "publisher": "HungryStudio",
-    "url": "https://play.google.com/store/apps/details?id=com.block.juggle&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/sogNkRq2d8VqbVUlTdHi-Ni1m5DkHQmWYlvG44CJ5pD6kmtBnkX_gk3xcL1RpOPV3Q4QrQEbt_lWTbo409Wh",
+      "https://play-lh.googleusercontent.com/dnreoc3iLNyiTjYehzbmPXs1prYXFABNSJfSJqSStPCnuyCzltw4MGdd53-H1te8MzH8hcSZhuoPRhuy5SbeGA",
+      "https://play-lh.googleusercontent.com/Kk0zhxkemu6XOoTOdnfwuav6SqhCF0x2sNf2ZAllenVz_0vCcZT3K1_cTLuGBNm_qH2yAElbT61Lc3FS8fezZMA",
+      "https://play-lh.googleusercontent.com/1oiBSeID8J6mDXoYL3ar6hP8k0cggnIIV9Ne7y1vVBZri6TRXTtvUDD-A-P1yTSWfD5c894KwfL-W0NtzvDcuA",
+      "https://play-lh.googleusercontent.com/9LU9kDqb1PfFfALBHasAw7FSPh33xqLXepsLv6RkGmpzkmjCVt2ox2p3IN0LECzS1jt6cWyGvMddK1T5WQ3BHQ",
+      "https://play-lh.googleusercontent.com/O6uU7NJ_USH6FsYs0y-Fawqk-NHYhlzKPftck3E4NdG26tItsxNPzyiqJA4WJbdmxTvmc3AeBNXCU38AuUuY_w",
+      "https://play-lh.googleusercontent.com/JLS0NGrGwXZiu6MwEt5eb2CsRVb6a7gScg3aE4Zsp6vfhHlGidotvLfwHcNLcCAy5BgNAXZX7L1LAUj_vrJLhA",
+      "https://play-lh.googleusercontent.com/ZK1wgRgPHI7KcH8Onn73cxtrpxn2K5lWxASSxLFRVHG54VYF5aICrpGODO0hTgX-bl5rEqnHkLa-3TndPSdS0A",
+      "https://play-lh.googleusercontent.com/sogNkRq2d8VqbVUlTdHi-Ni1m5DkHQmWYlvG44CJ5pD6kmtBnkX_gk3xcL1RpOPV3Q4QrQEbt_lWTbo409Wh",
+      "https://play-lh.googleusercontent.com/dnreoc3iLNyiTjYehzbmPXs1prYXFABNSJfSJqSStPCnuyCzltw4MGdd53-H1te8MzH8hcSZhuoPRhuy5SbeGA",
+      "https://play-lh.googleusercontent.com/Kk0zhxkemu6XOoTOdnfwuav6SqhCF0x2sNf2ZAllenVz_0vCcZT3K1_cTLuGBNm_qH2yAElbT61Lc3FS8fezZMA",
+      "https://play-lh.googleusercontent.com/1oiBSeID8J6mDXoYL3ar6hP8k0cggnIIV9Ne7y1vVBZri6TRXTtvUDD-A-P1yTSWfD5c894KwfL-W0NtzvDcuA",
+      "https://play-lh.googleusercontent.com/9LU9kDqb1PfFfALBHasAw7FSPh33xqLXepsLv6RkGmpzkmjCVt2ox2p3IN0LECzS1jt6cWyGvMddK1T5WQ3BHQ",
+      "https://play-lh.googleusercontent.com/O6uU7NJ_USH6FsYs0y-Fawqk-NHYhlzKPftck3E4NdG26tItsxNPzyiqJA4WJbdmxTvmc3AeBNXCU38AuUuY_w",
+      "https://play-lh.googleusercontent.com/JLS0NGrGwXZiu6MwEt5eb2CsRVb6a7gScg3aE4Zsp6vfhHlGidotvLfwHcNLcCAy5BgNAXZX7L1LAUj_vrJLhA",
+      "https://play-lh.googleusercontent.com/ZK1wgRgPHI7KcH8Onn73cxtrpxn2K5lWxASSxLFRVHG54VYF5aICrpGODO0hTgX-bl5rEqnHkLa-3TndPSdS0A",
+      "https://play-lh.googleusercontent.com/sogNkRq2d8VqbVUlTdHi-Ni1m5DkHQmWYlvG44CJ5pD6kmtBnkX_gk3xcL1RpOPV3Q4QrQEbt_lWTbo409Wh",
+      "https://play-lh.googleusercontent.com/dnreoc3iLNyiTjYehzbmPXs1prYXFABNSJfSJqSStPCnuyCzltw4MGdd53-H1te8MzH8hcSZhuoPRhuy5SbeGA",
+      "https://play-lh.googleusercontent.com/Kk0zhxkemu6XOoTOdnfwuav6SqhCF0x2sNf2ZAllenVz_0vCcZT3K1_cTLuGBNm_qH2yAElbT61Lc3FS8fezZMA",
+      "https://play-lh.googleusercontent.com/1oiBSeID8J6mDXoYL3ar6hP8k0cggnIIV9Ne7y1vVBZri6TRXTtvUDD-A-P1yTSWfD5c894KwfL-W0NtzvDcuA",
+      "https://play-lh.googleusercontent.com/9LU9kDqb1PfFfALBHasAw7FSPh33xqLXepsLv6RkGmpzkmjCVt2ox2p3IN0LECzS1jt6cWyGvMddK1T5WQ3BHQ",
+      "https://play-lh.googleusercontent.com/O6uU7NJ_USH6FsYs0y-Fawqk-NHYhlzKPftck3E4NdG26tItsxNPzyiqJA4WJbdmxTvmc3AeBNXCU38AuUuY_w",
+      "https://play-lh.googleusercontent.com/JLS0NGrGwXZiu6MwEt5eb2CsRVb6a7gScg3aE4Zsp6vfhHlGidotvLfwHcNLcCAy5BgNAXZX7L1LAUj_vrJLhA",
+      "https://play-lh.googleusercontent.com/ZK1wgRgPHI7KcH8Onn73cxtrpxn2K5lWxASSxLFRVHG54VYF5aICrpGODO0hTgX-bl5rEqnHkLa-3TndPSdS0A"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.block.juggle&gl=us",
+    "version": "11.0.0"
+  },
+  "android:com.blockblast.lite": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/PtTrZ-8NOtDd8UkPQ9Ka0s0z2uCHWTs7IB4LiiMLzea_TsMgDv6LXhhr4vRHGCp7Wj8N3xVnAnTLsSiScaRr_MI",
+    "id": "com.blockblast.lite",
+    "name": "Block Blast Lite",
+    "names": [
+      "Block Blast Lite"
+    ],
+    "platform": "android",
+    "publisher": "HungryStudio",
+    "url": "https://play.google.com/store/apps/details?id=com.blockblast.lite&gl=us"
   },
   "android:com.brain.crazy.joygame": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/NDyFw75kuyQQx0ffCMeEB9mvUnF6kAk8npcQ0-JtmEj3n-rGYsEWabWo1jWrY4NGLgj87kkWy16J_mqnTCiLGw",
     "id": "com.brain.crazy.joygame",
     "name": "Brain Puzzle 3: Crazy Mind",
     "names": [
@@ -340,6 +453,19 @@
     "platform": "android",
     "publisher": "JoyGame Studio",
     "url": "https://play.google.com/store/apps/details?id=com.brain.crazy.joygame&gl=us"
+  },
+  "android:com.brain.logic.joygame": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/4vZRLpvVjCUKN1_aWozNDlyuUSHDbztHg5WWN3upYFki--aKkInK2Ct_7jexBH6RHTRh2w0swstYaaJNYhDnjA",
+    "id": "com.brain.logic.joygame",
+    "name": "Brain Puzzle 2: Logic Twist",
+    "names": [
+      "Brain Puzzle 2: Logic Twist"
+    ],
+    "platform": "android",
+    "publisher": "JoyGame Studio",
+    "url": "https://play.google.com/store/apps/details?id=com.brain.logic.joygame&gl=us"
   },
   "android:com.budgestudios.googleplay.BlueyBLU": {
     "category": "Games",
@@ -380,6 +506,7 @@
   "android:com.chess": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/JO7Z75U1oypXpNTAklroO5emKWePni0sK9zn1E_nRgqmbAHoMxz1oQHDfSTpcycdht92dTBejkpEDXttGeCWN74",
     "id": "com.chess",
     "name": "Chess - Play and Learn Online",
     "names": [
@@ -428,6 +555,7 @@
   "android:com.combo.yarnflow": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/hcRA3hSy-wERbQDJ-w6k-mOy2eSvH7vfpTs4LhAXPollxffbO9MqFRPPW-Fo73Nu70mWTzaXmONHTKSlHUONig",
     "id": "com.combo.yarnflow",
     "name": "Yarn Loop",
     "names": [
@@ -440,14 +568,37 @@
   "android:com.cyphergames.royalsmash": {
     "category": "Games",
     "country": "us",
+    "description": "Welcome to Royal Smash, the ultimate physics puzzle game! It takes seconds to learn, but mastering every royal level requires true precision and perfect timing.\n\nLoad the royal cannon, line up your angle and power, and smash the whole royal arena to pieces. Fire across the kingdom to smash fragile jars, crush heavy stones, and bring royal towers crashing down in glorious 3D. One clean smash can trigger an unstoppable chain reaction that smashes the entire scene at once.\n\nEasy to play in your first minute, but every royal level rewards precision, timing, and a little destructive genius.\n\n🎯 HOW TO PLAY\n• Aim the royal cannon — set the perfect angle and power\n• Fire and smash through fragile jars and heavy stones\n• Trigger chain reactions to smash everything in one shot\n• Clear each stage to unlock the next royal arena\n\n💥 GAME FEATURES\n• Satisfying smash physics — every royal smash feels real\n• Stunning high-quality 3D graphics and animated festival scenes\n• Hundreds of royal levels packed with new objects and challenges\n• Simple one-tap controls anyone can smash instantly\n• Skill-based aiming that rewards the perfect smash\n• Colorful royal kingdoms to demolish, one blast at a time\n\n🏆 WHY YOU'LL LOVE IT\nIf you love smash games, blast games, and royal destruction challenges, Royal Smash! is your next obsession. Relax with oddly satisfying smashing, or chase the perfect royal smash chain to master every arena.\n\nGrab the royal cannon, aim true, and smash the whole kingdom in Royal Smash! It's a total smash fest of destruction!\n\n👑 Download Royal Smash! now and start smashing!",
+    "details_checked_on": "2026-11-18",
+    "developer": "Cypher Games",
+    "icon": "https://play-lh.googleusercontent.com/VqJWXEzCPnmd4pCVdTBOvzYzbRs9u_BEcKVWUuL07RhKCtUmun3J5qC2p9_1C0A27Fpg8EaGUaE8AmDmF1pBfA",
     "id": "com.cyphergames.royalsmash",
+    "media_checked_on": "2026-11-18",
     "name": "Royal Smash! - Physics Puzzle",
     "names": [
       "Royal Smash! - Physics Puzzle"
     ],
     "platform": "android",
     "publisher": "Cypher Games",
-    "url": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/zDpfWchpN1b97nhoKS862e9a0gEJ-MoVWj41bITiPmzeqkndlgCm2fMoNXORfBErpEg9p4e4rp6OpfY_ewMi",
+      "https://play-lh.googleusercontent.com/gyE0rrS_jX4KQxjVSFVeWse7odrbBxV2PfSAt7v-DKfzHfEr3czuREUIoyX1DohEjbkZQT13tNLZChxoa4CJ",
+      "https://play-lh.googleusercontent.com/2YoMl_KYN7iUoMphPP5E39seq7O-Raegd55hfgcq0CRcp_r9e67hPaQc4N2KHEFHg1b55WAj5cBki6KWbsp1",
+      "https://play-lh.googleusercontent.com/nPSgehXAbSYo1oWKGPnauHqecfgf6pT3sbowsg3X1HiSJZtoVqhLuhJp8zmJ2KwEfizp0kyEsY6ZteDo5nQ5GAw",
+      "https://play-lh.googleusercontent.com/bsRzySkQmxAZLwDzdYsZppwVaDz6TNnBD-67bsG8KbgqOyeurHeU3TIIC2GacClC0-W8vCZO4AzZLUexPEJz-_w",
+      "https://play-lh.googleusercontent.com/MPRYS2lJDWptzHdtgZsZIM_lFynysJs_3emGmkR-6CjRy5IzIUUwc-zsTTwQ76qrdsRopnInf9dfh1Gwmzs1dg",
+      "https://play-lh.googleusercontent.com/HcYZu3RSeqmTguwmWw5hEcolU0l-jyLVNTb49Bv3nI4WKyOklh3fyfaaNdd-cEMrVr742SUfeOluPn97vkjk",
+      "https://play-lh.googleusercontent.com/yuFu3ABi5beiHq7kT7Zyg3aqqLS3DHKi09RT5Uq_TCDuhoptr4ISMT8Io4gxPY3dvx9nZ4S7uYXnybXEUtg6zyE",
+      "https://play-lh.googleusercontent.com/zln-WEvsVPBjTgKBdvexuanQjBfHSan2opNmt9fz4kaxOIGdtqnq3nNLQgg06FieU5PrNYVOgyQEA4jaYiLukA",
+      "https://play-lh.googleusercontent.com/HRbhdZjmxLrCQToGuY-4ehMfEEkj1lEwEgs199Q3M-DxIUdCT8OG6ms6jYrAEtznqzwLZh0HMXAsEbvINUhwRA",
+      "https://play-lh.googleusercontent.com/JYnWXO_awvccfLDhgTps8hy5Bn7DTySGwvPY-iB62J2rmh_9CTJtzuvdsb1Ij4o-glg1kQPUS21LhmA9JaAPGQ",
+      "https://play-lh.googleusercontent.com/6cDzyKj-Vk3iO5JvqtkXcPJr0QFksDo9RlMwxiCy-LWEL_u3nksv7OZW-R5iwRPnlXE5lfunHs4SOEvhk366",
+      "https://play-lh.googleusercontent.com/SKmZjhLd3MxbqMlqd6DsqCYKyIWW-4O4aNh0m4CLy9tmK8ZrVCo3J3S1oomuF_ZmLA4qPUCrf26RxtJA3WLQcg",
+      "https://play-lh.googleusercontent.com/kBy4r54jJC7aj2exev6KUePmJcjRMDMYjmIMh2XZPpWM2RIGL2cL2pV7lfbVpIV6s9YFQWZi4tamRAmDhurC8AE",
+      "https://play-lh.googleusercontent.com/-RaCd12rwKuV50DLJXHUwtzdWd9TbS8H5WOQ5pMJO_8dg2J2OwV0fAj9aNtteqw1sU_7Rrk1F3rc4eAbjFFKTw"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&gl=us",
+    "version": "1.20.860"
   },
   "android:com.diamond.city.house.best.building.craft.vip": {
     "category": "Games",
@@ -464,6 +615,7 @@
   "android:com.dreamgames.royalkingdom": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/rebIi7rCFacazMU6uBVIe7iKUEmxDfSpE_izjgMYUMhdOEautp-IexJ4FS-j35MWAZYCitxH-kXSvgR2fm0k",
     "id": "com.dreamgames.royalkingdom",
     "name": "Royal Kingdom",
     "names": [
@@ -537,6 +689,7 @@
   "android:com.easybrain.arrow.puzzle.game": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/b--9J_VPY-VBj6ZAYDkXBZIni5JSi44_tFOeJ_HW3uVnxw1XNIkUvHF8qT9V6aLzyK_W4U5EAlDoofjjOfqWXQ",
     "id": "com.easybrain.arrow.puzzle.game",
     "name": "Arrow Puzzle: Tap Puzzle Games",
     "names": [
@@ -573,6 +726,7 @@
   "android:com.ecffri.arrows": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/lMmSA4L1MNUvZ3w4c_T10tJvrptwAdObx8WxAzn5SuboyQtrwMPy1Grqqlgg6qBpgf4PQWvk7QPsiPy6R5ZIQQ",
     "id": "com.ecffri.arrows",
     "name": "Arrows – Puzzle Escape",
     "names": [
@@ -585,6 +739,7 @@
   "android:com.epicgames.fortnite": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/on6jel4w7S9PtUVpPEeNhO7RRKg6y-FFkg6pr9cvcEJfuunJKX-hcJOlGZlTQO-B_E13zZMvGuE8yL_d_VU5ug",
     "id": "com.epicgames.fortnite",
     "name": "Fortnite",
     "names": [
@@ -597,6 +752,7 @@
   "android:com.epicoro.castleclashers": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/HoZEAZ079BkQ1Aoog3_Lb7sca-XQHtS6ooYfj8gTKJmV2Q-GnWuQ2Y0Qo-IC0zn6VhxNijeC9pYjiWe6znVr6GQ",
     "id": "com.epicoro.castleclashers",
     "name": "Castle Busters",
     "names": [
@@ -609,9 +765,11 @@
   "android:com.farlightgames.warline.gp.global": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/XJM2uz8yxBb6BLJ-1qk2KNzPjWfNQdLPyWPSJDycuSwSyFiIangg7skGDM_sIrEmQVueqmWJQb63NFIwUEmAhA",
     "id": "com.farlightgames.warline.gp.global",
-    "name": "Warline: Sniper Strike",
+    "name": "Warline: Sniper Squad",
     "names": [
+      "Warline: Sniper Squad",
       "Warline: Sniper Strike"
     ],
     "platform": "android",
@@ -702,6 +860,7 @@
   "android:com.fungames.blockcraft": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/Nu36aaM2u2mVaItdPaWfHDWp1pi-yExZ_ibd2_ElMmaIuyZ7lB3IxA_p-6tpCTSICDYGQGW9j-Uua20dxBcQEw",
     "id": "com.fungames.blockcraft",
     "name": "Block Craft 3D：Building Game",
     "names": [
@@ -722,6 +881,34 @@
     "platform": "android",
     "publisher": "FunPlus International AG",
     "url": "https://play.google.com/store/apps/details?id=com.funplus.ts.global&gl=us"
+  },
+  "android:com.gamefactory.roomsort": {
+    "category": "Games",
+    "country": "us",
+    "description": "In Amochiroom Puzzle: Room Sort, turn everyday clutter into a satisfying sorting puzzle.\n\nExplore cozy rooms, find the items your boxes need, and tap matching objects to pack them away. Read each box label and choose what to collect next. Items without a matching box wait in limited temporary slots, so a little planning helps you keep making space.\n\nFind it. Sort it.\nLook through piles of familiar objects and match them to the right boxes. Decide which items to collect first as you work through each room.\n\nA place for your next move\nKeep an eye on your temporary slots. Make thoughtful choices before they fill up, and clear space for the next objects.\n\nRooms with their own character\nDiscover living rooms, kitchens, pet corners, cafés, and other themed spaces filled with everyday things to sort.\n\nEnjoy the tidy finish\nComplete puzzles, earn stars, and revisit earlier rooms to improve your best times.\n\nPlay your way\nChoose from multiple interface languages and adjust music, sound effects, and vibration. Your progress is saved on your device, and no account registration is required.\n\nAmochiroom Puzzle is free to play and contains ads. Optional rewarded ads can provide extra space, helpful tools, or energy; interstitial ads may appear between levels. Ads and optional feedback require an internet connection.",
+    "details_checked_on": "2026-11-18",
+    "developer": "ABF ALPENHOF",
+    "icon": "https://play-lh.googleusercontent.com/HY6j9222YZcx59WubEu1bACCs5KVqYu6hrAYIaL47eox23RrDxQkpol-Z2lDd9v0C3_N7LY7GjiWJlC_-8z8",
+    "id": "com.gamefactory.roomsort",
+    "media_checked_on": "2026-11-18",
+    "name": "Amochiroom Puzzle: Room Sort",
+    "names": [
+      "Amochiroom Puzzle: Room Sort"
+    ],
+    "platform": "android",
+    "publisher": "ABF ALPENHOF",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/1ZP1Bfq3cFAkDwRrwtbw-nZ1AmKnrvylplmDksWxc7Xer-kvSZB0ooSNWcg04gmGQEkQj-P9GhNT-E7GeRbQLA",
+      "https://play-lh.googleusercontent.com/PRenpf3DKqzpXW4eHzcwIiMlGiV5jtydAIb0-3PJ1PXfvak58-frPdC9MiMpzGhMTC0iWPHH2wMnfzH8JM0J",
+      "https://play-lh.googleusercontent.com/tV8PstbLAsFUdLZdfUd9MeIlJNduz9AHYPSr8SHe3-sFznoNshTN1m4mKcsfrLRaONXs2ZGywmDEqmeBg1pX",
+      "https://play-lh.googleusercontent.com/2FSin4Hf2uFSWqMlwBZgBHfDBdjQoqD91LDN8apgkiSI0bg4VwScfXYQswyXm6gu9AZCgccK57BEirMksipXVwA",
+      "https://play-lh.googleusercontent.com/sna9club3xBCi3JQDkhLxnN9TstoA78-k91L_iF4WDa4w0Ew1GWxXhR1y7qyLKDuTYKxNm_oT2yek5khVssM",
+      "https://play-lh.googleusercontent.com/30coreyzcLVDD9mBMlARHFdA-O0QfOxTdxhw-olk7_gWTAEaVfKgAAkHyy-wt6kCYXHfeeGxznXP4Ag0KmWrAqs",
+      "https://play-lh.googleusercontent.com/c20YTXgrUPvHHzM-QIcEGpJQZAIMmCklRt3LwxEfUh0IxwgGlrkxHBPiMPJrMmoKCg-tOKDa9-HOcNnlnfy5LQ",
+      "https://play-lh.googleusercontent.com/VDp2N12qpMuBUsMIwdo1IeOavLi7p7mDmUWeYWWZGaDKAHE7x3zGKh_Bnj7pdvxxAHuEm8ywtevdRt_FQ94ruQ"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.gamefactory.roomsort&gl=us",
+    "version": "1.0.16"
   },
   "android:com.gameloft.android.ANMP.GloftDMHM": {
     "category": "Games",
@@ -807,6 +994,32 @@
     "publisher": "Gimica GmbH",
     "url": "https://play.google.com/store/apps/details?id=com.gimica.treasuremaster&gl=us"
   },
+  "android:com.gl.crowncrush": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/mA3KlatlyJVxkUD5hMAb0j1oGE9Is8ETQ_-KILM_GLdfmOn__m-nWnbfg21mHnp5hfd84tQn3WIaw5BuCYSr5w",
+    "id": "com.gl.crowncrush",
+    "name": "Crown Crush",
+    "names": [
+      "Crown Crush"
+    ],
+    "platform": "android",
+    "publisher": "Loyalty Gaming",
+    "url": "https://play.google.com/store/apps/details?id=com.gl.crowncrush&gl=us"
+  },
+  "android:com.gl.unbolt": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/mzMw2Ob7YM4SWr4rPu4AfCyjeY0BS1VNARPWT4CiPOaNbwkDYzqr2ADKl040encQxM2qF-02fSKOszuh3rVq-g",
+    "id": "com.gl.unbolt",
+    "name": "Bolt Out - Puzzle Game",
+    "names": [
+      "Bolt Out - Puzzle Game"
+    ],
+    "platform": "android",
+    "publisher": "Loyalty Gaming",
+    "url": "https://play.google.com/store/apps/details?id=com.gl.unbolt&gl=us"
+  },
   "android:com.godlike.vigormahjong": {
     "category": "Games",
     "country": "us",
@@ -822,6 +1035,7 @@
   "android:com.gof.global": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/tNMaMiJ4wTQy_TeZSWHdSlP5qH0PGig9g9sDJu2QFvCHdnrbo2u17pX55W4i6KITo56v_ZyICkqLgA2svH9ycQ",
     "id": "com.gof.global",
     "name": "Whiteout Survival",
     "names": [
@@ -843,17 +1057,62 @@
     "publisher": "Patane Global",
     "url": "https://play.google.com/store/apps/details?id=com.good.boy.education.craft.best.building.sun&gl=us"
   },
+  "android:com.grandgames.catblockjam": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/JgD4PuYhmjs0poBoJ-qZrIKKKgIvLqLZ5ouOYjJHZa2cePVlPtA9xUA02hj8v-nAVJGuOEUwHYL4uARhsryxPv4",
+    "id": "com.grandgames.catblockjam",
+    "name": "Block Out! - Color Sort Puzzle",
+    "names": [
+      "Block Out! - Color Sort Puzzle"
+    ],
+    "platform": "android",
+    "publisher": "Grand Games A.Ş.",
+    "url": "https://play.google.com/store/apps/details?id=com.grandgames.catblockjam&gl=us"
+  },
   "android:com.grandgames.magicsort": {
     "category": "Games",
     "country": "us",
+    "description": "Dive into the Enchanted Realm of Magic Sort: A Mystical Water Sort Adventure!\n\n🎩✨ Discover Magic Sort! Mix colors in a world where every splash of water is a step into mystery. This isn’t just a game; it’s a journey through puzzles that sparkle with charm, inviting you to sort, match, and puzzle your way through.\n\n🌈 Quick Play Guide 🌈\n\nStart Simple: Tap a bottle to pick it up, and another to pour the water. Organize the water so each bottle has only one color.\nThink Ahead: Pour water only if it matches the top color of the destination bottle and there’s room. Plan to avoid dead ends and strategically sort the colors.\nEmbrace Complexity: With each level, sorting and matching require more thought. Every move is crucial.\nUtilize Magic Tools: Stuck? Use 'Undo' to reverse moves, or 'Shuffle' to rearrange the bottles anew, making sorting a breeze.\n\n🔮 Cool Features 🔮\n\nSpellbinding Levels: Each stage brings a fresh challenge of color sorting and magical fun.\nWizard’s Gear: Magic tools make your quest of water sorting smoother and way more fun.\nVivid Splashes: A riot of colors makes every move a delight, turning sorting into a visual feast.\nUnique Twists: Classic puzzles get a magical makeover for extra thrill, blending color, water, and puzzle elements seamlessly.\nBoosts & Surprises: Stir up boosts in the cauldron to power through puzzles, adding a layer of strategy to your color sorting.\nMystical Ingredients: Gather ingredients to brew stronger magic, enhancing your water sort adventures.\n\n🎇 Why Magic Sort? 🎇\n\nSharpen Your Brain: Each puzzle is a fun test of wits, blending elements of color, water, and sorting into each challenge.\nChill Vibes: Dive into a soothing, colorful escape, where water and color sorting provide a tranquil experience.\nMagic at Every Turn: New potions and surprises make every level an adventure in water, color, and puzzle-solving.\n\n🚀 Get Ready to Cast Some Color! 🚀\n\nDownload Magic Sort now and start your magical, colorful journey. The world of mystical puzzles, where water, sorting, and color converge, awaits!",
+    "details_checked_on": "2026-11-18",
+    "developer": "Grand Games A.Ş.",
+    "icon": "https://play-lh.googleusercontent.com/WpTMBQdhAVa2y3tzsw5T4h9aT5C9Ng1fo3m5JGp0fi4bCD3Gcw8hOPodjjbs2moXX71FH21eSfPMVpR3OL6B",
     "id": "com.grandgames.magicsort",
+    "media_checked_on": "2026-11-18",
     "name": "Magic Sort!",
     "names": [
       "Magic Sort!"
     ],
     "platform": "android",
     "publisher": "Grand Games A.Ş.",
-    "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/iEUZV1kLcQW2_YSPSKK_soEZuzJxkLItyhE6Y1CbV0uSzvyj6nmtk_1hvjuWDPBXXbEO3K-YdEGpXXdkjdkk",
+      "https://play-lh.googleusercontent.com/bMX8E6MfcISLL8A-NJ4EXOcJDCtHJJHGOM2d_LjvwFkinjiLN3emhsG9h5rHKUKGqv0ZcZxRFrbvjIbKFnGaP9A",
+      "https://play-lh.googleusercontent.com/QuUg9Jju_OCoUsed8KBwbf6h8wmoLYziMy_ehJUFD5VKP0_tDGJJt9EbO4CX_H1vS6TlTwLhpDACfXI1DiTrrNE",
+      "https://play-lh.googleusercontent.com/aym-3bsZ3R_Mb-zPtXLxqtH3-EY7Wqgitda-Cb3gc0XkDPxhevxKWG8MeshtFPoszJdEvp3UPRtXECEVL1Cr1Q",
+      "https://play-lh.googleusercontent.com/mNMYiGnajNGMZ7Q9ECG4uS8Xox4YPAmOQKOhTI1lZr3697osrt5UU2eKZXlPrsix39XQzsHnALyjU9ORmk1H4w",
+      "https://play-lh.googleusercontent.com/HAgoMUpLcZT_gwcO802JxL8ZrUiS8VdMxdwbBSDHg-RJjgqWqIS0nBgvyAKByJSElxCNqi_eORO-1dXiO5jD",
+      "https://play-lh.googleusercontent.com/uouaUWPwlfw-qAWnnCj5_bmnihkV4iA3CgtPbtzvNDa8qTEdy1PvG5MFVtNtz98zg9SKdPThbBpQvUSPCVXLXw",
+      "https://play-lh.googleusercontent.com/voR-Wvpm6V58lEkvLo_isF7Ux9nH2ahjilK8CCgJgKWh8nS2LtJSTv1NzgiQygcSGZkIFdR_1PafqZqxv-9N5Q",
+      "https://play-lh.googleusercontent.com/tG7X6XEk_C90LPirllBKMdWFpaOBSQ7WqUUI2uPGnHatfz6DCb7dVD1qBR6s-GmyvS9KXdIBDKMdOMwOSJ19hA",
+      "https://play-lh.googleusercontent.com/SAbI9lW3avXys3fwfWnc4eu2MFjQCUjM-OziwW4pWUZN0vmajONPNcsRndwj_ET7tXbj_u8N8gvLO_V_EGGr6fw",
+      "https://play-lh.googleusercontent.com/3osleUFdtasS4sL0hmWUxbISwnCZ2xFXgfFgf2i1rRv-Yp17ddu4irn6VMwkLLblBNaRHmkw0qhcuCnENn5c",
+      "https://play-lh.googleusercontent.com/xi8kcsi86Go-kx2ZcbdCjMzwEM8exLajtOZYHPAGljtxYL7sqa88wnq8pYLwP6Bt8p97U2IuNpioL3JnHD1lKw",
+      "https://play-lh.googleusercontent.com/hOCudjK7lsbcZ-jaMhBMRM6S1ltHC3SSZZOIeNx7nRVAxTLk5jsjOiwCbqmpOd5UrC8DMeTDhhylsJ7wSlyiHi8",
+      "https://play-lh.googleusercontent.com/F2-bbcglspoyMJI8gJJq8ceXSm8b7gLT2j2fx3Yb-1Xf_WZP4TGkH1cPQNwkA0GYEaaUE_1xn5MiClfjTtOw5g",
+      "https://play-lh.googleusercontent.com/1hvC13CIvGAe8lGGuy0AgrnYUc3k7pk40e25o5JEf6AcpkmpPUz60e11VJHgGbhZE_mwuvAihEppqzV2AGpe",
+      "https://play-lh.googleusercontent.com/_L882EMxWtmyRkS3Cwt4M_dQI06qCAWYRyb38RQW8Kp83R7QBsfrDiZ-40aSa4ZETTRSYXivSwnyHyAvYeb78Q",
+      "https://play-lh.googleusercontent.com/mbW22sjeqX7MZzaXTEA4XsvmIbLhmJ29PMBtXcB0aurCxptt9ObI4RV2tsoS6Y2P0UtDkzVoVUhzbfr51WNX98c",
+      "https://play-lh.googleusercontent.com/ogaYzvjKkKG6xJn0pnuIcRSYmvgkXNKBD_1DxVFRRukKxIu0MkZeOPY4CEdx3i1fOJFk1k83reQfYOww-o3jmw",
+      "https://play-lh.googleusercontent.com/xCpZ1ZzB76_AKL2G5JR2-bVM4XeOIb8F6d0bW0wV4cix-rir3249FEYERWtDaSfm2mpAzmCA6sgieOJY4DY8",
+      "https://play-lh.googleusercontent.com/AY1D4FBtrymK7r-it64jRnssxdOFIVXZzSnZb_NIF3_ahFZFKZGk2GNvYBP-gFoPtPk-JbBCx0JfMHfNKa0emQ",
+      "https://play-lh.googleusercontent.com/H2oyG2dGBtxpvmW7q6nq0JO9hbtLqpKthAr0zCgtXchpI5_GpHCT6kR1GP8Rv7EWzIJqn-52I8cuYXMle_m5kw",
+      "https://play-lh.googleusercontent.com/boxBz216WHyyCUNdlcEss1oSPG2Gao6uP8HNDJkiaulMIiqR2JiIdbpfA9nlVesBEJVDb0cc9PPIVliFBR_uyw",
+      "https://play-lh.googleusercontent.com/H_K2Of2vZT3XUbTSnNvc9jtmWx7mn7fPG2Pe8-Vnd7n6Vt7s_AyaLZoSaPrquSBEOrYLjizUASL-Q9ZmOBH9fQ",
+      "https://play-lh.googleusercontent.com/Sfjf17zKf3Bmn3adCl7c-URmELzpW7lDWxiJ8Tfz-_VAIPUo0F5eP3HIgJ2_GO7KmHtvTR8zQ4F8p2ZJ29sOMvk"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&gl=us",
+    "version": "0.0.3480"
   },
   "android:com.grass.cut.game": {
     "category": "Games",
@@ -866,6 +1125,19 @@
     "platform": "android",
     "publisher": "SayGames Ltd",
     "url": "https://play.google.com/store/apps/details?id=com.grass.cut.game&gl=us"
+  },
+  "android:com.greatplay.farklecash": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/xr_4iFHyaVTYYihR3_mg_hmQvVfmpWEBCiYZtXY0-3DYHzQGcaEkIYcAKce0TADYnldL17m8qqujb0mqZ4Ylog",
+    "id": "com.greatplay.farklecash",
+    "name": "Fast Cash Farkle",
+    "names": [
+      "Fast Cash Farkle"
+    ],
+    "platform": "android",
+    "publisher": "GreatPlay App",
+    "url": "https://play.google.com/store/apps/details?id=com.greatplay.farklecash&gl=us"
   },
   "android:com.griffin.colorblock.games.free.android": {
     "category": "Games",
@@ -890,6 +1162,19 @@
     "platform": "android",
     "publisher": "Game District LLC",
     "url": "https://play.google.com/store/apps/details?id=com.gtsy.annoying.punch.game&gl=us"
+  },
+  "android:com.h8games.littlefarmstory": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/donNgRTpTeJcFCL593s1WN5rfM71iduax1gnjKE_-yE6dqKVivsHF8rIjaUvdH8py2ElsdIVCLKZWpA1Ywjf_A",
+    "id": "com.h8games.littlefarmstory",
+    "name": "Little Farm Story: Idle Tycoon",
+    "names": [
+      "Little Farm Story: Idle Tycoon"
+    ],
+    "platform": "android",
+    "publisher": "SayGames Ltd",
+    "url": "https://play.google.com/store/apps/details?id=com.h8games.littlefarmstory&gl=us"
   },
   "android:com.halfbrick.fruitninjafree": {
     "category": "Games",
@@ -939,6 +1224,19 @@
     "publisher": "VoyagerOne IE",
     "url": "https://play.google.com/store/apps/details?id=com.hollywood.merge&gl=us"
   },
+  "android:com.hp.clicker.diy.asmr.charm.master": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/PekzZFcwigs-9QXd89vUiauwE120Jp-ef4ytfvpivBgGYx4F2OK0XCy5lL0uWO5-GYc0NLVGBdAlvYhtngipSA",
+    "id": "com.hp.clicker.diy.asmr.charm.master",
+    "name": "Clicker DIY: ASMR Charm Master",
+    "names": [
+      "Clicker DIY: ASMR Charm Master"
+    ],
+    "platform": "android",
+    "publisher": "HIGAME Studio",
+    "url": "https://play.google.com/store/apps/details?id=com.hp.clicker.diy.asmr.charm.master&gl=us"
+  },
   "android:com.hp.hide.hunt.paint": {
     "category": "Games",
     "country": "us",
@@ -962,6 +1260,19 @@
     "platform": "android",
     "publisher": "HIGAME Studio",
     "url": "https://play.google.com/store/apps/details?id=com.hp.mystery.dumpling.glitter.unbox&gl=us"
+  },
+  "android:com.ht2.stick.hero": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/_sl99kKqaKqwHx4LX1Et4r72mPbTo-lsCR_IRfFAEdufqMXQA4gomDjsyzO_ekeTDDIdk5BxWygtStbVGWtF",
+    "id": "com.ht2.stick.hero",
+    "name": "Stick Hero: Tower Defense",
+    "names": [
+      "Stick Hero: Tower Defense"
+    ],
+    "platform": "android",
+    "publisher": "Unicorn Studio Official",
+    "url": "https://play.google.com/store/apps/details?id=com.ht2.stick.hero&gl=us"
   },
   "android:com.hungrystudio.mahjong": {
     "category": "Games",
@@ -1014,6 +1325,7 @@
   "android:com.kiloo.subwaysurf": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/G1eIJ3yor1yW20izrYjOfCzHgVkRtewlfPFG9CEFTHzSI2m0Lwds_Y1xYgeg21CFok_UXrol-ox2IwqL4JMrLQ",
     "id": "com.kiloo.subwaysurf",
     "name": "Subway Surfers",
     "names": [
@@ -1026,6 +1338,7 @@
   "android:com.king.candycrushsaga": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/JvMhIxuwArVmcMReJQB8PIEB1MIQNMGf9j5i914JtkBrHrA55K-nMUIVlYCa7SXAdHtzLtsycEo6NpXeHFxLwvI",
     "id": "com.king.candycrushsaga",
     "name": "Candy Crush Saga",
     "names": [
@@ -1050,6 +1363,7 @@
   "android:com.leap.searchit": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/J7_iVYUwb1VwCyJVCoCYxE-TODLvjAJprNrnZo1xA6F_dhHaZDxN_wwpud8S9KHBRjASgn_nNzB7CsvIJJ9sUoc",
     "id": "com.leap.searchit",
     "name": "Search It - Hidden Objects",
     "names": [
@@ -1062,6 +1376,7 @@
   "android:com.loomgames.pixelflow": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/FvAiHRhj8Wo1vO_4ez1V8ChSJKAw46dos-FEIkbmNs_wtbDKg0Y9eyVJe1hJn2R-mwyr4_LmWkIGJCHHY74K",
     "id": "com.loomgames.pixelflow",
     "name": "Pixel Flow!",
     "names": [
@@ -1082,6 +1397,19 @@
     "platform": "android",
     "publisher": "Pleasure City",
     "url": "https://play.google.com/store/apps/details?id=com.loop.clear.cube.free.card.puzzle.sort.match&gl=us"
+  },
+  "android:com.loop.packedloop": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/-6twuEMPoij1qkvaEbMow3MVYzbKDX-sxiQ7Rc0BfBOoKtxZrCFRWErCldaYJmFo2EuwRVPejJZT8vg7eH0ZDKQ",
+    "id": "com.loop.packedloop",
+    "name": "Parking Loop",
+    "names": [
+      "Parking Loop"
+    ],
+    "platform": "android",
+    "publisher": "Loop Games A.S.",
+    "url": "https://play.google.com/store/apps/details?id=com.loop.packedloop&gl=us"
   },
   "android:com.mahjong.master.solitaire.match.puzzle": {
     "category": "Games",
@@ -1106,6 +1434,19 @@
     "platform": "android",
     "publisher": "Lynn Mobile Puzzle Games",
     "url": "https://play.google.com/store/apps/details?id=com.matchinggo.puzzlegames&gl=us"
+  },
+  "android:com.matryoshka.cooking.vibes": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/nQv8ksROXMYYIS8Vf4dRCCghX5sc3jV9LICqaFEycWlZProdjuEj7GPXvOCDagLgmU4ZBJtIptD5STBI25tx",
+    "id": "com.matryoshka.cooking.vibes",
+    "name": "We Are Cooking: Taste of Life",
+    "names": [
+      "We Are Cooking: Taste of Life"
+    ],
+    "platform": "android",
+    "publisher": "Matryoshka",
+    "url": "https://play.google.com/store/apps/details?id=com.matryoshka.cooking.vibes&gl=us"
   },
   "android:com.media720.games2020": {
     "category": "Games",
@@ -1147,14 +1488,46 @@
   "android:com.mergegames.gossipharbor": {
     "category": "Games",
     "country": "us",
+    "description": "Welcome to Gossip Harbor 🌊\nFollow Quinn Castillo as her picture perfect life on Brimwave Island crumbles around her. Divorce, sabotage and secrets. Help answer the question everyone's thinking: Who's trying to ruin her life?\nMerge flavorful dishes, restore and decorate Quinn's restaurant and watch the mystery unfold. \nBut who can you trust in Brimwave?\n\nWhip Up Tasty Dishes🥪\nServe coffee, sandwiches, seafood, and a range of other dishes to your customers. The more you play, the more dishes you’ll find to add to your menu!\n\nRestore the Restaurant🧰\nRebuild and design the best beach restaurant around! Choose the flooring, wallpaper and furniture to restore the restaurant to its former glory!\n\nBuild Relationships💞\nConverse with customers and hang out with old friends. Or explore the possibility of a new budding romance.\n\nCatch up on the Gossip🤫\nYou'll renovate and merge to reveal clues and uncover the hidden secrets of the residents on Brimwave Island. And perhaps even unveil the Castillo family's hidden secrets…\n\nEnjoying Gossip Harbor? Learn more about the game on our Facebook Fan Page!\nhttps://www.facebook.com/GossipHarbor\nOr follow us on Instagram:  https://www.instagram.com/gossipharborofficial?stkn=MThycm96bmU2ZXN4OQ==\n\nNeed help? Contact us by sending an email to gossipharbor-service@microfun.com\nWe're here to help you!\n\nPrivacy Policy: https://www.microfun.com/privacy_EN.html\nTerms of Service: https://www.microfun.com/userAgreementEN.html",
+    "details_checked_on": "2026-11-18",
+    "developer": "Microfun Limited",
+    "icon": "https://play-lh.googleusercontent.com/VIv1J5fPLy-r9KrlA4WhLvzTboMphqs_jo_U9OqLyOmkr1AGAZ-nzIPo74_VISY7Ul28ZkObCkvlyyWPd_50",
     "id": "com.mergegames.gossipharbor",
+    "media_checked_on": "2026-11-18",
     "name": "Gossip Harbor: Merge & Story",
     "names": [
       "Gossip Harbor: Merge & Story"
     ],
     "platform": "android",
     "publisher": "Microfun Limited",
-    "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/jwuDLhQpOxDqPLj2Xz2JDv2NErnlVjLC6sImkrUpIIyT-j8vGCLGLMMH32qzRj_FzhPxCFpulEk621F_2TT0",
+      "https://play-lh.googleusercontent.com/1dofeIFKvycMzQnQP7eZ06hufLJmQUu7miEhCNSAsQiyrX8ImszsCgUfRqe1Skoi_SMe1YoFBlMfcAk8stdPDw",
+      "https://play-lh.googleusercontent.com/n8MYQ9sOjyEOzM2gw1Sqqr0bLPTgycvYKezDH68zphPOlxAmcOZsmN1Ifyw73fed5PuBlNBNkcLPsZgUE0sD",
+      "https://play-lh.googleusercontent.com/btyrwdVcAj4BuvSZxYaGWyrs26aPRTgDiL_9QYgJ6a3Mk16zjwaJ6l0Dt1HXZBltaVsvNIGrhmVxC-Z5RUjP",
+      "https://play-lh.googleusercontent.com/ztqOh57dX4SfwjJWKvKmTI75RhGQl45oxdz7ZLauFa0w2lczF2-gaUdG-7iRTHDVJdDI4_uC4CCK5jXIAwDXzFs",
+      "https://play-lh.googleusercontent.com/plSdqtAeM5gpL75TpFQzLWJ5LGnsL_X4bo8rquNXTThQgMEUOrx2BLgWRGnNZzqh3hH3UEs9h-wBdY4ADMjezw",
+      "https://play-lh.googleusercontent.com/bLbbgZavTYcPeI3JCs-3wXZRcilJEnaZzmHHUlfRf8eovqYEXMGVOa45LRGIaETkfW5sVvYcw-YwT4NPi1aU",
+      "https://play-lh.googleusercontent.com/eqWpj_G3zRyQCnq9F8GIRh00fbcmgNitGLzg2lnaF1k-q0K3S-z6Sg2tpABm0uD9QkRSf1aBJSt9Lc9AGoFBtb4",
+      "https://play-lh.googleusercontent.com/xOSPOevig5HF0WAx5VIlwV-3BMqtJAgW4kGK487hrYyMM8cqcBxHjYYqz_F-9o7oMGX-_6CdcbtUPi-LKoja-Q",
+      "https://play-lh.googleusercontent.com/Ve5CKhXwKHcCV2Oq3e2T8r2I_UaLz_egaigVoyYOoegORp5ReFjGGp1BihY6GW8jexczJPn8IsijDappiUfb5g",
+      "https://play-lh.googleusercontent.com/ajKtySXzMcDg0emAyCAA8shPIuqkAjt9y90fua46JyQQLlq1tfwOBoosRDU0mFjA4PTAt5tMUZ5mP-_8OA8Wc3E",
+      "https://play-lh.googleusercontent.com/3eLI2vwokgfLOK-zNP5QbRPz-XM4eyzz2oeF8hHiA8HO_FaqSzI0Z5fdMHAlQpOx-HZizGRBhsIVkMxpix6zwA",
+      "https://play-lh.googleusercontent.com/klEcQrULSERS155GJP_g-27nqe4gvnCgfzV0U8VEzFYIy1XicCgEMLiMI-tKUa5uwuX3EslyQchGhv1RUQv-",
+      "https://play-lh.googleusercontent.com/6wG_-08PudQDdXAkx0tjvKyD8JbvDznCMpLTDLQ92k-2QbkS_NNaCdeg9I8TwJ10u_DlDP5LnC9jEdztd2txuo0",
+      "https://play-lh.googleusercontent.com/G_4tAudHqJ1vim61JXjB3fLlJ_tcojf035XAF1bE6COXWedbxo06OXnUeIEWIcsKxx4ayy8utcNpGK6ICa4q9g",
+      "https://play-lh.googleusercontent.com/S0OlMQUlayneb-7Bpen3dtABNBAljk9dKgIF4I1R8E04Q0QIW4BrTcdEmpBIoDe8VdsbxNfuXuhXtVYINVLazA",
+      "https://play-lh.googleusercontent.com/xOSPOevig5HF0WAx5VIlwV-3BMqtJAgW4kGK487hrYyMM8cqcBxHjYYqz_F-9o7oMGX-_6CdcbtUPi-LKoja-Q",
+      "https://play-lh.googleusercontent.com/Ve5CKhXwKHcCV2Oq3e2T8r2I_UaLz_egaigVoyYOoegORp5ReFjGGp1BihY6GW8jexczJPn8IsijDappiUfb5g",
+      "https://play-lh.googleusercontent.com/ajKtySXzMcDg0emAyCAA8shPIuqkAjt9y90fua46JyQQLlq1tfwOBoosRDU0mFjA4PTAt5tMUZ5mP-_8OA8Wc3E",
+      "https://play-lh.googleusercontent.com/3eLI2vwokgfLOK-zNP5QbRPz-XM4eyzz2oeF8hHiA8HO_FaqSzI0Z5fdMHAlQpOx-HZizGRBhsIVkMxpix6zwA",
+      "https://play-lh.googleusercontent.com/klEcQrULSERS155GJP_g-27nqe4gvnCgfzV0U8VEzFYIy1XicCgEMLiMI-tKUa5uwuX3EslyQchGhv1RUQv-",
+      "https://play-lh.googleusercontent.com/6wG_-08PudQDdXAkx0tjvKyD8JbvDznCMpLTDLQ92k-2QbkS_NNaCdeg9I8TwJ10u_DlDP5LnC9jEdztd2txuo0",
+      "https://play-lh.googleusercontent.com/G_4tAudHqJ1vim61JXjB3fLlJ_tcojf035XAF1bE6COXWedbxo06OXnUeIEWIcsKxx4ayy8utcNpGK6ICa4q9g",
+      "https://play-lh.googleusercontent.com/S0OlMQUlayneb-7Bpen3dtABNBAljk9dKgIF4I1R8E04Q0QIW4BrTcdEmpBIoDe8VdsbxNfuXuhXtVYINVLazA"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&gl=us",
+    "version": "4.12.0"
   },
   "android:com.metagame.annoying.trick.brainypuzzle": {
     "category": "Games",
@@ -1195,7 +1568,7 @@
   "android:com.mimik.challenge.fun": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/ECtjRuQLZPsZDgRSLViAG5d7zbeY7zhnnr65qoGye1J607d2Y27Z4d2HtPhKZWjNa4me4RdYENziVRv4Veau=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/ECtjRuQLZPsZDgRSLViAG5d7zbeY7zhnnr65qoGye1J607d2Y27Z4d2HtPhKZWjNa4me4RdYENziVRv4Veau",
     "id": "com.mimik.challenge.fun",
     "media_checked_on": "2026-11-17",
     "name": "MemeMix Challenge: Funny Party",
@@ -1216,6 +1589,7 @@
   "android:com.miniclip.eightballpool": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/F2_Kbn1-vQePDh_Y0qNCDhkmpEK5qdEyPwcJqwXho54ZVG4w6Szt32VHsyPzeVLPR2kfYI62-hGmNpQoDxS-wQ",
     "id": "com.miniclip.eightballpool",
     "name": "8 Ball Pool",
     "names": [
@@ -1236,6 +1610,19 @@
     "platform": "android",
     "publisher": "Skystone Games Pte. Ltd.",
     "url": "https://play.google.com/store/apps/details?id=com.mobile.legends.usa&gl=us"
+  },
+  "android:com.mobsmile.coinbounce": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/W0oUfjfBeLgNzeDn_dzFsXm4YSxYdcBuT5znEslgFMw_HIWl3ROrptL40ItmxLSngrp_CdK6HHLk4f4pB3ZW",
+    "id": "com.mobsmile.coinbounce",
+    "name": "Coin Bounce",
+    "names": [
+      "Coin Bounce"
+    ],
+    "platform": "android",
+    "publisher": "Mobsmile Games AS",
+    "url": "https://play.google.com/store/apps/details?id=com.mobsmile.coinbounce&gl=us"
   },
   "android:com.mobsmile.coincollector": {
     "category": "Games",
@@ -1264,6 +1651,7 @@
   "android:com.moonactive.holestars": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/FNCz82sncnDjBLqJyHmQZEuHFVxbQIpVuSExCOTCcelqEo654O2z-bUVAFxo0IR5MX3-64UBgqZl7HLq-_3WgQ",
     "id": "com.moonactive.holestars",
     "name": "Hole Stars: Puzzle Game",
     "names": [
@@ -1300,6 +1688,7 @@
   "android:com.nebula.mahjongtile": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/lamvwfGw4eEjWFFfcL19XAwFpCKZJjdCBNBs0DFnsOwhBAsK9X738lDrDFqosGp7CLinvREDBdhJyQdmot6KbQ",
     "id": "com.nebula.mahjongtile",
     "name": "Mahjong Blast",
     "names": [
@@ -1309,12 +1698,28 @@
     "publisher": "Nebula  Studio",
     "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&gl=us"
   },
+  "android:com.nebula.ropesort": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/jGXjZMOCbrRhnOy5rER0uYJH4zePKjIHxmmV7zhJ0Wd3JH2pXSqaL57lAPi5FI66p_YUlCxvqGtk9SoTcf5W",
+    "id": "com.nebula.ropesort",
+    "name": "Rope Sort!",
+    "names": [
+      "Rope Sort!"
+    ],
+    "platform": "android",
+    "publisher": "Nebula  Studio",
+    "url": "https://play.google.com/store/apps/details?id=com.nebula.ropesort&gl=us"
+  },
   "android:com.nebula.rotaterings": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/DPjwBJC12pcLpMvNxcgIneiJk07hdOtRR7LhZ8-TT7sbJXQ7n6jk0LnCFMwg_vLPHY0WuLH8vWAiqFZmsL0HuQ=s0-br30",
+    "description": "Welcome to Rotate Rings — one of the most captivating circle puzzle games and mind games designed to challenge your logic, relieve stress, and deliver a pure brain test anytime, anywhere, even offline!\n\nStep into a sleek, minimal logic puzzles world where every spin counts. Your mission in this addictive puzzle is simple yet deeply engaging: observe the interlocked rings, calculate your moves, and carefully rotate circles to align the hidden gaps and unlock each layer. Rotate Rings beautifully balances relaxing casual gameplay with deep tactical thinking, turning every unlocked ring into a rewarding victory. Whether you are on your daily commute, relaxing at home, or taking a quick break, this brilliant offline game is the perfect way to unwind whilst keeping your mind sharp and agile.\n\n🎯 How To Play This Circle Puzzle\n- Touch & Rotate: Tap and drag to rotate the rings to the absolute correct angle with precision.\n- Align the Gaps: Find the open paths and line up matching gaps across interlocked circles.\n- Unlock & Untangle: Untangle complex loops and break tricky locks layer by layer.\n- Master the Logic: Use smart planning and clever strategies to clear each level with the minimum number of moves!\n\n🧠 Engaging Brain Test & Logic Puzzles Mechanics\nRotate Rings is far more than just a quick casual pastime — it stands out among mind games as a smart, satisfying logic experience built to challenge your intellect! Sharpen your spatial awareness, train your hand-eye coordination, and improve multi-step problem-solving skills. As you progress through these puzzle games, you will encounter unique ring structures including challenging D-rings, S-flex locks, triangular frames, and U-shaped tubes that provide an authentic brain test for your tactical wits.\n\n💡 Exciting Puzzle Games Features\n- Satisfying Unlock Physics: Feel the smooth tactile feedback as you spin rings, open gaps, and watch complex structures beautifully untangle.\n- Varied Logic Mechanics: Master diverse obstacles — rotate C-locks, navigate restricted D-rings, and solve multi-layered circle challenges.\n- Hundreds of Smart Levels: Enjoy smooth difficulty progression with hundreds of handcrafted logic puzzles that get progressively more intriguing.\n- Helpful Boosters & Hints: Stuck on a complex loop or a particularly difficult puzzle? Use smart hints and useful tools to untangle tricky rings and keep moving forward.\n- Relaxing & Stress-Relieving: Clean visuals, smooth rotation animations, and calming ambient sound effects create a soothing atmosphere to help you destress.\n- Play Offline Anytime: No Wi-Fi required! Enjoy your daily mind games workout offline at your own pace with absolutely no time limits.\n\n🏆 Why You'll Love Rotate Rings\nWhether you want to unwind during your daily downtime or flex your brain with intricate spatial logic, Rotate Rings offers the ultimate ring removal challenge among modern puzzle games. Experience the soothing joy of turning chaotic interlocked shapes into perfectly solved logic puzzles! Discover a brilliant gameplay loop that is easy to pick up but beautifully challenging to master.\n\n👑 Download Rotate Rings today, spin the circles, align the gaps, and conquer the ultimate brain test and puzzle adventure!",
+    "details_checked_on": "2026-11-18",
+    "developer": "Nebula  Studio",
+    "icon": "https://play-lh.googleusercontent.com/DPjwBJC12pcLpMvNxcgIneiJk07hdOtRR7LhZ8-TT7sbJXQ7n6jk0LnCFMwg_vLPHY0WuLH8vWAiqFZmsL0HuQ",
     "id": "com.nebula.rotaterings",
-    "media_checked_on": "2026-11-17",
+    "media_checked_on": "2026-11-18",
     "name": "Rotate Rings",
     "names": [
       "Rotate Rings"
@@ -1322,21 +1727,38 @@
     "platform": "android",
     "publisher": "Nebula  Studio",
     "screenshots": [
-      "https://play-lh.googleusercontent.com/ypQoZEv0K2uztBWtNKEu6koGobEXEqkcH6dGoA0fRDjU0CyiYTjIAMEpJqZT2_lUUiA47PdHLDsEKfOHfSx83MA=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/-I9RvqaUV3K2ZbAUySCY_93TVtGzuQ3_RA1ZN1TpVkbIxQMHhQFjZCndLb1aw3ric5zIlrYInO_xxs-zan6YgQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/wvlwqK74K0lNezofxYssMoNnKfR-wM_qOZ1h47pa898Rwp6xEHNxM4VpTlOLRnaAFlkN_cf5NPXV44b_-DPm4Q=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/eaUSxpnso18yBlBpXhKSnrOXhvTEZ9creSC2McMYK8pUgvZrI4pfnxPDlYYPXcc56RoTxrxDf80j4vJg5mGmpBQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/mss-dnWDsWMuNgqAqAbpgc960U3mJ--lnFBa7Y4T0kzjhnwGdfTzukDbggekYtPcnZ-qTGSExkTwd2JGVLEt=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/di9ARVjsaJPvCqxLfPryEN8PRO9sZ2CGsXownC-RrlSETYLXiU2RUPI4b-AzkAWznLxQ8b2O5UDmKXaOiakPUg=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/yLk5u_bXLBQQ_iHD4fTgJX_apDTkn52wYHdClU3HJb4Ar6SQjEOCSrZvo_qy5vW1qNWcZTt3MjiEPs_-fCro=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/KPb2zk230XFFgn6mEeR0BFoGUBbX_ofZwYJ4106bsaAd02sHPdO-VPBzEc3oKe1FCeFYkw013mE5ZeTZLi_VDQ=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/ybHBjtcVC7yczHKDnMM3iN6gyiMWB6Qol5PKYHsv2WWUmjHnGlRk7QS0hGi_RDK8piWfCUCexzfF1o86Wta1=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/uVUuDaTDPDjdBYGV2XsNwk_aHgf8Rx5eXymh4KGpjbpoyRBlOsTmAujmrluFGHJraiAnDbcd8r0thMO2ZcJylw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/_Hubaw0s9b3sux97FD3JheTGiWypqh1Gxr0AbojmNDL77GTYhJLKXn4ybuYTAoOTMB9QCj7rdfor5Ew-NgiO=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/G3LNGGvsbjTMdt7KGXUSxmFDTTZaxLPhe2VK4tCUnCBGvtgTalPWxN07AKjdKvYTZTGM2GYc8yhhlYRtAUjMiw=w526-h296-rw",
-      "https://play-lh.googleusercontent.com/uui1OaGo5q8DUkqxxPyKGot15emaz7ZaBrg90-lTw7yzmolfgt-XYqXuoTS-utbSD5fZE1hfrMCKLIG0MKdndw=w526-h296-rw"
+      "https://play-lh.googleusercontent.com/ypQoZEv0K2uztBWtNKEu6koGobEXEqkcH6dGoA0fRDjU0CyiYTjIAMEpJqZT2_lUUiA47PdHLDsEKfOHfSx83MA",
+      "https://play-lh.googleusercontent.com/-I9RvqaUV3K2ZbAUySCY_93TVtGzuQ3_RA1ZN1TpVkbIxQMHhQFjZCndLb1aw3ric5zIlrYInO_xxs-zan6YgQ",
+      "https://play-lh.googleusercontent.com/wvlwqK74K0lNezofxYssMoNnKfR-wM_qOZ1h47pa898Rwp6xEHNxM4VpTlOLRnaAFlkN_cf5NPXV44b_-DPm4Q",
+      "https://play-lh.googleusercontent.com/eaUSxpnso18yBlBpXhKSnrOXhvTEZ9creSC2McMYK8pUgvZrI4pfnxPDlYYPXcc56RoTxrxDf80j4vJg5mGmpBQ",
+      "https://play-lh.googleusercontent.com/mss-dnWDsWMuNgqAqAbpgc960U3mJ--lnFBa7Y4T0kzjhnwGdfTzukDbggekYtPcnZ-qTGSExkTwd2JGVLEt",
+      "https://play-lh.googleusercontent.com/di9ARVjsaJPvCqxLfPryEN8PRO9sZ2CGsXownC-RrlSETYLXiU2RUPI4b-AzkAWznLxQ8b2O5UDmKXaOiakPUg",
+      "https://play-lh.googleusercontent.com/yLk5u_bXLBQQ_iHD4fTgJX_apDTkn52wYHdClU3HJb4Ar6SQjEOCSrZvo_qy5vW1qNWcZTt3MjiEPs_-fCro",
+      "https://play-lh.googleusercontent.com/KPb2zk230XFFgn6mEeR0BFoGUBbX_ofZwYJ4106bsaAd02sHPdO-VPBzEc3oKe1FCeFYkw013mE5ZeTZLi_VDQ",
+      "https://play-lh.googleusercontent.com/ypQoZEv0K2uztBWtNKEu6koGobEXEqkcH6dGoA0fRDjU0CyiYTjIAMEpJqZT2_lUUiA47PdHLDsEKfOHfSx83MA",
+      "https://play-lh.googleusercontent.com/-I9RvqaUV3K2ZbAUySCY_93TVtGzuQ3_RA1ZN1TpVkbIxQMHhQFjZCndLb1aw3ric5zIlrYInO_xxs-zan6YgQ",
+      "https://play-lh.googleusercontent.com/wvlwqK74K0lNezofxYssMoNnKfR-wM_qOZ1h47pa898Rwp6xEHNxM4VpTlOLRnaAFlkN_cf5NPXV44b_-DPm4Q",
+      "https://play-lh.googleusercontent.com/eaUSxpnso18yBlBpXhKSnrOXhvTEZ9creSC2McMYK8pUgvZrI4pfnxPDlYYPXcc56RoTxrxDf80j4vJg5mGmpBQ",
+      "https://play-lh.googleusercontent.com/mss-dnWDsWMuNgqAqAbpgc960U3mJ--lnFBa7Y4T0kzjhnwGdfTzukDbggekYtPcnZ-qTGSExkTwd2JGVLEt",
+      "https://play-lh.googleusercontent.com/di9ARVjsaJPvCqxLfPryEN8PRO9sZ2CGsXownC-RrlSETYLXiU2RUPI4b-AzkAWznLxQ8b2O5UDmKXaOiakPUg",
+      "https://play-lh.googleusercontent.com/yLk5u_bXLBQQ_iHD4fTgJX_apDTkn52wYHdClU3HJb4Ar6SQjEOCSrZvo_qy5vW1qNWcZTt3MjiEPs_-fCro",
+      "https://play-lh.googleusercontent.com/KPb2zk230XFFgn6mEeR0BFoGUBbX_ofZwYJ4106bsaAd02sHPdO-VPBzEc3oKe1FCeFYkw013mE5ZeTZLi_VDQ",
+      "https://play-lh.googleusercontent.com/ypQoZEv0K2uztBWtNKEu6koGobEXEqkcH6dGoA0fRDjU0CyiYTjIAMEpJqZT2_lUUiA47PdHLDsEKfOHfSx83MA",
+      "https://play-lh.googleusercontent.com/-I9RvqaUV3K2ZbAUySCY_93TVtGzuQ3_RA1ZN1TpVkbIxQMHhQFjZCndLb1aw3ric5zIlrYInO_xxs-zan6YgQ",
+      "https://play-lh.googleusercontent.com/wvlwqK74K0lNezofxYssMoNnKfR-wM_qOZ1h47pa898Rwp6xEHNxM4VpTlOLRnaAFlkN_cf5NPXV44b_-DPm4Q",
+      "https://play-lh.googleusercontent.com/eaUSxpnso18yBlBpXhKSnrOXhvTEZ9creSC2McMYK8pUgvZrI4pfnxPDlYYPXcc56RoTxrxDf80j4vJg5mGmpBQ",
+      "https://play-lh.googleusercontent.com/mss-dnWDsWMuNgqAqAbpgc960U3mJ--lnFBa7Y4T0kzjhnwGdfTzukDbggekYtPcnZ-qTGSExkTwd2JGVLEt",
+      "https://play-lh.googleusercontent.com/di9ARVjsaJPvCqxLfPryEN8PRO9sZ2CGsXownC-RrlSETYLXiU2RUPI4b-AzkAWznLxQ8b2O5UDmKXaOiakPUg",
+      "https://play-lh.googleusercontent.com/yLk5u_bXLBQQ_iHD4fTgJX_apDTkn52wYHdClU3HJb4Ar6SQjEOCSrZvo_qy5vW1qNWcZTt3MjiEPs_-fCro",
+      "https://play-lh.googleusercontent.com/KPb2zk230XFFgn6mEeR0BFoGUBbX_ofZwYJ4106bsaAd02sHPdO-VPBzEc3oKe1FCeFYkw013mE5ZeTZLi_VDQ",
+      "https://play-lh.googleusercontent.com/ybHBjtcVC7yczHKDnMM3iN6gyiMWB6Qol5PKYHsv2WWUmjHnGlRk7QS0hGi_RDK8piWfCUCexzfF1o86Wta1",
+      "https://play-lh.googleusercontent.com/uVUuDaTDPDjdBYGV2XsNwk_aHgf8Rx5eXymh4KGpjbpoyRBlOsTmAujmrluFGHJraiAnDbcd8r0thMO2ZcJylw",
+      "https://play-lh.googleusercontent.com/_Hubaw0s9b3sux97FD3JheTGiWypqh1Gxr0AbojmNDL77GTYhJLKXn4ybuYTAoOTMB9QCj7rdfor5Ew-NgiO",
+      "https://play-lh.googleusercontent.com/G3LNGGvsbjTMdt7KGXUSxmFDTTZaxLPhe2VK4tCUnCBGvtgTalPWxN07AKjdKvYTZTGM2GYc8yhhlYRtAUjMiw",
+      "https://play-lh.googleusercontent.com/uui1OaGo5q8DUkqxxPyKGot15emaz7ZaBrg90-lTw7yzmolfgt-XYqXuoTS-utbSD5fZE1hfrMCKLIG0MKdndw"
     ],
-    "url": "https://play.google.com/store/apps/details?id=com.nebula.rotaterings&gl=us"
+    "url": "https://play.google.com/store/apps/details?id=com.nebula.rotaterings&gl=us",
+    "version": "1.2.3"
   },
   "android:com.nebula.tiles": {
     "category": "Games",
@@ -1414,6 +1836,7 @@
   "android:com.oakever.arrows": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/if8FX9b5Xc2IfJLSwJs9Gd8CkietQVnCxpm8RKly4G87dJiBrdyBAgsCaVjZ_jW-4unzPv7ccVayfjz16cg72Q",
     "id": "com.oakever.arrows",
     "name": "Amaze GO!™",
     "names": [
@@ -1451,18 +1874,60 @@
   "android:com.oakever.meowdoku": {
     "category": "Games",
     "country": "us",
+    "description": "Looking for a game that soothes the soul but keeps your brain spinning? Welcome to Meowdoku — a pure logic puzzle game that flawlessly blends the rigorous reasoning of Sudoku with the thrilling deduction of Minesweeper.\nHere, you have only one mission: find the perfect \"exclusive territory\" for every aloof little cat!\n💡 Simple Rules, Deep Strategy\nThe concept is elegant and intuitive, yet anything but simple:\n• Exclusive Territory: The board is divided into colored sections. You must place exactly one cat in each section.\n• The Aloof Rule: Cats need absolute personal space! They absolutely cannot share the same row, column, or touch each other—not even diagonally.\n• Risk & Reward: Double-tap a tile to place a cat. You only have 3 chances to make a mistake (hearts). Guess right, and you're rewarded with pure puzzle-solving satisfaction; guess wrong, and you lose a heart. Guessing won't save you; every single move must be carefully calculated!\n✨ Key Features\n🐾 Pure & Immersive Experience\n- Non-Intrusive Ads: Zero interruptions to your gameplay, letting you fully enjoy a completely focused, Zen-like flow state.\n- Play Offline Anytime: No internet required. Perfectly fills up the puzzle-shaped hole in your daily commute, time spent waiting in line, or your morning coffee break.\n📅 Daily Brain Teasers\n- Wake up your mind with brand-new \"Daily Puzzles\" every single day.\n- Push your limits and see if you can break your fastest completion times on the global leaderboards.\n❤️ Why Meowdoku Will Stay on Your Phone\nMeowdoku won't hijack your attention with tedious social mechanics or endless daily grinds—it earns your love through pure gameplay quality. With its minimalist aesthetic and satisfying tactile feedback, it takes just seconds to learn. Yet, long after you put your phone down, its elegant logic loop will keep lingering in your mind.\nReady for a brain-teasing puzzle adventure filled with adorable felines?\nDownload Meowdoku now, put your logic to the test, and become the ultimate feline puzzle master!",
+    "details_checked_on": "2026-11-18",
+    "developer": "Oakever Games",
+    "icon": "https://play-lh.googleusercontent.com/1vD3Jl37OTth18x__EkbpMZRAmDlGB5mlqKvveWumothf52-1HZXhAy5HGkGLzW_HYoz-rj2q0HBaxu5_8kyVQ",
     "id": "com.oakever.meowdoku",
+    "media_checked_on": "2026-11-18",
     "name": "Meowdoku: Brain Puzzle Games",
     "names": [
       "Meowdoku: Brain Puzzle Games"
     ],
     "platform": "android",
     "publisher": "Oakever Games",
-    "url": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/qsGiOZrr0qmnA9hPmwRv79Qq_xnta6onx8aaf_RGat7b-8sQK269EyS4CIkFbisjEQpfIxmfBXnPYOm5t87uSA",
+      "https://play-lh.googleusercontent.com/lyiexjhoPXGiguZiCBkFFu27gtp1S34fHzj82bmmwbiwr-JXBksUA8hiDqEn9Xbt8Q5qT616QI-4QuM5cij8",
+      "https://play-lh.googleusercontent.com/62U4lsM4_8Z02JY8mwGb8n0Txlpwp9w8-fBmPu3KEuOYib3gKaoig4mDu24I612oHdbz_T0O5v6DfY3cZhD-DHU",
+      "https://play-lh.googleusercontent.com/jQztemo3eaZou2W_Y2Y1V7hlLILaUoXmiboNJeEuKK1Jfy0R4GL9irBuMZCzeaCvd04vRf2-vSVEQW-dezN7sw",
+      "https://play-lh.googleusercontent.com/Oq4lZmi4fff9XT3iFduYIey93UochpNdHqrdC1l9Jh19RI257O7O8M7aidUcvfDmV8dJpGDoAf9_I17Fh7y6gOk",
+      "https://play-lh.googleusercontent.com/asyuFOdEiMBfRGxSpFEomoMk_rOpNTRHSSLQqrO_-irfn4Amf_2O9TQsW_7qHb0HQM0McRKJ8Gkl5pld6zoj",
+      "https://play-lh.googleusercontent.com/SFudc0BGAu1-6nFAjqOD_ppS83ehnq_JR8Q8RqogITrr1jclrFmwQhpQlTu1e4WHLthg9bdhKreqOJ8JGLimmg",
+      "https://play-lh.googleusercontent.com/o0A_TLnm2bhm9kUTo4duLvcA7rpX9F8B6ltygSw9NFcA_uFLZoQLv45d_YWJrve1Pdjt6Qk499r23_RLWCtFQaw",
+      "https://play-lh.googleusercontent.com/7E919teMpWxA5MfHXTwzeo1nka0s0ArazNv1eSUK1BSVl4ZTNtMIEZRKSKKlY6cwoKfnTC3qL2n7VVMOM6tW0w",
+      "https://play-lh.googleusercontent.com/Y8-Wlv2zahpP4G4p5uuGq63PztH07noP8xj_CYZKiUzF0UDVsdkSybUIGAvdl_UkKcGTJecjVy2IydZ3MsXe",
+      "https://play-lh.googleusercontent.com/HjgIDoTeoscvM06PwIFvvWBZ0JqVJA3TRuJSxANDkkQcqQEhsVOAM6M900p9GuxfAKp8MuqoOlH8YcwLc3WbAQ",
+      "https://play-lh.googleusercontent.com/A_j9T-_QWGaU-gUAT5t_3ZsWQSL6cYteXX7Y2orO41k4wwxT5HMqAEppo5oxgJT5DYohnYevj-uAo6mlcpaskQ",
+      "https://play-lh.googleusercontent.com/DJ_uxtKeYbuRYbcg-l6gatAaWsuH0zXWuUyqeRkjDhD0_JRaw5qk3IRAzu98ZbuhW62n3kyS9rLeOVRgU64y",
+      "https://play-lh.googleusercontent.com/vzmURJ3X6sQtYn7xExK9DCXOHev0f_UHiN4RhOALhOsyN_FVimi3ljapvZhBnVm5YxF6NIpdMHIZWwV5gJYW",
+      "https://play-lh.googleusercontent.com/7E919teMpWxA5MfHXTwzeo1nka0s0ArazNv1eSUK1BSVl4ZTNtMIEZRKSKKlY6cwoKfnTC3qL2n7VVMOM6tW0w",
+      "https://play-lh.googleusercontent.com/Y8-Wlv2zahpP4G4p5uuGq63PztH07noP8xj_CYZKiUzF0UDVsdkSybUIGAvdl_UkKcGTJecjVy2IydZ3MsXe",
+      "https://play-lh.googleusercontent.com/HjgIDoTeoscvM06PwIFvvWBZ0JqVJA3TRuJSxANDkkQcqQEhsVOAM6M900p9GuxfAKp8MuqoOlH8YcwLc3WbAQ",
+      "https://play-lh.googleusercontent.com/A_j9T-_QWGaU-gUAT5t_3ZsWQSL6cYteXX7Y2orO41k4wwxT5HMqAEppo5oxgJT5DYohnYevj-uAo6mlcpaskQ",
+      "https://play-lh.googleusercontent.com/DJ_uxtKeYbuRYbcg-l6gatAaWsuH0zXWuUyqeRkjDhD0_JRaw5qk3IRAzu98ZbuhW62n3kyS9rLeOVRgU64y",
+      "https://play-lh.googleusercontent.com/vzmURJ3X6sQtYn7xExK9DCXOHev0f_UHiN4RhOALhOsyN_FVimi3ljapvZhBnVm5YxF6NIpdMHIZWwV5gJYW"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku&gl=us",
+    "version": "1.25.0"
+  },
+  "android:com.oakever.sortparade": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/Gt6y9cxYV9e-Z_eZRDtERhFXDHde7HgdYfH4A59gIRmCK9lBYo4o-_-oogcHBDr0D6tkRWqhDLjfi16d5rHk",
+    "id": "com.oakever.sortparade",
+    "name": "Sort Streak: Color Puzzle",
+    "names": [
+      "Sort Streak: Color Puzzle"
+    ],
+    "platform": "android",
+    "publisher": "Oakever Games",
+    "url": "https://play.google.com/store/apps/details?id=com.oakever.sortparade&gl=us"
   },
   "android:com.oakever.tiletrip": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/wKjQKwVmmmszLHE3YfgRqiSZcDKHcnpGBeLDVs2PERYUq0B9c_LxpM8jOXYcdE-oVhPmXcWnfqUaBKR656TSBA",
     "id": "com.oakever.tiletrip",
     "name": "Tile Explorer - Triple Match",
     "names": [
@@ -1495,6 +1960,19 @@
     "platform": "android",
     "publisher": "Outfit7 Limited",
     "url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingtom2&gl=us"
+  },
+  "android:com.paradyme.solarsmash": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/JFGt_7eWZ_wz6h0zXPzVu-atY0HdrI1dS4EhQncxADO-qsQAu7NHEBBBZ3gZ0JlwAJF8je2SrpjWeirw_OABEA",
+    "id": "com.paradyme.solarsmash",
+    "name": "Solar Smash",
+    "names": [
+      "Solar Smash"
+    ],
+    "platform": "android",
+    "publisher": "Paradyme Games",
+    "url": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash&gl=us"
   },
   "android:com.pawakuma.hitfortune": {
     "category": "Games",
@@ -1547,6 +2025,7 @@
   "android:com.pixel.art.coloring.color.number": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/SrSr_L4l99jgmGMy79N0_mEhpdn-fBqpg1hxobrs_daqRyZU-IUaiz3_07Bx-c5fB8JtHE0R5HpB2S8V3XAfJTs",
     "id": "com.pixel.art.coloring.color.number",
     "name": "Happy Color®: Color by Number",
     "names": [
@@ -1595,6 +2074,7 @@
   "android:com.playrix.township": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/R57nBnvKx2fcs-Ct1wKW2j85S4f8h2dPsn2L9jO4G0pxZIHRozdwPRZ_tAvT6Kh-P8I7A6CDJFu8cYuvBzccvIU",
     "id": "com.playrix.township",
     "name": "Township",
     "names": [
@@ -1619,6 +2099,7 @@
   "android:com.pocket.sort.coin.puzzle.game": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/nB3aVJ6eYhfGa1m1EzgvE0RjH3C13v2wLLrwkQYzsG0427-jyQDopxiddjDOQNpOSoePVcl7jNgBUPXOCVmjXg",
     "id": "com.pocket.sort.coin.puzzle.game",
     "name": "Pocket Sort: Coin Merge Puzzle",
     "names": [
@@ -1643,6 +2124,7 @@
   "android:com.puzzlegames.puzzlebrickslegend": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/yYQ4QldM1Dclw1mK0sW1gJlwT6XJ05qPf6IGu9GtXc3kKfNj92PqdmkD8OFtRId75a5fuKkJ5X38b2qCl3QYeA",
     "id": "com.puzzlegames.puzzlebrickslegend",
     "name": "Color Block: Combo Blast",
     "names": [
@@ -1667,18 +2149,42 @@
   "android:com.roblox.client": {
     "category": "Games",
     "country": "us",
+    "description": "ROBLOX – MILLIONS OF GAMES ACROSS EVERY GENRE. PLAY FREE.\n\nRoblox is home to every kind of game, for every kind of player. Compete in high-octane racing games, battle it out in hardcore tactical shooters, or put your survival skills to the test in unpredictable environments. Embark on an epic adventure in immersive RPGs, build massive empires in tycoons, or dive into horror, anime, and sports games with friends worldwide.\n\nRoblox is constantly evolving, with unique experiences and ambitious, high-fidelity games built by a global community including professional studios, indie teams, and solo creators. There’s always something new to discover every day.\n\nStart playing some of the most popular games on Roblox today, including Dress to Impress, RIVALS, Steal a Brainrot, Brookhaven RP, Adopt Me! and more.\n\nWHAT YOU CAN DO ON ROBLOX\n\nPLAY ONLINE MULTIPLAYER GAMES\n- Discover deep role-playing games, immersive simulators, action-packed adventures, and more\n- Explore trending experiences and new games daily\n- Compete in massive multiplayer battles, run your own digital business, or embark on epic quests\n\nCREATE YOUR OWN AVATAR\n- Customize your avatar with detailed clothing, accessories, and dynamic hairstyles\n- Discover thousands of user-created 3D avatar items in the Marketplace\n- Express yourself with unique emotes, and fashion\n\nCHAT, COMPETE, AND EXPLORE TOGETHER—ANYTIME, ANYWHERE\n- Hang out and play with friends in cross-platform multiplayer games on mobile, tablet, PC, console, and VR headsets\n- Join a Party and jump into competitive or social experiences together\n- Age-verified users can communicate in real-time via voice chat or text\n\nCREATE, PLAY, AND SHARE ON ROBLOX\n- Design high-fidelity games and virtual spaces using the Roblox Studio engine on Windows or Mac\n- Publish your experiences and empower yourself as a creator in a massive global community\n- Dive into immersive 3D multiplayer games and safe, inclusive environments designed for users of all ages\n- Enjoy endless new content added daily and share your creations with millions of players\n\nELEVATE YOUR EXPERIENCE WITH ROBLOX PLUS\n- Get up to 20% discounts on in-game items, enjoy fee-free Robux transfers, and receive a distinct profile badge\n- Host free, unlimited private servers for your friends \n- Publish, trade, and resell your own custom avatar creations on the Marketplace\n\nINDUSTRY-LEADING SAFETY, PRIVACY, AND CIVILITY\n- Advanced content filtering and age-appropriate moderation\n- Access age-verified spaces and manage your privacy with Roblox Kids and Select Accounts\n- Clear community guidelines promoting respectful interactions\n- Dedicated trust & safety teams working around the clock\n\nCREATE YOUR OWN GAMES: https://www.roblox.com/develop\nSUPPORT: https://en.help.roblox.com/hc/en-us\nCONTACT: https://corp.roblox.com/contact/\nPRIVACY POLICY: https://www.roblox.com/info/privacy\nPARENT’S GUIDE: https://corp.roblox.com/parents/\nTERMS OF USE: https://en.help.roblox.com/hc/en-us/articles/115004647846\n\nPLEASE NOTE: A network connection is required. Roblox works best over Wi-Fi.\n\n※ Information on App Permissions: Roblox requires the following permissions for your seamless use of the Roblox app.\n[Optional Permissions]\nNotification: For sending notifications (related to the services, experiences, etc.)\nMicrophone: For in-game voice chat features\nCamera: For animating your avatar with your movement\nContacts: For contact importer features (find other users you may know and make recommendations for friends)\n* You can use the app regardless of whether or not you consent to optional permissions\n* Certain app features may not work properly if you refuse optional permissions",
+    "details_checked_on": "2026-11-18",
+    "developer": "Roblox Corporation",
+    "icon": "https://play-lh.googleusercontent.com/QqZj22aXblAyYDxLQw-Gg0ycW0QkKhrDnwqgERZU9BMRXZnMlgXfq-94sikG5mEpt_I0lzZxcUzfLblmQgwYzUE",
     "id": "com.roblox.client",
+    "media_checked_on": "2026-11-18",
     "name": "Roblox",
     "names": [
       "Roblox"
     ],
     "platform": "android",
     "publisher": "Roblox Corporation",
-    "url": "https://play.google.com/store/apps/details?id=com.roblox.client&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/HElFiWYK50y1a-GzJGeFDhPEXm66Tw3-udajDPzE8J-DfSaoZJowxc6G8PmVRa2mBh5rgXPE71uZ03lVLQq0Lg",
+      "https://play-lh.googleusercontent.com/glTw26cKGa0yTtGPi174FdVSKm6oRBq00drHByHILfWeHYog1gyNfDNd3tneoJoPjWcmLYQijBxvpDaZD4k_",
+      "https://play-lh.googleusercontent.com/AQZebeb2g-DFnmknDO6NTiVwZHK0YiMtmZp6ns8nOhbpmTvHfSW4-JO_FI-oS0DjFNoZwq3yN_GN5xEbQe0xA4c",
+      "https://play-lh.googleusercontent.com/gII1u-ZKyUcUAuxj2BhbmwLpgEgteOmPYj5O0_xEFrG7Ws1ARAnhtRvas0x3TqPAW_iSAoCJsYCh1OHMsbrrXg",
+      "https://play-lh.googleusercontent.com/o0_-bsU7Gba9RUfN32t8GhWH094c45WP2Sq_qXsJCahNgaDDnWcbqeNf5mvq5Dbug93u5PI80whOCh8DgRJ-LQ",
+      "https://play-lh.googleusercontent.com/ff4HRhwCMS7KGjS-SnXrDQnIdYJLkgnJTjg-CBIo6i5hLLksN0fVXoAwQP6ErPofMGPR6IYZCjBNUyCR_5wC",
+      "https://play-lh.googleusercontent.com/07RAd6xBetQUQXFPEyXNh_4pJyNSZECbiU9BKdVRCPgv9kqlkPqdY6IiUFTmKAKQmbDwKb1kukkYvvTycogf7Oc",
+      "https://play-lh.googleusercontent.com/NIakiLSibVkhiWSS5huWVG6iTlx8t-qBysQNkNsu0hFFkZxNli9yfGNgap7NRPmM9YhgCQCjYGIo1IH_D2G4tA",
+      "https://play-lh.googleusercontent.com/7xGXD9_nonDT1HRkEl8z97JexLgHxxc1677LLyTL9uNUMo32q2nd1copz2RDgQmDCDsr8s7mr8k0Sa_kcMz-AA",
+      "https://play-lh.googleusercontent.com/Wu-4IxI-bjuYQwF9HY2uBNBRHpDOJEzMUYsD_VyBvtjhi74Ua4nrx6MYbgO12O_L6R5an587bQzdaB6cbKVB",
+      "https://play-lh.googleusercontent.com/oj4e_Xgt940I29ndScbSscO75ZLNxWJ4ijUx-s02ePMhZqiNMKv9lbUiqUVYvE6lZ-Z605IbW4IqiN5LYXiW",
+      "https://play-lh.googleusercontent.com/8Jo0YfxYLSO3R0e-RCSRM-0s43UmvNDeOrEKRrel7l3Ynuo1AV5oL7t1a4EY-_aDBozAuJ8quupzB71EYOTikg",
+      "https://play-lh.googleusercontent.com/bKrZ9JY5VGgHSV-ljLSnos93fZrob5oKuo7dc1VCbyrU7mweaDK4aW9bzL8hQuYkmQx-0N9t0wTYO5Eg3w7oDw",
+      "https://play-lh.googleusercontent.com/89QSCG9lKBG8XfBzRB_C_Vq_LBb2XIv3XnzLqQDbzo_kI3E3fkCGpCVacpPJk4TS5_F0u57HpTuHcs6mh4dW8Q",
+      "https://play-lh.googleusercontent.com/VBim_ZPUNnl_DDiP3Fm0sHgqx9B3qP69cT3d9-V77b4TSlYxep2M3BFtpjGf-gmmdy6DgT9iaIxR6GWyRRhE"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.roblox.client&gl=us",
+    "version": "VARY"
   },
   "android:com.robtopx.geometryjumplite": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/StEbdIF-rV4EoYfIdaP07zClA50KSs-i9o12kceyecfw8R0nwYfzqV64h3UlEzh_fCqxyNCj7Bb7ro86pfYDsSU",
     "id": "com.robtopx.geometryjumplite",
     "name": "Geometry Dash Lite",
     "names": [
@@ -1691,14 +2197,43 @@
   "android:com.rotatelab.cubeblast": {
     "category": "Games",
     "country": "us",
+    "description": "Cube Land Puzzle Game is a colorful 3D block puzzle game where every tap turns into a satisfying blast. Match color blasters with the right pixel style voxel blocks, clear cube structures, and solve clever puzzle boards one move at a time.\n\nSATISFYING BLOCK PUZZLE ACTION\n• Bright pixel style voxel blocks with smooth blast effects\n• Simple one tap controls for quick play sessions\n• Short levels built for relaxing breaks\n• No timers and no pressure, think at your own pace\n• Play offline anytime, no wifi needed\n\nRELAXING 3D BRAIN TEASERS\nCube Land Puzzle Game is easy to start and rewarding to master. Each level gives you a small set of blasters and a colorful cube structure. Plan your moves, match colors carefully, and clear the board without getting stuck.\n\nAs you progress, new shapes, colors, and puzzle layouts make each level feel different. The challenge grows gradually, so the game stays simple to understand while still giving your brain a real puzzle to solve. It is built for players who like clear rules, clever levels, and that satisfying moment when the final block disappears.\n\nWHY PLAY CUBE LAND?\n• Color match puzzle action with a fresh voxel look\n• Satisfying blast effects and relaxing visual feedback\n• Simple controls, and a steady difficulty curve\n• Bright 3D cube worlds for one handed play\n• Great for fans of block puzzle games, block jam, block blast, pixel flow, color sort, tile sort, bubble pop, brain teasers, pixel puzzles, and offline puzzle games\n\nCube Land Puzzle Game is not a timed racing puzzle. Take a short break, think through the board, and choose the blaster order that clears the puzzle cleanly. If you enjoy relaxing puzzle games that are easy to learn, satisfying to play, and smart enough to make you plan ahead, Cube Land Puzzle Game is made for you.\n\nDownload Cube Land Puzzle Game and start blasting colorful cube puzzles today.",
+    "details_checked_on": "2026-11-18",
+    "developer": "Rotatelab Yazilim ve Bilisim A.S.",
+    "icon": "https://play-lh.googleusercontent.com/OxZ_l4qJpJOVmuCiGAXBXSMA5EyJZsjik90OkXbbXCQjDW7ho99Rr2f7YjWxjidw1VTdM22d3XtUbTqV6eegxuc",
     "id": "com.rotatelab.cubeblast",
+    "media_checked_on": "2026-11-18",
     "name": "Cube Land Puzzle Game",
     "names": [
       "Cube Land Puzzle Game"
     ],
     "platform": "android",
     "publisher": "Rotatelab Yazilim ve Bilisim A.S.",
-    "url": "https://play.google.com/store/apps/details?id=com.rotatelab.cubeblast&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/EVgQ_l26_bkyXKw-QSxoI1-nhEr1Gc71xHKVojywpZlPxFSkLz1RK6JqrXf00eW4Tf5ogckMG3whft5I9mQ4_w",
+      "https://play-lh.googleusercontent.com/u94i_DgNJn2Qo9qbGDUs8YF7HeS9C32rDCAPBef8LpBh_FcEqY3JiFQuS6TxX8tp1bC0oJXISQS_I3YZ9QjWbBY",
+      "https://play-lh.googleusercontent.com/btNlN-vDs-pF9N3lAKkzcbMQQTfhQ4jRlpf4Crd79UuOrxOKbhVNpwh5TyVEocsrgeF-qXDcoVNjDN5i8LI7",
+      "https://play-lh.googleusercontent.com/4h9kP_ehg-Y2GS64-olHQs3HFcuTFPr4cr4vuYv0Kwv2ejDiDSRoIJGvUE0swRYLg7FpLg1Ro87yJxDw6LMk0A",
+      "https://play-lh.googleusercontent.com/UmqpUKF-HpO3TBzByhY98UegOklT8mturoAwlFZkqo1Q-2BxxD-nSHV5pZGGqkNyMWKsUuBQPL-EP8-U2FQM",
+      "https://play-lh.googleusercontent.com/1PgbHYGrALZgy7jWjlBSJmLHnSHwXSKz7D9mKUArUl9O4m1i-uKRYI6f7tf3NBpjfaq9vYZrJWutL_KUo00XmiQ",
+      "https://play-lh.googleusercontent.com/f_pYGpjZt4A-ec69OuOuSoJscJ-G6Xg4LYiqOzdo_td6M6r-nMhtSXeCSrMD-tlh1ClMgUcjoallNjNoWild",
+      "https://play-lh.googleusercontent.com/hkOcH2uCSw1WQoQyqCRI-XLCUdBh21ZdHaoggvES8QosMfMq8CQ2xh5XPrAFkah73M9MTHGnystc8Ura4RnWrA",
+      "https://play-lh.googleusercontent.com/J3eqQmyBlM3PUHsXlMe3cM6BIoGPZgF668S8nEDQw-gRrrUWpZoSQkAS7at8mY-MMK1zlhlmiV5KzIbf8_tMOg",
+      "https://play-lh.googleusercontent.com/K3Il3vUse0GxL7LKAEfuacMb4oXl-umJFSlGg6JYBIIxuukVFjbTFSYyFjVjzg08wSyr8bj4EialIihci9MtMbI",
+      "https://play-lh.googleusercontent.com/yT7K6LyD0fR95vyPQTDH2MoVJCf8-5euNq0LWs9HnOYQ0CLdYheBrF1NjbY3-Wh74yWGqx7qEqAxV1sd-AJl",
+      "https://play-lh.googleusercontent.com/TSwqoLjteGOgeRwPRex3YrC26bcG1JaRwDqSw0WR5i8bMUf5a6oxDtcWSuBYa-x0XisffUO_fGNYJXGoRTdyyO8",
+      "https://play-lh.googleusercontent.com/-tRF8dpb4VVBpYiLaN0o2z9FsHxYXn0cuNbpzG8L5j26tCjcvMPFTsk86rbFkcUyqAKR1MGaHc2CgMXGsFyiBvw",
+      "https://play-lh.googleusercontent.com/Ng1edIq75sndJ-CxiDtVfHJnkiAl70QW6aYgzH9RJ-wqurL8lsDi3dP6A9YBuqCos2oQDsN1KlH92Iv-22sN5HY",
+      "https://play-lh.googleusercontent.com/hkOcH2uCSw1WQoQyqCRI-XLCUdBh21ZdHaoggvES8QosMfMq8CQ2xh5XPrAFkah73M9MTHGnystc8Ura4RnWrA",
+      "https://play-lh.googleusercontent.com/J3eqQmyBlM3PUHsXlMe3cM6BIoGPZgF668S8nEDQw-gRrrUWpZoSQkAS7at8mY-MMK1zlhlmiV5KzIbf8_tMOg",
+      "https://play-lh.googleusercontent.com/K3Il3vUse0GxL7LKAEfuacMb4oXl-umJFSlGg6JYBIIxuukVFjbTFSYyFjVjzg08wSyr8bj4EialIihci9MtMbI",
+      "https://play-lh.googleusercontent.com/yT7K6LyD0fR95vyPQTDH2MoVJCf8-5euNq0LWs9HnOYQ0CLdYheBrF1NjbY3-Wh74yWGqx7qEqAxV1sd-AJl",
+      "https://play-lh.googleusercontent.com/TSwqoLjteGOgeRwPRex3YrC26bcG1JaRwDqSw0WR5i8bMUf5a6oxDtcWSuBYa-x0XisffUO_fGNYJXGoRTdyyO8",
+      "https://play-lh.googleusercontent.com/-tRF8dpb4VVBpYiLaN0o2z9FsHxYXn0cuNbpzG8L5j26tCjcvMPFTsk86rbFkcUyqAKR1MGaHc2CgMXGsFyiBvw",
+      "https://play-lh.googleusercontent.com/Ng1edIq75sndJ-CxiDtVfHJnkiAl70QW6aYgzH9RJ-wqurL8lsDi3dP6A9YBuqCos2oQDsN1KlH92Iv-22sN5HY"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.rotatelab.cubeblast&gl=us",
+    "version": "0.6.4"
   },
   "android:com.rovio.baba": {
     "category": "Games",
@@ -1753,6 +2288,7 @@
   "android:com.scopely.monopolygo": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/AUGFPG5XqzHukTUDH2mcdOTpEwlDmZ5hUuWPXwu9IcvcyaBTwhV2WJeKKFAj_UA2m05ZxPgJuhrllXIqlW0i",
     "id": "com.scopely.monopolygo",
     "name": "MONOPOLY GO!",
     "names": [
@@ -1762,9 +2298,23 @@
     "publisher": "Scopely",
     "url": "https://play.google.com/store/apps/details?id=com.scopely.monopolygo&gl=us"
   },
+  "android:com.sg.lastaura.army.zombie.shooter": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/nzPK4TXqhO4b1JQ2RrWK54q6Slq0ArR9kALxHgNaSxUlZyfpf0yJkiGQ6PmNlg8d932X3MrB0WpcFNPMHyrrHw",
+    "id": "com.sg.lastaura.army.zombie.shooter",
+    "name": "Last Combat: Z Shooter",
+    "names": [
+      "Last Combat: Z Shooter"
+    ],
+    "platform": "android",
+    "publisher": "PIXEL KING PTE. LTD.",
+    "url": "https://play.google.com/store/apps/details?id=com.sg.lastaura.army.zombie.shooter&gl=us"
+  },
   "android:com.sled.surfers.game": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/jiKsZESD_FX4mVtPEmErwm9-abDZcF2FVNq1KR-D7zOlYTmRljgI_sGhmWA4TrRJzxdad21WBkyfFK3j0ihfV5A",
     "id": "com.sled.surfers.game",
     "name": "Sled Surfers",
     "names": [
@@ -1837,6 +2387,7 @@
   "android:com.studio27.MelonPlayground": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/9KgS1cF6vWMF9Fl25S36bKr8zDh0ddkTOeN7WpBcQAE-pKfahG2DjUxbQ8sespNoe3KW3qbcaVD8H6DfNys6",
     "id": "com.studio27.MelonPlayground",
     "name": "Melon Sandbox",
     "names": [
@@ -1873,7 +2424,7 @@
   "android:com.superplaystudios.disneysolitairedreams": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/BpyKPyeCiAoCtYP23WtOoHW1G_4IAGUyk4G6V_5YNmXomuBwNC5ZnSq5OfxejW-Ufuukma8-UYZirB2wz3m8UnM=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/BpyKPyeCiAoCtYP23WtOoHW1G_4IAGUyk4G6V_5YNmXomuBwNC5ZnSq5OfxejW-Ufuukma8-UYZirB2wz3m8UnM",
     "id": "com.superplaystudios.disneysolitairedreams",
     "media_checked_on": "2026-11-17",
     "name": "Disney Solitaire",
@@ -1910,7 +2461,7 @@
   "android:com.tank.busters": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/W4-qL3Lppsq9xL37hg0DDVSKKNieBNx9zVGMjyUdbs7eU2bGri5k-a1FLXaGnCC_BRFPh209WjnQhQRsh6VBTZ0=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/W4-qL3Lppsq9xL37hg0DDVSKKNieBNx9zVGMjyUdbs7eU2bGri5k-a1FLXaGnCC_BRFPh209WjnQhQRsh6VBTZ0",
     "id": "com.tank.busters",
     "media_checked_on": "2026-11-17",
     "name": "Tank Busters: Cannon Battle",
@@ -1950,6 +2501,19 @@
     ],
     "url": "https://play.google.com/store/apps/details?id=com.teagarden.wilderness.world&gl=us"
   },
+  "android:com.tempogames.thebazaar": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/V29ElR2eW5DfHQK69E-vm_AyLB1KP7HINazSTG5-enRgrcpsNEHaRtCswCY_t4YOMyBverrOdqweWG68ijHRXg",
+    "id": "com.tempogames.thebazaar",
+    "name": "The Bazaar",
+    "names": [
+      "The Bazaar"
+    ],
+    "platform": "android",
+    "publisher": "Tempo Games Studio",
+    "url": "https://play.google.com/store/apps/details?id=com.tempogames.thebazaar&gl=us"
+  },
   "android:com.tencent.ig": {
     "category": "Games",
     "country": "us",
@@ -1962,9 +2526,51 @@
     "publisher": "Level Infinite",
     "url": "https://play.google.com/store/apps/details?id=com.tencent.ig&gl=us"
   },
+  "android:com.tencent.igfit": {
+    "category": "Games",
+    "country": "us",
+    "description": "【The Original PUBG MOBILE, Now in a FLASH】\nPUBG MOBILE FLASH is the official lightweight app in the PUBG MOBILE ecosystem. Enjoy the authentic PUBG MOBILE experience with a smaller download and optimized performance.\n\n【Classic Battle Royale, Ready to Play】\nJump straight into Erangel and the original Classic Battle Royale experience. Core gameplay comes pre-installed, with no additional download required before your first match.\n\n【Small Download, More Space】\nGet started with under 0.96 GB on Android or under 1.75 GB on iOS. Enjoy PUBG MOBILE while leaving more storage space for your photos, videos, and everyday apps.\n\n【Download Only What You Want】\nDownload additional maps, modes, events, and resources whenever you need them. With download confirmation, you're in control of what gets downloaded, helping prevent unnecessary downloads and save storage space.\n\n【One PUBG MOBILE World】\nStay connected with the same account, friends, and in-game assets across PUBG MOBILE and FLASH. Enjoy synchronized updates, play matches together across both apps, and stay in the same PUBG MOBILE ecosystem.\n\n【A Clean and Simple Lobby】\nEnjoy a clean, minimalist Lobby designed to take up less space. Want the full Lobby experience? Simply download the additional resources whenever you choose.\n\n【Smart Resources, Less Storage】\nLightweight visuals help save space, with higher-quality resources available on demand. Smart outfit display automatically shows temporary appearances for outfits you haven't downloaded, without using extra storage. Download the original outfit resources whenever you want to see the full look.\n\n【Optimized for More Devices】\nFLASH features dedicated graphics optimizations for entry-level and mid-range phones, reducing performance demands and making the original PUBG MOBILE experience accessible on more devices.\n\n【Smoother Gameplay, Less Waiting】\nEnjoy further optimizations designed to improve frame rate, stability, power efficiency, and memory usage. Faster startup and pre-match loading help you spend less time waiting and more time playing.\n\n【Same PUBG MOBILE Security】\nFLASH is protected by PUBG MOBILE's Ban Pan security system, with real-time monitoring, violation detection, enforcement, and the Investigator system to help maintain a fair gaming environment.\n\n【Follow Us】\nInstagram: https://www.instagram.com/pubgmobile\nFacebook: https://www.facebook.com/PUBGMOBILE\nX: https://x.com/PUBGMobile\nYouTube: https://www.youtube.com/pubgmobile\nTikTok: https://www.tiktok.com/@pubgmobile\nReddit: https://www.reddit.com/r/PUBGMobile/\nDiscord: https://discord.gg/pubgmobile\nPlease contact customer service if you encounter any problems: service@pubgmobile.com\nPlease read PUBG MOBILE's Privacy Policy and User Agreement.\nPrivacy Policy: http://pubgmobile.proximabeta.com/privacy.html\nTencent Games User Agreement: https://www.pubgmobile.com/terms.html",
+    "details_checked_on": "2026-11-18",
+    "developer": "Level Infinite",
+    "icon": "https://play-lh.googleusercontent.com/4qaNVoTDU9SwTGFSOlENhnKWQ44dVmdu6N6cAgg6rgXkX0Em_4xqGbs0naQqhZz2HVsKUs1jABcWPC7ByBiGvA",
+    "id": "com.tencent.igfit",
+    "media_checked_on": "2026-11-18",
+    "name": "PUBG MOBILE FLASH",
+    "names": [
+      "PUBG MOBILE FLASH"
+    ],
+    "platform": "android",
+    "publisher": "Level Infinite",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/qPaT5Vr70xnzn0GjJoEQNbeIcoWppLQeu_LDUCtxr9uj3rZaWsTWnMwpvzL2mso7gqjeZjU7yNSFw1W2p6aI9A",
+      "https://play-lh.googleusercontent.com/Z4AUXxFP-W3jFkLf9QWQ6dxR2b9Zs0ibe42zOgicdT71s5xzxzDlOfpcD3LBloZCwoLXnWNlAcEv-fl58Kk6dA",
+      "https://play-lh.googleusercontent.com/3nFFoyUBn744kFF6ImFcWO3TvtpIl8Kd4V5uHjH-GKrZhdP2oLF9YgZRsbPbkZKBHy6Hix82DWeKTABweb_6",
+      "https://play-lh.googleusercontent.com/UgwMHQyeN1C-NJxNPzjILY9ABXnR7jNbaC1FxYmsstx-0XIXYI6CDLvJOsKTE4pfO2u09y0k6Zo-8S4Esd2RBg",
+      "https://play-lh.googleusercontent.com/Uwjpo3mnaRinavSA_GiunZPYd2JFR3UmtPxQ9avKuJvkAshMF-5iwLNzEcTz6MTLB12beEAmFyY_ucUdXx2z",
+      "https://play-lh.googleusercontent.com/SmpG1e5G30JAF5FOn8IQW6J4tWc73XwXjSWom7GM6Wx2FBr9TNgrQuO6MtnltGu0UrzibUmz8ikn3wJqwUciDw",
+      "https://play-lh.googleusercontent.com/ESFy1cPIwooTK8lpJ0lvqrhO9lsNzqwWDeM7LVAhLpwCdcnhL8F9EGnIYyq8nmZPkJy5lUrYf_FQMWycsGkV",
+      "https://play-lh.googleusercontent.com/qPaT5Vr70xnzn0GjJoEQNbeIcoWppLQeu_LDUCtxr9uj3rZaWsTWnMwpvzL2mso7gqjeZjU7yNSFw1W2p6aI9A",
+      "https://play-lh.googleusercontent.com/Z4AUXxFP-W3jFkLf9QWQ6dxR2b9Zs0ibe42zOgicdT71s5xzxzDlOfpcD3LBloZCwoLXnWNlAcEv-fl58Kk6dA",
+      "https://play-lh.googleusercontent.com/3nFFoyUBn744kFF6ImFcWO3TvtpIl8Kd4V5uHjH-GKrZhdP2oLF9YgZRsbPbkZKBHy6Hix82DWeKTABweb_6",
+      "https://play-lh.googleusercontent.com/UgwMHQyeN1C-NJxNPzjILY9ABXnR7jNbaC1FxYmsstx-0XIXYI6CDLvJOsKTE4pfO2u09y0k6Zo-8S4Esd2RBg",
+      "https://play-lh.googleusercontent.com/Uwjpo3mnaRinavSA_GiunZPYd2JFR3UmtPxQ9avKuJvkAshMF-5iwLNzEcTz6MTLB12beEAmFyY_ucUdXx2z",
+      "https://play-lh.googleusercontent.com/SmpG1e5G30JAF5FOn8IQW6J4tWc73XwXjSWom7GM6Wx2FBr9TNgrQuO6MtnltGu0UrzibUmz8ikn3wJqwUciDw",
+      "https://play-lh.googleusercontent.com/ESFy1cPIwooTK8lpJ0lvqrhO9lsNzqwWDeM7LVAhLpwCdcnhL8F9EGnIYyq8nmZPkJy5lUrYf_FQMWycsGkV",
+      "https://play-lh.googleusercontent.com/qPaT5Vr70xnzn0GjJoEQNbeIcoWppLQeu_LDUCtxr9uj3rZaWsTWnMwpvzL2mso7gqjeZjU7yNSFw1W2p6aI9A",
+      "https://play-lh.googleusercontent.com/Z4AUXxFP-W3jFkLf9QWQ6dxR2b9Zs0ibe42zOgicdT71s5xzxzDlOfpcD3LBloZCwoLXnWNlAcEv-fl58Kk6dA",
+      "https://play-lh.googleusercontent.com/3nFFoyUBn744kFF6ImFcWO3TvtpIl8Kd4V5uHjH-GKrZhdP2oLF9YgZRsbPbkZKBHy6Hix82DWeKTABweb_6",
+      "https://play-lh.googleusercontent.com/UgwMHQyeN1C-NJxNPzjILY9ABXnR7jNbaC1FxYmsstx-0XIXYI6CDLvJOsKTE4pfO2u09y0k6Zo-8S4Esd2RBg",
+      "https://play-lh.googleusercontent.com/SmpG1e5G30JAF5FOn8IQW6J4tWc73XwXjSWom7GM6Wx2FBr9TNgrQuO6MtnltGu0UrzibUmz8ikn3wJqwUciDw",
+      "https://play-lh.googleusercontent.com/Uwjpo3mnaRinavSA_GiunZPYd2JFR3UmtPxQ9avKuJvkAshMF-5iwLNzEcTz6MTLB12beEAmFyY_ucUdXx2z",
+      "https://play-lh.googleusercontent.com/ESFy1cPIwooTK8lpJ0lvqrhO9lsNzqwWDeM7LVAhLpwCdcnhL8F9EGnIYyq8nmZPkJy5lUrYf_FQMWycsGkV"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.tencent.igfit&gl=us",
+    "version": "4.7.0"
+  },
   "android:com.tfgco.apps.coloring.free.color.by.number": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/XRROCU10EenYkIVwgELctilhZRq4n9EX-G5aCaW4LaAgTVyczXN93lukhtq2RhyNV4Kzy5mKohW8VVhKJfTA9Q",
     "id": "com.tfgco.apps.coloring.free.color.by.number",
     "name": "Color by Number：Coloring Games",
     "names": [
@@ -1974,9 +2580,36 @@
     "publisher": "Wildlife Studios",
     "url": "https://play.google.com/store/apps/details?id=com.tfgco.apps.coloring.free.color.by.number&gl=us"
   },
+  "android:com.thrivegames.bashbest": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/wrL6_KaT0gzj3fdSmXCZ8JTFGZEsawfEubff2OglqIZSWxKm2WaIi481qokmQ-n2e7mCsQeGPpDSsSaAoW6mCJI",
+    "id": "com.thrivegames.bashbest",
+    "name": "Tiki Smash! Smashing game",
+    "names": [
+      "Tiki Smash! Smashing game"
+    ],
+    "platform": "android",
+    "publisher": "PeopleFun",
+    "url": "https://play.google.com/store/apps/details?id=com.thrivegames.bashbest&gl=us"
+  },
+  "android:com.tiny.ride.game": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/9KxeSJ8g4MrPEwxFlz-enq-R6p0Nrhb0vxRLiYe6XA0J4ASYZLGh002FedGVZygPbBE0KIB-8pKOi8Qofc8f",
+    "id": "com.tiny.ride.game",
+    "name": "Tiny Ride",
+    "names": [
+      "Tiny Ride"
+    ],
+    "platform": "android",
+    "publisher": "CrazyLabs LTD",
+    "url": "https://play.google.com/store/apps/details?id=com.tiny.ride.game&gl=us"
+  },
   "android:com.tocaboca.tocalifeworld": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/EQJQ_3OTKMq8h5ULR30LouHVfe-Ii5LDCR3jk_dlXZRlByJlVDlDndgw09GDE7c5-k9k8xiJ2DfEG5vw_v_q",
     "id": "com.tocaboca.tocalifeworld",
     "name": "Toca Boca World",
     "names": [
@@ -2026,6 +2659,7 @@
   "android:com.tripledot.blockbash": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/3zYytd77MXlmtvwNZW_L0icufZPK2EIVBpa-asmPeVTaWdZvnL_ERldsqM_ujX6PfclG4A5jbvC9w1vZk6MDpQ",
     "id": "com.tripledot.blockbash",
     "name": "Woodoku Blast",
     "names": [
@@ -2071,6 +2705,19 @@
     "publisher": "UltraPub",
     "url": "https://play.google.com/store/apps/details?id=com.u1.relax.minigame3&gl=us"
   },
+  "android:com.uc.gym.clicker": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/Vk2UJOzxaEVROmRygdabCcC2G3ZirxqbxyHr54FiQ43iaD8w8YinJfvIxi22PeSc3w3gUORsktst3Tn_unlovw",
+    "id": "com.uc.gym.clicker",
+    "name": "Gym Idle Clicker: Fitness Hero",
+    "names": [
+      "Gym Idle Clicker: Fitness Hero"
+    ],
+    "platform": "android",
+    "publisher": "Unicorn Studio Official",
+    "url": "https://play.google.com/store/apps/details?id=com.uc.gym.clicker&gl=us"
+  },
   "android:com.unbox.mystery.dumpling.squishy": {
     "category": "Games",
     "country": "us",
@@ -2086,7 +2733,7 @@
   "android:com.uncosoft.wordpuzzle": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/r0_11rmYlvEcKQygGFhue8GJdeC-yvXkgQcwcY9V3G7A8eiKQCy6hppnzR9aHocjF5cAHomRFxxCFDQUEzjCsTQ=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/r0_11rmYlvEcKQygGFhue8GJdeC-yvXkgQcwcY9V3G7A8eiKQCy6hppnzR9aHocjF5cAHomRFxxCFDQUEzjCsTQ",
     "id": "com.uncosoft.wordpuzzle",
     "media_checked_on": "2026-11-17",
     "name": "Sand Blocks: Drop Puzzle",
@@ -2113,6 +2760,19 @@
     ],
     "url": "https://play.google.com/store/apps/details?id=com.uncosoft.wordpuzzle&gl=us"
   },
+  "android:com.underdogsports.fantasy": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/JoPyBe6NLNYcGuFxZLkbeZ5SaqWxgf-Xmfn-3c4NZsOp3qJKqOyIRqMTOwjnGO-csutEeQVhpyndyamws4Dzxw",
+    "id": "com.underdogsports.fantasy",
+    "name": "Underdog: Sports, Games & Rips",
+    "names": [
+      "Underdog: Sports, Games & Rips"
+    ],
+    "platform": "android",
+    "publisher": "Underdog Sports Wagering, LLC",
+    "url": "https://play.google.com/store/apps/details?id=com.underdogsports.fantasy&gl=us"
+  },
   "android:com.unept.leveldevil": {
     "category": "Games",
     "country": "us",
@@ -2128,6 +2788,7 @@
   "android:com.vaultystudios.eightytwoand0": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/21S01MPyKFMG7MMvR9gCW01S5POvnadV6e9qv5MB-EfWc8MIvy8BXQ5YGxATeQDPovuuzDTn2ivQ6MHGqPO0",
     "id": "com.vaultystudios.eightytwoand0",
     "name": "82-0.com",
     "names": [
@@ -2152,6 +2813,7 @@
   "android:com.vincentb.MobControl": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/nJoghcUfRMRF4PJbdTKwz_3Y5ESi8fZUyFc9TcQ5yjhlXaT6U_c852ESmXqpRyGbSO1PeYDyO8l90i0kq4N4Rg",
     "id": "com.vincentb.MobControl",
     "name": "Mob Control",
     "names": [
@@ -2164,6 +2826,7 @@
   "android:com.vitastudio.mahjong": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/nrnFiTmqs95hI5AP63eEZbgPbTQH5FzaVLp7mbobAULVpwY8_YpKM2BhQvVFyi38yGAwvy6jzeH2NKwuCxiNmg",
     "id": "com.vitastudio.mahjong",
     "name": "Vita Mahjong",
     "names": [
@@ -2172,6 +2835,19 @@
     "platform": "android",
     "publisher": "Vita Studio.",
     "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjong&gl=us"
+  },
+  "android:com.wanda.transformers.gg.am": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/P3WDWWrC5IROP5RB7y7ODec9ZM92OecJxR1B7OrfOpX7jb__m5mLEmEUjnQHZxO9t1yAfEFpmYMdvHXsWVbJ",
+    "id": "com.wanda.transformers.gg.am",
+    "name": "Transformers: Eternal War",
+    "names": [
+      "Transformers: Eternal War"
+    ],
+    "platform": "android",
+    "publisher": "Wanda Cinemas Games",
+    "url": "https://play.google.com/store/apps/details?id=com.wanda.transformers.gg.am&gl=us"
   },
   "android:com.wilds.craft.mysticland.explore": {
     "category": "Games",
@@ -2224,9 +2900,23 @@
     ],
     "url": "https://play.google.com/store/apps/details?id=com.x.aniimos&gl=us"
   },
+  "android:com.yolo.hiddenobjects": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/1J3EGIhBybfJsBYAVR8XPhURy2Ae399ZvcPSwltYTtWg_5T3gYbI2acOwrU9JzIh5rQuUN-Nhmdp0d19fSxM",
+    "id": "com.yolo.hiddenobjects",
+    "name": "Find Hidden Objects - Spot It!",
+    "names": [
+      "Find Hidden Objects - Spot It!"
+    ],
+    "platform": "android",
+    "publisher": "Yolo Game Studios",
+    "url": "https://play.google.com/store/apps/details?id=com.yolo.hiddenobjects&gl=us"
+  },
   "android:com.youmusic.magictiles": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/AHmha0RTMkNchGnLfchmuFzdC0EVE9WRxVjNXIGJDUhknEMmucwFdW9noBSinYdq_sdITW1LKqNE_nlhfjRR",
     "id": "com.youmusic.magictiles",
     "name": "Magic Tiles 3™ - Piano Game",
     "names": [
@@ -2235,6 +2925,19 @@
     "platform": "android",
     "publisher": "AMANOTES PTE. LTD.",
     "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&gl=us"
+  },
+  "android:com.zigzagame.paranoize": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/7LQtnB1OywAs4z9kyDT5NiAQtoE_TNMU6OdiPAm0znOARQB6lOlxZ7Dq9SQ8kdCvBAsDjGQKzhV2JMHHN2iuQ5g",
+    "id": "com.zigzagame.paranoize",
+    "name": "Paranoize",
+    "names": [
+      "Paranoize"
+    ],
+    "platform": "android",
+    "publisher": "ZigZaGame Inc.",
+    "url": "https://play.google.com/store/apps/details?id=com.zigzagame.paranoize&gl=us"
   },
   "android:com.zm.waterpack": {
     "category": "Games",
@@ -2287,7 +2990,12 @@
   "android:gridplus.busjam.carpuzzle": {
     "category": "Games",
     "country": "us",
+    "description": "Bus Fever Party – The ultimate bus jam escape & bus sort challenge! 🚌🅿️\n\nThe parking lot is trapped in a hectic passenger loop! A massive bus jam has blocked all exits, and every passenger bus needs a clear bus escape route. Can you manage organize the chaos? If you are looking for addictive bus jam puzzles, you are in the right place! Experience the thrill of solving a clever bus jam puzzle, master the passenger loop, sort every passenger, and guide every bus out! 🧩\n\n🎮 Master the Bus Escape & Bus Sort Puzzle\nYour mission is to clear the bus jam, sort each passenger, and get every bus out!\n🚦 Tap for Bus Escape: Strategically shift vehicles in the crowded bus loop to create a clear exit path.\n🚌 Color Bus Sort: Match the waiting passenger loop with buses of the exact same color.\n🔄 Solve the Bus Jam: Get each bus out, clear the passenger loop, and master the bus escape challenge. 🧠\n\n🌟 Why Play Bus Fever Party?\n🅿️ Addictive Bus Jam Action: Test your brain with challenging bus escape levels and satisfying bus sort mechanics.\n🚗 Fun Passenger Loop Mechanics: Pick up every passenger, clear the crowded parking lot, and enjoy smooth bus out gameplay!\n🏆 Become a Bus Sort Master: Conquer every bus jam, navigate the tight bus loop, and prove you are the true bus escape master!\n🚀 Powerful Boosters: Stuck in a heavy bus jam? Use helpful power-ups to clear the passenger loop and get the bus out instantly! ⚡\n\n🏁 Conquer the Bus Escape Challenge!\nWhether you love color bus sort mechanics, passenger bus puzzles, or classic bus jam levels, you'll find endless excitement here. Get every bus out, master the passenger loop, and win the ultimate bus escape!\n\nDownload Bus Fever Party now, solve the bus jam puzzles, and become the shining bus sort master! 🚌🧩\n\nCONTACT\n📧 lumigamesteam@outlook.com\n📞 +447871573653\nPrivacy Policy: https://sites.google.com/view/pp-of-lumi-games/home\nEULA: https://sites.google.com/view/eula-of-lumi-games/home",
+    "details_checked_on": "2026-11-18",
+    "developer": "Lumi Games",
+    "icon": "https://play-lh.googleusercontent.com/P5X4m-dDF31hnhlQvGE1L3MAJonj8KmnQQxj4nQl77Eg8kI2K-XFLu3UGStPC7hgP7VMrTf8ieurxA-rqdukwQ",
     "id": "gridplus.busjam.carpuzzle",
+    "media_checked_on": "2026-11-18",
     "name": "Bus Fever Party!",
     "names": [
       "Bus Fever Party!",
@@ -2296,11 +3004,30 @@
     ],
     "platform": "android",
     "publisher": "Lumi Games",
-    "url": "https://play.google.com/store/apps/details?id=gridplus.busjam.carpuzzle&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Y8o_aXb8tfVFjYJiCdz3qAf4pXJGgxSorXDSKqw9AMVpdzv98hpL4-SiKxyfODjaPOtU1HY6_dGg28u--akF",
+      "https://play-lh.googleusercontent.com/yz0Qa5YEn5VVXZ2PmB74ZCMnJ6FRNFTsYRH-9es617SGcDqZVdFF03c-5gD6XIr_s6FNWTIiffmyicPeHWae",
+      "https://play-lh.googleusercontent.com/gLRbwS_5wESuJV263HjWZ9GAYkrSbh3qUkGpqAdKpCNpB7oWTvKvR3qOtto1WaLBQla-R97eWMFc_NSJNP8zDec",
+      "https://play-lh.googleusercontent.com/8Twwx-UN-cTVBpaP1clB2zsPejQ7C1Df9taPesMuda6fyooD2vdHGUjZ7E9TE9Z_usuEz3zjGqDKBIoIoDGxQA",
+      "https://play-lh.googleusercontent.com/okjjJ2E_DEWZTWRZUPGW-F7F_CYviKp2IGyWqtEdgj-NNbRHBaBv-M9R9DQXKyw_-LoUyA3KHjqIIbTiJr70Jg",
+      "https://play-lh.googleusercontent.com/Y8o_aXb8tfVFjYJiCdz3qAf4pXJGgxSorXDSKqw9AMVpdzv98hpL4-SiKxyfODjaPOtU1HY6_dGg28u--akF",
+      "https://play-lh.googleusercontent.com/yz0Qa5YEn5VVXZ2PmB74ZCMnJ6FRNFTsYRH-9es617SGcDqZVdFF03c-5gD6XIr_s6FNWTIiffmyicPeHWae",
+      "https://play-lh.googleusercontent.com/gLRbwS_5wESuJV263HjWZ9GAYkrSbh3qUkGpqAdKpCNpB7oWTvKvR3qOtto1WaLBQla-R97eWMFc_NSJNP8zDec",
+      "https://play-lh.googleusercontent.com/8Twwx-UN-cTVBpaP1clB2zsPejQ7C1Df9taPesMuda6fyooD2vdHGUjZ7E9TE9Z_usuEz3zjGqDKBIoIoDGxQA",
+      "https://play-lh.googleusercontent.com/okjjJ2E_DEWZTWRZUPGW-F7F_CYviKp2IGyWqtEdgj-NNbRHBaBv-M9R9DQXKyw_-LoUyA3KHjqIIbTiJr70Jg",
+      "https://play-lh.googleusercontent.com/Y8o_aXb8tfVFjYJiCdz3qAf4pXJGgxSorXDSKqw9AMVpdzv98hpL4-SiKxyfODjaPOtU1HY6_dGg28u--akF",
+      "https://play-lh.googleusercontent.com/yz0Qa5YEn5VVXZ2PmB74ZCMnJ6FRNFTsYRH-9es617SGcDqZVdFF03c-5gD6XIr_s6FNWTIiffmyicPeHWae",
+      "https://play-lh.googleusercontent.com/gLRbwS_5wESuJV263HjWZ9GAYkrSbh3qUkGpqAdKpCNpB7oWTvKvR3qOtto1WaLBQla-R97eWMFc_NSJNP8zDec",
+      "https://play-lh.googleusercontent.com/8Twwx-UN-cTVBpaP1clB2zsPejQ7C1Df9taPesMuda6fyooD2vdHGUjZ7E9TE9Z_usuEz3zjGqDKBIoIoDGxQA",
+      "https://play-lh.googleusercontent.com/okjjJ2E_DEWZTWRZUPGW-F7F_CYviKp2IGyWqtEdgj-NNbRHBaBv-M9R9DQXKyw_-LoUyA3KHjqIIbTiJr70Jg"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=gridplus.busjam.carpuzzle&gl=us",
+    "version": "1.3.2"
   },
   "android:hidden.object.find.seek.search.mystery.puzzle.games.free": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/CZNl5j5E1p1NMOdI-k0Nmg0aLpV_SqaRDZBrx9kpjIa3XULfk-cSsm2VyZACdwDSRClk_VK2zct7Hgdx6jmOw_w",
     "id": "hidden.object.find.seek.search.mystery.puzzle.games.free",
     "name": "Hidden Object Games: Seek It",
     "names": [
@@ -2313,6 +3040,7 @@
   "android:in.playsimple.crossword.go": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/EyySFFXhT-dxaQQyRgEG73bCtcYT6AV83GWG4jzoru5O0pZtOJgliGfJe8MbGOFiASV-j8Dic13x5IiykEV2Axo",
     "id": "in.playsimple.crossword.go",
     "name": "Crossword Go!",
     "names": [
@@ -2325,6 +3053,7 @@
   "android:in.playsimple.wordsearch": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/BhSjXMNR8wZi48F4NWlRhskKyM_pa8DFNzisNTTa8_16uLNCk5nsZo_3fCmo1szCv05Qpe6VHNZBUsWBtSpjpA",
     "id": "in.playsimple.wordsearch",
     "name": "Word Search Explorer",
     "names": [
@@ -2337,6 +3066,7 @@
   "android:in.playsimple.wordtrip.association": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/JPx3qLbl_3v_9fXu9xc50EbmdVw1qP5Y2TRENTkx4we8eOXJeCVVGTGiqX8CVUPEqiiIp-4_yt3_5L1rHbaWluI",
     "id": "in.playsimple.wordtrip.association",
     "name": "Word Connect Association",
     "names": [
@@ -2358,9 +3088,23 @@
     "publisher": "Heseri Games",
     "url": "https://play.google.com/store/apps/details?id=io.heseri.car&gl=us"
   },
+  "android:io.heseri.rock": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/3aIATE6qkH6FdWq4_8ReNhixo7su5OMsmwpLiTQwPfjDLgkOgLoVU0sKzvCk5Ra_V4eYaw3pDCGBInXjj30OQtg",
+    "id": "io.heseri.rock",
+    "name": "Just a Rock",
+    "names": [
+      "Just a Rock"
+    ],
+    "platform": "android",
+    "publisher": "Heseri Games",
+    "url": "https://play.google.com/store/apps/details?id=io.heseri.rock&gl=us"
+  },
   "android:io.supercent.bulldozermasters": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/BPM2LegAT0uRT8GO_i3jCkvsO6GlkMVqSNadRm1ApHAu1GG1D_vOmnHXOQSOK7fMT0mLQ-b9ZwNdkADshwpuaw",
     "id": "io.supercent.bulldozermasters",
     "name": "Bulldozer Master: Crush & Mine",
     "names": [
@@ -2373,6 +3117,7 @@
   "android:io.supercent.linkedcubic": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/IFZ89btnaAvGhze1EENTZdaH5gRrvTJTQYVGE9it8wIMpPtNwcDyzZbeNlzpAvUXyOioQRF2gHrTEeQZbgUpuOo",
     "id": "io.supercent.linkedcubic",
     "name": "Snake Clash!",
     "names": [
@@ -2409,10 +3154,12 @@
   "android:io.voodoo.holeio": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/2q9ygrPOfZV35sLpnWnc74ItAGFTwsQjNEiQCiTqU73J3dIBbUsokWCNs7cimWXl3NyBHgjZM12km6hcoFdbEP8",
     "id": "io.voodoo.holeio",
-    "name": "Hole.io",
+    "name": "Hole.io - Original Hole Game",
     "names": [
-      "Hole.io"
+      "Hole.io",
+      "Hole.io - Original Hole Game"
     ],
     "platform": "android",
     "publisher": "VOODOO",
@@ -2421,14 +3168,37 @@
   "android:io.voodoo.paper2": {
     "category": "Games",
     "country": "us",
+    "description": "Move around the arena, draw a trail to grow your territory, and claim the zone before someone cuts you off. Simple rules, endless fun!\n\nFair warning: this game is seriously hard to put down!\n\nWhat makes Paper.io 2 so fun:\n∙ Smooth, satisfying arcade gameplay that just feels right\n∙ Online multiplayer you can jump into in seconds\n∙ 100+ unique skins to collect\n∙ Free rewards every day\n∙ Quick matches that fit into any break\n∙ A secret surprise if you manage to capture the entire map",
+    "details_checked_on": "2026-11-18",
+    "developer": "VOODOO",
+    "icon": "https://play-lh.googleusercontent.com/gVtEUeaxaxBsvbbMXK4QiEldapksGxya07DcI-6w3U7FI3RKNulhbw2Rp3zKee_yIIIu16VEFU4Nzrr-Mlp-",
     "id": "io.voodoo.paper2",
+    "media_checked_on": "2026-11-18",
     "name": "Paper.io 2",
     "names": [
       "Paper.io 2"
     ],
     "platform": "android",
     "publisher": "VOODOO",
-    "url": "https://play.google.com/store/apps/details?id=io.voodoo.paper2&gl=us"
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/qseziZ-Sb4IV__KJ4KZYNXTIlsX6rjSzK5OoDkSHz64HN3BgBsG16VTiyFYIjDBN217c55UjdbilvW--iN7F-mk",
+      "https://play-lh.googleusercontent.com/bGiaAxqx2eF2s0iyO7NcG4yQ9rsGI5Mwg4aEAkfkBNDDUF6NFW6O2oWlcP2cY-hefnoNHpv3VnZf_EnDSqQWyA",
+      "https://play-lh.googleusercontent.com/oGedj4cO0FDwy7ypWWXi7rlm-n6RrJL_6DxiVtDp0elNJualZJn2WceHu638bGCt4pWc5nwtPNCWvy2m6DMbaZY",
+      "https://play-lh.googleusercontent.com/oRAfPJSAfmmX_4ZGJuQp9U1c9rWqLwCu-34MMtZwy3bicYbp8f4k6UrdNXzurv8-D8JYEVET5N6GeO6awSRF",
+      "https://play-lh.googleusercontent.com/1pEYnQb6IR1OubStFhBda8GtFIpNI7y6Ne4R0V3HRFvaUX2GOfFF2rqYGVXipGo5w_lfTDCM46lT9zo6pS9aIg",
+      "https://play-lh.googleusercontent.com/tyWIpxKmUY0w7e0w-ODoGqBe20O9eikS5U7qvmqI2MW3_66QrgZwOhoV8fZZ_B3oUCuUllX3yXPpK0NRVB6N8yY",
+      "https://play-lh.googleusercontent.com/OHlYkR8IgTgRA5IPOvPZxUEJ79zaXO4pQViNADHup2grlluI21YxpOGAVrx6bEttolvGSVcssqHB8n3GrrajugM",
+      "https://play-lh.googleusercontent.com/WKhs3MQbubT1b78NjNfXwPtMAJUfLn90Vaf6dCJFhLlzjkC2QwruosWYMfuFqcuDoDy8EWWvZa7Pzm32IjBG4AE",
+      "https://play-lh.googleusercontent.com/D6NptP-GTPrICoht5AZD3Nk0YQG9pOSSV5PX3Ykg1_oFg5uYGl-L4T8l5p-m_Xzq9s3oG3M46AB4eqqczmTDaCc",
+      "https://play-lh.googleusercontent.com/5twwgJ2L2iw_hVFa6tIdqmLWpx2eWJjEwu88PshjdnhF9lJNQG8Eje1fGc4SQ8IWPBwQz5Qel0FooVAhbTkT",
+      "https://play-lh.googleusercontent.com/3t-WBF-mai8FbcWdVwB_WgExK5H6NZf6q47D6CJewncpWjK7nv4OiOJ20Ymkc1QjYXhEdAB3PqmzHDUl67rm",
+      "https://play-lh.googleusercontent.com/dNib0hKoJjWfVjZSYTfB-YZwNULJEzUKBxpZV0um2_Mj-a-DyKThLsOz_uOsqsksxHnTMWnwtvGK-ljqG5vloA",
+      "https://play-lh.googleusercontent.com/y-fSNGsetY_xtxf-hkEbxsun2T-K8SqzsktVvhFalXCkZCHkEhhUApm5sMG69Cr94wP1TuLSZVlxYdzLtBqQ1jE",
+      "https://play-lh.googleusercontent.com/1u4SAZHYimSNNzBsbWWJ9tnkaKC7TYxnVfTzzonA63CV3fNt5RVVJpRODEh8pz8VMHc35v4zoEXZ5mhWbx3JjUo",
+      "https://play-lh.googleusercontent.com/ebu9xOZdB5tTmDi3-Icf_NW0d1VV4xanVEheTl6Cxgr1ShISZnA8atp_zVGwTsSYzptCerjwYPc3UktB4gPE"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=io.voodoo.paper2&gl=us",
+    "version": "4.41.0"
   },
   "android:jigsaw.solitaire.match.games.free": {
     "category": "Games",
@@ -2445,6 +3215,7 @@
   "android:jp.co.goodroid.hyper.busflow": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/caBiKRTVr57KEWAwIEH8mIXsjwrC19mfST9tLXizP1nPI3WdT5bJwXVSSQDb6HWLMKPkhVwLKHmA9PGAcrTZ",
     "id": "jp.co.goodroid.hyper.busflow",
     "name": "Bus Traffic Fever!",
     "names": [
@@ -2457,6 +3228,7 @@
   "android:jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle": {
     "category": "Games",
     "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/k_9MZtpdy3gYNVgynIWwv-1omuSkl4WGr5bOKYT-PJDC5PsEdFQMXWEBU7Jr3TfyjeBviAD3DN3_2KpDhGfa",
     "id": "jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle",
     "name": "CubeAway - 3DPuzzle",
     "names": [
@@ -2549,7 +3321,7 @@
   "android:net.happywit.screw.out.jam": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/tL7oVf9_W4Oi0lJSZEYHgdYR1ySweJ3nWGD6ndI1IWq6cYWR2o3xJgitj2KMr5rK4Ush4Bs7P_hd81wh812ypA=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/tL7oVf9_W4Oi0lJSZEYHgdYR1ySweJ3nWGD6ndI1IWq6cYWR2o3xJgitj2KMr5rK4Ush4Bs7P_hd81wh812ypA",
     "id": "net.happywit.screw.out.jam",
     "media_checked_on": "2026-11-17",
     "name": "Screw Out 3D: Nut Sort Jam",
@@ -2615,6 +3387,32 @@
     ],
     "url": "https://play.google.com/store/apps/details?id=net.peakgames.toonblast&gl=us"
   },
+  "android:pampam.ibf2": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/I0Zss0fAme2Ch8RxgFc5Kwtn9W6RfEwmnlJmzCPIW8HODKygLTITzYOuLdZr1XF7io3tMy8rgVfc_xWwEZfqoQ",
+    "id": "pampam.ibf2",
+    "name": "Bottle Flip 3D — Tap & Jump!",
+    "names": [
+      "Bottle Flip 3D — Tap & Jump!"
+    ],
+    "platform": "android",
+    "publisher": "Azur Interactive Games Limited",
+    "url": "https://play.google.com/store/apps/details?id=pampam.ibf2&gl=us"
+  },
+  "android:pixelora.flow.pixel.art.snake.puzzle.game": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/talFKGFkFpNylWfct4zKT2ZBqqcoj2MpdAmMGnJDmzzymduE2syzb1aVMrMsIley_PPfGXDKB_xbTAPYqMpjvw",
+    "id": "pixelora.flow.pixel.art.snake.puzzle.game",
+    "name": "Pixelora Flow",
+    "names": [
+      "Pixelora Flow"
+    ],
+    "platform": "android",
+    "publisher": "HappyTapLand",
+    "url": "https://play.google.com/store/apps/details?id=pixelora.flow.pixel.art.snake.puzzle.game&gl=us"
+  },
   "android:puzzle.yarn.fever.unravel.puzzle": {
     "category": "Games",
     "country": "us",
@@ -2646,7 +3444,7 @@
   "android:sniper.war.target.soldier.shooter.aldagames.com": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/75K0gIcTq9VlnOHwKB5Iz5tCVVxMmL2bXWlPT_FbytKAeOLmgvcQTH1UV0y-3bN4S3J5y_KX3v-NI8TzBpQCBQ=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/75K0gIcTq9VlnOHwKB5Iz5tCVVxMmL2bXWlPT_FbytKAeOLmgvcQTH1UV0y-3bN4S3J5y_KX3v-NI8TzBpQCBQ",
     "id": "sniper.war.target.soldier.shooter.aldagames.com",
     "media_checked_on": "2026-11-17",
     "name": "Ghost Sniper: War FPS Shooter",
@@ -2670,7 +3468,7 @@
   "android:solitaire.patience.card.games.klondike.free": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/nVTU-EbcHkMg-KXt93shtsgX506v_zDBLG04H2pnp4Lom2J_mSp5gHO5YtZhCSpDpLJUgBYneCd5h6oDduKJ6Q=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/nVTU-EbcHkMg-KXt93shtsgX506v_zDBLG04H2pnp4Lom2J_mSp5gHO5YtZhCSpDpLJUgBYneCd5h6oDduKJ6Q",
     "id": "solitaire.patience.card.games.klondike.free",
     "media_checked_on": "2026-11-17",
     "name": "Solitaire - Classic Card Games",
@@ -2691,10 +3489,23 @@
     ],
     "url": "https://play.google.com/store/apps/details?id=solitaire.patience.card.games.klondike.free&gl=us"
   },
+  "android:sort.casual.color.cat.puzzle.match": {
+    "category": "Games",
+    "country": "us",
+    "icon": "https://play-lh.googleusercontent.com/aw43JKEBw9Alf8_s2hE-nwP2uxxLZCtixwKtKQAG-RUWr-I_CrfDxWfUrys9PesLyOVzu-BsJ3E1S7zNq_p28w",
+    "id": "sort.casual.color.cat.puzzle.match",
+    "name": "Cutie Sort: Kitten Games",
+    "names": [
+      "Cutie Sort: Kitten Games"
+    ],
+    "platform": "android",
+    "publisher": "Ladaneta Games",
+    "url": "https://play.google.com/store/apps/details?id=sort.casual.color.cat.puzzle.match&gl=us"
+  },
   "android:sorting.games.goods.sort.triple.match3d.puzzle.stuff": {
     "category": "Games",
     "country": "us",
-    "icon": "https://play-lh.googleusercontent.com/iKbE6YBvai9rC9IZZ5O5bi_0OJCGMjViPShjy7CF2xqV0AxnPShiU_8p-r5fD9I_D30L22t5_YlR2OsJTfRsqps=s0-br30",
+    "icon": "https://play-lh.googleusercontent.com/iKbE6YBvai9rC9IZZ5O5bi_0OJCGMjViPShjy7CF2xqV0AxnPShiU_8p-r5fD9I_D30L22t5_YlR2OsJTfRsqps",
     "id": "sorting.games.goods.sort.triple.match3d.puzzle.stuff",
     "media_checked_on": "2026-11-17",
     "name": "Goods Puzzle: 3D Sorting Games",
@@ -3172,7 +3983,7 @@
     "country": "cn",
     "description": "“世界危在旦夕，时间处于剑与魔法的时代，维持世界平衡的魔法石被拥有高科技的外星生物夺走了，你能否夺回魔法石拯救这个世界？”\n\n故事我们实在编不下去了，就是想做一个丧心病狂打怪兽的游戏！\n\n我们相信这就是你潜意识中一直渴望的那个游戏！探索地牢，躲避弹幕，收集各种奇异的武器，然后战爆小怪兽！超级简单，超级直觉的操作，流畅又有趣的游戏体验，外加一些roguelike和RPG元素，是你在手机上不能错过的动作射击游戏。\n\n* 各种奇葩的英雄以及技能\n20+风格迥异英雄，开局一把枪的骑士，箭术精湛的精灵射手，精通元素的魔法师……总有一款你喜欢。\n* 大量独特的武器等你发现\n400+武器种类，尚方宝剑、死神之息、国王的新枪、暗黑低语匕首……用十八般武艺，揍哭小怪兽。\n* 随机生成的关卡，每次都有新体验\n探索丛林、雪原、巨像、中世纪城堡等随机刷新的地牢世界，解锁武器、NPC、彩蛋和领主，每一次游戏都是不同的感觉。\n* 多人联机，不再是孤独的勇者\n自由组队身边的小伙伴，或者来自全世界的小骑士，共同闯关，对抗史诗BOSS。支持手柄。\n* 自动瞄准功能，再也不怕手残 \n前所未有的2D横版射击体验，自动瞄准，轻松锁敌，一枪一杆也能创造奇迹。\n* 复古像素与精美立绘相遇\n游戏以2D经典像素风为主，同时为每个角色赋予二次元风格的细腻像素立绘，营造新奇视觉享受。\n* 超多有趣玩法等你探索\n轻松休闲的种田钓鱼、开放式的电子空间、考验策略的塔防模式、多种难度挑战与赛季玩法……\n\n一款支持多人联机的肉鸽、射击与生存结合的像素RPG游戏，拿起手中的枪，来一场酣畅淋漓的地牢大作战吧！\n\n关注我们\nhttp://www.chillyroom.com\n微信公众号：凉屋游戏\n客服QQ：800179233\n\n*游戏最低运行系统版本提升至iOS 13.0；使用 iOS 12及以下系统的玩家可继续游玩现有版本，如需体验全新内容，请将设备系统升级至对应版本",
     "developer": "泽阳 李",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/c1/70/7ec1702c-6316-09a7-7848-4b6d12177776/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/6c/5a/356c5aa2-e6bd-8006-794f-2f9799f60006/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "1184159988",
     "name": "元气骑士",
     "names": [
@@ -5091,7 +5902,7 @@
     "country": "cn",
     "description": "《燕云十六声》首次实现了“中国特色武功”与开放世界品类的融合，玩家将在充满谜题的无缝地图中，众揽天下风光，探秘海量地宫，同时偷师百家武学，身兼十八般武器，学遍太极、点穴、狮吼功、蛤蟆功等全新奇术，创造属于自己的武侠冒险。 \n游戏深度还原了百工百器、建筑营造、历法天象、民俗游艺、岐黄医术等16种文化建树，展现出极具时代氛围和东方魅力的古代社会画卷。\n\n\n--不是其他开放世界，是沉浸开放历史--\n不束缚，真开放\n古代风貌，中式绝活，史话趣谈…脚下热土，是叙不尽的历史烟火和真实生活。\n纯粹写实的画面品质，只是为了让武侠世界本该如此。\n\n--不是其他武侠网游，是独众皆乐之旅--\n不套路，真武侠\n见招拆招，单人探索，多人同行…无门无派练就武学奇术，不问出处我即是我。\n充满疑局的单人探索体验，将只是广阔侠旅的一个注脚。\n\n--不是其他MMO，是无限未定人生--\n不规训，真自由\n通关无线路，冒险无目标，人生无定义…抛却所有既定，才有人人向往的自由。\n挣脱过往的规则束缚，聆听心中所想，创造独一无二的游戏之旅。\n\n--不是其他常规战斗，是纯正武术打斗--\n不妥协，真动作\n着力反馈，攻守博弈，真实打斗…玩转十八般武器，兼具物理科学与暴力美学。\n精心设计的武侠动作，兼纳百家的武学理念，出手即是真功夫。\n\n--不是其他江湖市井，是华夏文明之声--\n不独响，真共鸣\n百工百器，刑罚律令，王道兵戈…聆听电影级文化叙事，探寻看得见的声音。\n游览燕云大地，深入中式谜境，和鲜为人知的时代记忆不期而遇。\n\n关注我们\n官方网站: 16.163.com\n官方微博：@燕云十六声\n官方微信：燕云十六声\n官方抖音：燕云十六声官方",
     "developer": "Hangzhou NetEase Leihuo Technology Co., Ltd.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/f4/fe/aff4fe4b-a35e-df89-cf6e-ee66850b3579/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/e7/61/29e761ee-7421-85f2-4a6b-60c500110821/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
     "id": "6475668638",
     "name": "燕云十六声",
     "names": [
@@ -5447,7 +6258,7 @@
     "country": "cn",
     "description": "《天天爱消除》是一款以“消除烦恼，治愈心灵”为主题的萌系治愈向消除手游，陪伴玩家度过了10个寒暑！轻划手指，将三个相同的小动物旗子连成一行或一列，即可完成一次消除哦！巧妙安排消除时机，灵活运用消除道具和关卡机制，为你的消除旅程插上翅膀吧！\n\n开发组目前精心制作了5000多个关卡，120多种丰富逗趣的关卡元素，更有冒险模式、经典模式、换装玩法、家装玩法、塔防玩法等多种游戏模式等你体验！新的游戏玩法还在不断地推出中！\n\n徜徉在奇妙梦幻的梦境云海里，和暖萌国民IP大使喵星星、黄豆豆、琦琦熊、果果兔一起，运用消除的力量，把人们梦里的烦恼和愁云都清理掉！在消除联萌的暖心守护下，一起做一些甜甜的美梦吧！\n\n游戏特色：\n\n【冒险闯关】\n\n绵延无尽的梦境浮岛上，百来种关卡元素，数千个关卡难题等你来攻克！巧妙利用关卡道具和机制，获得星星能量吧~! 加油萌友们，我们在世界的尽头等你！\n\n【趣味周赛】\n\n踏上随机生成的道路，向着终点的奖励进发！收集棋子可在棋盘上前进，消除阻挡你的障碍物，躲避旅途中可能出现的敌人！勇敢、智慧加一点点运气，在终点留下你来过的证明吧！\n\n【换装月赛】\n\n从古典到现代，从西洋到华夏，精心剪裁的服饰每月一换。只要完成指定消除关卡，就能穿上限定款的漂亮时装哦！\n\n【温馨家园】\n\n家是你亲手定义的空间！完成普通冒险关卡便能获得家装币的奖励，使用家装币可以解锁精美家具，在百种装扮风格的随心切换，打造属于你的心灵空间吧！\n\n【经典限时】\n\n拼手速考眼力，爽快连消体验，尽在爱消除经典限时模式。超越自我，冲刺好友排行榜，每周皇冠好礼不容错过！\n\n【百变宠物】\n\n梦境之旅中，风格百变的萌系宠物是你的强大助力。享受宠物的陪伴，活用宠物的技能来过关吧！幸运的消除师们或许能吸引到承载月光之力的强大月亮宠哦！\n\n【消除塔防】\n\n浣熊又来偷家啦！在浣熊前进的路上布置障碍，在浣熊周边消除削弱敌人，巧用植物炮台的力量，千万要守住家的安宁！消除+塔防的创新玩法，逗趣每一天！\n\n【国民IP】\n\n活泼少年喵星星、全能暖男琦琦熊、细腻敏锐果果兔、我行我素黄豆豆，总有一款适合你！在消除联萌IP大使四小只的陪伴下，一起探索游戏内外的风景吧！周边、文创、视频、动画，火热筹备中，等你赴约！\n\n天天爱消除，消除烦恼，好运常伴哦！\n\n \n\n在游戏《天天爱消除》中，用户使用平台账号（QQ或微信）登录，能够同步游戏中部分数据，包括等级、好友等非通过购买累计的数值。用户在游戏中购买的游戏代币“钻石”仅限于在此应用中使用。腾讯平台上的虚拟货币, 比如Q币、Q点都无法在游戏内使用。\n\n \n\nThe game 《天天爱消除》 is independent and separate from any other platform regarding acquisition of purchasable item/content. Users logged in with their Tencent's platform accounts (either QQ or WeChat) are able to sync non-purchasing related information/data in the game, such as friend list, score and level. Game currencies purchased/earned outside of the app. Similarly, any game currencies purchased/earned in 《天天爱消除》 on any other platform cannot be used in this app either. The app doesn't use any QQ digital currency, such as Q币 or Q点.\n\n \n\n如果您喜欢我们的游戏，欢迎随时给我们评价、留言；您对我们的游戏有任何建议或意见，都可以和我们联系，我们会全力解决！",
     "developer": "Shenzhen Tencent Computer Systems Company Limited",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/97/9e/9d979e9b-ea6f-188f-f200-64928d70b9ca/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/76/f2/ef76f20c-9b4d-4342-1b29-5aa859dea484/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
     "id": "654897098",
     "name": "天天爱消除",
     "names": [
@@ -5843,6 +6654,30 @@
     ],
     "url": "https://apps.apple.com/cn/app/id6748045272",
     "version": "1.0.3"
+  },
+  "ios:cn:6748218382": {
+    "category": "游戏",
+    "checked_on": "2026-11-18",
+    "country": "cn",
+    "description": "《斗罗大陆：诛邪传说》是以东方奇幻小说《斗罗大陆》IP为故事背景的一款角色扮演大型多人在线手游，玩家可以在游戏中扮演一名魂师展开冒险，探索斗罗大陆享受奇幻之旅。游戏吸收了大量来自玩家的积极反馈与宝贵建议，每一条我们都认真阅读、仔细记录。正是有了广大玩家的理解与包容，才让我们有动力不断打磨、持续优化！世界聊天不断踊跃的为大家答疑解惑的热心魂师；高级魂师为低级玩家耐心蹲守第三魂环；队友们争先恐后地为濒死伙伴“包扎”；陌生人之间主动施以援手的“解谕之视”……这些画面让整个开发团队都为之动容。\n玩家们用行动诠释了我们理想中的斗罗世界 — 一个充满战友情谊、彼此扶持的魂师家园！",
+    "developer": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/81/50/c68150e5-2200-6743-93a0-58d12ba2a9bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "id": "6748218382",
+    "name": "斗罗大陆：诛邪传说",
+    "names": [
+      "斗罗大陆：诛邪传说"
+    ],
+    "platform": "ios",
+    "publisher": "Guangzhou Zhongxu Shuke Information Technology Co., Ltd",
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/c4/30/97c43018-9ec7-6ed7-1854-42fd058eba7e/2796x1290-0.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/de/5c/e6de5cd8-eab6-5bb5-a7f1-0039dc43d3b0/2796x1290-1.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/c4/52/f2c452fe-5313-69a5-86a8-673d7fc15245/2796x1290-2.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/4f/f6/824ff600-9933-cd7a-4115-ae923831005c/2796x1290-3.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/89/8b/d2898bb1-b119-12d2-2972-a241673fed80/2796x1290-4.jpg/320x480bb.jpg"
+    ],
+    "url": "https://apps.apple.com/cn/app/id6748218382",
+    "version": "70000.0.28"
   },
   "ios:cn:6748351662": {
     "category": "游戏",
@@ -7558,7 +8393,7 @@
     "country": "cn",
     "description": "《宾果消消消》,累计注册用户超过3亿,以三消+开店的形式，让国民连接在一起！\n2021年，3亿玩家的共同选择！\n\n消一消，能开店。奶茶店、蛋糕店、糖果店、花店、书店、咖啡店、美式快餐店、玩具店、烘培店、巧克力店等等应有尽有。\n\n小镇的繁华集市被女巫破坏成了废墟，作为糖果王国的一份子，更是集市的管理者，我们必须帮助宾果击败邪恶的女巫，重建集市！\n\n宾果消消消，消一消 建海岛 。豪华海景大别墅、妙趣水上游乐园、探索神秘海盗船、装修专属大花园、和萌宠一起寻宝……把茂密的丛林和蔚蓝的海域变成你梦想的家！ \n\n魔法师宾果回到童年生活的海岛，却发生一连串怪事！用你的智慧帮宾果解决难题，认识更多新朋友，建造、定制属于你的海岛风情建筑物，让这座岛成为一座美丽的天堂！\n\n-探秘海岛风情\n继承一个海景大别墅，把它设计成你想要的样子！私人泳池、酷炫游艇、豪华衣帽间……总有一个你喜欢。在热带风情的沙滩享受日光浴，潜入海底和动物朋友来场嬉戏，只要你动动手指，就能随心所欲打造想要的家园！\n\n-和朋友一起冒险\n在充满异国风情的神奇岛屿中，未知总在发生……一封神秘来信会告诉你一些线索，开朗勇敢、沉迷科幻小说的罗宾会和你一起破解一些谜题，酷爱野外生存活动的菲比会给你不错的建议……你会遇到有趣的新朋友，甚至带上你的宠物，一起发现岛屿的奥秘。\n\n-创意无限新玩法\n收养贪吃挑食的雪怪，你要用星星喂养它；呆萌的姜饼人总被困在袋子里，快设法打开袋子救救它！帮在花丛转悠的蜜蜂回家，亲手制作自己喜欢的沙雕……在趣味的消除中享受这段美妙的旅程。\n\n-趣味活动随你玩\n装修破旧的海盗船让它焕然一新；打造一个水上游乐园和好友来场水上挑战；和万千人一起参加一场夺宝锦标赛并拿下冠军！你是设计师，也是冒险家，超多活动等你参加，诸多奖励等你来拿。\n\n-精心设计新关卡\n匹配可口的糖果，设计专属于你的海岛！超过5000个精心设计的关卡等你挑战，你能收集各式各样的美食，你能见到不同种类的动物，一不小心，你还能在沙滩上有惊喜发现！快来挑战关卡，感受消除的魅力。\n \n-无需流量随心玩\n不用流量也能畅玩全部关卡，待在家里就能拥有华丽豪宅！随时随地，想消就消，快上海岛来一场奇妙探险之旅！\n\n【玩家好评】\n-这是令人上瘾的游戏！就算你没有体力了也还有一大堆挑战等着你，适合打发时间。\n-我很喜欢这个游戏的画风，在游戏里我变成了梦想中的设计师，想怎么装修就怎么装修。\n-有很多精彩比赛，千万不要错过你可能得到的奖励！它会让你成为游戏王者！\n-看着这些果冻一样的糖果很有食欲，而且它们真的很Q弹，故事很带感，哈哈，感觉我能玩十年。\n\n真诚的希望你喜欢我们的游戏！同时我们也在不断努力改善游戏，如果你在游戏过程中遇到任何问题或者有任何建议，请直接与我们联系：\n官方粉丝QQ群：182533869  \n客服电话：4008196667\n官方新浪微博：@宾果消消消\n官方微信公众号：宾果消消消",
     "developer": "MicroFun Co., Ltd.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/76/ba/e976ba46-38c0-7d90-5ce5-c5c2ad0ba2df/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/eb/b2/bcebb2e4-b039-30ca-ef7d-752fa0d46540/AppIcon-0-0-1x_U007emarketing-0-9-0-GLES2_U002c0-85-220.png/100x100bb.png",
     "id": "897447840",
     "name": "宾果消消消",
     "names": [
@@ -8354,7 +9189,7 @@
     "country": "jp",
     "description": "マージゲームの傑作、トラベルタウンがついに日本上陸！\n\n嵐で破壊されてしまった街に美しさを取り戻そう！\n\n面白いイベントやカードも盛りだくさん！\n\n◆はじめに　\n\n旅人のあなたは魅力的な海辺の街にたどり着きました。しかしそこは嵐で荒廃してしまった街。\n\nコインやアイテム、ダイヤモンドを集めて、家や建物を直して、街に元の美しさを取り戻しましょう！\n\n◆オーダーをこなそう◆\n\n• 街の人々からマージのオーダーが毎日届きます。\n\n• マージの進化にはいくつかのレベルがあります。\n\n• 数百のステージ＆500以上のオブジェクトが出現します。\n\n• オーダーをクリアすると色んなアイテムがアンロックされます。\n\n\n◆街をアップグレード◆\n\n• コインや資材、ダイヤモンドを使って街を再建して下さい！\n\n• 資材などは道具箱に保管できます。\n\n• スマイリーや資材を集めて建物を購入したりアップグレードできます。\n\n• レベルアップするとエナジーや宝箱がもらえます。\n\n\n今すぐダウンロードしてトラベルタウンを始めましょう！\n\n\n公式ソーシャルメデイアで『トラベルタウン』をフォローして、限定オファーやボーナスを入手してください！\n\n◆公式Twitter: https://twitter.com/TravelTownJapan\n\n◆公式Facebook: facebook.com/TravelTownGame/\n\n◆公式Instagram: instagram.com/traveltowngame/\n\n\n◆利用規約: https://static.moonactive.net/legal/terms.html\n\n◆プライバシーについて: https://static.moonactive.net/legal/privacy.html\n\n\n◆お問い合わせ・カスタマーサポート: https://support.traveltowngame.com/hc/ja",
     "developer": "Moon Active LTD",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/10/9e/e0109e46-df0c-c51b-d838-e9abb268fbff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/a3/17/5ba31784-a5b2-9710-8b53-ba4c53b3ec61/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "1521236603",
     "name": "Travel Town - マージアドベンチャー",
     "names": [
@@ -8422,6 +9257,34 @@
     ],
     "url": "https://apps.apple.com/jp/app/id1545088576",
     "version": "4.0.65"
+  },
+  "ios:jp:1545567989": {
+    "category": "ゲーム",
+    "checked_on": "2026-11-18",
+    "country": "jp",
+    "description": "Number Matchは、ペアをマッチさせてボードから消す、シンプルなルールのハマれるパズルゲームです。ナンバーマッチは脳を使ったいい暇つぶしにもなります。論理能力や集中力を鍛えて、自己ハイスコアを塗り替えていきましょう！\n\n子供の頃に鉛筆と紙で遊んだナンバーパズルがモバイルで蘇りました。どこにいても数字 ゲームを遊べます。無料のパズル 数字を使ったマッチングゲームをモバイルでプレイできるので、鉛筆と紙を使うよりもずっと簡単に解いていくことができます。\n\nプレイ方法:\n\n• このゲームの目的はボードから数字を消すことです。\n• 数字のマス目から等しい数字のペア（1 と 1、7 と 7 など）を見つけるか、合計が 10 になるペア（6 と 4、8 と 2 など）を見つけます。\n• 数字を 1 つずつタップして消去し、ポイントを獲得します。\n• 縦、横、斜めに隣接するマスのペアをつなげたり、ラインの最後と次のラインの最初のペアをつなげます。\n• ペアにできる数字がない場合は、残りの数字を新しいラインとして下部に追加することができます。\n• 分からなくなったら、ヒントを使って手早く解くこともできます。\n• 数字パズルのマス目から全ての数字を消すとクリアです。\n\nこのパズルの解き方はたくさんありますが、難易度は見た目以上。パズルゲーム 無料 人気と全ての要素がそろったゲームで、脳を刺激しながらお楽しみください！\n\n内容:\n\n• 分かりやすいロジックパズル\n• 何時間も楽しめるゲームプレイ\n• ユニークなトロフィーが獲得できるデイリーチャレンジ\n• ユニークなメダルが獲得できるシーズンイベント\n• より素早い目標達成を手助けするヒント機能\n• 時間制限がなし。ゆっくりリラックスして楽しめます\n• トップクラスの開発スタッフがお届けする新しい数字ゲーム！\n\nナンバーマッチで脳を活性化させ、楽しい時間を過ごしましょう！いつでもどこでも数字ゲームを遊べます！",
+    "developer": "Easybrain Ltd",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/f3/c3/84f3c3e7-c45c-11df-09fe-0fae7e094039/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "id": "1545567989",
+    "name": "ナンバーマッチ - 数字パズル",
+    "names": [
+      "ナンバーマッチ - 数字パズル"
+    ],
+    "platform": "ios",
+    "publisher": "Easybrain Ltd",
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/c8/77/6ac877eb-760c-17d1-9a32-34802546fde1/Cover_NM.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/e8/5f/84e85f7f-db25-b9a7-fd6a-90c0affacaa5/2b47b372-e5d5-4ddb-920b-de4c6ed92023_iPhone14ProMax_21_Japanese_02.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/06/2d/56062d1f-b4b2-f265-8ee9-be64ed661b84/60d1ddd0-9a49-4c0b-ae3a-26654c2c8ee8_iPhone14ProMax_21_Japanese_03.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/a0/b9/82a0b9cf-52be-7153-1e7b-36d00717912e/9ccae024-b3cb-4d02-9bb8-de0489f905c9_iPhone14ProMax_21_Japanese_04.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/9b/47/cc9b47f9-c3ea-c721-7e13-e60b6b3021fc/dcfcaf3f-9313-4a44-977c-a2ce3bf8a730_iPhone14ProMax_21_Japanese_05.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/75/88/02758849-081a-853c-5436-7613989937c6/4aa066f0-37d2-4bd0-b92f-b5d17a722f36_iPhone14ProMax_21_Japanese_06.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/50/b9/be50b980-44b8-fd8c-e1e7-a33af6b5c953/11172d1c-4487-4167-a1bc-fd26483ef840_iPhone14ProMax_21_Japanese_07.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/ff/65/16ff65ea-f724-d1af-0c33-6e722bea93e7/411b2c6a-4741-47ff-a1e7-be3574193dc8_iPhone14ProMax_21_Japanese_08.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/aa/fe/f0aafe79-2b2d-15e6-1666-91e6645a32c8/4a8df740-1327-4fd6-9661-06801e8dbf9e_iPhone14ProMax_21_Japanese_09.jpg/320x480bb.jpg"
+    ],
+    "url": "https://apps.apple.com/jp/app/id1545567989",
+    "version": "2.1.0"
   },
   "ios:jp:1579464667": {
     "category": "ゲーム",
@@ -10171,7 +11034,7 @@
     "country": "jp",
     "description": "Mahjong Blast — クラシック麻雀・まーじゃん無料タイルゲーム\n\nMahjong Blast は、麻雀 と まーじゃん を中核にした\nまーじゃん無料・麻雀無料 のクラシックな タイルゲーム です。\n麻雀ソリティアをベースに、見やすい盤面と整理された配置で、\n落ち着いて遊べる 麻雀タイルマッチ 体験を提供します。\n\n本作の 麻雀 は対戦型ではありません。\n左右どちらかが空いている同じ 麻雀タイル を2枚ずつ揃えて消す、\n分かりやすい タイルマッチパズル 方式です。\nスピードや反射神経ではなく、思考と認識を重視した まーじゃん ゲームです。\n\nすべてのステージは クラシック麻雀 に着想を得たレイアウトで構成。\nタイマーや強制操作はなく、自分のペースで 麻雀ソリティア を楽しめます。\n論理的で読みやすい配置により、安定した 麻雀タイル 消去が可能です。\n\nまーじゃん無料 でプレイ可能、オフライン対応。\nヒント・シャッフル・取り消し機能を備え、\n盤面と タイルマッチ に集中できる設計です。\n\nMahjong Blast で、\n麻雀・まーじゃん・麻雀タイルゲーム の\n落ち着いたクラシック体験をお楽しみください。\n\nプライバシーポリシー: https://www.hurelax.com/privacy-policy\n利用規約: https://www.hurelax.com/term-service",
     "developer": "HURELAX PTE. LTD.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/05/cd/be05cd5b-78c9-5223-668b-241a1606c4a5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/2f/ba/972fbab0-dd53-6df0-d2d6-26c9f0e56419/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
     "id": "6747492600",
     "name": "麻雀ブラスト (Mahjong Blast)",
     "names": [
@@ -10625,7 +11488,7 @@
     "country": "jp",
     "description": "スターシェフになる夢を持っている？今がチャンス！\nミシュランのスターシェフの下、パリのキッチンでマカロンを仕上げる秘密を学ぶことを想像したことがある？\nフードスターへようこそー世界の味が料理の創造力と出会う究極の料理の冒険！\n\n■ 材料を合成して、秘密のレシピを見つける\nトマトとバジルを使ってイタリアの定番料理を再現する、ジンとレモンを使って洗練されたフランスの洒落たスタイルを味わう、ソーセージとパンでホンモノのドイツの味を経験するなど、材料を合成して世界中のおいしそうな料理を解除できます。\n\n■  世界中で夢のレストランをデザイン\nニューヨークにある道沿いのダイナーから東京の伝統的な懐石料理、マルセイユの賑やかなシーフードビストロからタイの心地良いココナッツカレーのお店まで、ユニークなレストランを改装しよう。注文と改装タスクを仕上げて、料理で有名になろう！\n\n■  世界クラスのシェフの元でトレーニング\n世界を旅して、さまざまな性格の世界クラスのシェフからの挑戦を受けよう。シェフの試験を完了させて認めてもらい、シェフたちのオリジナル特製料理をマスターしよう！\n\n■  500以上のレシピを集めて、ミシュランレベルのシェフスターを獲得\n世界の料理のチャレンジで自分の腕を示し、地域料理をマスターし、シェフスターを獲得しよう。昇進してフードスターレジェンドになれるかな？\n\n今すぐフードスターをダウンロードして、キッチンのルーキーからスターシェフを目指して、旅を始めよう！",
     "developer": "HAPPIBITS TECHNOLOGIES PTE. LTD.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a4/c0/79a4c011-5069-b76e-3fac-70746d899e45/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/05/bc/d405bc1a-fe82-9f37-9191-a0a6a4959d25/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "6753862216",
     "name": "フードスター（Foodstars）:マージ & クック",
     "names": [
@@ -12210,7 +13073,7 @@
     "country": "jp",
     "description": "この世界はすでに灰燼と化し、ゾンビがすべてを支配している。Z Route——それは最後の救済へと続く道、終末の死闘が繰り広げられる戦場だ。逃げ場はない。ただ銃を構えて突き進むしかない！救済を手にするか、それとも滅亡へと堕ちるか？選択はあなたの手に委ねられている。\n\n数字の門を突破し続けろ。轟くエンジン音と銃火の渦の中、ゾンビの包囲網を切り裂け。速く、狂気じみた行動だけが次の瞬間を生き延びる術だ。\n準備はいいか？——これは戦争だ。\n\n- 仲間を信じろ\n終末の世界で、一人で生き残ることは不可能だ。\nそれぞれ異なる特技を持つ戦士を集め、最強の部隊を編成せよ。\n緻密な布陣と仲間同士の援護、それこそが血路を開き、生き延びる唯一の希望となる。\n\n- 慎重に選べ\n扉一つひとつが、生死を賭けた選択だ。\n正しければ補給を得られるが、誤ればゾンビの餌食となる。\n時は限られている。決断は迅速でなければならない。\n賢く、大胆な者だけが救済を掴み取れるのだ！\n\n- 武装を強化せよ\n武器が強力であればあるほど、生存の可能性は高まる。\nだが運命は常に残酷だ。生きて脱出できるかどうかは、あなた自身の手にかかっている。\n\n- 超高速で駆け抜けろ\nスピードこそが最大の盾だ。\n暴走し、かわし、撃ち返せ。一瞬たりとも立ち止まるな！\nただ前へ進み続けること、それだけが死の追跡から逃れる唯一の道だ。\n\n- 強敵を撃破せよ\nその先に待ち受けるものは誰にもわからない。\nできることはただ一つ——武装を整え、いつでも戦える準備をしておくことだ！\n\n今すぐ「Z Route: Redemption」をダウンロードしよう！極限の選択と完全武装の戦いが、あなたを待っている。尻込みするな、生き残れるのは勇敢な者だけ！終末のロードは危険に満ちている——戦いはすでに始まっている！",
     "developer": "BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/4b/fe/754bfe13-6c8f-33e6-3a93-57324df6e28c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/19/43/611943c1-896e-498a-1826-abad00c0f8dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "6762268182",
     "name": "Z ルート：リデンプション",
     "names": [
@@ -12681,6 +13544,31 @@
     ],
     "url": "https://apps.apple.com/jp/app/id6772284644",
     "version": "1.2.0"
+  },
+  "ios:jp:6772975295": {
+    "category": "ゲーム",
+    "checked_on": "2026-11-18",
+    "country": "jp",
+    "description": "鮮やかな色彩とリラックスできるパズルゲームの世界、Jewel Color Sortへようこそ。\nタップして輝く宝石を分類し、正しいカラーゾーンに配置しましょう。\nトレイを慎重に整理して、美しいピクセルアートの傑作を完成させてください。\n\n創造性と論理的思考が融合する体験に没頭しましょう。スムーズな操作性と満足感のある進行システムを備えたこのゲームは、頭をアクティブに保ちながらリラックスするのに最適な方法です。完璧に配置していくことで、空のグリッドを驚くべきダイヤモンドアート作品に変身させましょう。\n\n遊び方\n宝石を色合いで分類し、インベントリを正確に整理します。各ステップを慎重に計画し、パズルボードの対応するスロットに色を合わせます。小さな破片が集まって1つのまとまったアートが形成されていく過程をお楽しみください。\n\n主な特徴\n\n心地よい操作感\nすべてのダイヤモンドを分類して配置する際の、スムーズなコントロールと鮮やかな視覚効果をお楽しみください。\n\n脳トレ\n落ち着いた環境で心をリラックスさせながら、集中力、論理力、空間的思考力を高めましょう。\n\n巨大なアートギャラリー\n自然の風景やかわいい動物から抽象芸術デザインまで、多様なテーマを特徴とするユニークなレベルの膨大なコレクションを探索してください。\n\n今すぐJewel Color Sortをダウンロードして、色彩、創造性、そして心地よいパズルの旅を始めましょう。",
+    "developer": "HappyTapLand Technology Co., Ltd.",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/6e/ec/656eecc8-f72b-a95b-205e-89056fcc1aa4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+    "id": "6772975295",
+    "name": "Jewel Color Sort: ピクセルアートパズル",
+    "names": [
+      "Jewel Color Sort: ピクセルアートパズル"
+    ],
+    "platform": "ios",
+    "publisher": "HappyTapLand Technology Co., Ltd.",
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/04/97/620497c0-474d-8b4b-7b67-410fdab7825f/JA-6.9-1.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/02/81/0802818d-7ca5-3fbc-9b14-702c718260f5/JA-6.9-2.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/45/ce/b745ced2-9357-c677-fdd4-0580fdd3ca3e/JA-6.9-3.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/0b/b9/b40bb9ae-d3e9-8ab7-a218-1a5d61e9c46d/JA-6.9-4.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/5d/79/265d7952-d829-729c-4289-dc5900618cda/JA-6.9-5.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/4a/93/424a937b-5a05-c011-632d-9eee7f282db1/JA-6.9-1.jpg/320x480bb.jpg"
+    ],
+    "url": "https://apps.apple.com/jp/app/id6772975295",
+    "version": "1.84"
   },
   "ios:jp:6774082053": {
     "category": "ゲーム",
@@ -13318,7 +14206,7 @@
     "country": "jp",
     "description": "リラックスしながら、同時に頭もフル回転させられるゲームはいかがですか？Connect Tracks へようこそ！古典的な線路パズルを核にしたロジックパズルゲームです。\nここでのあなたの仕事はただ一つ——完全につながった一本の線路を敷き、すべての軌道をあるべき場所にぴったり収めること！\n\nシンプルなルール、奥深い戦略\n数字のヒント：盤面の各行・各列の脇には数字があり、その行／列に敷く軌道マスの数をぴったり示しています。数えてみましょう、答えは数字の中に隠れています。\nつながる線路：線路は途切れたり分岐したりできません。すべてのマスの向きが隙間なくつながる必要があります。すべてのヒントを満たし、線路が一本の完全なルートになった瞬間、列車が発車します！\n一歩ずつ：ダブルタップで軌道を敷き、タップで×印、スワイプで連結。ミスできるのは 3 回だけ。当てずっぽうは通用しません。一手一手を大切に。\n\n主な特徴\n純粋で没入感のある体験\nタイマーなし、低プレッシャー：急ぐ必要はなく、心地よいペースで静かに推理するだけ。\n邪魔しない広告：中断ゼロの体験で、集中した、ほとんど瞑想のような没入状態に浸れます。\nいつでもオフラインでプレイ：通信不要。通勤、行列待ち、朝のコーヒータイムにぴったり。\n初心者から達人までの難易度の階段\n4×4 の入門ボードから頭をひねる 12×12 の盤面まで、難易度は着実に上がり、どのレベルにも唯一の解があります。\n数分のチュートリアルが「数字推理」の楽しさへと導き、まったくの初心者でもすぐに始められます。\n\nConnect Tracks は、一枚の盤面、一組の数字、一本の線路で、毎日集中とリラックスのひとときをお届けします。最後の軌道がはまり、列車が汽笛を鳴らして走り出すとき、あなたは気づくでしょう——本当の休息とは、頭を空っぽにすることではなく、ちょうどよい思考なのだと。\n今すぐダウンロードして軌道を敷き始め、今日の列車を時間どおりに出発させましょう！\n\n利用規約：https://oakevergames.com/tos.html\nプライバシーポリシー：https://oakevergames.com/pp.html",
     "developer": "OAKEVER GAMES PTE. LTD.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/92/c6/dc92c65c-1a1b-488d-df6b-b9684bcae83a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/59/6f/e9596f95-af86-19fa-25dd-28cb8f29ddcf/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
     "id": "6793115010",
     "name": "Connect Tracks: ロジックパズル",
     "names": [
@@ -13450,7 +14338,7 @@
     "country": "jp",
     "description": "かわいいキャラクターたちが彩る世界で、パズルゲームを楽しもう！\nPEANUTSの魅力がつまった、シンプルで遊びやすいパズルとアクションゲームが登場。\n\nちょっとしたすきま時間にサクッと遊ぶもよし、じっくりスコアを伸ばすもよし。お気に入りのキャラクターが登場する色々なゲームに挑戦しよう。\n\n■４種類のゲームを楽しもう！\n【マッチナンバーズ】\n数字のピースをスライドして、同じ数字を組み合わせよう。\n数字を上手に動かしながら、より大きな数字を目指す定番パズルゲーム。\nハイスコアを目指して、何度でも挑戦しよう！\n\n【フラワーパズル】\n同じ色のピースを３つ以上つなげて消していく、パズルゲーム。\nたくさん消して高得点を目指そう！\n\n【ソートパズル】\n同じお菓子を１つのビンにまとめよう。\nルールはシンプルだけど種類が増えると難しい…！？\n星をたくさん集めてね！\n\n【スターキャッチ】\n障害物を避けて、流れてくる星をゲット！\n大きい数字の星を集めて、高得点を目指そう！\n\n■シンプル操作で気軽にプレイ\n難しい操作は必要なし！\n直感的に楽しめるシンプルなゲームだから、ゲームが苦手な方でも気軽にプレイできます。\n\n■PEANUTSの世界を楽しもう！\nおなじみのキャラクターたちが彩る魅力的な世界観！\nパズル好きはもちろん、PEANUTSファンにもおすすめです。\nお気に入りのキャラクターに出会えるパズルに挑戦しよう！\n\n◆お問い合わせ\n当アプリに関するお問い合わせは、アプリ内の「お問い合わせ」よりご連絡ください。\n\nTV TOKYO Communications Corporation\nPowered by UNI-TY INC.\n© 2026 Peanuts Worldwide LLC\n\nTV TOKYO Communications Corporation has been authorized by Peanuts\nWorldwide LLC to use and distribute the copyrighted contents.",
     "developer": "TV TOKYO Communications Corporation",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/9b/65/069b65bc-57b8-6ee1-59d7-78eb3be5a0da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/10/12/5f1012d2-8513-f755-1122-1c13be7d7a9a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "6797800901",
     "name": "スヌーピー ゲームズ ～サクッと脳トレパズル",
     "names": [
@@ -13788,7 +14676,7 @@
     "country": "jp",
     "description": "一本のロープで、ふたりはつながっている。\n\n「Tether Up!」は、相棒とロープで結ばれたまま、どこまでも高く登り続ける協力クライムアクションです。ステージの切り替えも、チェックポイントも、決められたゴールもありません。あるのは、足場と、風と、綱の向こう側にいるもうひとりだけ。\n\n◆ ロープが、味方にも敵にもなる\nロープはたるんでいる間は自由。でも、ピンと張った瞬間、相棒の重さも勢いもそのまま自分に伝わります。先に跳びすぎれば引き戻され、息が合えば届かなかった足場にも手が届く。引っぱるか、待つか、跳ぶか。そのたった一瞬の判断が、ふたりの高度を決めます。\n\n◆ 落ちても、終わらない\n何十メートル落ちても大丈夫。足場につかまり直して、また登ればいいだけです。途切れるのは、ふたりそろって谷底まで落ちたときだけ。だから何度でも笑って、何度でもやり直せます。\n\n◆ 空の色が、進んだ距離を教えてくれる\n渓谷、風の庭、雲上の遺跡、黄金の空へ。背景は登るほどに移り変わり、ロードも待ち時間もなく景色だけが変わっていきます。100mごとの到達表示が、静かに背中を押してくれます。\n\n◆ 10種類以上の仕掛けが待っている\n動く床、昇降リフト、ジャンプ台、崩れる足場、氷の床、沈む床、消える床、横風。さらにふたりでないと越えられない協力ギミックも。シーソーは重心で傾き、スイッチ橋はふたつのスイッチでつながり、回転床は40秒かけて一回転し、風の谷は10秒周期で吹き荒れます。同じ登り方は、二度とできません。\n\n◆ 相手は、世界のどこかの誰か\nオンラインならランダムマッチで見知らぬ相棒と、フレンド招待やパーティーコードなら友だちと。言葉は交わせなくても、ロープの引っぱり方だけで気持ちは伝わります。最高到達点はランキングに記録され、世界中の挑戦者と並びます。\n\n◆ まずは、ひとりで\n「一人テスト」なら、相棒なしで操作とギミックをじっくり練習できます。記録はオンラインとは別に保存されるので、気兼ねなく何度でも。\n\n■ 遊び方\n\n1. 画面の左側を好きな位置からドラッグして、左右に移動します。\n2. 画面の右側をタップしてジャンプ。スティックは触れている間だけ現れるので、画面をふさぎません。\n3. 右側を長押しすると、ロープを引き寄せられます（オンライン協力プレイ）。\n4. 足場に着地したら踏ん張って、相棒を引き上げましょう。空中では左右に振って足場へ戻れます。\n5. 高度は、ふたりのうち低いほうの足元で計測します。置いていかず、置いていかれず。\n6. 出発地点より45m下の谷底へふたりとも落ちると挑戦終了。結果を確認して、0mからもう一度。\n\nさあ、綱を結んで。行けるところまで、いっしょに。\n\n※サブスクリプションに関する規約は、以下のリンクをご参照ください。\nプライバシーポリシー：https://docs.google.com/document/d/1V4TKKgMDuiKV10nt33OYDSLpaeuARBPib4Rui06CnqM/preview\n利用規約 : https://docs.google.com/document/d/1bU2F59puS6ByM1uHiQdauddibmk4mdIzz7mKgFWEeBA/preview",
     "developer": "IBUKI YOSHIDA",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/d2/1a/61d21a60-9293-a802-a078-7a2d811f335b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/69/f5/dd69f566-5810-050a-3f37-db3fc7d0aead/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
     "id": "6814103261",
     "name": "Tether Up! - ロープで登る協力ゲーム",
     "names": [
@@ -13803,6 +14691,29 @@
     ],
     "url": "https://apps.apple.com/jp/app/id6814103261",
     "version": "1.0.4"
+  },
+  "ios:jp:6816302152": {
+    "category": "ゲーム",
+    "checked_on": "2026-11-18",
+    "country": "jp",
+    "description": "最後のパイロットとして、たった 1 機で宇宙の果てを目指せ。\n\n自機は自動で動いて、自動で撃つ。\nあなたの仕事は、稼いだお金で強化を選ぶこと。\nどこまで遠くへ進めるか——それだけを競う、ドット絵の縦シューティングです。\n\n■ 1 回のラン\n・出撃すると、自機が敵を撃ちながら進みます\n・敵を倒して稼いだお金で、攻撃力・連射・弾数・最大HP などをその場で強化\n・遠くへ行くほど敵は硬く、多くなります。どこで力尽きるかは強化しだい\n\n■ ボスとチェックポイント\n・25km ごとにボスが現れます\n・倒せばチェックポイントを解放。次の出撃はそこから始められます\n\n■ 永久に強くなる\n・工廠: コインでアーティファクトを集めて、ずっと効く強化を重ねる\n・格納庫: ジェムで機体を引いて乗り換える。レーザー、ミサイル、雷撃など機体ごとに固有の武器\n・ガジェット: 機体を解体したスクラップで、回避スラスター・残像・メカシャーク・機雷・人工衛星などを手に入れる\n\n■ ランキング\n・一番遠くまで進んだ距離で、ほかのプレイヤーと競えます\n\n■ こんな人に\n・少しずつ強くなって、昨日より遠くへ進むのが好きな人\n・手を離していても進むゲームを、すきま時間に遊びたい人\n・レトロなドット絵と、チップチューンの BGM が好きな人\n\n※ 本アプリは基本無料で、アイテム課金と広告があります。\n\n利用規約: https://spacecrash.vercel.app/terms.html\nプライバシーポリシー: https://spacecrash.vercel.app/privacy.html",
+    "developer": "Ibuki Hara",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/d9/06/9ad906ce-8b07-a4c9-c356-144c94a03f37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+    "id": "6816302152",
+    "name": "ラストパイロット",
+    "names": [
+      "ラストパイロット"
+    ],
+    "platform": "ios",
+    "publisher": "Ibuki Hara",
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/21/a3/dd21a3a3-dafc-01b5-d77c-2c16548fb870/ja-01-battle.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/33/37/413337c9-7df6-0354-8cc6-d42c19cc56b4/ja-02-gadget.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/8b/b8/528bb821-67c4-716d-346f-75f1aea1ae27/ja-03-hangar.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/c6/fe/2cc6fef3-e113-cb95-de92-e78270cbe1c3/ja-04-factory.png/320x480bb.jpg"
+    ],
+    "url": "https://apps.apple.com/jp/app/id6816302152",
+    "version": "1.0.6"
   },
   "ios:jp:6816625266": {
     "category": "ゲーム",
@@ -14600,7 +15511,7 @@
     "country": "us",
     "description": "Forget the ordinary games. Here you play for something bigger, where winning the game actually matters. Are you ready to play for real?\n\nSolitaire Cash® is where a true classic and real cash prizes meet. Jump into a world of brain-teasing fun, and leave with your heart filled with nostalgia and pockets filled with rewards.\n\nAfter downloading the game for FREE, you can start playing regular or cash tournaments and win real money.\n\nWe've carefully designed the game to have a smooth and modern feel to it and threw in some classic, Klondike Solitaire game elements we all love.\nIf you like Spider/Freecell/Patience/Pyramid/Blackout/Big Run or 21 Blitz Solitaire – you'll LOVE Solitaire Cash®!\n\nYou'll be matched with other players within the same skill level, and you all will get the same deck – so the game is totally fair and skill-based.\nThose who finish among the top 3 – WIN!\n\nHow to Play:\n- Drag cards in the tableau (seven piles that make up the main table) to build sequences in descending order and alternating color. \n- If you uncover an ace, place it first in one of the foundation piles (four piles at the top of the board). \n- Start building sequences of the same suit in each foundation pile, chronologically, from ace to king.\n- If you can no longer move any of the face-up cards, you can always tap the stockpile to see if it has any good cards for you to play.\n- Keep moving cards from the tableau to the foundation piles, and stacking them up until you reach the highest possible card in each pile.\n- Got no more cards to play? Submit your score and enjoy a bonus for finishing early. \n- The faster you clear the board, or get as close to it as possible – the higher your ranking will be on the Leaderboard, and the bigger the prize! \n\nEnjoy Some of These Thrilling Features:\n- Win real money tournaments\n- Secure deposit using PayPal & Apple Pay\n- Cash-out securely using PayPal\n- Play with no distracting ads\n- Enjoy awesome daily gifts & bonuses\n- Undo moves\n- Take part in multiplayer tournaments with trophies & big prizes\n- Enjoy nice & smooth gameplay that'll keep you coming for more\n- Enjoy special challenges & surprises\n- And many more!  \n\nSolitaire Cash® is FREE to download and play. Note that in  AZ, LA, ME, MI & MT all tournaments are played solely for Bonus Cash\n\nSo, get ready to…\n\nTURN YOUR SKILLS INTO DOLLAR BILLS! \n\nDownload NOW to let the fun begin! \n\nNeed any help? Feel free to contact our Support Team at support@papayagaming.com.\n\n---\n\nLIKE us on Facebook\nhttps://www.facebook.com/solitairecash/\n\nFollow us on Instagram\nhttps://www.instagram.com/solitaire_cash/\n\nFollow us on Twitter\nhttps://twitter.com/solitaire_cash",
     "developer": "Papaya Gaming LTD",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/75/de/3275de5a-b41a-0ca0-2725-afd13209c840/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/f7/70/8cf77017-d30c-90a5-02f9-f06f0b2f8463/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "1446254576",
     "name": "Solitaire Cash: Win Real Money",
     "names": [
@@ -14683,7 +15594,7 @@
     "country": "us",
     "description": "Forget the ordinary games. Here you play for something bigger, where winning the game actually matters. Are you ready to play for real?\n\nAre you ready to take your Bubble Shooter skills to the next level and get a chance to win real money? Bubble Cash® is the top classic bubble shooter game for your iPhone and iPad, giving you an exciting and rewarding experience. With colorful graphics and intuitive controls, you can put your bubble shooting skills to the test while competing with others against the clock in order to maximize your score. The more bubbles you pop, the higher your chances of winning! As you progress through levels, prizes become bigger and better - up to $500! So don’t miss out on this amazing opportunity - download Bubble Cash® today and start shooting for real money!\n\nCompete Against Other Players and Win Big with Bubble Cash®! \nAre you a puzzle enthusiast? Do you have a competitive spirit? If so, then Bubble Cash® is the perfect game for you. In this fun bubble game, players compete against each other in popping and blasting all the bubbles on the board. With a modern look that mixes perfectly into the retro classic bubble shooter feel, Bubble Cash® provides hours of entertainment and gives players a chance to win big! Let’s take a closer look at what makes this game so enjoyable.\n\nBubble Cash® is an exciting multiplayer game that brings out everyone’s skills. All users receive the same layout, and it's up to the players to figure out how to pop all their bubbles in the quickest time. The excitement doesn't stop there; all players compete for a chance to be among the top-3 rankings, where they will win big prizes! It's a fun, challenging way to prove your strategic and tactical abilities as you aim, match, and pop away all of your balls. Join Bubble Cash® today for an exciting multiplayer game experience.\n\nHow To Play\n- Match 3 Bubbles from the same color to pop & blast them away and clear the board. \n- Tap on the screen to drag & aim the laser-aim and lift your finger to release the ball - simple as that!\n\nEXPLORE THIS FUN FEATURES\n- Real-money tournaments\n- No Ads\n- Secure deposit using PayPal & Apple Pay\n- Cash-out securely using PayPal\n- Collect awesome daily bonuses\n- Classic Bubble Shooter game\n- When you finish color, it won't appear again.\n- Multiplayer tournaments with trophies and real cash prizes\n- Addictive gameplay you’ll want to play for hours!\n- Leaderboard & challenging achievements\n- Play for free as long as you want without any disturbing ads\n- Play anytime and anywhere, an internet connection is required.\n\nSo get ready, clear the board quickly before others do and win Real-Money Prizes!\n\nBubble Cash® is FREE to download and play. Note that in IA Cash tournaments are not available, and in  AZ, LA and ME, all tournaments are played solely for Bonus Cash\nLIKE us on Facebook\nhttps://www.facebook.com/bubblecash\n\nIf you have any questions don’t hesitate to reach us at support@papayagaming.com\n\nDownload and play the best and most exciting Bubble Cash® game on iOS NOW",
     "developer": "Papaya Gaming LTD",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/40/9d/8b409d2a-c096-e29a-7770-7e59cecc9a55/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/e7/87/d8e78702-89b1-cde7-205c-679dcc6ac124/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "1475514684",
     "name": "Bubble Cash",
     "names": [
@@ -14851,7 +15762,7 @@
     "country": "us",
     "description": "Forget the ordinary games. Here you play for something bigger, where winning the game actually matters. Are you ready to play for real?\n\nBingo Cash® is the perfect iOS game for bingo lovers. It’s simple to play and offers hours of fun. With its vibrant design, it’s a great way to pass the time and challenge your skills in exciting single-player or multi-player tournaments.\n\nThe more you populate your card, the bigger the prize if you finish as the first player in each tournament—win real money instantly that goes directly into your PayPal/ Venmo (US Only)/ Apple Pay/ Credit Card account! You can also use bonus cash from our daily wheel spin for extra chances at winning big.\n\nWe’ve carefully crafted the game to provide a smooth and modern feel while incorporating classic bingo elements that everyone loves. Fans of games like Blackout, Story, and Bash will appreciate the thrilling gameplay that Bingo Cash® brings. If you enjoy the competitive spirit of Clash or the festive vibes of Holiday-themed games, you’ll find plenty to keep you engaged here.\n\nChallenge yourself and other players for amazing rewards—make sure to collect all those tickets along the way, which can later be exchanged for cash or special items in our store! We offer leaderboards so you can see how you stack up against others around the world. Download Bingo Cash® now and start winning today! if you're into the fast-paced excitement of Blitz games, Bingo Cash® has something special for you!\n\nBingo Cash® is the ultimate board game for bingo fans, offering hours of fun and exciting single-player or multi-player gaming. Our vibrant design and easy gameplay let you practice as much as you need with unlimited free games! Collect cards from each tournament to increase your chances of winning big.\n\nThis iOS app combines classic fun with real money rewards. With just a few taps, you can launch an exciting game of bingo and stand a chance to win real money! There are various levels featuring different payouts—higher levels offer bigger prizes yet require more skill. You can even join tournaments against other players, similar to the competitive nature of Tycoon or Showdown games, and be part of the leaderboard action. Every time you win, your payout comes directly from your gaming account into your PayPal or bank account. Plus, since each game has its unique rules, you won’t get bored quickly—Bingo Cash® guarantees hours of thrilling gaming experiences! So what are you waiting for? Download it now and join the community of lucky winners!\n\nEnjoy Some of These Thrilling Features:\n* \t\tWin real money tournaments\n* \t\tCash out securely using PayPal, Apple Pay, Venmo (US Only)\n* \t\tPlay with no distracting ads\n* \t\tEnjoy awesome daily gifts & bonuses\n* \t\tTake part in multiplayer tournaments with trophies & big prizes\n* \t\tExperience smooth gameplay that keeps you coming back for more\n* \t\tEnjoy special challenges and surprises\n* \t\tAnd many more!\n\nBingo Cash® is FREE to download and play. Note that in IA Cash tournaments are not available, and in  AZ, LA and ME, all tournaments are played solely for Bonus Cash\nSo, get ready to…\n\nTURN YOUR SKILLS INTO DOLLAR BILLS!\nDownload NOW to let the fun begin!\nNeed any help? Feel free to contact our Support Team at support@papayagaming.com.",
     "developer": "Papaya Gaming LTD",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/81/7f/3d817f3b-bbd5-93ff-c0a2-7b25f87e86a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/7b/ff/807bfff2-3fa3-2b97-811f-f7ec2a08fc85/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "1522266397",
     "name": "Bingo Cash - Win Real Money",
     "names": [
@@ -15309,7 +16220,7 @@
     "country": "us",
     "description": "Play chess lessons online with over 280 million players from around the world!\n\nChess is known as the best strategy board game in the world!\n\nEnjoy unlimited 3D offline pocket chess games and improve your chess rating with 1,000,000+ puzzles, more than 20 million chess games a day, lessons, and over 100 powerful bot opponents. Unlock your inner chess master today!\n\nPLAY CHESS ONLINE:\n- 2 Player online chess mode is entirely free to enjoy with your friends.\n- Join tournaments with players online or friends and become a master.\n- Play games in real-time from one minute per game to 30 minutes or longer with friends.\n- Review your strategy and game lessons and lay out daily correspondence in online chess.\n- Play exciting chess variants in our app: chess960 (Fischer-Random), blitz chess, puzzle rush, bullet chess, puzzle battle, or blindfold.\n\nCHESS PUZZLES:\n- Enjoy 1,000,000 + unique puzzles.\n- Rated mode automatically adjusts to your skill level to help you improve.\n- Race the clock with a timer to beat your high score in Puzzle Rush.\n- Practice puzzles with specific themes in this strategy board game (checkmate in 1, in 2, in 3, blindfold, endgames, fork, skewer, sacrifice, timer, etc.)\n\nCHESS LESSONS:\n- Hundreds of quality chess lessons and online videos made by masters (Learn and practice your skills with chess problems)\n- Interactive puzzles tutorials with tips and game recommendations.\n- Learn all the chess rules and strategies in a step-by-step lesson plan (opening, endgame...)\n\nCHESS COACHING:\n- Learn from helpful and immersive visual chess coach lessons.\n- Review your games with the coach and learn the strategy of the board game for every move.\n- Play games with the coach, who will guide you through the fundamentals move by move and provide helpful hints as you play.\n\nPLAY CHESS ONLINE AGAINST THE COMPUTER:\n- Choose the level of computer opponent you want to play and set a timer.\n- Analyze your chess games offline and learn to see where you went wrong and how you can improve.\n\nCHESS COMMUNITY:\n- Join a community of more than 200M online chess players. Find friends! \n- More than 20M games played each day.\n- Compete to get your own rating and try to join the best player online chess leaderboards against other players.\n- Watch the most popular superstars: Hikaru, GothamChess, or Magnus!\n\n ... and MUCH MORE:\n- Play chess games offline against the computer and the clock with a timer.\n- Articles by the best coaches and masters.\n- Explore openings like Queen´s Gambit or Sicilian Defense.\n- Challenge and play with your friends in an online chess game.\n- Choose from 20+ board themes and 3D pieces.\n- Get in-depth performance stats about your games, puzzles, and lessons.\n\nPlaying pocket chess online has never been so easy!\nChess.com is the place to play chess games online with your friends and other players!\n\nShare your suggestions and comments. Our support team is happy to help you 24 hours a day, 365 days a year!\n\nABOUT CHESS.COM:\nChess.com was created by chess players and people who love chess! \nTeam: http://www.chess.com/about",
     "developer": "Chess.com, LLC",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/b4/78/81b478e5-8011-26f4-7faf-179b6e9dc1bf/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/69/ef/3369efe4-8177-00ef-e545-96ff6218b808/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
     "id": "329218549",
     "name": "Chess.com - Play and Learn",
     "names": [
@@ -16643,7 +17554,7 @@
     "country": "us",
     "description": "Roll, raid, and rule the board!\n\nWelcome to Coin Master: Board Adventure, where every dice roll takes you closer to riches, revenge, and all-out fun! Collect coins, attack villages, build your empire, and explore wild new boards full of surprises. It’s not just a board game - it’s a bold adventure!\n\nROLL THE DICE, MAKE YOUR MOVE\nEvery roll brings a new opportunity. Land on coin tiles to stack your fortune, shields to protect your village, or raid tiles to steal from your Coin Master friends! Just like a real board game, your strategy—and a little luck—will decide your fate.\n\nBUILD YOUR WAY TO THE TOP\nUse your loot to upgrade buildings, complete themed villages, and grow your collection. From fantasy kingdoms to tropical getaways, every board you explore unlocks new worlds to conquer.\n\nROLL AND ATTACK\nLanding on the attack tile? Time to strike! Attack villages across the map, break through defenses, and send your rivals back to square one. It's payback with a bonus.\n\nCOLLECT COINS, RAID FRIENDS\nRaid your friends’ boards and dig up massive treasures. Want more? Steal coins, disrupt their progress, and climb the ranks. Being nice won’t win you this game!\n\nCOLLECT CARDS, COMPLETE SETS\nLove collecting? Get hooked on rare card games! Gather themed cards as you play, complete sets, and earn powerful rewards. Trade with friends to finish your collection faster.\n\nPLAY CASUAL, COMPETE HARD\nWhether you're in for a quick spin or an all-day binge, Coin Master: Board Adventure delivers fun at your own pace. Play solo or team up with friends to swap cards, trade boosts, and dominate events together!\n\nWhy Players Love Coin Master: Board Adventure:\n\n- Exciting roll and attack gameplay\n\n- Strategic board movement\n\n- Build epic villages and unlock new boards\n\n- Collect coins and spend them wisely\n\n- Battle friends\n\n- Fun and competitive casual game style\n\n- Exciting card collecting and trading\n\n- Constant events, bonuses, and surprises\n\nIt’s your turn.\nAre you ready to roll your way to glory, fortune, and board domination?\nDownload Coin Master: Board Adventure now and become the master of the board!\n\nTerms of Service: https://static.moonactive.net/legal/terms.html?lang=en\nPrivacy Notice: https://static.moonactive.net/legal/privacy.html?lang=en",
     "developer": "Moon Active LTD",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/43/cc/2943cc57-a241-b34a-27bf-c17f6db5cb9c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/e3/5e/71e35edd-91b1-80ba-7655-0baf87a0a65f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "6745761596",
     "name": "Coin Master - Board Adventure",
     "names": [
@@ -16800,7 +17711,7 @@
     "country": "us",
     "description": "Mahjong Blast is the best free mahjong tiles puzzle game for seniors and adults — a relaxing offline mahjong solitaire game designed for players who love matching games, tile games, brain games, casual games, and calming puzzle solving experiences. 100% ad free with no annoying pop-ups or interruptions, play anytime, anywhere — no WiFi or internet connection required.\n\nMatch identical tiles, clear satisfying boards, and enjoy smooth gameplay. Whether you enjoy classic mahjong solitaire, free matching games, relaxing brain training, or engaging mind puzzles, Mahjong Blast delivers large clear tiles, simple one-tap controls, and distraction-free fun.\n\nClassic Mahjong Solitaire & Tile Connect\nMahjong Blast combines traditional mahjong solitaire with modern board puzzle mechanics. Match identical tiles, unlock blocked pieces, and complete relaxing puzzle challenges. Fans of pair matching games, tile connect mechanics, and classic tile puzzles will enjoy the satisfying balance of relaxation and strategy. Every level provides fun brain-training gameplay and a rewarding puzzle journey.\n\nRelaxing Games for Stress Relief\nExperience a peaceful game with soft visuals, clean layouts, and smooth animations. Mahjong Blast is one of the top relaxing games created to help players unwind and reduce stress. If you enjoy calm games, stress relief games, satisfying games, casual games, or zen puzzles, we offer a soothing tile-matching experience with no pressure and no timers.\n\nBrain Games for Adults & Seniors\nA fun brain game for adults and seniors who enjoy memory games, logic puzzles, mind games, cognitive training challenges, and brain-training games. Matching tiles improves focus, observation, memory, and concentration. Designed for older adults, the game features large visible tiles and an easy interface. Whether you seek games for seniors, easy games, relaxing brain puzzles, or free tile games, enjoy a comfortable experience.\n\nOffline Games – No WiFi Needed\nA fully offline game that works without WiFi, mobile data, or internet access. Enjoy free offline games during travel or commutes. Unlike many online apps, Mahjong Blast supports true offline gameplay with uninterrupted tile matching. If you are looking for offline games, games without WiFi, internet-free games, offline puzzle games, or offline matching games, this is the perfect choice for any puzzle solver.\n\nDaily Puzzles & Endless Fun\nEnjoy daily puzzle challenges, relaxing matching gameplay, and satisfying tile-clearing fun. With thousands of handcrafted levels, Mahjong Blast offers endless entertainment for players who love casual games and relaxing logic puzzles.\n\nAmerican Mahjong Practice to Enjoy With Friends\nCan't get the group together for mahjong 4 friends? Relax with Mahjong Blast! While it’s not like american mahjong, our mahjong puzzles are the perfect way to unwind. Consider it a fun, stress-free mahjong practice to sharpen your eyes and clear your mind before your next real game night. \n\n100% Ad Free – No forced ads or pop-ups\nPlay Offline Anytime – Free games without WiFi or internet\nBrain Training Fun – Improve memory, focus, and cognitive skills\nRelaxing Gameplay – Calm visuals and stress-free puzzle mechanics\nDesigned for Seniors – Extra-large tiles and simple controls\nThousands of Levels – Daily puzzles and endless matching challenges\n\nMahjong Blast, formerly known as Mahjong Wonders, combines classic mahjong solitaire, relaxing matching gameplay, and reliable offline play. Whether you love matching games, tile games, brain games, relaxing games, casual games, free puzzle games, offline games, or free games for adults and seniors, play anytime, anywhere.\n\nDownload now and join millions of players in this ultimate mahjong puzzle classic!\n\nPrivacy policy: https://www.hurelax.com/privacy-policy \nTerms of Use: https://www.hurelax.com/term-service",
     "developer": "HURELAX PTE. LTD.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/05/cd/be05cd5b-78c9-5223-668b-241a1606c4a5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/2f/ba/972fbab0-dd53-6df0-d2d6-26c9f0e56419/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
     "id": "6747492600",
     "name": "Mahjong Blast",
     "names": [
@@ -17162,7 +18073,7 @@
     "country": "us",
     "description": "Dream of becoming a Star Chef? Now’s your chance!\nEver imagined learning the secrets to perfect macarons in a Parisian kitchen under a Michelin-starred chef?\nWelcome to Foodstars – the ultimate cooking adventure where global flavors meet culinary creativity!\n\n► Merge Ingredients & Discover Secret Recipes\nFrom recreating Italian classics with tomatoes and basil, to savoring refined French flair with gin and lemons, and even to experiencing the authentic taste of Germany with sausages and bread rolls, you can merge ingredients and unlock hundreds of mouthwatering recipes from around the world.\n\n► Design Dream Restaurants Across the Globe\nRenovate unique restaurants, from a roadside diner in New York to a traditional Kaiseki eatery in Tokyo, from Marseille’s bustling seafood bistro to a cozy coconut curry spot in Thailand. Complete orders and renovation tasks to rise to culinary fame!\n\n► Train Under World-Class Chefs\nTravel the world and take on challenges from world-class chefs with different personalities. Complete Chef's Trials to earn their recognition and master their signature dishes!\n\n► Collect 500+ Recipes & Earn Michelin-Level Chef Stars\nShow off your skills in global cooking challenges, master regional cuisines, and earn prestigious Chef Star badges. Will you rise to become a Foodstars legend?\n\n► Download Foodstars now and start your journey from kitchen rookie to star chef!",
     "developer": "HAPPIBITS TECHNOLOGIES PTE. LTD.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/fa/ef/25faefb4-7b6c-c9a1-380a-52513a36ad39/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/05/bc/d405bc1a-fe82-9f37-9191-a0a6a4959d25/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
     "id": "6753862216",
     "name": "Foodstars: Merge & Cook",
     "names": [
@@ -18450,6 +19361,31 @@
     "url": "https://apps.apple.com/us/app/id6767834940",
     "version": "1.0.45"
   },
+  "ios:us:6768253096": {
+    "category": "Games",
+    "checked_on": "2026-11-18",
+    "country": "us",
+    "description": "Welcome to Pullz!\n\nOpen card packs, reveal real collectible cards, and choose what to do next. You can keep your cards, sell eligible cards for cash value, or request physical delivery.\n\nBuild Your Collection Your Way\n\nEvery pack gives you access to real trading cards with real-world value, from Pokémon to other popular trading card games (TCG). Some cards may be common, while others may be rare, professionally graded, or highly sought after by collectors.\n\nOnce your cards are revealed, they are added to your account, where you can view, manage, and organize your collection anytime.\n\nWhat You Can Do\n\nOpen Card Packs\n\nChoose from available pack options and reveal the cards inside. Packs may vary by card type, rarity, value, and price.\n\nManage Your Cards\n\nView your collection, track your cards, and decide which ones you want to keep.\n\nSell Eligible Cards\n\nCertain cards may be sold for cash value directly through the app. After a sale, the value is added to your available balance.\n\nRequest Physical Delivery\n\nWant the actual card? Select eligible cards for shipping and have them delivered securely to your address.\n\nPack Options\n\nDifferent pack types are available for different collecting styles, including Pokémon.\n\nStarter Packs\n\nA simple way to begin opening packs and adding cards to your collection.\n\nHigher-Value Packs\n\nDesigned for collectors looking for a chance at rarer, graded, and more valuable cards.\n\nSelect packs may include cards valued up to $10,000+.\n\nWithdrawals\n\nYour available balance can be withdrawn using supported payment methods, including Debit, ACH, PayPal, and Venmo.\n\nSupport\n\nNeed assistance with your account, cards, withdrawals, or shipping? Support is available directly in the app.\n\nYou must be 18+ to participate.\n\nStart collecting and discovering real cards today.",
+    "developer": "Delta Two Inc",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/65/ec/0f65ecd6-c526-f494-f5ff-986da2ea3468/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+    "id": "6768253096",
+    "name": "Pullz",
+    "names": [
+      "Pullz"
+    ],
+    "platform": "ios",
+    "publisher": "Delta Two Inc",
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/aa/1d/53aa1d13-d0dc-2b1c-89d0-5f0018c65eaf/01_IH_Pullz_RealPullz_CPP_Banner_2_1284x2778.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/30/f4/bb30f4c5-1313-4a96-1a9d-10bee6fa1f6d/01_IH_Pullz_RealPullz_CPP_Banner_5_1284x2778_2.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/a1/c9/5fa1c977-90de-4960-9a98-9d49fd673ef8/01_IH_Pullz_RealPullz_CPP_Banner_7_1284x2778.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f6/f9/7d/f6f97d7b-9e5f-8c16-8862-73c73c75ee12/01_IH_Pullz_RealPullz_CPP_Banner_8_1284x2778.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/87/68/8c87682c-9fa4-b951-2988-57f0cfa0c0b2/01_IH_Pullz_RealPullz_CPP_Banner_11_1284x2778.jpg/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4d/77/c0/4d77c045-e866-d25a-9dd0-39a7964a5f59/01_IH_Pullz_RealPullz_CPP_Banner_13_1284x2778.jpg/320x480bb.jpg"
+    ],
+    "url": "https://apps.apple.com/us/app/id6768253096",
+    "version": "3.92.4"
+  },
   "ios:us:6768564100": {
     "category": "Games",
     "checked_on": "2026-11-17",
@@ -19425,6 +20361,28 @@
       "https://img-tc.tapimg.com/market/images/94711c6bc7a61504a6c7122b487403eb.jpg/_tap_screenshot.jpg"
     ],
     "url": "https://www.taptap.cn/app/876286"
+  },
+  "taptap:901325": {
+    "category": "策略",
+    "country": "cn",
+    "icon": "https://img-tc.tapimg.com/market/images/90551dbe5c0f1c775ed6c3716cf751e3.jpg/_tap_appicon.jpg",
+    "id": "901325",
+    "name": "变形金刚：新纪元",
+    "names": [
+      "变形金刚：新纪元"
+    ],
+    "platform": "taptap",
+    "publisher": "Wanda Game",
+    "screenshots": [
+      "https://img-tc.tapimg.com/market/images/eb6edf337b3184efe42bcec03bc766ae.jpg/_tap_screenshot.jpg",
+      "https://img-tc.tapimg.com/market/images/6fe9bebe92eef922113e09ed47ef313d.jpg/_tap_screenshot.jpg",
+      "https://img-tc.tapimg.com/market/images/d1244b10002005c23439fb65df8a93eb.jpg/_tap_screenshot.jpg",
+      "https://img-tc.tapimg.com/market/images/cd5bc6f00b5e6f849d1acef3c5d6b264.jpg/_tap_screenshot.jpg",
+      "https://img-tc.tapimg.com/market/images/49ccc2ce2c06a939120f9f129c39e32a.jpg/_tap_screenshot.jpg",
+      "https://img-tc.tapimg.com/market/images/c4baa358014f2e778f8cd14624ed12e1.jpg/_tap_screenshot.jpg",
+      "https://img-tc.tapimg.com/market/images/d56fea154c3676f4a59f26abac24deda.jpg/_tap_screenshot.jpg"
+    ],
+    "url": "https://www.taptap.cn/app/901325"
   },
   "taptap:993706": {
     "category": "模拟经营",
