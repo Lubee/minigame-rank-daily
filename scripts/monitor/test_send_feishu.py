@@ -1,4 +1,6 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from send_feishu import (
     MAX_BYTES,
@@ -7,6 +9,7 @@ from send_feishu import (
     prepare_payload,
     response_succeeded,
     set_report_title,
+    standalone_report_url,
     valid_webhook,
     with_report_link,
 )
@@ -49,6 +52,20 @@ class FeishuPayloadTests(unittest.TestCase):
     def test_full_report_heading_uses_configured_title(self):
         report = set_report_title("# 微信小游戏周报\n\n玩法<br>详细说明", "游戏应用市场周报")
         self.assertEqual(report, "# 游戏应用市场周报\n\n玩法；详细说明")
+
+    def test_report_link_points_to_standalone_pages_html(self):
+        with TemporaryDirectory() as temp_dir:
+            markdown_path = Path(temp_dir) / "weekly-2026-11-18.md"
+            markdown_path.touch()
+            markdown_path.with_suffix(".html").touch()
+            url = standalone_report_url(
+                {"meta": {"site_url": "https://lubee.github.io/minigame-rank-daily/"}},
+                markdown_path,
+            )
+        self.assertEqual(
+            url,
+            "https://lubee.github.io/minigame-rank-daily/reports/weekly-2026-11-18.html",
+        )
 
     def test_oversized_full_report_falls_back_to_summary_with_full_report_link(self):
         link = "https://github.com/example/reports/weekly-2026-11-15.md"

@@ -65,6 +65,16 @@ def with_report_link(summary: str, report_url: str) -> str:
     return f"{summary.rstrip()}\n\n[查看完整周报]({report_url})"
 
 
+def standalone_report_url(data: dict, markdown_path: Path | None) -> str:
+    site_url = str((data.get("meta") or {}).get("site_url") or "").strip().rstrip("/")
+    if not site_url or markdown_path is None:
+        return ""
+    html_path = markdown_path.with_suffix(".html")
+    if not html_path.is_file():
+        return ""
+    return f"{site_url}/reports/{html_path.name}"
+
+
 def markdown_table_count(content: str) -> int:
     separator = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)+\|?\s*$")
     return sum(bool(separator.match(line)) for line in content.splitlines())
@@ -157,7 +167,7 @@ def main() -> int:
         if not report.is_absolute():
             report = (ROOT / report).resolve()
         data, md_path = report_sender.load_bundle(report)
-        report_url = report_sender.github_blob_url(md_path) if md_path else ""
+        report_url = standalone_report_url(data, md_path)
         if args.full:
             summary = report_sender.build_card_markdown(
                 data, "", v2=True, preview=args.preview)

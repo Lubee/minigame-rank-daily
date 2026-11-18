@@ -6,7 +6,14 @@ on:
     paths:
       - "site/**"
       - "data/**"
+      - "reports/weekly-*.html"
       - ".github/workflows/pages.yml"
+  # Weekly Report commits are made with GITHUB_TOKEN, which does not start
+  # another workflow through the push event. Deploy after that workflow ends.
+  workflow_run:
+    workflows: ["Weekly Report"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -28,6 +35,8 @@ jobs:
         run: |
           mkdir -p _publish
           cp -r site/* _publish/
+          mkdir -p _publish/reports
+          cp reports/weekly-*.html _publish/reports/
           mkdir -p _publish/data
           # Copy only the JSON the dashboard needs (skip jsonl/xlsx).
           if [ -d data ]; then
