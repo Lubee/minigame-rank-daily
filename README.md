@@ -11,7 +11,7 @@
   <a href="https://github.com/Miracle-Shen/minigame-rank-daily">[源码]</a>
 </p>
 
-**minigame-rank-daily** 每天北京时间 10:30 自动抓取微信小游戏 / 抖音小游戏的 6 个榜单，叠加 TapTap 预约榜、**iOS 美 / 国 / 日区**与 **Android 美区**免费榜，与累积 base 库比对算出每条榜单的「新进榜 / 回归 / 新发行商」，发布成一面纯静态仪表盘；每周一 07:30 再产出一份微信小游戏周报，自动推送到企业微信群。
+**minigame-rank-daily** 每天北京时间 10:30 自动抓取微信小游戏 / 抖音小游戏的 6 个榜单，叠加 TapTap 预约榜、**iOS 美 / 国 / 日区**与 **Android 美区**免费榜，与累积 base 库比对算出每条榜单的「新进榜 / 回归 / 新发行商」，发布成一面纯静态仪表盘；每周一 07:30 再产出一份微信小游戏周报，可分别推送到飞书群和企业微信群。
 
 <table>
   <tr>
@@ -453,11 +453,24 @@ CI 里推送的是 `reports/push-<week_end>.md`（`weekly.yml` 先生成、再�
 
 <a name="push"></a>
 
-## 📬 周报推送（企业微信群）
+## 📬 周报推送（飞书 / 企业微信群）
 
-周一 7:30 的 `weekly.yml` 生成报告后自动推送周报。**两条通道任选，也可以都开**：
-方式 A 在 CI 里无人值守跑，方式 B 在本机跑。`WECOM_WEBHOOK` 没配时 `weekly.yml` 会跳过推送
-并打一条 warning（不报错），不影响报告生成与提交。
+周一 07:30 的 `weekly.yml` 生成报告后，会分别检查飞书和企业微信推送配置；配置了哪个通道就发到哪个通道，两个都配置则两边都会收到。未配置的通道会跳过，不影响报告生成与提交。
+
+### 飞书群机器人 Webhook（GitHub Actions）
+
+1. 在目标飞书群右上角【设置】→【群机器人】→【添加机器人】→【自定义机器人】添加机器人。
+2. 在机器人安全设置中开启【签名校验】，复制 Webhook 地址和签名密钥。
+3. 到 GitHub 仓库【Settings】→【Secrets and variables】→【Actions】添加：
+   - `FEISHU_WEBHOOK`：机器人 Webhook 地址。
+   - `FEISHU_SECRET`：签名校验密钥。
+4. 手动运行 Actions → `Push Channel Test`。飞书群收到「飞书通道自检」即表示链路可用。
+
+飞书使用交互式消息卡片承载 Markdown 内容。自定义机器人只向添加它的那个群推送；多个群需分别创建机器人并配置各自 Webhook（当前配置支持一个飞书目标群）。Webhook 和签名密钥只保存在 GitHub Secrets，不要写入仓库。签名密钥由飞书机器人安全设置生成，GitHub Actions 每次发送时动态签名。
+
+### 企业微信推送方式（原方式 A / B）
+
+企业微信的两条通道任选，也可以都开：方式 A 在 CI 里无人值守跑，方式 B 在本机跑。
 
 | | 方式 A：群机器人 Webhook | 方式 B：机器人直发 |
 | --- | --- | --- |
@@ -466,7 +479,7 @@ CI 里推送的是 `reports/push-<week_end>.md`（`weekly.yml` 先生成、再�
 | 触发 | `weekly.yml` 自动 | WorkBuddy 定时任务 |
 | 额外依赖 | 需在企业微信后台建群机器人 | 群需先和机器人对过话 |
 
-### 方式 A：企业微信群机器人（推荐先跑通这个）
+#### 方式 A：企业微信群机器人（Webhook）
 
 **不需要任何密码**，一个 Webhook URL 即可，5 分钟能验完。
 
@@ -572,7 +585,7 @@ curl -s -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=<key>" \
 需要表格 / 分割线可以切到 `WECOM_MSG_TYPE=markdown_v2`，但它**不支持字体颜色**，且要求客户端
 版本 ≥ 4.1.36（安卓 ≥ 4.1.38），低版本会整条退化成纯文本——面向多人时慎用。
 
-### 方式 B：企业微信群（机器人直发，走本机 `wecom-cli`）
+#### 方式 B：企业微信群（机器人直发，走本机 `wecom-cli`）
 
 不申请 Webhook，直接让已经在群里的机器人把消息发进群 —— 只需要**群会话 ID**。
 内容与方式 A 完全同一套口径（同出 `send_wecom.py`），空行分段 + 引用块，不含表格 / 列表。
@@ -609,6 +622,8 @@ WECOM_GROUP_ID=<群1> python scripts/monitor/send_group.py --latest   # 只发�
 
 | Secret | 必填 | 说明 |
 | --- | --- | --- |
+| `FEISHU_WEBHOOK` | 飞书推送必填 | 飞书群自定义机器人 Webhook 地址 |
+| `FEISHU_SECRET` | 飞书推送必填 | 飞书群机器人的签名校验密钥 |
 | `WECOM_WEBHOOK` | 方式 A 必填 | 群机器人 Webhook 地址 |
 | `WECOM_CHATID` | 方式 A **必填** | 目标群 1（本项目 = 「我和机器人们」）。缺了则跳过推送，绝不群发。群 ID 属内部标识，只放进 Secret |
 | `WECOM_CHATID_2` | 方式 A **必填** | 目标群 2（本项目 = 「web三组外网问题跟进群」）。`_3`、`_4`、`_5` 也认，本项目不用 |
@@ -715,8 +730,9 @@ A：这是预期。详情档案按约定只覆盖**当日各榜 TOP20 的并集*
 A：已支持。TapTap 预约榜 + iOS 美 / 国 / 日区游戏免费榜 + Android 美区免费游戏榜每天随主快照一起抓取（`scrape_taptap.py` / `scrape_ios.py` / `scrape_googleplay.py`）。iOS 榜单来自 Apple 官方 iTunes RSS（`itunes.apple.com/{cc}/rss/topfreeapplications/genre=6014/limit=100/json`），免登录免密钥；Android 来自 AppBrain（`appbrain.com/stats/google-play-rankings/top_free/game/us`，SSR 免登录，注意免费限流）。两者都不含排名涨跌箭头、只提供当前榜单。扩展更多国家 / 榜单：改对应 `scrape_*.py` 的配置 + `site/app.js` 的 `BOARD_LABELS`。引力引擎微信 / 抖音的选择器逻辑见 `scrape_rank.py`。
 
 **Q：群里没收到周报？**
-A：先确认走的是哪条通道。**方式 A（Webhook）** 打开 Actions 里那次 run，看 `Send weekly report`
-步骤日志，三种情况：① 日志出现 `未配置 WECOM_WEBHOOK` 的 warning —— Secret 没加；
+A：先确认走的是哪条通道。**飞书**查看 Actions 里的 `Send weekly report to Feishu`：
+`未配置 FEISHU_WEBHOOK / FEISHU_SECRET` 表示未添加 Secrets；`code=19021` 表示签名密钥不匹配或系统时间偏差，检查 `FEISHU_SECRET` 是否与机器人签名校验密钥一致。
+**企业微信方式 A（Webhook）**查看 `Send weekly report`：① 日志出现 `未配置 WECOM_WEBHOOK` 的 warning —— Secret 没加；
 ② `URLError: <urlopen error timed out>` —— 域名不是公网的 `qyapi.weixin.qq.com`
 （`in.` 开头的内网地址 CI 连不上）；③ `errcode=93000` —— Webhook 失效或 key 被重置，重取地址。
 想单独验证通道，手动跑 `Push Channel Test` 工作流。

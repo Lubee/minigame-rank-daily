@@ -1,7 +1,6 @@
 name: Push Channel Test
 
-# 只做一件事：验证 GitHub Actions → 企业微信群机器人（Webhook）的推送通道是否可用。
-# 配好 Secret 后手动跑一次，群里收到「通道自检」即表示链路通，再等周一的正式周报。
+# 手动验证已配置的企业微信和飞书 Webhook 推送通道。
 on:
   workflow_dispatch:
 
@@ -22,6 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Check delivery channel
+        id: check_wecom
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
           # 目标群：不带它脚本会拒绝发送（默认不许群发）。自检也进这些群。
@@ -30,4 +30,21 @@ jobs:
           WECOM_CHATID_2: ${{ secrets.WECOM_CHATID_2 }}
           WECOM_CHATID_3: ${{ secrets.WECOM_CHATID_3 }}
           WECOM_MSG_TYPE: ${{ secrets.WECOM_MSG_TYPE }}
-        run: python scripts/monitor/send_wecom.py --check
+        run: |
+          if [ -z "$WECOM_WEBHOOK" ]; then
+            echo "::warning::未配置 WECOM_WEBHOOK，跳过企业微信通道自检。"
+            exit 0
+          fi
+          python scripts/monitor/send_wecom.py --check
+
+      - name: Check Feishu delivery channel
+        if: ${{ always() && steps.check_wecom.outcome != 'skipped' }}
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+        run: |
+          if [ -z "$FEISHU_WEBHOOK" ] && [ -z "$FEISHU_SECRET" ]; then
+            echo "::warning::未配置 FEISHU_WEBHOOK / FEISHU_SECRET，跳过飞书通道自检。"
+            exit 0
+          fi
+          python scripts/monitor/send_feishu.py --check

@@ -88,6 +88,7 @@ jobs:
           retention-days: 30
 
       - name: Send weekly report
+        id: send_wecom
         # 推送通道 = 企业微信群机器人 Webhook（WECOM_WEBHOOK）。
         # 没配则跳过（只打 warning，不报错）——报告照常生成并提交。
         env:
@@ -107,6 +108,7 @@ jobs:
             echo "::warning::未配置 WECOM_WEBHOOK，跳过推送（周报已生成并提交，不受影响）。"
             exit 0
           fi
+
           if [ -z "$WECOM_CHATID$WECOM_CHATID_2$WECOM_CHATID_3" ]; then
             echo "::warning::未配置任何目标群（WECOM_CHATID / _2 / _3），跳过推送以免群发到全部群。周报已生成并提交，不受影响。"
             exit 0
@@ -120,5 +122,28 @@ jobs:
             else
               echo "::warning::没有生成群消息预览，按报告现场重算后发送。"
               python scripts/monitor/send_wecom.py --latest --card
+            fi
+          fi
+
+      - name: Send weekly report to Feishu
+        # 飞书自定义机器人 Webhook。仅配置 Webhook 和签名密钥后才发送。
+        if: ${{ always() && steps.send_wecom.outcome != 'skipped' }}
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          FEISHU_STYLE: ${{ github.event.inputs.style || 'card' }}
+        run: |
+          if [ -z "$FEISHU_WEBHOOK" ] && [ -z "$FEISHU_SECRET" ]; then
+            echo "::warning::未配置 FEISHU_WEBHOOK / FEISHU_SECRET，跳过飞书推送。"
+            exit 0
+          fi
+          if [ "$FEISHU_STYLE" = "digest" ]; then
+            python scripts/monitor/send_feishu.py --latest
+          else
+            if [ -n "$PREVIEW" ] && [ -f "$PREVIEW" ]; then
+              python scripts/monitor/send_feishu.py --latest --card --preview "$PREVIEW"
+            else
+              echo "::warning::没有生成群消息预览，按报告现场重算后发送。"
+              python scripts/monitor/send_feishu.py --latest --card
             fi
           fi
