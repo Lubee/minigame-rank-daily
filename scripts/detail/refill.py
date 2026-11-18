@@ -5,7 +5,7 @@
 把六步合成一条命令，并且**把刷新工单设为必经第一步**：
 
     1. build_worklist.py   刷新工单（**必经**）-> _worklist.json
-    2. enrich_media.py     抓官方图标/截图/包体 -> _media.json
+    2. 先限量选本批目标，再用 enrich_media.py 抓该批官方图标/截图/包体
     3. make_batches.py     切成批次输入 -> _staging/_batch_N_input.json
     4. （子智能体调研）     读 RESEARCH_SPEC.md 写 -> _staging/batch_N.json  ← 无脚本
     5. merge_details.py    写回 <slug>.json + index.json
@@ -21,7 +21,7 @@
 
 那一步要现读规范、现做调研，没有脚本可代替。本脚本用一个「两段式」绕开它：
 
-    第一段：refill.py                 刷新工单 -> 抓素材 -> 切批 -> 打印派单说明（退出码 3）
+    第一段：refill.py                 刷新工单 -> 选本批目标 -> 抓素材 -> 切批（退出码 3）
     第 4 步：（派子智能体调研，人工/模型）
     第二段：refill.py 或 --finish      合并 -> 终检 -> 报告补了谁
 
@@ -86,7 +86,7 @@ try:
 except Exception:  # noqa: BLE001
     pass
 
-from schema import norm_name  # noqa: E402
+from schema import norm_name, validate  # noqa: E402
 
 DETAIL_DIR = ROOT / "data" / "detail"
 STAGING = DETAIL_DIR / "_staging"
@@ -122,11 +122,11 @@ def run_script(name: str, args: list[str], *, capture: bool = False):
     默认直通 stdout（进度条/警告都让用户看见）；capture=True 时返回
     (rc, 输出文本)，给需要判读结果的 verify.py 用。
     """
-    cmd = [sys.executable, str(HERE / name), *args]
+    cmd = [sys.executable, "-X", "utf8", str(HERE / name), *args]
     print(f"  $ python scripts/detail/{name} {' '.join(args)}".rstrip())
     sys.stdout.flush()          # 先把自己的话吐干净，否则会被子进程输出插队
     if capture:
-        r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
+        r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, encoding="utf-8")
         out = (r.stdout or "") + (r.stderr or "")
         print(out.rstrip())
         return r.returncode, out
@@ -188,8 +188,30 @@ def worklist_entries() -> list[dict]:
 
 
 def worklist_pending(entries: list[dict]) -> list[dict]:
-    """工单里 status != done 的条目。"""
-    return [e for e in entries if e.get("status") != "done"]
+    """Use actual archived files, including records merged after the worklist."""
+    have = archived_keys()
+    return [e for e in entries if norm_name(e["name"]) not in have]
+
+
+def stopped_keys() -> set[str]:
+    history = load_json(DETAIL_DIR / "_research_failures.json", {}) or {}
+    return {key for key, item in history.items() if len(item.get("rounds", {})) >= 2}
+
+
+def record_insufficient(name: str, reason: str, round_id: str) -> int:
+    state = read_state()
+    key = norm_name(name)
+    if key not in norm_set(state.get("targets", [])) or key in archived_keys():
+        print("[error] 只能记录当前批次尚未落库的目标")
+        return EXIT_ERROR
+    path = DETAIL_DIR / "_research_failures.json"
+    history = load_json(path, {}) or {}
+    item = history.setdefault(key, {"name": name, "rounds": {}})
+    item["rounds"].setdefault(round_id, {"reason": reason, "recorded_at": dated()})
+    path.write_text(json.dumps(history, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{name}: 资料不足 {len(item['rounds'])} 轮" +
+          ("，已停止自动补档" if len(item["rounds"]) >= 2 else "，下一轮可再尝试"))
+    return EXIT_OK
 
 
 def in_wx_scope(entry: dict, pool: set[str]) -> bool:
@@ -204,10 +226,28 @@ def rank_key(entry: dict) -> tuple[int, str]:
     return (r if isinstance(r, int) else 9999, entry.get("name") or "")
 
 
+def selected_targets(args):
+    pool = wx_pool_names() if args.scope == "wx" else set()
+    targets, missing = pick_targets(worklist_entries(), args.scope, args.names_list, pool)
+    if missing:
+        raise ValueError("点名目标不在待补范围：" + "、".join(missing))
+    latest = load_json(ROOT / "data" / "latest.json", {}) or {}
+    current = norm_set(
+        row["name"]
+        for platform in latest.get("platforms", {}).values()
+        for board in platform.get("boards", [])
+        for row in board.get("rows", [])
+        if row.get("name")
+    )
+    targets.sort(key=lambda entry: (norm_name(entry["name"]) not in current, *rank_key(entry)))
+    return targets[:args.limit] if args.limit else targets
+
+
 def pick_targets(entries: list[dict], scope: str, names: list[str],
                  pool: set[str]) -> tuple[list[dict], list[str]]:
     """从工单待建档条目里筛出本次目标，返回 (目标条目, 被点名但没找到的名字)。"""
-    pending = worklist_pending(entries)
+    stopped = stopped_keys()
+    pending = [e for e in worklist_pending(entries) if norm_name(e["name"]) not in stopped]
     if scope == "wx":
         pending = [e for e in pending if in_wx_scope(e, pool)]
     if names:
@@ -245,7 +285,10 @@ def save_state(targets: list[dict], batch_names: list[list[str]],
         "output": f"data/detail/_staging/batch_{first + i}.json",
         "names": names,
     } for i, names in enumerate(batch_names)]
+    previous = read_state()
     STATE.write_text(json.dumps({
+        "daily_completed": previous.get("daily_completed", {}),
+        "publishing": previous.get("publishing", {}),
         "prepared_at": datetime.now(BEIJING).isoformat(timespec="seconds"),
         "scope": scope,
         "size": size,
@@ -305,39 +348,28 @@ def refresh_worklist(args) -> int:
     return EXIT_OK
 
 
-def fetch_media(args) -> None:
-    """第 2 步：抓官方图标/截图/包体（增量，跨次合并缓存）。"""
-    step(2, 3, "抓官方图标 / 实机截图 / 包体（增量，只查没缓存的）")
-    rc, _ = run_script("enrich_media.py",
-                       ["--force"] if args.force_media else [])
+def fetch_media(args, targets) -> None:
+    """第 2 步：只抓本批素材，按应用身份重新核对，保留其他缓存。"""
+    step(2, 3, "按应用身份抓本批官方图标 / 截图 / 包体")
+    media_args = ["--names-json", json.dumps([entry["name"] for entry in targets], ensure_ascii=False)]
+    if args.force_media:
+        media_args.append("--force")
+    rc, _ = run_script("enrich_media.py", media_args)
     if rc != 0:
-        print("[warn] 抓素材非零退出，继续（可能只是部分款没命中）")
+        raise RuntimeError("素材脚本执行失败，保留当前批次等待重试")
 
 
-def cut_batches(args) -> int:
+def cut_batches(args, targets) -> int:
     """第 3 步：把本次目标切成批次输入文件，并落一份 state 供第二段接力。"""
     step(3, 3, "切批次输入文件（给调研子智能体）")
     entries = worklist_entries()
 
-    pool = wx_pool_names() if args.scope == "wx" else set()
-    targets, missing = pick_targets(entries, args.scope, args.names_list, pool)
-    if missing:
-        print(f"[warn] {len(missing)} 款被点名但不在本次范围"
-              f"（已建档 / 已掉榜 / scope 之外）：" + "、".join(missing))
 
     pending_all = len(worklist_pending(entries))
     if not targets:
         print(f"\n✅ 没有缺口：工单待建档 {pending_all} 款，"
               f"本次口径（{args.scope}）内一款都不缺。")
         return EXIT_OK
-
-    # --limit：定时任务每天只补几款，按榜上最好名次优先，剩下的留给下次。
-    # 不限量时如果一次撞上几十款缺口，单个子智能体（或一次定时任务）
-    # 会扛不住上下文与耗时。
-    if args.limit and len(targets) > args.limit:
-        targets = sorted(targets, key=rank_key)[:args.limit]
-        print(f"[limit] 本次只补 {args.limit} 款（按最好名次优先），"
-              f"工单里还有 {pending_all - len(targets)} 款留给下次")
 
     first = next_batch_start()
     from make_batches import write_batches  # noqa: E402  （HERE 已在模块顶部入 path）
@@ -444,7 +476,8 @@ def finish(args) -> int:
         return EXIT_ERROR
 
     ready, todo = all_ready(state)
-    if not ready and not args.force:
+    available = [batch for batch in state.get("batches", []) if (ROOT / batch["output"]).is_file()]
+    if not ready and not args.force and not available:
         print(f"调研产物还没齐（{len(todo)}/{len(state.get('batches') or [])} 批未就绪）：")
         for b in todo:
             print(f"  {b['output']}  ->  {b['why']}")
@@ -453,8 +486,41 @@ def finish(args) -> int:
 
     targets = state.get("targets") or []
 
+    # Only complete research records for this batch may reach the merger.
+    for batch in available:
+        data = load_json(ROOT / batch["output"])
+        items = data.get("games") if isinstance(data, dict) else data
+        if not isinstance(items, list):
+            print(f"[error] {batch['output']} 不是档案数组")
+            return EXIT_ERROR
+        allowed = norm_set(batch["names"]) & norm_set(targets)
+        seen = set()
+        errors = []
+        for item in items:
+            if not isinstance(item, dict) or not isinstance(item.get("name"), str):
+                errors.append("档案缺少有效名称")
+                continue
+            key = norm_name(item["name"])
+            valid, messages = validate(item, require_biz=True)
+            if key not in allowed or key in seen:
+                errors.append(f"{item['name']}: 超出本批或名称重复")
+            if not valid or not item.get("sources"):
+                errors.append(f"{item['name']}: 缺少完整调研内容或来源 {messages}")
+            seen.add(key)
+        if errors:
+            state["errors"] = errors
+            STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+            print("[error] 本批校验失败，保留产物：" + "; ".join(errors))
+            return EXIT_ERROR
+
     step(1, 3, "合并调研产物 -> data/detail/<slug>.json + index.json")
-    rc, _ = run_script("merge_details.py", [])
+    merge_args = []
+    for batch in available:
+        merge_args.extend(["--input", batch["output"]])
+    if not merge_args:
+        print("[error] 没有可合并的本批产物")
+        return EXIT_NEED_RESEARCH
+    rc, _ = run_script("merge_details.py", merge_args)
     if rc != 0:
         print("[error] 合并失败")
         return EXIT_ERROR
@@ -465,7 +531,22 @@ def finish(args) -> int:
     step(3, 3, "本次目标是否已落库")
     have = archived_keys()
     done = [n for n in targets if norm_name(n) in have]
-    left = [n for n in targets if norm_name(n) not in have]
+    stopped = stopped_keys()
+    skipped = [n for n in targets if norm_name(n) in stopped and norm_name(n) not in have]
+    left = [n for n in targets if norm_name(n) not in have | stopped]
+    today = datetime.now(BEIJING).date().isoformat()
+    daily = state.setdefault("daily_completed", {}).setdefault(today, [])
+    previous_done = norm_set(state.get("completed", []))
+    for name in done:
+        if norm_name(name) not in previous_done and norm_name(name) not in norm_set(daily):
+            daily.append(name)
+    state["completed"] = done
+    state["pending"] = left
+    state["skipped"] = skipped
+    if not left:
+        state.pop("errors", None)
+    state["checked_at"] = datetime.now(BEIJING).isoformat(timespec="seconds")
+    STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 
     remaining = sum(1 for e in worklist_pending(worklist_entries())
                     if norm_name(e["name"]) not in have)
@@ -480,6 +561,7 @@ def finish(args) -> int:
     print(f"本次目标        {len(targets)} 款")
     print(f"已落库          {len(done)} 款")
     print(f"未落库          {len(left)} 款" + (f"：{'、'.join(left)}" if left else ""))
+    print(f"停止自动补档    {len(skipped)} 款" + (f"：{'、'.join(skipped)}" if skipped else ""))
     print(f"仍未补          {remaining} 款{hint}")
     print(f"verify.py       " + {"pass": "全部通过 ✅",
                               "waiting": "只卡在「还有款没补」，本次目标已合格 ⚠️",
@@ -487,20 +569,20 @@ def finish(args) -> int:
     for w in why:
         print(f"                {w}")
 
-    if left:
-        print(f"{bar}\n❌ 有目标没落库。合并告警里找这几款：{'、'.join(left)}\n{bar}")
-        return EXIT_ERROR
     if verdict == "fail":
         print(f"{bar}\n❌ verify 未通过，先修上面列的问题\n{bar}")
         return EXIT_ERROR
+    if left:
+        print(f"{bar}\n❌ 有目标没落库。合并告警里找这几款：{'、'.join(left)}\n{bar}")
+        return EXIT_NEED_RESEARCH
 
-    print(f"{bar}\n✅ 本次 {len(done)} 款档案已补齐并入库\n{bar}")
+    print(f"{bar}\n✅ 本批处理结束：落库 {len(done)} 款，停止补档 {len(skipped)} 款\n{bar}")
     return EXIT_OK
 
 
 def state_still_relevant(state: dict) -> bool:
     """上次那批目标里还有没落库的吗？全部已落库就没必要再走一遍合并。"""
-    have = archived_keys()
+    have = archived_keys() | stopped_keys()
     return any(norm_name(n) not in have for n in (state.get("targets") or []))
 
 
@@ -521,6 +603,7 @@ def status() -> int:
     print(f"工单生成时间    {wl.get('generated_at')}（source={wl.get('source')}）")
     print(f"已真正落库      {len(have)} 款（索引有键且 <slug>.json 在磁盘上）")
     print(f"工单待建档      {len(pending)} 款")
+    print(f"已停止自动补档  {len(stopped_keys())} 款（不计为已完成）")
 
     pool = wx_pool_names()
     wx_pending = [e for e in pending if in_wx_scope(e, pool)]
@@ -551,6 +634,9 @@ def main() -> int:
     ap.add_argument("--prepare-only", action="store_true", help="只备料，不自动续跑")
     ap.add_argument("--check-targets", action="store_true",
                     help="只报告上次备料的目标是否已落库")
+    ap.add_argument("--record-insufficient", metavar="NAME", help="记录本轮资料不足，仅限本批未落库目标")
+    ap.add_argument("--reason", help="资料不足原因；网络、权限、额度故障不计入")
+    ap.add_argument("--round-id", help="独立调研轮次ID；同轮重复执行只计一次")
     ap.add_argument("--scope", choices=["wx", "all"], default="wx",
                     help="wx=周报口径（默认）；all=工单内全部待建档")
     ap.add_argument("--names", default="", help="点名只补这几款（逗号分隔）")
@@ -564,7 +650,14 @@ def main() -> int:
     ap.add_argument("--force", action="store_true",
                     help="--finish 时即使调研产物不齐也强行合并")
     args = ap.parse_args()
+    if args.limit < 0 or args.size < 1:
+        ap.error("--limit 必须大于等于 0，--size 必须大于 0")
     args.names_list = [s.strip() for s in args.names.split(",") if s.strip()]
+
+    if args.record_insufficient:
+        if not args.reason or not args.reason.strip() or not args.round_id or not args.round_id.strip():
+            ap.error("记录资料不足时必须提供 --reason 和 --round-id")
+        return record_insufficient(args.record_insufficient, args.reason.strip(), args.round_id.strip())
 
     # 两个只读入口：不刷新工单
     if args.status:
@@ -575,10 +668,12 @@ def main() -> int:
             print("[error] 没有 _refill_state.json，先跑一次 refill.py 备料")
             return EXIT_ERROR
         have = archived_keys()
-        left = [n for n in (state.get("targets") or []) if norm_name(n) not in have]
+        stopped = stopped_keys()
+        skipped = [n for n in state.get("targets", []) if norm_name(n) in stopped and norm_name(n) not in have]
+        left = [n for n in (state.get("targets") or []) if norm_name(n) not in have | stopped]
         total = len(state.get("targets") or [])
         print(f"上次备料 {state.get('prepared_at')}：目标 {total} 款，"
-              f"已落库 {total - len(left)} 款"
+              f"已落库 {total - len(left) - len(skipped)} 款，停止补档 {len(skipped)} 款"
               + (f"，还差 {len(left)}：{'、'.join(left)}" if left else " ✅"))
         return EXIT_OK if not left else EXIT_NEED_RESEARCH
 
@@ -596,13 +691,22 @@ def main() -> int:
     # 上次备的料如果已经调研完了，就别再切一批新的 —— 直接接力到合并
     state = read_state()
     ready, _ = all_ready(state)
-    if ready and state_still_relevant(state):
-        print(f"\n上次备的 {len(state.get('batches') or [])} 批调研产物已就绪，"
-              f"直接接力到合并（不重复切批）…")
-        return finish(args)
+    if state and state_still_relevant(state):
+        if ready and not args.prepare_only:
+            return finish(args)
+        inputs = [ROOT / batch["input"] for batch in state["batches"]]
+        if any(not path.exists() for path in inputs):
+            print("[error] 原批次输入文件缺失，请恢复输入文件后续跑")
+            return EXIT_ERROR
+        _, todo = all_ready(state)
+        print("继续上次未完成批次，保留已有调研产物。")
+        print_handoff(todo)
+        return EXIT_NEED_RESEARCH
 
-    fetch_media(args)
-    rc = cut_batches(args)
+    targets = selected_targets(args)
+    if targets:
+        fetch_media(args, targets)
+    rc = cut_batches(args, targets)
     if rc != EXIT_NEED_RESEARCH or args.prepare_only:
         return rc
 

@@ -1,0 +1,209 @@
+{
+ "schema_version": 1,
+ "name": "崩坏:因缘精灵",
+ "updated_at": "2026-11-18",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "miHoYo",
+  "category_l1": "冒险",
+  "category_l2": "宠物、自走棋、崩坏、策略、3D",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 7
+  },
+  "platform_app_ids": {
+   "taptap": "753921"
+  },
+  "first_seen": "2026-07-06",
+  "appearances": 58,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未取得可核对的官方引擎信息",
+  "engine_evidence": "unknown",
+  "dimension": "3D",
+  "art_style": "官方页面列3D标签，多角色、场景和演出构成高资产投入风险；具体引擎未查明。",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 5,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 5
+  },
+  "dim_notes": {
+   "art": "官方页面列3D标签，多角色、场景和演出构成高资产投入风险；具体引擎未查明。",
+   "logic": "精灵技能、阵容羁绊及冒险内容可能形成高配置复杂度，具体机制规模未实测。",
+   "engine": "评分为原型实现难度估算，具体引擎、版本未确认。",
+   "server": "联网成本为设计估算，原作架构和峰值负载未确认。"
+  },
+  "asset_notes": "官方页面列3D标签，多角色、场景和演出构成高资产投入风险；具体引擎未查明。",
+  "notes": "成本分数、目标用户与工作量均为调研推断；仅官方材料明确描述的系统视为已确认。",
+  "cost_score": 4.75,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "官方将其描述为精灵养成冒险策略游戏。玩家作为位面旅行者与精灵建立联系，参与因缘对决并推进身世线索。公开页仍有预约及测试入口，正式运营循环和付费细节需跟随官方后续信息。",
+  "highlights": [
+   "精灵收集养成与旅程叙事形成持续目标。",
+   "自走棋策略标签提示重心包含阵容与战前决策，具体规则待测试确认。"
+  ],
+  "innovations": [
+   "崩坏IP与精灵养成策略的结合已获官方确认，战斗和探索的独有设计仍需试玩。"
+  ],
+  "target_user": "推断：对该题材及上述核心循环感兴趣的玩家，具体画像待用户数据验证。",
+  "monetization": "具体广告频次、付费结构及收入贡献尚未通过游戏内验证。",
+  "lifecycle": "持续运营能力和留存曲线未取得，需结合实际游玩及后续榜单观察。"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "IP内容、三维资产和长期精灵养成服务形成较高投入，适合研究局部策略表达。",
+  "suggestions": [
+   "用原创三个精灵制作单局阵容对决。",
+   "把长期收集拆成短局选择，先验证技能互补。"
+  ],
+  "risks": [
+   "崩坏IP及角色资产需要授权。",
+   "预约热度不能代表上线后的留存或收入。"
+  ],
+  "effort": "推断：三精灵单局原型40–70人日，完整内容服务暂不估算。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "精灵关系可以提供持续收集动机。"
+    },
+    {
+     "lens": "用户",
+     "text": "阵容决策为重复对局提供变化。"
+    },
+    {
+     "lens": "业务",
+     "text": "原创少量精灵能验证技能配合而减少内容量。"
+    },
+    {
+     "lens": "业务",
+     "text": "大型3D内容管线需要先评估团队承载能力。"
+    }
+   ],
+   "how": [
+    "制作可配置技能和三单位回合结算。",
+    "让同一关卡适配不同阵容并记录胜率。"
+   ],
+   "gain": [
+    "形成技能和单位配置结构。",
+    "测量组合选择的可理解性。",
+    "获得小规模平衡调参方法。",
+    "为后续角色数量和内容预算提供依据。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "官方页确认开发者miHoYo及供应商主体，IP合作条件和授权窗口未知。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "原创精灵策略活动",
+     "how": "制作三单位短局阵容挑战并复用自有原创资产。"
+    }
+   ]
+  },
+  "summary": "IP内容、三维资产和长期精灵养成服务形成较高投入，适合研究局部策略表达。"
+ },
+ "shots": [
+  {
+   "url": "https://img-tc.tapimg.com/market/images/2b1b7439386c604482bd60353508f081.jpg/_tap_appicon.jpg",
+   "kind": "icon",
+   "source": "TapTap",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/a09e03135f3527e5448da429222ba47b.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/626e2dc26705d157051df014de108c80.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/968ea87566b5ad874d66b428cd4864cf.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/04d3b62cf9fac6df9192bb6e06681f4b.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/88f45a9717dd0ac840a594e5f6a10d85.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 5"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "产品定位来自所列商店、官方页或引力引擎榜单摘要，跨版本关系以正文标记为准。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "具体引擎未知，成本、表现维度、原型工作量和复用价值为调研判断。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.taptap.cn/app/753921"
+ ],
+ "notes": "调研时间2026-11-18；未做原作真机试玩。",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "identity_match": "app_id",
+  "platform": "taptap",
+  "match_name": "崩坏：因缘精灵",
+  "match_score": 1.0,
+  "country": "cn",
+  "seller": "miHoYo",
+  "icon": "https://img-tc.tapimg.com/market/images/2b1b7439386c604482bd60353508f081.jpg/_tap_appicon.jpg",
+  "screenshots": [
+   "https://img-tc.tapimg.com/market/images/a09e03135f3527e5448da429222ba47b.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/626e2dc26705d157051df014de108c80.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/968ea87566b5ad874d66b428cd4864cf.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/04d3b62cf9fac6df9192bb6e06681f4b.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/88f45a9717dd0ac840a594e5f6a10d85.jpg/_tap_screenshot.jpg"
+  ],
+  "description": "",
+  "url": "https://www.taptap.cn/app/753921",
+  "version": "",
+  "file_size_bytes": 0,
+  "fetched_at": "2026-11-18T09:51:42+08:00"
+ },
+ "slug": "崩坏_因缘精灵_5ac20a"
+}

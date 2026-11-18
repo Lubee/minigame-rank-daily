@@ -1,0 +1,300 @@
+{
+ "schema_version": 1,
+ "name": "拳皇·命运-福利版",
+ "updated_at": "2026-11-18",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "HOOLAI GAME LIMITED",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 51
+  },
+  "platform_app_ids": {
+   "ios": "6809345559"
+  },
+  "first_seen": "2026-10-21",
+  "appearances": 6,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未取得可核对的官方引擎信息",
+  "engine_evidence": "unknown",
+  "dimension": "3D",
+  "art_style": "官方描述为3D横版格斗，涉及多角色建模、技能特效和原作语音；商店包体约2394 MiB。",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 5,
+   "physics": 5,
+   "logic": 4,
+   "data": 4,
+   "server": 5,
+   "audio": 5
+  },
+  "dim_notes": {
+   "art": "官方描述为3D横版格斗，涉及多角色建模、技能特效和原作语音；商店包体约2394 MiB。",
+   "logic": "动作状态机、技能判定及多人同步对一致性和延迟处理要求较高。",
+   "engine": "评分为原型实现难度估算，具体引擎、版本未确认。",
+   "server": "联网成本为设计估算，原作架构和峰值负载未确认。"
+  },
+  "asset_notes": "官方描述为3D横版格斗，涉及多角色建模、技能特效和原作语音；商店包体约2394 MiB。",
+  "notes": "成本分数、目标用户与工作量均为调研推断；仅官方材料明确描述的系统视为已确认。",
+  "cost_score": 4.62,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "选择并培养格斗家，以技能、连段和格挡反击完成剧情与PVE挑战，再进入1v1或3v3排位。官方商店还介绍格斗俱乐部及合作内容。",
+  "highlights": [
+   "经典角色和招式提供快速识别的战斗表达。",
+   "格挡、反击和连段支持操作决策，具体判定和联网体验需实测。"
+  ],
+  "innovations": [
+   "福利版主要强调授权角色及成长福利，尚无足够材料判断底层战斗系统的新机制。"
+  ],
+  "target_user": "推断：对该题材及上述核心循环感兴趣的玩家，具体画像待用户数据验证。",
+  "monetization": "具体广告频次、付费结构及收入贡献尚未通过游戏内验证。",
+  "lifecycle": "持续运营能力和留存曲线未取得，需结合实际游玩及后续榜单观察。"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "IP授权、动作手感、多角色技能及实时竞技形成高成本，轻量团队宜先研究单角色训练原型。",
+  "suggestions": [
+   "用原创单角色和固定木桩验证输入缓冲及取消窗口。",
+   "在离线原型稳定后再测网络延迟补偿。"
+  ],
+  "risks": [
+   "SNK角色、招式演出和语音存在授权要求。",
+   "同期多端版本及福利参数需要游戏内核对。"
+  ],
+  "effort": "推断：原创单角色离线格斗原型40–70人日，实时竞技服务另算。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "招式反馈能明确说明操作结果。"
+    },
+    {
+     "lens": "用户",
+     "text": "熟练连段提供可练习的成长路径。"
+    },
+    {
+     "lens": "业务",
+     "text": "输入缓冲与动作状态机具有模块复用价值。"
+    },
+    {
+     "lens": "业务",
+     "text": "多角色与网络应在基础手感验证之后投入。"
+    }
+   ],
+   "how": [
+    "实现三招技能与可观察的命中、硬直、恢复状态。",
+    "记录输入时序并测试不同帧率下的判定。"
+   ],
+   "gain": [
+    "沉淀动作状态机。",
+    "形成输入时序记录工具。",
+    "获得判定稳定性的测量方法。",
+    "估算每名角色的制作和调试成本。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "官方商店确认HOOLAI GAME LIMITED及授权表述，具体授权链和合作条款需核查。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "原创训练挑战",
+     "how": "以原创角色制作短时连击训练和成绩挑战。"
+    }
+   ]
+  },
+  "summary": "IP授权、动作手感、多角色技能及实时竞技形成高成本，轻量团队宜先研究单角色训练原型。"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/cd/ed/32cded29-1bf2-55ac-8af4-8f8afa79068b/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/32/7f/4e327f52-528d-4121-be66-37bdec7bf9c9/1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/10/80/80108023-f1cc-573d-0171-17a426b02334/6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/be/d0/8bbed03c-f401-414c-dcfa-55e8e231e617/4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/9f/d6/6f9fd61c-d308-5110-d934-fa7dd24f6324/5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/e5/02/76e50260-8680-c557-52e0-27448aa255c4/3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/63/85/3063857f-0ef3-0738-0a3c-5d1bb491b42b/2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/d2/6b/d7d26b09-8fbf-2d6a-464c-2e2127fb75eb/7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/89/11/d98911ee-376e-59d8-2638-45d4880c6d8a/8.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/35/e3/a935e360-7eb4-f1df-fd9a-e57a75664bea/A.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/75/9f/d5759f9a-645d-1561-b07e-714283888567/F.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/96/b0/d896b092-70df-3a5f-adee-45d06276e2f6/D.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/f3/6c/7bf36cc4-f71f-db27-8980-9c26387a164f/E.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/16/b7/d316b72c-0fce-d2a5-02f2-6278ea07f0bd/C.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/73/4f/21734fd6-4bbd-c897-957d-1927bc493bdf/B.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/6b/da/0a6bdaef-b4fc-0cc6-ce6b-d60940094205/G.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/04/01/2704014b-89d8-ec43-b042-d2531c914d21/J.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "产品定位来自所列商店、官方页或引力引擎榜单摘要，跨版本关系以正文标记为准。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "具体引擎未知，成本、表现维度、原型工作量和复用价值为调研判断。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E6%8B%B3%E7%9A%87-%E5%91%BD%E8%BF%90-%E7%A6%8F%E5%88%A9%E7%89%88/id6809345559?uo=4",
+  "https://apps.apple.com/cn/app/id6809345559"
+ ],
+ "notes": "调研时间2026-11-18；未做原作真机试玩。",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "拳皇·命运-福利版",
+  "country": "cn",
+  "track_id": 6809345559,
+  "seller": "HOOLAI GAME LIMITED",
+  "genres": [
+   "游戏",
+   "动作",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/cd/ed/32cded29-1bf2-55ac-8af4-8f8afa79068b/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/32/7f/4e327f52-528d-4121-be66-37bdec7bf9c9/1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/10/80/80108023-f1cc-573d-0171-17a426b02334/6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/be/d0/8bbed03c-f401-414c-dcfa-55e8e231e617/4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/9f/d6/6f9fd61c-d308-5110-d934-fa7dd24f6324/5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/e5/02/76e50260-8680-c557-52e0-27448aa255c4/3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/63/85/3063857f-0ef3-0738-0a3c-5d1bb491b42b/2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/d2/6b/d7d26b09-8fbf-2d6a-464c-2e2127fb75eb/7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d9/89/11/d98911ee-376e-59d8-2638-45d4880c6d8a/8.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/35/e3/a935e360-7eb4-f1df-fd9a-e57a75664bea/A.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/75/9f/d5759f9a-645d-1561-b07e-714283888567/F.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/96/b0/d896b092-70df-3a5f-adee-45d06276e2f6/D.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/f3/6c/7bf36cc4-f71f-db27-8980-9c26387a164f/E.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/16/b7/d316b72c-0fce-d2a5-02f2-6278ea07f0bd/C.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/73/4f/21734fd6-4bbd-c897-957d-1927bc493bdf/B.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/6b/da/0a6bdaef-b4fc-0cc6-ce6b-d60940094205/G.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/04/01/2704014b-89d8-ec43-b042-d2531c914d21/J.png/626x1112bb.jpg"
+  ],
+  "description": "《拳皇·命运》是SNK经典IP“拳皇·命运”正版授权的3D横版格斗手游，游戏以KOF世界观为背景，精心还原了草薙京、八神庵、不知火舞、特瑞等超过40位经典格斗家，每位角色都拥有独特的技能体系、连招系统和专属必杀技，简化了操作难度，将\"搓招\"\"连段\"\"格挡反击\"等街机格斗精髓完美移植到移动端。\n\n【视效巅峰，音韵经典】\n角色建模精细到每一块肌肉的颤动，场景设计涵盖南镇码头、京都神社、墨西哥遗迹等经典KOF战场，配合粒子特效渲染的火焰、雷电、冰霜等元素攻击，带来影院级的视觉冲击。音效方面更是邀请SNK原作声优团队全程配音，\"OROCHI POWER！\"\"YOU WIN！\"等经典台词配合拳拳到肉的打击音效，瞬间唤醒玩家的格斗记忆。\n\n【玩法丰富，公平竞技】\n游戏构建了全方位的格斗生态：1v1天梯排位赛让玩家体验职业电竞般的竞技快感；3v3跨服排位战考验团队策略配合；剧情模式完整重现“拳皇·命运”的史诗篇章；更有单人、多人合作的PVE内容。\n\n【公会共建，热血开战】\n玩家可以创建或加入格斗俱乐部，与志同道合的拳友一起征战副本；俱乐部争霸玩法营造热血沸腾的格斗氛围。更有红包、派对等玩法，等你体验。",
+  "release_notes": "1、优化游戏活动描述文本；\n2、修复已知的游戏BUG；",
+  "file_size_bytes": 2510156800,
+  "min_os": "13",
+  "version": "3.04.000",
+  "release_date": "2026-10-21",
+  "rating": 2.8433,
+  "rating_count": 702,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E6%8B%B3%E7%9A%87-%E5%91%BD%E8%BF%90-%E7%A6%8F%E5%88%A9%E7%89%88/id6809345559?uo=4",
+  "fetched_at": "2026-11-18T09:40:14+08:00",
+  "identity_match": "app_id"
+ },
+ "slug": "拳皇_命运_福利版_18cf4f"
+}

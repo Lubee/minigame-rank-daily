@@ -1,0 +1,204 @@
+{
+ "schema_version": 1,
+ "name": "小兵有前途",
+ "updated_at": "2026-11-18",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "北京宝可嘻科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜",
+   "douyin/畅销榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 4,
+   "wx/畅销榜": 51,
+   "douyin/畅销榜": 71
+  },
+  "platform_app_ids": {
+   "douyin": "tt09467ffb964e1cdc02"
+  },
+  "first_seen": "2026-10-01",
+  "appearances": 12,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未取得可核对的官方引擎信息",
+  "engine_evidence": "unknown",
+  "dimension": "2D",
+  "art_style": "公开分析描述为Q版卡通立绘；2D表现与成本为调研推断，具体渲染方式和安装包体未知。",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 4,
+   "server": 4,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "推断：跑商交易、英雄成长与战斗需要保持经济闭环。",
+   "data": "推断：不同货币和英雄成长路径需要数值配置及消耗验证。",
+   "server": "推断：SLG多人部分需确认实际同步规则，当前仅估算联网成本。"
+  },
+  "asset_notes": "公开分析描述为Q版卡通立绘；2D表现与成本为调研推断，具体渲染方式和安装包体未知。",
+  "notes": "引擎及实际服务端架构未知；2D表现、实现难度和工作量为推断。玩法循环引用DataEye公开分析，未确认实际版本差异。",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "据DataEye发布的产品分析，玩家先跑商赚取货币，再投入原石与英雄成长；英雄反过来增强经营收益和策略对战能力。该循环来自媒体调研，未在本轮实际试玩验证。",
+  "highlights": [
+   "设计分析：跑商收益可为养成提供即时反馈，降低开局理解成本。",
+   "设计分析：经营积累与后续战斗互相驱动，长期价值取决于经济平衡。"
+  ],
+  "innovations": [
+   "据DataEye分析，以跑商经营引导接入SLG成长；其差异化效果仍需试玩验证。"
+  ],
+  "target_user": "推断：对该题材及上述核心循环感兴趣的玩家，具体画像待用户数据验证。",
+  "monetization": "具体广告频次、付费结构及收入贡献尚未通过游戏内验证。",
+  "lifecycle": "持续运营能力和留存曲线未取得，需结合实际游玩及后续榜单观察。"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "可研究经营作为策略养成入口的组织方式；经济闭环与多人内容会显著增加调优成本，不能按单关休闲游戏估算。",
+  "suggestions": [
+   "仅做单人三城贸易，明确每趟运输成本。",
+   "先以脚本敌人替代玩家争夺，验证经营到战斗的资源连接。"
+  ],
+  "risks": [
+   "公开分析并非本轮实测，实际版本与宣传可能存在差异。",
+   "经济膨胀与多人对抗平衡可能使后期内容成本超过原型估算。"
+  ],
+  "effort": "推断：仅跑商与英雄成长的单机验证原型25–40人日；完整SLG与长期运营另行评估。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "贸易单次收益有助于用户判断行动价值。"
+    },
+    {
+     "lens": "用户",
+     "text": "地图路线能展示下一步目标。"
+    },
+    {
+     "lens": "业务",
+     "text": "先缩成单人玩法可以隔离联网变量。"
+    },
+    {
+     "lens": "业务",
+     "text": "经济参数与战斗消耗应先证明能形成循环。"
+    }
+   ],
+   "how": [
+    "实现三城价格差和固定运输时间。",
+    "用资源支出日志观察贸易收益是否挤压战斗选择。"
+   ],
+   "gain": [
+    "验证贸易收益曲线。",
+    "取得地图路径与订单原型。",
+    "识别资源通胀的早期迹象。",
+    "为是否投入联网提供数据依据。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "榜单发行商与公开运营主体记录指向北京宝可嘻，具体商务窗口未查明。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "单人路线经营",
+     "how": "用原创商队与固定城镇制作贸易题材小样。"
+    }
+   ]
+  },
+  "summary": "当前证据不足以评估完整SLG的联网和长期数值成本，可以先研究单人贸易循环。"
+ },
+ "shots": [
+  {
+   "url": "https://res.ldmnq.com/yyb/493ff9abe29a495bb3ce508933397e91.png",
+   "kind": "icon",
+   "source": "雷电小游戏平台展示页",
+   "caption": "小兵有前途ICON（平台展示图）"
+  },
+  {
+   "url": "https://res.ldmnq.com/yyb/4be9244f05ed4e9bbde4be2b617fea14.webp",
+   "kind": "screenshot",
+   "source": "雷电小游戏平台展示页",
+   "caption": "小兵有前途_1（平台展示图）"
+  },
+  {
+   "url": "https://res.ldmnq.com/yyb/4b16710254864434812b622b1b7dddac.webp",
+   "kind": "screenshot",
+   "source": "雷电小游戏平台展示页",
+   "caption": "小兵有前途_2（平台展示图）"
+  },
+  {
+   "url": "https://res.ldmnq.com/yyb/486534a1eb5c43dfbfb3f5de81e53bde.webp",
+   "kind": "screenshot",
+   "source": "雷电小游戏平台展示页",
+   "caption": "小兵有前途_3（平台展示图）"
+  },
+  {
+   "url": "https://res.ldmnq.com/yyb/09286776026e457a86d77bce288d50f6.webp",
+   "kind": "screenshot",
+   "source": "雷电小游戏平台展示页",
+   "caption": "小兵有前途_4（平台展示图）"
+  },
+  {
+   "url": "https://res.ldmnq.com/yyb/73a6df21c0814a12a2237df7e35c17ec.webp",
+   "kind": "screenshot",
+   "source": "雷电小游戏平台展示页",
+   "caption": "小兵有前途_5（平台展示图）"
+  },
+  {
+   "url": "https://res.ldmnq.com/yyb/77a31c39cd6247048839438f3a175491.webp",
+   "kind": "screenshot",
+   "source": "雷电小游戏平台展示页",
+   "caption": "小兵有前途_6（平台展示图）"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "跑商经营与英雄成长的关系来自DataEye在36氪发布的产品分析，并非官方规则或本轮试玩。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎未知，2D表现、技术实现、成本及复用建议均为推断。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.36kr.com/p/3857926161044740",
+  "https://www.ldmnq.com/minigames/24008/"
+ ],
+ "notes": "调研时间2026-11-18；未做原作真机试玩。",
+ "issues": [],
+ "media": {
+  "matched": false,
+  "source_urls": [],
+  "icon": "",
+  "screenshots": [],
+  "fetched_at": "2026-11-18T09:40:08+08:00"
+ },
+ "slug": "小兵有前途_b42f3f"
+}

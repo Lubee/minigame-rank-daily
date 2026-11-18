@@ -1,0 +1,223 @@
+{
+ "schema_version": 1,
+ "name": "[777Real]スマスロ リコリス・リコイル",
+ "updated_at": "2026-11-18",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "Sammy Networks Co., Ltd.",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 6
+  },
+  "platform_app_ids": {
+   "ios": "6823027426"
+  },
+  "first_seen": "2026-11-11",
+  "appearances": 7,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未找到官方引擎信息",
+  "engine_evidence": "unknown",
+  "dimension": "2D",
+  "art_style": "二维机台界面、角色演出与大量视听资源，官方包体约235 MiB；运行期资源体积未知。",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 4,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 3,
+   "audio": 4
+  },
+  "dim_notes": {
+   "art": "二维机台界面、角色演出与大量视听资源，官方包体约235 MiB；运行期资源体积未知。",
+   "logic": "RUSH、BONUS、POINT 与上位挑战是明确的多状态机，需要核对原机台规则并处理演出与结果同步。",
+   "server": "联网规模、服务端实现与成本未获得官方确认，评分为调研估算。"
+  },
+  "asset_notes": "二维机台界面、角色演出与大量视听资源，官方包体约235 MiB；运行期资源体积未知。",
+  "notes": "全部成本维度是研发估算。具体引擎、版本及运行期资源未确认。",
+  "cost_score": 3.12,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "选择机台并进行转轮操作，触发 BONUS 与 RUSH，积累 POINT 进入上位挑战，再尝试更高阶段的演出。机台规则与动画题材共同构成目标。",
+  "highlights": [
+   "BONUS、RUSH 和 POINT MAX 形成逐层升级的结果反馈。",
+   "原作角色与剧情演出把随机结果包装成可期待的剧情时刻。"
+  ],
+  "innovations": [
+   "官方介绍强调双角色相遇与上位 RUSH 的联动，差异主要来自授权机台的规则与演出组合。"
+  ],
+  "target_user": "日本原作动画和弹珠机题材爱好者，具体用户年龄与付费结构未确认。",
+  "monetization": "777Real 平台经营及虚拟道具模式需进一步核对，公开简介不足以确认具体付费点。",
+  "lifecycle": "推断：依赖持续内容和活动更新，实际留存尚未取得。"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "完整产品依赖动画及实体机台授权、规则和视听资源，自有轻量小游戏团队复制整套产品的投入和授权成本较高。",
+  "suggestions": [
+   "可用原创题材实验分阶段进度反馈，先做固定规则的演出原型。",
+   "将结果展示和随机计算分开设计，记录概率和玩家可见规则。"
+  ],
+  "risks": [
+   "动画角色、音乐和机台演出存在授权要求。",
+   "随机奖励设计需要单独评估目标地区规则和适龄要求。"
+  ],
+  "effort": "推断：原创演出原型约20–40人日；完整机台还原因授权与资源范围未知，暂不估算。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "阶段推进能让用户识别当前目标，降低连续操作的无目的感。"
+    },
+    {
+     "lens": "用户",
+     "text": "角色相遇与奖励演出关联，可让原作受众更容易理解结果。"
+    },
+    {
+     "lens": "业务",
+     "text": "可抽象的部分是多阶段状态与反馈编排，对授权内容依赖较低。"
+    },
+    {
+     "lens": "业务",
+     "text": "完整资源制作较重，适合先检验进度机制再决定是否扩展。"
+    }
+   ],
+   "how": [
+    "制作原创四阶段进度条及固定演出脚本，避免挪用原作角色。",
+    "记录各阶段进入率和退出点，比较短演出与长演出的完成率。"
+   ],
+   "gain": [
+    "获得可复用的阶段奖励状态机。",
+    "量化演出时长对完成率的影响。",
+    "在制作完整素材前发现反馈节奏问题。",
+    "为原创活动玩法形成概率与演出的可审计记录。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "涉及原作及机台的多方权利，需要先确认授权范围与成本，当前资料不足以判断合作可行性。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "活动进度奖励",
+     "how": "将 POINT MAX 改为确定性的签到进度，满格解锁原创动画。"
+    }
+   ]
+  },
+  "summary": "完整产品依赖动画及实体机台授权、规则和视听资源，自有轻量小游戏团队复制整套产品的投入和授权成本较高。"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/fb/29/00fb298d-2317-eb82-078b-653bb0e31b32/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（jp）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/06/cc/f406cc2e-bb24-0806-e43d-f2fcb7c5364d/1242x2208_01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/ae/f9/96aef9d7-4be5-f800-6a96-cd258cecb589/1242x2208_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/ab/4a/baab4a62-aae2-9795-8eb0-557b4cd9db13/1242x2208_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/d5/05/cbd505aa-9846-ef6e-187f-a64518abd96b/1242x2208_04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/dd/07/55dd07ba-7421-6fe9-53c7-429484ac7795/1242x2208_05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（jp）",
+   "caption": "官方实机截图 5"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "核心操作与循环来自官方商店介绍。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎未知，成本、目标人群及复用方案属于调研判断。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/jp/app/777real-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%AA%E3%82%B3%E3%83%AA%E3%82%B9-%E3%83%AA%E3%82%B3%E3%82%A4%E3%83%AB/id6823027426?uo=4",
+  "https://prtimes.jp/main/html/rd/p/000002013.000002703.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "[777Real]スマスロ リコリス・リコイル",
+  "country": "jp",
+  "track_id": 6823027426,
+  "seller": "Sammy Networks Co., Ltd.",
+  "genres": [
+   "ゲーム",
+   "カジノ",
+   "エンターテインメント",
+   "シミュレーション"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/fb/29/00fb298d-2317-eb82-078b-653bb0e31b32/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/06/cc/f406cc2e-bb24-0806-e43d-f2fcb7c5364d/1242x2208_01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/ae/f9/96aef9d7-4be5-f800-6a96-cd258cecb589/1242x2208_02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/ab/4a/baab4a62-aae2-9795-8eb0-557b4cd9db13/1242x2208_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/d5/05/cbd505aa-9846-ef6e-187f-a64518abd96b/1242x2208_04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/dd/07/55dd07ba-7421-6fe9-53c7-429484ac7795/1242x2208_05.png/626x1112bb.jpg"
+  ],
+  "description": "----------------------------------------\nスマスロ リコリス・リコイル\n2026年/Sammy\n---------------------------------------- \n\nふたりの出会いで、物語は動き出す\nスマスロ リコリス・リコイルが777Realに登場！\n\n■リコリスラッシュはBONUSを繰り返してPOINT MAXを目指せ！\nリコリスの楽しさがはじける多彩なBONUSは純増約8.4枚\nラッシュ中のBONUS獲得でウォールナットハックが発生！\nBONUS中は全役でPOINT獲得抽選！\nPOINT MAXで上位CZ 「リコイル オブ リコリス」獲得！\n\n■ウォールナットハック発生でRUSH性能大幅強化\nG数50G+ST10Gを獲得！\nRUSH前半はBONUS確率約1/18の50G+αの疑似ボ連打ゾーン！\nRUSH後半は10G+αのSTタイプ！引き次第でチャンスは途切れない！\n\n■二人の出会いが出玉の最高潮にリンク！\n上位CZ「リコイル オブ リコリス」はたきなが駆けつければ\nRUSH性能が大幅UPした上位RUSH「リコリスラッシュW」に突入！\n\n二つの”才能”が未来を掴み取る！\n『スマスロ リコリス・リコイル』を【777Real】で楽しもう！\n\n----------------------------------------\n必要動作環境について\n----------------------------------------\n必要動作環境につきましては、777Real公式サイトでご確認をお願いいたします。\n※公式サイト画面最下部\n\n----------------------------------------\n個人情報の扱いについて/プライバシーポリシー\n----------------------------------------\nアプリ内の[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞利用規約]および[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞個人情報の取り扱い]をご確認ください。\nお客様がダウンロードボタンをタップ、本アプリケーションをダウンロードされた場合には、アプリケーションプライバシーポリシーに同意したものとみなされます。\n\n----------------------------------------\nサポートセンター窓口\n----------------------------------------\nアプリ内の[お問い合わせ/FAQ]より、お問い合わせフォームをご利用ください。\n※営業時間：10時～19時\n※返信などの対応は原則翌営業時間になります。予めご了承ください。",
+  "release_notes": "",
+  "file_size_bytes": 246711296,
+  "min_os": "15.6",
+  "version": "1.0.0",
+  "release_date": "2026-11-10",
+  "rating": 4.16491,
+  "rating_count": 285,
+  "price": "無料",
+  "advisory": "17+",
+  "url": "https://apps.apple.com/jp/app/777real-%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%AD-%E3%83%AA%E3%82%B3%E3%83%AA%E3%82%B9-%E3%83%AA%E3%82%B3%E3%82%A4%E3%83%AB/id6823027426?uo=4",
+  "fetched_at": "2026-11-18T09:37:52+08:00",
+  "identity_match": "app_id"
+ },
+ "slug": "777Real_スマスロ_リコリス_リコイル_916a5a"
+}

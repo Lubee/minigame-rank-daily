@@ -41,6 +41,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from schema import norm_name
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -139,18 +140,82 @@ def to_record(name: str, cand: dict, score: float, country: str) -> dict:
     }
 
 
+def identity_media(entry: dict) -> dict:
+    """Use source IDs. Name-based cross-platform candidates remain for AI review."""
+    regions = {"美区免费榜": "us", "国区免费榜": "cn", "日区免费榜": "jp"}
+    store_path = ROOT / "data" / "base" / "store-apps.json"
+    store = json.loads(store_path.read_text(encoding="utf-8")) if store_path.exists() else {}
+    sources = []
+    for path in sorted((ROOT / "data" / "daily").glob("????-??-??.json"), reverse=True):
+        snapshot = json.loads(path.read_text(encoding="utf-8"))
+        for platform, data in snapshot.get("platforms", {}).items():
+            for board in data.get("boards", []):
+                for row in board.get("rows", []):
+                    if norm_name(row.get("name")) != norm_name(entry["name"]):
+                        continue
+                    if row.get("url") and row["url"] not in sources:
+                        sources.append(row["url"])
+                    if platform == "ios" and row.get("app_id"):
+                        country = regions.get(board["label"])
+                        if not country:
+                            continue
+                        query = urllib.parse.urlencode({"id": row["app_id"], "country": country, "entity": "software"})
+                        try:
+                            req = urllib.request.Request("https://itunes.apple.com/lookup?" + query, headers={"User-Agent": UA})
+                            with urllib.request.urlopen(req, timeout=15) as response:
+                                candidates = json.load(response).get("results") or []
+                            candidate = next((item for item in candidates if str(item.get("trackId")) == str(row["app_id"])), None)
+                            if candidate:
+                                result = to_record(entry["name"], candidate, 1.0, country)
+                                result["identity_match"] = "app_id"
+                                return result
+                        except (OSError, ValueError) as error:
+                            print(f"[media] {entry['name']} ID 查询失败：{type(error).__name__}")
+                        known = store.get(f"ios:{country}:{row['app_id']}")
+                    elif platform in ("android", "taptap"):
+                        app_id = row.get("package") if platform == "android" else row.get("app_id")
+                        known = store.get(f"{platform}:{app_id}")
+                    else:
+                        continue
+                    if known:
+                        return {
+                            "matched": True, "identity_match": "app_id", "platform": platform,
+                            "match_name": known["name"], "match_score": 1.0,
+                            "country": known.get("country"), "seller": known.get("developer") or known.get("publisher"),
+                            "icon": known.get("icon"), "screenshots": known.get("screenshots") or [],
+                            "description": known.get("description") or "", "url": known.get("url"),
+                            "version": known.get("version") or "", "file_size_bytes": 0,
+                            "fetched_at": datetime.now(BEIJING).isoformat(timespec="seconds"),
+                        }
+        # A single source record is sufficient; do not repeat missing-ID lookups across historical days.
+        if sources:
+            break
+    return {
+        "matched": False, "source_urls": sources,
+        "icon": entry.get("icon_url") or "", "screenshots": [],
+        "fetched_at": datetime.now(BEIJING).isoformat(timespec="seconds"),
+    }
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true", help="忽略缓存重查")
     ap.add_argument("--limit", type=int, default=0, help="本次最多查询数")
     ap.add_argument("--delay", type=float, default=1.4, help="请求间隔秒")
     ap.add_argument("--min-score", type=float, default=0.74)
+    ap.add_argument("--names-json", help="仅查询指定目标的 JSON 名称数组，优先按应用身份取资料")
     args = ap.parse_args()
 
     if not WORKLIST.exists():
         raise SystemExit("先跑 build_worklist.py")
     wl = json.loads(WORKLIST.read_text(encoding="utf-8"))
     entries = wl.get("entries") or []
+    selected = json.loads(args.names_json) if args.names_json is not None else None
+    if selected is not None:
+        if not isinstance(selected, list) or not all(isinstance(name, str) for name in selected):
+            ap.error("--names-json 必须为字符串数组")
+        selected = set(selected)
+        entries = [entry for entry in entries if entry["name"] in selected]
 
     cache: dict[str, dict] = {}
     if MEDIA.exists():
@@ -161,7 +226,7 @@ def main() -> int:
             cache = {}
 
     todo = [e for e in entries
-            if args.force or e["name"] not in cache]
+            if selected is not None or args.force or e["name"] not in cache]
     if args.limit:
         todo = todo[:args.limit]
     print(f"工作清单 {len(entries)} 款｜已缓存 {len(cache)}｜本次查询 {len(todo)}")
@@ -170,7 +235,9 @@ def main() -> int:
     for i, e in enumerate(todo, 1):
         name = e["name"]
         rec = None
-        for country in ("cn", "us"):
+        if selected is not None:
+            rec = identity_media(e)
+        for country in (() if selected is not None else ("cn", "us")):
             try:
                 cands = query_itunes(name, country)
             except Exception as ex:  # noqa: BLE001
@@ -183,14 +250,16 @@ def main() -> int:
                 rec = to_record(name, got["cand"], got["score"], country)
                 break
             time.sleep(args.delay * 0.5)
-        if rec:
+        if rec and rec.get("matched"):
             cache[name] = rec
             hit += 1
             print(f"  [{i}/{len(todo)}] {name} -> {rec['match_name']}"
                   f"（{rec['match_score']}）截图{len(rec['screenshots'])}张"
                   f" {rec['file_size_bytes']//1048576}MB")
         else:
-            if name not in cache:
+            if rec is not None:
+                cache[name] = rec
+            elif name not in cache:
                 cache[name] = {"matched": False, "fetched_at":
                                datetime.now(BEIJING).isoformat(timespec="seconds")}
             miss += 1

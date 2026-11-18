@@ -1,0 +1,309 @@
+{
+ "schema_version": 1,
+ "name": "喵骑战域",
+ "updated_at": "2026-11-18",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "重庆很开心科技有限公司",
+  "category_l1": "1",
+  "category_l2": "",
+  "boards": [
+   "douyin/新游榜",
+   "douyin/热门榜",
+   "douyin/畅销榜",
+   "ios/国区免费榜",
+   "wx/畅销榜"
+  ],
+  "ranks": {
+   "douyin/新游榜": 1,
+   "douyin/畅销榜": 100,
+   "ios/国区免费榜": 15,
+   "wx/畅销榜": 96,
+   "douyin/热门榜": 64
+  },
+  "platform_app_ids": {
+   "douyin": "tt091d7fa0976619e507",
+   "ios": "6814706023"
+  },
+  "first_seen": "2026-09-25",
+  "appearances": 11,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未取得可核对的官方引擎信息",
+  "engine_evidence": "unknown",
+  "dimension": "2D",
+  "art_style": "以官方商店截图及猫咪武器主题估算角色与战斗特效工作量；包体约371 MiB，下载后资源未知。",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 3,
+   "data": 4,
+   "server": 3,
+   "audio": 3
+  },
+  "dim_notes": {
+   "art": "以官方商店截图及猫咪武器主题估算角色与战斗特效工作量；包体约371 MiB，下载后资源未知。",
+   "logic": "角色成长、武器参数和技能效果需要数据配置；具体挂机结算及联网同步方式未知。",
+   "engine": "评分为原型实现难度估算，具体引擎、版本未确认。",
+   "server": "联网成本为设计估算，原作架构和峰值负载未确认。"
+  },
+  "asset_notes": "以官方商店截图及猫咪武器主题估算角色与战斗特效工作量；包体约371 MiB，下载后资源未知。",
+  "notes": "成本分数、目标用户与工作量均为调研推断；仅官方材料明确描述的系统视为已确认。",
+  "cost_score": 3.0,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "官方商店将产品定义为萌系放置射击RPG，玩家组织持枪猫咪军团展开冒险。根据该定位推断，角色和装备成长驱动连续战斗，具体编队、技能触发和关卡规则需要游戏内确认。",
+  "highlights": [
+   "猫咪与夸张枪械形成易辨识的角色反差。",
+   "放置射击把战斗观看与角色成长结合，详细反馈强度待试玩。"
+  ],
+  "innovations": [
+   "可确认的表达是猫咪军团与放置射击结合，未找到足够证据证明底层机制创新。"
+  ],
+  "target_user": "推断：对该题材及上述核心循环感兴趣的玩家，具体画像待用户数据验证。",
+  "monetization": "具体广告频次、付费结构及收入贡献尚未通过游戏内验证。",
+  "lifecycle": "持续运营能力和留存曲线未取得，需结合实际游玩及后续榜单观察。"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "可以借鉴萌系角色与武器反差以及放置战斗结构，需使用原创角色和差异化射击目标。",
+  "suggestions": [
+   "先做三种原创动物和两类武器的单场战斗。",
+   "用不同射击目标替换纯战力增长，检验编队价值。"
+  ],
+  "risks": [
+   "猫咪造型及武器表现需要原创设计。",
+   "完整付费成长和长期数值曲线尚未实测。"
+  ],
+  "effort": "推断：三角色放置战斗原型25–45人日，不含长线运营。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "萌系角色降低战斗题材的视觉压迫。"
+    },
+    {
+     "lens": "用户",
+     "text": "低频操作适合碎片时间查看成长。"
+    },
+    {
+     "lens": "业务",
+     "text": "角色和武器可用数据表组合，便于原型迭代。"
+    },
+    {
+     "lens": "业务",
+     "text": "长线数值需要独立验证，不能仅凭下载榜判断留存。"
+    }
+   ],
+   "how": [
+    "配置三种武器作用范围与自动目标选择。",
+    "记录关卡停滞点，并测试一次操作的战斗影响。"
+   ],
+   "gain": [
+    "取得自动战斗原型。",
+    "建立武器参数配置表。",
+    "验证猫咪题材的素材点击反馈。",
+    "测量编队选择对通关的实际作用。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "App Store 能确认应用及供应方信息，发行合作和跨平台版本关系需另行核对。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "原创动物战队",
+     "how": "将武器更换为救援工具，制作原创救援战斗关卡。"
+    }
+   ]
+  },
+  "summary": "可以借鉴萌系角色与武器反差以及放置战斗结构，需使用原创角色和差异化射击目标。"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/49/21/c9492121-e9a2-9077-ee08-94ad93eb7c63/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/d1/98/bad19888-0a51-7caa-a4e1-5cedda1658f5/6.5_01_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/b9/84/eeb98456-08ed-f5c3-0d4e-1dd458014b84/6.5_02_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/b0/fd/5bb0fdb2-6e8a-b085-8a9e-b53eade54893/6.5_03_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/fd/c4/11fdc4a3-8be4-bc3f-1608-31b4665c8fa5/6.5_04_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/d6/cd/e8d6cdb5-6077-f2e4-9197-bd01e46c512d/6.5_05_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/62/3c/4a623c1e-29fc-a390-328d-4a9798862c61/6.5_07_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/fd/01/d4fd01ef-7fd6-9306-cb8a-164ffd2c7a4e/6.5_06_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/c3/46/2ec346e1-522e-5ece-a36f-2bf7572ddcba/6.5_08_CH_1242x2688.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/a3/86/2ba386cf-86aa-b960-d02b-5ff9add3c8f2/pad_01_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/ce/52/e2ce52a3-37ba-3333-7ddc-9308eca2bcf6/pad_02_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/d8/49/bad84986-1dc3-213b-761a-2a29c242a884/pad_03_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/73/3c/c4733c58-3aaa-cb98-b839-28296a2b327b/pad_04_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/43/63/6643630f-23fb-f3bf-9c22-7e9eff45a52e/pad_05_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/47/f0/8d47f047-f2e8-fb24-5113-2f26a363039c/pad_07_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/68/ec/cd68ecda-52e2-3d62-e6ea-0ec6a6853be5/pad_06_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/83/65/9a83659d-eb68-7d5a-0770-3189a0bda307/pad_08_zh.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "产品定位来自所列商店、官方页或引力引擎榜单摘要，跨版本关系以正文标记为准。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "具体引擎未知，成本、表现维度、原型工作量和复用价值为调研判断。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=4",
+  "https://apps.apple.com/cn/app/id6814706023"
+ ],
+ "notes": "调研时间2026-11-18；未做原作真机试玩。",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "喵骑战域",
+  "country": "cn",
+  "track_id": 6814706023,
+  "seller": "EasyGame Limited",
+  "genres": [
+   "游戏",
+   "休闲",
+   "角色扮演"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/49/21/c9492121-e9a2-9077-ee08-94ad93eb7c63/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/d1/98/bad19888-0a51-7caa-a4e1-5cedda1658f5/6.5_01_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/b9/84/eeb98456-08ed-f5c3-0d4e-1dd458014b84/6.5_02_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/b0/fd/5bb0fdb2-6e8a-b085-8a9e-b53eade54893/6.5_03_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/11/fd/c4/11fdc4a3-8be4-bc3f-1608-31b4665c8fa5/6.5_04_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/d6/cd/e8d6cdb5-6077-f2e4-9197-bd01e46c512d/6.5_05_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/62/3c/4a623c1e-29fc-a390-328d-4a9798862c61/6.5_07_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/fd/01/d4fd01ef-7fd6-9306-cb8a-164ffd2c7a4e/6.5_06_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/c3/46/2ec346e1-522e-5ece-a36f-2bf7572ddcba/6.5_08_CH_1242x2688.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/a3/86/2ba386cf-86aa-b960-d02b-5ff9add3c8f2/pad_01_zh.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/ce/52/e2ce52a3-37ba-3333-7ddc-9308eca2bcf6/pad_02_zh.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/d8/49/bad84986-1dc3-213b-761a-2a29c242a884/pad_03_zh.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/73/3c/c4733c58-3aaa-cb98-b839-28296a2b327b/pad_04_zh.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/43/63/6643630f-23fb-f3bf-9c22-7e9eff45a52e/pad_05_zh.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/47/f0/8d47f047-f2e8-fb24-5113-2f26a363039c/pad_07_zh.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/68/ec/cd68ecda-52e2-3d62-e6ea-0ec6a6853be5/pad_06_zh.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/83/65/9a83659d-eb68-7d5a-0770-3189a0bda307/pad_08_zh.png/626x1112bb.jpg"
+  ],
+  "description": "小爪子大枪?! 最可爱的放置射击RPG来啦!\n如果可爱毛茸茸的猫咪带着巨大的枪去冒险会怎样?\n可爱大爆发+刺激的火力+令人上瘾的射击游戏的结合!\n现在就来建立你自己的猫咪军团吧!",
+  "release_notes": "游戏内容更新",
+  "file_size_bytes": 389557248,
+  "min_os": "13.0",
+  "version": "1.2.2",
+  "release_date": "2026-10-20",
+  "rating": 4.38213,
+  "rating_count": 2329,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E5%96%B5%E9%AA%91%E6%88%98%E5%9F%9F/id6814706023?uo=4",
+  "fetched_at": "2026-11-18T09:40:07+08:00",
+  "identity_match": "app_id"
+ },
+ "slug": "喵骑战域_5bfbee"
+}

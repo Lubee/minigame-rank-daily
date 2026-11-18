@@ -58,11 +58,11 @@ def load_json(p: Path, default=None):
         return default
 
 
-def load_staging() -> list[dict]:
+def load_staging(paths: list[Path] | None = None) -> list[dict]:
     recs = []
     if not STAGING_DIR.exists():
         return recs
-    for fp in sorted(STAGING_DIR.glob("*.json")):
+    for fp in paths if paths is not None else sorted(STAGING_DIR.glob("*.json")):
         # 下划线开头是流水线中间文件（_batch_*_input.json 等），不是调研产物
         if fp.name.startswith("_"):
             continue
@@ -88,15 +88,17 @@ def merge_media(rec: dict, media: dict) -> None:
     rec["media"] = media
     shots = rec.get("shots") or []
     seen = {s.get("url") for s in shots}
+    source = {"taptap": "TapTap", "android": "Google Play"}.get(
+        media.get("platform"), f"App Store（{media.get('country', '')}）")
     if media.get("icon") and media["icon"] not in seen:
         shots.insert(0, {"url": media["icon"], "kind": "icon",
-                         "source": f"App Store（{media.get('country', '')}）",
+                         "source": source,
                          "caption": "官方图标"})
     for i, u in enumerate(media.get("screenshots") or [], 1):
         if u in seen:
             continue
         shots.append({"url": u, "kind": "screenshot",
-                      "source": f"App Store（{media.get('country', '')}）",
+                      "source": source,
                       "caption": f"官方实机截图 {i}"})
     rec["shots"] = shots
 
@@ -284,6 +286,7 @@ def load_all_records(prefer: set[str] | None = None
 
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--input", type=Path, action="append", help="仅合并指定批次，可重复")
     ap.add_argument("--force", action="store_true", help="覆盖已收集的详情")
     ap.add_argument("--only", default="", help="逗号分隔的游戏名，只处理这些")
     ap.add_argument("--rebuild-index", action="store_true")
@@ -343,7 +346,7 @@ def main() -> int:
                          encoding="utf-8")
         return 0
 
-    staged = load_staging()
+    staged = load_staging(args.input)
     if not staged:
         print(f"没有暂存产物（{STAGING_DIR.relative_to(ROOT)}/*.json）")
         return 1
