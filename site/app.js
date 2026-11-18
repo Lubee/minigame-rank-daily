@@ -200,8 +200,13 @@ async function setActiveBoard(plat, label) {
   }
 
   showBoardLoading();
+  loadStoreIcons(plat)?.then(() => {
+    if (state.currentDate === date && state.activeBoard === selection && cacheEntry(date, plat, label)) {
+      renderFullBoard();
+    }
+  });
   try {
-    const [data] = await Promise.all([loadBoardData(date, plat, label), loadStoreIcons(plat)]);
+    const data = await loadBoardData(date, plat, label);
     setCacheEntry(date, plat, label, data);
   } catch (e) {
     if (state.currentDate === date && state.activeBoard === selection) showBoardError(e);
