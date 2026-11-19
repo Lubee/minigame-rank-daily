@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 import re
 import subprocess
 import tempfile
@@ -14,6 +15,27 @@ from urllib.parse import urlencode
 
 from scrape_ios import COUNTRIES, lookup_apps
 from scrape_googleplay import fetch_details as fetch_googleplay_details
+from store_videos import VIDEO_FIELDS, apple_video_record, google_videos
+
+
+METRIC_FIELDS = ("averageUserRating", "userRatingCount", "score", "ratings", "reviews", "installs")
+
+
+def store_metrics(detail: dict, platform: str, checked_at: str):
+    fields = (("rating", "averageUserRating"), ("rating_count", "userRatingCount")) if platform == "ios" else (
+        ("rating", "score"), ("rating_count", "ratings"), ("review_count", "reviews"))
+    result = {}
+    for target, source in fields:
+        value = detail.get(source)
+        if isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value) and value >= 0:
+            if (target == "rating" and value <= 5) or (target != "rating" and float(value).is_integer()):
+                result[target] = value
+    installs = detail.get("installs")
+    if platform == "android" and isinstance(installs, str) and re.fullmatch(r"[\d,.\s]+\+?", installs):
+        result["installs"] = installs
+    if result:
+        result["metrics_checked_at"] = checked_at
+    return result
 
 
 def chart_apps(snapshot: dict, platform: str):
@@ -98,7 +120,8 @@ def refresh_ios(apps: dict, keys: list[str], today: str, log):
                 if result:
                     app["release_info"] = {field: result.get(field) for field in (
                         "trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "price",
-                        "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices")}
+                        "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices", *METRIC_FIELDS)}
+                    app.update(store_metrics(result, "ios", today))
                 for field, source in (
                     ("developer", "sellerName"),
                     ("description", "description"),
@@ -128,11 +151,13 @@ def refresh_googleplay(apps: dict, keys: list[str], today: str, log):
         try:
             app = fetch_googleplay_details(apps[key]["id"])
             return {
+                **store_metrics(app, "android", today),
+                "videos": google_videos(app), "video_checked_at": today, "video_error": None,
                 "developer": app.get("developer"), "description": app.get("description"),
                 "version": app.get("version"), "icon": app.get("icon"),
                 "screenshots": app.get("screenshots"),
                 "release_info": {field: app.get(field) for field in (
-                    "appId", "title", "genreId", "released", "developer", "free", "price", "currency", "icon")},
+                    "appId", "title", "genreId", "released", "developer", "free", "price", "currency", "icon", *METRIC_FIELDS, *VIDEO_FIELDS)},
             }
         except (OSError, ValueError, subprocess.SubprocessError) as error:
             log(f"[Google Play/{apps[key]['id']}] 详情查询失败，保留已有资料：{error}")
@@ -141,9 +166,23 @@ def refresh_googleplay(apps: dict, keys: list[str], today: str, log):
     with ThreadPoolExecutor(max_workers=3) as pool:
         for key, media in zip(pending, pool.map(fetch, pending)):
             if media is not None:
-                apps[key].update({field: value for field, value in media.items() if value})
+                apps[key].update({field: value for field, value in media.items() if value or value == 0})
                 apps[key]["media_checked_on"] = today
                 apps[key]["details_checked_on"] = today
+                apps[key]["video_error"] = None
+
+
+def refresh_ios_videos(apps, keys, today):
+    cutoff = (date.fromisoformat(today) - timedelta(days=7)).isoformat()
+    pending = [key for key in keys if apps[key].get("country") == "us"
+               and apps[key].get("video_checked_at", "")[:10] <= cutoff
+               and apps[key].get("video_attempted_at", "")[:10] != today]
+    pending.sort(key=lambda key: apps[key].get("video_attempted_at", ""))
+    pending = pending[:12]
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        results = pool.map(lambda key: apple_video_record(apps[key]["id"], "us", today), pending)
+        for key, result in zip(pending, results):
+            apps[key].update(result)
 
 
 def update_store_apps(snapshot: dict, data_dir: Path, today: str, log=print, *, backfill=False):
@@ -166,6 +205,7 @@ def update_store_apps(snapshot: dict, data_dir: Path, today: str, log=print, *, 
     refresh_ios(apps, keys, today, log)
     android_keys = [key for key in reversed(apps) if key.startswith("android:") and "details_checked_on" not in apps[key]]
     refresh_googleplay(apps, list(dict.fromkeys([*android, *android_keys])), today, log)
+    refresh_ios_videos(apps, keys, today)
     if apps == previous:
         return
 

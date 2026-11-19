@@ -20,13 +20,18 @@ class ReleaseProfileTests(unittest.TestCase):
                         key = f"ios:us:{app_id}" if platform == "ios" else f"android:{app_id}"
                         shot = "https://is1-ssl.mzstatic.com/test.png" if platform == "ios" else "https://play-lh.googleusercontent.com/test.png"
                         app = {"platform": platform, "id": app_id, "name": "Example", "publisher": "Studio", "country": "us",
-                               "description": "Official game introduction", "version": "1.2", "screenshots": [shot] if has_shots else [],
+                               "rating": 4.6, "rating_count": 1234, "icon": shot,
+                               **({"review_count": 0, "installs": "100,000+"} if platform == "android" else {}),
+                               "metrics_checked_at": "2026-11-18T04:00:00Z",
+                               "description": "Official game introduction" + ("\nSecond line\nThird line\nFourth line\nFifth line" if has_shots else ""), "version": "1.2", "screenshots": [shot] if has_shots else [],
+                               "videos": [{"url": "https://play-games.googleusercontent.com/vp/mp4/test.mp4", "type": "mp4", "source": "Google Play", "poster": shot}] if platform == "android" and has_shots else [],
                                "media_checked_at": "2026-11-18T04:00:00Z"}
                         fixtures = {"data/base/store-apps.json": {key: {"platform": platform, "country": "us", "id": app_id,
                             "name": "Example", "description": "", "version": "", "screenshots": []}},
                             "data/base/games.json": {"games": {}}, "data/detail/index.json": {"games": {}},
                             "data/releases/2026-11-18.json": {"apps": [app]}}
                         page = browser.new_page()
+                        page.set_default_timeout(2000)
                         def serve(route):
                             path = urlparse(route.request.url).path.lstrip("/")
                             if route.request.resource_type == "image":
@@ -44,10 +49,41 @@ class ReleaseProfileTests(unittest.TestCase):
                         section.wait_for(state='visible')
                         self.assertIn('Official game introduction', section.inner_text())
                         self.assertIn('1.2', section.inner_text())
-                        self.assertEqual(section.locator('.gp-store-shots img').count(), int(has_shots))
+                        description = section.locator('.gp-app-description')
+                        self.assertEqual(description.evaluate('(el)=>getComputedStyle(el).webkitLineClamp'), '3')
                         if has_shots:
-                            section.locator('.gp-store-shots img').dispatch_event('error')
-                            self.assertIn('官方截图暂时加载失败', section.inner_text())
+                            section.get_by_role('button', name='展开简介').click()
+                            self.assertEqual(description.evaluate('(el)=>getComputedStyle(el).webkitLineClamp'), 'none')
+                            section.get_by_role('button', name='收起简介').click()
+                        else:
+                            self.assertEqual(section.get_by_role('button', name='展开简介').count(), 0)
+                        self.assertIn('4.6 / 5', section.inner_text())
+                        self.assertIn('评分人数', section.inner_text())
+                        self.assertIn('1,234', section.inner_text())
+                        self.assertEqual(section.locator('dt', has_text='评论数').count(), int(platform == 'android'))
+                        if platform == 'android':
+                            self.assertEqual(section.locator('dt', has_text='评论数').locator('+ dd').inner_text(), '0')
+                            self.assertIn('100,000+', section.inner_text())
+                        self.assertNotIn('最近一个月下载量', section.inner_text())
+                        icon = page.locator('.gp-profile-icon img')
+                        self.assertEqual(icon.get_attribute('src'), shot)
+                        page.set_viewport_size({"width": 390, "height": 844})
+                        self.assertLessEqual(page.locator('.gp-profile-icon').bounding_box()['x'] + page.locator('.gp-profile-icon').bounding_box()['width'], 390)
+                        icon.dispatch_event('error')
+                        self.assertEqual(page.locator('.gp-profile-icon img').count(), 0)
+                        self.assertEqual(section.locator('.gp-store-shots a img').count(), int(has_shots))
+                        if has_shots:
+                            if platform == 'android':
+                                self.assertEqual(section.locator('.gp-store-shots').locator(':scope > :first-child').get_attribute('class'), 'gp-video-preview')
+                                self.assertEqual(page.locator('#gp-video-player video').count(), 0)
+                                section.get_by_role('button', name='播放官方视频预览').click()
+                                self.assertEqual(page.locator('#gp-video-player video').get_attribute('preload'), 'none')
+                                page.get_by_role('button', name='关闭视频').click()
+                                page.locator('#gp-video-player').wait_for(state='detached')
+                                self.assertEqual(page.locator('#gp-video-player').count(), 0)
+                            section.locator('.gp-store-shots a img').dispatch_event('error')
+                            if platform == 'ios':
+                                self.assertIn('官方截图暂时加载失败', section.inner_text())
                         if not has_shots:
                             self.assertIn('本次官方查询未返回完整资料', section.inner_text())
                         page.close()

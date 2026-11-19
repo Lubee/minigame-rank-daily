@@ -186,6 +186,7 @@ function loadStoreIcons(platform) {
 }
 
 async function setActiveBoard(plat, label) {
+  state.newProductsExpanded = false;
   const date = state.currentDate;
   state.activeBoard = { plat, label };
   const selection = state.activeBoard;
@@ -292,6 +293,21 @@ function renderDiffTables() {
 
   const tbodyG = document.querySelector("#tbl-new tbody");
   tbodyG.innerHTML = "";
+  let toggle = $("new-products-toggle");
+  if (!toggle) {
+    toggle = document.createElement("button");
+    toggle.id = "new-products-toggle";
+    toggle.className = "load-more-btn";
+    toggle.style.marginTop = "12px";
+    toggle.type = "button";
+    toggle.setAttribute("aria-controls", "tbl-new");
+    toggle.onclick = () => {
+      state.newProductsExpanded = !state.newProductsExpanded;
+      renderDiffTables();
+    };
+    $("tbl-new").parentElement.after(toggle);
+  }
+  toggle.hidden = true;
 
   if (!diff || error) {
     const cnt = $("panel-new-count");
@@ -319,7 +335,10 @@ function renderDiffTables() {
   const snapMap = new Map(
     findRows(ab.plat, ab.label).map(r => [r.name, r]),
   );
-  for (const r of rowsTagged) {
+  toggle.hidden = rowsTagged.length <= 5;
+  toggle.textContent = state.newProductsExpanded ? "收起新进产品" : `加载剩余 ${rowsTagged.length - 5} 条`;
+  toggle.setAttribute("aria-expanded", String(!!state.newProductsExpanded));
+  for (const r of state.newProductsExpanded ? rowsTagged : rowsTagged.slice(0, 5)) {
     const s = snapMap.get(r.name) || {};
     const category = s.category || "";
     const subcategory = s.subcategory || "";

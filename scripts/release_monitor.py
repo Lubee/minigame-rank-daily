@@ -14,6 +14,8 @@ from urllib.parse import urlencode
 
 import scrape_googleplay as googleplay
 from scrape_ios import _fetch_json, _entry_icon
+from store_apps import METRIC_FIELDS, store_metrics
+from store_videos import VIDEO_FIELDS, apple_video_record, google_videos
 
 ROOT = Path(__file__).resolve().parent.parent
 BEIJING = timezone(timedelta(hours=8))
@@ -84,6 +86,8 @@ def assess(record, detail, now):
     screenshots = list(dict.fromkeys(url for url in shots if isinstance(url, str) and re.match(
         r"https://(?:[\w.-]+\.mzstatic\.com|play-lh\.googleusercontent\.com)/", url)))
     result = {
+        **store_metrics(detail, record["platform"], now.isoformat()),
+        **({"videos": google_videos(detail), "video_checked_at": now.isoformat(), "video_error": None} if not ios else {}),
         "status": "scheduled" if future else ("verified" if released else "undated"),
         "name": name.strip(), "release_date": released, "release_date_raw": raw_date,
         "publisher": detail.get("sellerName") or detail.get("artistName") or detail.get("developer") or "",
@@ -202,9 +206,10 @@ def pending_targets(catalog, now):
             r.get("last_attempt_at", ""), r["first_discovered_at"])):
         status = record["status"]
         needs_media = record.get("media_status") != "complete"
-        if status == "not_game" or (status == "verified" and not needs_media):
+        needs_video = bool(record.get("video_error")) and record.get("video_attempted_at", "") < (now - timedelta(minutes=30)).isoformat()
+        if status == "not_game" or (status == "verified" and not needs_media and not needs_video):
             continue
-        if status == "scheduled" and record.get("release_date", "") > today and not needs_media:
+        if status == "scheduled" and record.get("release_date", "") > today and not needs_media and not needs_video:
             continue
         if status != "pending" and needs_media and record.get("media_checked_at", "")[:10] == now.date().isoformat():
             continue
@@ -238,7 +243,7 @@ def run(data_dir, now=None, log=print):
     attempted = 0
     store_dirty = False
     def verify(record):
-        if time.monotonic() >= deadline - 20:
+        if time.monotonic() >= deadline - 35:
             return None
         key = f"{record['platform']}:{record['id']}"
         store_key = f"ios:us:{record['id']}" if record["platform"] == "ios" else key
@@ -263,7 +268,20 @@ def run(data_dir, now=None, log=print):
         try:
             detail = cached if cached else fetch_detail(record)
             result = assess(record, detail, now)
+            if cached and "metrics_checked_at" in result:
+                # Cached details retain their original observation date.
+                result["metrics_checked_at"] = known.get("metrics_checked_at") or known.get("details_checked_on") or known.get("checked_on") or ""
             if result["status"] in ("verified", "scheduled", "undated"):
+                if record["platform"] == "ios":
+                    video_cache = {**known, **record}
+                    if video_cache.get("video_checked_at", "")[:10] > (now - timedelta(days=7)).date().isoformat():
+                        result.update({field: video_cache[field] for field in ("videos", "video_checked_at", "video_attempted_at", "video_error") if field in video_cache})
+                    else:
+                        result.update(apple_video_record(record["id"], "us", now.isoformat()))
+                    if "videos" not in result and video_cache.get("videos"):
+                        result["videos"] = video_cache["videos"]
+                elif cached and known.get("video_checked_at"):
+                    result["video_checked_at"] = known["video_checked_at"]
                 for field in ("description", "version", "icon", "screenshots", "publisher"):
                     previous_value = record.get(field) or known.get(field) or (known.get("developer") if field == "publisher" else None)
                     if not result.get(field) and previous_value:
@@ -272,12 +290,14 @@ def run(data_dir, now=None, log=print):
                 result["media_status"] = "missing" if result["media_missing"] else "complete"
                 result["media_checked_at"] = now.isoformat()
                 result["_store"] = {
+                    **{key: result[key] for key in ("videos", "video_checked_at", "video_attempted_at", "video_error") if key in result},
+                    **{key: result[key] for key in ("rating", "rating_count", "review_count", "installs", "metrics_checked_at") if key in result},
                     **{key: result[key] for key in ("name", "description", "version", "icon", "screenshots", "category",
                          "release_date", "free", "price", "currency", "media_status", "media_missing", "media_checked_at", "supported_platforms")},
                     "platform": record["platform"], "country": "us", "id": record["id"], "url": result["url"],
                     "publisher": result["publisher"], "developer": result["publisher"],
-                    "release_info": {key: detail.get(key) for key in (("trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "price", "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices")
-                        if record["platform"] == "ios" else ("appId", "title", "genreId", "released", "developer", "free", "price", "currency", "icon"))},
+                    "release_info": {key: detail.get(key) for key in (("trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "price", "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices", *METRIC_FIELDS)
+                        if record["platform"] == "ios" else ("appId", "title", "genreId", "released", "developer", "free", "price", "currency", "icon", *METRIC_FIELDS, *VIDEO_FIELDS))},
                 }
             return {**result, "last_attempt_at": now.isoformat(), "checked_at": now.isoformat(), "error": None}
         except Exception as error:
@@ -297,6 +317,8 @@ def run(data_dir, now=None, log=print):
                         names.add(previous["name"])
                     previous.update({field: value for field, value in cached_record.items() if value is not None and value != "" and value != []})
                     previous["media_missing"] = cached_record["media_missing"]
+                    if "video_error" in cached_record:
+                        previous["video_error"] = cached_record["video_error"]
                     previous["names"] = sorted(names)
                     store_dirty = True
                 futures[future].update(result)

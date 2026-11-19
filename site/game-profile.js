@@ -9,6 +9,9 @@
   const assetUrl = (path) => path + "?v=" + encodeURIComponent(ASSET_VERSION);
   let baseGamesRequest;
   let storeAppsRequest;
+  let descriptionObserver;
+  let descriptionId = 0;
+  let hlsRequest;
 
   function loadBaseGames() {
     return baseGamesRequest ||= fetch(assetUrl("data/base/games.json"), { cache: "no-cache" })
@@ -616,6 +619,8 @@
     $("gp-form").style.display = "block";
     $("gp-edit-btn").disabled = false;
     renderView(state.profiles[name] || { game_name: name });
+    const detailKey = window.GameDetail?.normName ? window.GameDetail.normName(name) : name;
+    renderProfileIcon(name, state.detailIndex[detailKey]?.icon);
     renderStoreApps(name, storeContext);
     $("gp-status").textContent = "";
   }
@@ -689,7 +694,29 @@
     if (editBtn) editBtn.style.display = "";
   }
 
+  function renderProfileIcon(name, url) {
+    const header = $("gp-view").querySelector(".gp-view-name-wrap");
+    if (!header) return;
+    let box = header.querySelector(".gp-profile-icon");
+    if (!box) {
+      box = document.createElement("div");
+      box.className = "gp-profile-icon";
+      header.append(box);
+    }
+    const placeholder = (name || "?").slice(0, 1);
+    box.textContent = placeholder;
+    if (!/^https:\/\//.test(url || "")) return;
+    const img = document.createElement("img");
+    img.alt = `${name} 游戏图标`;
+    img.referrerPolicy = "no-referrer";
+    img.addEventListener("error", () => { box.textContent = placeholder; }, { once: true });
+    img.src = url;
+    box.replaceChildren(img);
+  }
+
   async function renderStoreApps(name, { platform, board, storeKey, release } = {}) {
+    descriptionObserver?.disconnect();
+    $("gp-video-player")?.close();
     const detail = $("gp-detail");
     $("gp-store-apps")?.remove();
     if (platform && !["ios", "android", "taptap"].includes(platform)) return;
@@ -715,6 +742,12 @@
     const knownApp = storeKey && Object.hasOwn(records, storeKey) ? records[storeKey] : null;
     const selectedApp = releaseApp ? { ...knownApp, ...Object.fromEntries(Object.entries(releaseApp).filter(([key, value]) =>
       value !== null && value !== undefined && value !== "" && (!Array.isArray(value) || value.length || key === "media_missing"))) } : knownApp;
+    // A historical release snapshot must not replace more recent store metrics.
+    if (releaseApp && Date.parse(knownApp?.metrics_checked_at) > (Date.parse(releaseApp.metrics_checked_at) || 0)) {
+      for (const key of ["rating", "rating_count", "review_count", "installs", "metrics_checked_at"]) {
+        if (knownApp[key] !== undefined) selectedApp[key] = knownApp[key];
+      }
+    }
     const apps = storeKey
       ? [selectedApp].filter(Boolean)
       : Object.values(records).filter((app) => {
@@ -730,6 +763,8 @@
       const ios = app.platform === "ios";
       const tap = app.platform === "taptap";
       const storeName = ios ? "App Store" : tap ? "TapTap" : "Google Play";
+      if (app.icon) renderProfileIcon(name, app.icon);
+      const count = value => Number.isSafeInteger(value) && value >= 0 ? value.toLocaleString("en-US") : null;
       const heading = document.createElement("h3");
       heading.textContent = ios ? `${storeName} · ${app.country.toUpperCase()}` : storeName;
       const fields = [
@@ -738,6 +773,11 @@
         ["商店分类", app.category],
         [ios || tap ? "App ID" : "包名", app.id],
         ["版本", app.version],
+        ["评分", Number.isFinite(app.rating) && app.rating >= 0 && app.rating <= 5 ? `${Number(app.rating.toFixed(2))} / 5` : null],
+        ["评分人数", count(app.rating_count)],
+        ["评论数", count(app.review_count)],
+        ["总下载量", app.installs ? `${app.installs}（商店累计安装档位，全球累计，不代表美区下载量）` : null],
+        ["指标获取日期", app.metrics_checked_at?.slice(0, 10)],
         ["适用设备", (app.supported_platforms || []).join("、")],
         ["应用简介", app.description],
       ];
@@ -750,6 +790,7 @@
         const definition = document.createElement("dd");
         definition.textContent = value;
         definition.style.whiteSpace = "pre-wrap";
+        if (label === "应用简介") renderDescription(definition, value);
         list.append(term, definition);
       }
       section.append(heading, list);
@@ -771,16 +812,161 @@
         link.rel = "noopener noreferrer";
         section.append(link);
       }
-      renderStoreScreenshots(section, app.screenshots || [], storeName);
+      renderStoreScreenshots(section, app.screenshots || [], storeName, app.videos || [], app.url);
+      if (app.video_error) {
+        const note = document.createElement("p");
+        note.className = "muted";
+        note.textContent = "官方视频本次获取失败，已有视频保留，后续采集重试。";
+        section.append(note);
+      }
       section.hidden = false;
     }
   }
 
-  function renderStoreScreenshots(section, urls, storeName) {
+  function renderDescription(parent, text) {
+    parent.textContent = "";
+    const content = document.createElement("div");
+    content.className = "gp-app-description";
+    content.id = `gp-app-description-${++descriptionId}`;
+    content.textContent = text;
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "gp-description-toggle";
+    toggle.textContent = "展开简介";
+    toggle.hidden = true;
+    toggle.setAttribute("aria-controls", content.id);
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.onclick = () => {
+      const expanded = content.classList.toggle("is-expanded");
+      toggle.textContent = expanded ? "收起简介" : "展开简介";
+      toggle.setAttribute("aria-expanded", String(expanded));
+    };
+    parent.append(content, toggle);
+    descriptionObserver ||= new ResizeObserver(entries => {
+      for (const { target } of entries) {
+        target.nextElementSibling.hidden = !target.classList.contains("is-expanded") && target.scrollHeight <= target.clientHeight + 1;
+      }
+    });
+    descriptionObserver.observe(content);
+  }
+
+  function validPreview(video) {
+    try {
+      const url = new URL(video.url);
+      if (url.protocol !== "https:" || url.username || url.password || (url.port && url.port !== "443")) return false;
+      if (video.type === "youtube") return ["www.youtube.com", "www.youtube-nocookie.com"].includes(url.hostname) && /^\/embed\/[\w-]{11}$/.test(url.pathname);
+      return ["mp4", "hls"].includes(video.type) && ["play-games.googleusercontent.com", "apptrailers.itunes.apple.com", "video.itunes.apple.com"].includes(url.hostname)
+        && url.pathname.endsWith(video.type === "hls" ? ".m3u8" : ".mp4");
+    } catch { return false; }
+  }
+
+  function loadHls() {
+    return hlsRequest ||= new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = "vendor/hls.light.min.js?v=1.7.4";
+      script.onload = () => resolve(window.Hls);
+      script.onerror = () => { hlsRequest = null; script.remove(); reject(new Error("视频播放器加载失败")); };
+      document.head.append(script);
+    });
+  }
+
+  function openVideoPreview(preview, storeUrl) {
+    if (!validPreview(preview)) return;
+    $("gp-video-player")?.close();
+    const dialog = document.createElement("dialog");
+    dialog.id = "gp-video-player";
+    dialog.setAttribute("aria-label", "官方视频预览");
+    const close = document.createElement("button");
+    close.type = "button";
+    close.textContent = "关闭视频";
+    close.onclick = () => dialog.close();
+    const status = document.createElement("p");
+    status.setAttribute("role", "status");
+    dialog.append(close);
+    const media = document.createElement(preview.type === "youtube" ? "iframe" : "video");
+    let hls;
+    const failed = () => { status.textContent = "视频暂时无法播放，可尝试备用视频或查看官方商店。"; };
+    if (preview.type === "youtube") {
+      media.title = "官方视频预览";
+      media.allow = "autoplay; encrypted-media; fullscreen; picture-in-picture";
+      media.allowFullscreen = true;
+      media.referrerPolicy = "strict-origin-when-cross-origin";
+      media.setAttribute("sandbox", "allow-scripts allow-same-origin allow-presentation");
+      media.src = preview.url;
+    } else {
+      media.controls = true;
+      media.playsInline = true;
+      media.preload = "none";
+      media.addEventListener("error", failed);
+    }
+    dialog.append(media, status);
+    if (preview.fallback_url && validPreview({ url: preview.fallback_url, type: "youtube" })) {
+      const fallback = document.createElement("button");
+      fallback.type = "button";
+      fallback.textContent = "尝试备用视频";
+      fallback.onclick = () => { dialog.close(); openVideoPreview({ url: preview.fallback_url, type: "youtube" }, storeUrl); };
+      dialog.append(fallback);
+    }
+    if (/^https:\/\/(?:apps\.apple\.com|play\.google\.com)\//.test(storeUrl || "")) {
+      const link = document.createElement("a");
+      link.href = storeUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "查看官方商店";
+      dialog.append(link);
+    }
+    dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
+    dialog.addEventListener("close", () => {
+      hls?.destroy();
+      if (media.tagName === "VIDEO") { media.pause(); media.removeAttribute("src"); media.load(); }
+      else media.src = "about:blank";
+      dialog.remove();
+    }, { once: true });
+    document.body.append(dialog);
+    dialog.showModal();
+    if (preview.type === "youtube") return;
+    const play = () => media.play().catch(() => {});
+    if (preview.type === "mp4" || media.canPlayType("application/vnd.apple.mpegurl")) {
+      media.src = preview.url;
+      play();
+    } else {
+      loadHls().then(Hls => {
+        if (!dialog.isConnected) return;
+        if (!Hls?.isSupported()) { failed(); return; }
+        hls = new Hls();
+        hls.on(Hls.Events.ERROR, (_, data) => { if (data.fatal) { hls.destroy(); failed(); } });
+        hls.on(Hls.Events.MANIFEST_PARSED, play);
+        hls.loadSource(preview.url);
+        hls.attachMedia(media);
+      }).catch(failed);
+    }
+  }
+
+  function renderStoreScreenshots(section, urls, storeName, videos = [], storeUrl) {
     const gallery = document.createElement("div");
     gallery.className = "gp-store-shots";
     const heading = document.createElement("h4");
     heading.textContent = `${storeName} 官方截图`;
+    for (const preview of videos.filter(validPreview)) {
+      heading.textContent = `${storeName} 官方截图与视频`;
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "gp-video-preview";
+      button.setAttribute("aria-label", "播放官方视频预览");
+      if (/^https:\/\/(?:[\w.-]+\.mzstatic\.com|play-lh\.googleusercontent\.com)\//.test(preview.poster || "")) {
+        const poster = document.createElement("img");
+        poster.src = preview.poster;
+        poster.alt = "";
+        poster.loading = "lazy";
+        poster.addEventListener("error", () => poster.remove(), { once: true });
+        button.append(poster);
+      }
+      const label = document.createElement("span");
+      label.textContent = "▶ 官方视频预览";
+      button.append(label);
+      button.onclick = () => openVideoPreview(preview, storeUrl);
+      gallery.append(button);
+    }
     for (const url of urls) {
       if (!/^https:\/\/(?:[\w.-]+\.(?:mzstatic\.com|tapimg\.com)|play-lh\.googleusercontent\.com)\//.test(url)) continue;
       const link = document.createElement("a");

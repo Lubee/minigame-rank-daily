@@ -133,7 +133,7 @@ class ReleaseTests(unittest.TestCase):
             record = {"platform": "android", "id": "com.example.game", "name": "Example", "source": "test",
                       "sources": ["test"], "status": "verified", "release_date": "2026-11-17", "first_discovered_at": "2026-11-17T04:00:00Z"}
             monitor.save(root / "releases/catalog.json", {"apps": {"android:com.example.game": record}, "sources": {}})
-            with patch.object(monitor, "discover"), patch.object(monitor, "fetch_detail", return_value=app()) as fetch:
+            with patch.object(monitor, "discover"), patch.object(monitor, "fetch_detail", return_value=app(score=4.8, ratings=50, reviews=0, installs="1,000+", previewVideo="https://play-games.googleusercontent.com/vp/mp4/preview.mp4")) as fetch:
                 result = monitor.run(root, now=NOW, log=lambda _: None)
                 monitor.run(root, now=NOW, log=lambda _: None)
             self.assertEqual(fetch.call_count, 1)
@@ -141,6 +141,11 @@ class ReleaseTests(unittest.TestCase):
             store = json.loads((root / "base/store-apps.json").read_text(encoding="utf-8"))
             self.assertEqual(store["android:com.example.game"]["description"], "Official introduction")
             self.assertTrue(store["android:com.example.game"]["screenshots"])
+            self.assertEqual(result["apps"][0]["rating"], 4.8)
+            self.assertEqual(store["android:com.example.game"]["review_count"], 0)
+            self.assertEqual(store["android:com.example.game"]["release_info"]["ratings"], 50)
+            self.assertEqual(store["android:com.example.game"]["videos"], result["apps"][0]["videos"])
+            self.assertEqual(result["apps"][0]["videos"][0]["type"], 'mp4')
 
     def test_missing_official_screenshots_is_explicit_and_not_retried_same_day(self):
         with tempfile.TemporaryDirectory() as folder:
