@@ -65,6 +65,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import contextlib
 import io
 import json
@@ -299,6 +300,39 @@ def save_state(targets: list[dict], batch_names: list[list[str]],
 
 def read_state() -> dict:
     return load_json(STATE, {}) or {}
+
+
+def checkpoint(check_only=False) -> int:
+    """Fingerprint owned changes so the next run can resume without trusting other edits."""
+    from schema import slug
+    state = read_state()
+    if not state.get("batches"):
+        print("[error] 没有可续跑批次")
+        return EXIT_ERROR
+    allowed = {f"data/detail/{name}" for name in
+               ("_worklist.json", "_media.json", "index.json", "_research_failures.json")}
+    allowed.update(f"data/detail/{slug(name)}.json" for name in state["targets"])
+    allowed.update(batch[field] for batch in state["batches"] for field in ("input", "output"))
+    raw = subprocess.check_output(["git", "status", "--porcelain", "-z"], cwd=ROOT).decode("utf-8")
+    changes = [line for line in raw.split("\0") if line]
+    hashes = {}
+    for line in changes:
+        name = line[3:]
+        path = (ROOT / name).resolve()
+        if name not in allowed or not path.is_relative_to(ROOT.resolve()) or not path.is_file():
+            print(f"[error] 非本批可续跑文件：{name}")
+            return EXIT_ERROR
+        hashes[name] = hashlib.sha256(path.read_bytes()).hexdigest()
+    if check_only:
+        saved = state.get("owned_changes", {})
+        if any(saved.get(name) != digest for name, digest in hashes.items()):
+            print("[error] 文件不在上次任务指纹中或已被再次修改，需人工核对")
+            return EXIT_ERROR
+    else:
+        state["owned_changes"] = hashes
+        STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"[ok] 本批文件指纹{'核对' if check_only else '保存'}完成：{len(hashes)} 个文件")
+    return EXIT_OK
 
 
 def batch_ready(batch: dict) -> tuple[bool, str]:
@@ -629,6 +663,8 @@ def main() -> int:
     ap = argparse.ArgumentParser(
         description="一键补档：刷新工单 -> 抓素材 -> 切批 ->（调研）-> 合并 -> 校验")
     ap.add_argument("--status", action="store_true", help="只看缺口，不动文件")
+    ap.add_argument("--checkpoint", action="store_true", help="核对本批变更范围并保存文件指纹")
+    ap.add_argument("--resume-check", action="store_true", help="只读核对未提交文件是否与上次任务指纹一致")
     ap.add_argument("--finish", action="store_true",
                     help="跳过备料与切批，直接合并 + 校验")
     ap.add_argument("--prepare-only", action="store_true", help="只备料，不自动续跑")
@@ -653,6 +689,9 @@ def main() -> int:
     if args.limit < 0 or args.size < 1:
         ap.error("--limit 必须大于等于 0，--size 必须大于 0")
     args.names_list = [s.strip() for s in args.names.split(",") if s.strip()]
+
+    if args.checkpoint or args.resume_check:
+        return checkpoint(check_only=args.resume_check)
 
     if args.record_insufficient:
         if not args.reason or not args.reason.strip() or not args.round_id or not args.round_id.strip():
@@ -701,13 +740,15 @@ def main() -> int:
         _, todo = all_ready(state)
         print("继续上次未完成批次，保留已有调研产物。")
         print_handoff(todo)
-        return EXIT_NEED_RESEARCH
+        return EXIT_OK if args.prepare_only else EXIT_NEED_RESEARCH
 
     targets = selected_targets(args)
     if targets:
         fetch_media(args, targets)
     rc = cut_batches(args, targets)
     if rc != EXIT_NEED_RESEARCH or args.prepare_only:
+        if rc == EXIT_NEED_RESEARCH and args.prepare_only:
+            return checkpoint()
         return rc
 
     ready, todo = all_ready(read_state())

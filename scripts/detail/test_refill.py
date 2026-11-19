@@ -108,7 +108,7 @@ class RefillTests(unittest.TestCase):
              patch.object(refill, "refresh_worklist", return_value=0), \
              patch.object(refill, "fetch_media") as fetch, \
              patch.object(refill, "cut_batches") as cut:
-            self.assertEqual(refill.main(), 3)
+            self.assertEqual(refill.main(), 0)
             fetch.assert_not_called()
             cut.assert_not_called()
         self.assertEqual(original.read_bytes(), before)
@@ -138,6 +138,18 @@ class RefillTests(unittest.TestCase):
         self.write("state.json", {"targets": ["A"]})
         self.assertEqual(refill.record_insufficient("B", "No sources", "day1"), 1)
         self.assertFalse((refill.DETAIL_DIR / "_research_failures.json").exists())
+
+    def test_resume_fingerprints_reject_modified_and_unrelated_files(self):
+        self.write("state.json", {"targets": ["A"], "batches": [
+            {"input": "data/detail/_staging/input.json", "output": "data/detail/_staging/batch.json"}]})
+        path = self.write("data/detail/_worklist.json", {"entries": []})
+        with patch.object(refill.subprocess, "check_output", return_value=b' M data/detail/_worklist.json\0'):
+            self.assertEqual(refill.checkpoint(), 0)
+            self.assertEqual(refill.checkpoint(True), 0)
+            path.write_text('{}', encoding='utf-8')
+            self.assertEqual(refill.checkpoint(True), 1)
+        with patch.object(refill.subprocess, "check_output", return_value=b' M README.md\0'):
+            self.assertEqual(refill.checkpoint(), 1)
 
 
 if __name__ == "__main__":
