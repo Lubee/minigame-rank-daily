@@ -15048,11 +15048,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-19T10:37:45.326057+00:00",
+      "video_attempted_at": "2026-11-19T12:01:44.746310+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
-      "checked_at": "2026-11-19T10:37:45.326057+00:00",
+      "media_checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_attempt_at": "2026-11-19T12:01:44.746310+00:00",
+      "checked_at": "2026-11-19T12:01:44.746310+00:00",
       "error": null
     },
     "ios:6761043541": {
@@ -15100,11 +15100,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-19T10:37:45.326057+00:00",
+      "video_attempted_at": "2026-11-19T12:01:44.746310+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
-      "checked_at": "2026-11-19T10:37:45.326057+00:00",
+      "media_checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_attempt_at": "2026-11-19T12:01:44.746310+00:00",
+      "checked_at": "2026-11-19T12:01:44.746310+00:00",
       "error": null
     },
     "ios:6768564100": {
@@ -15150,11 +15150,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-19T10:37:45.326057+00:00",
+      "video_attempted_at": "2026-11-19T12:01:44.746310+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
-      "checked_at": "2026-11-19T10:37:45.326057+00:00",
+      "media_checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_attempt_at": "2026-11-19T12:01:44.746310+00:00",
+      "checked_at": "2026-11-19T12:01:44.746310+00:00",
       "error": null
     },
     "ios:1506229470": {
@@ -15170,24 +15170,58 @@
         "apple:free"
       ],
       "url": "https://apps.apple.com/us/app/id1506229470",
-      "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
+      "last_attempt_at": "2026-11-19T12:01:44.746310+00:00",
       "error": "'NoneType' object has no attribute 'get'"
     },
     "ios:6751794501": {
       "platform": "ios",
       "id": "6751794501",
       "name": "Cash Avalanche:Casino Slot",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/4a/84/9d4a8482-b730-3bf5-39b4-c88dce6587f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/4a/84/9d4a8482-b730-3bf5-39b4-c88dce6587f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "source": "apple:free",
       "country": "us",
       "first_discovered_at": "2026-11-19T10:37:45.326057+00:00",
-      "status": "pending",
+      "status": "verified",
       "sources": [
         "apple:free"
       ],
       "url": "https://apps.apple.com/us/app/id6751794501",
-      "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": "'NoneType' object has no attribute 'get'"
+      "last_attempt_at": "2026-11-19T12:01:44.746310+00:00",
+      "error": null,
+      "rating": 4.58927,
+      "rating_count": 20366,
+      "metrics_checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "release_date": "2025-11-11",
+      "release_date_raw": "2025-11-11T08:00:00Z",
+      "publisher": "Spruce Interactive Inc",
+      "free": true,
+      "price": 0.0,
+      "currency": "USD",
+      "description": "Cash Avalanche — Spin Into the Excitement\n\nCash Avalanche delivers an immersive slot experience for players who crave variety, vibrant themes, and big-win potential. With a constantly expanding collection of unique slot machines, dynamic reels, stunning visuals, and rewarding bonus features, every spin is packed with excitement.\n\nNo purchase is required. Play responsibly in eligible locations.\n\nWhether you’re here for casual fun or chasing that thrilling jackpot moment, Cash Avalanche offers endless opportunities to enjoy the game.\n\n• Top Slots, Endless Variety\n\nDiscover a rich selection of high-quality slot games. Engaging themes, smooth gameplay, and rewarding mechanics combine to deliver nonstop entertainment and excitement.\n\n• Free Spins to Earn Sweepstakes Coins\n\nEarn free spins by playing the game and get a chance to win Sweepstakes Coins (SC). SC are only available for free and can be used to participate in eligible game features, adding more fun and possibilities to every spin.\nPlayers can also obtain SC for free through AOME, giving you even more chances to enjoy rewards.\n\n• Exciting Rewards & Special Events\n\nJoin limited-time events, spin the roulette, and try your luck in thrilling contests. With multiple ways to earn rewards, every day brings fresh excitement and fun.\n\n• Fast, Secure & Reliable Redemption\n\nCash Avalanche offers a smooth, secure, and transparent redemption process. Enjoy fast, reliable transactions and a worry-free way to claim the rewards you’ve earned.\n\n• Always Fresh, Always Evolving\n\nWe continuously release new slots, refine gameplay mechanics, and optimize performance. The clean, intuitive interface makes it easy for both new and experienced players to spin and enjoy.\n\n• Stunning Graphics & Immersive Gameplay\n\nExperience HD visuals, smooth animations, and captivating sound effects that recreate the thrill of a real casino—right on your device. Optimized for seamless play anytime, anywhere.\n\n• 24/7 Customer Support\n\nOur dedicated support team is ready around the clock to answer questions, provide tips, and ensure your gameplay is always smooth and enjoyable.\n\nFeel the thrill of every spin and unlock amazing rewards.\nCash Avalanche blends high-energy gameplay with exciting events and surprises every day.\n\nJoin Cash Avalanche now and start your unforgettable slot adventure!\n\nApple is not a sponsor, affiliate, or responsible party for any sweepstakes conducted within this app.",
+      "version": "1.12.1",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/d3/d6/4bd3d670-6fcd-1979-d137-0c09120db908/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/66/7d/15/667d1520-d429-485f-5b2a-7b6dcde91128/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/e9/0f/35e90f11-9025-fb6d-64d3-d3b44a4d4ee6/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/87/0a/b1/870ab178-33dd-85af-cb45-53f6ed803985/4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/a4/db/a2a4dbe9-879b-1d3a-bcd5-c0c102d3f180/5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/79/89/bd79895b-8ee0-4aa1-468b-869be69960da/1_261030.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/f4/e2/e9f4e2aa-57ae-d330-31ed-5d372e070fb6/2_261030.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/d6/fd/3ed6fdcb-0154-fd60-dbe9-813221e0aaf8/3_261030.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/ca/bc/71cabc9c-c706-2daa-9a00-7035f732e3a9/4_261030.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/2f/be/312fbe1b-5dd5-5d93-2fc7-dec7908f25e2/5_261030.png/360x480bb.jpg"
+      ],
+      "category": "Games",
+      "supported_platforms": [
+        "iPhone",
+        "iPad"
+      ],
+      "media_missing": [],
+      "media_status": "complete",
+      "video_attempted_at": "2026-11-19T12:01:44.746310+00:00",
+      "video_error": "HTTP Error 429: Too Many Requests",
+      "media_checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "checked_at": "2026-11-19T12:01:44.746310+00:00"
     },
     "ios:6739792763": {
       "platform": "ios",
@@ -15235,11 +15269,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-19T10:37:45.326057+00:00",
+      "video_attempted_at": "2026-11-19T12:01:44.746310+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
-      "checked_at": "2026-11-19T10:37:45.326057+00:00",
+      "media_checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_attempt_at": "2026-11-19T12:01:44.746310+00:00",
+      "checked_at": "2026-11-19T12:01:44.746310+00:00",
       "error": null
     },
     "ios:6566176181": {
@@ -15285,11 +15319,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-19T10:37:45.326057+00:00",
+      "video_attempted_at": "2026-11-19T12:01:44.746310+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
-      "checked_at": "2026-11-19T10:37:45.326057+00:00",
+      "media_checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_attempt_at": "2026-11-19T12:01:44.746310+00:00",
+      "checked_at": "2026-11-19T12:01:44.746310+00:00",
       "error": null
     },
     "android:com.moonactive.cmboard": {
@@ -16327,25 +16361,25 @@
   },
   "sources": {
     "apple:newapplications": {
-      "attempted_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_success_at": "2026-11-19T10:37:45.326057+00:00",
-      "source_updated_at": "2026-11-19T02:37:45-07:00",
+      "attempted_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_success_at": "2026-11-19T12:01:44.746310+00:00",
+      "source_updated_at": "2026-11-19T04:01:44-07:00",
       "candidates": 19,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newfreeapplications": {
-      "attempted_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_success_at": "2026-11-19T10:37:45.326057+00:00",
-      "source_updated_at": "2026-11-19T02:37:45-07:00",
+      "attempted_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_success_at": "2026-11-19T12:01:44.746310+00:00",
+      "source_updated_at": "2026-11-19T04:01:45-07:00",
       "candidates": 16,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newpaidapplications": {
-      "attempted_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_success_at": "2026-11-19T10:37:45.326057+00:00",
-      "source_updated_at": "2026-11-19T02:37:46-07:00",
+      "attempted_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_success_at": "2026-11-19T12:01:44.746310+00:00",
+      "source_updated_at": "2026-11-19T04:01:46-07:00",
       "candidates": 35,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
@@ -16367,21 +16401,21 @@
       "latest_candidate_release_date": null
     },
     "apple:free": {
-      "attempted_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_success_at": "2026-11-19T10:37:45.326057+00:00",
+      "attempted_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_success_at": "2026-11-19T12:01:44.746310+00:00",
       "source_updated_at": "2026-11-19T10:37:30+00:00",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     },
     "google:free": {
-      "attempted_at": "2026-11-19T10:37:45.326057+00:00",
-      "last_success_at": "2026-11-19T10:37:45.326057+00:00",
+      "attempted_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_success_at": "2026-11-19T12:01:44.746310+00:00",
       "source_updated_at": "2026-11-19T10:37:38Z",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     }
   },
-  "updated_at": "2026-11-19T10:37:53.126453+00:00"
+  "updated_at": "2026-11-19T12:01:47.955900+00:00"
 }
