@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-19T13:56:24+08:00",
+ "updated_at": "2026-11-19T14:21:35+08:00",
  "total": 4013,
- "collected": 214,
- "with_biz": 214,
+ "collected": 215,
+ "with_biz": 215,
  "games": {
   "[777Real]スマスロ リコリス・リコイル": {
    "name": "[777Real]スマスロ リコリス・リコイル",
@@ -1692,6 +1692,31 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "开发者入驻平台介绍以东方玄幻驱鬼师为主题，核心为塔防射击；通过技能选择与躲避攻击完成战斗，并培养妖怪、收妖炼器推进成长。本档引用同开发商同名公开介绍，小游戏与安卓版本细节差异未试玩确认。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "不停找找找": {
+   "name": "不停找找找",
+   "slug": "不停找找找_4918ee",
+   "updated_at": "2026-11-19",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "未知",
+   "engine_primary": "未知",
+   "engine_inferred": true,
+   "dimension": "2.5D",
+   "verdict": "变种创意",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "据游戏矩阵体验转述，玩家在杂乱房间辨认当前目标，将对应物品逐件装箱；完成目标后继续清理，直至房间整理完成。具体失败阈值未独立核实。",
    "biz_internal": "需改造",
    "biz_opportunity": "可观望",
    "has_biz": true,
@@ -7685,31 +7710,6 @@
   "对子消消乐": {
    "name": "对子消消乐",
    "slug": "对子消消乐_8c67c7",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "不停找找找": {
-   "name": "不停找找找",
-   "slug": "不停找找找_4918ee",
    "updated_at": "",
    "collected": false,
    "icon": "",
