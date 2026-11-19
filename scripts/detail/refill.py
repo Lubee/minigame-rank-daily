@@ -444,7 +444,7 @@ def print_handoff(todo: list[dict]) -> None:
         print(f"      → 本批 {len(b['names'])} 款：{'、'.join(b['names'])}")
     print("\n写完回来跑这一条（会自动合并 + 终检）：\n")
     print("  python scripts/detail/refill.py --finish")
-    print(f"\n退出码 3 = 在等调研产物，这是预期状态，不是报错。")
+    print("\n--prepare-only 备料成功返回 0；普通入口返回 3 表示等待调研，不是报错。")
 
 
 # --------------------------------------------------------------------------
@@ -740,7 +740,7 @@ def main() -> int:
         _, todo = all_ready(state)
         print("继续上次未完成批次，保留已有调研产物。")
         print_handoff(todo)
-        return EXIT_OK if args.prepare_only else EXIT_NEED_RESEARCH
+        return checkpoint() if args.prepare_only else EXIT_NEED_RESEARCH
 
     targets = selected_targets(args)
     if targets:

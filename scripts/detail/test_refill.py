@@ -106,6 +106,7 @@ class RefillTests(unittest.TestCase):
             {"names": ["A"], "input": "input.json", "output": "missing.json"}]})
         with patch("sys.argv", ["refill.py", "--scope", "all", "--prepare-only"]), \
              patch.object(refill, "refresh_worklist", return_value=0), \
+             patch.object(refill, "checkpoint", return_value=0), \
              patch.object(refill, "fetch_media") as fetch, \
              patch.object(refill, "cut_batches") as cut:
             self.assertEqual(refill.main(), 0)
