@@ -1,0 +1,228 @@
+{
+ "schema_version": 1,
+ "name": "PUBG MOBILE FLASH",
+ "updated_at": "2026-11-19",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "Tencent Mobile International Limited",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费新游榜",
+   "android/美区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 74,
+   "android/美区免费榜": 2,
+   "android/美区免费新游榜": 1
+  },
+  "platform_app_ids": {
+   "ios": "6740521489",
+   "android": "com.tencent.igfit"
+  },
+  "first_seen": "2026-11-14",
+  "appearances": 4,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知（未取得官方技术证据）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D场景、角色与装备资产规模高；官方商店的下载体积宣传不是运行时总资源量，本批未取得精确安装包字节数。",
+  "dims": {
+   "engine": 5,
+   "art": 5,
+   "anim": 5,
+   "physics": 4,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "logic": "推断：主要难点是多人战斗、命中判定、内容版本兼容与资源分发；未取得官方引擎或同步技术证据。",
+   "art": "3D场景、角色与装备资产规模高；官方商店的下载体积宣传不是运行时总资源量，本批未取得精确安装包字节数。",
+   "engine": "评分为复现所需框架工作量的推断，不是原作引擎识别结果。"
+  },
+  "asset_notes": "3D场景、角色与装备资产规模高；官方商店的下载体积宣传不是运行时总资源量，本批未取得精确安装包字节数。",
+  "notes": "本轮未实际试玩。画面维度、成本、原型建议及业务价值均为调研推断；仅来源明确描述的玩法视为公开材料事实。",
+  "cost_score": 4.75,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "官方商店将其定位为PUBG MOBILE生态内的轻量客户端，预装经典Erangel战斗内容；玩家进入对局搜集装备、交战争取生存，并按需下载更多地图和表现资源。商店说明账号、好友与游戏资产可与原客户端衔接。",
+  "highlights": [
+   "设计分析：首局所需内容与可选资源分开，能缩短开始体验的路径。",
+   "设计分析：保留同一社交和资产生态，可降低更换客户端的迁移成本。"
+  ],
+  "innovations": [
+   "重点是客户端资源与启动流程优化，不能仅凭轻量包体认定其基础战斗规则发生创新。"
+  ],
+  "target_user": "推断：对上述题材和核心循环有兴趣的用户，具体画像未取得用户数据。",
+  "monetization": "具体广告频次和付费转化未实测，不从榜单排名推断收益。",
+  "lifecycle": "推断：能否长期运营依赖内容更新和实际留存，当前未取得留存曲线。"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "完整产品依赖大型实时战斗服务与既有PUBG生态，难以由小团队复刻。可研究按需资源策略，但不复制其地图、角色或品牌。",
+  "suggestions": [
+   "在自有重资源产品中划分首局必需包和可选表现包。",
+   "用设备分档比较首局等待时间、资源峰值内存和失败恢复。"
+  ],
+  "risks": [
+   "按需资源必须处理断网、校验和版本不一致。",
+   "品牌、地图及表现资产的授权边界不能忽略。"
+  ],
+  "effort": "推断：仅现有项目的资源分包验证15–30人日；完整射击产品不在小团队估算范围。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "更少首局等待有助于用户尽早体验战斗。"
+    },
+    {
+     "lens": "用户",
+     "text": "保留已有账号资产能减少迁移阻力。"
+    },
+    {
+     "lens": "业务",
+     "text": "若自有产品资源较重，分包策略有条件复用。"
+    },
+    {
+     "lens": "业务",
+     "text": "先测加载链路比重做整套战斗更符合小团队投入。"
+    }
+   ],
+   "how": [
+    "在自有重资源产品中划分首局必需包和可选表现包。",
+    "用设备分档比较首局等待时间、资源峰值内存和失败恢复。"
+   ],
+   "gain": [
+    "获得首局必需资源清单。",
+    "测出不同机型的等待瓶颈。",
+    "建立资源失败重试策略。",
+    "明确表现质量与存储的取舍。"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "目前没有已核实的授权或合作需求，接触前需确认开发者渠道与授权范围。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "重资源移动游戏",
+     "how": "将完整美术包改为首局资源优先，额外表现按需获取。"
+    }
+   ]
+  },
+  "summary": "将完整美术包改为首局资源优先，额外表现按需获取。"
+ },
+ "shots": [
+  {
+   "url": "https://play-lh.googleusercontent.com/4qaNVoTDU9SwTGFSOlENhnKWQ44dVmdu6N6cAgg6rgXkX0Em_4xqGbs0naQqhZz2HVsKUs1jABcWPC7ByBiGvA",
+   "kind": "icon",
+   "source": "Google Play",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/qPaT5Vr70xnzn0GjJoEQNbeIcoWppLQeu_LDUCtxr9uj3rZaWsTWnMwpvzL2mso7gqjeZjU7yNSFw1W2p6aI9A",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/Z4AUXxFP-W3jFkLf9QWQ6dxR2b9Zs0ibe42zOgicdT71s5xzxzDlOfpcD3LBloZCwoLXnWNlAcEv-fl58Kk6dA",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/3nFFoyUBn744kFF6ImFcWO3TvtpIl8Kd4V5uHjH-GKrZhdP2oLF9YgZRsbPbkZKBHy6Hix82DWeKTABweb_6",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/UgwMHQyeN1C-NJxNPzjILY9ABXnR7jNbaC1FxYmsstx-0XIXYI6CDLvJOsKTE4pfO2u09y0k6Zo-8S4Esd2RBg",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/Uwjpo3mnaRinavSA_GiunZPYd2JFR3UmtPxQ9avKuJvkAshMF-5iwLNzEcTz6MTLB12beEAmFyY_ucUdXx2z",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/SmpG1e5G30JAF5FOn8IQW6J4tWc73XwXjSWom7GM6Wx2FBr9TNgrQuO6MtnltGu0UrzibUmz8ikn3wJqwUciDw",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/ESFy1cPIwooTK8lpJ0lvqrhO9lsNzqwWDeM7LVAhLpwCdcnhL8F9EGnIYyq8nmZPkJy5lUrYf_FQMWycsGkV",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 7"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "核心循环为所列官方/开发者入驻商店材料的概述，不代表本轮实际游玩验证。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "推断：主要难点是多人战斗、命中判定、内容版本兼容与资源分发；未取得官方引擎或同步技术证据。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/store/apps/details?id=com.tencent.igfit&hl=en&gl=US"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "identity_match": "package",
+  "platform": "android",
+  "package": "com.tencent.igfit",
+  "match_name": "PUBG MOBILE FLASH",
+  "match_score": 1.0,
+  "country": "us",
+  "seller": "Level Infinite",
+  "icon": "https://play-lh.googleusercontent.com/4qaNVoTDU9SwTGFSOlENhnKWQ44dVmdu6N6cAgg6rgXkX0Em_4xqGbs0naQqhZz2HVsKUs1jABcWPC7ByBiGvA",
+  "screenshots": [
+   "https://play-lh.googleusercontent.com/qPaT5Vr70xnzn0GjJoEQNbeIcoWppLQeu_LDUCtxr9uj3rZaWsTWnMwpvzL2mso7gqjeZjU7yNSFw1W2p6aI9A",
+   "https://play-lh.googleusercontent.com/Z4AUXxFP-W3jFkLf9QWQ6dxR2b9Zs0ibe42zOgicdT71s5xzxzDlOfpcD3LBloZCwoLXnWNlAcEv-fl58Kk6dA",
+   "https://play-lh.googleusercontent.com/3nFFoyUBn744kFF6ImFcWO3TvtpIl8Kd4V5uHjH-GKrZhdP2oLF9YgZRsbPbkZKBHy6Hix82DWeKTABweb_6",
+   "https://play-lh.googleusercontent.com/UgwMHQyeN1C-NJxNPzjILY9ABXnR7jNbaC1FxYmsstx-0XIXYI6CDLvJOsKTE4pfO2u09y0k6Zo-8S4Esd2RBg",
+   "https://play-lh.googleusercontent.com/Uwjpo3mnaRinavSA_GiunZPYd2JFR3UmtPxQ9avKuJvkAshMF-5iwLNzEcTz6MTLB12beEAmFyY_ucUdXx2z",
+   "https://play-lh.googleusercontent.com/SmpG1e5G30JAF5FOn8IQW6J4tWc73XwXjSWom7GM6Wx2FBr9TNgrQuO6MtnltGu0UrzibUmz8ikn3wJqwUciDw",
+   "https://play-lh.googleusercontent.com/ESFy1cPIwooTK8lpJ0lvqrhO9lsNzqwWDeM7LVAhLpwCdcnhL8F9EGnIYyq8nmZPkJy5lUrYf_FQMWycsGkV"
+  ],
+  "description": "【The Original PUBG MOBILE, Now in a FLASH】\nPUBG MOBILE FLASH is the official lightweight app in the PUBG MOBILE ecosystem. Enjoy the authentic PUBG MOBILE experience with a smaller download and optimized performance.\n\n【Classic Battle Royale, Ready to Play】\nJump straight into Erangel and the original Classic Battle Royale experience. Core gameplay comes pre-installed, with no additional download required before your first match.\n\n【Small Download, More Space】\nGet started with under 0.96 GB on Android or under 1.75 GB on iOS. Enjoy PUBG MOBILE while leaving more storage space for your photos, videos, and everyday apps.\n\n【Download Only What You Want】\nDownload additional maps, modes, events, and resources whenever you need them. With download confirmation, you're in control of what gets downloaded, helping prevent unnecessary downloads and save storage space.\n\n【One PUBG MOBILE World】\nStay connected with the same account, friends, and in-game assets across PUBG MOBILE and FLASH. Enjoy synchronized updates, play matches together across both apps, and stay in the same PUBG MOBILE ecosystem.\n\n【A Clean and Simple Lobby】\nEnjoy a clean, minimalist Lobby designed to take up less space. Want the full Lobby experience? Simply download the additional resources whenever you choose.\n\n【Smart Resources, Less Storage】\nLightweight visuals help save space, with higher-quality resources available on demand. Smart outfit display automatically shows temporary appearances for outfits you haven't downloaded, without using extra storage. Download the original outfit resources whenever you want to see the full look.\n\n【Optimized for More Devices】\nFLASH features dedicated graphics optimizations for entry-level and mid-range phones, reducing performance demands and making the original PUBG MOBILE experience accessible on more devices.\n\n【Smoother Gameplay, Less Waiting】\nEnjoy further optimizations designed to improve frame rate, stability, power efficiency, and memory usage. Faster startup and pre-match loading help you spend less time waiting and more time playing.\n\n【Same PUBG MOBILE Security】\nFLASH is protected by PUBG MOBILE's Ban Pan security system, with real-time monitoring, violation detection, enforcement, and the Investigator system to help maintain a fair gaming environment.\n\n【Follow Us】\nInstagram: https://www.instagram.com/pubgmobile\nFacebook: https://www.facebook.com/PUBGMOBILE\nX: https://x.com/PUBGMobile\nYouTube: https://www.youtube.com/pubgmobile\nTikTok: https://www.tiktok.com/@pubgmobile\nReddit: https://www.reddit.com/r/PUBGMobile/\nDiscord: https://discord.gg/pubgmobile\nPlease contact customer service if you encounter any problems: service@pubgmobile.com\nPlease read PUBG MOBILE's Privacy Policy and User Agreement.\nPrivacy Policy: http://pubgmobile.proximabeta.com/privacy.html\nTencent Games User Agreement: https://www.pubgmobile.com/terms.html",
+  "url": "https://play.google.com/store/apps/details?id=com.tencent.igfit&gl=US&hl=en",
+  "version": "4.7.0",
+  "file_size_bytes": 0,
+  "fetched_at": "2026-11-19T13:25:33+08:00"
+ },
+ "slug": "PUBG_MOBILE_FLASH_4c6964"
+}

@@ -1,0 +1,287 @@
+{
+ "schema_version": 1,
+ "name": "篮球少女:飞跃巅峰",
+ "updated_at": "2026-11-19",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "广州灵犀互动娱乐有限公司",
+  "category_l1": "养成",
+  "category_l2": "二次元、篮球、美少女、模拟、卡牌、日系、体育",
+  "boards": [
+   "ios/国区免费榜",
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 5,
+   "ios/国区免费榜": 77
+  },
+  "platform_app_ids": {
+   "ios": "6800167533"
+  },
+  "first_seen": "2026-08-26",
+  "appearances": 14,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知（未取得官方技术证据）",
+  "engine_evidence": "inferred",
+  "dimension": "2D+3D混合",
+  "art_style": "官方iOS材料约1379MiB，提示内容资产较重；二维角色与赛场混合表现是基于定位的推断，具体渲染技术未确认。",
+  "dims": {
+   "engine": 3,
+   "art": 5,
+   "anim": 4,
+   "physics": 2,
+   "logic": 4,
+   "data": 5,
+   "server": 3,
+   "audio": 4
+  },
+  "dim_notes": {
+   "logic": "推断：训练事件、流派组合与赛事策略需要大量配置；原作比赛控制粒度和底层架构未知。",
+   "art": "官方iOS材料约1379MiB，提示内容资产较重；二维角色与赛场混合表现是基于定位的推断，具体渲染技术未确认。",
+   "engine": "评分为复现所需框架工作量的推断，不是原作引擎识别结果。"
+  },
+  "asset_notes": "官方iOS材料约1379MiB，提示内容资产较重；二维角色与赛场混合表现是基于定位的推断，具体渲染技术未确认。",
+  "notes": "本轮未实际试玩。画面维度、成本、原型建议及业务价值均为调研推断；仅来源明确描述的玩法视为公开材料事实。",
+  "cost_score": 3.75,
+  "cost_level": "高"
+ },
+ "play": {
+  "core_loop": "官方商店介绍以教练制定训练、选择成长路线与处理随机事件推进多周目育成，再带领球队参加赛事并调整战术。角色、器材与笔记组合影响育成流派，比赛和训练资源支持再次培养。",
+  "highlights": [
+   "设计分析：多周目成长差异使相同角色仍有重复培养空间。",
+   "设计分析：训练中的选择与赛场表现连接，能够让玩家观察培养结果。"
+  ],
+  "innovations": [
+   "以少女篮球题材组织模拟育成和赛事决策，具体机制的新颖程度仍需对照同类育成作品与实际试玩。"
+  ],
+  "target_user": "推断：对上述题材和核心循环有兴趣的用户，具体画像未取得用户数据。",
+  "monetization": "具体广告频次和付费转化未实测，不从榜单排名推断收益。",
+  "lifecycle": "推断：能否长期运营依赖内容更新和实际留存，当前未取得留存曲线。"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "值得研究训练选择如何影响比赛，但角色内容、事件与数值调优构成长线投入。只做一个原创队伍的短育成原型更可评估。",
+  "suggestions": [
+   "用三名原创球员和一周训练配置验证成长选择。",
+   "设计一场自动结算比赛，对照训练路线与可解释的比赛指标。"
+  ],
+  "risks": [
+   "事件量和角色资产可能比原型程序更贵。",
+   "随机收益若压过训练选择，玩家会失去策略感。"
+  ],
+  "effort": "推断：三角色单周目育成原型30–50人日，不含完整剧情与赛场演出。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "训练决策可让玩家形成对角色成长的参与感。"
+    },
+    {
+     "lens": "用户",
+     "text": "不同周目结果提供重复尝试动机。"
+    },
+    {
+     "lens": "业务",
+     "text": "若自有产品包含养成，事件配置工具可复用。"
+    },
+    {
+     "lens": "业务",
+     "text": "缩小角色和赛事规模便于先验证因果反馈。"
+    }
+   ],
+   "how": [
+    "用三名原创球员和一周训练配置验证成长选择。",
+    "设计一场自动结算比赛，对照训练路线与可解释的比赛指标。"
+   ],
+   "gain": [
+    "形成事件配置原型。",
+    "得到训练路线的差异样本。",
+    "估算每条事件的制作成本。",
+    "检验赛事反馈能否解释育成结果。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "目前没有已核实的授权或合作需求，接触前需确认开发者渠道与授权范围。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "运动题材育成",
+     "how": "将漫长赛季压缩成短周目，用可解释的比赛数据连接训练选择。"
+    }
+   ]
+  },
+  "summary": "将漫长赛季压缩成短周目，用可解释的比赛数据连接训练选择。"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/09/b7/6709b72f-f49b-9427-ebcb-d1254be8e69e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/e7/71/57e77174-fef3-5c1a-45c3-9640b9813722/iphone.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/6c/08/7c6c08d8-665c-4c22-8183-6ac2cf18dab5/2556x1179-0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/31/0f/07310fa0-0e46-2138-d333-1292d4a4c020/2556x1179-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/84/b5/2d84b566-b514-779d-7cad-158ce80830ae/2556x1179-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/4a/34/4c4a3422-89aa-b653-2220-88918bd55da1/2556x1179-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/c2/67/c3c267fe-2024-3309-dadb-ff7babb0834f/2556x1179-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/2e/73/a92e73c2-8837-0104-881f-897c1bcd6130/2556x1179-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/49/00/b74900b1-ef2c-b7c5-13db-279297a3ce45/ipad.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/84/d7/da84d7e1-b808-a4ec-26af-b578104ac940/2732x2048-0.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/5b/d5/f25bd550-7af8-eec8-b084-a5249929e405/2732x2048-1.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/af/ec/87afec36-784f-cfd5-4b37-5f2d09fe9103/2732x2048-2.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/43/7d/4c437d8c-258f-11e2-810f-42da31824f12/2732x2048-3.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/e4/5a/dee45ac8-e299-1cc6-b0a3-3643c77dbf69/2732x2048-4.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/e7/d0/24e7d06a-f4ea-5733-4721-b8bc4f055b48/2732x2048-5.jpg/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "核心循环为所列官方/开发者入驻商店材料的概述，不代表本轮实际游玩验证。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "推断：训练事件、流派组合与赛事策略需要大量配置；原作比赛控制粒度和底层架构未知。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.taptap.cn/app/741112",
+  "https://apps.apple.com/cn/app/id6800167533"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "篮球少女：飞跃巅峰",
+  "country": "cn",
+  "track_id": 6800167533,
+  "seller": "Lingxi Games Inc.",
+  "genres": [
+   "游戏",
+   "卡牌",
+   "体育"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/09/b7/6709b72f-f49b-9427-ebcb-d1254be8e69e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/57/e7/71/57e77174-fef3-5c1a-45c3-9640b9813722/iphone.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/6c/08/7c6c08d8-665c-4c22-8183-6ac2cf18dab5/2556x1179-0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/31/0f/07310fa0-0e46-2138-d333-1292d4a4c020/2556x1179-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2d/84/b5/2d84b566-b514-779d-7cad-158ce80830ae/2556x1179-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/4a/34/4c4a3422-89aa-b653-2220-88918bd55da1/2556x1179-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/c2/67/c3c267fe-2024-3309-dadb-ff7babb0834f/2556x1179-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/2e/73/a92e73c2-8837-0104-881f-897c1bcd6130/2556x1179-5.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/49/00/b74900b1-ef2c-b7c5-13db-279297a3ce45/ipad.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/da/84/d7/da84d7e1-b808-a4ec-26af-b578104ac940/2732x2048-0.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/5b/d5/f25bd550-7af8-eec8-b084-a5249929e405/2732x2048-1.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/af/ec/87afec36-784f-cfd5-4b37-5f2d09fe9103/2732x2048-2.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/43/7d/4c437d8c-258f-11e2-810f-42da31824f12/2732x2048-3.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/e4/5a/dee45ac8-e299-1cc6-b0a3-3643c77dbf69/2732x2048-4.jpg/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/e7/d0/24e7d06a-f4ea-5733-4721-b8bc4f055b48/2732x2048-5.jpg/626x1112bb.jpg"
+  ],
+  "description": "《篮球少女：飞跃巅峰》是新一代运动少女养成游戏。这里有你前所未见的篮球赛场，你将担任教练，带领一群热血篮球少女冲击全国大赛！\n\n【教练，你见过这样的赛场吗？】\n少女们扛起进攻，搏下篮板，投进绝杀，原来篮球少女也能制霸篮球赛场！\n你将作为教练，带领少女们让低谷中爬出来，一场一场打上去。\n目标是全国大赛，也是和少女们约定的梦想！\n\n【今天的训练，你说了算】\n每天的训练计划，你来制定。每一条成长的路线，你来绘制。\n多周目循环，重开一次就多一分理解——\n每个少女的成长上限，这支队伍是否能拿下冠军奖杯，全看你的选择！\n\n【抓紧训练场上的每一次机遇】\n育成中300多个随机事件随时出现！或是篮球之神的降临，或是突发的球队挑战，只要接住机会，你将迎来爆发性成长！\n你的每一个决定都能改写少女们的未来！\n\n【每一个少女，都是独一无二的存在！】\n角色特性、训练器材、笔记组合——这些要素在你手里能拼出完全不同的育成流派。\n训练流稳扎稳打，小游戏流剑走偏锋，扭蛋流梭哈一手上限……球员成长之路由你而定。\n\n【对手再强，也得先过你这一关】\n七大赛事，数十支顶尖球队摆好阵势等你。\n外线炮台、内线巨兽、反击快马——每一种风格打法都需要你调整队伍战术来应对！\n走位还是投射？挡拆还是单打？每一球都需要你当场拍板。\n\n【她们的每一刻，都值得被记住】\n赛场上看不到的过往、执念、羁绊，每一个少女的喜怒哀乐，都藏在一段段专属剧情里。\n她的故事，由你亲自揭开。\n\n【教练！开局先打一波富裕仗】\n教练，全国大赛的哨声刚刚吹响，福利已经空降更衣室——\n活动期间登录游戏，即可领取NBA联动皮肤！让少女们穿上联名战袍登场，排面、热血、仪式感，一次拉满。\n更有游戏推介娘--兔娘空降篮球赛场！分享游戏即可领取兔娘Q版形象、兔娘定制头像、兔娘定制头像框等好礼！\n开服首日送200抽！完成任务加码再送自选SSR*2！想怎么配队就怎么配队！这次不用碰运气，你的战术从第一秒就拥有无限可能！\n\n10月23日，NBA官方授权联动活动正式开启！教练！带领少女们向着巅峰殿堂飞跃巅峰吧！\n\n来自教练们的真实声音：\n-精英教练 猫又：“这游戏养成随机性真的强，同一个球员每周目都能练成完全不同的形态，事件暴击爽得飞起。搭配训练流、扭蛋流各种流派，每一次开局都充满未知，越养越上头！”\n-精英教练 椰子壳：“画风和剧情意外走心，少女们阳光青春，整体感觉就是很自然，剧情也是校园番的感觉。冷门角色也能靠用心培养带队夺冠，本命厨狂喜！”\n-精英教练 真实大帅比：“别被养成外表骗了，比赛是真要实时决策战术的，对手风格多样，有些对手是真的难缠，临场选择直接影响胜负。游戏性比想象中深得多，适合喜欢动脑的玩家。”",
+  "release_notes": "• 修复部分已知问题",
+  "file_size_bytes": 1446992896,
+  "min_os": "14.0",
+  "version": "1.16",
+  "release_date": "2026-10-21",
+  "rating": 4.71745,
+  "rating_count": 11166,
+  "price": "免费",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/cn/app/%E7%AF%AE%E7%90%83%E5%B0%91%E5%A5%B3-%E9%A3%9E%E8%B7%83%E5%B7%85%E5%B3%B0/id6800167533?uo=4",
+  "fetched_at": "2026-11-19T13:25:36+08:00",
+  "identity_match": "app_id"
+ },
+ "slug": "篮球少女_飞跃巅峰_a29f88"
+}

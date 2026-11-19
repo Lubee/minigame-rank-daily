@@ -1,0 +1,232 @@
+{
+ "schema_version": 1,
+ "name": "Amochiroom Puzzle: Room Sort",
+ "updated_at": "2026-11-19",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "ABF ALPENHOF",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费新游榜",
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 6,
+   "android/美区免费新游榜": 2
+  },
+  "platform_app_ids": {
+   "android": "com.gamefactory.roomsort"
+  },
+  "first_seen": "2026-11-18",
+  "appearances": 1,
+  "best_rank": 2,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知（未取得官方技术证据）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "生活物件、箱体与多房间场景为主要资产；2D和素材成本为推断，精确包体未知。",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "推断：箱子需求、物件状态、暂存槽与关卡解锁适合数据驱动；官方说明本地保存，无账号注册要求。",
+   "art": "生活物件、箱体与多房间场景为主要资产；2D和素材成本为推断，精确包体未知。",
+   "engine": "评分为复现所需框架工作量的推断，不是原作引擎识别结果。"
+  },
+  "asset_notes": "生活物件、箱体与多房间场景为主要资产；2D和素材成本为推断，精确包体未知。",
+  "notes": "本轮未实际试玩。画面维度、成本、原型建议及业务价值均为调研推断；仅来源明确描述的玩法视为公开材料事实。",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "官方Google Play描述为房间整理谜题：查看箱子标签，点选对应物件装箱；没有匹配箱子的物品进入有限暂存槽，玩家安排收集顺序完成房间，获取星星并可重玩改善用时。",
+  "highlights": [
+   "设计分析：装箱完成会释放空间，形成可预期的清理反馈。",
+   "设计分析：有限暂存区让快速点击与计划顺序之间形成取舍。"
+  ],
+  "innovations": [
+   "把目标箱子和房间找物结合；未发现可证实的独创基础规则，应按成熟机制组合评估。"
+  ],
+  "target_user": "推断：对上述题材和核心循环有兴趣的用户，具体画像未取得用户数据。",
+  "monetization": "官方描述含广告，奖励广告可提供额外空间、工具或能量，关间可能出现插屏；实际频次和转化未测。",
+  "lifecycle": "推断：能否长期运营依赖内容更新和实际留存，当前未取得留存曲线。"
+ },
+ "clone": {
+  "verdict": "微创新",
+  "rationale": "可研究暂存槽与目标箱的反馈，直接同题材竞争差异较小。应先测试原创订单变化是否产生额外可理解的决策。",
+  "suggestions": [
+   "用三个目标箱和两种暂存上限制作对照关卡。",
+   "将星级用时目标改为原创的打包优先级，观察是否增加计划感。"
+  ],
+  "risks": [
+   "多语言标签与物件图形可能导致识别误差。",
+   "奖励广告扩槽的收益与关卡公平性需要分别验证。"
+  ],
+  "effort": "推断：单房间箱子整理原型12–20人日，多场景资产另计。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "标签匹配使用户能快速判断下一步操作。"
+    },
+    {
+     "lens": "用户",
+     "text": "从拥挤到清空的反馈适合碎片时间完成。"
+    },
+    {
+     "lens": "业务",
+     "text": "若自有产品有休闲关卡，可复用目标箱组件。"
+    },
+    {
+     "lens": "业务",
+     "text": "本地保存的验证原型可避免过早引入账号服务。"
+    }
+   ],
+   "how": [
+    "用三个目标箱和两种暂存上限制作对照关卡。",
+    "将星级用时目标改为原创的打包优先级，观察是否增加计划感。"
+   ],
+   "gain": [
+    "形成目标箱状态机。",
+    "得到暂存压力的对照数据。",
+    "评估多语言物件辨识。",
+    "明确奖励广告可介入的失败节点。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "目前没有已核实的授权或合作需求，接触前需确认开发者渠道与授权范围。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "打包整理小游戏",
+     "how": "用原创配送订单替代通用房间主题，先比较目标顺序的辨识度。"
+    }
+   ]
+  },
+  "summary": "用原创配送订单替代通用房间主题，先比较目标顺序的辨识度。"
+ },
+ "shots": [
+  {
+   "url": "https://play-lh.googleusercontent.com/HY6j9222YZcx59WubEu1bACCs5KVqYu6hrAYIaL47eox23RrDxQkpol-Z2lDd9v0C3_N7LY7GjiWJlC_-8z8",
+   "kind": "icon",
+   "source": "Google Play",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/1ZP1Bfq3cFAkDwRrwtbw-nZ1AmKnrvylplmDksWxc7Xer-kvSZB0ooSNWcg04gmGQEkQj-P9GhNT-E7GeRbQLA",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/PRenpf3DKqzpXW4eHzcwIiMlGiV5jtydAIb0-3PJ1PXfvak58-frPdC9MiMpzGhMTC0iWPHH2wMnfzH8JM0J",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/tV8PstbLAsFUdLZdfUd9MeIlJNduz9AHYPSr8SHe3-sFznoNshTN1m4mKcsfrLRaONXs2ZGywmDEqmeBg1pX",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/2FSin4Hf2uFSWqMlwBZgBHfDBdjQoqD91LDN8apgkiSI0bg4VwScfXYQswyXm6gu9AZCgccK57BEirMksipXVwA",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/sna9club3xBCi3JQDkhLxnN9TstoA78-k91L_iF4WDa4w0Ew1GWxXhR1y7qyLKDuTYKxNm_oT2yek5khVssM",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/30coreyzcLVDD9mBMlARHFdA-O0QfOxTdxhw-olk7_gWTAEaVfKgAAkHyy-wt6kCYXHfeeGxznXP4Ag0KmWrAqs",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/c20YTXgrUPvHHzM-QIcEGpJQZAIMmCklRt3LwxEfUh0IxwgGlrkxHBPiMPJrMmoKCg-tOKDa9-HOcNnlnfy5LQ",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/VDp2N12qpMuBUsMIwdo1IeOavLi7p7mDmUWeYWWZGaDKAHE7x3zGKh_Bnj7pdvxxAHuEm8ywtevdRt_FQ94ruQ",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 8"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "核心循环为所列官方/开发者入驻商店材料的概述，不代表本轮实际游玩验证。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "推断：箱子需求、物件状态、暂存槽与关卡解锁适合数据驱动；官方说明本地保存，无账号注册要求。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/store/apps/details?id=com.gamefactory.roomsort&hl=en&gl=US"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "identity_match": "package",
+  "platform": "android",
+  "package": "com.gamefactory.roomsort",
+  "match_name": "Amochiroom Puzzle: Room Sort",
+  "match_score": 1.0,
+  "country": "us",
+  "seller": "ABF ALPENHOF",
+  "icon": "https://play-lh.googleusercontent.com/HY6j9222YZcx59WubEu1bACCs5KVqYu6hrAYIaL47eox23RrDxQkpol-Z2lDd9v0C3_N7LY7GjiWJlC_-8z8",
+  "screenshots": [
+   "https://play-lh.googleusercontent.com/1ZP1Bfq3cFAkDwRrwtbw-nZ1AmKnrvylplmDksWxc7Xer-kvSZB0ooSNWcg04gmGQEkQj-P9GhNT-E7GeRbQLA",
+   "https://play-lh.googleusercontent.com/PRenpf3DKqzpXW4eHzcwIiMlGiV5jtydAIb0-3PJ1PXfvak58-frPdC9MiMpzGhMTC0iWPHH2wMnfzH8JM0J",
+   "https://play-lh.googleusercontent.com/tV8PstbLAsFUdLZdfUd9MeIlJNduz9AHYPSr8SHe3-sFznoNshTN1m4mKcsfrLRaONXs2ZGywmDEqmeBg1pX",
+   "https://play-lh.googleusercontent.com/2FSin4Hf2uFSWqMlwBZgBHfDBdjQoqD91LDN8apgkiSI0bg4VwScfXYQswyXm6gu9AZCgccK57BEirMksipXVwA",
+   "https://play-lh.googleusercontent.com/sna9club3xBCi3JQDkhLxnN9TstoA78-k91L_iF4WDa4w0Ew1GWxXhR1y7qyLKDuTYKxNm_oT2yek5khVssM",
+   "https://play-lh.googleusercontent.com/30coreyzcLVDD9mBMlARHFdA-O0QfOxTdxhw-olk7_gWTAEaVfKgAAkHyy-wt6kCYXHfeeGxznXP4Ag0KmWrAqs",
+   "https://play-lh.googleusercontent.com/c20YTXgrUPvHHzM-QIcEGpJQZAIMmCklRt3LwxEfUh0IxwgGlrkxHBPiMPJrMmoKCg-tOKDa9-HOcNnlnfy5LQ",
+   "https://play-lh.googleusercontent.com/VDp2N12qpMuBUsMIwdo1IeOavLi7p7mDmUWeYWWZGaDKAHE7x3zGKh_Bnj7pdvxxAHuEm8ywtevdRt_FQ94ruQ"
+  ],
+  "description": "In Amochiroom Puzzle: Room Sort, turn everyday clutter into a satisfying sorting puzzle.\n\nExplore cozy rooms, find the items your boxes need, and tap matching objects to pack them away. Read each box label and choose what to collect next. Items without a matching box wait in limited temporary slots, so a little planning helps you keep making space.\n\nFind it. Sort it.\nLook through piles of familiar objects and match them to the right boxes. Decide which items to collect first as you work through each room.\n\nA place for your next move\nKeep an eye on your temporary slots. Make thoughtful choices before they fill up, and clear space for the next objects.\n\nRooms with their own character\nDiscover living rooms, kitchens, pet corners, cafés, and other themed spaces filled with everyday things to sort.\n\nEnjoy the tidy finish\nComplete puzzles, earn stars, and revisit earlier rooms to improve your best times.\n\nPlay your way\nChoose from multiple interface languages and adjust music, sound effects, and vibration. Your progress is saved on your device, and no account registration is required.\n\nAmochiroom Puzzle is free to play and contains ads. Optional rewarded ads can provide extra space, helpful tools, or energy; interstitial ads may appear between levels. Ads and optional feedback require an internet connection.",
+  "url": "https://play.google.com/store/apps/details?id=com.gamefactory.roomsort&gl=US&hl=en",
+  "version": "1.0.16",
+  "file_size_bytes": 0,
+  "fetched_at": "2026-11-19T13:25:40+08:00"
+ },
+ "slug": "Amochiroom_Puzzle_Room_Sort_c7d021"
+}

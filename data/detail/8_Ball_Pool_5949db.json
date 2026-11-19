@@ -1,0 +1,321 @@
+{
+ "schema_version": 1,
+ "name": "8 Ball Pool",
+ "updated_at": "2026-11-19",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "Miniclip.com",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 98
+  },
+  "platform_app_ids": {
+   "android": "com.miniclip.eightballpool"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 38,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知（未取得官方技术证据）",
+  "engine_evidence": "inferred",
+  "dimension": "2D+3D混合",
+  "art_style": "推断：以球桌、球杆和UI为主要资产，资源复用度较高；本批Android包体未取得。",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 5,
+   "logic": 4,
+   "data": 3,
+   "server": 4,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "推断：球体碰撞、旋转衰减、进袋判定及网络状态一致性是核心成本；具体物理库和同步架构未知。",
+   "art": "推断：以球桌、球杆和UI为主要资产，资源复用度较高；本批Android包体未取得。",
+   "engine": "评分为复现所需框架工作量的推断，不是原作引擎识别结果。"
+  },
+  "asset_notes": "推断：以球桌、球杆和UI为主要资产，资源复用度较高；本批Android包体未取得。",
+  "notes": "本轮未实际试玩。画面维度、成本、原型建议及业务价值均为调研推断；仅来源明确描述的玩法视为公开材料事实。",
+  "cost_score": 3.38,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "官方资料描述为在线台球对局：瞄准、控制击球力度并轮流争取进球，获胜取得球币，再参与更高等级球桌或解锁球杆与桌布；好友对局和锦标赛提供重复挑战。",
+  "highlights": [
+   "设计分析：击球路线的预判与结果直接对应，手感改进能够被玩家感知。",
+   "设计分析：逐球决策将操作精度转成对局悬念，好友挑战提供明确比较对象。"
+  ],
+  "innovations": [
+   "成熟台球规则与在线对局、球币门槛及外观成长结合；未确认当前移动版本有新的基础规则创新。"
+  ],
+  "target_user": "推断：对上述题材和核心循环有兴趣的用户，具体画像未取得用户数据。",
+  "monetization": "具体广告频次和付费转化未实测，不从榜单排名推断收益。",
+  "lifecycle": "推断：能否长期运营依赖内容更新和实际留存，当前未取得留存曲线。"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "可研究瞄准反馈与短局竞技，但多人匹配和高精度物理不是低成本换皮。应验证原创规则，避免依赖对方品牌和球杆素材。",
+  "suggestions": [
+   "先做离线双人轮流击球原型，记录碰撞误差和进袋稳定性。",
+   "用原创障碍球桌验证解题式关卡，确认差异化后再评估联网。"
+  ],
+  "risks": [
+   "物理误差和网络状态不一致会直接损害公平感。",
+   "球币经济和付费设计需独立验证，不能从榜单推断回收。"
+  ],
+  "effort": "推断：离线单球桌原型25–40人日；实时联网及运营不含在内。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "击球轨迹反馈可帮助用户理解失误原因。"
+    },
+    {
+     "lens": "用户",
+     "text": "短局和好友比较适合重复练习。"
+    },
+    {
+     "lens": "业务",
+     "text": "若自有产品含竞技玩法，物理一致性检查可复用。"
+    },
+    {
+     "lens": "业务",
+     "text": "先离线验证可减少过早投入匹配服务器的成本。"
+    }
+   ],
+   "how": [
+    "先做离线双人轮流击球原型，记录碰撞误差和进袋稳定性。",
+    "用原创障碍球桌验证解题式关卡，确认差异化后再评估联网。"
+   ],
+   "gain": [
+    "得到碰撞回归用例。",
+    "形成可配置球桌。",
+    "获得瞄准辅助的可理解性反馈。",
+    "识别联网前必须稳定的物理边界。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "目前没有已核实的授权或合作需求，接触前需确认开发者渠道与授权范围。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "桌面竞技训练",
+     "how": "把球杆养成改为技巧挑战，先验证精准击球的学习曲线。"
+    }
+   ]
+  },
+  "summary": "把球杆养成改为技巧挑战，先验证精准击球的学习曲线。"
+ },
+ "shots": [
+  {
+   "url": "https://play-lh.googleusercontent.com/F2_Kbn1-vQePDh_Y0qNCDhkmpEK5qdEyPwcJqwXho54ZVG4w6Szt32VHsyPzeVLPR2kfYI62-hGmNpQoDxS-wQ",
+   "kind": "icon",
+   "source": "Google Play",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/Fto3PVMUTGH7PtDuWzJlDyDAWzbf7ThNKQuCeomanubIggPp1Z_qkk19QHRWVeh2rBiyToB2hTyD04XVliDsT5U",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/h47FZaYPKAyVN9-TZmElXxvx5lG4r46Zr586-0xD9VxX08iJDb7uT8yf_GCUFyoqSyd1WYs4sILbUUBcBf32beY",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/VH8O2YBxZNw4QJj3RLZKORX-j1dB3SKD8v0kfQr4767bHaMc8_gZHGJ8hE0gEhHKsfh85JxWSxR1FBw5B6jecLY",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/qJHrs6Cf5iQPlA7JhjgR6TLEGjnnkxFAiKBDzbXmHndoPnYmPWGKU75bF122KPNSp5iB9MqRc15DBWA1hqnEQ6M",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/_FmvxR42FpeDOxl9PrFV6Nd18mTmIl061oBN8LdJjLnhqCjeATnCjjXDXR_sxs43j4WHIVHpCSL6tOuI7fWbdg",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/rI426W4Ek91reKzLZEDnOl9bRpNsGIK8Q7EREYBearEmPyDm_2foVGwgbMJ2QLX-DrlvjglKrhqefMAvfazupg",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/w9OhKIMfXlXJSxURos-eQRYQzAT3mFq3nQO9S9KgU029NiUi_DhPIxsfDKfkdxbbosGb_mtfWhJhVN2Ef8XDDA",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/Ub4gGkCZX27j0S9lRd9xgyn_h8fY44tbeHT2fSrgo3xpZE9UeIzhM6RwbG9fJgia5rnB2Dontlpxoqk508XYaw",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/taNJE2p3rGWIzu-I26nrw22r1A0T5iKZ33doDSlZokuFHKbYeOPvpyrARf-q-BSJNh5g0bgj9qcBh9ZKFcZf-g",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/vZo43z2r6J0zH_HbL2H5IPQK9DDxuscS1FKyXBAQ6Lh3bGxEldo_bOCiIy843IltzY5BfTb1qaboWS5JkemgnQ",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/-7nwYtowfFqc2uFKEgaizlkjnuWRb94NQMGQSqgxcUADRnSzdAuejG0aBbNVcz-_5oWmFv5iZoLBjXr8bLZ6nQ",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/vnrzrJHGuRzhll2Sag7HCseb3qwbwpXlG72tFqZWpwFkUHLyVVjVca32jEx6xBkMsOWdmQ146ubLcNfcYkLTKw",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/-HTXCkjvSaBvTmv1fo15dKJOZJ3kEENI6A2c4ONp85eZKxwHG9ja7EFqhiHgBNnJPT51sWseq_DrCa6v9AaU",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/4q1Xb9m-7ui2HtH8qDY5Ak8d9T0R9p0YoYGrxfp1JZQ7ZJ_--tDc7-N1wBx20xo8FPGQUBjybDf6xobLsihx",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/f-qsj6ajNqa6M7obPMtG3paBEo0h6h-A81PDNBckg-vyCScUeeqNEskSQcL2T04VWLW0GXop-UX-sTXaziRrEg",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/Wo82PPqALGtmalQ86iDrnjNFcgDGyEl8CRbvrRObQYSd4-JURkboSccQZhaheUCpWJJpIgihHD7ViThPoRnx",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 16"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/Z1MHBOeai36rLQLuTnRw1C7EDM5LZWdrVBklr797UIjG7lidhbOD-Sl8DQcNnJX3KsrGYdMz95mk53fV2RlR",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 17"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/YNBEgf-6IuOnWopqGgqv-w31HZaMnKBup-9D28ga9Ovuq7cgGeS2pUwIUsQxU9xqiSFg_Mbd2FoEnXn03UIa",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 18"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/CXuH0lLtxaCmnO0zH6g70bqpfXPZ_kzS0WNuaXwnRttPhwNtP7tS_QyJxQuOAh7kH_QJbe14wAl8Cw-DUdHVcXs",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 19"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/aG9dz1d2iEsEXayh4FfA8H0ahNdlXpOqMSYZ9E3TH9jXYvVOu7G0ol_KtLc7RppBdJ9I7B2LeG3YQyK_DGqP",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 20"
+  },
+  {
+   "url": "https://play-lh.googleusercontent.com/0gsRiibOF2tos9cVH_HLImc2VcW0lPmHA41drmtjggFKnbcuo8Of7fsRyYKOBsj8ixWU7Ke3nd7qoNcwy8Lagno",
+   "kind": "screenshot",
+   "source": "Google Play",
+   "caption": "官方实机截图 21"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "核心循环为所列官方/开发者入驻商店材料的概述，不代表本轮实际游玩验证。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "推断：球体碰撞、旋转衰减、进袋判定及网络状态一致性是核心成本；具体物理库和同步架构未知。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.miniclip.com/games/web"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "identity_match": "package",
+  "platform": "android",
+  "package": "com.miniclip.eightballpool",
+  "match_name": "8 Ball Pool",
+  "match_score": 1.0,
+  "country": "us",
+  "seller": "Miniclip.com",
+  "icon": "https://play-lh.googleusercontent.com/F2_Kbn1-vQePDh_Y0qNCDhkmpEK5qdEyPwcJqwXho54ZVG4w6Szt32VHsyPzeVLPR2kfYI62-hGmNpQoDxS-wQ",
+  "screenshots": [
+   "https://play-lh.googleusercontent.com/Fto3PVMUTGH7PtDuWzJlDyDAWzbf7ThNKQuCeomanubIggPp1Z_qkk19QHRWVeh2rBiyToB2hTyD04XVliDsT5U",
+   "https://play-lh.googleusercontent.com/h47FZaYPKAyVN9-TZmElXxvx5lG4r46Zr586-0xD9VxX08iJDb7uT8yf_GCUFyoqSyd1WYs4sILbUUBcBf32beY",
+   "https://play-lh.googleusercontent.com/VH8O2YBxZNw4QJj3RLZKORX-j1dB3SKD8v0kfQr4767bHaMc8_gZHGJ8hE0gEhHKsfh85JxWSxR1FBw5B6jecLY",
+   "https://play-lh.googleusercontent.com/qJHrs6Cf5iQPlA7JhjgR6TLEGjnnkxFAiKBDzbXmHndoPnYmPWGKU75bF122KPNSp5iB9MqRc15DBWA1hqnEQ6M",
+   "https://play-lh.googleusercontent.com/_FmvxR42FpeDOxl9PrFV6Nd18mTmIl061oBN8LdJjLnhqCjeATnCjjXDXR_sxs43j4WHIVHpCSL6tOuI7fWbdg",
+   "https://play-lh.googleusercontent.com/rI426W4Ek91reKzLZEDnOl9bRpNsGIK8Q7EREYBearEmPyDm_2foVGwgbMJ2QLX-DrlvjglKrhqefMAvfazupg",
+   "https://play-lh.googleusercontent.com/w9OhKIMfXlXJSxURos-eQRYQzAT3mFq3nQO9S9KgU029NiUi_DhPIxsfDKfkdxbbosGb_mtfWhJhVN2Ef8XDDA",
+   "https://play-lh.googleusercontent.com/Ub4gGkCZX27j0S9lRd9xgyn_h8fY44tbeHT2fSrgo3xpZE9UeIzhM6RwbG9fJgia5rnB2Dontlpxoqk508XYaw",
+   "https://play-lh.googleusercontent.com/taNJE2p3rGWIzu-I26nrw22r1A0T5iKZ33doDSlZokuFHKbYeOPvpyrARf-q-BSJNh5g0bgj9qcBh9ZKFcZf-g",
+   "https://play-lh.googleusercontent.com/vZo43z2r6J0zH_HbL2H5IPQK9DDxuscS1FKyXBAQ6Lh3bGxEldo_bOCiIy843IltzY5BfTb1qaboWS5JkemgnQ",
+   "https://play-lh.googleusercontent.com/-7nwYtowfFqc2uFKEgaizlkjnuWRb94NQMGQSqgxcUADRnSzdAuejG0aBbNVcz-_5oWmFv5iZoLBjXr8bLZ6nQ",
+   "https://play-lh.googleusercontent.com/vnrzrJHGuRzhll2Sag7HCseb3qwbwpXlG72tFqZWpwFkUHLyVVjVca32jEx6xBkMsOWdmQ146ubLcNfcYkLTKw",
+   "https://play-lh.googleusercontent.com/-HTXCkjvSaBvTmv1fo15dKJOZJ3kEENI6A2c4ONp85eZKxwHG9ja7EFqhiHgBNnJPT51sWseq_DrCa6v9AaU",
+   "https://play-lh.googleusercontent.com/4q1Xb9m-7ui2HtH8qDY5Ak8d9T0R9p0YoYGrxfp1JZQ7ZJ_--tDc7-N1wBx20xo8FPGQUBjybDf6xobLsihx",
+   "https://play-lh.googleusercontent.com/f-qsj6ajNqa6M7obPMtG3paBEo0h6h-A81PDNBckg-vyCScUeeqNEskSQcL2T04VWLW0GXop-UX-sTXaziRrEg",
+   "https://play-lh.googleusercontent.com/Wo82PPqALGtmalQ86iDrnjNFcgDGyEl8CRbvrRObQYSd4-JURkboSccQZhaheUCpWJJpIgihHD7ViThPoRnx",
+   "https://play-lh.googleusercontent.com/Z1MHBOeai36rLQLuTnRw1C7EDM5LZWdrVBklr797UIjG7lidhbOD-Sl8DQcNnJX3KsrGYdMz95mk53fV2RlR",
+   "https://play-lh.googleusercontent.com/YNBEgf-6IuOnWopqGgqv-w31HZaMnKBup-9D28ga9Ovuq7cgGeS2pUwIUsQxU9xqiSFg_Mbd2FoEnXn03UIa",
+   "https://play-lh.googleusercontent.com/CXuH0lLtxaCmnO0zH6g70bqpfXPZ_kzS0WNuaXwnRttPhwNtP7tS_QyJxQuOAh7kH_QJbe14wAl8Cw-DUdHVcXs",
+   "https://play-lh.googleusercontent.com/aG9dz1d2iEsEXayh4FfA8H0ahNdlXpOqMSYZ9E3TH9jXYvVOu7G0ol_KtLc7RppBdJ9I7B2LeG3YQyK_DGqP",
+   "https://play-lh.googleusercontent.com/0gsRiibOF2tos9cVH_HLImc2VcW0lPmHA41drmtjggFKnbcuo8Of7fsRyYKOBsj8ixWU7Ke3nd7qoNcwy8Lagno"
+  ],
+  "description": "Do you want to play in the world of pool games? 8 Ball Pool is an addictive challenging game based on real 3D pool games, where you will challenge your friends online. Become a master of the pool!\n\nThe balls game is easy to win. You just have to select the table and get ready. Join us and challenge your friends to this ball game in PvP mode. Use your pool strategy with the cue wisely in this online multiplayer ball game as every round will be more difficult after each level. You can play in multiplayer or PvP mode in different pool tables. Become the best player and challenge your friends in this pool game.\n\nYou can play pool in multiplayer or PvP mode using different balls and table types. 8 Ball Pool is designed to help your intelligence. You will improve the aim when shooting balls with the cue. \n\nCHALLENGE YOUR FRIENDS\nPlaying pool in multiplayer tournaments with friends is easy: Sign in for free with your Miniclip or Facebook account and you’ll be able to challenge your friends straight from this multiplayer 8 ball game. Challenge friends to a PvP pool match on the go. Aim and shoot your best balls with a customized cue in our online 3D PvP tournament!\n\nPLAY FOR COINS AND WIN EXCLUSIVE ITEMS\nCustomize your cue and pool table! In every competitive PvP match you play in our league, there’ll be Coins at stake – win the match and the Coins are yours. You can also buy new items in the Pool Shop. Compete in our 3D multiplayer league and become a master of 8 balls in 3D!\nThe 8 Ball level system means you’re always facing challenging players in the 8 ball league. Play multiplayer 8 Ball Pool to increase your ranking in our pool league and get access to more exclusive 8 Ball Pool match locations, where you play and compete against the best online pool players. 8 Ball Pool has different match levels: It doesn't matter if you're an amateur or a pro player, take your chance in our PvP competitions with your friends and other players and win the pool challenge: Aim with the cue and prove your skills in this free 8 ball online tournament.\n\nThis game includes optional in-game purchases (includes random items).\n\nTERMS AND CONDITIONS: http://www.miniclip.com/terms-and-conditions\nPRIVACY POLICY: http://www.miniclip.com/privacy\n------------------------------------\nMiniclip: http://www.miniclip.com\nFacebook: http://facebook.com/miniclip\nInstagram: http://instagram.com/8ballpool\nTikTok: http://tiktok.com/@8ballpool\nYouTube: http://youtube.com/channel/UC5gI7s4v4fu0IPHNnPGrPAA",
+  "url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool&hl=en&gl=us",
+  "version": "56.34.0",
+  "file_size_bytes": 0,
+  "fetched_at": "2026-11-19T13:25:44+08:00"
+ },
+ "slug": "8_Ball_Pool_5949db"
+}

@@ -1,0 +1,216 @@
+{
+ "schema_version": 1,
+ "name": "饥困荒野",
+ "updated_at": "2026-11-19",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "腾讯",
+  "category_l1": "沙盒",
+  "category_l2": "生存、多人联机、饥荒、冒险",
+  "boards": [
+   "taptap/预约榜"
+  ],
+  "ranks": {
+   "taptap/预约榜": 4
+  },
+  "platform_app_ids": {
+   "taptap": "194039"
+  },
+  "first_seen": "2026-07-06",
+  "appearances": 63,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知（未取得官方技术证据）",
+  "engine_evidence": "inferred",
+  "dimension": "2D+3D混合",
+  "art_style": "原作授权的剪纸式美术辨识强；混合表现为调研推断，本批精确包体与运行期资源未知。",
+  "dims": {
+   "engine": 4,
+   "art": 5,
+   "anim": 4,
+   "physics": 3,
+   "logic": 5,
+   "data": 5,
+   "server": 5,
+   "audio": 4
+  },
+  "dim_notes": {
+   "logic": "推断：随机世界、环境生存、配方制作和多人状态持久化构成复杂交叉系统，不能从端游推定手游引擎。",
+   "art": "原作授权的剪纸式美术辨识强；混合表现为调研推断，本批精确包体与运行期资源未知。",
+   "engine": "评分为复现所需框架工作量的推断，不是原作引擎识别结果。"
+  },
+  "asset_notes": "原作授权的剪纸式美术辨识强；混合表现为调研推断，本批精确包体与运行期资源未知。",
+  "notes": "本轮未实际试玩。画面维度、成本、原型建议及业务价值均为调研推断；仅来源明确描述的玩法视为公开材料事实。",
+  "cost_score": 4.38,
+  "cost_level": "极高"
+ },
+ "play": {
+  "core_loop": "官方介绍为Klei授权的多人沙盒生存手游：探索随机世界、采集与制作、应对环境和怪物，再与伙伴共同建设和扩展生存范围。公告说明角色与背包可在沙盒重置后保留。",
+  "highlights": [
+   "设计分析：资源、环境与制作系统互相制约，能形成持续的短期生存目标。",
+   "设计分析：协作分工让收集和建设产生可交流的共同成果。"
+  ],
+  "innovations": [
+   "将授权生存玩法与移动端角色、家园保留结构结合；具体赛季及商业化变化需以上线版本为准。"
+  ],
+  "target_user": "推断：对上述题材和核心循环有兴趣的用户，具体画像未取得用户数据。",
+  "monetization": "具体广告频次和付费转化未实测，不从榜单排名推断收益。",
+  "lifecycle": "推断：能否长期运营依赖内容更新和实际留存，当前未取得留存曲线。"
+ },
+ "clone": {
+  "verdict": "不建议",
+  "rationale": "完整多人沙盒需要大量系统和内容协同，且原IP与角色素材有授权约束。可抽取一昼夜生存的原创机制原型。",
+  "suggestions": [
+   "以原创资源和角色搭建一个昼夜循环，只保留采集与火源管理。",
+   "记录单人原型的资源缺口，再评估两人协作是否改善目标分工。"
+  ],
+  "risks": [
+   "系统互相影响导致内容平衡和存档迁移成本很高。",
+   "不能把Klei授权内容及原作角色直接用于自有项目。"
+  ],
+  "effort": "推断：单人生存机制原型35–60人日，多人世界及长期运营另行估算。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "不建议搬",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "短缺资源会给用户持续的阶段目标。"
+    },
+    {
+     "lens": "用户",
+     "text": "协作建设能让用户共享行动成果。"
+    },
+    {
+     "lens": "业务",
+     "text": "若自有产品需要生存玩法，可研究资源消耗闭环。"
+    },
+    {
+     "lens": "业务",
+     "text": "先做单人昼夜能控制多人技术的不确定性。"
+    }
+   ],
+   "how": [
+    "以原创资源和角色搭建一个昼夜循环，只保留采集与火源管理。",
+    "记录单人原型的资源缺口，再评估两人协作是否改善目标分工。"
+   ],
+   "gain": [
+    "得到资源消耗模型。",
+    "形成昼夜事件配置。",
+    "观察新手失败原因。",
+    "识别多人协作前的必要系统边界。"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "目前没有已核实的授权或合作需求，接触前需确认开发者渠道与授权范围。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "原创轻生存游戏",
+     "how": "将大世界缩为一座营地，先验证采集与夜间保暖的最小循环。"
+    }
+   ]
+  },
+  "summary": "将大世界缩为一座营地，先验证采集与夜间保暖的最小循环。"
+ },
+ "shots": [
+  {
+   "url": "https://img-tc.tapimg.com/market/images/7d8bef10b9ba3ce5a527dd0914ed27ff.png/_tap_appicon.jpg",
+   "kind": "icon",
+   "source": "TapTap",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/611606edc78eb30263f114e8c9bdd95b.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/f303d70bffa72b4316cccb54c2ea53f7.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/48862577b7b164511143a34aaad66085.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/008fdb5cbb51cb98f6fdbe1c06aa5a2c.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/efdabf264e1c391b7389fd94100df4c4.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://img-tc.tapimg.com/market/images/c958e4a32a1e85b3f527e47568c6a607.jpg/_tap_screenshot.jpg",
+   "kind": "screenshot",
+   "source": "TapTap",
+   "caption": "官方实机截图 6"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "核心循环为所列官方/开发者入驻商店材料的概述，不代表本轮实际游玩验证。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "推断：随机世界、环境生存、配方制作和多人状态持久化构成复杂交叉系统，不能从端游推定手游引擎。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.taptap.cn/app/194039"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "identity_match": "app_id",
+  "platform": "taptap",
+  "package": null,
+  "match_name": "饥困荒野",
+  "match_score": 1.0,
+  "country": "cn",
+  "seller": "腾讯",
+  "icon": "https://img-tc.tapimg.com/market/images/7d8bef10b9ba3ce5a527dd0914ed27ff.png/_tap_appicon.jpg",
+  "screenshots": [
+   "https://img-tc.tapimg.com/market/images/611606edc78eb30263f114e8c9bdd95b.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/f303d70bffa72b4316cccb54c2ea53f7.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/48862577b7b164511143a34aaad66085.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/008fdb5cbb51cb98f6fdbe1c06aa5a2c.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/efdabf264e1c391b7389fd94100df4c4.jpg/_tap_screenshot.jpg",
+   "https://img-tc.tapimg.com/market/images/c958e4a32a1e85b3f527e47568c6a607.jpg/_tap_screenshot.jpg"
+  ],
+  "description": "",
+  "url": "https://www.taptap.cn/app/194039",
+  "version": "",
+  "file_size_bytes": 0,
+  "fetched_at": "2026-11-19T13:25:41+08:00"
+ },
+ "slug": "饥困荒野_9dc37b"
+}

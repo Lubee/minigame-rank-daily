@@ -1,0 +1,256 @@
+{
+ "schema_version": 1,
+ "name": "超级整理师 - 找一找隐藏的物品",
+ "updated_at": "2026-11-19",
+ "collected": true,
+ "generated_by": "ChatGPT",
+ "identity": {
+  "publisher": "AkerSun Technology Co.,Ltd.",
+  "category_l1": "游戏",
+  "category_l2": "",
+  "boards": [
+   "ios/国区免费榜"
+  ],
+  "ranks": {
+   "ios/国区免费榜": 7
+  },
+  "platform_app_ids": {
+   "ios": "6824357074"
+  },
+  "first_seen": "2026-11-09",
+  "appearances": 10,
+  "best_rank": 1,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知（未取得官方技术证据）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "官方包体约314MiB；多个生活场景和可辨识物件可能构成主要美术量，2D表现为调研推断。",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "推断：需要物品点击层级、目标统计、槽位状态与关卡可解性检查，物理模拟未见必要证据。",
+   "art": "官方包体约314MiB；多个生活场景和可辨识物件可能构成主要美术量，2D表现为调研推断。",
+   "engine": "评分为复现所需框架工作量的推断，不是原作引擎识别结果。"
+  },
+  "asset_notes": "官方包体约314MiB；多个生活场景和可辨识物件可能构成主要美术量，2D表现为调研推断。",
+  "notes": "本轮未实际试玩。画面维度、成本、原型建议及业务价值均为调研推断；仅来源明确描述的玩法视为公开材料事实。",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "官方iOS描述要求在房间中点选物品，将目标品类和数量整理到上方目标栏；暂存空间限制选择顺序，收齐当前目标后完成一轮整理，再挑战不同场景。",
+  "highlights": [
+   "设计分析：画面从拥挤到整齐，进度反馈直观。",
+   "设计分析：暂存区限制把找物操作转成收集顺序选择。"
+  ],
+  "innovations": [
+   "将场景找物与目标收集、有限暂存区结合；未核实相对同类整理游戏存在独有基础机制。"
+  ],
+  "target_user": "推断：对上述题材和核心循环有兴趣的用户，具体画像未取得用户数据。",
+  "monetization": "具体广告频次和付费转化未实测，不从榜单排名推断收益。",
+  "lifecycle": "推断：能否长期运营依赖内容更新和实际留存，当前未取得留存曲线。"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "规则适合快速验证，但找物辨识与关卡编排是主要质量门槛。应以原创物件和目标变化形成区分。",
+  "suggestions": [
+   "制作两个原创房间，配置不同物品遮挡和暂存上限。",
+   "增加可验证的订单优先级，比较纯找物和顺序策略的体验。"
+  ],
+  "risks": [
+   "物件重叠和触控区域过小会造成误点。",
+   "过度依赖提示与额外槽位可能损害关卡公平感。"
+  ],
+  "effort": "推断：双场景可玩原型15–25人日，批量关卡另计。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "整理进度让用户容易感知完成目标。"
+    },
+    {
+     "lens": "用户",
+     "text": "有限空间能在简单点击上增加顺序决策。"
+    },
+    {
+     "lens": "业务",
+     "text": "若自有产品有休闲活动，房间配置器可重复使用。"
+    },
+    {
+     "lens": "业务",
+     "text": "先测物件辨识可避免提前扩张美术规模。"
+    }
+   ],
+   "how": [
+    "制作两个原创房间，配置不同物品遮挡和暂存上限。",
+    "增加可验证的订单优先级，比较纯找物和顺序策略的体验。"
+   ],
+   "gain": [
+    "形成物品布局工具。",
+    "得到误触和辨识反馈。",
+    "测出合理的暂存上限。",
+    "估算单房间内容生产成本。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "目前没有已核实的授权或合作需求，接触前需确认开发者渠道与授权范围。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "整理主题活动",
+     "how": "把目标栏改为有顺序的原创生活订单，验证策略增量。"
+    }
+   ]
+  },
+  "summary": "把目标栏改为有顺序的原创生活订单，验证策略增量。"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d0/59/4bd0592d-9130-36b0-5b3d-fb6037bfc1e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（cn）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/ff/b1/09ffb1ec-1a42-6118-e433-309f1d46bd24/publicity-3767-589a04fad50ec7c7cfd7cbb84c898bd4b9bb0e8c31abb71e51473cee04045f2c.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/3e/ea/e33eea0f-ddb2-ddcd-853f-d2b22e45d6b8/publicity-3767-b623157c422c77c8c3187527d4622147d9f9b992c1dd535220e70a7a25580348.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/47/37/9a47372e-bf81-9476-bf9c-d2a6b7ff148a/publicity-3767-60d210c0acd923c4ad692521415ee37ff16eefb56aaa1e505acf7e19c2d67372.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/94/4b/06944b62-1db5-002a-acc4-4319223dff81/publicity-3767-649b2533c7a76e5115324a90705b5f2e0914d15d44574051d9002460ff99685b.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/58/87/9e5887e4-dde5-a5f0-5c9b-74f28b2b99b7/publicity-3767-01bc8deafa37e46562c88412b302e35a04660fcffd20db25b59f54a5e4283fe9.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/5c/51/445c51a2-c115-d85f-0b2b-2419510472a0/publicity-3767-a7e12abaecb3e80be643db5884510d29908edbbc0a92f8c48ae94fe8e0c37825.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/49/08/f349081c-4296-5735-1d31-62a1972a2030/publicity-3767-9bbffa3ed0655c874a6b03b05b62d0b251307e24dddf0c6c5720a8ff6f59db34.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/04/0e/e2040ed0-e74c-1e76-8cbb-30fd340c8699/publicity-3767-20dd700f316b734d2210b858d5cc46cffb0872ef12689837b8480b35bafa21a0.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/f0/49/f5f04926-879f-08e0-f69a-ac9e908d7680/publicity-3767-04c28537d8383f285f4f5f5f293cc619fb5f0094682597c3d5cce57812f803a2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8c/1e/868c1e3a-9a60-625c-79c0-274d63c7e602/publicity-3767-aa8669a1f9872a02f29a57e274cbd8f8419e824352b7829a59bb968b66cdf3fe.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（cn）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "核心循环为所列官方/开发者入驻商店材料的概述，不代表本轮实际游玩验证。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "推断：需要物品点击层级、目标统计、槽位状态与关卡可解性检查，物理模拟未见必要证据。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/cn/app/id6824357074"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "超级整理师 - 找一找隐藏的物品",
+  "country": "cn",
+  "track_id": 6824357074,
+  "seller": "AkerSun  Technology Co.,Ltd.",
+  "genres": [
+   "游戏",
+   "休闲",
+   "益智解谜"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d0/59/4bd0592d-9130-36b0-5b3d-fb6037bfc1e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/ff/b1/09ffb1ec-1a42-6118-e433-309f1d46bd24/publicity-3767-589a04fad50ec7c7cfd7cbb84c898bd4b9bb0e8c31abb71e51473cee04045f2c.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/3e/ea/e33eea0f-ddb2-ddcd-853f-d2b22e45d6b8/publicity-3767-b623157c422c77c8c3187527d4622147d9f9b992c1dd535220e70a7a25580348.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/47/37/9a47372e-bf81-9476-bf9c-d2a6b7ff148a/publicity-3767-60d210c0acd923c4ad692521415ee37ff16eefb56aaa1e505acf7e19c2d67372.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/94/4b/06944b62-1db5-002a-acc4-4319223dff81/publicity-3767-649b2533c7a76e5115324a90705b5f2e0914d15d44574051d9002460ff99685b.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/58/87/9e5887e4-dde5-a5f0-5c9b-74f28b2b99b7/publicity-3767-01bc8deafa37e46562c88412b302e35a04660fcffd20db25b59f54a5e4283fe9.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/5c/51/445c51a2-c115-d85f-0b2b-2419510472a0/publicity-3767-a7e12abaecb3e80be643db5884510d29908edbbc0a92f8c48ae94fe8e0c37825.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/49/08/f349081c-4296-5735-1d31-62a1972a2030/publicity-3767-9bbffa3ed0655c874a6b03b05b62d0b251307e24dddf0c6c5720a8ff6f59db34.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/04/0e/e2040ed0-e74c-1e76-8cbb-30fd340c8699/publicity-3767-20dd700f316b734d2210b858d5cc46cffb0872ef12689837b8480b35bafa21a0.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/f0/49/f5f04926-879f-08e0-f69a-ac9e908d7680/publicity-3767-04c28537d8383f285f4f5f5f293cc619fb5f0094682597c3d5cce57812f803a2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/8c/1e/868c1e3a-9a60-625c-79c0-274d63c7e602/publicity-3767-aa8669a1f9872a02f29a57e274cbd8f8419e824352b7829a59bb968b66cdf3fe.png/626x1112bb.jpg"
+  ],
+  "description": "房间乱成小山？用指尖把散落的物品一件件收回上方的物品栏，体验那种从凌乱到有序的满足感。\n\n把注意力放回当下：用手指点选房间中的各类物品，将它们整理到上方的目标栏里。顶部会实时显示当前要收集的品类与数量，按要求收齐即完成本轮整理；若暂存区满了，就需要更谨慎地安排顺序。\n\n你会喜欢这些细节：简洁明了的目标提示让每一次点击都有方向感；暂存空间带来的压迫感，会让节奏更紧凑但不失趣味；\n\n清新可爱的场景插画（客厅、泳池、电影院、办公室、食堂等）让每一轮整理都像翻阅一个生活小画板。轻快的上手节奏适合碎片时间——无须复杂操作，直观的点选与即时反馈带来持续的成就感。\n\n每一关目标略有差异，既有放松的整理乐趣，也有需要思考的收集安排。如果想在空闲时刻找点成就感、放松情绪或单纯享受整理过程，这里是不错的指尖消遣。\n\n准备好开始整理了吗？来一次清爽的收纳体验吧。",
+  "release_notes": "- 关卡扩充，新关卡现已上线",
+  "file_size_bytes": 329512960,
+  "min_os": "15.0",
+  "version": "1.2",
+  "release_date": "2026-11-02",
+  "rating": 4.65901,
+  "rating_count": 3396,
+  "price": "免费",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E6%95%B4%E7%90%86%E5%B8%88-%E6%89%BE%E4%B8%80%E6%89%BE%E9%9A%90%E8%97%8F%E7%9A%84%E7%89%A9%E5%93%81/id6824357074?uo=4",
+  "fetched_at": "2026-11-19T13:25:46+08:00",
+  "identity_match": "app_id"
+ },
+ "slug": "超级整理师_找一找隐藏的物品_05497d"
+}
