@@ -1,0 +1,612 @@
+{
+ "batch": 25,
+ "source_task_id": "workbuddy-2026-11-20-20",
+ "games": [
+  {
+   "name": "暴走植物园",
+   "slug": "暴走植物园_659847",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜",
+    "taptap/预约榜",
+    "wx/人气榜",
+    "wx/畅玩榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 92,
+    "wx/人气榜": 71,
+    "wx/畅销榜": 42,
+    "wx/畅玩榜": 25,
+    "douyin/新游榜": 1
+   },
+   "platform_app_ids": {},
+   "publisher": "椰路游戏",
+   "category_l1": "Roguelike",
+   "category_l2": "塔防、割草、放置、射击、策略",
+   "first_seen": "2026-07-19",
+   "appearances": 4,
+   "best_rank": 1,
+   "seen_days": 8,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "搬砖没我快",
+   "slug": "搬砖没我快_c7daf6",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 66,
+    "wx/人气榜": 64,
+    "douyin/热门榜": 62,
+    "douyin/畅销榜": 70
+   },
+   "platform_app_ids": {},
+   "publisher": "个人开发者",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-29",
+   "appearances": 64,
+   "best_rank": 7,
+   "seen_days": 64,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false
+   }
+  },
+  {
+   "name": "花开时见你",
+   "slug": "花开时见你_c6f500",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "taptap/预约榜"
+   ],
+   "ranks": {
+    "taptap/预约榜": 7
+   },
+   "platform_app_ids": {
+    "taptap": "993706"
+   },
+   "publisher": "广州春芒网络科技有限公司",
+   "category_l1": "模拟经营",
+   "category_l2": "种田、收集、放置、治愈",
+   "first_seen": "2026-10-29",
+   "appearances": 8,
+   "best_rank": 6,
+   "seen_days": 8,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-03T12:32:00+08:00"
+   }
+  },
+  {
+   "name": "指尖快消",
+   "slug": "指尖快消_20854f",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 8,
+    "douyin/畅销榜": 24,
+    "wx/人气榜": 51,
+    "wx/畅玩榜": 10
+   },
+   "platform_app_ids": {
+    "douyin": "ttd206a4bb4d0d870102",
+    "wx": "wx461a77cb954413ea"
+   },
+   "publisher": "厦门营火科技有限公司",
+   "category_l1": "1",
+   "category_l2": "消除",
+   "first_seen": "2026-10-10",
+   "appearances": 41,
+   "best_rank": 5,
+   "seen_days": 41,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:26:47+08:00"
+   }
+  },
+  {
+   "name": "整理师竞争",
+   "slug": "整理师竞争_329623",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 8,
+    "wx/人气榜": 11
+   },
+   "platform_app_ids": {
+    "wx": "wxf286f92ac16ca6aa"
+   },
+   "publisher": "武汉昀路安洋信息技术有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-11-12",
+   "appearances": 8,
+   "best_rank": 6,
+   "seen_days": 8,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "对子乐消消",
+   "slug": "对子乐消消_40afa9",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 54,
+    "wx/畅玩榜": 9
+   },
+   "platform_app_ids": {
+    "wx": "wx08ca4a979a9dba6c"
+   },
+   "publisher": "厦门市宙火科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "first_seen": "2026-11-05",
+   "appearances": 15,
+   "best_rank": 7,
+   "seen_days": 15,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "精英军团",
+   "slug": "精英军团_fafde6",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 14
+   },
+   "platform_app_ids": {
+    "wx": "wx2b9d67737d1607d7"
+   },
+   "publisher": "杭州叙炽网络科技有限公司",
+   "category_l1": "竞技",
+   "category_l2": "塔防",
+   "first_seen": "2026-10-05",
+   "appearances": 36,
+   "best_rank": 7,
+   "seen_days": 36,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:59:24+08:00"
+   }
+  },
+  {
+   "name": "占城大师",
+   "slug": "占城大师_bcbc61",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/人气榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 99,
+    "douyin/畅销榜": 32,
+    "wx/人气榜": 98,
+    "douyin/热门榜": 15
+   },
+   "platform_app_ids": {
+    "douyin": "tt6f4919f4f1282b6f07"
+   },
+   "publisher": "武汉易百优信息科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "塔防",
+   "first_seen": "2026-06-29",
+   "appearances": 64,
+   "best_rank": 4,
+   "seen_days": 64,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "小镇派对",
+   "slug": "小镇派对_7bef3d",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜",
+    "wx/人气榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 94,
+    "wx/畅销榜": 71,
+    "douyin/新游榜": 15
+   },
+   "platform_app_ids": {
+    "douyin": "tt8c90fa2d12eb676f07"
+   },
+   "publisher": "上海趣滋滋网络科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "first_seen": "2026-06-30",
+   "appearances": 56,
+   "best_rank": 15,
+   "seen_days": 59,
+   "profile_value": "high",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "二合",
+    "tags": [
+     "二合"
+    ],
+    "notes": "",
+    "developer": "上海趣滋滋网络科技有限公司"
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "不服来通关",
+   "slug": "不服来通关_40b54e",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 52,
+    "douyin/热门榜": 90,
+    "douyin/畅销榜": 16
+   },
+   "platform_app_ids": {
+    "douyin": "ttcaa6bc1b55adba2c02"
+   },
+   "publisher": "长沙游品科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-30",
+   "appearances": 66,
+   "best_rank": 11,
+   "seen_days": 66,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "打龙",
+    "tags": [
+     "长沙游品"
+    ],
+    "notes": "长沙游品",
+    "developer": "长沙游品"
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "音悦节奏球",
+   "slug": "音悦节奏球_b6254d",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 16,
+    "wx/人气榜": 71
+   },
+   "platform_app_ids": {
+    "douyin": "ttf01f86a26f1520f507"
+   },
+   "publisher": "厦门真嘟假嘟网络科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-07-04",
+   "appearances": 57,
+   "best_rank": 6,
+   "seen_days": 58,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-11-01T12:58:58+08:00"
+   }
+  },
+  {
+   "name": "勇者乱斗",
+   "slug": "勇者乱斗_f9e92d",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "taptap/预约榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "douyin/畅销榜": 19,
+    "wx/畅销榜": 53,
+    "taptap/预约榜": 76,
+    "douyin/热门榜": 69
+   },
+   "platform_app_ids": {
+    "douyin": "tt4ffa3947d0f477c207"
+   },
+   "publisher": "杭州电梦网络科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-30",
+   "appearances": 59,
+   "best_rank": 16,
+   "seen_days": 59,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "跳一跳",
+   "slug": "跳一跳_fbef06",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 22
+   },
+   "platform_app_ids": {
+    "wx": "wx7c8d593b2c3a7703"
+   },
+   "publisher": "深圳市腾讯计算机系统有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智休闲超休闲",
+   "first_seen": "2026-06-29",
+   "appearances": 98,
+   "best_rank": 10,
+   "seen_days": 98,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "切开一切3D",
+   "slug": "切开一切3D_6fcb7d",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 25
+   },
+   "platform_app_ids": {
+    "wx": "wxb560805440cd6156"
+   },
+   "publisher": "个人开发者",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-09-19",
+   "appearances": 57,
+   "best_rank": 13,
+   "seen_days": 57,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "fetched_at": "2026-09-21T01:10:32+08:00"
+   }
+  },
+  {
+   "name": "挪车真有趣",
+   "slug": "挪车真有趣_1e69dd",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 27,
+    "wx/畅玩榜": 92
+   },
+   "platform_app_ids": {},
+   "publisher": "广州指望科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-30",
+   "appearances": 68,
+   "best_rank": 7,
+   "seen_days": 68,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  },
+  {
+   "name": "点点消不停",
+   "slug": "点点消不停_cd8268",
+   "status": "pending",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 27,
+    "wx/人气榜": 85
+   },
+   "platform_app_ids": {},
+   "publisher": "深圳市多乐王国科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-29",
+   "appearances": 59,
+   "best_rank": 18,
+   "seen_days": 59,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "note": "现有缓存无可信命中；由研究Agent全网调研，不代表无资料"
+   }
+  }
+ ]
+}

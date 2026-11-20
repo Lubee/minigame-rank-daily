@@ -82,5 +82,73 @@
     "recorded_at": "2026-11-20 16:04"
    }
   }
+ },
+ "益智闯一关": {
+  "name": "益智闯一关",
+  "rounds": {
+   "acceptance:2026-11-20:review2": {
+    "reason": "验收未通过；正文仍只有整理房间宣传语，无可核实核心循环。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   },
+   "acceptance:2026-11-20:review3": {
+    "reason": "验收未通过；正文仍只有整理房间宣传语，无可核实核心循环。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "正文仍只有整理房间宣传语，无可核实核心循环。"
+ },
+ "毛线通关": {
+  "name": "毛线通关",
+  "rounds": {
+   "acceptance:2026-11-20:review2": {
+    "reason": "验收未通过；多轮交付未取得本作核心循环。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   },
+   "acceptance:2026-11-20:review3": {
+    "reason": "验收未通过；多轮交付未取得本作核心循环。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "多轮交付未取得本作核心循环。"
+ },
+ "挪个不停": {
+  "name": "挪个不停",
+  "rounds": {
+   "acceptance:2026-11-20:review2": {
+    "reason": "验收未通过；多轮交付仍仅品类归纳。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   },
+   "acceptance:2026-11-20:review3": {
+    "reason": "验收未通过；多轮交付仍仅品类归纳。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "多轮交付仍仅品类归纳。"
+ },
+ "挪了个啥": {
+  "name": "挪了个啥",
+  "rounds": {
+   "acceptance:2026-11-20:review2": {
+    "reason": "验收未通过；多轮调研无可靠具体玩法，未交档案。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   },
+   "acceptance:2026-11-20:review3": {
+    "reason": "验收未通过；多轮调研无可靠具体玩法，未交档案。 用户授权按停止重试处理，非新增资料不足检索轮次。",
+    "recorded_at": "2026-11-20",
+    "type": "acceptance_rejection"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "多轮调研无可靠具体玩法，未交档案。"
  }
 }
