@@ -1,0 +1,189 @@
+{
+ "batch": 23,
+ "total_batches": 24,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_23.json",
+ "games": [
+  {
+   "name": "疯狂收杂物",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 3,
+    "wx/畅玩榜": 2
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "武安市佳游文化发展有限公司",
+   "platform_app_ids": {
+    "wx": "wx1644b5d3f47969f0"
+   },
+   "first_seen": "2026-10-31",
+   "appearances": 20,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:37+08:00"
+   }
+  },
+  {
+   "name": "大王请留步",
+   "boards": [
+    "douyin/新游榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 73,
+    "douyin/新游榜": 5
+   },
+   "category_l1": "休闲",
+   "category_l2": "塔防",
+   "publisher": "海南娱创科技有限公司",
+   "platform_app_ids": {
+    "douyin": "tt932ee5930d49bc2207"
+   },
+   "first_seen": "2026-06-30",
+   "appearances": 16,
+   "best_rank": 4,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:39+08:00"
+   }
+  },
+  {
+   "name": "工匠小能手",
+   "boards": [
+    "douyin/新游榜",
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/人气榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 57,
+    "wx/畅销榜": 23,
+    "douyin/新游榜": 5,
+    "douyin/热门榜": 78,
+    "douyin/畅销榜": 62
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "深圳市飞鸟与鱼科技开发有限公司",
+   "platform_app_ids": {
+    "douyin": "tt82c0f47d1cba4d8c07",
+    "wx": "wxefc691ce43c6df7b"
+   },
+   "first_seen": "2026-08-22",
+   "appearances": 22,
+   "best_rank": 5,
+   "profile_value": "mid",
+   "seed": {
+    "gameplay_desc": "二合",
+    "tags": [],
+    "notes": "",
+    "developer": "动能无限"
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:28+08:00"
+   }
+  },
+  {
+   "name": "悟空与唐僧",
+   "boards": [
+    "douyin/新游榜",
+    "douyin/热门榜",
+    "douyin/畅销榜",
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 1,
+    "wx/人气榜": 94,
+    "douyin/热门榜": 76,
+    "wx/畅玩榜": 58,
+    "douyin/畅销榜": 83
+   },
+   "category_l1": "休闲",
+   "category_l2": "塔防",
+   "publisher": "北京蜜獾工坊科技有限公司",
+   "platform_app_ids": {},
+   "first_seen": "2026-08-20",
+   "appearances": 13,
+   "best_rank": 1,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:26+08:00"
+   }
+  },
+  {
+   "name": "小兵打天下",
+   "boards": [
+    "douyin/新游榜",
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 7,
+    "wx/畅销榜": 97,
+    "douyin/畅销榜": 100
+   },
+   "category_l1": "休闲",
+   "category_l2": "塔防",
+   "publisher": "杭州淞羽网络科技有限公司",
+   "platform_app_ids": {},
+   "first_seen": "2026-06-29",
+   "appearances": 15,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:30+08:00"
+   }
+  }
+ ]
+}

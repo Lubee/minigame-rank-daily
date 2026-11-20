@@ -1,0 +1,172 @@
+{
+ "batch": 24,
+ "total_batches": 24,
+ "spec": "scripts/detail/RESEARCH_SPEC.md",
+ "output": "data/detail/_staging/batch_24.json",
+ "games": [
+  {
+   "name": "毛线织织",
+   "boards": [
+    "douyin/新游榜",
+    "douyin/热门榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 82,
+    "douyin/新游榜": 2,
+    "douyin/热门榜": 73
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "广州米奈科技有限公司",
+   "platform_app_ids": {},
+   "first_seen": "2026-08-24",
+   "appearances": 8,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:31+08:00"
+   }
+  },
+  {
+   "name": "糕手大作战",
+   "boards": [
+    "douyin/新游榜",
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 2,
+    "wx/人气榜": 8
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "厦门营火科技有限公司",
+   "platform_app_ids": {
+    "wx": "wx9aeed5c1fd2fd9de"
+   },
+   "first_seen": "2026-08-15",
+   "appearances": 11,
+   "best_rank": 2,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:35+08:00"
+   }
+  },
+  {
+   "name": "动物排排队",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 5
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "",
+   "platform_app_ids": {},
+   "first_seen": "2026-09-10",
+   "appearances": 3,
+   "best_rank": 3,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:41+08:00"
+   }
+  },
+  {
+   "name": "爪爪大乱斗",
+   "boards": [
+    "douyin/新游榜",
+    "douyin/畅销榜",
+    "wx/畅销榜"
+   ],
+   "ranks": {
+    "wx/畅销榜": 98,
+    "douyin/新游榜": 6,
+    "douyin/畅销榜": 87
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "安徽盈趣网络科技有限公司",
+   "platform_app_ids": {},
+   "first_seen": "2026-06-30",
+   "appearances": 12,
+   "best_rank": 5,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:33+08:00"
+   }
+  },
+  {
+   "name": "闯关也疯狂",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 6
+   },
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "publisher": "广州宝可梦科技有限公司",
+   "platform_app_ids": {
+    "wx": "wx6554a15711811d08"
+   },
+   "first_seen": "2026-10-12",
+   "appearances": 1,
+   "best_rank": 6,
+   "profile_value": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   },
+   "media": {
+    "matched": false,
+    "source_urls": [],
+    "icon": "",
+    "screenshots": [],
+    "fetched_at": "2026-11-20T12:36:43+08:00"
+   }
+  }
+ ]
+}

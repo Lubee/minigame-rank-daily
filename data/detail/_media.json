@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T13:25:52+08:00",
+ "updated_at": "2026-11-20T12:36:44+08:00",
  "games": {
   "赵云与阿斗": {
    "matched": true,
@@ -6289,7 +6289,10 @@
   },
   "工匠小能手": {
    "matched": false,
-   "fetched_at": "2026-11-01T12:59:02+08:00"
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:28+08:00"
   },
   "报告农场主": {
    "matched": false,
@@ -6383,7 +6386,10 @@
   },
   "疯狂收杂物": {
    "matched": false,
-   "fetched_at": "2026-11-01T12:59:33+08:00"
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:37+08:00"
   },
   "你好大聪明": {
    "matched": false,
@@ -7394,6 +7400,62 @@
    "icon": "",
    "screenshots": [],
    "fetched_at": "2026-11-19T13:25:50+08:00"
+  },
+  "悟空与唐僧": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:26+08:00"
+  },
+  "小兵打天下": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:30+08:00"
+  },
+  "毛线织织": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:31+08:00"
+  },
+  "爪爪大乱斗": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:33+08:00"
+  },
+  "糕手大作战": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:35+08:00"
+  },
+  "大王请留步": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:39+08:00"
+  },
+  "动物排排队": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:41+08:00"
+  },
+  "闯关也疯狂": {
+   "matched": false,
+   "source_urls": [],
+   "icon": "",
+   "screenshots": [],
+   "fetched_at": "2026-11-20T12:36:43+08:00"
   }
  }
 }
