@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-20T12:37:27+08:00",
+ "generated_at": "2026-11-20T16:04:39+08:00",
  "source": "all",
  "total": 4090,
- "pending": 3876,
- "done": 214,
+ "pending": 3875,
+ "done": 215,
  "with_icon": 0,
  "entries": [
   {
@@ -3391,39 +3391,6 @@
    "appearances": 13,
    "best_rank": 2,
    "seen_days": 13,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "疯狂收杂物",
-   "slug": "疯狂收杂物_2e23ca",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 3,
-    "wx/畅玩榜": 2
-   },
-   "platform_app_ids": {
-    "wx": "wx1644b5d3f47969f0"
-   },
-   "publisher": "武安市佳游文化发展有限公司",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-10-31",
-   "appearances": 20,
-   "best_rank": 2,
-   "seen_days": 20,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
@@ -119584,6 +119551,39 @@
    "appearances": 27,
    "best_rank": 2,
    "seen_days": 28,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "疯狂收杂物",
+   "slug": "疯狂收杂物_2e23ca",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 3,
+    "wx/畅玩榜": 2
+   },
+   "platform_app_ids": {
+    "wx": "wx1644b5d3f47969f0"
+   },
+   "publisher": "武安市佳游文化发展有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-10-31",
+   "appearances": 20,
+   "best_rank": 2,
+   "seen_days": 20,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
