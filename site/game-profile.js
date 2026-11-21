@@ -12,6 +12,48 @@
   let descriptionObserver;
   let descriptionId = 0;
   let hlsRequest;
+  const miniGameRequests = new Map();
+  let miniIconRequest = 0;
+
+  function miniGameData(path) {
+    if (!miniGameRequests.has(path)) {
+      miniGameRequests.set(path, fetch(assetUrl(path), { cache: "no-cache" })
+        .then(response => response.ok ? response.json() : {})
+        .catch(() => ({})));
+    }
+    return miniGameRequests.get(path);
+  }
+
+  async function renderMiniGameIcon(name, { platform, board, snapshot } = {}) {
+    const request = ++miniIconRequest;
+    if (!["wx", "douyin"].includes(platform)) return;
+    const current = () => state.current === name && request === miniIconRequest;
+    const path = /^\d{4}-\d{2}-\d{2}$/.test(snapshot || "")
+      ? `data/daily/${snapshot}.json` : "data/latest.json";
+    const find = data => (data.platforms?.[platform]?.boards || [])
+      .filter(item => !board || item.label === board)
+      .flatMap(item => item.rows || []).find(row => row.name === name);
+    let row = find(await miniGameData(path));
+    if (!row?.icon) {
+      const base = await loadBaseGames();
+      const dates = Object.entries(base[name]?.board_history || {})
+        .filter(([key]) => key.startsWith(platform + "/") && (!board || key === `${platform}/${board}`))
+        .map(([, entry]) => entry.last_seen).filter(date => /^\d{4}-\d{2}-\d{2}$/.test(date || "")).sort();
+      if (dates.length) row = find(await miniGameData(`data/daily/${dates.at(-1)}.json`)) || row;
+    }
+    let icon = row?.icon;
+    if (!icon && row?.app_id) icon = (await miniGameData("data/base/game-icons.json"))[platform]?.[row.app_id];
+    if (!icon) {
+      try {
+        await loadDetailIndex();
+        const key = window.GameDetail?.normName ? window.GameDetail.normName(name) : name;
+        const detail = state.detailIndex[key];
+        // Name-only archives may belong to the other platform; require a matching source.
+        if (detail?.boards?.some(key => key.startsWith(platform + "/"))) icon = detail.icon;
+      } catch { /* Keep the existing placeholder when optional metadata is unavailable. */ }
+    }
+    if (current() && icon) renderProfileIcon(name, icon);
+  }
 
   function loadBaseGames() {
     return baseGamesRequest ||= fetch(assetUrl("data/base/games.json"), { cache: "no-cache" })
@@ -621,6 +663,7 @@
     renderView(state.profiles[name] || { game_name: name });
     const detailKey = window.GameDetail?.normName ? window.GameDetail.normName(name) : name;
     renderProfileIcon(name, state.detailIndex[detailKey]?.icon);
+    renderMiniGameIcon(name, storeContext || { platform: state.platformFilter, board: state.boardFilter });
     renderStoreApps(name, storeContext);
     $("gp-status").textContent = "";
   }
@@ -1409,6 +1452,7 @@
           board: params.get("board"),
           storeKey: params.get("store"),
           release: params.get("release"),
+          snapshot: params.get("snapshot"),
         });
       } else {
         await loadAll();

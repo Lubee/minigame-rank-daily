@@ -368,6 +368,7 @@ function renderDiffTables() {
 
 function profileBtn(name, row, board) {
   const params = new URLSearchParams({ name, platform: board.plat, board: board.label });
+  if (["wx", "douyin"].includes(board.plat) && state.currentDate) params.set("snapshot", state.currentDate);
   const country = { "美区免费榜": "us", "美区每日新上架": "us", "国区免费榜": "cn", "日区免费榜": "jp" }[board.label];
   if (board.label === "美区每日新上架") params.set("release", state.currentDate);
   if (board.plat === "ios" && country && row.app_id) {
