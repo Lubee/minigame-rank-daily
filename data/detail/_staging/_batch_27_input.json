@@ -1,0 +1,219 @@
+{
+  "batch": 27,
+  "source_task_id": "workbuddy-2026-11-21-20",
+  "games": [
+    {
+      "name": "拔了个罐",
+      "slug": "拔了个罐_96bce3",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 39
+      },
+      "platform_app_ids": {},
+      "publisher": "北京简游科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-06-30",
+      "appearances": 57,
+      "best_rank": 39,
+      "seen_days": 57,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "Rope Sort!",
+      "slug": "Rope_Sort_89562e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜",
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 21,
+        "android/美区免费新游榜": 4
+      },
+      "platform_app_ids": {
+        "android": "com.nebula.ropesort"
+      },
+      "publisher": "Nebula  Studio",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 2,
+      "best_rank": 4,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "App Store/Google Play"
+    },
+    {
+      "name": "Cutie Sort - ねこソート かわいい色分けゲーム",
+      "slug": "Cutie_Sort_ねこソート_かわいい色分けゲーム_ff1fd8",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 5
+      },
+      "platform_app_ids": {
+        "ios": "6796547048"
+      },
+      "publisher": "Ladaneta Games",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-11-13",
+      "appearances": 7,
+      "best_rank": 4,
+      "seen_days": 7,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "App Store/Google Play"
+    },
+    {
+      "name": "Word Tiles - Relaxing Puzzle",
+      "slug": "Word_Tiles_Relaxing_Puzzle_58d11a",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 9,
+        "android/美区免费榜": 16
+      },
+      "platform_app_ids": {
+        "ios": "6783815362",
+        "android": "com.agavegames.wordtiles"
+      },
+      "publisher": "Agave Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-30",
+      "appearances": 25,
+      "best_rank": 5,
+      "seen_days": 25,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {
+        "matched": true,
+        "match_score": 1.0,
+        "match_name": "Word Tiles - Relaxing Puzzle",
+        "country": "us",
+        "track_id": 6783815362,
+        "seller": "Agave Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+        "genres": [
+          "Games",
+          "Word",
+          "Puzzle"
+        ],
+        "genre": "Games",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/72/b2/2672b2f4-f52c-8450-5430-13a1ac2997d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "screenshots": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/02/63/010263f9-f4d7-e26b-43c3-5c89bccf3c15/1_1179x2556.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/a2/f4/8ca2f4a1-9756-e84d-69f0-a29d99f5798b/2_1179x2556.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/05/dc/5205dc87-d009-f2ce-d6ff-75035c2f8d2e/3_1179x2556.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/10/b5/4010b56c-235f-4603-3d9d-ad8a942b36dd/4_1179x2556.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/83/a6/e283a6b7-f795-0ae7-13c3-007bf7ce46cd/5_1179x2556.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/22/8e/03228e9d-60b9-ec90-6bdb-4dde6a67af86/6_1179x2556.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/77/c0/9477c09c-f723-99f1-4598-f006e25184e8/1_2048x2732.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/47/41/60474111-fff2-6945-e04c-3cb116e6eac4/2_2048x2732.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/79/43/3b79437e-b8d4-5f05-d586-aa1edb91f758/3_2048x2732.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/83/05/0c830551-147b-da59-518c-16b4af023c9d/4_2048x2732.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/57/6f/08576fd1-1a39-99c6-2e50-970161d1d66f/5_2048x2732.png/626x1112bb.jpg",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/2b/ea/032beafb-2884-40c1-746d-5958e0fd89e2/6_2048x2732.png/626x1112bb.jpg"
+        ],
+        "description": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter tiles, make words, and fill all the empty spaces on the board! It's a fun twist on the classic crossword puzzle. Track the small numbers on each tile, the numbers show how many times you have to use that letter.\n\nThe game is easy to learn and fun to play but also hard to master. There is no timer and no pressure. You can play at your own pace and enjoy every level.\n\nPlay hundreds of levels that get harder as you go, with calm and beautiful backgrounds to relax with. It is a great way to pass the time, keep your mind sharp, and have fun. Word Tiles is made for all ages, from young players to seniors.\n\nDownload Word Tiles now and start making words! Can you find all of them?\n\nTerms of Use: https://agave.games/terms-of-use/\nPrivacy Policy: https://agave.games/privacy-policy/word-tiles/",
+        "release_notes": "New Levels!\nNew Backgrounds!",
+        "file_size_bytes": 473634816,
+        "min_os": "15.0",
+        "version": "1.8.2",
+        "release_date": "2026-07-28",
+        "rating": 4.90463,
+        "rating_count": 53264,
+        "price": "Free",
+        "advisory": "4+",
+        "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=4",
+        "fetched_at": "2026-11-01T12:58:54+08:00"
+      },
+      "assigned_platform_group": "App Store/Google Play"
+    },
+    {
+      "name": "Sort Streak: Color Puzzle",
+      "slug": "Sort_Streak_Color_Puzzle_dac872",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 12,
+        "ios/日区免费榜": 29,
+        "android/美区免费榜": 10
+      },
+      "platform_app_ids": {
+        "ios": "6812166638",
+        "android": "com.oakever.sortparade"
+      },
+      "publisher": "Oakever Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-17",
+      "appearances": 3,
+      "best_rank": 10,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "App Store/Google Play"
+    }
+  ]
+}

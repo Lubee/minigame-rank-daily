@@ -1,0 +1,290 @@
+{
+ "schema_version": 1,
+ "name": "Word Tiles - Relaxing Puzzle",
+ "updated_at": "2026-11-21",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Agave Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 9,
+   "android/美区免费榜": 16
+  },
+  "platform_app_ids": {
+   "ios": "6783815362",
+   "android": "com.agavegames.wordtiles"
+  },
+  "first_seen": "2026-08-30",
+  "appearances": 25,
+  "best_rank": 5,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知，未取得本作官方引擎披露",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "实现规划推断：木质字母块 + 手绘风景背景（静物、海岸、田园），暖色调，强调 relaxing",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "实现成本估算：词库、字母计数与关卡解校验；引擎与框架评分基于有限规则分析，不确认原作内部实现。",
+   "art": "实现成本估算：词库、字母计数与关卡解校验；美术素材量评分基于有限规则分析，不确认原作内部实现。",
+   "anim": "实现成本估算：词库、字母计数与关卡解校验；动画与特效评分基于有限规则分析，不确认原作内部实现。",
+   "physics": "实现成本估算：词库、字母计数与关卡解校验；物理与手感评分基于有限规则分析，不确认原作内部实现。",
+   "logic": "实现成本估算：词库、字母计数与关卡解校验；玩法逻辑与关卡评分基于有限规则分析，不确认原作内部实现。",
+   "data": "实现成本估算：词库、字母计数与关卡解校验；数值与养成体系评分基于有限规则分析，不确认原作内部实现。",
+   "server": "实现成本估算：词库、字母计数与关卡解校验；服务端与联网评分基于有限规则分析，不确认原作内部实现。",
+   "audio": "实现成本估算：词库、字母计数与关卡解校验；音频评分基于有限规则分析，不确认原作内部实现。"
+  },
+  "asset_notes": "原作包体的构成和素材管线未知。原型规划需覆盖词汇匹配和次数约束结合与填满棋盘形成完整目标的视觉反馈；实际素材量须经画面清单与授权素材盘点确定。",
+  "notes": "验收依据：https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362。采用该来源对应作品作为有限事实基准；未确认与其他平台/同名产品完全一致。以下成本评分为方案估算，不代表逆向测量。",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "连接字母块组成单词并填满棋盘空格；字块数字表示该字母需要使用的次数，需在组词和使用次数之间分配。官方介绍无计时，可按自己节奏完成逐步变难的关卡。",
+  "highlights": [
+   "词汇匹配和次数约束结合：来源描述的机制，可能形成明确的操作目标。",
+   "填满棋盘形成完整目标：体验价值为产品分析判断，需真人试玩验证。"
+  ],
+  "innovations": [
+   "差异化观察：词汇匹配和次数约束结合与填满棋盘形成完整目标的组合；未进行原创性或专利判断。"
+  ],
+  "target_user": "产品分析推断：对词汇匹配和次数约束结合感兴趣的休闲/解谜玩家；未取得年龄、性别及留存分布。",
+  "monetization": "App Store标注免费含内购；具体激励视频点位与IAA/IAP收入占比未确认。",
+  "lifecycle": "未知；单次榜位、评分及历史上榜天数不足以证明留存、收入或生命周期。"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "方案判断：可参考词汇匹配和次数约束结合与填满棋盘形成完整目标的机制组合，使用自有实现和获授权的美术；词库、字母计数与关卡解校验是原型验证重点，不代表可直接搬用代码或素材。",
+  "suggestions": [
+   "自有原型建议，需验证：题材换成「中药配伍」或「菜谱配比」：用有限次数把食材配成完整方子，保留资源约束但换掉英文词汇门槛",
+   "自有原型建议，需验证：把「次数数字」改成「字母耐久」，用完即碎，视觉上更有消耗感",
+   "自有原型建议，需验证：做中文版本时必须换判题逻辑（无空格分词），可直接用成语/词语库替代单词库，避开与英文产品的正面竞争"
+  ],
+  "risks": [
+   "来源覆盖有限，版本关系与细节需在原型前继续核对。",
+   "不得直接使用原作素材、品牌或代码，授权情况需确认。",
+   "关卡可解性、操作反馈与商业化效果需实测，榜位不证明收益。"
+  ],
+  "effort": "原型估算（非实测工时）：30–45 人日（1 前端 + 1 美术 + 1 内容/词库）；不含商业化验证、完整内容量产及授权费用。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "分析判断：词汇匹配和次数约束结合提供可解释的单局目标，是否能让目标用户理解和投入需通过试玩确认，不由榜位推导。"
+    },
+    {
+     "lens": "用户",
+     "text": "迁移假设：保留填满棋盘形成完整目标带来的决策，先测试删减后是否仍能完成关卡，不预设性别年龄或留存提升。"
+    },
+    {
+     "lens": "业务",
+     "text": "若已有兼容的活动入口，可将词库、字母计数与关卡解校验做成独立原型；当前未核实自有产品基建，接入成本需估算。"
+    },
+    {
+     "lens": "业务",
+     "text": "先验证词汇匹配和次数约束结合是否适合自有场景，再决定内容量产；本作表现不能替代我方成本收益测试。"
+    }
+   ],
+   "how": [
+    "用自有资源实现词库、字母计数与关卡解校验的最小关卡组，记录首关完成率、操作错误和重复开局，确认核心规则可理解。",
+    "在相同入口对照测试填满棋盘形成完整目标的简化版与完整版；同时记录制作工时和卡关点，再决定是否扩关及接入可选商业化。"
+   ],
+   "gain": [
+    "预期沉淀词库、字母计数与关卡解校验的实现和关卡校验经验，具体复用价值以原型结果为准。",
+    "取得词汇匹配和次数约束结合的用户理解测试数据，不承诺留存或营收增幅。",
+    "对比填满棋盘形成完整目标带来的体验收益与内容成本，形成是否保留该约束的依据。",
+    "先验证再扩量，减少未经验证就投入完整资产与运营的风险。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "是否开放授权、代理或定制合作未知，不能由主体名称或自研自发推断。",
+    "若需接触，仅就词库、字母计数与关卡解校验相关的授权范围与交付边界核实，未获得对方合作意向。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "英语培训机构",
+     "how": "把棋盘换成单元词汇表，字母次数当练习配额，填满即完成一次课后作业"
+    },
+    {
+     "scene": "企业术语学习",
+     "how": "用公司内部术语做词库，填满棋盘即通关一次产品知识自测"
+    }
+   ]
+  },
+  "summary": "先验证核心机制与成本，再决定活动化改编"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/72/b2/2672b2f4-f52c-8450-5430-13a1ac2997d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/02/63/010263f9-f4d7-e26b-43c3-5c89bccf3c15/1_1179x2556.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/a2/f4/8ca2f4a1-9756-e84d-69f0-a29d99f5798b/2_1179x2556.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/05/dc/5205dc87-d009-f2ce-d6ff-75035c2f8d2e/3_1179x2556.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/10/b5/4010b56c-235f-4603-3d9d-ad8a942b36dd/4_1179x2556.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/83/a6/e283a6b7-f795-0ae7-13c3-007bf7ce46cd/5_1179x2556.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/22/8e/03228e9d-60b9-ec90-6bdb-4dde6a67af86/6_1179x2556.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/77/c0/9477c09c-f723-99f1-4598-f006e25184e8/1_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/47/41/60474111-fff2-6945-e04c-3cb116e6eac4/2_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/79/43/3b79437e-b8d4-5f05-d586-aa1edb91f758/3_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/83/05/0c830551-147b-da59-518c-16b4af023c9d/4_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/57/6f/08576fd1-1a39-99c6-2e50-970161d1d66f/5_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/2b/ea/032beafb-2884-40c1-746d-5958e0fd89e2/6_2048x2732.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "基准原文 https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362 描述：词汇匹配和次数约束结合；填满棋盘形成完整目标。属于来源转述，本轮未实际游玩或观看连续实机。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "核心循环按可读来源收紧。成本评分、目标用户、改编与业务建议均为推断或待验证，不能据此认定技术实现、投放效率或收益。",
+   "level": "inferred"
+  },
+  {
+   "claim": "官方文字的字母数字表示需要使用的次数，不是简单最多使用次数；无计时不等于没有其他失败约束。",
+   "level": "confirmed"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362",
+  "https://appgoat.ai/tools/top-charts/google-play/us/games",
+  "https://agave.games/privacy-policy/word-tiles/"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Word Tiles - Relaxing Puzzle",
+  "country": "us",
+  "track_id": 6783815362,
+  "seller": "Agave Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+  "genres": [
+   "Games",
+   "Word",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/72/b2/2672b2f4-f52c-8450-5430-13a1ac2997d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/01/02/63/010263f9-f4d7-e26b-43c3-5c89bccf3c15/1_1179x2556.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/a2/f4/8ca2f4a1-9756-e84d-69f0-a29d99f5798b/2_1179x2556.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/05/dc/5205dc87-d009-f2ce-d6ff-75035c2f8d2e/3_1179x2556.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/40/10/b5/4010b56c-235f-4603-3d9d-ad8a942b36dd/4_1179x2556.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/83/a6/e283a6b7-f795-0ae7-13c3-007bf7ce46cd/5_1179x2556.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/22/8e/03228e9d-60b9-ec90-6bdb-4dde6a67af86/6_1179x2556.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/77/c0/9477c09c-f723-99f1-4598-f006e25184e8/1_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/47/41/60474111-fff2-6945-e04c-3cb116e6eac4/2_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/79/43/3b79437e-b8d4-5f05-d586-aa1edb91f758/3_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0c/83/05/0c830551-147b-da59-518c-16b4af023c9d/4_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/57/6f/08576fd1-1a39-99c6-2e50-970161d1d66f/5_2048x2732.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/2b/ea/032beafb-2884-40c1-746d-5958e0fd89e2/6_2048x2732.png/626x1112bb.jpg"
+  ],
+  "description": "Word Tiles is a relaxing word game designed for everyone!\n\nConnect the letter tiles, make words, and fill all the empty spaces on the board! It's a fun twist on the classic crossword puzzle. Track the small numbers on each tile, the numbers show how many times you have to use that letter.\n\nThe game is easy to learn and fun to play but also hard to master. There is no timer and no pressure. You can play at your own pace and enjoy every level.\n\nPlay hundreds of levels that get harder as you go, with calm and beautiful backgrounds to relax with. It is a great way to pass the time, keep your mind sharp, and have fun. Word Tiles is made for all ages, from young players to seniors.\n\nDownload Word Tiles now and start making words! Can you find all of them?\n\nTerms of Use: https://agave.games/terms-of-use/\nPrivacy Policy: https://agave.games/privacy-policy/word-tiles/",
+  "release_notes": "New Levels!\nNew Backgrounds!",
+  "file_size_bytes": 473634816,
+  "min_os": "15.0",
+  "version": "1.8.2",
+  "release_date": "2026-07-28",
+  "rating": 4.90463,
+  "rating_count": 53264,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/word-tiles-relaxing-puzzle/id6783815362?uo=4",
+  "fetched_at": "2026-11-01T12:58:54+08:00"
+ },
+ "slug": "Word_Tiles_Relaxing_Puzzle_58d11a"
+}

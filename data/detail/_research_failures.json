@@ -150,5 +150,103 @@
   },
   "acceptance_stopped": true,
   "acceptance_stop_reason": "多轮调研无可靠具体玩法，未交档案。"
+ },
+ "消除小火锅": {
+  "name": "消除小火锅",
+  "rounds": {
+   "acceptance:2026-11-21:review1": {
+    "type": "acceptance_rejection",
+    "reason": "主要玩法依据实际是同厂《解压火锅店》页面；提交将推断的三份入碟、锅底图鉴、四类广告道具写成本作事实，非仅引擎未知。",
+    "recorded_at": "2026-11-21T13:57:00.454859+08:00"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "主要玩法依据实际是同厂《解压火锅店》页面；提交将推断的三份入碟、锅底图鉴、四类广告道具写成本作事实，非仅引擎未知。",
+  "acceptance_task_id": "workbuddy-2026-11-21-20",
+  "research_insufficient_count": 0
+ },
+ "解压超给力": {
+  "name": "解压超给力",
+  "rounds": {
+   "acceptance:2026-11-21:review1": {
+    "type": "acceptance_rejection",
+    "reason": "可读17yoo只有国风麻将配对简介，提交追加限步/限时、暂存槽、内购和广告位，且证据标推断而正文按事实叙述，未提供对应依据。",
+    "recorded_at": "2026-11-21T13:57:00.454859+08:00"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "可读17yoo只有国风麻将配对简介，提交追加限步/限时、暂存槽、内购和广告位，且证据标推断而正文按事实叙述，未提供对应依据。",
+  "acceptance_task_id": "workbuddy-2026-11-21-20",
+  "research_insufficient_count": 0
+ },
+ "吃碰大消除": {
+  "name": "吃碰大消除",
+  "rounds": {
+   "acceptance:2026-11-21:review1": {
+    "type": "acceptance_rejection",
+    "reason": "引用拆解明确没有查到本作公开介绍，提交仍以竞品规律填写吃碰杠和槽满失败，并由畅销榜推断付费转化。",
+    "recorded_at": "2026-11-21T13:57:00.454859+08:00"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "引用拆解明确没有查到本作公开介绍，提交仍以竞品规律填写吃碰杠和槽满失败，并由畅销榜推断付费转化。",
+  "acceptance_task_id": "workbuddy-2026-11-21-20",
+  "research_insufficient_count": 0
+ },
+ "营救小猫": {
+  "name": "营救小猫",
+  "rounds": {
+   "acceptance:2026-11-21:review1": {
+    "type": "acceptance_rejection",
+    "reason": "提交自己承认已排除同名卷线产品，但仍保留该来源；把拔销/绕线/移压块和30关后广告频次写为本作事实，与打螺丝简介不一致。",
+    "recorded_at": "2026-11-21T13:57:00.454859+08:00"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "提交自己承认已排除同名卷线产品，但仍保留该来源；把拔销/绕线/移压块和30关后广告频次写为本作事实，与打螺丝简介不一致。",
+  "acceptance_task_id": "workbuddy-2026-11-21-20",
+  "research_insufficient_count": 0
+ },
+ "挑战连连消": {
+  "name": "挑战连连消",
+  "rounds": {
+   "acceptance:2026-11-21:review1": {
+    "type": "acceptance_rejection",
+    "reason": "提交称17yoo支持两次拐弯，实际该页只有一起挑战连连消；另一可读来源为毛线归柱，未说明为何连连看来源更可靠，直接选择未经支撑规则。",
+    "recorded_at": "2026-11-21T13:57:00.454859+08:00"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "提交称17yoo支持两次拐弯，实际该页只有一起挑战连连消；另一可读来源为毛线归柱，未说明为何连连看来源更可靠，直接选择未经支撑规则。",
+  "acceptance_task_id": "workbuddy-2026-11-21-20",
+  "research_insufficient_count": 0
+ },
+ "消消水果": {
+  "name": "消消水果",
+  "rounds": {
+   "acceptance:2026-11-21:review1": {
+    "type": "acceptance_rejection",
+    "reason": "主要拆解明确本作沿用同类机制属推断，另一可读资料仅水果消除概述；正文却确认相邻两颗、悬浮下落及具体广告内购，未有本作证据。",
+    "recorded_at": "2026-11-21T13:57:00.454859+08:00"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "主要拆解明确本作沿用同类机制属推断，另一可读资料仅水果消除概述；正文却确认相邻两颗、悬浮下落及具体广告内购，未有本作证据。",
+  "acceptance_task_id": "workbuddy-2026-11-21-20",
+  "research_insufficient_count": 0
+ },
+ "文字趣闯关": {
+  "name": "文字趣闯关",
+  "rounds": {
+   "acceptance:2026-11-21:review1": {
+    "type": "acceptance_rejection",
+    "reason": "应用宝仅趣味拼成语简介，提交额外确认错字扣步、金币、跳关去字广告及广告差评，未提供具体依据；主体冲突虽标注但未限制正文。",
+    "recorded_at": "2026-11-21T13:57:00.454859+08:00"
+   }
+  },
+  "acceptance_stopped": true,
+  "acceptance_stop_reason": "应用宝仅趣味拼成语简介，提交额外确认错字扣步、金币、跳关去字广告及广告差评，未提供具体依据；主体冲突虽标注但未限制正文。",
+  "acceptance_task_id": "workbuddy-2026-11-21-20",
+  "research_insufficient_count": 0
  }
 }

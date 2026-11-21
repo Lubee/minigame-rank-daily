@@ -1,0 +1,41 @@
+{
+  "batch": 28,
+  "source_task_id": "workbuddy-2026-11-21-20",
+  "games": [
+    {
+      "name": "Cube Smash - Puzzle Game",
+      "slug": "Cube_Smash_Puzzle_Game_ca4b2d",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 26,
+        "ios/日区免费榜": 11
+      },
+      "platform_app_ids": {
+        "ios": "6786206777"
+      },
+      "publisher": "Combo Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-17",
+      "appearances": 3,
+      "best_rank": 11,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "App Store/Google Play"
+    }
+  ]
+}

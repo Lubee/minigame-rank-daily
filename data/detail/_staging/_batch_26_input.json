@@ -1,0 +1,180 @@
+{
+  "batch": 26,
+  "source_task_id": "workbuddy-2026-11-21-20",
+  "games": [
+    {
+      "name": "武侠大明星",
+      "slug": "武侠大明星_fd6148",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/畅销榜",
+        "wx/人气榜",
+        "wx/畅销榜"
+      ],
+      "ranks": {
+        "wx/畅销榜": 29,
+        "douyin/畅销榜": 53,
+        "wx/人气榜": 98
+      },
+      "platform_app_ids": {
+        "wx": "wx9c4c2f5f1909e182",
+        "douyin": "tt5b522defc462288807"
+      },
+      "publisher": "海南盛昌网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "塔防",
+      "first_seen": "2026-06-30",
+      "appearances": 83,
+      "best_rank": 8,
+      "seen_days": 89,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "密室出逃",
+      "slug": "密室出逃_5b2b7a",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜",
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 37,
+        "wx/人气榜": 79,
+        "douyin/热门榜": 83
+      },
+      "platform_app_ids": {
+        "wx": "wx8e2350201e31a0c8"
+      },
+      "publisher": "广州三狼网络有限公司",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-06-29",
+      "appearances": 60,
+      "best_rank": 11,
+      "seen_days": 60,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "倒水杯",
+      "slug": "倒水杯_3579dd",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 29,
+        "wx/人气榜": 83
+      },
+      "platform_app_ids": {},
+      "publisher": "广州尊悦文化发展有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 57,
+      "best_rank": 27,
+      "seen_days": 57,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "消个水果",
+      "slug": "消个水果_7567e6",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 35,
+        "wx/人气榜": 98
+      },
+      "platform_app_ids": {},
+      "publisher": "广州尊悦文化发展有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-29",
+      "appearances": 59,
+      "best_rank": 13,
+      "seen_days": 59,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "小小箭头",
+      "slug": "小小箭头_7251fb",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 40,
+        "wx/人气榜": 92
+      },
+      "platform_app_ids": {},
+      "publisher": "海南挺有趣网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 57,
+      "best_rank": 32,
+      "seen_days": 57,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    }
+  ]
+}
