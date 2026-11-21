@@ -1,0 +1,141 @@
+{
+  "batch": 30,
+  "source_task_id": "workbuddy-2026-11-21-20",
+  "acceptance_basis": "user_manual_approval_2026-11-21",
+  "games": [
+    {
+      "name": "消消水果",
+      "slug": "消消水果_968091",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 44,
+        "wx/畅玩榜": 43
+      },
+      "platform_app_ids": {},
+      "publisher": "海南米柚网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 57,
+      "best_rank": 37,
+      "seen_days": 57,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "文字趣闯关",
+      "slug": "文字趣闯关_682a26",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 48
+      },
+      "platform_app_ids": {},
+      "publisher": "海南像素超越科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 57,
+      "best_rank": 48,
+      "seen_days": 57,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "真的好解压",
+      "slug": "真的好解压_65736d",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 68,
+        "wx/畅玩榜": 34
+      },
+      "platform_app_ids": {
+        "wx": "wx38b4f3dff4fbedf0"
+      },
+      "publisher": "上海同莘合德商务咨询有限公司",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-11-06",
+      "appearances": 5,
+      "best_rank": 17,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "这关消一消",
+      "slug": "这关消一消_209800",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜",
+        "douyin/畅销榜"
+      ],
+      "ranks": {
+        "douyin/热门榜": 54,
+        "douyin/畅销榜": 87
+      },
+      "platform_app_ids": {
+        "douyin": "tt53c3257ecda5cab807"
+      },
+      "publisher": "福州联创乐游网络科技有限公司",
+      "category_l1": "消除",
+      "category_l2": "",
+      "first_seen": "2026-08-22",
+      "appearances": 17,
+      "best_rank": 19,
+      "seen_days": 17,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    }
+  ]
+}

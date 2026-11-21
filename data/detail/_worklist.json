@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-21T13:57:05+08:00",
+ "generated_at": "2026-11-21T14:17:43+08:00",
  "source": "all",
  "total": 4147,
- "pending": 3899,
- "done": 248,
+ "pending": 3890,
+ "done": 257,
  "with_icon": 0,
  "entries": [
   {
@@ -4219,39 +4219,6 @@
    }
   },
   {
-   "name": "解压超给力",
-   "slug": "解压超给力_11cee8",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 75,
-    "wx/畅玩榜": 31
-   },
-   "platform_app_ids": {
-    "wx": "wx5d7b00259093c272"
-   },
-   "publisher": "消除",
-   "category_l1": "休闲",
-   "category_l2": "消除",
-   "first_seen": "2026-10-22",
-   "appearances": 10,
-   "best_rank": 6,
-   "seen_days": 10,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
    "name": "全民指上赛车",
    "slug": "全民指上赛车_899237",
    "status": "pending",
@@ -4926,41 +4893,6 @@
     "tags": [],
     "notes": "",
     "developer": ""
-   }
-  },
-  {
-   "name": "营救小猫",
-   "slug": "营救小猫_29ce8c",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 58,
-    "wx/畅玩榜": 38
-   },
-   "platform_app_ids": {},
-   "publisher": "武汉聚优量信息科技有限公司",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-06-30",
-   "appearances": 67,
-   "best_rank": 9,
-   "seen_days": 67,
-   "profile_value": "mid",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "Busjam,毛线,打龙",
-    "tags": [
-     "Busjam",
-     "毛线",
-     "打龙"
-    ],
-    "notes": "",
-    "developer": "武汉聚优量信息科技有限公司"
    }
   },
   {
@@ -5766,39 +5698,6 @@
    "category_l1": "Games",
    "category_l2": "",
    "first_seen": "2026-11-08",
-   "appearances": 7,
-   "best_rank": 11,
-   "seen_days": 7,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "挑战连连消",
-   "slug": "挑战连连消_91b9c7",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 39,
-    "wx/畅玩榜": 48
-   },
-   "platform_app_ids": {
-    "wx": "wx17e22cad37664b90"
-   },
-   "publisher": "益智",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-11-12",
    "appearances": 7,
    "best_rank": 11,
    "seen_days": 7,
@@ -7129,39 +7028,6 @@
    }
   },
   {
-   "name": "真的好解压",
-   "slug": "真的好解压_65736d",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 71,
-    "wx/畅玩榜": 39
-   },
-   "platform_app_ids": {
-    "wx": "wx38b4f3dff4fbedf0"
-   },
-   "publisher": "上海同莘合德商务咨询有限公司",
-   "category_l1": "休闲",
-   "category_l2": "消除",
-   "first_seen": "2026-11-06",
-   "appearances": 6,
-   "best_rank": 17,
-   "seen_days": 6,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
    "name": "剑侠世界:起源",
    "slug": "剑侠世界_起源_5955de",
    "status": "pending",
@@ -7506,39 +7372,6 @@
    "appearances": 6,
    "best_rank": 19,
    "seen_days": 6,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "这关消一消",
-   "slug": "这关消一消_209800",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/热门榜",
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 49,
-    "douyin/畅销榜": 84
-   },
-   "platform_app_ids": {
-    "douyin": "tt53c3257ecda5cab807"
-   },
-   "publisher": "福州联创乐游网络科技有限公司",
-   "category_l1": "消除",
-   "category_l2": "",
-   "first_seen": "2026-08-22",
-   "appearances": 18,
-   "best_rank": 19,
-   "seen_days": 18,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
@@ -10464,37 +10297,6 @@
    }
   },
   {
-   "name": "吃碰大消除",
-   "slug": "吃碰大消除_c518c2",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/热门榜",
-    "douyin/畅销榜"
-   ],
-   "ranks": {
-    "douyin/热门榜": 35,
-    "douyin/畅销榜": 52
-   },
-   "platform_app_ids": {},
-   "publisher": "厦门登游科技有限公司",
-   "category_l1": "",
-   "category_l2": "",
-   "first_seen": "2026-11-17",
-   "appearances": 4,
-   "best_rank": 35,
-   "seen_days": 4,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
    "name": "通关来解压",
    "slug": "通关来解压_4037ec",
    "status": "pending",
@@ -10642,37 +10444,6 @@
    "appearances": 16,
    "best_rank": 36,
    "seen_days": 16,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "消消水果",
-   "slug": "消消水果_968091",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/人气榜": 50,
-    "wx/畅玩榜": 42
-   },
-   "platform_app_ids": {},
-   "publisher": "海南米柚网络科技有限公司",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-06-30",
-   "appearances": 58,
-   "best_rank": 37,
-   "seen_days": 58,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
@@ -20064,37 +19835,6 @@
    "appearances": 5,
    "best_rank": 4,
    "seen_days": 5,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "消除小火锅",
-   "slug": "消除小火锅_8e65a3",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "douyin/新游榜"
-   ],
-   "ranks": {
-    "douyin/新游榜": 9
-   },
-   "platform_app_ids": {
-    "douyin": "tt8609f0b4187219e802"
-   },
-   "publisher": "成都木木互娱科技有限公司",
-   "category_l1": "1",
-   "category_l2": "",
-   "first_seen": "2026-11-09",
-   "appearances": 12,
-   "best_rank": 4,
-   "seen_days": 12,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
@@ -68724,35 +68464,6 @@
    "appearances": 46,
    "best_rank": 48,
    "seen_days": 46,
-   "profile_value": "",
-   "profile_abandoned": false,
-   "profile_abandon_reason": "",
-   "seed": {
-    "gameplay_desc": "",
-    "tags": [],
-    "notes": "",
-    "developer": ""
-   }
-  },
-  {
-   "name": "文字趣闯关",
-   "slug": "文字趣闯关_682a26",
-   "status": "pending",
-   "icon_url": "",
-   "boards": [
-    "wx/畅玩榜"
-   ],
-   "ranks": {
-    "wx/畅玩榜": 51
-   },
-   "platform_app_ids": {},
-   "publisher": "海南像素超越科技有限公司",
-   "category_l1": "休闲",
-   "category_l2": "益智",
-   "first_seen": "2026-06-30",
-   "appearances": 58,
-   "best_rank": 48,
-   "seen_days": 58,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
@@ -121411,6 +121122,39 @@
    }
   },
   {
+   "name": "解压超给力",
+   "slug": "解压超给力_11cee8",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 75,
+    "wx/畅玩榜": 31
+   },
+   "platform_app_ids": {
+    "wx": "wx5d7b00259093c272"
+   },
+   "publisher": "消除",
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "first_seen": "2026-10-22",
+   "appearances": 10,
+   "best_rank": 6,
+   "seen_days": 10,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
    "name": "整理师竞争",
    "slug": "整理师竞争_329623",
    "status": "done",
@@ -121642,6 +121386,41 @@
    }
   },
   {
+   "name": "营救小猫",
+   "slug": "营救小猫_29ce8c",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 58,
+    "wx/畅玩榜": 38
+   },
+   "platform_app_ids": {},
+   "publisher": "武汉聚优量信息科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-30",
+   "appearances": 67,
+   "best_rank": 9,
+   "seen_days": 67,
+   "profile_value": "mid",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "Busjam,毛线,打龙",
+    "tags": [
+     "Busjam",
+     "毛线",
+     "打龙"
+    ],
+    "notes": "",
+    "developer": "武汉聚优量信息科技有限公司"
+   }
+  },
+  {
    "name": "Candy Crush Saga",
    "slug": "Candy_Crush_Saga_d277fc",
    "status": "done",
@@ -121843,6 +121622,39 @@
    }
   },
   {
+   "name": "挑战连连消",
+   "slug": "挑战连连消_91b9c7",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 39,
+    "wx/畅玩榜": 48
+   },
+   "platform_app_ids": {
+    "wx": "wx17e22cad37664b90"
+   },
+   "publisher": "益智",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-11-12",
+   "appearances": 7,
+   "best_rank": 11,
+   "seen_days": 7,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
    "name": "王者征途",
    "slug": "王者征途_77346d",
    "status": "done",
@@ -122007,6 +121819,39 @@
    }
   },
   {
+   "name": "真的好解压",
+   "slug": "真的好解压_65736d",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 71,
+    "wx/畅玩榜": 39
+   },
+   "platform_app_ids": {
+    "wx": "wx38b4f3dff4fbedf0"
+   },
+   "publisher": "上海同莘合德商务咨询有限公司",
+   "category_l1": "休闲",
+   "category_l2": "消除",
+   "first_seen": "2026-11-06",
+   "appearances": 6,
+   "best_rank": 17,
+   "seen_days": 6,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
    "name": "点点消不停",
    "slug": "点点消不停_cd8268",
    "status": "done",
@@ -122027,6 +121872,39 @@
    "appearances": 60,
    "best_rank": 18,
    "seen_days": 60,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "这关消一消",
+   "slug": "这关消一消_209800",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 49,
+    "douyin/畅销榜": 84
+   },
+   "platform_app_ids": {
+    "douyin": "tt53c3257ecda5cab807"
+   },
+   "publisher": "福州联创乐游网络科技有限公司",
+   "category_l1": "消除",
+   "category_l2": "",
+   "first_seen": "2026-08-22",
+   "appearances": 18,
+   "best_rank": 19,
+   "seen_days": 18,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
@@ -122122,6 +122000,68 @@
    "first_seen": "2026-06-30",
    "appearances": 58,
    "best_rank": 32,
+   "seen_days": 58,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "吃碰大消除",
+   "slug": "吃碰大消除_c518c2",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/热门榜",
+    "douyin/畅销榜"
+   ],
+   "ranks": {
+    "douyin/热门榜": 35,
+    "douyin/畅销榜": 52
+   },
+   "platform_app_ids": {},
+   "publisher": "厦门登游科技有限公司",
+   "category_l1": "",
+   "category_l2": "",
+   "first_seen": "2026-11-17",
+   "appearances": 4,
+   "best_rank": 35,
+   "seen_days": 4,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "消消水果",
+   "slug": "消消水果_968091",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/人气榜": 50,
+    "wx/畅玩榜": 42
+   },
+   "platform_app_ids": {},
+   "publisher": "海南米柚网络科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-30",
+   "appearances": 58,
+   "best_rank": 37,
    "seen_days": 58,
    "profile_value": "",
    "profile_abandoned": false,
@@ -123632,6 +123572,37 @@
    "appearances": 7,
    "best_rank": 4,
    "seen_days": 7,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "消除小火锅",
+   "slug": "消除小火锅_8e65a3",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "douyin/新游榜"
+   ],
+   "ranks": {
+    "douyin/新游榜": 9
+   },
+   "platform_app_ids": {
+    "douyin": "tt8609f0b4187219e802"
+   },
+   "publisher": "成都木木互娱科技有限公司",
+   "category_l1": "1",
+   "category_l2": "",
+   "first_seen": "2026-11-09",
+   "appearances": 12,
+   "best_rank": 4,
+   "seen_days": 12,
    "profile_value": "",
    "profile_abandoned": false,
    "profile_abandon_reason": "",
@@ -125241,6 +125212,35 @@
    "first_seen": "2026-06-30",
    "appearances": 58,
    "best_rank": 39,
+   "seen_days": 58,
+   "profile_value": "",
+   "profile_abandoned": false,
+   "profile_abandon_reason": "",
+   "seed": {
+    "gameplay_desc": "",
+    "tags": [],
+    "notes": "",
+    "developer": ""
+   }
+  },
+  {
+   "name": "文字趣闯关",
+   "slug": "文字趣闯关_682a26",
+   "status": "done",
+   "icon_url": "",
+   "boards": [
+    "wx/畅玩榜"
+   ],
+   "ranks": {
+    "wx/畅玩榜": 51
+   },
+   "platform_app_ids": {},
+   "publisher": "海南像素超越科技有限公司",
+   "category_l1": "休闲",
+   "category_l2": "益智",
+   "first_seen": "2026-06-30",
+   "appearances": 58,
+   "best_rank": 48,
    "seen_days": 58,
    "profile_value": "",
    "profile_abandoned": false,

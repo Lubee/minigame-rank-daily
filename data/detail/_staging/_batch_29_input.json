@@ -1,0 +1,180 @@
+{
+  "batch": 29,
+  "source_task_id": "workbuddy-2026-11-21-20",
+  "acceptance_basis": "user_manual_approval_2026-11-21",
+  "games": [
+    {
+      "name": "消除小火锅",
+      "slug": "消除小火锅_8e65a3",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜"
+      ],
+      "ranks": {
+        "douyin/新游榜": 9
+      },
+      "platform_app_ids": {
+        "douyin": "tt8609f0b4187219e802"
+      },
+      "publisher": "成都木木互娱科技有限公司",
+      "category_l1": "1",
+      "category_l2": "",
+      "first_seen": "2026-11-09",
+      "appearances": 11,
+      "best_rank": 4,
+      "seen_days": 11,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "解压超给力",
+      "slug": "解压超给力_11cee8",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 80,
+        "wx/畅玩榜": 32
+      },
+      "platform_app_ids": {
+        "wx": "wx5d7b00259093c272"
+      },
+      "publisher": "消除",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-10-22",
+      "appearances": 9,
+      "best_rank": 6,
+      "seen_days": 9,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "吃碰大消除",
+      "slug": "吃碰大消除_c518c2",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜",
+        "douyin/畅销榜"
+      ],
+      "ranks": {
+        "douyin/热门榜": 36,
+        "douyin/畅销榜": 56
+      },
+      "platform_app_ids": {},
+      "publisher": "厦门登游科技有限公司",
+      "category_l1": "",
+      "category_l2": "",
+      "first_seen": "2026-11-17",
+      "appearances": 3,
+      "best_rank": 36,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "营救小猫",
+      "slug": "营救小猫_29ce8c",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 58,
+        "wx/畅玩榜": 41
+      },
+      "platform_app_ids": {},
+      "publisher": "武汉聚优量信息科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 66,
+      "best_rank": 9,
+      "seen_days": 66,
+      "profile_value": "mid",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "Busjam,毛线,打龙",
+        "tags": [
+          "Busjam",
+          "毛线",
+          "打龙"
+        ],
+        "notes": "",
+        "developer": "武汉聚优量信息科技有限公司"
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    },
+    {
+      "name": "挑战连连消",
+      "slug": "挑战连连消_91b9c7",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 34,
+        "wx/畅玩榜": 60
+      },
+      "platform_app_ids": {
+        "wx": "wx17e22cad37664b90"
+      },
+      "publisher": "益智",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-12",
+      "appearances": 6,
+      "best_rank": 11,
+      "seen_days": 6,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {},
+      "assigned_platform_group": "微信/抖音"
+    }
+  ]
+}
