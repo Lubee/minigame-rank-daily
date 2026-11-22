@@ -15049,11 +15049,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6761043541": {
@@ -15101,11 +15101,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6768564100": {
@@ -15151,11 +15151,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:1506229470": {
@@ -15171,7 +15171,7 @@
         "apple:free"
       ],
       "url": "https://apps.apple.com/us/app/id1506229470",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "error": "'NoneType' object has no attribute 'get'"
     },
     "ios:6751794501": {
@@ -15187,7 +15187,7 @@
         "apple:free"
       ],
       "url": "https://apps.apple.com/us/app/id6751794501",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "error": "'NoneType' object has no attribute 'get'",
       "rating": 4.58927,
       "rating_count": 20366,
@@ -15270,11 +15270,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6566176181": {
@@ -15320,11 +15320,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "android:com.moonactive.cmboard": {
@@ -16412,11 +16412,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6805725616": {
@@ -16457,11 +16457,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:1094930513": {
@@ -16574,11 +16574,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6468845173": {
@@ -16620,11 +16620,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6738905436": {
@@ -16672,11 +16672,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "android:com.hitappsgames.wordsolitaire": {
@@ -17555,7 +17555,7 @@
         "apple:free"
       ],
       "url": "https://apps.apple.com/us/app/id6473058122",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "error": "'NoneType' object has no attribute 'get'"
     },
     "ios:6745120053": {
@@ -17609,11 +17609,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6776522053": {
@@ -17660,11 +17660,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:1597760047": {
@@ -17765,11 +17765,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:1545567989": {
@@ -17823,11 +17823,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6560107504": {
@@ -17869,11 +17869,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "android:com.gryphline.endfield.gp": {
@@ -18725,11 +18725,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6831317859": {
@@ -18777,11 +18777,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:1453837845": {
@@ -18835,11 +18835,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:1366478176": {
@@ -18885,11 +18885,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "ios:6468901311": {
@@ -18935,11 +18935,11 @@
       ],
       "media_missing": [],
       "media_status": "complete",
-      "video_attempted_at": "2026-11-22T09:59:50.391070+00:00",
+      "video_attempted_at": "2026-11-22T11:51:21.702967+00:00",
       "video_error": "Apple 官方页面未返回可核对应用身份的视频结构",
-      "media_checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
-      "checked_at": "2026-11-22T09:59:50.391070+00:00",
+      "media_checked_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
+      "checked_at": "2026-11-22T11:51:21.702967+00:00",
       "error": null
     },
     "android:com.sniper.shoot.hide.game": {
@@ -19743,25 +19743,25 @@
   },
   "sources": {
     "apple:newapplications": {
-      "attempted_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_success_at": "2026-11-22T09:59:50.391070+00:00",
-      "source_updated_at": "2026-11-22T01:59:50-07:00",
+      "attempted_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_success_at": "2026-11-22T11:51:21.702967+00:00",
+      "source_updated_at": "2026-11-22T03:51:21-07:00",
       "candidates": 18,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newfreeapplications": {
-      "attempted_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_success_at": "2026-11-22T09:59:50.391070+00:00",
-      "source_updated_at": "2026-11-22T01:59:50-07:00",
+      "attempted_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_success_at": "2026-11-22T11:51:21.702967+00:00",
+      "source_updated_at": "2026-11-22T03:51:22-07:00",
       "candidates": 15,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
     },
     "apple:newpaidapplications": {
-      "attempted_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_success_at": "2026-11-22T09:59:50.391070+00:00",
-      "source_updated_at": "2026-11-22T01:59:51-07:00",
+      "attempted_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_success_at": "2026-11-22T11:51:21.702967+00:00",
+      "source_updated_at": "2026-11-22T03:51:23-07:00",
       "candidates": 35,
       "error": null,
       "latest_candidate_release_date": "2026-11-16"
@@ -19783,21 +19783,21 @@
       "latest_candidate_release_date": null
     },
     "apple:free": {
-      "attempted_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_success_at": "2026-11-22T09:59:50.391070+00:00",
+      "attempted_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_success_at": "2026-11-22T11:51:21.702967+00:00",
       "source_updated_at": "2026-11-22T09:59:32+00:00",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     },
     "google:free": {
-      "attempted_at": "2026-11-22T09:59:50.391070+00:00",
-      "last_success_at": "2026-11-22T09:59:50.391070+00:00",
+      "attempted_at": "2026-11-22T11:51:21.702967+00:00",
+      "last_success_at": "2026-11-22T11:51:21.702967+00:00",
       "source_updated_at": "2026-11-22T09:59:41Z",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     }
   },
-  "updated_at": "2026-11-22T10:00:01.495457+00:00"
+  "updated_at": "2026-11-22T11:51:30.648933+00:00"
 }
