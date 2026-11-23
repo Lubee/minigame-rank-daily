@@ -38,6 +38,23 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  weekly_fallback:
+    needs: scrape
+    if: ${{ always() && github.event_name == 'schedule' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check and recover Monday weekly report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/monitor/weekly_fallback.py recover
+
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30

@@ -8,6 +8,11 @@ on:
     - cron: "30 23 * * 0"
   workflow_dispatch:
     inputs:
+      automatic:
+        description: "自动补发（当天已有成功周报则跳过）"
+        type: boolean
+        required: false
+        default: false
       baseline:
         description: "基准日期 YYYY-MM-DD（留空自动取 7 天前）"
         required: false
@@ -19,14 +24,41 @@ on:
 
 permissions:
   contents: write
+  actions: read
+
+concurrency:
+  group: weekly-report
+  cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      should_run: ${{ steps.guard.outputs.should_run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOMATIC: ${{ github.event_name == 'schedule' || inputs.automatic == true }}
+        run: python scripts/monitor/weekly_fallback.py guard
+
   report:
+    needs: check
+    if: ${{ needs.check.outputs.should_run == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
