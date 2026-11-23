@@ -20,6 +20,14 @@ def app(released="Nov 17, 2026", **extra):
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_paused_apple_video_does_not_retry_complete_profile(self):
+        record = {'platform': 'ios', 'id': '123', 'status': 'verified', 'sources': ['apple:newapplications'],
+                  'media_status': 'complete', 'first_discovered_at': '2026-11-17T04:00:00Z',
+                  'video_error': 'Previous Apple redirect', 'video_attempted_at': '2026-11-17T04:00:00Z'}
+        self.assertEqual(monitor.pending_targets({'apps': {'ios:123': record}}, NOW), [])
+        google = {**record, 'platform': 'android', 'id': 'com.example.game', 'sources': ['google:new_free']}
+        self.assertEqual(len(monitor.pending_targets({'apps': {'android:com.example.game': google}}, NOW)), 1)
+
     def test_official_classification_price_and_future_date(self):
         record = {"platform": "android", "id": "com.example.game"}
         verified = monitor.assess(record, app(), NOW)

@@ -15,7 +15,7 @@ from urllib.parse import urlencode
 import scrape_googleplay as googleplay
 from scrape_ios import _fetch_json, _entry_icon
 from store_apps import METRIC_FIELDS, store_metrics
-from store_videos import VIDEO_FIELDS, apple_video_record, google_videos
+from store_videos import VIDEO_FIELDS, google_videos
 
 ROOT = Path(__file__).resolve().parent.parent
 BEIJING = timezone(timedelta(hours=8))
@@ -206,7 +206,7 @@ def pending_targets(catalog, now):
             r.get("last_attempt_at", ""), r["first_discovered_at"])):
         status = record["status"]
         needs_media = record.get("media_status") != "complete"
-        needs_video = bool(record.get("video_error")) and record.get("video_attempted_at", "") < (now - timedelta(minutes=30)).isoformat()
+        needs_video = record["platform"] == "android" and bool(record.get("video_error")) and record.get("video_attempted_at", "") < (now - timedelta(minutes=30)).isoformat()
         if status == "not_game" or (status == "verified" and not needs_media and not needs_video):
             continue
         if status == "scheduled" and record.get("release_date", "") > today and not needs_media and not needs_video:
@@ -276,8 +276,7 @@ def run(data_dir, now=None, log=print):
                     video_cache = {**known, **record}
                     if video_cache.get("video_checked_at", "")[:10] > (now - timedelta(days=7)).date().isoformat():
                         result.update({field: video_cache[field] for field in ("videos", "video_checked_at", "video_attempted_at", "video_error") if field in video_cache})
-                    else:
-                        result.update(apple_video_record(record["id"], "us", now.isoformat()))
+                    # Apple video collection is paused; keep previously saved URLs only.
                     if "videos" not in result and video_cache.get("videos"):
                         result["videos"] = video_cache["videos"]
                 elif cached and known.get("video_checked_at"):

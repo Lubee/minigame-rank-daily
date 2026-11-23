@@ -205,7 +205,7 @@ def update_store_apps(snapshot: dict, data_dir: Path, today: str, log=print, *, 
     refresh_ios(apps, keys, today, log)
     android_keys = [key for key in reversed(apps) if key.startswith("android:") and "details_checked_on" not in apps[key]]
     refresh_googleplay(apps, list(dict.fromkeys([*android, *android_keys])), today, log)
-    refresh_ios_videos(apps, keys, today)
+    # Apple video discovery is paused until a reliable source is available.
     if apps == previous:
         return
 

@@ -1,0 +1,85 @@
+{
+  "targets": 678,
+  "platforms": {
+    "ios": {
+      "total": 268,
+      "success": 264,
+      "ratings": 264,
+      "videos": 3,
+      "complete_media": 264
+    },
+    "android": {
+      "total": 410,
+      "success": 405,
+      "ratings": 387,
+      "videos": 121,
+      "complete_media": 406
+    }
+  },
+  "apple_video": "paused",
+  "failed": [
+    {
+      "key": "android:com.arrow.romantic.puzzle.goddess",
+      "status": "failed",
+      "name": "Amaze Romantic Goddess",
+      "error": "App not found (404)",
+      "checked_at": "2026-11-23T05:24:43.294418+00:00"
+    },
+    {
+      "key": "android:com.gameloft.android.ANMP.GloftDMHM",
+      "status": "failed",
+      "name": "Minion Rush: Running Game",
+      "error": "App not found (404)",
+      "checked_at": "2026-11-23T05:24:43.342824+00:00"
+    },
+    {
+      "key": "android:com.newai.ooc",
+      "status": "failed",
+      "name": "OOC: The Playable Anime",
+      "error": "Official result: not_game",
+      "checked_at": "2026-11-23T05:24:43.481308+00:00"
+    },
+    {
+      "key": "android:jp.konami.epjCastlevania1",
+      "status": "failed",
+      "name": "Castlevania: 40th Anniversary",
+      "error": "App not found (404)",
+      "checked_at": "2026-11-23T05:24:45.212607+00:00"
+    },
+    {
+      "key": "ios:us:1498019884",
+      "status": "failed",
+      "name": "Castlevania: 40th Anniversary",
+      "error": "Official result: unavailable",
+      "checked_at": "2026-11-23T05:24:40.396984+00:00"
+    },
+    {
+      "key": "ios:us:596402997",
+      "status": "failed",
+      "name": "Minion Rush: Running game",
+      "error": "Official result: unavailable",
+      "checked_at": "2026-11-23T05:24:40.396984+00:00"
+    },
+    {
+      "key": "ios:us:6762010774",
+      "status": "failed",
+      "name": "CrownCards - Trading Cards",
+      "error": "Official result: not_game",
+      "checked_at": "2026-11-23T05:24:40.396984+00:00"
+    },
+    {
+      "key": "ios:us:6833957187",
+      "status": "failed",
+      "name": "Cumulark",
+      "error": "Official result: unavailable",
+      "checked_at": "2026-11-23T05:24:40.396984+00:00"
+    },
+    {
+      "key": "android:com.combo.cubesmash",
+      "status": "failed",
+      "name": "Cube Smash",
+      "error": "App not found (404)",
+      "checked_at": "2026-11-23T05:24:46.852069+00:00"
+    }
+  ]
+}
