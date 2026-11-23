@@ -1,0 +1,158 @@
+{
+  "batch": 32,
+  "games": [
+    {
+      "name": "变色龙大作战",
+      "slug": "变色龙大作战_b900b9",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 55
+      },
+      "platform_app_ids": {},
+      "publisher": "深圳市鸿鑫网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-27",
+      "appearances": 15,
+      "best_rank": 2,
+      "seen_days": 15,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "玩转脑洞呀",
+      "slug": "玩转脑洞呀_4e9d49",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 20
+      },
+      "platform_app_ids": {
+        "wx": "wxc25b89237af791cf"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-09-24",
+      "appearances": 12,
+      "best_rank": 2,
+      "seen_days": 12,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "拳击布娃娃游戏",
+      "slug": "拳击布娃娃游戏_c4663f",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 9
+      },
+      "platform_app_ids": {
+        "wx": "wxc6a36c609ad527cc"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-03",
+      "appearances": 4,
+      "best_rank": 2,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "调皮木偶人",
+      "slug": "调皮木偶人_652579",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 11
+      },
+      "platform_app_ids": {
+        "wx": "wxdc9b050bf8650f93"
+      },
+      "publisher": "个人开发者",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-02",
+      "appearances": 4,
+      "best_rank": 2,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "猫咪整理师",
+      "slug": "猫咪整理师_2133de",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 72,
+        "wx/畅玩榜": 42
+      },
+      "platform_app_ids": {},
+      "publisher": "武汉觅趣科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-29",
+      "appearances": 60,
+      "best_rank": 3,
+      "seen_days": 64,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

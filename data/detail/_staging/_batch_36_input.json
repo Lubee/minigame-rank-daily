@@ -1,0 +1,142 @@
+{
+  "batch": 36,
+  "games": [
+    {
+      "name": "Fish Sort Puzzle: Fish Games",
+      "slug": "Fish_Sort_Puzzle_Fish_Games_081deb",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 11
+      },
+      "platform_app_ids": {
+        "android": "triple.sorting.bubble.fish.match"
+      },
+      "publisher": "Shycheese",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-09-10",
+      "appearances": 2,
+      "best_rank": 11,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Arrows – Puzzle Escape",
+      "slug": "Arrows_Puzzle_Escape_740240",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 76,
+        "ios/日区免费榜": 34,
+        "android/美区免费榜": 67
+      },
+      "platform_app_ids": {
+        "ios": "6748397500",
+        "android": "com.ecffri.arrows"
+      },
+      "publisher": "Lessmore GmbH",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 31,
+      "best_rank": 12,
+      "seen_days": 32,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Jigsawcard Solitaire Puzzle",
+      "slug": "Jigsawcard_Solitaire_Puzzle_d4cb5c",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 66,
+        "android/美区免费榜": 18,
+        "ios/日区免费榜": 60
+      },
+      "platform_app_ids": {
+        "ios": "6754900673",
+        "android": "com.oakever.jigsawcard"
+      },
+      "publisher": "Oakever Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 30,
+      "best_rank": 13,
+      "seen_days": 30,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Solitaire Associations Journey",
+      "slug": "Solitaire_Associations_Journey_5b3a38",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 39,
+        "android/美区免费榜": 83
+      },
+      "platform_app_ids": {
+        "ios": "6748950306",
+        "android": "com.hitappsgames.wordsolitaire"
+      },
+      "publisher": "Hitapps Games LTD",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 29,
+      "best_rank": 20,
+      "seen_days": 29,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

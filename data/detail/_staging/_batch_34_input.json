@@ -1,0 +1,175 @@
+{
+  "batch": 34,
+  "games": [
+    {
+      "name": "Sand Blocks: Drop Puzzle",
+      "slug": "Sand_Blocks_Drop_Puzzle_b07cbf",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 31,
+        "ios/美区免费榜": 32,
+        "android/美区免费榜": 75
+      },
+      "platform_app_ids": {
+        "ios": "6757140488",
+        "android": "com.uncosoft.wordpuzzle"
+      },
+      "publisher": "Rollic Games",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 52,
+      "best_rank": 4,
+      "seen_days": 53,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Cutie Sort - かわいい色分けゲーム",
+      "slug": "Cutie_Sort_かわいい色分けゲーム_81b2bc",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 5
+      },
+      "platform_app_ids": {
+        "ios": "6796547048"
+      },
+      "publisher": "Ladaneta Games",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-10-13",
+      "appearances": 26,
+      "best_rank": 5,
+      "seen_days": 26,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Loop Sort",
+      "slug": "Loop_Sort_d4458e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 45,
+        "ios/美区免费榜": 77,
+        "ios/日区免费榜": 85
+      },
+      "platform_app_ids": {
+        "android": "com.Garawell.LoopSort",
+        "ios": "6751101794"
+      },
+      "publisher": "VOODOO",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 42,
+      "best_rank": 7,
+      "seen_days": 42,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Disney Solitaire",
+      "slug": "Disney_Solitaire_7e528b",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 26,
+        "android/美区免费榜": 30
+      },
+      "platform_app_ids": {
+        "ios": "6475757306",
+        "android": "com.superplaystudios.disneysolitairedreams"
+      },
+      "publisher": "SuperPlay",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-27",
+      "appearances": 38,
+      "best_rank": 7,
+      "seen_days": 38,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "毛线织织",
+      "slug": "毛线织织_3686c4",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜",
+        "douyin/热门榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 82,
+        "douyin/新游榜": 2,
+        "douyin/热门榜": 73
+      },
+      "platform_app_ids": {},
+      "publisher": "广州米奈科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-24",
+      "appearances": 8,
+      "best_rank": 2,
+      "seen_days": 12,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

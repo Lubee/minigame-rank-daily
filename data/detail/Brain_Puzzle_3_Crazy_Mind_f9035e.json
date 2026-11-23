@@ -1,0 +1,319 @@
+{
+ "schema_version": 1,
+ "name": "Brain Puzzle 3: Crazy Mind",
+ "updated_at": "2026-11-23",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "SmallStep Dev Team",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜",
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 20,
+   "ios/日区免费榜": 56,
+   "android/美区免费榜": 41
+  },
+  "platform_app_ids": {
+   "ios": "6756482832",
+   "android": "com.brain.crazy.joygame"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 85,
+  "best_rank": 8,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知，未取得本作引擎披露",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "表现规划推断：以每关题面与解法变化和观察逻辑和反应多种挑战形成视觉重点；本轮未做截图逐帧观察。",
+  "dims": {
+   "engine": 2,
+   "art": 4,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及引擎与框架，评分为原型方案判断，非原作技术测量。",
+   "art": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及美术素材量，评分为原型方案判断，非原作技术测量。",
+   "anim": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及动画与特效，评分为原型方案判断，非原作技术测量。",
+   "physics": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及物理与手感，评分为原型方案判断，非原作技术测量。",
+   "logic": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及玩法逻辑与关卡，评分为原型方案判断，非原作技术测量。",
+   "data": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及数值与养成体系，评分为原型方案判断，非原作技术测量。",
+   "server": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及服务端与联网，评分为原型方案判断，非原作技术测量。",
+   "audio": "实现成本估算：关卡脚本、交互触发与谜题内容生产涉及音频，评分为原型方案判断，非原作技术测量。"
+  },
+  "asset_notes": "成本重点为规则对应的界面、交互反馈与关卡内容。图片拼图要单独核算图片授权和切块量产；谜题合集要核算逐关脚本与美术，未知包体结构不推导资源类型。",
+  "notes": "Google Play显示JoyGame Studio，榜单主体SmallStep Dev Team，按渠道来源并列，不强行合并公司角色。 基准来源：https://play.google.com/store/apps/details?id=com.brain.crazy.joygame。未试玩、未观看实机视频；未知内部实现保持未知。",
+  "cost_score": 2.38,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "阅读或观察每关情景，寻找隐藏线索、逻辑关系或反常识解法，通过简单交互完成当前挑战后进入新谜题。官方介绍包含观察、记忆、逻辑与反应类关卡，未给所有关卡统一失败条件。",
+  "highlights": [
+   "每关题面与解法变化：可见的目标或限制有利于建立决策反馈，效果为产品分析判断。",
+   "观察逻辑和反应多种挑战：可作为差异化体验验证点，不能据此承诺留存提升。"
+  ],
+  "innovations": [
+   "机制组合观察：每关题面与解法变化与观察逻辑和反应多种挑战形成相互约束；未做原创性或知识产权判断。"
+  ],
+  "target_user": "分析推断：偏好每关题面与解法变化的休闲益智玩家；年龄性别与真实用户构成未知。",
+  "monetization": "Google Play标注含广告及内购；广告触发点、频次和收入比例未知。",
+  "lifecycle": "未知。持续关卡更新可作为运营假设，但下载、评价或榜位不能证明留存、获客回收及长期收入。"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "改编判断：参考每关题面与解法变化与观察逻辑和反应多种挑战的交互结构，以自有实现和合法素材重做。主要工作是关卡脚本、交互触发与谜题内容生产，不是直接复制原作代码或素材。",
+  "suggestions": [
+   "先用非原题材做每关题面与解法变化的可玩原型，固定小关卡集，确认操作和判定正确。",
+   "保留观察逻辑和反应多种挑战但提供更清晰的状态提示，对照测试教学完成率与卡关原因。",
+   "将关卡配置和运行判定分开，用编辑器/离线校验检查解序，避免内容扩张后无法排查死局。"
+  ],
+  "risks": [
+   "网络来源及版本覆盖有限，未确认细节要以真人试玩补核。",
+   "表现素材、图片或词库有授权与内容审核成本，不因玩法常见而省略。",
+   "体验效果和商业回收未验证，不能由榜位推导。"
+  ],
+  "effort": "原型估算20–35人日（程序、策划及基础美术），仅含有限关卡与核心交互；不含完整量产、渠道接入和商业化验证。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "分析假设：每关题面与解法变化提供可理解目标和即时决策反馈；需观察首次操作错误与首关完成率，不以排名替代验证。"
+    },
+    {
+     "lens": "用户",
+     "text": "迁移时需保留观察逻辑和反应多种挑战带来的约束；删减前后对比连续开局与卡关点，避免只换皮却丢掉核心决策。"
+    },
+    {
+     "lens": "业务",
+     "text": "若已有兼容活动入口，可把关卡脚本、交互触发与谜题内容生产拆成独立玩法模块，先核算接入工时；现有业务底盘未确认，不承诺一周上线。"
+    },
+    {
+     "lens": "业务",
+     "text": "先验证模块能否服务活动目标，再投入完整内容。每关题面与解法变化的成功表现不足以证明对我方用户同样有效。"
+    }
+   ],
+   "how": [
+    "制作关卡脚本、交互触发与谜题内容生产的10关自有原型，记录首关完成率、判定异常与复玩率，通过后再扩关。",
+    "将观察逻辑和反应多种挑战做成可开关变量，与简化版在相同入口对照；同时记录单关制作工时，判断体验增益是否覆盖成本。"
+   ],
+   "gain": [
+    "预期获得关卡脚本、交互触发与谜题内容生产的可复用实现与关卡验证经验，复用价值以原型结果为准。",
+    "取得每关题面与解法变化的用户理解数据，不能预先承诺留存和收入增幅。",
+    "明确观察逻辑和反应多种挑战的体验价值与制作成本，减少凭题材热度决定排期。",
+    "把扩关、内容授权和商业化投入留到验证后，降低一次性量产的试错损失。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "是否开放区域发行、联运或素材授权未知，不能从发行主体数量推断合作姿态。",
+    "如需接触先核对关卡脚本、交互触发与谜题内容生产相关的授权范围、渠道权利和交付边界，未取得对方意向。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌会员每日益智活动",
+     "how": "将每关题面与解法变化换成品牌分类或图案，保留单局结构，奖励结算接会员积分。"
+    },
+    {
+     "scene": "内部策划原型教学",
+     "how": "用观察逻辑和反应多种挑战做约束开关，比较设计变化对理解和内容工时的影响。"
+    }
+   ]
+  },
+  "summary": "先验证核心约束，再做自有场景改编"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/f4/df/edf4df66-c8f5-e488-bc0d-7677aa8ea52d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/a7/99/63a79986-a85c-63a8-71eb-301b880d0663/level_114.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/af/ee/a3afee51-d738-3006-dd9f-e65a54288335/level_34.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/e3/9b/4be39b95-5f74-05ad-7cfe-71df2ab20934/level_148_U00281_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/2c/42/6d2c4267-bb16-18f2-a95e-89f39bcc0500/level_139.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/c7/d8/f4c7d8e6-517a-da9b-0bd0-7c99384ab251/level_67.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/94/5c/14945c02-0a15-7e7e-94fc-718f8d6a7a86/level_124.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/b9/63/21b96319-cc89-8419-46f3-b4452656d7ca/level_23.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/14/ad/8514ad72-bb1b-95c8-6a3b-8b352021bb85/_U5173_U53612.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/ae/37/8fae3767-0ebc-1ef7-e103-9460c5eaab21/level_114.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/f0/4f/d2f04fca-eaf4-3d02-0317-7db41e3a587d/_U5173_U536134.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/c5/c5/a7c5c54a-14f0-8446-096d-77d8f809ce93/level_148.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/ae/c0/92aec099-5782-d108-e78b-4d54c533a38a/level_139_U00281_U0029.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/a4/43/4fa4434f-caca-d951-59bf-de1f629dd465/level_67.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/da/fa/dedafac5-b4cb-e0a2-3b10-0285bb2d24d5/level_124.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/fb/ce/83fbce4a-1e7a-7d97-38a8-db57c1c3ca65/level_23.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 15"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/43/84/4c4384ec-8bc9-fcd6-8db8-70003a9f50e0/_U5173_U53612.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 16"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "当前商店描述 https://play.google.com/store/apps/details?id=com.brain.crazy.joygame 为本轮已读取页面；玩法摘要为来源转述，不代表实际试玩。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "Google Play显示JoyGame Studio，榜单主体SmallStep Dev Team，按渠道来源并列，不强行合并公司角色。",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎、成本、目标用户、业务迁移及收益为未知或分析推断；未观察付费/广告完整链路。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/store/apps/details?id=com.brain.crazy.joygame"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Brain Puzzle 3: Crazy Mind",
+  "country": "us",
+  "track_id": 6756482832,
+  "seller": "Guangzhou SmallStep Information Technology Co., Ltd",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual",
+   "Entertainment"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/f4/df/edf4df66-c8f5-e488-bc0d-7677aa8ea52d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/a7/99/63a79986-a85c-63a8-71eb-301b880d0663/level_114.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/af/ee/a3afee51-d738-3006-dd9f-e65a54288335/level_34.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/e3/9b/4be39b95-5f74-05ad-7cfe-71df2ab20934/level_148_U00281_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/2c/42/6d2c4267-bb16-18f2-a95e-89f39bcc0500/level_139.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/c7/d8/f4c7d8e6-517a-da9b-0bd0-7c99384ab251/level_67.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/94/5c/14945c02-0a15-7e7e-94fc-718f8d6a7a86/level_124.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/b9/63/21b96319-cc89-8419-46f3-b4452656d7ca/level_23.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/14/ad/8514ad72-bb1b-95c8-6a3b-8b352021bb85/_U5173_U53612.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/ae/37/8fae3767-0ebc-1ef7-e103-9460c5eaab21/level_114.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/f0/4f/d2f04fca-eaf4-3d02-0317-7db41e3a587d/_U5173_U536134.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/c5/c5/a7c5c54a-14f0-8446-096d-77d8f809ce93/level_148.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/ae/c0/92aec099-5782-d108-e78b-4d54c533a38a/level_139_U00281_U0029.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/a4/43/4fa4434f-caca-d951-59bf-de1f629dd465/level_67.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/da/fa/dedafac5-b4cb-e0a2-3b10-0285bb2d24d5/level_124.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/fb/ce/83fbce4a-1e7a-7d97-38a8-db57c1c3ca65/level_23.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/43/84/4c4384ec-8bc9-fcd6-8db8-70003a9f50e0/_U5173_U53612.png/626x1112bb.jpg"
+  ],
+  "description": "Warning: This game may cause intermittent frustration, sudden bursts of laughter, and a strong desire to show off to your friends!\n\nWelcome to Brain Puzzle 3: Crazy Mind, the newest adventure in the Brain Puzzle series!\n\nGet ready for an exciting Brain Puzzle game experience filled with creative challenges, tricky levels, and unexpected solutions. Brain Puzzle 3 brings you a collection of fun brain puzzle challenges, clever brain puzzle levels, and unique brain puzzle adventures designed to test your creativity, logic, and problem-solving skills.\n\nWhether you love brain puzzle games, logic games, visual puzzles, or brain teasers, Crazy Mind offers endless brain puzzle challenges that will keep your mind active and entertained.\n\nThink you're smart enough?\nTry Brain Puzzle 3 and discover how powerful your mind really is!\n\nGame Features:\n\nHundreds of Brain Puzzle Challenges:\nExplore a massive collection of brain puzzle levels, including logic puzzles, visual challenges, reaction tests, and creative thinking games. Every brain puzzle challenge is designed to surprise you and test your thinking skills.\n\nA New Generation of Brain Puzzle Games:\nBrain Puzzle 3 combines simple gameplay with clever designs, creating a relaxing yet challenging brain puzzle experience for players of all ages.\n\nCreative Brain Puzzle Adventure:\nEnjoy a variety of brain puzzle games featuring tricky questions, unexpected solutions, and imaginative puzzle designs. Each brain puzzle level brings a fresh challenge.\n\nTrain Your Brain Every Day:\nDevelop your observation, memory, logical thinking, and problem-solving abilities through fun brain puzzle games and exciting brain training challenges.\n\nPlay Anytime, Anywhere:\nEnjoy quick brain puzzle challenges whenever you want. A few minutes of Brain Puzzle 3 gameplay can give your mind an exciting workout.\n\nStop wasting time with endless scrolling!\nJoin millions of puzzle fans and start your Brain Puzzle 3 adventure today!\n\nDownload Brain Puzzle 3: Crazy Mind now and experience the ultimate brain puzzle game!\n\nContact Email: xiaobuinfo2019@gmail.com\nWebsite: https://www.smallstepinfo.com",
+  "release_notes": "• Fixed some bugs\n• Improved game stability",
+  "file_size_bytes": 337522688,
+  "min_os": "15.0",
+  "version": "1.1.2",
+  "release_date": "2025-12-20",
+  "rating": 4.67224,
+  "rating_count": 18108,
+  "price": "Free",
+  "advisory": "12+",
+  "url": "https://apps.apple.com/us/app/brain-puzzle-3-crazy-mind/id6756482832?uo=4",
+  "fetched_at": "2026-09-21T01:10:21+08:00"
+ },
+ "slug": "Brain_Puzzle_3_Crazy_Mind_f9035e"
+}

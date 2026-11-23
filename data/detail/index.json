@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-21T14:17:37+08:00",
+ "updated_at": "2026-11-23T13:00:39+08:00",
  "total": 4148,
- "collected": 258,
- "with_biz": 258,
+ "collected": 287,
+ "with_biz": 287,
  "games": {
   "[777Real]スマスロ リコリス・リコイル": {
    "name": "[777Real]スマスロ リコリス・リコイル",
@@ -173,6 +173,32 @@
    "has_biz": true,
    "collected": true
   },
+  "Arrows – Puzzle Escape": {
+   "name": "Arrows – Puzzle Escape",
+   "slug": "Arrows_Puzzle_Escape_740240",
+   "updated_at": "2026-11-23",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/47/076f471a-1ee5-13de-6e44-d22905b8ad1b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.0,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜",
+    "ios/日区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 12,
+   "has_shots": true,
+   "shot_count": 11,
+   "play_brief": "规划箭头移出棋盘的顺序，逐个抽出箭头并避免碰撞，清空棋盘完成谜题；商店提到心数与提示系统，不确认固定生命数量。基础玩法无计时。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "BLEACH Mirrors High【ミラハイ】": {
    "name": "BLEACH Mirrors High【ミラハイ】",
    "slug": "BLEACH_Mirrors_High_ミラハイ_95c645",
@@ -315,6 +341,32 @@
    "play_brief": "滑动彩色方块到同色门完成消除，棋盘含移动电梯/方块生成器等动态障碍；规划路径做perfect clear，离线单机短局。",
    "biz_internal": "可复用",
    "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
+  "Brain Puzzle 3: Crazy Mind": {
+   "name": "Brain Puzzle 3: Crazy Mind",
+   "slug": "Brain_Puzzle_3_Crazy_Mind_f9035e",
+   "updated_at": "2026-11-23",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/f4/df/edf4df66-c8f5-e488-bc0d-7677aa8ea52d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜",
+    "ios/日区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 8,
+   "has_shots": true,
+   "shot_count": 17,
+   "play_brief": "阅读或观察每关情景，寻找隐藏线索、逻辑关系或反常识解法，通过简单交互完成当前挑战后进入新谜题。官方介绍包含观察、记忆、逻辑与反应类关卡，未给所有关卡统一失败条件。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
    "has_biz": true,
    "collected": true
   },
@@ -562,6 +614,30 @@
    "has_biz": true,
    "collected": true
   },
+  "Cutie Sort - かわいい色分けゲーム": {
+   "name": "Cutie Sort - かわいい色分けゲーム",
+   "slug": "Cutie_Sort_かわいい色分けゲーム_81b2bc",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.12,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 5,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：一堆不同颜色的猫挤在货架上，点一只猫移到空格货架，直到同色猫全部聚在同一层。货架格位有限，每一步都在挤压后续空间，卡死时用撤销、交换、扩格三个道具破局。没有计时，也没有运气成分。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "Cutie Sort - ねこソート かわいい色分けゲーム": {
    "name": "Cutie Sort - ねこソート かわいい色分けゲーム",
    "slug": "Cutie_Sort_ねこソート_かわいい色分けゲーム_ff1fd8",
@@ -583,6 +659,31 @@
    "play_brief": "点击移动猫咪，将它们按颜色整理到不同栖木；空位有限，需要提前规划，全部分类完成过关。日区官方介绍提供撤销、交换和空间扩展工具，无时间限制。未据官方文字断定未整理完成的架子绝不能暂放混色。",
    "biz_internal": "可复用",
    "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "Disney Solitaire": {
+   "name": "Disney Solitaire",
+   "slug": "Disney_Solitaire_7e528b",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "不建议",
+   "boards": [
+    "android/美区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 7,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：桌面上摊开三峰形的牌阵，底部有一张基准牌，玩家只能点走比它大 1 点或小 1 点的牌，点走的牌成为新基准，一路接龙把牌阵清空；接不上就从牌堆翻新基准。清空过关得星星，星星用来完成场景任务、解锁迪士尼场景与明信",
+   "biz_internal": "不建议搬",
+   "biz_opportunity": "不建议接触",
    "has_biz": true,
    "collected": true
   },
@@ -654,6 +755,30 @@
    "shot_count": 13,
    "play_brief": "点小鱼将其送入对应鱼缸，集齐 3 只同色鱼即消除；清空下方气泡放出新鱼，暂存区满则失败，消除全部鱼过关，一局几十秒。",
    "biz_internal": "可复用",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "Fish Sort Puzzle: Fish Games": {
+   "name": "Fish Sort Puzzle: Fish Games",
+   "slug": "Fish_Sort_Puzzle_Fish_Games_081deb",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.5,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 11,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "点选海洋生物以收集三个相同目标，利用有限格位规划下一次选择并完成订单；新物种和布局增加匹配难度，部分订单要求在倒计时前完成，通关推进水族收集。以当前Google Play描述为准。",
+   "biz_internal": "需改造",
    "biz_opportunity": "可观望",
    "has_biz": true,
    "collected": true
@@ -850,6 +975,83 @@
    "has_biz": true,
    "collected": true
   },
+  "Jigsaw Drop: Solitaire Puzzle": {
+   "name": "Jigsaw Drop: Solitaire Puzzle",
+   "slug": "Jigsaw_Drop_Solitaire_Puzzle_32a2fd",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.5,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 8,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "移动图片碎片并连接相互匹配的区域，完成的图块清除后腾出空间，新的碎片继续落入；在动态变化的版面中安排拼图顺序，完成图片目标后推进关卡。官方描述没有计时。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "Jigsawcard Solitaire Puzzle": {
+   "name": "Jigsawcard Solitaire Puzzle",
+   "slug": "Jigsawcard_Solitaire_Puzzle_d4cb5c",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.5,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜",
+    "ios/日区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 13,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "滑动拼图片卡，翻开背面卡获取新线索，让相配碎片贴合；保留已有连接组并安排移牌顺序，逐步拼出完整高清图。官方说明无计时，可离线。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "Loop Sort": {
+   "name": "Loop Sort",
+   "slug": "Loop_Sort_d4458e",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "变种创意",
+   "boards": [
+    "android/美区免费榜",
+    "ios/日区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 7,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：中间是一条环形传送带，四周停着装满彩色方块的卡车。点一下卡车就把方块的放上传送带，方块自己绕圈找到对应颜色的收料口被消掉。环上容量有限，放多了清不掉就堵死判负，所以要挑「现在就能走掉」的卡车发。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "推荐接触",
+   "has_biz": true,
+   "collected": true
+  },
   "Magic Sort!": {
    "name": "Magic Sort!",
    "slug": "Magic_Sort_6151a3",
@@ -1037,6 +1239,30 @@
    "has_shots": false,
    "shot_count": 0,
    "play_brief": "作为车长经营电车线路，规划轨道连接城市与景点，升级车站/列车，放置收益扩张为交通商业帝国，并在街区发展中解锁新场景。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
+  "Pocket Sort: Coin Merge Puzzle": {
+   "name": "Pocket Sort: Coin Merge Puzzle",
+   "slug": "Pocket_Sort_Coin_Merge_Puzzle_5cf34c",
+   "updated_at": "2026-11-23",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/6f/7b/fb6f7bf1-770c-1717-f125-64b47f57679d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "低",
+   "cost_score": 2.25,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜"
+   ],
+   "best_rank": 3,
+   "has_shots": true,
+   "shot_count": 13,
+   "play_brief": "网络资料转述/综合推断，未实测：台面上散着一堆彩色硬币，点一枚送进下方槽位，凑满五个同色即合并爆开腾出位置。槽位放满且无法合并就失败，所以每放一枚都要先看清后面还压着什么币。清空台面即过关，没有倒计时。",
    "biz_internal": "可复用",
    "biz_opportunity": "不建议接触",
    "has_biz": true,
@@ -1262,6 +1488,32 @@
    "has_biz": true,
    "collected": true
   },
+  "Sand Blocks: Drop Puzzle": {
+   "name": "Sand Blocks: Drop Puzzle",
+   "slug": "Sand_Blocks_Drop_Puzzle_b07cbf",
+   "updated_at": "2026-11-23",
+   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/59/cb/c659cb87-b681-4be3-172d-569aec073029/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "cost_level": "中",
+   "cost_score": 2.75,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "变种创意",
+   "boards": [
+    "android/美区免费榜",
+    "ios/日区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 4,
+   "has_shots": true,
+   "shot_count": 15,
+   "play_brief": "网络资料转述/综合推断，未实测：棋盘上堆着几色沙块，旁边是形状各异（俄罗斯方块式）的坑。玩家把对应颜色的沙往坑的方向「抽」过去，沙粒靠真实重力流动、塌陷、填满坑位；在倒计时结束前把棋盘清空即过关，越往后坑位越刁、时间越紧。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "Sled Surfers": {
    "name": "Sled Surfers",
    "slug": "Sled_Surfers_7065b7",
@@ -1332,6 +1584,31 @@
    "play_brief": "玩家拖动瞄准大炮，松手发射弹球击打场景中的积木塔/障碍；利用质量、动量与反弹让结构倒塌，一次性清掉目标即可过关，单局几十秒到两分钟。",
    "biz_internal": "可复用",
    "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
+  "Solitaire Associations Journey": {
+   "name": "Solitaire Associations Journey",
+   "slug": "Solitaire_Associations_Journey_5b3a38",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "android/美区免费榜",
+    "ios/美区免费榜"
+   ],
+   "best_rank": 20,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "移动和整理单词卡，识别词义关联并把相关词归入对应类别，结合接龙式牌面组织完成关卡。官方提到离线基础玩法及周末竞速活动；评论提及有限步数，不把其具体配置推广到所有关卡。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
    "has_biz": true,
    "collected": true
   },
@@ -1430,6 +1707,30 @@
    "play_brief": "在牌堆里点选两张相同且'自由未被压'的麻将牌配对消除，清空全盘即过关；连击解锁combo，提示/洗牌辅助，无计时无压力。",
    "biz_internal": "可复用",
    "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
+  "Woodoku Blast: Block Puzzle": {
+   "name": "Woodoku Blast: Block Puzzle",
+   "slug": "Woodoku_Blast_Block_Puzzle_8f23d8",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/美区免费榜"
+   ],
+   "best_rank": 10,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "将不同形状彩色积木放进棋盘，填满线后消除获得分数，继续安排空位并推进关卡。商店说明有复杂度递增的布局、活动和限时挑战；不能把活动限时套到全部基础模式。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
    "has_biz": true,
    "collected": true
   },
@@ -1549,6 +1850,30 @@
    "has_shots": true,
    "shot_count": 15,
    "play_brief": "通过三消关卡训练角色并获得成长及技能，再在 Spark Ride 舞台中使用培养结果争取更好表现。玩家还可以拍摄舞台照片并添加装饰。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "マジックソート (Magic Sort!)": {
+   "name": "マジックソート (Magic Sort!)",
+   "slug": "マジックソート_Magic_Sort_d85b2a",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "ios/日区免费榜"
+   ],
+   "best_rank": 11,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "点击选择源瓶并向另一瓶倒水，仅在目标顶部同色且有空间等合法条件下移动液体；持续整理至每瓶单色。官方介绍撤销、重排和制作魔法增益的外层机制，具体失败次数和付费触发需另核。",
    "biz_internal": "需改造",
    "biz_opportunity": "可观望",
    "has_biz": true,
@@ -2316,6 +2641,30 @@
    "has_biz": true,
    "collected": true
   },
+  "变色龙大作战": {
+   "name": "变色龙大作战",
+   "slug": "变色龙大作战_b900b9",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "不建议",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：躲藏者先在限定时间内找位置、给自己上色贴纹理、摆一个融入场景的姿势；倒计时结束搜寻者进门，带着有限弹药满场扫，一点色差或晃动的影子就是线索。撑到最后或抓到最后一个人即分胜负。",
+   "biz_internal": "不建议搬",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "吃碰大消除": {
    "name": "吃碰大消除",
    "slug": "吃碰大消除_c518c2",
@@ -2977,6 +3326,31 @@
    "has_biz": true,
    "collected": true
   },
+  "对子消消乐": {
+   "name": "对子消消乐",
+   "slug": "对子消消乐_8c67c7",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "极低",
+   "cost_score": 1.75,
+   "engine": "Cocos Creator / LayaAir 类 2D 小游戏框架（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：棋盘上铺满图案方块，点选两个完全相同的方块即可成对消除，上方方块下落补位、顶部补新牌；在限步或限时内清空指定区域即过关，连续快速配对累积连击倍率冲高分。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "对峙:交锋时刻": {
    "name": "对峙:交锋时刻",
    "slug": "对峙_交锋时刻_c41efd",
@@ -3627,6 +4001,30 @@
    "has_biz": true,
    "collected": true
   },
+  "拳击布娃娃游戏": {
+   "name": "拳击布娃娃游戏",
+   "slug": "拳击布娃娃游戏_c4663f",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.25,
+   "engine": "Unity",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "原样复刻",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：每关是一间立体小场景：传送带下藏着整排锯片、悬崖边堆着巨石、木箱旁停着轨道电锯。玩家点一下触发机关，剩下交给物理引擎，看木偶翻滚、磕碰、栽进坑里出局，屏幕弹出 KO 即过关。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "拳皇·命运": {
    "name": "拳皇·命运",
    "slug": "拳皇_命运_c135f2",
@@ -3747,6 +4145,30 @@
    "play_brief": "（推断）指尖操作类休闲小游戏，具体核心循环未确认，疑似单局短、一键操作+关卡推进。",
    "biz_internal": "可复用",
    "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "指尖闯关大挑战": {
+   "name": "指尖闯关大挑战",
+   "slug": "指尖闯关大挑战_71c990",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.12,
+   "engine": "Cocos Creator / LayaAir 类 2D 框架（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "微创新",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 3,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：角色自动向前冲刺，玩家只做两件事：左右轻滑换道、点击/上滑跳跃。躲开连续排布的障碍，跑到关卡终点即过关；撞到就重来，关卡难度靠障碍密度与节奏递进。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
    "has_biz": true,
    "collected": true
   },
@@ -4169,6 +4591,32 @@
    "has_biz": true,
    "collected": true
   },
+  "来玩躲猫猫吧": {
+   "name": "来玩躲猫猫吧",
+   "slug": "来玩躲猫猫吧_f3e5b9",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 2.88,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "变种创意",
+   "boards": [
+    "douyin/热门榜",
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 1,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：开局分阵营：躲藏者拿画笔、调色盘和取色滴管给自己上色、贴纹理、摆姿势，努力和墙面地面融为一体；寻找者限时把伪装者一个个揪出来。一局两三分钟，六种模式轮着来，藏得好不好直接决定胜负。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "极限破译": {
    "name": "极限破译",
    "slug": "极限破译_169227",
@@ -4415,6 +4863,57 @@
    "has_biz": true,
    "collected": true
   },
+  "毛线织织": {
+   "name": "毛线织织",
+   "slug": "毛线织织_3686c4",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.25,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜",
+    "douyin/热门榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "媒体转述/低置信度：选择毛线颜色并通过拖拽、连线或消除推进织物图案，完成图案后进入下一挑战。页面同时描述自由编织与限步消除，本档以配色到织物反馈为分析基准，不确认唯一模式或胜负细则。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "毫妙找茬": {
+   "name": "毫妙找茬",
+   "slug": "毫妙找茬_6ca2ec",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "极低",
+   "cost_score": 1.5,
+   "engine": "Cocos Creator / LayaAir 类 2D 小游戏框架（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 3,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：两张看似一样的图并排，限时内找出若干处差异，点对即圈出并计数，全部找齐过关；卡住时用放大镜局部放大、灯泡给提示、加时续命，三件道具都要看广告或消耗资源。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
   "永夜起源": {
    "name": "永夜起源",
    "slug": "永夜起源_2dbe70",
@@ -4538,6 +5037,30 @@
    "has_biz": true,
    "collected": true
   },
+  "涂色躲猫猫生存": {
+   "name": "涂色躲猫猫生存",
+   "slug": "涂色躲猫猫生存_9963da",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.38,
+   "engine": "Unity（推断）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "变种创意",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：开局选阵营：当变色龙就抢在倒计时内把自己涂成环境色、贴墙站好，撑到时间结束；当猎人就拿着有限弹药在场景里搜，看到色差和晃动就开火，抓完全部变色龙即胜。一局两分钟上下。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "消个水果": {
    "name": "消个水果",
    "slug": "消个水果_7567e6",
@@ -4632,6 +5155,31 @@
    "shot_count": 0,
    "play_brief": "网络资料转述/综合推断，未实测：锅里铺满肥牛、毛肚、虾滑等食材，点选同款三份收进碟子即消除，碟位与步数有限，凑齐关卡指定的食材种类和数量就过关；一旦碟子被杂色食材占满就会卡死，逼玩家先规划拿取顺序。",
    "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
+  "清了个屏": {
+   "name": "清了个屏",
+   "slug": "清了个屏_11b055",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.0,
+   "engine": "Cocos Creator / LayaAir 类 2D 框架 + 沙粒粒子系统（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "变种创意",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 3,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：屏幕上方是一整幅堆叠的彩沙画，下方是一条只有几格的传送带。玩家把彩色沙桶放上传送带，桶会自动吸走上方的同色沙粒；三个一样的桶凑齐就合并成容量更大的桶。沙全部抽干露出底图即过关，传送带被塞满放不下新桶就判负。",
+   "biz_internal": "需改造",
    "biz_opportunity": "不建议接触",
    "has_biz": true,
    "collected": true
@@ -4904,6 +5452,31 @@
    "has_biz": true,
    "collected": true
   },
+  "猫咪整理师": {
+   "name": "猫咪整理师",
+   "slug": "猫咪整理师_2133de",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.0,
+   "engine": "Cocos Creator / LayaAir 类 2D 小游戏框架（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 3,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：屏幕上是一间没收拾完的房间，底部冒出各种物品贴纸，玩家用虚拟镊子夹起来贴到正确位置；贴近时轻微吸附并「咔嗒」一声，进度条一路走到 100%。过关得金币，解锁猫咪伙伴与家园装饰，把整理好的房间设成首页背景或分享",
+   "biz_internal": "可复用",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "王者万象棋": {
    "name": "王者万象棋",
    "slug": "王者万象棋_2016d4",
@@ -5000,6 +5573,30 @@
    "has_biz": true,
    "collected": true
   },
+  "玩转脑洞呀": {
+   "name": "玩转脑洞呀",
+   "slug": "玩转脑洞呀_4e9d49",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "极低",
+   "cost_score": 1.62,
+   "engine": "Cocos Creator / LayaAir 类 2D 小游戏框架（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：一关一道题：可能是一张图、一句话或一个选择题。答案永远藏在「第一反应的反面」——点题目里的文字、把手机倒过来、长按物件、拖动画面边缘。想通了点一下过，想不通看广告换提示。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "甄嬛传之浮生一梦": {
    "name": "甄嬛传之浮生一梦",
    "slug": "甄嬛传之浮生一梦_d1c6d3",
@@ -5021,6 +5618,30 @@
    "play_brief": "随机生成身份从宫女起步，通过剧情选择、宫斗博弈、换装与红颜/蓝颜互动逐步提升位分，争夺后宫第一。",
    "biz_internal": "不建议搬",
    "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
+  "生存探险大作战": {
+   "name": "生存探险大作战",
+   "slug": "生存探险大作战_5c7eab",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "Unity（评测文章所述，未获官方确认）",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "变种创意",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 1,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：开局全体投票选地图，还可以投票「增加灾难」叠层；倒计时读秒预告下一场灾害（85 秒龙卷风、80 秒冰雹），玩家在积木世界里跑位、攀爬、跳上高处或钻进室内避险。撑到对局结束就是赢家，灾难叠得越多结算生存分越高。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
    "has_biz": true,
    "collected": true
   },
@@ -5321,6 +5942,31 @@
    "has_biz": true,
    "collected": true
   },
+  "糕手大作战": {
+   "name": "糕手大作战",
+   "slug": "糕手大作战_4447b2",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 3.25,
+   "engine": "未知，未取得本作引擎披露",
+   "engine_primary": "未知,未取得本作引擎披露",
+   "engine_inferred": true,
+   "dimension": "未知",
+   "verdict": "换肤",
+   "boards": [
+    "douyin/新游榜",
+    "wx/人气榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "媒体介绍明确为IO海上对战。结合已检索的视频标题，小船拾取资源后成长、再与其他船交战可作核心循环假设；本轮未观看视频，拾取种类、战斗输入、复活和最终胜负规则尚待确认。",
+   "biz_internal": "需改造",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "終焉の楔:アポカリプス・ノヴァ": {
    "name": "終焉の楔:アポカリプス・ノヴァ",
    "slug": "終焉の楔_アポカリプス_ノヴァ_963d0e",
@@ -5417,6 +6063,31 @@
    "play_brief": "在棋盘点击闪电资源产出食材，拖拽两个相同物品二合升级，高阶菜需投入烤架 / 汤锅 / 烤箱等厨具冷却出餐，完成肥鹅客人订单赚金币，扩建美食街，一局数次点击、离线自动产收。",
    "biz_internal": "可复用",
    "biz_opportunity": "不建议接触",
+   "has_biz": true,
+   "collected": true
+  },
+  "脑洞工坊": {
+   "name": "脑洞工坊",
+   "slug": "脑洞工坊_04279f",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "极低",
+   "cost_score": 1.75,
+   "engine": "Cocos Creator / LayaAir 类 2D 小游戏框架（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2D",
+   "verdict": "换肤",
+   "boards": [
+    "wx/人气榜",
+    "wx/畅玩榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：一关一张图或一道文字题，玩家要按提示找出画面里若干处不合理（有时限时），或者拖动、滑动、组合画面里的物件把角色救出来。答对进入下一关，卡关可看点广告换提示。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "可观望",
    "has_biz": true,
    "collected": true
   },
@@ -5640,6 +6311,30 @@
    "play_brief": "按数字提示把颜料一格格填进像素画，蚂蚁搬运工把颜料砖搬上画布，连击累积越填越顺，拼出完整图案即过关，一局数十秒到数分钟。",
    "biz_internal": "可复用",
    "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
+  "调皮木偶人": {
+   "name": "调皮木偶人",
+   "slug": "调皮木偶人_652579",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "低",
+   "cost_score": 2.12,
+   "engine": "Cocos Creator / LayaAir 类 2.5D 框架（推断）",
+   "engine_primary": "Cocos Creator / LayaAir",
+   "engine_inferred": true,
+   "dimension": "2.5D",
+   "verdict": "换肤",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 2,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：进入一间土黄裂墙房间，从武器栏挑一件（屠龙刀近身抡、黄金 M16 远程突突）砸向木偶，伤害数字一路往上跳，血条打空弹出 KO 即过关，金币用来买更猛的武器、木偶皮肤和场景。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "不建议接触",
    "has_biz": true,
    "collected": true
   },
@@ -6156,6 +6851,30 @@
    "has_biz": true,
    "collected": true
   },
+  "锻剑模拟器手游": {
+   "name": "锻剑模拟器手游",
+   "slug": "锻剑模拟器手游_0515e2",
+   "updated_at": "2026-11-23",
+   "icon": "",
+   "cost_level": "中",
+   "cost_score": 3.0,
+   "engine": "未知；Unity及端游移植关系待确认",
+   "engine_primary": "Unity",
+   "engine_inferred": true,
+   "dimension": "3D",
+   "verdict": "变种创意",
+   "boards": [
+    "wx/人气榜"
+   ],
+   "best_rank": 3,
+   "has_shots": false,
+   "shot_count": 0,
+   "play_brief": "网络资料转述/综合推断，未实测：你是被巨龙囚禁的铁匠，21 天内每天要交一把价值达标的剑，交不够巨龙怒气 +1，三次就被吞。每天捡旧剑、丢火炉烧红、上铁砧，然后一锤一锤敲：每一锤从签池抽一张，破坏则剑碎、损伤则降价、成功与大成功则价值翻倍。",
+   "biz_internal": "可复用",
+   "biz_opportunity": "可观望",
+   "has_biz": true,
+   "collected": true
+  },
   "镇邪人": {
    "name": "镇邪人",
    "slug": "镇邪人_4b40a3",
@@ -6622,58 +7341,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "来玩躲猫猫吧": {
-   "name": "来玩躲猫猫吧",
-   "slug": "来玩躲猫猫吧_f3e5b9",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/热门榜",
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "best_rank": 1,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "毛线织织": {
-   "name": "毛线织织",
-   "slug": "毛线织织_3686c4",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/新游榜",
-    "douyin/热门榜",
-    "wx/畅玩榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "荒无之下": {
    "name": "荒无之下",
    "slug": "荒无之下_407faa",
@@ -6710,32 +7377,6 @@
     "douyin/新游榜",
     "wx/人气榜",
     "wx/畅销榜"
-   ],
-   "best_rank": 4,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Sand Blocks: Drop Puzzle": {
-   "name": "Sand Blocks: Drop Puzzle",
-   "slug": "Sand_Blocks_Drop_Puzzle_b07cbf",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/日区免费榜",
-    "ios/美区免费榜"
    ],
    "best_rank": 4,
    "engine": "",
@@ -7012,32 +7653,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "Loop Sort": {
-   "name": "Loop Sort",
-   "slug": "Loop_Sort_d4458e",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/日区免费榜",
-    "ios/美区免费榜"
-   ],
-   "best_rank": 7,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "火锅串串消": {
    "name": "火锅串串消",
    "slug": "火锅串串消_1bb230",
@@ -7093,32 +7708,6 @@
   "Jewel Coloring": {
    "name": "Jewel Coloring",
    "slug": "Jewel_Coloring_c5b559",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/日区免费榜",
-    "ios/美区免费榜"
-   ],
-   "best_rank": 8,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Brain Puzzle 3: Crazy Mind": {
-   "name": "Brain Puzzle 3: Crazy Mind",
-   "slug": "Brain_Puzzle_3_Crazy_Mind_f9035e",
    "updated_at": "",
    "collected": false,
    "icon": "",
@@ -7272,32 +7861,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "Arrows – Puzzle Escape": {
-   "name": "Arrows – Puzzle Escape",
-   "slug": "Arrows_Puzzle_Escape_740240",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/日区免费榜",
-    "ios/美区免费榜"
-   ],
-   "best_rank": 12,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "我的防线": {
    "name": "我的防线",
    "slug": "我的防线_435927",
@@ -7334,32 +7897,6 @@
     "douyin/新游榜",
     "douyin/热门榜",
     "douyin/畅销榜"
-   ],
-   "best_rank": 13,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Jigsawcard Solitaire Puzzle": {
-   "name": "Jigsawcard Solitaire Puzzle",
-   "slug": "Jigsawcard_Solitaire_Puzzle_d4cb5c",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/日区免费榜",
-    "ios/美区免费榜"
    ],
    "best_rank": 13,
    "engine": "",
@@ -8375,56 +8912,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "脑洞工坊": {
-   "name": "脑洞工坊",
-   "slug": "脑洞工坊_04279f",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "糕手大作战": {
-   "name": "糕手大作战",
-   "slug": "糕手大作战_4447b2",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "douyin/新游榜",
-    "wx/人气榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "Aniimo": {
    "name": "Aniimo",
    "slug": "Aniimo_692844",
@@ -8475,31 +8962,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "对子消消乐": {
-   "name": "对子消消乐",
-   "slug": "对子消消乐_8c67c7",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "单挑排球": {
    "name": "单挑排球",
    "slug": "单挑排球_51a2f1",
@@ -8511,31 +8973,6 @@
     "douyin/热门榜"
    ],
    "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "猫咪整理师": {
-   "name": "猫咪整理师",
-   "slug": "猫咪整理师_2133de",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "best_rank": 3,
    "engine": "",
    "engine_primary": "",
    "engine_inferred": false,
@@ -8600,31 +9037,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "毫妙找茬": {
-   "name": "毫妙找茬",
-   "slug": "毫妙找茬_6ca2ec",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
-   ],
-   "best_rank": 3,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "忍者冒险团": {
    "name": "忍者冒险团",
    "slug": "忍者冒险团_0505ae",
@@ -8659,31 +9071,6 @@
    "boards": [
     "douyin/新游榜",
     "taptap/预约榜"
-   ],
-   "best_rank": 3,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "清了个屏": {
-   "name": "清了个屏",
-   "slug": "清了个屏_11b055",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜",
-    "wx/畅玩榜"
    ],
    "best_rank": 3,
    "engine": "",
@@ -9800,31 +10187,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "Disney Solitaire": {
-   "name": "Disney Solitaire",
-   "slug": "Disney_Solitaire_7e528b",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/美区免费榜"
-   ],
-   "best_rank": 7,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "问鼎群雄": {
    "name": "问鼎群雄",
    "slug": "问鼎群雄_d00549",
@@ -9909,31 +10271,6 @@
    "boards": [
     "douyin/新游榜",
     "douyin/热门榜"
-   ],
-   "best_rank": 8,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Jigsaw Drop: Solitaire Puzzle": {
-   "name": "Jigsaw Drop: Solitaire Puzzle",
-   "slug": "Jigsaw_Drop_Solitaire_Puzzle_32a2fd",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/美区免费榜"
    ],
    "best_rank": 8,
    "engine": "",
@@ -12034,31 +12371,6 @@
    "boards": [
     "wx/人气榜",
     "wx/畅玩榜"
-   ],
-   "best_rank": 20,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Solitaire Associations Journey": {
-   "name": "Solitaire Associations Journey",
-   "slug": "Solitaire_Associations_Journey_5b3a38",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜",
-    "ios/美区免费榜"
    ],
    "best_rank": 20,
    "engine": "",
@@ -18035,30 +18347,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "生存探险大作战": {
-   "name": "生存探险大作战",
-   "slug": "生存探险大作战_5c7eab",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
-   ],
-   "best_rank": 1,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "他予回声": {
    "name": "他予回声",
    "slug": "他予回声_19818e",
@@ -18827,30 +19115,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "涂色躲猫猫生存": {
-   "name": "涂色躲猫猫生存",
-   "slug": "涂色躲猫猫生存_9963da",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "收纳解压大师": {
    "name": "收纳解压大师",
    "slug": "收纳解压大师_63f778",
@@ -18859,30 +19123,6 @@
    "icon": "",
    "boards": [
     "douyin/热门榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "变色龙大作战": {
-   "name": "变色龙大作战",
-   "slug": "变色龙大作战_b900b9",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
    ],
    "best_rank": 2,
    "engine": "",
@@ -19211,30 +19451,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "玩转脑洞呀": {
-   "name": "玩转脑洞呀",
-   "slug": "玩转脑洞呀_4e9d49",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "悪魔城ドラキュラ": {
    "name": "悪魔城ドラキュラ",
    "slug": "悪魔城ドラキュラ_50e449",
@@ -19267,30 +19483,6 @@
    "icon": "",
    "boards": [
     "douyin/新游榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "拳击布娃娃游戏": {
-   "name": "拳击布娃娃游戏",
-   "slug": "拳击布娃娃游戏_c4663f",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
    ],
    "best_rank": 2,
    "engine": "",
@@ -19483,30 +19675,6 @@
    "icon": "",
    "boards": [
     "taptap/预约榜"
-   ],
-   "best_rank": 2,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "调皮木偶人": {
-   "name": "调皮木偶人",
-   "slug": "调皮木偶人_652579",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
    ],
    "best_rank": 2,
    "engine": "",
@@ -20099,30 +20267,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "Pocket Sort: Coin Merge Puzzle": {
-   "name": "Pocket Sort: Coin Merge Puzzle",
-   "slug": "Pocket_Sort_Coin_Merge_Puzzle_5cf34c",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜"
-   ],
-   "best_rank": 3,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "再过一关吧": {
    "name": "再过一关吧",
    "slug": "再过一关吧_d5e052",
@@ -20531,30 +20675,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "指尖闯关大挑战": {
-   "name": "指尖闯关大挑战",
-   "slug": "指尖闯关大挑战_71c990",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
-   ],
-   "best_rank": 3,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "神域之翼": {
    "name": "神域之翼",
    "slug": "神域之翼_3bcd2d",
@@ -20587,30 +20707,6 @@
    "icon": "",
    "boards": [
     "taptap/预约榜"
-   ],
-   "best_rank": 3,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "锻剑模拟器手游": {
-   "name": "锻剑模拟器手游",
-   "slug": "锻剑模拟器手游_0515e2",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "wx/人气榜"
    ],
    "best_rank": 3,
    "engine": "",
@@ -22507,30 +22603,6 @@
    "icon": "",
    "boards": [
     "ios/国区免费榜"
-   ],
-   "best_rank": 5,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Cutie Sort - かわいい色分けゲーム": {
-   "name": "Cutie Sort - かわいい色分けゲーム",
-   "slug": "Cutie_Sort_かわいい色分けゲーム_81b2bc",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "ios/日区免费榜"
    ],
    "best_rank": 5,
    "engine": "",
@@ -27803,30 +27875,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "Woodoku Blast: Block Puzzle": {
-   "name": "Woodoku Blast: Block Puzzle",
-   "slug": "Woodoku_Blast_Block_Puzzle_8f23d8",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "ios/美区免费榜"
-   ],
-   "best_rank": 10,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "每天玩一关吧": {
    "name": "每天玩一关吧",
    "slug": "每天玩一关吧_aeefe8",
@@ -29219,30 +29267,6 @@
    "biz_opportunity": "",
    "has_biz": false
   },
-  "マジックソート (Magic Sort!)": {
-   "name": "マジックソート (Magic Sort!)",
-   "slug": "マジックソート_Magic_Sort_d85b2a",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "ios/日区免费榜"
-   ],
-   "best_rank": 11,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
   "ロイヤルマッチ(Royal Match)": {
    "name": "ロイヤルマッチ(Royal Match)",
    "slug": "ロイヤルマッチ_Royal_Match_504f06",
@@ -29371,30 +29395,6 @@
    "icon": "",
    "boards": [
     "douyin/新游榜"
-   ],
-   "best_rank": 11,
-   "engine": "",
-   "engine_primary": "",
-   "engine_inferred": false,
-   "dimension": "",
-   "verdict": "",
-   "cost_level": "",
-   "cost_score": 0,
-   "has_shots": false,
-   "shot_count": 0,
-   "play_brief": "",
-   "biz_internal": "",
-   "biz_opportunity": "",
-   "has_biz": false
-  },
-  "Fish Sort Puzzle: Fish Games": {
-   "name": "Fish Sort Puzzle: Fish Games",
-   "slug": "Fish_Sort_Puzzle_Fish_Games_081deb",
-   "updated_at": "",
-   "collected": false,
-   "icon": "",
-   "boards": [
-    "android/美区免费榜"
    ],
    "best_rank": 11,
    "engine": "",

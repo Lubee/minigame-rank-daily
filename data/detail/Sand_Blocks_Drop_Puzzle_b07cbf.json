@@ -1,0 +1,316 @@
+{
+ "schema_version": 1,
+ "name": "Sand Blocks: Drop Puzzle",
+ "updated_at": "2026-11-23",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Rollic Games",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜",
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 31,
+   "ios/美区免费榜": 32,
+   "android/美区免费榜": 75
+  },
+  "platform_app_ids": {
+   "ios": "6757140488",
+   "android": "com.uncosoft.wordpuzzle"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 52,
+  "best_rank": 4,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "干净扁平 + 高饱和彩色沙粒，深色棋盘底衬托沙色，几乎无装饰元素",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 5,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "physics": "核心就是沙粒流体：颗粒要按重力下落、按颜色分层堆叠、被抽走时整片塌陷，还要保证低端机上稳定帧率——这是全作最难也最值钱的部分",
+   "engine": "沙粒模拟需要自建粒子/网格方案，现成小游戏模板无法直接改配置",
+   "logic": "棋盘由沙块与异形坑位（俄罗斯方块形状）拼成，每关要保证「有时间解且需要规划」，关卡设计成本高",
+   "art": "素材极简（沙色 + 异形坑位），包体 467MB 主要被沙粒渲染资源与音效吃掉"
+  },
+  "asset_notes": "美术量很小，颜色即素材；成本全在沙粒物理表现与关卡可解性上，属「技术换美术」的典型",
+  "notes": "验收说明：WorkBuddy本轮只检索搜索摘要，未读取全部来源全文，未试玩或观看视频。以下细节按网络转述/分析推断接收，不代表官方确认或本轮观察；渠道主体可不同。Rollic Games（土耳其）出品，App Store 美区 4.64 分、1.46 万评分，同时进美区/日区免费榜前列；输入中安卓包名 com.uncosoft.wordpuzzle 与 Rollic 主体不一致，疑为数据错配",
+  "cost_score": 2.75,
+  "cost_level": "中"
+ },
+ "play": {
+  "core_loop": "网络资料转述/综合推断，未实测：棋盘上堆着几色沙块，旁边是形状各异（俄罗斯方块式）的坑。玩家把对应颜色的沙往坑的方向「抽」过去，沙粒靠真实重力流动、塌陷、填满坑位；在倒计时结束前把棋盘清空即过关，越往后坑位越刁、时间越紧。",
+  "highlights": [
+   "沙粒流动本身就是奖励：抽对颜色后整片沙塌下去、顺滑填进异形坑，看一次就懂为什么解压",
+   "异形坑位让「填满」变成几何题，沙会自己找最低点，玩家要预判落点而不是精确摆放",
+   "读秒压力让原本慢节奏的沙画变成限时规划题，紧张与治愈两种情绪同时存在",
+   "拆对一处会引发连锁塌陷，一次操作清掉半屏的爆发感很强"
+  ],
+  "innovations": [
+   "把「倒水排序」的液体逻辑换成颗粒沙：沙会堆坡、会滑落、会留下空洞，可解性判断与液体完全不同",
+   "用「异形坑位 + 颜色抽取」替代传统颜色匹配，把玩法重心从匹配移到空间规划"
+  ],
+  "target_user": "25–45 岁泛休闲用户，偏好解压视觉的中青年；也吸引解谜向玩家",
+  "monetization": "网络分析/待确认：IAA 为主（Rollic 典型）：加时、提示、跳关看激励视频，关卡切换插屏；辅以去广告内购",
+  "lifecycle": "长线，靠关卡包更新（万圣节等节日皮肤）；沙粒玩法的视觉传播力强，素材复用率高"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "沙粒物理是真正的技术壁垒，也是它能在美区/日区双榜前列站住的原因；照抄等于自研一套颗粒流体，成本远超普通休闲项目。但玩法骨架（颜色抽取 + 异形坑位 + 限时）可以借，只需换掉表现层即可低成本差异化。",
+  "suggestions": [
+   "把「沙」换成「糖霜/面粉/亮片」等材质，保留抽取与填坑骨架，用材质差异避开正面对比",
+   "砍掉真实颗粒模拟，改用伪流的贴图层：视觉上仍分层塌陷，但用动画假装物理，成本降一个数量级",
+   "把「限时」改成「步数限制」：沙的不可逆性天然适合步数题，也让失败更像自己的决策而非手速不够",
+   "加入「沙下藏物」：清完一层露出一件道具/剧情碎片，把清屏接上收集线"
+  ],
+  "risks": [
+   "颗粒流体在低端机上极易掉帧，手感崩坏会直接毁掉解压定位",
+   "沙粒模拟有成熟中间件与开源方案，技术差异化窗口短",
+   "异形坑位的关卡设计必须逐关验算可解性，无解局会引发大量差评"
+  ],
+  "effort": "40–60 人日（1 前端 + 1 技术美术 + 0.5 关卡设计）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "沙粒塌陷的视觉反馈几乎不需要解释，看一眼就懂「抽对颜色、填满坑」；本作美区 4.64 分、1.46 万评分，日区与美区同时进免费榜前列，说明这种材质化反馈跨市场成立"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得完（把同色沙抽进对应的坑），但异形坑位让预判变难，新手前几关容易因「沙流到不对的地方」挫败"
+    },
+    {
+     "lens": "业务",
+     "text": "可迁移的是「抽取 + 塌陷 + 填满」这套空间规划骨架，能用伪流贴图层实现，不必自研颗粒物理"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的话，解压位缺一个「有物理感」的选项；但真做颗粒模拟的投入产出比不成立，必须走降级路线"
+    }
+   ],
+   "how": [
+    "用伪流贴图层做 8 关「抽取填坑」原型，两周内验证玩家是否接受非真实物理，看单关完成率与失败原因分布",
+    "把「清完一层露道具」接进自有产品的收集线，A/B 对比收集线活跃度"
+   ],
+   "gain": [
+    "拿到一套「空间填充 + 限制条件」的关卡模板，可复用到倒水、装箱、收纳等任何归位类玩法",
+    "验证伪物理的接受度，避免为视觉效果背上自研流体的长期技术债",
+    "材质化反馈（沙/糖霜/水）可当作解压内容的产品语言，形成系列化选题",
+    "明确一条判断标准：物理表现类玩法在低端机的帧率门槛，先测再立项"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Rollic Games 为 Zynga 旗下超休闲发行巨头（本作双区免费榜前列），自研自发且体量远超中小团队，无代理空间",
+    "玩法与视觉均为公共品类元素，无可授权资产，无接触必要"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "沙画体验课引流",
+     "how": "把「抽沙填坑」改成「抽沙作画」，清完后沙画即为成品可保存分享，用于线下沙画课获客"
+    },
+    {
+     "scene": "仓储装卸演示",
+     "how": "把沙换成散货，坑位换成集装箱剖面，用抽取填装演示装卸顺序与空间利用"
+    }
+   ]
+  },
+  "summary": "沙粒物理是壁垒，只借骨架走伪流路线"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/59/cb/c659cb87-b681-4be3-172d-569aec073029/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/8f/f1/8e8ff148-9d7f-d079-932f-cc955a1eb844/Appstore-8.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/c5/94/30c594ca-289e-9265-9677-16c1d0b069b0/Appstore-3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/73/79/00737999-0923-1d2e-792e-101c3025f124/Appstore-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/41/34/d64134af-6a2c-e435-9732-8f2df6de2ac2/Appstore-6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/06/27/ba062719-8c2f-9430-8c85-12e82791e512/Appstore-2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/6c/96/6a6c96d7-1876-4be0-61c8-012292ac3f86/Appstore-7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/ea/40/a7ea4089-c4b8-1478-2b46-49aca0073bda/Appstore-5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/3a/11/923a11cb-ba1a-0fb1-c10a-d1144a53b2fa/Appstore_ipad-8.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/4e/42/c54e426c-9bf9-7149-e629-ccfc4ba1bea2/Appstore_ipad-3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/44/eb/6444ebda-18f7-c921-190a-564261702de3/Appstore_ipad-1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/eb/a8/9ceba822-18d9-63e7-7f5e-f726062a18dc/Appstore_ipad-6.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/91/de/af91de79-96af-60b7-f14c-cbc68db43ad0/Appstore_ipad-2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/53/a2/4753a2a9-8a17-ff90-1771-32079c897596/Appstore_ipad-7.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 13"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/92/47/1592470a-c767-4bc9-6422-c709048a3b52/Appstore_ipad-5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 14"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 467MB（489,706,496 字节），App Store 美区 4.64 分、14,567 条评分，v1.0.1，2026-02-05 上线",
+   "level": "inferred"
+  },
+  {
+   "claim": "官方描述：抽取彩色沙流向匹配的异形坑位，沙粒受动态沙物理影响自然流动、塌陷、填满；需在时间耗尽前清空棋盘，后续关卡时间更紧",
+   "level": "inferred"
+  },
+  {
+   "claim": "同时进入美区免费榜（第 32）与日区免费榜（第 31），安卓美区第 75，历史最好第 4",
+   "level": "inferred"
+  },
+  {
+   "claim": "seller 为 Rollic Games Oyun Yazilim ve Pazarlama Anonim Sirketi（土耳其 Rollic，Zynga 旗下）",
+   "level": "inferred"
+  },
+  {
+   "claim": "输入中安卓包名 com.uncosoft.wordpuzzle 与 Rollic 主体不一致，疑为输入数据错配，未据此改判平台",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Unity（未获官方确认，按沙粒物理表现与 Rollic 技术栈推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/sand-blocks-drop-puzzle/id6757140488",
+  "https://apps.apple.com/us/app/sand-blocks-drop-puzzle/id6757140488?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Sand Blocks: Drop Puzzle",
+  "country": "us",
+  "track_id": 6757140488,
+  "seller": "Rollic Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
+  "genres": [
+   "Games",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/59/cb/c659cb87-b681-4be3-172d-569aec073029/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/8f/f1/8e8ff148-9d7f-d079-932f-cc955a1eb844/Appstore-8.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/c5/94/30c594ca-289e-9265-9677-16c1d0b069b0/Appstore-3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/73/79/00737999-0923-1d2e-792e-101c3025f124/Appstore-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/41/34/d64134af-6a2c-e435-9732-8f2df6de2ac2/Appstore-6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/06/27/ba062719-8c2f-9430-8c85-12e82791e512/Appstore-2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/6c/96/6a6c96d7-1876-4be0-61c8-012292ac3f86/Appstore-7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/ea/40/a7ea4089-c4b8-1478-2b46-49aca0073bda/Appstore-5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/3a/11/923a11cb-ba1a-0fb1-c10a-d1144a53b2fa/Appstore_ipad-8.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c5/4e/42/c54e426c-9bf9-7149-e629-ccfc4ba1bea2/Appstore_ipad-3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/44/eb/6444ebda-18f7-c921-190a-564261702de3/Appstore_ipad-1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9c/eb/a8/9ceba822-18d9-63e7-7f5e-f726062a18dc/Appstore_ipad-6.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/91/de/af91de79-96af-60b7-f14c-cbc68db43ad0/Appstore_ipad-2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/53/a2/4753a2a9-8a17-ff90-1771-32079c897596/Appstore_ipad-7.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/92/47/1592470a-c767-4bc9-6422-c709048a3b52/Appstore_ipad-5.png/626x1112bb.jpg"
+  ],
+  "description": "Pull the sand. Fill the pits. Clear the board.\n\nDive into a satisfying puzzle experience where colorful sand flows with real physics and every move shapes the board.\n\nIn this relaxing yet strategic puzzle game, your goal is to clear the level before time runs out. The grid is filled with colorful sand blocks and Tetris-shaped pits waiting to be filled. By pulling the correct colored sand toward the matching pits, you create smooth flows that drop, shift, and settle naturally thanks to dynamic sand physics.\n\nWatch the sand cascade, fill the shapes perfectly, and trigger satisfying movements as the board clears.\n\nAs you progress, levels introduce more complex layouts, tighter time limits, and smarter puzzles that challenge your planning and timing.",
+  "release_notes": "Some halloween flavor for your most satisfying sand puzzle!",
+  "file_size_bytes": 489706496,
+  "min_os": "15.0",
+  "version": "1.0.1",
+  "release_date": "2026-02-05",
+  "rating": 4.6361,
+  "rating_count": 14567,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/sand-blocks-drop-puzzle/id6757140488?uo=4",
+  "fetched_at": "2026-11-01T12:26:54+08:00"
+ },
+ "slug": "Sand_Blocks_Drop_Puzzle_b07cbf"
+}

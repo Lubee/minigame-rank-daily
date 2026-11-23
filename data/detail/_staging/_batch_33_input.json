@@ -1,0 +1,162 @@
+{
+  "batch": 33,
+  "games": [
+    {
+      "name": "毫妙找茬",
+      "slug": "毫妙找茬_6ca2ec",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 76,
+        "wx/畅玩榜": 73
+      },
+      "platform_app_ids": {},
+      "publisher": "南京欧瀚信息技术有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-04",
+      "appearances": 35,
+      "best_rank": 3,
+      "seen_days": 35,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "梗类",
+        "tags": [
+          "梗类"
+        ],
+        "notes": "",
+        "developer": "南京欧瀚信息技术有限公司"
+      }
+    },
+    {
+      "name": "清了个屏",
+      "slug": "清了个屏_11b055",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 19,
+        "wx/畅玩榜": 39
+      },
+      "platform_app_ids": {},
+      "publisher": "长沙若尚网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-07-27",
+      "appearances": 28,
+      "best_rank": 3,
+      "seen_days": 29,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "指尖闯关大挑战",
+      "slug": "指尖闯关大挑战_71c990",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 62
+      },
+      "platform_app_ids": {
+        "wx": "wx5a0ea060646fc29d"
+      },
+      "publisher": "广州格子游戏科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-06",
+      "appearances": 44,
+      "best_rank": 3,
+      "seen_days": 44,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "锻剑模拟器手游",
+      "slug": "锻剑模拟器手游_0515e2",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 16
+      },
+      "platform_app_ids": {
+        "wx": "wx69b962656f326af8"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-19",
+      "appearances": 5,
+      "best_rank": 3,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Pocket Sort: Coin Merge Puzzle",
+      "slug": "Pocket_Sort_Coin_Merge_Puzzle_5cf34c",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 29
+      },
+      "platform_app_ids": {
+        "android": "com.pocket.sort.coin.puzzle.game"
+      },
+      "publisher": "SayGames Ltd",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 30,
+      "best_rank": 3,
+      "seen_days": 30,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

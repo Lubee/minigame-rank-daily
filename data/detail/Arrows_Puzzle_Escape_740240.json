@@ -1,0 +1,276 @@
+{
+ "schema_version": 1,
+ "name": "Arrows – Puzzle Escape",
+ "updated_at": "2026-11-23",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Lessmore GmbH",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜",
+   "ios/日区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "ios/美区免费榜": 76,
+   "ios/日区免费榜": 34,
+   "android/美区免费榜": 67
+  },
+  "platform_app_ids": {
+   "ios": "6748397500",
+   "android": "com.ecffri.arrows"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 31,
+  "best_rank": 12,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知，未取得本作引擎披露",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "表现规划推断：以抽出路径与碰撞约束和清空目标和提示系统形成视觉重点；本轮未做截图逐帧观察。",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 1,
+   "logic": 4,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及引擎与框架，评分为原型方案判断，非原作技术测量。",
+   "art": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及美术素材量，评分为原型方案判断，非原作技术测量。",
+   "anim": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及动画与特效，评分为原型方案判断，非原作技术测量。",
+   "physics": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及物理与手感，评分为原型方案判断，非原作技术测量。",
+   "logic": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及玩法逻辑与关卡，评分为原型方案判断，非原作技术测量。",
+   "data": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及数值与养成体系，评分为原型方案判断，非原作技术测量。",
+   "server": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及服务端与联网，评分为原型方案判断，非原作技术测量。",
+   "audio": "实现成本估算：箭头路径、阻挡依赖图及关卡可解性涉及音频，评分为原型方案判断，非原作技术测量。"
+  },
+  "asset_notes": "成本重点为规则对应的界面、交互反馈与关卡内容。图片拼图要单独核算图片授权和切块量产；谜题合集要核算逐关脚本与美术，未知包体结构不推导资源类型。",
+  "notes": "仅采用Lessmore同App ID；页面出现提及麻将的评论与产品不符，不纳入本作玩法证据。 基准来源：https://apps.apple.com/us/app/id6748397500。未试玩、未观看实机视频；未知内部实现保持未知。",
+  "cost_score": 2.0,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "规划箭头移出棋盘的顺序，逐个抽出箭头并避免碰撞，清空棋盘完成谜题；商店提到心数与提示系统，不确认固定生命数量。基础玩法无计时。",
+  "highlights": [
+   "抽出路径与碰撞约束：可见的目标或限制有利于建立决策反馈，效果为产品分析判断。",
+   "清空目标和提示系统：可作为差异化体验验证点，不能据此承诺留存提升。"
+  ],
+  "innovations": [
+   "机制组合观察：抽出路径与碰撞约束与清空目标和提示系统形成相互约束；未做原创性或知识产权判断。"
+  ],
+  "target_user": "分析推断：偏好抽出路径与碰撞约束的休闲益智玩家；年龄性别与真实用户构成未知。",
+  "monetization": "App Store标注含内购；实际广告频率与生命恢复方式未确认。",
+  "lifecycle": "未知。持续关卡更新可作为运营假设，但下载、评价或榜位不能证明留存、获客回收及长期收入。"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "改编判断：参考抽出路径与碰撞约束与清空目标和提示系统的交互结构，以自有实现和合法素材重做。主要工作是箭头路径、阻挡依赖图及关卡可解性，不是直接复制原作代码或素材。",
+  "suggestions": [
+   "先用非原题材做抽出路径与碰撞约束的可玩原型，固定小关卡集，确认操作和判定正确。",
+   "保留清空目标和提示系统但提供更清晰的状态提示，对照测试教学完成率与卡关原因。",
+   "将关卡配置和运行判定分开，用编辑器/离线校验检查解序，避免内容扩张后无法排查死局。"
+  ],
+  "risks": [
+   "网络来源及版本覆盖有限，未确认细节要以真人试玩补核。",
+   "表现素材、图片或词库有授权与内容审核成本，不因玩法常见而省略。",
+   "体验效果和商业回收未验证，不能由榜位推导。"
+  ],
+  "effort": "原型估算20–35人日（程序、策划及基础美术），仅含有限关卡与核心交互；不含完整量产、渠道接入和商业化验证。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "分析假设：抽出路径与碰撞约束提供可理解目标和即时决策反馈；需观察首次操作错误与首关完成率，不以排名替代验证。"
+    },
+    {
+     "lens": "用户",
+     "text": "迁移时需保留清空目标和提示系统带来的约束；删减前后对比连续开局与卡关点，避免只换皮却丢掉核心决策。"
+    },
+    {
+     "lens": "业务",
+     "text": "若已有兼容活动入口，可把箭头路径、阻挡依赖图及关卡可解性拆成独立玩法模块，先核算接入工时；现有业务底盘未确认，不承诺一周上线。"
+    },
+    {
+     "lens": "业务",
+     "text": "先验证模块能否服务活动目标，再投入完整内容。抽出路径与碰撞约束的成功表现不足以证明对我方用户同样有效。"
+    }
+   ],
+   "how": [
+    "制作箭头路径、阻挡依赖图及关卡可解性的10关自有原型，记录首关完成率、判定异常与复玩率，通过后再扩关。",
+    "将清空目标和提示系统做成可开关变量，与简化版在相同入口对照；同时记录单关制作工时，判断体验增益是否覆盖成本。"
+   ],
+   "gain": [
+    "预期获得箭头路径、阻挡依赖图及关卡可解性的可复用实现与关卡验证经验，复用价值以原型结果为准。",
+    "取得抽出路径与碰撞约束的用户理解数据，不能预先承诺留存和收入增幅。",
+    "明确清空目标和提示系统的体验价值与制作成本，减少凭题材热度决定排期。",
+    "把扩关、内容授权和商业化投入留到验证后，降低一次性量产的试错损失。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "是否开放区域发行、联运或素材授权未知，不能从发行主体数量推断合作姿态。",
+    "如需接触先核对箭头路径、阻挡依赖图及关卡可解性相关的授权范围、渠道权利和交付边界，未取得对方意向。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "品牌会员每日益智活动",
+     "how": "将抽出路径与碰撞约束换成品牌分类或图案，保留单局结构，奖励结算接会员积分。"
+    },
+    {
+     "scene": "内部策划原型教学",
+     "how": "用清空目标和提示系统做约束开关，比较设计变化对理解和内容工时的影响。"
+    }
+   ]
+  },
+  "summary": "先验证核心约束，再做自有场景改编"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/47/076f471a-1ee5-13de-6e44-d22905b8ad1b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/d0/43/add043a3-b812-a31c-a6d2-59651185320d/1290x2796_Gameplay_Arrows_updated_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/67/d9/f967d994-f98f-82f1-1a71-6a080d51a656/1290x2796_Gameplay_Arrows_updated_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/99/ad/bb99adb1-3e31-a3b5-b25b-4c5b52ed9063/1290x2796_Gameplay_Arrows_updated_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/39/8b/33398b9f-6c1c-30c6-c7c5-9bced7755a88/1290x2796_Gameplay_Arrows_updated_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/1f/7a/4b1f7aee-226d-17c6-e91d-d0c829f37710/1290x2796_Gameplay_Arrows_updated_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/c3/2e/72c32ec3-2193-d581-2a80-d23239dc809d/2048x2732_Gameplay_Arrows_updated_5.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/98/49/7b984923-1f73-4246-4a0c-3535d9a180b4/2048x2732_Gameplay_Arrows_updated_3.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/97/a9/5597a90e-4238-f6f4-b845-4c73fafecf72/2048x2732_Gameplay_Arrows_updated_1.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/c5/73/0cc57345-214e-55aa-0b5d-f04555b422cd/2048x2732_Gameplay_Arrows_updated_4.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/b3/b6/c5b3b6c0-c6d2-c0f7-9b6b-271079626a36/2048x2732_Gameplay_Arrows_updated_2.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "当前商店描述 https://apps.apple.com/us/app/id6748397500 为本轮已读取页面；玩法摘要为来源转述，不代表实际试玩。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "仅采用Lessmore同App ID；页面出现提及麻将的评论与产品不符，不纳入本作玩法证据。",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎、成本、目标用户、业务迁移及收益为未知或分析推断；未观察付费/广告完整链路。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/id6748397500"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Arrows – Puzzle Escape",
+  "country": "us",
+  "track_id": 6748397500,
+  "seller": "Lessmore GmbH",
+  "genres": [
+   "Games",
+   "Puzzle",
+   "Casual"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/47/076f471a-1ee5-13de-6e44-d22905b8ad1b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/d0/43/add043a3-b812-a31c-a6d2-59651185320d/1290x2796_Gameplay_Arrows_updated_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/67/d9/f967d994-f98f-82f1-1a71-6a080d51a656/1290x2796_Gameplay_Arrows_updated_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/99/ad/bb99adb1-3e31-a3b5-b25b-4c5b52ed9063/1290x2796_Gameplay_Arrows_updated_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/39/8b/33398b9f-6c1c-30c6-c7c5-9bced7755a88/1290x2796_Gameplay_Arrows_updated_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/1f/7a/4b1f7aee-226d-17c6-e91d-d0c829f37710/1290x2796_Gameplay_Arrows_updated_2.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/c3/2e/72c32ec3-2193-d581-2a80-d23239dc809d/2048x2732_Gameplay_Arrows_updated_5.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/98/49/7b984923-1f73-4246-4a0c-3535d9a180b4/2048x2732_Gameplay_Arrows_updated_3.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/97/a9/5597a90e-4238-f6f4-b845-4c73fafecf72/2048x2732_Gameplay_Arrows_updated_1.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/c5/73/0cc57345-214e-55aa-0b5d-f04555b422cd/2048x2732_Gameplay_Arrows_updated_4.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c5/b3/b6/c5b3b6c0-c6d2-c0f7-9b6b-271079626a36/2048x2732_Gameplay_Arrows_updated_2.png/626x1112bb.jpg"
+  ],
+  "description": "Welcome to Arrows – Puzzle Escape, a minimalist puzzle game that challenges your logic, planning, and spatial thinking. Your goal is simple: extract each arrow without causing a collision. \n\nFeatures:\n\n* Challenging logic puzzles that test your planning skills\n* Thousands of handcrafted levels with increasing complexity\n* Clean, minimalist design that lets you focus on the puzzle\n* Relaxing, no-pressure gameplay – no timers, just your brain\n* Hint system to help when you're stuck\n\nWhether you have a few minutes or want a longer challenge, Arrows – Puzzle Escape is the perfect blend of strategy and calm.\n\nCan you clear the grid without losing a single heart?",
+  "release_notes": "- Bug fixes  \n\nThanks for playing!",
+  "file_size_bytes": 228740096,
+  "min_os": "15.0",
+  "version": "0.21.4",
+  "release_date": "2025-08-09",
+  "rating": 4.85301,
+  "rating_count": 448052,
+  "price": "Free",
+  "advisory": "9+",
+  "url": "https://apps.apple.com/us/app/arrows-puzzle-escape/id6748397500?uo=4",
+  "fetched_at": "2026-09-21T01:10:04+08:00"
+ },
+ "slug": "Arrows_Puzzle_Escape_740240"
+}

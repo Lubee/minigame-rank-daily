@@ -1,0 +1,164 @@
+{
+  "batch": 31,
+  "games": [
+    {
+      "name": "来玩躲猫猫吧",
+      "slug": "来玩躲猫猫吧_f3e5b9",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜",
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 54,
+        "wx/畅玩榜": 93,
+        "douyin/热门榜": 84
+      },
+      "platform_app_ids": {},
+      "publisher": "深圳市鸿鑫网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-16",
+      "appearances": 14,
+      "best_rank": 1,
+      "seen_days": 14,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "生存探险大作战",
+      "slug": "生存探险大作战_5c7eab",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 41
+      },
+      "platform_app_ids": {},
+      "publisher": "广州易游互玩科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-19",
+      "appearances": 16,
+      "best_rank": 1,
+      "seen_days": 16,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "脑洞工坊",
+      "slug": "脑洞工坊_04279f",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 16,
+        "wx/畅玩榜": 95
+      },
+      "platform_app_ids": {
+        "wx": "wx89a1aae6228731c9"
+      },
+      "publisher": "广州宝可梦科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-04",
+      "appearances": 33,
+      "best_rank": 2,
+      "seen_days": 33,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "梗类",
+        "tags": [
+          "梗类"
+        ],
+        "notes": "",
+        "developer": "广州宝可梦科技有限公司"
+      }
+    },
+    {
+      "name": "对子消消乐",
+      "slug": "对子消消乐_8c67c7",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 9,
+        "wx/畅玩榜": 8
+      },
+      "platform_app_ids": {
+        "wx": "wx08ca4a979a9dba6c"
+      },
+      "publisher": "厦门市宙火科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-10-14",
+      "appearances": 13,
+      "best_rank": 2,
+      "seen_days": 13,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "涂色躲猫猫生存",
+      "slug": "涂色躲猫猫生存_9963da",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 69
+      },
+      "platform_app_ids": {},
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-24",
+      "appearances": 11,
+      "best_rank": 2,
+      "seen_days": 11,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

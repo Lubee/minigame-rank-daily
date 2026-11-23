@@ -1,0 +1,170 @@
+{
+  "batch": 35,
+  "games": [
+    {
+      "name": "糕手大作战",
+      "slug": "糕手大作战_4447b2",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜",
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "douyin/新游榜": 2,
+        "wx/人气榜": 8
+      },
+      "platform_app_ids": {
+        "wx": "wx9aeed5c1fd2fd9de"
+      },
+      "publisher": "厦门营火科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-15",
+      "appearances": 11,
+      "best_rank": 2,
+      "seen_days": 12,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Brain Puzzle 3: Crazy Mind",
+      "slug": "Brain_Puzzle_3_Crazy_Mind_f9035e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 20,
+        "ios/日区免费榜": 56,
+        "android/美区免费榜": 41
+      },
+      "platform_app_ids": {
+        "ios": "6756482832",
+        "android": "com.brain.crazy.joygame"
+      },
+      "publisher": "SmallStep Dev Team",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 85,
+      "best_rank": 8,
+      "seen_days": 86,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Jigsaw Drop: Solitaire Puzzle",
+      "slug": "Jigsaw_Drop_Solitaire_Puzzle_32a2fd",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 49,
+        "android/美区免费榜": 53
+      },
+      "platform_app_ids": {
+        "ios": "6767091927",
+        "android": "jigsaw.solitaire.match.games.free"
+      },
+      "publisher": "Runyou Game",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 28,
+      "best_rank": 8,
+      "seen_days": 28,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Woodoku Blast: Block Puzzle",
+      "slug": "Woodoku_Blast_Block_Puzzle_8f23d8",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 17
+      },
+      "platform_app_ids": {
+        "ios": "6608975929"
+      },
+      "publisher": "Tripledot Studios",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 12,
+      "best_rank": 10,
+      "seen_days": 12,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "マジックソート (Magic Sort!)",
+      "slug": "マジックソート_Magic_Sort_d85b2a",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 14
+      },
+      "platform_app_ids": {
+        "ios": "6499209744"
+      },
+      "publisher": "Grand Games A.Ş.",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 31,
+      "best_rank": 11,
+      "seen_days": 31,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

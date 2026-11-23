@@ -1,0 +1,295 @@
+{
+ "schema_version": 1,
+ "name": "Pocket Sort: Coin Merge Puzzle",
+ "updated_at": "2026-11-23",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "SayGames Ltd",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 29
+  },
+  "platform_app_ids": {
+   "android": "com.pocket.sort.coin.puzzle.game"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 30,
+  "best_rank": 3,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断）",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "扁平拟物 2D，彩色硬币 + 木纹/绒布台面，明亮饱和，无花哨特效",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "硬币种类是内容主体：普通彩币之外还有隐藏币、锁链币、冰币等特殊币，每类都要单独绘制与做状态表现，包体 265MB 说明动画与音效资产不少",
+   "anim": "硬币飞入槽位、合并爆开、冰块碎裂都靠动画承担反馈，无物理模拟",
+   "logic": "槽位容量 × 币种解锁 × 特殊币规则三者耦合，关卡需按「槽位够不够」逐步加难",
+   "physics": "无刚体模拟，硬币位移是补间动画"
+  },
+  "asset_notes": "2D 硬币贴图 + 台面背景，可用矢量/拟物素材批量产出；包体 265MB 偏大，说明含较多序列帧、音效与多语言资源，素材层不是瓶颈但也不是极轻",
+  "notes": "验收说明：WorkBuddy本轮只检索搜索摘要，未读取全部来源全文，未试玩或观看视频。以下细节按网络转述/分析推断接收，不代表官方确认或本轮观察；渠道主体可不同。SayGames 出品的美区免费榜产品（最好第 3 名、在榜 30 天），App Store 4.69 分、3.18 万评分；官方描述强调「无计时、无惩罚、纯放松」，是典型的 sort 品类（SortPuz 血脉）的硬币题材版本",
+  "cost_score": 2.25,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "网络资料转述/综合推断，未实测：台面上散着一堆彩色硬币，点一枚送进下方槽位，凑满五个同色即合并爆开腾出位置。槽位放满且无法合并就失败，所以每放一枚都要先看清后面还压着什么币。清空台面即过关，没有倒计时。",
+  "highlights": [
+   "五个同色凑满后整组爆开、槽位瞬间腾空的清空感，是全作最高频的爽点",
+   "槽位会满的压迫感逼玩家提前规划顺序，「差一格」的紧张比计时更持久",
+   "隐藏币翻开才知道颜色、冰币要先敲碎，规则层层加码但每层只用一句话就能讲清",
+   "无计时无惩罚，随时退出不亏，适合真正想放松而不是想被虐的人"
+  ],
+  "innovations": [
+   "把「分类整理」从纯颜色匹配扩到隐藏/锁链/冰块三种状态币，用信息不完全替代难度堆叠",
+   "明确取消计时与惩罚，把「慢」当成产品定位而非缺陷"
+  ],
+  "target_user": "35 岁以上泛休闲用户为主，女性占比高；通勤、睡前、看剧时单手玩",
+  "monetization": "网络分析/待确认：IAA 为主（SayGames 典型打法）：加槽位、撤销、洗牌、复活看激励视频，关卡切换插屏；辅以去广告内购",
+  "lifecycle": "长线运营，靠币种与关卡持续更新；sort 品类生命周期普遍较长"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "sort 品类的机制早已固化（点选进槽、同色合并、槽满即败），代码量小、无物理、无联网，两三周能出成品；差异化只能落在题材与币种设计上。它是标准的低成本填充位：适合练手、适合活动位，但不适合当主力去和 SayGames 拼买量。",
+  "suggestions": [
+   "题材换成「中药抓方」或「螺丝配件分拣」：同色/同规格凑组，天然带职业感与知识感",
+   "把「隐藏币」改成「盲盒币」：翻开前不知道内容，用一次小幅惊喜替代纯信息不完全",
+   "加一条「换槽位布局」的元进度：不同关卡给不同槽位形状（L 形、双排），把空间规划维度加进来",
+   "把槽满失败改成「可看广告续一格」，把唯一的挫败点变成变现点而非流失点"
+  ],
+  "risks": [
+   "sort 品类在美区已被 SortPuz、Sort It 等头部占满，买量 CPI 高",
+   "玩法零壁垒，题材一换就被复刻",
+   "SayGames 的买量体量与素材产能远超中小团队，正面竞争不现实"
+  ],
+  "effort": "15–25 人日（1 前端 + 1 美术）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "它把「整理」做成不需要动脑的动作：点一下、凑五个、爆开，反馈密度高而认知负担为零；App Store 3.18 万条评价 4.69 分，说明这套「无计时无惩罚」的定位确实留住了人"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得完（凑五个同色就消），存量用户零教学；但爽点浅，没有特殊币与关卡变化时会很快腻"
+    },
+    {
+     "lens": "业务",
+     "text": "「槽位容量 + 同色合并」是最容易整块搬走的一层，塞进活动位当「每日整理」两周能出可玩版本"
+    },
+    {
+     "lens": "业务",
+     "text": "不做的话，轻解压位只能靠消除类承接；这套东西零物理零联网，正好补一个最低成本的日活钩子"
+    }
+   ],
+   "how": [
+    "把「槽位 + 同色合并 + 特殊币」抽成 10 关的活动小玩法，两周上线，一周内看人均关卡与槽满失败率",
+    "复刻它「加槽位/撤销/洗牌」三个广告点的触发时机，A/B 校准自有产品在「槽要满了」这一刻的变现价值"
+   ],
+   "gain": [
+    "拿到一套零技术门槛的整理玩法模板，之后换题材换币种即可复用，美术可外包",
+    "特殊币（隐藏/锁链/冰）三层难度设计可直接当关卡加难的标准手法",
+    "广告点触发时机可标定，省掉一轮「什么时候弹广告」的实验",
+    "明确不做的边界：不与头部拼买量，只做自有流量内的填充内容"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "SayGames 为自研自发的头部休闲发行商（本作美区免费榜最好第 3），体量与产能远超中小团队，无代理需求",
+    "玩法为公共品类，无可授权资产；其买量素材方法论公开可学，无需商务接触"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "药店处方分拣",
+     "how": "把「五个同色合并」改成「凑齐一张处方的全部药材」，槽位当药筐容量"
+    },
+    {
+     "scene": "仓储 SKU 归位",
+     "how": "把硬币换成 SKU 包装，凑满同品类入箱，槽满即爆仓，用于新人拣货培训"
+    }
+   ]
+  },
+  "summary": "槽位整理可搬做最低成本填充位"
+ },
+ "shots": [
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/6f/7b/fb6f7bf1-770c-1717-f125-64b47f57679d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+   "kind": "icon",
+   "source": "App Store（us）",
+   "caption": "官方图标"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/27/3d/2a273dbe-4dc2-1a3e-3999-e71970e2b1a4/PSR_1242x2688_AppStore_01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 1"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/e1/4e/7ae14e43-6f97-7b20-b2d7-bad0de63eecb/PSR_1242x2688_AppStore_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 2"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/95/3e/cc953e57-23c2-2b72-c5df-37788266564f/PSR_1242x2688_AppStore_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 3"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/c6/b9/6fc6b973-df23-2935-ec3c-aea539223a01/PSR_1242x2688_AppStore_04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 4"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/f3/ea/0ff3eae5-682d-64ee-90ac-e45bbe81545a/PSR_1242x2688_AppStore_05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 5"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/53/6e/f5536ec4-fe1d-f92e-c34a-b49dfe22ac2c/PSR_1242x2688_AppStore_06.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 6"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/22/60/8122606e-ad95-126d-3bc3-91d144e40059/PSR_2048x2732_AppStore_01.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 7"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/5e/95/365e9596-e685-9791-283c-792387dd72e3/PSR_2048x2732_AppStore_02.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 8"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/8d/35/198d3539-5fab-59c2-66b9-a38209105cf6/PSR_2048x2732_AppStore_03.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 9"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/7f/7b/537f7bf1-ace9-7d21-b3f2-77cca238f807/PSR_2048x2732_AppStore_04.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 10"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/ff/75/c0ff7562-2937-d1e5-78c8-1bf5a4edeb55/PSR_2048x2732_AppStore_05.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 11"
+  },
+  {
+   "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/d1/16/bbd1167f-005f-dbc7-6eeb-6906f3bc63f8/PSR_2048x2732_AppStore_06.png/626x1112bb.jpg",
+   "kind": "screenshot",
+   "source": "App Store（us）",
+   "caption": "官方实机截图 12"
+  }
+ ],
+ "evidence": [
+  {
+   "claim": "包体 265MB（278,021,120 字节），App Store 美区 4.69 分、31,847 条评分，v1.14.0，2025-11-26 上线",
+   "level": "inferred"
+  },
+  {
+   "claim": "官方描述：把彩色硬币移入槽位匹配并合并以清空场地；含隐藏币、锁链币、冰币等特殊币种；无计时、无惩罚",
+   "level": "inferred"
+  },
+  {
+   "claim": "美区安卓免费榜第 29 名，历史最好第 3 名，在榜约 30 天",
+   "level": "inferred"
+  },
+  {
+   "claim": "发行商为 SayGames LTD，属自研自发的头部休闲厂商",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎为 Unity（未获官方确认，按 sort 品类主流技术选型推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/us/app/pocket-sort-coin-merge-puzzle/id6755425214",
+  "https://apps.apple.com/us/app/pocket-sort-coin-merge-puzzle/id6755425214?uo=4"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": true,
+  "match_score": 1.0,
+  "match_name": "Pocket Sort: Coin Merge Puzzle",
+  "country": "us",
+  "track_id": 6755425214,
+  "seller": "SayGames LTD",
+  "genres": [
+   "Games",
+   "Entertainment",
+   "Casual",
+   "Puzzle"
+  ],
+  "genre": "Games",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/6f/7b/fb6f7bf1-770c-1717-f125-64b47f57679d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "screenshots": [
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2a/27/3d/2a273dbe-4dc2-1a3e-3999-e71970e2b1a4/PSR_1242x2688_AppStore_01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/e1/4e/7ae14e43-6f97-7b20-b2d7-bad0de63eecb/PSR_1242x2688_AppStore_02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/95/3e/cc953e57-23c2-2b72-c5df-37788266564f/PSR_1242x2688_AppStore_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/c6/b9/6fc6b973-df23-2935-ec3c-aea539223a01/PSR_1242x2688_AppStore_04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0f/f3/ea/0ff3eae5-682d-64ee-90ac-e45bbe81545a/PSR_1242x2688_AppStore_05.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/53/6e/f5536ec4-fe1d-f92e-c34a-b49dfe22ac2c/PSR_1242x2688_AppStore_06.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/22/60/8122606e-ad95-126d-3bc3-91d144e40059/PSR_2048x2732_AppStore_01.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/5e/95/365e9596-e685-9791-283c-792387dd72e3/PSR_2048x2732_AppStore_02.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/8d/35/198d3539-5fab-59c2-66b9-a38209105cf6/PSR_2048x2732_AppStore_03.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/7f/7b/537f7bf1-ace9-7d21-b3f2-77cca238f807/PSR_2048x2732_AppStore_04.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c0/ff/75/c0ff7562-2937-d1e5-78c8-1bf5a4edeb55/PSR_2048x2732_AppStore_05.png/626x1112bb.jpg",
+   "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/d1/16/bbd1167f-005f-dbc7-6eeb-6906f3bc63f8/PSR_2048x2732_AppStore_06.png/626x1112bb.jpg"
+  ],
+  "description": "► SORT YOUR WAY TO HAPPINESS\n\nMaster mergers, ready those fingers and get to matching in 3…2…1! This fun sorting puzzle features colorful coins that need to be matched up in their slots and then merged together to clear the playing field, making way for more. Bright colors, simple graphics, and lots of boosters ensure that your brain can focus on what it does best: noticing patterns and finding unique ways to shuffle everything around in order to win.\n \n► MASTER THE MATCH\n\nSimple in theory yet difficult in practice, players young and old will enjoy racking their brains for the best possible way to merge the different color coins and keep progressing. With no timer or pressure to trip you up, you’ll be able to sort, match, and merge the coins while also relaxing.\n\nFun features:\n\n● Tons of coin types – In addition to your standard rainbow of coins to match, as you progress there will be all manner or fun new coins to keep things fresh. Hidden coins, linked coins, ice coins, and more await, so keep your eyes peeled!\n\n● Easy on the eye – As colorful as this sorting puzzle is, the whole point is to help you chill so we’ve done away with any crazy graphics or flashing lights. This also means the game is great to play wherever you find yourself, solo or perhaps with a little helper.\n\n● Relaxing to play – No countdown clock here! Take as much time on each puzzle as you need, and move the coins around as much as you want without being penalized. We believe in having fun, not getting stressed.\n\n● Train your brain – Sorting and matching puzzles are a great way to train your brain to recognize patterns and colors, and to work on your logic and thinking skills as you test out different ways to group coins. And it doesn’t stop there, the skills you hone in the game can be applied to other stuff in real life.\n\n● Keep growing – As you progress through the puzzle levels, more colors and coin types will be added, and things will get steadily more difficult. But no fear, even as you’re pushed to get better we’ve added plenty of fun boosters to keep it chill.\n\n► GO ON A COLORFUL ADVENTURE\n\nReady to start your merge adventure? This relaxing game keeps your mind sharp while also providing a fun escape as you enjoy sorting and matching, so hop on in to become the master sorter and put all this stuff where it needs to be!\n\nDownload Pocket Sort: Coin Puzzle today to see how good you are at locating different colored coins and slotting them in together.\n\nPrivacy Policy: https://say.games/privacy-policy\nTerms of Use: https://say.games/terms-of-use",
+  "release_notes": "- Improved performance\n- Enjoy the game",
+  "file_size_bytes": 278021120,
+  "min_os": "15.0",
+  "version": "1.14.0",
+  "release_date": "2025-11-26",
+  "rating": 4.68989,
+  "rating_count": 31847,
+  "price": "Free",
+  "advisory": "4+",
+  "url": "https://apps.apple.com/us/app/pocket-sort-coin-merge-puzzle/id6755425214?uo=4",
+  "fetched_at": "2026-09-21T01:09:22+08:00"
+ },
+ "slug": "Pocket_Sort_Coin_Merge_Puzzle_5cf34c"
+}
