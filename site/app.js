@@ -379,7 +379,7 @@ function profileBtn(name, row, board) {
     params.set("store", `taptap:${row.app_id}`);
   }
   const url = "./game.html?" + params;
-  return ` <a href="${url}" class="profile-link" title="产品档案">档案</a>`;
+  return `<a href="${escapeHTML(url)}" class="game-profile-name" target="_blank" rel="noopener noreferrer" title="在新标签页查看产品档案"><strong>${escapeHTML(name)}</strong></a>`;
 }
 
 function gameCell(name, row, board, slogan = "") {
@@ -391,7 +391,7 @@ function gameCell(name, row, board, slogan = "") {
     : "";
   return `<div class="rank-game">
     <span class="rank-game-icon" aria-hidden="true">${escapeHTML(Array.from(name || "—")[0])}${image}</span>
-    <div><strong>${escapeHTML(name || "")}</strong>${profileBtn(name || "", row, board)}
+    <div>${profileBtn(name || "", row, board)}
       ${slogan ? `<div class="slogan" title="${escapeHTML(slogan)}">${escapeHTML(slogan)}</div>` : ""}</div>
   </div>`;
 }
