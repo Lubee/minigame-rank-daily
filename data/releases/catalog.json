@@ -47,7 +47,8 @@
       "media_checked_at": "2026-11-23T05:18:40.873684+00:00",
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.873684+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.873684+00:00",
+      "last_updated_date": "2027-01-14"
     },
     "ios:6819375975": {
       "platform": "ios",
@@ -102,7 +103,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-12-17"
     },
     "ios:6835091726": {
       "platform": "ios",
@@ -147,7 +149,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6835025436": {
       "platform": "ios",
@@ -194,7 +197,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6835247365": {
       "platform": "ios",
@@ -242,7 +246,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6821522095": {
       "platform": "ios",
@@ -291,7 +296,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6828740485": {
       "platform": "ios",
@@ -349,7 +355,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6830935355": {
       "platform": "ios",
@@ -395,7 +402,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6834834338": {
       "platform": "ios",
@@ -443,7 +451,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6827938248": {
       "platform": "ios",
@@ -503,7 +512,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6833957187": {
       "platform": "ios",
@@ -589,7 +599,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6834334288": {
       "platform": "ios",
@@ -643,7 +654,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6834339195": {
       "platform": "ios",
@@ -685,7 +697,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6819467398": {
       "platform": "ios",
@@ -728,7 +741,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6834494429": {
       "platform": "ios",
@@ -782,7 +796,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6833862303": {
       "platform": "ios",
@@ -828,7 +843,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "ios:6832392005": {
       "platform": "ios",
@@ -888,7 +904,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6827279700": {
       "platform": "ios",
@@ -936,7 +953,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6831318329": {
       "platform": "ios",
@@ -982,7 +1000,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "ios:6834735503": {
       "platform": "ios",
@@ -1035,7 +1054,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6834669265": {
       "platform": "ios",
@@ -1086,7 +1106,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6834131909": {
       "platform": "ios",
@@ -1133,7 +1154,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6828987792": {
       "platform": "ios",
@@ -1177,7 +1199,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "ios:6829444521": {
       "platform": "ios",
@@ -1230,7 +1253,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6832491445": {
       "platform": "ios",
@@ -1285,7 +1309,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6819813977": {
       "platform": "ios",
@@ -1336,7 +1361,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6823222539": {
       "platform": "ios",
@@ -1385,7 +1411,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6829009275": {
       "platform": "ios",
@@ -1430,7 +1457,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.045375+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.045375+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6835073799": {
       "platform": "ios",
@@ -1483,7 +1511,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.171714+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.171714+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6835228838": {
       "platform": "ios",
@@ -1536,7 +1565,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6822586844": {
       "platform": "ios",
@@ -1585,7 +1615,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6825692189": {
       "platform": "ios",
@@ -1628,7 +1659,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6790457650": {
       "platform": "ios",
@@ -1673,7 +1705,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6804848917": {
       "platform": "ios",
@@ -1720,7 +1753,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6835010572": {
       "platform": "ios",
@@ -1765,7 +1799,8 @@
       ],
       "rating": 2,
       "rating_count": 1,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6829936349": {
       "platform": "ios",
@@ -1810,7 +1845,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6835083133": {
       "platform": "ios",
@@ -1857,7 +1893,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6823291241": {
       "platform": "ios",
@@ -1906,7 +1943,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6831767677": {
       "platform": "ios",
@@ -1952,7 +1990,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6833728437": {
       "platform": "ios",
@@ -1996,7 +2035,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "ios:6834779431": {
       "platform": "ios",
@@ -2051,7 +2091,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6811062271": {
       "platform": "ios",
@@ -2104,7 +2145,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6832282816": {
       "platform": "ios",
@@ -2149,7 +2191,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6828261287": {
       "platform": "ios",
@@ -2196,7 +2239,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6820133586": {
       "platform": "ios",
@@ -2253,7 +2297,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.041354+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.041354+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6826967094": {
       "platform": "ios",
@@ -2303,7 +2348,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6834918753": {
       "platform": "ios",
@@ -2355,7 +2401,8 @@
       ],
       "rating": 5,
       "rating_count": 4,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6829364719": {
       "platform": "ios",
@@ -2400,7 +2447,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6817346303": {
       "platform": "ios",
@@ -2455,7 +2503,8 @@
       ],
       "rating": 5,
       "rating_count": 9,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6828354110": {
       "platform": "ios",
@@ -2507,7 +2556,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6834944096": {
       "platform": "ios",
@@ -2556,7 +2606,8 @@
         }
       ],
       "video_attempted_at": "2026-11-19T10:37:45.326057+00:00",
-      "video_checked_at": "2026-11-19T10:37:45.326057+00:00"
+      "video_checked_at": "2026-11-19T10:37:45.326057+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6832545265": {
       "platform": "ios",
@@ -2601,7 +2652,8 @@
       ],
       "rating": 5,
       "rating_count": 1,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.tencent.igfit": {
       "platform": "android",
@@ -2646,7 +2698,8 @@
       "review_count": 1180,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:10.947609+00:00",
-      "video_checked_at": "2026-11-23T05:22:10.947609+00:00"
+      "video_checked_at": "2026-11-23T05:22:10.947609+00:00",
+      "last_updated_date": "2026-11-06"
     },
     "android:com.gamefactory.roomsort": {
       "platform": "android",
@@ -2692,7 +2745,8 @@
       "review_count": 228,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:07.849163+00:00",
-      "video_checked_at": "2026-11-23T05:20:07.849163+00:00"
+      "video_checked_at": "2026-11-23T05:20:07.849163+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.tempogames.thebazaar": {
       "platform": "android",
@@ -2747,7 +2801,8 @@
           "fallback_url": "https://www.youtube.com/embed/3OB-iP4IpI4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:09.091393+00:00"
+      "video_checked_at": "2026-11-23T05:22:09.091393+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.nebula.ropesort": {
       "platform": "android",
@@ -2790,7 +2845,8 @@
       "review_count": 143,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:21:13.196618+00:00",
-      "video_checked_at": "2026-11-23T05:21:13.196618+00:00"
+      "video_checked_at": "2026-11-23T05:21:13.196618+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.wanda.transformers.gg.am": {
       "platform": "android",
@@ -2890,7 +2946,8 @@
       "review_count": 57,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:22:56.820488+00:00",
-      "video_checked_at": "2026-11-23T05:22:56.820488+00:00"
+      "video_checked_at": "2026-11-23T05:22:56.820488+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.hp.clicker.diy.asmr.charm.master": {
       "platform": "android",
@@ -2942,7 +2999,8 @@
       "review_count": 76,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:34.809626+00:00",
-      "video_checked_at": "2026-11-23T05:20:34.809626+00:00"
+      "video_checked_at": "2026-11-23T05:20:34.809626+00:00",
+      "last_updated_date": "2026-11-11"
     },
     "android:io.heseri.rock": {
       "platform": "android",
@@ -2990,7 +3048,8 @@
       "review_count": 186,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:44.725527+00:00",
-      "video_checked_at": "2026-11-23T05:22:44.725527+00:00"
+      "video_checked_at": "2026-11-23T05:22:44.725527+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.fidget.dumplingparty": {
       "platform": "android",
@@ -3033,7 +3092,8 @@
       "review_count": 6,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:57.747953+00:00",
-      "video_checked_at": "2026-11-23T05:19:57.747953+00:00"
+      "video_checked_at": "2026-11-23T05:19:57.747953+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.pdd.sfungames": {
       "platform": "android",
@@ -3075,7 +3135,8 @@
       "review_count": 61,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:32.484799+00:00",
-      "video_checked_at": "2026-11-23T05:21:32.484799+00:00"
+      "video_checked_at": "2026-11-23T05:21:32.484799+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.sofish.soeasymahjong2.gp": {
       "platform": "android",
@@ -3136,7 +3197,8 @@
       "review_count": 37,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:57.365658+00:00",
-      "video_checked_at": "2026-11-23T05:21:57.365658+00:00"
+      "video_checked_at": "2026-11-23T05:21:57.365658+00:00",
+      "last_updated_date": "2026-11-09"
     },
     "android:com.mahjmarids.maris.jongmhga": {
       "platform": "android",
@@ -3179,7 +3241,8 @@
       "review_count": 55,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:53.577894+00:00",
-      "video_checked_at": "2026-11-23T05:20:53.577894+00:00"
+      "video_checked_at": "2026-11-23T05:20:53.577894+00:00",
+      "last_updated_date": "2026-11-04"
     },
     "android:com.hp.squishy.trade.dumpling.master": {
       "platform": "android",
@@ -3228,7 +3291,8 @@
       "review_count": 2,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:20:36.635854+00:00",
-      "video_checked_at": "2026-11-23T05:20:36.635854+00:00"
+      "video_checked_at": "2026-11-23T05:20:36.635854+00:00",
+      "last_updated_date": "2026-10-28"
     },
     "android:com.RC80.fidget.dumpling.master": {
       "platform": "android",
@@ -3270,7 +3334,8 @@
       "review_count": 8,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:19:02.328976+00:00",
-      "video_checked_at": "2026-11-23T05:19:02.328976+00:00"
+      "video_checked_at": "2026-11-23T05:19:02.328976+00:00",
+      "last_updated_date": "2026-11-11"
     },
     "android:com.whgame.find.hidden.objects.christmas": {
       "platform": "android",
@@ -3314,7 +3379,8 @@
       "review_count": 33,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:29.413133+00:00",
-      "video_checked_at": "2026-11-23T05:22:29.413133+00:00"
+      "video_checked_at": "2026-11-23T05:22:29.413133+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.bma.pool": {
       "platform": "android",
@@ -3356,7 +3422,8 @@
       "review_count": 125,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:25.945908+00:00",
-      "video_checked_at": "2026-11-23T05:19:25.945908+00:00"
+      "video_checked_at": "2026-11-23T05:19:25.945908+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.rockydessert.cashierlife": {
       "platform": "android",
@@ -3397,7 +3464,8 @@
       "review_count": 29,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:48.515592+00:00",
-      "video_checked_at": "2026-11-23T05:21:48.515592+00:00"
+      "video_checked_at": "2026-11-23T05:21:48.515592+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.launcher.pinballadventure": {
       "platform": "android",
@@ -3436,7 +3504,8 @@
       "review_count": 41,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:45.807030+00:00",
-      "video_checked_at": "2026-11-23T05:20:45.807030+00:00"
+      "video_checked_at": "2026-11-23T05:20:45.807030+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "android:com.duck.war": {
       "platform": "android",
@@ -3494,7 +3563,8 @@
       "review_count": 54,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:44.480538+00:00",
-      "video_checked_at": "2026-11-23T05:19:44.480538+00:00"
+      "video_checked_at": "2026-11-23T05:19:44.480538+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.xdgames.shockemall": {
       "platform": "android",
@@ -3539,7 +3609,8 @@
       "review_count": 2,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:32.865283+00:00",
-      "video_checked_at": "2026-11-23T05:22:32.865283+00:00"
+      "video_checked_at": "2026-11-23T05:22:32.865283+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "android:com.gl.kitten": {
       "platform": "android",
@@ -3583,7 +3654,8 @@
       "review_count": 76,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:19.986380+00:00",
-      "video_checked_at": "2026-11-23T05:20:19.986380+00:00"
+      "video_checked_at": "2026-11-23T05:20:19.986380+00:00",
+      "last_updated_date": "2026-10-20"
     },
     "android:com.CircleGames.TidyRoom": {
       "platform": "android",
@@ -3633,7 +3705,8 @@
       "review_count": 23,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:18:54.725851+00:00",
-      "video_checked_at": "2026-11-23T05:18:54.725851+00:00"
+      "video_checked_at": "2026-11-23T05:18:54.725851+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "android:arrow.puzzle.maze.renovation.game": {
       "platform": "android",
@@ -3686,7 +3759,8 @@
       "review_count": 92,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:18:51.206967+00:00",
-      "video_checked_at": "2026-11-23T05:18:51.206967+00:00"
+      "video_checked_at": "2026-11-23T05:18:51.206967+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.matterpixel.spintriumpharena": {
       "platform": "android",
@@ -3728,7 +3802,8 @@
       "review_count": 39,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:57.785744+00:00",
-      "video_checked_at": "2026-11-23T05:20:57.785744+00:00"
+      "video_checked_at": "2026-11-23T05:20:57.785744+00:00",
+      "last_updated_date": "2026-10-22"
     },
     "android:com.gl.blockpets": {
       "platform": "android",
@@ -3770,7 +3845,8 @@
       "review_count": 61,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:19.985381+00:00",
-      "video_checked_at": "2026-11-23T05:20:19.985381+00:00"
+      "video_checked_at": "2026-11-23T05:20:19.985381+00:00",
+      "last_updated_date": "2026-10-30"
     },
     "android:com.art.game.jigsaw.glow": {
       "platform": "android",
@@ -3814,7 +3890,8 @@
       "review_count": 18,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:18.052090+00:00",
-      "video_checked_at": "2026-11-23T05:19:18.052090+00:00"
+      "video_checked_at": "2026-11-23T05:19:18.052090+00:00",
+      "last_updated_date": "2026-11-15"
     },
     "android:com.playstrom.keycap": {
       "platform": "android",
@@ -3869,7 +3946,8 @@
       "review_count": 19,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:39.427997+00:00",
-      "video_checked_at": "2026-11-23T05:21:39.427997+00:00"
+      "video_checked_at": "2026-11-23T05:21:39.427997+00:00",
+      "last_updated_date": "2026-11-14"
     },
     "android:com.yourstudio.pinkpour": {
       "platform": "android",
@@ -3911,7 +3989,8 @@
       "review_count": 67,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:35.339693+00:00",
-      "video_checked_at": "2026-11-23T05:22:35.339693+00:00"
+      "video_checked_at": "2026-11-23T05:22:35.339693+00:00",
+      "last_updated_date": "2026-10-27"
     },
     "android:com.gameoverflow.seaplayground": {
       "platform": "android",
@@ -3964,7 +4043,8 @@
       "review_count": 24,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:08.616071+00:00",
-      "video_checked_at": "2026-11-23T05:20:08.616071+00:00"
+      "video_checked_at": "2026-11-23T05:20:08.616071+00:00",
+      "last_updated_date": "2026-11-03"
     },
     "android:com.thunderhorn777.slots.game": {
       "platform": "android",
@@ -4006,7 +4086,8 @@
       "review_count": 28,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:14.350263+00:00",
-      "video_checked_at": "2026-11-23T05:22:14.350263+00:00"
+      "video_checked_at": "2026-11-23T05:22:14.350263+00:00",
+      "last_updated_date": "2026-10-31"
     },
     "android:app.streetleaguefootball": {
       "platform": "android",
@@ -4060,7 +4141,8 @@
           "fallback_url": "https://www.youtube.com/embed/K8vEwXsoyw8?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:18:50.346236+00:00"
+      "video_checked_at": "2026-11-23T05:18:50.346236+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.krillion.app": {
       "platform": "android",
@@ -4113,7 +4195,8 @@
       "review_count": 17,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:44.299063+00:00",
-      "video_checked_at": "2026-11-23T05:20:44.299063+00:00"
+      "video_checked_at": "2026-11-23T05:20:44.299063+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "android:com.dumpling.trading.squishy.fun": {
       "platform": "android",
@@ -4152,7 +4235,8 @@
       "media_checked_at": "2026-11-23T05:19:44.480538+00:00",
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:19:44.480538+00:00",
-      "video_checked_at": "2026-11-23T05:19:44.480538+00:00"
+      "video_checked_at": "2026-11-23T05:19:44.480538+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.F2Games.GB27": {
       "platform": "android",
@@ -4204,7 +4288,8 @@
           "fallback_url": "https://www.youtube.com/embed/TY6adGfHO78?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:18:55.800389+00:00"
+      "video_checked_at": "2026-11-23T05:18:55.800389+00:00",
+      "last_updated_date": "2026-11-06"
     },
     "android:com.tripledot.puzzleword": {
       "platform": "android",
@@ -4245,7 +4330,8 @@
       "review_count": 38,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:22:19.892211+00:00",
-      "video_checked_at": "2026-11-23T05:22:19.892211+00:00"
+      "video_checked_at": "2026-11-23T05:22:19.892211+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.azragames.ungodly": {
       "platform": "android",
@@ -4298,7 +4384,8 @@
           "fallback_url": "https://www.youtube.com/embed/Ej2QYyqNNXE?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:18.190133+00:00"
+      "video_checked_at": "2026-11-23T05:19:18.190133+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.slots.silvermoonmane": {
       "platform": "android",
@@ -4340,7 +4427,8 @@
       "review_count": 7,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:55.725377+00:00",
-      "video_checked_at": "2026-11-23T05:21:55.725377+00:00"
+      "video_checked_at": "2026-11-23T05:21:55.725377+00:00",
+      "last_updated_date": "2026-10-30"
     },
     "android:com.ganko.wordeex": {
       "platform": "android",
@@ -4402,7 +4490,8 @@
           "fallback_url": "https://www.youtube.com/embed/jobdtk4tNGg?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:10.472390+00:00"
+      "video_checked_at": "2026-11-23T05:20:10.472390+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "android:com.kayac.VoxelCrushman": {
       "platform": "android",
@@ -4442,7 +4531,8 @@
       "review_count": 13,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:39.022022+00:00",
-      "video_checked_at": "2026-11-23T05:20:39.022022+00:00"
+      "video_checked_at": "2026-11-23T05:20:39.022022+00:00",
+      "last_updated_date": "2026-11-11"
     },
     "android:com.find.angel.spot.koini.a": {
       "platform": "android",
@@ -4484,7 +4574,8 @@
       "review_count": 16,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:57.748951+00:00",
-      "video_checked_at": "2026-11-23T05:19:57.748951+00:00"
+      "video_checked_at": "2026-11-23T05:19:57.748951+00:00",
+      "last_updated_date": "2026-10-23"
     },
     "android:com.d30.gangster.mafia.city.shooter.zombie.mode": {
       "platform": "android",
@@ -4526,7 +4617,8 @@
       "review_count": 6,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:38.764210+00:00",
-      "video_checked_at": "2026-11-23T05:19:38.764210+00:00"
+      "video_checked_at": "2026-11-23T05:19:38.764210+00:00",
+      "last_updated_date": "2026-11-02"
     },
     "android:com.squee.ze": {
       "platform": "android",
@@ -4568,7 +4660,8 @@
       "review_count": 3,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:00.896093+00:00",
-      "video_checked_at": "2026-11-23T05:22:00.896093+00:00"
+      "video_checked_at": "2026-11-23T05:22:00.896093+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:com.sprunki.playground.survival": {
       "platform": "android",
@@ -4610,7 +4703,8 @@
       "review_count": 3,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:00.198432+00:00",
-      "video_checked_at": "2026-11-23T05:22:00.198432+00:00"
+      "video_checked_at": "2026-11-23T05:22:00.198432+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "android:com.logicdash.dash.arrowlogica": {
       "platform": "android",
@@ -4653,7 +4747,8 @@
       "review_count": 30,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:47.647873+00:00",
-      "video_checked_at": "2026-11-23T05:20:47.647873+00:00"
+      "video_checked_at": "2026-11-23T05:20:47.647873+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.arrpuzbeapri.apbp": {
       "platform": "android",
@@ -4696,7 +4791,8 @@
       "review_count": 6,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:18.052090+00:00",
-      "video_checked_at": "2026-11-23T05:19:18.052090+00:00"
+      "video_checked_at": "2026-11-23T05:19:18.052090+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:puzzle.happy.tidy.room": {
       "platform": "android",
@@ -4740,7 +4836,8 @@
       "review_count": 18,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:23:00.109286+00:00",
-      "video_checked_at": "2026-11-23T05:23:00.109286+00:00"
+      "video_checked_at": "2026-11-23T05:23:00.109286+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.percent.aos.randomdice2": {
       "platform": "android",
@@ -4791,7 +4888,8 @@
           "fallback_url": "https://www.youtube.com/embed/AlN7PBGYr8A?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:34.376111+00:00"
+      "video_checked_at": "2026-11-23T05:21:34.376111+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "android:com.mad1.sand.asmr.coloring": {
       "platform": "android",
@@ -4836,7 +4934,8 @@
       "review_count": 1,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:51.775634+00:00",
-      "video_checked_at": "2026-11-23T05:20:51.775634+00:00"
+      "video_checked_at": "2026-11-23T05:20:51.775634+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:and.brainworks.ufo.io": {
       "platform": "android",
@@ -4883,7 +4982,8 @@
       "review_count": 7,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:18:49.452824+00:00",
-      "video_checked_at": "2026-11-23T05:18:49.452824+00:00"
+      "video_checked_at": "2026-11-23T05:18:49.452824+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.everforge.gp": {
       "platform": "android",
@@ -4926,7 +5026,8 @@
       "review_count": 247,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:53.430919+00:00",
-      "video_checked_at": "2026-11-23T05:19:53.430919+00:00"
+      "video_checked_at": "2026-11-23T05:19:53.430919+00:00",
+      "last_updated_date": "2026-11-07"
     },
     "android:com.tangluck.casino.slots.spinshift.game.cash": {
       "platform": "android",
@@ -4967,7 +5068,8 @@
       "review_count": 38,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:22:07.064026+00:00",
-      "video_checked_at": "2026-11-23T05:22:07.064026+00:00"
+      "video_checked_at": "2026-11-23T05:22:07.064026+00:00",
+      "last_updated_date": "2026-11-04"
     },
     "android:com.fruitshake.laundry.sim": {
       "platform": "android",
@@ -5012,7 +5114,8 @@
       "review_count": 34,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:03.822704+00:00",
-      "video_checked_at": "2026-11-23T05:20:03.822704+00:00"
+      "video_checked_at": "2026-11-23T05:20:03.822704+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.netmarble.thered": {
       "platform": "android",
@@ -5072,7 +5175,8 @@
           "fallback_url": "https://www.youtube.com/embed/afeqxKMwTJ4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:16.121590+00:00"
+      "video_checked_at": "2026-11-23T05:21:16.121590+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "android:com.mahjongmatch.cashrewards": {
       "platform": "android",
@@ -5114,7 +5218,8 @@
       "review_count": 141,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:55.729714+00:00",
-      "video_checked_at": "2026-11-23T05:20:55.729714+00:00"
+      "video_checked_at": "2026-11-23T05:20:55.729714+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.spinringcashpuzzlezl.game": {
       "platform": "android",
@@ -5156,7 +5261,8 @@
       "review_count": 205,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:59.188246+00:00",
-      "video_checked_at": "2026-11-23T05:21:59.188246+00:00"
+      "video_checked_at": "2026-11-23T05:21:59.188246+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.any.scratchit": {
       "platform": "android",
@@ -5198,7 +5304,8 @@
       "review_count": 17,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:11.505149+00:00",
-      "video_checked_at": "2026-11-23T05:19:11.505149+00:00"
+      "video_checked_at": "2026-11-23T05:19:11.505149+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.circle.release.ring.puzzle": {
       "platform": "android",
@@ -5243,7 +5350,8 @@
       "review_count": 24,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:31.285429+00:00",
-      "video_checked_at": "2026-11-23T05:19:31.285429+00:00"
+      "video_checked_at": "2026-11-23T05:19:31.285429+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.dreamy.dress.jigcard.puzzle.free.games": {
       "platform": "android",
@@ -5290,7 +5398,8 @@
       "review_count": 62,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:40.624776+00:00",
-      "video_checked_at": "2026-11-23T05:19:40.624776+00:00"
+      "video_checked_at": "2026-11-23T05:19:40.624776+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.ob.eb.bubble.game": {
       "platform": "android",
@@ -5332,7 +5441,8 @@
       "review_count": 5,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:21:25.806813+00:00",
-      "video_checked_at": "2026-11-23T05:21:25.806813+00:00"
+      "video_checked_at": "2026-11-23T05:21:25.806813+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:com.miniclip.crime1": {
       "platform": "android",
@@ -5394,7 +5504,8 @@
           "fallback_url": "https://www.youtube.com/embed/U5nXhNMHgkI?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:04.704664+00:00"
+      "video_checked_at": "2026-11-23T05:21:04.704664+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.arrowiq.logic.puzzle.game": {
       "platform": "android",
@@ -5439,7 +5550,8 @@
       "review_count": 56,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:16.189381+00:00",
-      "video_checked_at": "2026-11-23T05:19:16.189381+00:00"
+      "video_checked_at": "2026-11-23T05:19:16.189381+00:00",
+      "last_updated_date": "2026-10-21"
     },
     "android:com.gimica.golfhop": {
       "platform": "android",
@@ -5484,7 +5596,8 @@
       "review_count": 5,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:15.527456+00:00",
-      "video_checked_at": "2026-11-23T05:20:15.527456+00:00"
+      "video_checked_at": "2026-11-23T05:20:15.527456+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.oakever.wordtile": {
       "platform": "android",
@@ -5531,7 +5644,8 @@
       "review_count": 17,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:21:25.361959+00:00",
-      "video_checked_at": "2026-11-23T05:21:25.361959+00:00"
+      "video_checked_at": "2026-11-23T05:21:25.361959+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.gdm.pencilrun": {
       "platform": "android",
@@ -5574,7 +5688,8 @@
       "review_count": 5,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:13.736345+00:00",
-      "video_checked_at": "2026-11-23T05:20:13.736345+00:00"
+      "video_checked_at": "2026-11-23T05:20:13.736345+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.bingorise.dailystart": {
       "platform": "android",
@@ -5615,7 +5730,8 @@
       "review_count": 24,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:20.870768+00:00",
-      "video_checked_at": "2026-11-23T05:19:20.870768+00:00"
+      "video_checked_at": "2026-11-23T05:19:20.870768+00:00",
+      "last_updated_date": "2026-11-11"
     },
     "android:com.bubble.blast.puzzle.game": {
       "platform": "android",
@@ -5666,7 +5782,8 @@
           "fallback_url": "https://www.youtube.com/embed/KLx3dSgOlFg?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:27.503626+00:00"
+      "video_checked_at": "2026-11-23T05:19:27.503626+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.somia.kpop.ragdoll.sandbox": {
       "platform": "android",
@@ -5706,7 +5823,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:58.394544+00:00",
-      "video_checked_at": "2026-11-23T05:21:58.394544+00:00"
+      "video_checked_at": "2026-11-23T05:21:58.394544+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:com.easybrain.rings.out.game": {
       "platform": "android",
@@ -5757,7 +5875,8 @@
           "fallback_url": "https://www.youtube.com/embed/FR4ePxohAPM?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:50.107296+00:00"
+      "video_checked_at": "2026-11-23T05:19:50.107296+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.deadpixel.coinsclickercollector.game": {
       "platform": "android",
@@ -5801,7 +5920,8 @@
       "review_count": 20,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:38.764210+00:00",
-      "video_checked_at": "2026-11-23T05:19:38.764210+00:00"
+      "video_checked_at": "2026-11-23T05:19:38.764210+00:00",
+      "last_updated_date": "2026-11-14"
     },
     "android:com.arrow.getup.move": {
       "platform": "android",
@@ -5842,7 +5962,8 @@
       "review_count": 12,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:19:13.054410+00:00",
-      "video_checked_at": "2026-11-23T05:19:13.054410+00:00"
+      "video_checked_at": "2026-11-23T05:19:13.054410+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.prw.pool": {
       "platform": "android",
@@ -5884,7 +6005,8 @@
       "review_count": 60,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:43.122032+00:00",
-      "video_checked_at": "2026-11-23T05:21:43.122032+00:00"
+      "video_checked_at": "2026-11-23T05:21:43.122032+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.mystery.dumpling.diy.squishy.unboxing.asmr": {
       "platform": "android",
@@ -5928,7 +6050,8 @@
       "review_count": 0,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:11.398885+00:00",
-      "video_checked_at": "2026-11-23T05:21:11.398885+00:00"
+      "video_checked_at": "2026-11-23T05:21:11.398885+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.gimica.ricochetgrove": {
       "platform": "android",
@@ -5972,7 +6095,8 @@
       "review_count": 4,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:17.292525+00:00",
-      "video_checked_at": "2026-11-23T05:20:17.292525+00:00"
+      "video_checked_at": "2026-11-23T05:20:17.292525+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.prismx.scary.baboon.night.escape": {
       "platform": "android",
@@ -6016,7 +6140,8 @@
       "review_count": 3,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:21:41.231019+00:00",
-      "video_checked_at": "2026-11-23T05:21:41.231019+00:00"
+      "video_checked_at": "2026-11-23T05:21:41.231019+00:00",
+      "last_updated_date": "2026-11-02"
     },
     "android:com.psv.backrooms.monster_escape": {
       "platform": "android",
@@ -6061,7 +6186,8 @@
       "review_count": 1,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:43.122032+00:00",
-      "video_checked_at": "2026-11-23T05:21:43.122032+00:00"
+      "video_checked_at": "2026-11-23T05:21:43.122032+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.numhop.app": {
       "platform": "android",
@@ -6100,7 +6226,8 @@
       "error": null,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:21.358382+00:00",
-      "video_checked_at": "2026-11-23T05:21:21.358382+00:00"
+      "video_checked_at": "2026-11-23T05:21:21.358382+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.lemjoy.oversea.google.killshot": {
       "platform": "android",
@@ -6141,7 +6268,8 @@
       "review_count": 28,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:46.864272+00:00",
-      "video_checked_at": "2026-11-23T05:20:46.864272+00:00"
+      "video_checked_at": "2026-11-23T05:20:46.864272+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.sts.echo": {
       "platform": "android",
@@ -6184,7 +6312,8 @@
       "review_count": 13,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:05.068808+00:00",
-      "video_checked_at": "2026-11-23T05:22:05.068808+00:00"
+      "video_checked_at": "2026-11-23T05:22:05.068808+00:00",
+      "last_updated_date": "2026-10-30"
     },
     "android:com.game.xcompute.ltd": {
       "platform": "android",
@@ -6228,7 +6357,8 @@
       "review_count": 13,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:06.502853+00:00",
-      "video_checked_at": "2026-11-23T05:20:06.502853+00:00"
+      "video_checked_at": "2026-11-23T05:20:06.502853+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.gdm.slowmo": {
       "platform": "android",
@@ -6267,7 +6397,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:13.742301+00:00",
-      "video_checked_at": "2026-11-23T05:20:13.742301+00:00"
+      "video_checked_at": "2026-11-23T05:20:13.742301+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.puffus.enigp": {
       "platform": "android",
@@ -6309,7 +6440,8 @@
       "review_count": 43,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:46.137191+00:00",
-      "video_checked_at": "2026-11-23T05:21:46.137191+00:00"
+      "video_checked_at": "2026-11-23T05:21:46.137191+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.pics.drop.jigsaw.solitaire": {
       "platform": "android",
@@ -6352,7 +6484,8 @@
       "review_count": 8,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:34.485007+00:00",
-      "video_checked_at": "2026-11-23T05:21:34.485007+00:00"
+      "video_checked_at": "2026-11-23T05:21:34.485007+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.funplus.st.region": {
       "platform": "android",
@@ -6394,7 +6527,8 @@
       "review_count": 21,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:05.152005+00:00",
-      "video_checked_at": "2026-11-23T05:20:05.152005+00:00"
+      "video_checked_at": "2026-11-23T05:20:05.152005+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.peb.autorace": {
       "platform": "android",
@@ -6435,7 +6569,8 @@
       "review_count": 44,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:32.596702+00:00",
-      "video_checked_at": "2026-11-23T05:21:32.596702+00:00"
+      "video_checked_at": "2026-11-23T05:21:32.596702+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.onepunch.battleground": {
       "platform": "android",
@@ -6475,7 +6610,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:28.893476+00:00",
-      "video_checked_at": "2026-11-23T05:21:28.893476+00:00"
+      "video_checked_at": "2026-11-23T05:21:28.893476+00:00",
+      "last_updated_date": "2026-11-11"
     },
     "android:com.arrowroutegridrushzl.game": {
       "platform": "android",
@@ -6517,7 +6653,8 @@
       "review_count": 106,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:16.389272+00:00",
-      "video_checked_at": "2026-11-23T05:19:16.389272+00:00"
+      "video_checked_at": "2026-11-23T05:19:16.389272+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.ccmstudio.survivor": {
       "platform": "android",
@@ -6579,7 +6716,8 @@
           "fallback_url": "https://www.youtube.com/embed/O0P5Kiv-ibA?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:29.538799+00:00"
+      "video_checked_at": "2026-11-23T05:19:29.538799+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:com.cookingjoy.chef.kitchen.restaurant.game": {
       "platform": "android",
@@ -6622,7 +6760,8 @@
       "review_count": 14,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:36.527332+00:00",
-      "video_checked_at": "2026-11-23T05:19:36.527332+00:00"
+      "video_checked_at": "2026-11-23T05:19:36.527332+00:00",
+      "last_updated_date": "2026-11-11"
     },
     "android:com.fowreed.dinocomd": {
       "platform": "android",
@@ -6661,7 +6800,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:00.373706+00:00",
-      "video_checked_at": "2026-11-23T05:20:00.373706+00:00"
+      "video_checked_at": "2026-11-23T05:20:00.373706+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.gamepark.bike.driving.gangster.games": {
       "platform": "android",
@@ -6706,7 +6846,8 @@
       "review_count": 0,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:09.030059+00:00",
-      "video_checked_at": "2026-11-23T05:20:09.030059+00:00"
+      "video_checked_at": "2026-11-23T05:20:09.030059+00:00",
+      "last_updated_date": "2026-11-14"
     },
     "android:com.mahjong.match.lucky.r8k3w6xs": {
       "platform": "android",
@@ -6748,7 +6889,8 @@
       "review_count": 77,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:53.688473+00:00",
-      "video_checked_at": "2026-11-23T05:20:53.688473+00:00"
+      "video_checked_at": "2026-11-23T05:20:53.688473+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.launcher.penaltykicks": {
       "platform": "android",
@@ -6791,7 +6933,8 @@
       "review_count": 8,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:45.140445+00:00",
-      "video_checked_at": "2026-11-23T05:20:45.140445+00:00"
+      "video_checked_at": "2026-11-23T05:20:45.140445+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "android:com.color.by.number.vibes": {
       "platform": "android",
@@ -6836,7 +6979,8 @@
       "review_count": 13,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:34.836646+00:00",
-      "video_checked_at": "2026-11-23T05:19:34.836646+00:00"
+      "video_checked_at": "2026-11-23T05:19:34.836646+00:00",
+      "last_updated_date": "2026-10-20"
     },
     "android:com.magichexa.sort": {
       "platform": "android",
@@ -6879,7 +7023,8 @@
       "review_count": 7,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:20:51.781618+00:00",
-      "video_checked_at": "2026-11-23T05:20:51.781618+00:00"
+      "video_checked_at": "2026-11-23T05:20:51.781618+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.candyjam.game": {
       "platform": "android",
@@ -6922,7 +7067,8 @@
       "review_count": 6,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:27.807787+00:00",
-      "video_checked_at": "2026-11-23T05:19:27.807787+00:00"
+      "video_checked_at": "2026-11-23T05:19:27.807787+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "android:com.agavegames.hexaword": {
       "platform": "android",
@@ -6969,7 +7115,8 @@
       "review_count": 43,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:07.600609+00:00",
-      "video_checked_at": "2026-11-23T05:19:07.600609+00:00"
+      "video_checked_at": "2026-11-23T05:19:07.600609+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.alexb.skyscraper": {
       "platform": "android",
@@ -7014,7 +7161,8 @@
       "review_count": 35,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:19:09.652060+00:00",
-      "video_checked_at": "2026-11-23T05:19:09.652060+00:00"
+      "video_checked_at": "2026-11-23T05:19:09.652060+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.manerai.scaryhotdog": {
       "platform": "android",
@@ -7067,7 +7215,8 @@
       "review_count": 32,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:55.729714+00:00",
-      "video_checked_at": "2026-11-23T05:20:55.729714+00:00"
+      "video_checked_at": "2026-11-23T05:20:55.729714+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "android:com.dynawave.bf.gb.gp": {
       "platform": "android",
@@ -7109,7 +7258,8 @@
       "review_count": 12,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:19:45.650674+00:00",
-      "video_checked_at": "2026-11-23T05:19:45.650674+00:00"
+      "video_checked_at": "2026-11-23T05:19:45.650674+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.eyestorm.grabcathospital": {
       "platform": "android",
@@ -7153,7 +7303,8 @@
       "review_count": 1,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:55.147896+00:00",
-      "video_checked_at": "2026-11-23T05:19:55.147896+00:00"
+      "video_checked_at": "2026-11-23T05:19:55.147896+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.pid.lilguardsman": {
       "platform": "android",
@@ -7207,7 +7358,8 @@
           "fallback_url": "https://www.youtube.com/embed/qGrt0PtxIyM?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:06.913379+00:00"
+      "video_checked_at": "2026-11-23T05:23:06.913379+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.spellgarden.thriftybusiness": {
       "platform": "android",
@@ -7261,7 +7413,8 @@
           "fallback_url": "https://www.youtube.com/embed/pcwNDJQvQJA?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:06.914376+00:00"
+      "video_checked_at": "2026-11-23T05:23:06.914376+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.playdigious.absolum": {
       "platform": "android",
@@ -7323,7 +7476,8 @@
           "fallback_url": "https://www.youtube.com/embed/vc00woXSPzQ?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:10.068240+00:00"
+      "video_checked_at": "2026-11-23T05:23:10.068240+00:00",
+      "last_updated_date": "2026-10-28"
     },
     "android:com.Doborog.CloneDroneInTheDangerPhone": {
       "platform": "android",
@@ -7379,7 +7533,8 @@
           "fallback_url": "https://www.youtube.com/embed/llEazs2o3Kc?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:10.068240+00:00"
+      "video_checked_at": "2026-11-23T05:23:10.068240+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.fundaygames.boosterpack": {
       "platform": "android",
@@ -7436,7 +7591,8 @@
           "fallback_url": "https://www.youtube.com/embed/dDypJVR1MQ4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:10.068240+00:00"
+      "video_checked_at": "2026-11-23T05:23:10.068240+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.bandainamcoent.op_restaurant": {
       "platform": "android",
@@ -7490,7 +7646,8 @@
           "fallback_url": "https://www.youtube.com/embed/yKd1qB18Nng?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:11.800461+00:00"
+      "video_checked_at": "2026-11-23T05:23:11.800461+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.theroottrees.android": {
       "platform": "android",
@@ -7542,7 +7699,8 @@
           "fallback_url": "https://www.youtube.com/embed/53a5HL33A3I?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:12.156163+00:00"
+      "video_checked_at": "2026-11-23T05:23:12.156163+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.payonce.chess": {
       "platform": "android",
@@ -7608,7 +7766,8 @@
       "media_checked_at": "2026-11-23T05:23:12.156163+00:00",
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:12.156163+00:00",
-      "video_checked_at": "2026-11-23T05:23:12.156163+00:00"
+      "video_checked_at": "2026-11-23T05:23:12.156163+00:00",
+      "last_updated_date": "2026-11-14"
     },
     "android:com.TheFarmerWasReplaced.TheFarmerWasReplaced": {
       "platform": "android",
@@ -7652,7 +7811,8 @@
       "review_count": 16,
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:13.516778+00:00",
-      "video_checked_at": "2026-11-23T05:23:13.516778+00:00"
+      "video_checked_at": "2026-11-23T05:23:13.516778+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.kidzzone.chess": {
       "platform": "android",
@@ -7718,7 +7878,8 @@
       "media_checked_at": "2026-11-23T05:23:13.624405+00:00",
       "installs": "500+",
       "metrics_checked_at": "2026-11-23T05:23:13.624405+00:00",
-      "video_checked_at": "2026-11-23T05:23:13.624405+00:00"
+      "video_checked_at": "2026-11-23T05:23:13.624405+00:00",
+      "last_updated_date": "2026-11-14"
     },
     "android:com.brainypet.myapp": {
       "platform": "android",
@@ -7760,7 +7921,8 @@
       "media_checked_at": "2026-11-23T05:23:13.940208+00:00",
       "installs": "100+",
       "metrics_checked_at": "2026-11-23T05:23:13.940208+00:00",
-      "video_checked_at": "2026-11-23T05:23:13.940208+00:00"
+      "video_checked_at": "2026-11-23T05:23:13.940208+00:00",
+      "last_updated_date": "2026-11-15"
     },
     "android:ai.game.maker": {
       "platform": "android",
@@ -7809,7 +7971,8 @@
       "review_count": 46,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:23:15.313246+00:00",
-      "video_checked_at": "2026-11-23T05:23:15.313246+00:00"
+      "video_checked_at": "2026-11-23T05:23:15.313246+00:00",
+      "last_updated_date": "2026-11-03"
     },
     "android:com.chillicactusgames.branchline": {
       "platform": "android",
@@ -7851,7 +8014,8 @@
       "media_checked_at": "2026-11-23T05:23:15.459029+00:00",
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:15.459029+00:00",
-      "video_checked_at": "2026-11-23T05:23:15.459029+00:00"
+      "video_checked_at": "2026-11-23T05:23:15.459029+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "android:com.buildbyhenri.printa": {
       "platform": "android",
@@ -7899,7 +8063,8 @@
       "error": null,
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:06.913379+00:00",
-      "video_checked_at": "2026-11-23T05:23:06.913379+00:00"
+      "video_checked_at": "2026-11-23T05:23:06.913379+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "ios:6752672568": {
       "platform": "ios",
@@ -7949,7 +8114,8 @@
       ],
       "rating": 4.72128,
       "rating_count": 386313,
-      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6761760135": {
       "platform": "ios",
@@ -7999,7 +8165,8 @@
       ],
       "rating": 4.80942,
       "rating_count": 454084,
-      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6499209744": {
       "platform": "ios",
@@ -8051,7 +8218,8 @@
       ],
       "rating": 4.7176,
       "rating_count": 753914,
-      "metrics_checked_at": "2026-11-23T05:18:29.210825+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.210825+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6483539426": {
       "platform": "ios",
@@ -8097,7 +8265,8 @@
       ],
       "rating": 4.61085,
       "rating_count": 446799,
-      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "ios:6746743297": {
       "platform": "ios",
@@ -8145,7 +8314,8 @@
       ],
       "rating": 4.67375,
       "rating_count": 31369,
-      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00",
+      "last_updated_date": "2026-11-15"
     },
     "ios:6759763476": {
       "platform": "ios",
@@ -8193,7 +8363,8 @@
       ],
       "rating": 4.70577,
       "rating_count": 94254,
-      "metrics_checked_at": "2026-11-23T05:18:34.126235+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.126235+00:00",
+      "last_updated_date": "2026-10-21"
     },
     "ios:431946152": {
       "platform": "ios",
@@ -8245,7 +8416,8 @@
       ],
       "rating": 4.51004,
       "rating_count": 20717605,
-      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:329218549": {
       "platform": "ios",
@@ -8299,7 +8471,8 @@
       ],
       "rating": 4.81049,
       "rating_count": 905094,
-      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "ios:1617391485": {
       "platform": "ios",
@@ -8350,7 +8523,8 @@
       ],
       "rating": 4.87195,
       "rating_count": 2871326,
-      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:638689075": {
       "platform": "ios",
@@ -8404,7 +8578,8 @@
       ],
       "rating": 4.74993,
       "rating_count": 2240606,
-      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6742809194": {
       "platform": "ios",
@@ -8458,7 +8633,8 @@
       ],
       "rating": 4.90433,
       "rating_count": 32141,
-      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00",
+      "last_updated_date": "2026-11-06"
     },
     "ios:6468921495": {
       "platform": "ios",
@@ -8508,7 +8684,8 @@
       ],
       "rating": 4.89699,
       "rating_count": 1837020,
-      "metrics_checked_at": "2026-11-23T05:18:27.123740+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.123740+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6758326278": {
       "platform": "ios",
@@ -8558,7 +8735,8 @@
       ],
       "rating": 4.68466,
       "rating_count": 284687,
-      "metrics_checked_at": "2026-11-23T05:18:34.125239+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.125239+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6793924927": {
       "platform": "ios",
@@ -8612,7 +8790,8 @@
       ],
       "rating": 4.81094,
       "rating_count": 108703,
-      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6756482832": {
       "platform": "ios",
@@ -8668,7 +8847,8 @@
       ],
       "rating": 4.62847,
       "rating_count": 34248,
-      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "ios:6812166638": {
       "platform": "ios",
@@ -8718,7 +8898,8 @@
       ],
       "rating": 4.7123,
       "rating_count": 11658,
-      "metrics_checked_at": "2026-11-23T05:18:38.519025+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.519025+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6783815362": {
       "platform": "ios",
@@ -8768,7 +8949,8 @@
       ],
       "rating": 4.90456,
       "rating_count": 86273,
-      "metrics_checked_at": "2026-11-23T05:18:38.517031+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.517031+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "ios:1623318294": {
       "platform": "ios",
@@ -8820,7 +9002,8 @@
       ],
       "rating": 4.61879,
       "rating_count": 216216,
-      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "ios:6780195090": {
       "platform": "ios",
@@ -8874,7 +9057,8 @@
       ],
       "rating": 4.75804,
       "rating_count": 18317,
-      "metrics_checked_at": "2026-11-23T05:18:38.516016+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.516016+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "ios:6757140488": {
       "platform": "ios",
@@ -8926,7 +9110,8 @@
       ],
       "rating": 4.63685,
       "rating_count": 21126,
-      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:1621328561": {
       "platform": "ios",
@@ -8980,7 +9165,8 @@
       ],
       "rating": 4.79753,
       "rating_count": 3899688,
-      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6760325543": {
       "platform": "ios",
@@ -9028,7 +9214,8 @@
       ],
       "rating": 4.65607,
       "rating_count": 155891,
-      "metrics_checked_at": "2026-11-23T05:18:36.306004+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.306004+00:00",
+      "last_updated_date": "2026-10-21"
     },
     "ios:6810886970": {
       "platform": "ios",
@@ -9076,7 +9263,8 @@
       ],
       "rating": 4.55226,
       "rating_count": 2296,
-      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:1443446174": {
       "platform": "ios",
@@ -9132,7 +9320,8 @@
       ],
       "rating": 4.63513,
       "rating_count": 859965,
-      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6802383216": {
       "platform": "ios",
@@ -9182,7 +9371,8 @@
       ],
       "rating": 4.72118,
       "rating_count": 4372,
-      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:1608987929": {
       "platform": "ios",
@@ -9226,7 +9416,8 @@
       ],
       "rating": 4.7115,
       "rating_count": 989637,
-      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6755495631": {
       "platform": "ios",
@@ -9270,7 +9461,8 @@
       ],
       "rating": 4.71174,
       "rating_count": 30250,
-      "metrics_checked_at": "2026-11-23T05:18:34.123246+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.123246+00:00",
+      "last_updated_date": "2026-11-11"
     },
     "ios:6761757565": {
       "platform": "ios",
@@ -9318,7 +9510,8 @@
       ],
       "rating": 4.89278,
       "rating_count": 8049,
-      "metrics_checked_at": "2026-11-23T05:18:36.306973+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.306973+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6779167923": {
       "platform": "ios",
@@ -9370,7 +9563,8 @@
       ],
       "rating": 4.74997,
       "rating_count": 47007,
-      "metrics_checked_at": "2026-11-23T05:18:38.516016+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.516016+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6760530627": {
       "platform": "ios",
@@ -9422,7 +9616,8 @@
       ],
       "rating": 4.88509,
       "rating_count": 32068,
-      "metrics_checked_at": "2026-11-23T05:18:36.306973+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.306973+00:00",
+      "last_updated_date": "2026-11-24"
     },
     "ios:6475757306": {
       "platform": "ios",
@@ -9474,7 +9669,8 @@
       ],
       "rating": 4.89879,
       "rating_count": 790146,
-      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6443575749": {
       "platform": "ios",
@@ -9528,7 +9724,8 @@
       ],
       "rating": 4.59098,
       "rating_count": 479109,
-      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00",
+      "last_updated_date": "2026-10-20"
     },
     "ios:6744975195": {
       "platform": "ios",
@@ -9580,7 +9777,8 @@
       ],
       "rating": 4.64401,
       "rating_count": 89212,
-      "metrics_checked_at": "2026-11-23T05:18:29.213820+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.213820+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:1287282214": {
       "platform": "ios",
@@ -9636,7 +9834,8 @@
       ],
       "rating": 4.66872,
       "rating_count": 2026033,
-      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00",
+      "last_updated_date": "2026-11-09"
     },
     "ios:6747492600": {
       "platform": "ios",
@@ -9686,7 +9885,8 @@
       ],
       "rating": 4.86394,
       "rating_count": 678196,
-      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6746437378": {
       "platform": "ios",
@@ -9733,7 +9933,8 @@
       ],
       "rating": 4.75333,
       "rating_count": 69514,
-      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00",
+      "last_updated_date": "2026-10-02"
     },
     "ios:6767091927": {
       "platform": "ios",
@@ -9783,7 +9984,8 @@
       ],
       "rating": 4.74442,
       "rating_count": 102597,
-      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:6748950306": {
       "platform": "ios",
@@ -9837,7 +10039,8 @@
       ],
       "rating": 4.66418,
       "rating_count": 234375,
-      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6471045672": {
       "platform": "ios",
@@ -9891,7 +10094,8 @@
       ],
       "rating": 4.61774,
       "rating_count": 63727,
-      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "ios:553834731": {
       "platform": "ios",
@@ -9947,7 +10151,8 @@
       ],
       "rating": 4.70369,
       "rating_count": 4052459,
-      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:512939461": {
       "platform": "ios",
@@ -9995,7 +10200,8 @@
       ],
       "rating": 4.64431,
       "rating_count": 3883643,
-      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6766297786": {
       "platform": "ios",
@@ -10039,7 +10245,8 @@
       ],
       "rating": 4.9189,
       "rating_count": 22578,
-      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6755183085": {
       "platform": "ios",
@@ -10091,7 +10298,8 @@
       ],
       "rating": 4.78259,
       "rating_count": 65334,
-      "metrics_checked_at": "2026-11-23T05:18:34.123246+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.123246+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6746328263": {
       "platform": "ios",
@@ -10139,7 +10347,8 @@
       ],
       "rating": 4.6378,
       "rating_count": 118987,
-      "metrics_checked_at": "2026-11-23T05:18:31.306977+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.306977+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6786206777": {
       "platform": "ios",
@@ -10189,7 +10398,8 @@
       ],
       "rating": 4.77527,
       "rating_count": 5976,
-      "metrics_checked_at": "2026-11-23T05:18:38.517031+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.517031+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6760377931": {
       "platform": "ios",
@@ -10239,7 +10449,8 @@
       ],
       "rating": 4.74281,
       "rating_count": 8935,
-      "metrics_checked_at": "2026-11-23T05:18:36.306004+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.306004+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:1423046460": {
       "platform": "ios",
@@ -10287,7 +10498,8 @@
       ],
       "rating": 4.55104,
       "rating_count": 3028572,
-      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:1446254576": {
       "platform": "ios",
@@ -10340,7 +10552,8 @@
       ],
       "rating": 4.61106,
       "rating_count": 598725,
-      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6754464806": {
       "platform": "ios",
@@ -10390,7 +10603,8 @@
       ],
       "rating": 4.538,
       "rating_count": 13617,
-      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6780891673": {
       "platform": "ios",
@@ -10438,7 +10652,8 @@
       ],
       "rating": 4.70439,
       "rating_count": 181379,
-      "metrics_checked_at": "2026-11-23T05:18:38.516016+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.516016+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "ios:1606549505": {
       "platform": "ios",
@@ -10486,7 +10701,8 @@
       ],
       "rating": 4.716,
       "rating_count": 1175992,
-      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:1562817072": {
       "platform": "ios",
@@ -10535,7 +10751,8 @@
       ],
       "rating": 4.55581,
       "rating_count": 487073,
-      "metrics_checked_at": "2026-11-23T05:18:24.821021+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.821021+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6755455500": {
       "platform": "ios",
@@ -10593,7 +10810,8 @@
       ],
       "rating": 4.75764,
       "rating_count": 51630,
-      "metrics_checked_at": "2026-11-23T05:18:34.123246+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.123246+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "ios:6767834940": {
       "platform": "ios",
@@ -10643,7 +10861,8 @@
       ],
       "rating": 4.85114,
       "rating_count": 15405,
-      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6739554056": {
       "platform": "ios",
@@ -10691,7 +10910,8 @@
       ],
       "rating": 4.60835,
       "rating_count": 239284,
-      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "ios:543186831": {
       "platform": "ios",
@@ -10737,7 +10957,8 @@
       ],
       "rating": 4.75164,
       "rating_count": 4824832,
-      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.122718+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "ios:6474133872": {
       "platform": "ios",
@@ -10795,7 +11016,8 @@
       ],
       "rating": 4.92807,
       "rating_count": 179222,
-      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.124741+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:406889139": {
       "platform": "ios",
@@ -10845,7 +11067,8 @@
       ],
       "rating": 4.78761,
       "rating_count": 1390562,
-      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "ios:6761896313": {
       "platform": "ios",
@@ -10893,7 +11116,8 @@
       ],
       "rating": 4.68947,
       "rating_count": 17760,
-      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00",
+      "last_updated_date": "2026-10-08"
     },
     "ios:307569751": {
       "platform": "ios",
@@ -10946,7 +11170,8 @@
       ],
       "rating": 4.79739,
       "rating_count": 301988,
-      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.823016+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6737595599": {
       "platform": "ios",
@@ -10999,7 +11224,8 @@
       ],
       "rating": 4.60484,
       "rating_count": 9758,
-      "metrics_checked_at": "2026-11-23T05:18:29.211823+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.211823+00:00",
+      "last_updated_date": "2026-10-21"
     },
     "ios:1521236603": {
       "platform": "ios",
@@ -11052,7 +11278,8 @@
       ],
       "rating": 4.81252,
       "rating_count": 194371,
-      "metrics_checked_at": "2026-11-23T05:18:24.820024+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.820024+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6748084174": {
       "platform": "ios",
@@ -11100,7 +11327,8 @@
       ],
       "rating": 4.71583,
       "rating_count": 595123,
-      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "ios:6771681639": {
       "platform": "ios",
@@ -11150,7 +11378,8 @@
       ],
       "rating": 4.9227,
       "rating_count": 27036,
-      "metrics_checked_at": "2026-11-23T05:18:36.309999+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.309999+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6446197181": {
       "platform": "ios",
@@ -11204,7 +11433,8 @@
       ],
       "rating": 4.87876,
       "rating_count": 59759,
-      "metrics_checked_at": "2026-11-23T05:18:27.123740+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.123740+00:00",
+      "last_updated_date": "2026-11-15"
     },
     "ios:6769314786": {
       "platform": "ios",
@@ -11258,7 +11488,8 @@
       ],
       "rating": 4.71988,
       "rating_count": 61471,
-      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00",
+      "last_updated_date": "2026-11-24"
     },
     "ios:1193508329": {
       "platform": "ios",
@@ -11310,7 +11541,8 @@
       ],
       "rating": 4.75668,
       "rating_count": 1876527,
-      "metrics_checked_at": "2026-11-23T05:18:22.204540+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.204540+00:00",
+      "last_updated_date": "2026-10-16"
     },
     "ios:6797929772": {
       "platform": "ios",
@@ -11362,7 +11594,8 @@
       ],
       "rating": 4.7314,
       "rating_count": 1653,
-      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "ios:6498920694": {
       "platform": "ios",
@@ -11420,7 +11653,8 @@
       ],
       "rating": 4.80004,
       "rating_count": 47540,
-      "metrics_checked_at": "2026-11-23T05:18:27.125739+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.125739+00:00",
+      "last_updated_date": "2026-10-22"
     },
     "ios:6824655215": {
       "platform": "ios",
@@ -11477,7 +11711,8 @@
       ],
       "rating": 3.13014,
       "rating_count": 146,
-      "metrics_checked_at": "2026-11-23T05:18:38.519025+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.519025+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "ios:6744304405": {
       "platform": "ios",
@@ -11529,7 +11764,8 @@
       ],
       "rating": 4.73282,
       "rating_count": 64852,
-      "metrics_checked_at": "2026-11-23T05:18:29.213820+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.213820+00:00",
+      "last_updated_date": "2026-09-01"
     },
     "ios:6752886832": {
       "platform": "ios",
@@ -11579,7 +11815,8 @@
       ],
       "rating": 4.60325,
       "rating_count": 11030,
-      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "ios:6757154335": {
       "platform": "ios",
@@ -11630,7 +11867,8 @@
       ],
       "rating": 4.6632,
       "rating_count": 47111,
-      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6740521489": {
       "platform": "ios",
@@ -11682,7 +11920,8 @@
       ],
       "rating": 4.35433,
       "rating_count": 1174,
-      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "ios:6796547048": {
       "platform": "ios",
@@ -11732,7 +11971,8 @@
       ],
       "rating": 4.92882,
       "rating_count": 4693,
-      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "ios:1094591345": {
       "platform": "ios",
@@ -11784,7 +12024,8 @@
       ],
       "rating": 4.00441,
       "rating_count": 657512,
-      "metrics_checked_at": "2026-11-23T05:18:22.204540+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.204540+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6759412341": {
       "platform": "ios",
@@ -11832,7 +12073,8 @@
       ],
       "rating": 4.59696,
       "rating_count": 45998,
-      "metrics_checked_at": "2026-11-23T05:18:34.125239+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.125239+00:00",
+      "last_updated_date": "2026-11-09"
     },
     "ios:6754059516": {
       "platform": "ios",
@@ -11888,7 +12130,8 @@
       ],
       "rating": 4.76176,
       "rating_count": 1658,
-      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00",
+      "last_updated_date": "2026-11-15"
     },
     "ios:6748397500": {
       "platform": "ios",
@@ -11936,7 +12179,8 @@
       ],
       "rating": 4.83528,
       "rating_count": 553717,
-      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "ios:6756185760": {
       "platform": "ios",
@@ -11984,7 +12228,8 @@
       ],
       "rating": 4.93614,
       "rating_count": 73269,
-      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00",
+      "last_updated_date": "2026-11-24"
     },
     "ios:1484468651": {
       "platform": "ios",
@@ -12027,7 +12272,8 @@
       ],
       "rating": 4.85236,
       "rating_count": 674786,
-      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00",
+      "last_updated_date": "2026-10-29"
     },
     "ios:1330123889": {
       "platform": "ios",
@@ -12079,7 +12325,8 @@
       ],
       "rating": 4.3221,
       "rating_count": 1625513,
-      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "ios:6824124102": {
       "platform": "ios",
@@ -12126,7 +12373,8 @@
       ],
       "rating": 4.72581,
       "rating_count": 186,
-      "metrics_checked_at": "2026-11-23T05:18:38.519025+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.519025+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6747028173": {
       "platform": "ios",
@@ -12182,7 +12430,8 @@
       ],
       "rating": 4.85034,
       "rating_count": 38668,
-      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00",
+      "last_updated_date": "2026-11-08"
     },
     "ios:6768253096": {
       "platform": "ios",
@@ -12226,7 +12475,8 @@
       ],
       "rating": 4.52514,
       "rating_count": 2725,
-      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.308999+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:1351168404": {
       "platform": "ios",
@@ -12284,7 +12534,8 @@
       ],
       "rating": 4.05843,
       "rating_count": 847195,
-      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.205538+00:00",
+      "last_updated_date": "2026-11-03"
     },
     "ios:6757350661": {
       "platform": "ios",
@@ -12332,7 +12583,8 @@
       ],
       "rating": 4.86849,
       "rating_count": 47563,
-      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:34.124241+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6747710694": {
       "platform": "ios",
@@ -12380,7 +12632,8 @@
       ],
       "rating": 4.55806,
       "rating_count": 16224,
-      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.308005+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "ios:6762268182": {
       "platform": "ios",
@@ -12430,7 +12683,8 @@
       ],
       "rating": 4.74291,
       "rating_count": 15022,
-      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:36.307971+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6787414784": {
       "platform": "ios",
@@ -12482,7 +12736,8 @@
       ],
       "rating": 4.72253,
       "rating_count": 6134,
-      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:38.518028+00:00",
+      "last_updated_date": "2026-07-22"
     },
     "ios:6450413462": {
       "platform": "ios",
@@ -12537,7 +12792,8 @@
       ],
       "rating": 4.82317,
       "rating_count": 152320,
-      "metrics_checked_at": "2026-11-23T05:18:27.123740+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:27.123740+00:00",
+      "last_updated_date": "2026-11-14"
     },
     "ios:6739069151": {
       "platform": "ios",
@@ -12589,7 +12845,8 @@
       ],
       "rating": 4.93224,
       "rating_count": 88430,
-      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.212823+00:00",
+      "last_updated_date": "2026-11-24"
     },
     "ios:6751056652": {
       "platform": "ios",
@@ -12643,7 +12900,8 @@
       ],
       "rating": 4.6519,
       "rating_count": 179042,
-      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309000+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:1602508478": {
       "platform": "ios",
@@ -12695,7 +12953,8 @@
       ],
       "rating": 4.94923,
       "rating_count": 868372,
-      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.822019+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "ios:1105855019": {
       "platform": "ios",
@@ -12749,7 +13008,8 @@
       ],
       "rating": 4.68788,
       "rating_count": 1700318,
-      "metrics_checked_at": "2026-11-23T05:18:22.204540+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.204540+00:00",
+      "last_updated_date": "2026-11-06"
     },
     "ios:6745761596": {
       "platform": "ios",
@@ -12807,7 +13067,8 @@
       ],
       "rating": 4.88755,
       "rating_count": 58180,
-      "metrics_checked_at": "2026-11-23T05:18:29.213820+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:29.213820+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:1580601028": {
       "platform": "ios",
@@ -12861,7 +13122,8 @@
       ],
       "rating": 4.75397,
       "rating_count": 35361,
-      "metrics_checked_at": "2026-11-23T05:18:24.821021+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.821021+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6753862216": {
       "platform": "ios",
@@ -12913,7 +13175,8 @@
       ],
       "rating": 4.81684,
       "rating_count": 9254,
-      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:31.309998+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:1522266397": {
       "platform": "ios",
@@ -12965,7 +13228,8 @@
       ],
       "rating": 4.70479,
       "rating_count": 374979,
-      "metrics_checked_at": "2026-11-23T05:18:24.821021+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:24.821021+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "ios:1475514684": {
       "platform": "ios",
@@ -13017,7 +13281,8 @@
       ],
       "rating": 4.6476,
       "rating_count": 259699,
-      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:22.206537+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "android:com.oakever.meowdoku": {
       "platform": "android",
@@ -13068,7 +13333,8 @@
       "review_count": 18131,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:23.465119+00:00",
-      "video_checked_at": "2026-11-23T05:21:23.465119+00:00"
+      "video_checked_at": "2026-11-23T05:21:23.465119+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.roblox.client": {
       "platform": "android",
@@ -13129,7 +13395,8 @@
           "fallback_url": "https://www.youtube.com/embed/zowmaH7hc5Q?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:48.514594+00:00"
+      "video_checked_at": "2026-11-23T05:21:48.514594+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.block.juggle": {
       "platform": "android",
@@ -13174,7 +13441,8 @@
       "review_count": 79972,
       "installs": "1,000,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:21.895139+00:00",
-      "video_checked_at": "2026-11-23T05:19:21.895139+00:00"
+      "video_checked_at": "2026-11-23T05:19:21.895139+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.rotatelab.cubeblast": {
       "platform": "android",
@@ -13225,7 +13493,8 @@
       "review_count": 1721,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:50.092561+00:00",
-      "video_checked_at": "2026-11-23T05:21:50.092561+00:00"
+      "video_checked_at": "2026-11-23T05:21:50.092561+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.mergegames.gossipharbor": {
       "platform": "android",
@@ -13287,7 +13556,8 @@
           "fallback_url": "https://www.youtube.com/embed/Kl-0KPlQ76M?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:00.908277+00:00"
+      "video_checked_at": "2026-11-23T05:21:00.908277+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "android:com.nebula.rotaterings": {
       "platform": "android",
@@ -13337,7 +13607,8 @@
       "review_count": 3621,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:14.421079+00:00",
-      "video_checked_at": "2026-11-23T05:21:14.421079+00:00"
+      "video_checked_at": "2026-11-23T05:21:14.421079+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.grandgames.magicsort": {
       "platform": "android",
@@ -13398,7 +13669,8 @@
       "review_count": 5423,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:25.276315+00:00",
-      "video_checked_at": "2026-11-23T05:20:25.276315+00:00"
+      "video_checked_at": "2026-11-23T05:20:25.276315+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:io.voodoo.paper2": {
       "platform": "android",
@@ -13459,7 +13731,8 @@
           "fallback_url": "https://www.youtube.com/embed/QzWlt6Ac7_4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:48.248960+00:00"
+      "video_checked_at": "2026-11-23T05:22:48.248960+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:com.cyphergames.royalsmash": {
       "platform": "android",
@@ -13520,7 +13793,8 @@
           "fallback_url": "https://www.youtube.com/embed/PcXnQKkYJik?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:36.586574+00:00"
+      "video_checked_at": "2026-11-23T05:19:36.586574+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:gridplus.busjam.carpuzzle": {
       "platform": "android",
@@ -13562,7 +13836,8 @@
       "review_count": 1519,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:38.854195+00:00",
-      "video_checked_at": "2026-11-23T05:22:38.854195+00:00"
+      "video_checked_at": "2026-11-23T05:22:38.854195+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.vitastudio.mahjong": {
       "platform": "android",
@@ -13613,7 +13888,8 @@
       "review_count": 74259,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:27.718201+00:00",
-      "video_checked_at": "2026-11-23T05:22:27.718201+00:00"
+      "video_checked_at": "2026-11-23T05:22:27.718201+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.oakever.sortparade": {
       "platform": "android",
@@ -13662,7 +13938,8 @@
       "review_count": 382,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:24.037941+00:00",
-      "video_checked_at": "2026-11-23T05:21:24.037941+00:00"
+      "video_checked_at": "2026-11-23T05:21:24.037941+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.epicgames.fortnite": {
       "platform": "android",
@@ -13712,7 +13989,8 @@
           "fallback_url": "https://www.youtube.com/embed/W56kHOFquCM?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:53.320843+00:00"
+      "video_checked_at": "2026-11-23T05:19:53.320843+00:00",
+      "last_updated_date": "2026-11-06"
     },
     "android:com.blockblast.lite": {
       "platform": "android",
@@ -13754,7 +14032,8 @@
       "review_count": 152,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:22.766162+00:00",
-      "video_checked_at": "2026-11-23T05:19:22.766162+00:00"
+      "video_checked_at": "2026-11-23T05:19:22.766162+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.agavegames.wordtiles": {
       "platform": "android",
@@ -13803,7 +14082,8 @@
       "review_count": 1785,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:09.652060+00:00",
-      "video_checked_at": "2026-11-23T05:19:09.652060+00:00"
+      "video_checked_at": "2026-11-23T05:19:09.652060+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.gl.unbolt": {
       "platform": "android",
@@ -13846,7 +14126,8 @@
       "review_count": 407,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:20:23.235360+00:00",
-      "video_checked_at": "2026-11-23T05:20:23.235360+00:00"
+      "video_checked_at": "2026-11-23T05:20:23.235360+00:00",
+      "last_updated_date": "2026-10-14"
     },
     "android:com.tank.busters": {
       "platform": "android",
@@ -13890,7 +14171,8 @@
       "review_count": 792,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:08.817400+00:00",
-      "video_checked_at": "2026-11-23T05:22:08.817400+00:00"
+      "video_checked_at": "2026-11-23T05:22:08.817400+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.fungames.blockcraft": {
       "platform": "android",
@@ -13935,7 +14217,8 @@
       "review_count": 76979,
       "installs": "500,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:04.378077+00:00",
-      "video_checked_at": "2026-11-23T05:20:04.378077+00:00"
+      "video_checked_at": "2026-11-23T05:20:04.378077+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.youmusic.magictiles": {
       "platform": "android",
@@ -14005,7 +14288,8 @@
           "fallback_url": "https://www.youtube.com/embed/5XXnRhCQrs4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:35.339693+00:00"
+      "video_checked_at": "2026-11-23T05:22:35.339693+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.playrix.township": {
       "platform": "android",
@@ -14061,7 +14345,8 @@
           "fallback_url": "https://www.youtube.com/embed/L46PkGz3SqI?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:39.427997+00:00"
+      "video_checked_at": "2026-11-23T05:21:39.427997+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.mimik.challenge.fun": {
       "platform": "android",
@@ -14103,7 +14388,8 @@
       "review_count": 100,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:04.600169+00:00",
-      "video_checked_at": "2026-11-23T05:21:04.600169+00:00"
+      "video_checked_at": "2026-11-23T05:21:04.600169+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:com.nebula.mahjongtile": {
       "platform": "android",
@@ -14148,7 +14434,8 @@
       "review_count": 21838,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:12.619841+00:00",
-      "video_checked_at": "2026-11-23T05:21:12.619841+00:00"
+      "video_checked_at": "2026-11-23T05:21:12.619841+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.oakever.arrows": {
       "platform": "android",
@@ -14195,7 +14482,8 @@
       "review_count": 9733,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:21.358382+00:00",
-      "video_checked_at": "2026-11-23T05:21:21.358382+00:00"
+      "video_checked_at": "2026-11-23T05:21:21.358382+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.chess": {
       "platform": "android",
@@ -14249,7 +14537,8 @@
           "fallback_url": "https://www.youtube.com/embed/LJeB5njvaLs?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:31.049499+00:00"
+      "video_checked_at": "2026-11-23T05:19:31.049499+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.superplaystudios.disneysolitairedreams": {
       "platform": "android",
@@ -14307,7 +14596,8 @@
       "review_count": 66035,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:07.024717+00:00",
-      "video_checked_at": "2026-11-23T05:22:07.024717+00:00"
+      "video_checked_at": "2026-11-23T05:22:07.024717+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.activision.callofduty.shooter": {
       "platform": "android",
@@ -14368,7 +14658,8 @@
           "source": "Google Play"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:04.407722+00:00"
+      "video_checked_at": "2026-11-23T05:19:04.407722+00:00",
+      "last_updated_date": "2026-11-09"
     },
     "android:com.brain.crazy.joygame": {
       "platform": "android",
@@ -14413,7 +14704,8 @@
       "review_count": 623,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:25.945908+00:00",
-      "video_checked_at": "2026-11-23T05:19:25.945908+00:00"
+      "video_checked_at": "2026-11-23T05:19:25.945908+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.combo.yarnflow": {
       "platform": "android",
@@ -14464,7 +14756,8 @@
       "review_count": 5335,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:36.169224+00:00",
-      "video_checked_at": "2026-11-23T05:19:36.169224+00:00"
+      "video_checked_at": "2026-11-23T05:19:36.169224+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.pocket.sort.coin.puzzle.game": {
       "platform": "android",
@@ -14522,7 +14815,8 @@
           "fallback_url": "https://www.youtube.com/embed/7xa_KmZCfA4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:41.230021+00:00"
+      "video_checked_at": "2026-11-23T05:21:41.230021+00:00",
+      "last_updated_date": "2026-11-04"
     },
     "android:com.Garawell.LoopSort": {
       "platform": "android",
@@ -14583,7 +14877,8 @@
       "review_count": 2588,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:18:58.779330+00:00",
-      "video_checked_at": "2026-11-23T05:18:58.779330+00:00"
+      "video_checked_at": "2026-11-23T05:18:58.779330+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.loop.packedloop": {
       "platform": "android",
@@ -14638,7 +14933,8 @@
       "review_count": 181,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:20:51.759496+00:00",
-      "video_checked_at": "2026-11-23T05:20:51.759496+00:00"
+      "video_checked_at": "2026-11-23T05:20:51.759496+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:in.playsimple.wordsearch": {
       "platform": "android",
@@ -14679,7 +14975,8 @@
       "review_count": 23753,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:42.959009+00:00",
-      "video_checked_at": "2026-11-23T05:22:42.959009+00:00"
+      "video_checked_at": "2026-11-23T05:22:42.959009+00:00",
+      "last_updated_date": "2026-11-05"
     },
     "android:com.sled.surfers.game": {
       "platform": "android",
@@ -14737,7 +15034,8 @@
           "fallback_url": "https://www.youtube.com/embed/fu17MhCyBvI?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:55.255138+00:00"
+      "video_checked_at": "2026-11-23T05:21:55.255138+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.vincentb.MobControl": {
       "platform": "android",
@@ -14786,7 +15084,8 @@
       "review_count": 43857,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:27.272859+00:00",
-      "video_checked_at": "2026-11-23T05:22:27.272859+00:00"
+      "video_checked_at": "2026-11-23T05:22:27.272859+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.farlightgames.warline.gp.global": {
       "platform": "android",
@@ -14831,7 +15130,8 @@
       "review_count": 1449,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:55.194059+00:00",
-      "video_checked_at": "2026-11-23T05:19:55.194059+00:00"
+      "video_checked_at": "2026-11-23T05:19:55.194059+00:00",
+      "last_updated_date": "2026-10-23"
     },
     "android:com.greatplay.farklecash": {
       "platform": "android",
@@ -14876,7 +15176,8 @@
       "review_count": 1564,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:28.045339+00:00",
-      "video_checked_at": "2026-11-23T05:20:28.045339+00:00"
+      "video_checked_at": "2026-11-23T05:20:28.045339+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.scopely.monopolygo": {
       "platform": "android",
@@ -14938,7 +15239,8 @@
           "fallback_url": "https://www.youtube.com/embed/ycb_N2qVkDM?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:51.927028+00:00"
+      "video_checked_at": "2026-11-23T05:21:51.927028+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:io.supercent.bulldozermasters": {
       "platform": "android",
@@ -15007,7 +15309,8 @@
           "fallback_url": "https://www.youtube.com/embed/0rQWaohSQWA?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:45.551859+00:00"
+      "video_checked_at": "2026-11-23T05:22:45.551859+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.mobsmile.coinbounce": {
       "platform": "android",
@@ -15055,7 +15358,8 @@
       "review_count": 317,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:21:06.532549+00:00",
-      "video_checked_at": "2026-11-23T05:21:06.532549+00:00"
+      "video_checked_at": "2026-11-23T05:21:06.532549+00:00",
+      "last_updated_date": "2026-11-08"
     },
     "android:com.king.candycrushsaga": {
       "platform": "android",
@@ -15119,7 +15423,8 @@
           "fallback_url": "https://www.youtube.com/embed/do9Qa8qPjNQ?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:42.486817+00:00"
+      "video_checked_at": "2026-11-23T05:20:42.486817+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.studio27.MelonPlayground": {
       "platform": "android",
@@ -15175,7 +15480,8 @@
           "fallback_url": "https://www.youtube.com/embed/GTZEbDUzcnI?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:05.090794+00:00"
+      "video_checked_at": "2026-11-23T05:22:05.090794+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:io.supercent.linkedcubic": {
       "platform": "android",
@@ -15236,7 +15542,8 @@
           "fallback_url": "https://www.youtube.com/embed/jmgOnqRPCQg?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:45.884675+00:00"
+      "video_checked_at": "2026-11-23T05:22:45.884675+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.robtopx.geometryjumplite": {
       "platform": "android",
@@ -15290,7 +15597,8 @@
           "fallback_url": "https://www.youtube.com/embed/k90y6PIzIaE?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:48.515592+00:00"
+      "video_checked_at": "2026-11-23T05:21:48.515592+00:00",
+      "last_updated_date": "2026-10-21"
     },
     "android:com.pixel.art.coloring.color.number": {
       "platform": "android",
@@ -15351,7 +15659,8 @@
       "review_count": 403187,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:37.571237+00:00",
-      "video_checked_at": "2026-11-23T05:21:37.571237+00:00"
+      "video_checked_at": "2026-11-23T05:21:37.571237+00:00",
+      "last_updated_date": "2026-10-23"
     },
     "android:sort.casual.color.cat.puzzle.match": {
       "platform": "android",
@@ -15396,7 +15705,8 @@
       "review_count": 226,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:23:02.238156+00:00",
-      "video_checked_at": "2026-11-23T05:23:02.238156+00:00"
+      "video_checked_at": "2026-11-23T05:23:02.238156+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.tfgco.apps.coloring.free.color.by.number": {
       "platform": "android",
@@ -15450,7 +15760,8 @@
           "fallback_url": "https://www.youtube.com/embed/dmOVc1QS8fE?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:10.976774+00:00"
+      "video_checked_at": "2026-11-23T05:22:10.976774+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.tocaboca.tocalifeworld": {
       "platform": "android",
@@ -15512,7 +15823,8 @@
           "fallback_url": "https://www.youtube.com/embed/zjdUU4c5Fzs?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:15.917864+00:00"
+      "video_checked_at": "2026-11-23T05:22:15.917864+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.matryoshka.cooking.vibes": {
       "platform": "android",
@@ -15565,7 +15877,8 @@
           "fallback_url": "https://www.youtube.com/embed/XJc_YQNcjUU?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:57.572122+00:00"
+      "video_checked_at": "2026-11-23T05:20:57.572122+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "android:com.moonactive.holestars": {
       "platform": "android",
@@ -15629,7 +15942,8 @@
           "fallback_url": "https://www.youtube.com/embed/OTeLNZm-rWo?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:10.775889+00:00"
+      "video_checked_at": "2026-11-23T05:21:10.775889+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.grandgames.catblockjam": {
       "platform": "android",
@@ -15684,7 +15998,8 @@
       "review_count": 225,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:25.205122+00:00",
-      "video_checked_at": "2026-11-23T05:20:25.205122+00:00"
+      "video_checked_at": "2026-11-23T05:20:25.205122+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:in.playsimple.crossword.go": {
       "platform": "android",
@@ -15728,7 +16043,8 @@
       "review_count": 3670,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:42.296016+00:00",
-      "video_checked_at": "2026-11-23T05:22:42.296016+00:00"
+      "video_checked_at": "2026-11-23T05:22:42.296016+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "android:busflow.traffic.puzzle": {
       "platform": "android",
@@ -15773,7 +16089,8 @@
       "review_count": 165,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:18:52.963997+00:00",
-      "video_checked_at": "2026-11-23T05:18:52.963997+00:00"
+      "video_checked_at": "2026-11-23T05:18:52.963997+00:00",
+      "last_updated_date": "2026-11-16"
     },
     "android:com.arcshoot.arena": {
       "platform": "android",
@@ -15815,7 +16132,8 @@
       "review_count": 17,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:11.505149+00:00",
-      "video_checked_at": "2026-11-23T05:19:11.505149+00:00"
+      "video_checked_at": "2026-11-23T05:19:11.505149+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:solitaire.patience.card.games.klondike.free": {
       "platform": "android",
@@ -15860,7 +16178,8 @@
       "review_count": 13010,
       "installs": "50,000,000+",
       "metrics_checked_at": "2026-11-23T05:23:01.945565+00:00",
-      "video_checked_at": "2026-11-23T05:23:01.945565+00:00"
+      "video_checked_at": "2026-11-23T05:23:01.945565+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "android:com.RC67.surprise.dumpling.ASMR.box": {
       "platform": "android",
@@ -15902,7 +16221,8 @@
       "review_count": 180,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:00.909003+00:00",
-      "video_checked_at": "2026-11-23T05:19:00.909003+00:00"
+      "video_checked_at": "2026-11-23T05:19:00.909003+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:sorting.games.goods.sort.triple.match3d.puzzle.stuff": {
       "platform": "android",
@@ -15964,7 +16284,8 @@
           "fallback_url": "https://www.youtube.com/embed/YlkgdLyM67A?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:02.238156+00:00"
+      "video_checked_at": "2026-11-23T05:23:02.238156+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.zigzagame.paranoize": {
       "platform": "android",
@@ -16008,7 +16329,8 @@
       "review_count": 1330,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:24:45.204658+00:00",
-      "video_checked_at": "2026-11-23T05:24:45.204658+00:00"
+      "video_checked_at": "2026-11-23T05:24:45.204658+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:sniper.war.target.soldier.shooter.aldagames.com": {
       "platform": "android",
@@ -16053,7 +16375,8 @@
       "review_count": 3207,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:23:00.109286+00:00",
-      "video_checked_at": "2026-11-23T05:23:00.109286+00:00"
+      "video_checked_at": "2026-11-23T05:23:00.109286+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "android:com.loomgames.pixelflow": {
       "platform": "android",
@@ -16105,7 +16428,8 @@
           "fallback_url": "https://www.youtube.com/embed/Hbi1fzQ7ggw?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:47.811140+00:00"
+      "video_checked_at": "2026-11-23T05:20:47.811140+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "android:com.easybrain.arrow.puzzle.game": {
       "platform": "android",
@@ -16161,7 +16485,8 @@
           "fallback_url": "https://www.youtube.com/embed/XKDtPxYrVhs?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:48.215002+00:00"
+      "video_checked_at": "2026-11-23T05:19:48.215002+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.underdogsports.fantasy": {
       "platform": "android",
@@ -16204,7 +16529,8 @@
       "review_count": 6003,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:25.365090+00:00",
-      "video_checked_at": "2026-11-23T05:22:25.365090+00:00"
+      "video_checked_at": "2026-11-23T05:22:25.365090+00:00",
+      "last_updated_date": "2026-11-17"
     },
     "android:com.paradyme.solarsmash": {
       "platform": "android",
@@ -16258,7 +16584,8 @@
           "fallback_url": "https://www.youtube.com/embed/NfQ7ScMkFyo?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:30.729545+00:00"
+      "video_checked_at": "2026-11-23T05:21:30.729545+00:00",
+      "last_updated_date": "2026-11-22"
     },
     "android:in.playsimple.wordtrip.association": {
       "platform": "android",
@@ -16303,7 +16630,8 @@
       "review_count": 2389,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:43.643998+00:00",
-      "video_checked_at": "2026-11-23T05:22:43.643998+00:00"
+      "video_checked_at": "2026-11-23T05:22:43.643998+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.kiloo.subwaysurf": {
       "platform": "android",
@@ -16366,7 +16694,8 @@
           "fallback_url": "https://www.youtube.com/embed/vSC4-8nzyDA?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:42.486817+00:00"
+      "video_checked_at": "2026-11-23T05:20:42.486817+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.tiny.ride.game": {
       "platform": "android",
@@ -16409,7 +16738,8 @@
       "review_count": 236,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:14.350263+00:00",
-      "video_checked_at": "2026-11-23T05:22:14.350263+00:00"
+      "video_checked_at": "2026-11-23T05:22:14.350263+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.dreamgames.royalkingdom": {
       "platform": "android",
@@ -16451,7 +16781,8 @@
       "review_count": 29042,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:40.048613+00:00",
-      "video_checked_at": "2026-11-23T05:19:40.048613+00:00"
+      "video_checked_at": "2026-11-23T05:19:40.048613+00:00",
+      "last_updated_date": "2026-11-13"
     },
     "android:com.gl.crowncrush": {
       "platform": "android",
@@ -16494,7 +16825,8 @@
       "review_count": 312,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:20:19.986380+00:00",
-      "video_checked_at": "2026-11-23T05:20:19.986380+00:00"
+      "video_checked_at": "2026-11-23T05:20:19.986380+00:00",
+      "last_updated_date": "2026-10-30"
     },
     "android:net.happywit.screw.out.jam": {
       "platform": "android",
@@ -16537,7 +16869,8 @@
       "review_count": 4230,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:54.978998+00:00",
-      "video_checked_at": "2026-11-23T05:22:54.978998+00:00"
+      "video_checked_at": "2026-11-23T05:22:54.978998+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.uc.gym.clicker": {
       "platform": "android",
@@ -16589,7 +16922,8 @@
       "review_count": 512,
       "installs": "50,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:23.605937+00:00",
-      "video_checked_at": "2026-11-23T05:22:23.605937+00:00"
+      "video_checked_at": "2026-11-23T05:22:23.605937+00:00",
+      "last_updated_date": "2026-11-14"
     },
     "android:com.h8games.littlefarmstory": {
       "platform": "android",
@@ -16651,7 +16985,8 @@
           "fallback_url": "https://www.youtube.com/embed/l5XFl3bBiJ0?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:28.805074+00:00"
+      "video_checked_at": "2026-11-23T05:20:28.805074+00:00",
+      "last_updated_date": "2026-11-21"
     },
     "android:com.ecffri.arrows": {
       "platform": "android",
@@ -16698,7 +17033,8 @@
       "review_count": 24163,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:50.311868+00:00",
-      "video_checked_at": "2026-11-23T05:19:50.311868+00:00"
+      "video_checked_at": "2026-11-23T05:19:50.311868+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "android:hidden.object.find.seek.search.mystery.puzzle.games.free": {
       "platform": "android",
@@ -16748,7 +17084,8 @@
       "review_count": 4601,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:42.296016+00:00",
-      "video_checked_at": "2026-11-23T05:22:42.296016+00:00"
+      "video_checked_at": "2026-11-23T05:22:42.296016+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.epicoro.castleclashers": {
       "platform": "android",
@@ -16804,7 +17141,8 @@
           "fallback_url": "https://www.youtube.com/embed/MGWM-yn94b8?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:53.429921+00:00"
+      "video_checked_at": "2026-11-23T05:19:53.429921+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.uncosoft.wordpuzzle": {
       "platform": "android",
@@ -16855,7 +17193,8 @@
       "review_count": 283,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:23.653074+00:00",
-      "video_checked_at": "2026-11-23T05:22:23.653074+00:00"
+      "video_checked_at": "2026-11-23T05:22:23.653074+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.vaultystudios.eightytwoand0": {
       "platform": "android",
@@ -16909,7 +17248,8 @@
           "fallback_url": "https://www.youtube.com/embed/5-R_b9um9bU?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:25.840973+00:00"
+      "video_checked_at": "2026-11-23T05:22:25.840973+00:00",
+      "last_updated_date": "2026-11-09"
     },
     "android:com.sg.lastaura.army.zombie.shooter": {
       "platform": "android",
@@ -16962,7 +17302,8 @@
           "fallback_url": "https://www.youtube.com/embed/v8mdGFJ0eSw?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:52.201585+00:00"
+      "video_checked_at": "2026-11-23T05:21:52.201585+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle": {
       "platform": "android",
@@ -17009,7 +17350,8 @@
       "review_count": 2662,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:51.373588+00:00",
-      "video_checked_at": "2026-11-23T05:22:51.373588+00:00"
+      "video_checked_at": "2026-11-23T05:22:51.373588+00:00",
+      "last_updated_date": "2026-11-06"
     },
     "android:com.oakever.tiletrip": {
       "platform": "android",
@@ -17062,7 +17404,8 @@
       "review_count": 13366,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:24.940291+00:00",
-      "video_checked_at": "2026-11-23T05:21:24.940291+00:00"
+      "video_checked_at": "2026-11-23T05:21:24.940291+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:com.puzzlegames.puzzlebrickslegend": {
       "platform": "android",
@@ -17107,7 +17450,8 @@
       "review_count": 1430,
       "installs": "50,000,000+",
       "metrics_checked_at": "2026-11-23T05:21:46.260895+00:00",
-      "video_checked_at": "2026-11-23T05:21:46.260895+00:00"
+      "video_checked_at": "2026-11-23T05:21:46.260895+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.tripledot.blockbash": {
       "platform": "android",
@@ -17165,7 +17509,8 @@
           "fallback_url": "https://www.youtube.com/embed/lvGREXLDlN4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:18.257924+00:00"
+      "video_checked_at": "2026-11-23T05:22:18.257924+00:00",
+      "last_updated_date": "2026-11-20"
     },
     "android:com.yolo.hiddenobjects": {
       "platform": "android",
@@ -17219,7 +17564,8 @@
           "fallback_url": "https://www.youtube.com/embed/Z7Xu9znlnPw?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:35.201266+00:00"
+      "video_checked_at": "2026-11-23T05:22:35.201266+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.leap.searchit": {
       "platform": "android",
@@ -17266,7 +17612,8 @@
       "review_count": 2827,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:46.075018+00:00",
-      "video_checked_at": "2026-11-23T05:20:46.075018+00:00"
+      "video_checked_at": "2026-11-23T05:20:46.075018+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.gof.global": {
       "platform": "android",
@@ -17309,7 +17656,8 @@
       "review_count": 42617,
       "installs": "100,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:23.452192+00:00",
-      "video_checked_at": "2026-11-23T05:20:23.452192+00:00"
+      "video_checked_at": "2026-11-23T05:20:23.452192+00:00",
+      "last_updated_date": "2026-10-28"
     },
     "android:com.thrivegames.bashbest": {
       "platform": "android",
@@ -17358,7 +17706,8 @@
       "review_count": 1017,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:22:14.121699+00:00",
-      "video_checked_at": "2026-11-23T05:22:14.121699+00:00"
+      "video_checked_at": "2026-11-23T05:22:14.121699+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "android:ball.sort.puzzle.color.sorting.bubble.games": {
       "platform": "android",
@@ -17418,7 +17767,8 @@
           "fallback_url": "https://www.youtube.com/embed/_5nXZs4ekj8?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:18:52.128922+00:00"
+      "video_checked_at": "2026-11-23T05:18:52.128922+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:io.voodoo.holeio": {
       "platform": "android",
@@ -17488,7 +17838,8 @@
           "fallback_url": "https://www.youtube.com/embed/3pu8nD2q5IE?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:47.682811+00:00"
+      "video_checked_at": "2026-11-23T05:22:47.682811+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "android:bus.sand.fall.jam.loop.traffic.flow": {
       "platform": "android",
@@ -17530,7 +17881,8 @@
       "review_count": 659,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:18:52.154318+00:00",
-      "video_checked_at": "2026-11-23T05:18:52.154318+00:00"
+      "video_checked_at": "2026-11-23T05:18:52.154318+00:00",
+      "last_updated_date": "2026-10-23"
     },
     "android:com.ht2.stick.hero": {
       "platform": "android",
@@ -17590,7 +17942,8 @@
           "fallback_url": "https://www.youtube.com/embed/mrrkXugFyjo?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:36.790818+00:00"
+      "video_checked_at": "2026-11-23T05:20:36.790818+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "android:com.brain.logic.joygame": {
       "platform": "android",
@@ -17635,7 +17988,8 @@
       "review_count": 564,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:25.945908+00:00",
-      "video_checked_at": "2026-11-23T05:19:25.945908+00:00"
+      "video_checked_at": "2026-11-23T05:19:25.945908+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:com.miniclip.eightballpool": {
       "platform": "android",
@@ -17702,7 +18056,8 @@
           "fallback_url": "https://www.youtube.com/embed/MkKWx0uVyRw?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:04.704664+00:00"
+      "video_checked_at": "2026-11-23T05:21:04.704664+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "android:pampam.ibf2": {
       "platform": "android",
@@ -17756,7 +18111,8 @@
           "fallback_url": "https://www.youtube.com/embed/atwg-I3TkfM?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:56.820488+00:00"
+      "video_checked_at": "2026-11-23T05:22:56.820488+00:00",
+      "last_updated_date": "2026-11-12"
     },
     "android:jp.co.goodroid.hyper.busflow": {
       "platform": "android",
@@ -17798,7 +18154,8 @@
       "review_count": 2480,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:24:45.211612+00:00",
-      "video_checked_at": "2026-11-23T05:24:45.211612+00:00"
+      "video_checked_at": "2026-11-23T05:24:45.211612+00:00",
+      "last_updated_date": "2026-11-18"
     },
     "ios:6761419783": {
       "platform": "ios",
@@ -17845,7 +18202,8 @@
       "media_checked_at": "2026-11-23T05:18:45.172713+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "ios:6761043541": {
       "platform": "ios",
@@ -17896,7 +18254,8 @@
       "media_checked_at": "2026-11-23T05:18:45.172713+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "ios:6768564100": {
       "platform": "ios",
@@ -17945,7 +18304,8 @@
       "media_checked_at": "2026-11-23T05:18:36.308999+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-06"
     },
     "ios:1506229470": {
       "platform": "ios",
@@ -18003,7 +18363,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "release_date": "2020-06-23",
       "release_date_raw": "2020-06-23T07:00:00Z",
-      "checked_at": "2026-11-23T10:58:48.815813+00:00"
+      "checked_at": "2026-11-23T10:58:48.815813+00:00",
+      "last_updated_date": "2026-11-23"
     },
     "ios:6751794501": {
       "platform": "ios",
@@ -18052,7 +18413,8 @@
       "media_status": "complete",
       "video_attempted_at": "2026-11-19T12:01:44.746310+00:00",
       "media_checked_at": "2026-11-23T05:18:31.309000+00:00",
-      "checked_at": "2026-11-19T12:01:44.746310+00:00"
+      "checked_at": "2026-11-19T12:01:44.746310+00:00",
+      "last_updated_date": "2026-11-10"
     },
     "ios:6739792763": {
       "platform": "ios",
@@ -18104,7 +18466,8 @@
       "media_checked_at": "2026-11-23T05:18:45.172713+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-24"
     },
     "ios:6566176181": {
       "platform": "ios",
@@ -18153,7 +18516,8 @@
       "media_checked_at": "2026-11-23T05:18:29.211823+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     "android:com.moonactive.cmboard": {
       "platform": "android",
@@ -18220,7 +18584,8 @@
       "media_checked_at": "2026-11-23T05:23:25.843040+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "android:com.heartsnet.clickwood.gp": {
       "platform": "android",
@@ -18265,7 +18630,8 @@
       "media_checked_at": "2026-11-23T05:23:28.962463+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.nebula.arrows": {
       "platform": "android",
@@ -18310,7 +18676,8 @@
       "media_checked_at": "2026-11-23T05:23:32.348133+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.liteorange.hometopia": {
       "platform": "android",
@@ -18357,7 +18724,8 @@
       "media_checked_at": "2026-11-23T05:23:28.962463+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.godlike.vigormahjong": {
       "platform": "android",
@@ -18409,7 +18777,8 @@
       "media_checked_at": "2026-11-23T05:20:23.452192+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:cube.clear.burst.spin.sweep.puzzle.rotate": {
       "platform": "android",
@@ -18459,7 +18828,8 @@
       "media_checked_at": "2026-11-23T05:23:32.348133+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-02"
     },
     "android:com.mahjong.master.solitaire.match.puzzle": {
       "platform": "android",
@@ -18505,7 +18875,8 @@
       "media_checked_at": "2026-11-23T05:20:53.688473+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.gl.bus": {
       "platform": "android",
@@ -18550,7 +18921,8 @@
       "media_checked_at": "2026-11-23T05:23:32.348133+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.mad.city.miami.gangster3d": {
       "platform": "android",
@@ -18595,7 +18967,8 @@
       "media_checked_at": "2026-11-23T05:23:15.780555+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     "android:com.pointaway.gp": {
       "platform": "android",
@@ -18640,7 +19013,8 @@
       "media_checked_at": "2026-11-23T05:23:20.235664+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.sort.solitairegoddess.card.gp": {
       "platform": "android",
@@ -18686,7 +19060,8 @@
       "media_checked_at": "2026-11-23T05:23:21.688351+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-02"
     },
     "android:com.hp.fidget.clicker.finger3d.toy": {
       "platform": "android",
@@ -18742,7 +19117,8 @@
       "error": null,
       "rating": 4.4,
       "rating_count": 93,
-      "review_count": 5
+      "review_count": 5,
+      "last_updated_date": "2026-11-18"
     },
     "android:com.arrruswincas.arwcgame": {
       "platform": "android",
@@ -18788,7 +19164,8 @@
       "media_checked_at": "2026-11-23T05:23:22.197170+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.Sunborn.SnqxExilium.Glo": {
       "platform": "android",
@@ -18842,7 +19219,8 @@
       "media_checked_at": "2026-11-23T05:23:23.597365+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-28"
     },
     "android:com.gamee.wonder.squad.pullthepin.puzzle": {
       "platform": "android",
@@ -18887,7 +19265,8 @@
       "media_checked_at": "2026-11-23T05:23:23.597365+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.fun.isles.game.gp": {
       "platform": "android",
@@ -18940,7 +19319,8 @@
       "media_checked_at": "2026-11-23T05:23:25.304480+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-24"
     },
     "android:com.c9stdgamegp.tilegp": {
       "platform": "android",
@@ -18985,7 +19365,8 @@
       "media_checked_at": "2026-11-23T05:23:24.010443+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-24"
     },
     "android:com.tank.slam": {
       "platform": "android",
@@ -19030,7 +19411,8 @@
       "error": null,
       "rating": 3.4,
       "rating_count": 5,
-      "review_count": 5
+      "review_count": 5,
+      "last_updated_date": "2026-11-10"
     },
     "android:games.burny.factifact.wordpuzzle.quiz": {
       "platform": "android",
@@ -19086,7 +19468,8 @@
       "media_checked_at": "2026-11-23T05:23:28.962463+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "android:tw.idv.ananshop.i3dBrick": {
       "platform": "android",
@@ -19140,7 +19523,8 @@
       "media_checked_at": "2026-11-23T05:23:20.234667+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     "android:com.minoslab.cashgarden": {
       "platform": "android",
@@ -19192,7 +19576,8 @@
       "media_checked_at": "2026-11-23T05:23:20.235664+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "ios:6748948029": {
       "platform": "ios",
@@ -19251,7 +19636,8 @@
       "media_checked_at": "2026-11-23T05:18:45.173710+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "ios:6805725616": {
       "platform": "ios",
@@ -19300,7 +19686,8 @@
       "media_checked_at": "2026-11-23T05:18:45.173710+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     "ios:1094930513": {
       "platform": "ios",
@@ -19366,7 +19753,8 @@
       "media_checked_at": "2026-11-23T05:18:22.204540+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-09-24"
     },
     "ios:6760998152": {
       "platform": "ios",
@@ -19415,7 +19803,8 @@
       "media_checked_at": "2026-11-23T05:18:36.306973+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-09"
     },
     "ios:6468845173": {
       "platform": "ios",
@@ -19460,7 +19849,8 @@
       "media_checked_at": "2026-11-23T05:18:45.173710+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2025-09-11"
     },
     "ios:6738905436": {
       "platform": "ios",
@@ -19511,7 +19901,8 @@
       "media_checked_at": "2026-11-23T05:18:45.173710+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-28"
     },
     "android:com.hitappsgames.wordsolitaire": {
       "platform": "android",
@@ -19567,7 +19958,8 @@
       "media_checked_at": "2026-11-23T05:20:33.123917+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.moonactive.coinmaster": {
       "platform": "android",
@@ -19627,7 +20019,8 @@
       "media_checked_at": "2026-11-23T05:21:09.632793+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-15"
     },
     "android:com.smilerlee.klondike": {
       "platform": "android",
@@ -19683,7 +20076,8 @@
       "media_checked_at": "2026-11-23T05:21:57.078098+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2025-12-29"
     },
     "android:com.hnhs.endlesssea.gp": {
       "platform": "android",
@@ -19728,7 +20122,8 @@
       "media_checked_at": "2026-11-23T05:23:43.956577+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-07"
     },
     "android:com.nebula.tiles": {
       "platform": "android",
@@ -19773,7 +20168,8 @@
       "media_checked_at": "2026-11-23T05:21:14.425095+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.sweetmagic.match3.puzzlegame": {
       "platform": "android",
@@ -19821,7 +20217,8 @@
       "media_checked_at": "2026-11-23T05:23:32.469444+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     "android:com.trickypuzzle.brainyquest.logic.teaser": {
       "platform": "android",
@@ -19868,7 +20265,8 @@
       "error": null,
       "rating": 4.677419,
       "rating_count": 137,
-      "review_count": 4
+      "review_count": 4,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.nordcurrent.cruisechefs": {
       "platform": "android",
@@ -19932,7 +20330,8 @@
       "media_checked_at": "2026-11-23T05:23:34.289077+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     "android:com.pl.bike.blitzz.racing.sports": {
       "platform": "android",
@@ -19975,7 +20374,8 @@
       "media_checked_at": "2026-11-23T05:23:34.471949+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.wordmahjong.game": {
       "platform": "android",
@@ -20020,7 +20420,8 @@
       "media_checked_at": "2026-11-23T05:23:34.471949+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.bushraapp.word": {
       "platform": "android",
@@ -20065,7 +20466,8 @@
       "media_checked_at": "2026-11-23T05:23:37.115722+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-04"
     },
     "android:com.heartshot.arrowescape": {
       "platform": "android",
@@ -20109,7 +20511,8 @@
       "media_checked_at": "2026-11-23T05:23:40.266103+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-04"
     },
     "android:com.Animal.Evolution.Escape.Run": {
       "platform": "android",
@@ -20156,7 +20559,8 @@
       "media_checked_at": "2026-11-23T05:23:40.266103+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "android:com.arrowquest.puzzle": {
       "platform": "android",
@@ -20201,7 +20605,8 @@
       "media_checked_at": "2026-11-23T05:23:40.299328+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.RC78B.Mimic.Master.Meme.Challenge": {
       "platform": "android",
@@ -20245,7 +20650,8 @@
       "media_checked_at": "2026-11-23T05:23:42.053891+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.hit.wall": {
       "platform": "android",
@@ -20287,7 +20693,8 @@
       "media_checked_at": "2026-11-23T05:23:42.110205+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-10"
     },
     "android:com.zymobile.merge3.monster.merger.gp": {
       "platform": "android",
@@ -20332,7 +20739,8 @@
       "media_checked_at": "2026-11-23T05:23:42.149637+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.genstar.mm.gb.gp": {
       "platform": "android",
@@ -20377,7 +20785,8 @@
       "media_checked_at": "2026-11-23T05:23:43.883068+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "ios:6473058122": {
       "platform": "ios",
@@ -20431,7 +20840,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "release_date": "2023-12-05",
       "release_date_raw": "2023-12-05T08:00:00Z",
-      "checked_at": "2026-11-23T10:58:48.815813+00:00"
+      "checked_at": "2026-11-23T10:58:48.815813+00:00",
+      "last_updated_date": "2026-11-19"
     },
     "ios:6745120053": {
       "platform": "ios",
@@ -20488,7 +20898,8 @@
       "media_checked_at": "2026-11-23T05:18:29.213820+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "ios:6776522053": {
       "platform": "ios",
@@ -20538,7 +20949,8 @@
       "media_checked_at": "2026-11-23T05:18:45.173710+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-24"
     },
     "ios:1597760047": {
       "platform": "ios",
@@ -20596,7 +21008,8 @@
       "media_checked_at": "2026-11-23T05:18:24.821021+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "ios:6444407009": {
       "platform": "ios",
@@ -20641,7 +21054,8 @@
       "media_checked_at": "2026-11-23T05:18:45.173710+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-08-17"
     },
     "ios:1545567989": {
       "platform": "ios",
@@ -20698,7 +21112,8 @@
       "media_checked_at": "2026-11-23T05:18:24.821021+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     "ios:6560107504": {
       "platform": "ios",
@@ -20743,7 +21158,8 @@
       "media_checked_at": "2026-11-23T05:18:29.211823+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.gryphline.endfield.gp": {
       "platform": "android",
@@ -20796,7 +21212,8 @@
       "media_checked_at": "2026-11-23T05:23:53.938102+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-08"
     },
     "android:com.d24.rp.open.world.grand.gangster": {
       "platform": "android",
@@ -20841,7 +21258,8 @@
       "media_checked_at": "2026-11-23T05:23:54.263516+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-22"
     },
     "android:com.GybeGames.ColorBlockJam": {
       "platform": "android",
@@ -20894,7 +21312,8 @@
       "media_checked_at": "2026-11-23T05:18:58.851282+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.rockstargames.gtavc.de": {
       "platform": "android",
@@ -20944,7 +21363,8 @@
       "media_checked_at": "2026-11-23T05:23:54.319987+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2025-09-04"
     },
     "android:line.tangle.twist.away.puzzle": {
       "platform": "android",
@@ -20992,7 +21412,8 @@
       "media_checked_at": "2026-11-23T05:24:47.560306+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.poolchange.citytire": {
       "platform": "android",
@@ -21037,7 +21458,8 @@
       "media_checked_at": "2026-11-23T05:23:44.169971+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     "android:com.rosybarn.briskbyre": {
       "platform": "android",
@@ -21079,7 +21501,8 @@
       "media_checked_at": "2026-11-23T05:23:45.934343+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-04"
     },
     "android:com.krillion.game": {
       "platform": "android",
@@ -21129,7 +21552,8 @@
       "media_checked_at": "2026-11-23T05:23:45.934343+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     "android:com.mojinsea.gp": {
       "platform": "android",
@@ -21174,7 +21598,8 @@
       "media_checked_at": "2026-11-23T05:23:46.032425+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-12"
     },
     "android:com.tidymasterpuzzle1.gp": {
       "platform": "android",
@@ -21220,7 +21645,8 @@
       "media_checked_at": "2026-11-23T05:23:50.099815+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     "android:com.minigames.mergegame.fruitdrop": {
       "platform": "android",
@@ -21266,7 +21692,8 @@
       "media_checked_at": "2026-11-23T05:23:50.099815+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.find.hidden.objects.puzzle.free.games": {
       "platform": "android",
@@ -21316,7 +21743,8 @@
       "media_checked_at": "2026-11-23T05:23:50.099815+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.combo.cubesmash": {
       "platform": "android",
@@ -21410,7 +21838,8 @@
       "media_checked_at": "2026-11-23T05:23:50.873767+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     "android:find.tidy.house.sort.puzzle.game": {
       "platform": "android",
@@ -21458,7 +21887,8 @@
       "error": null,
       "rating": 4.6538463,
       "rating_count": 130,
-      "review_count": 6
+      "review_count": 6,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.game.quack.screw.unriddle.money": {
       "platform": "android",
@@ -21503,7 +21933,8 @@
       "media_checked_at": "2026-11-23T05:23:52.547040+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.bingo.cash.jackpot.vegas": {
       "platform": "android",
@@ -21549,7 +21980,8 @@
       "media_checked_at": "2026-11-23T05:23:52.595787+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "ios:6818465459": {
       "platform": "ios",
@@ -21601,7 +22033,8 @@
       "media_checked_at": "2026-11-23T05:18:45.174740+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "ios:6831317859": {
       "platform": "ios",
@@ -21652,7 +22085,8 @@
       "media_checked_at": "2026-11-23T05:18:45.174740+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     "ios:1453837845": {
       "platform": "ios",
@@ -21709,7 +22143,8 @@
       "media_checked_at": "2026-11-23T05:18:22.206537+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "ios:1366478176": {
       "platform": "ios",
@@ -21758,7 +22193,8 @@
       "media_checked_at": "2026-11-23T05:18:45.174740+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "ios:6468901311": {
       "platform": "ios",
@@ -21807,7 +22243,8 @@
       "media_checked_at": "2026-11-23T05:18:45.174740+00:00",
       "last_attempt_at": "2026-11-22T11:51:21.702967+00:00",
       "checked_at": "2026-11-22T11:51:21.702967+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     "android:com.sniper.shoot.hide.game": {
       "platform": "android",
@@ -21855,7 +22292,8 @@
       "media_checked_at": "2026-11-23T05:24:08.642901+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-09"
     },
     "android:com.hollywood.merge": {
       "platform": "android",
@@ -21900,7 +22338,8 @@
       "media_checked_at": "2026-11-23T05:20:33.123917+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.nianticlabs.pokemongo": {
       "platform": "android",
@@ -21947,7 +22386,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "android:com.peoplefun.wordcross": {
       "platform": "android",
@@ -22011,7 +22451,8 @@
       "media_checked_at": "2026-11-23T05:24:08.642901+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.special.wolfwar.survivalgame": {
       "platform": "android",
@@ -22065,7 +22506,8 @@
       "media_checked_at": "2026-11-23T05:23:59.791308+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "android:com.mystery.dumplings.unboxing.livestreamasmr": {
       "platform": "android",
@@ -22108,7 +22550,8 @@
       "media_checked_at": "2026-11-23T05:23:59.840022+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.kiwigames.packthemess.find.sort": {
       "platform": "android",
@@ -22164,7 +22607,8 @@
       "media_checked_at": "2026-11-23T05:24:01.681812+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.guess.mydraw.collapse": {
       "platform": "android",
@@ -22208,7 +22652,8 @@
       "media_checked_at": "2026-11-23T05:24:01.681812+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "android:com.topgamesinc.snowpinelane": {
       "platform": "android",
@@ -22261,7 +22706,8 @@
       "media_checked_at": "2026-11-23T05:24:01.815579+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-24"
     },
     "android:com.specops.shooter": {
       "platform": "android",
@@ -22308,7 +22754,8 @@
       "media_checked_at": "2026-11-23T05:24:03.399508+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     "android:com.davestudio.mika": {
       "platform": "android",
@@ -22364,7 +22811,8 @@
       "media_checked_at": "2026-11-23T05:24:03.596616+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     "android:com.v2r.JewelLegendDungeonSlime": {
       "platform": "android",
@@ -22412,7 +22860,8 @@
       "media_checked_at": "2026-11-23T05:24:03.640739+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.kigle.cocobi.littlemonsterhospital": {
       "platform": "android",
@@ -22472,7 +22921,8 @@
       "media_checked_at": "2026-11-23T05:24:05.250363+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     "android:com.game.dropcolorblocks": {
       "platform": "android",
@@ -22515,7 +22965,8 @@
       "media_checked_at": "2026-11-23T05:24:05.430731+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-23"
     },
     "android:com.vioraglass.colorsort": {
       "platform": "android",
@@ -22560,7 +23011,8 @@
       "media_checked_at": "2026-11-23T05:24:05.470213+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-02"
     },
     "android:com.buildapps.neuro_zip": {
       "platform": "android",
@@ -22613,7 +23065,8 @@
       "media_checked_at": "2026-11-23T05:23:59.809759+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     "ios:1389111413": {
       "platform": "ios",
@@ -22665,7 +23118,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "ios:6740699102": {
       "platform": "ios",
@@ -22713,7 +23167,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.s01.global": {
       "platform": "android",
@@ -22760,7 +23215,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "android:com.u1.relax.minigame3": {
       "platform": "android",
@@ -22824,7 +23280,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.cs.nail.salon.asmr.diy": {
       "platform": "android",
@@ -22870,7 +23327,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "android:com.metax.obby.escape.run": {
       "platform": "android",
@@ -22915,7 +23373,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     "android:com.pl.clean.perfect.asrm.ocd": {
       "platform": "android",
@@ -22970,7 +23429,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.agavegames.findthecat2": {
       "platform": "android",
@@ -23024,7 +23484,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.totalbattle": {
       "platform": "android",
@@ -23071,7 +23532,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.webyerim.game.word.jam": {
       "platform": "android",
@@ -23123,7 +23585,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     "android:com.arrowparh.rushpath.ynsjad": {
       "platform": "android",
@@ -23169,7 +23632,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-12"
     },
     "android:com.moonbit.suzysays": {
       "platform": "android",
@@ -23214,7 +23678,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-22"
     },
     "android:com.vialmagic.colorsort": {
       "platform": "android",
@@ -23259,7 +23724,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-30"
     },
     "android:com.yourdaddypranksimulator": {
       "platform": "android",
@@ -23304,7 +23770,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "android:com.wink.arrow.girls": {
       "platform": "android",
@@ -23346,7 +23813,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-10"
     },
     "android:com.mahjong.meloow.mllowsw": {
       "platform": "android",
@@ -23391,7 +23859,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.car.crash.simulation.game.destruction": {
       "platform": "android",
@@ -23437,7 +23906,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     "android:com.oakever.ring": {
       "platform": "android",
@@ -23490,7 +23960,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "android:com.studioadept.frontline": {
       "platform": "android",
@@ -23536,7 +24007,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-22"
     },
     "android:com.neigbour.wars": {
       "platform": "android",
@@ -23580,7 +24052,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.teagames.tycoon": {
       "platform": "android",
@@ -23622,7 +24095,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.italianmeme.playground": {
       "platform": "android",
@@ -23664,7 +24138,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     "android:com.AurochDigital.WarhammerSurvivors": {
       "platform": "android",
@@ -23716,7 +24191,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     "ios:6818054527": {
       "platform": "ios",
@@ -23765,7 +24241,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-14"
     },
     "ios:6498883328": {
       "platform": "ios",
@@ -23819,7 +24296,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "android:com.rescue.agent": {
       "platform": "android",
@@ -23879,7 +24357,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-28"
     },
     "android:com.yg.mini.games": {
       "platform": "android",
@@ -23924,7 +24403,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-30"
     },
     "android:com.playgendary.kickthebuddy": {
       "platform": "android",
@@ -23982,7 +24462,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-12"
     },
     "android:com.kayac.slow_mo_strike": {
       "platform": "android",
@@ -24034,7 +24515,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     "android:com.Skorax.SheruBhaiGame": {
       "platform": "android",
@@ -24077,7 +24559,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.turbo.slope": {
       "platform": "android",
@@ -24123,7 +24606,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.fiogonia.drawshape": {
       "platform": "android",
@@ -24177,7 +24661,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     "android:ai.hiyam.app": {
       "platform": "android",
@@ -24224,7 +24709,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     "android:com.airo.spiderinvasion": {
       "platform": "android",
@@ -24280,7 +24766,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     "android:com.kirush.dragon": {
       "platform": "android",
@@ -24325,7 +24812,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     "android:com.morningwakeup.reel": {
       "platform": "android",
@@ -24370,7 +24858,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     "android:com.braingames.luckycasinoadventure": {
       "platform": "android",
@@ -24410,7 +24899,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     "android:com.funtaptic.spacerockbreaker": {
       "platform": "android",
@@ -24463,7 +24953,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     }
   },
   "sources": {

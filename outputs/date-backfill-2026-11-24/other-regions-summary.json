@@ -1,0 +1,112 @@
+{
+  "regions": {
+    "cn": {
+      "targets": 220,
+      "success": 203,
+      "both_dates": 203
+    },
+    "jp": {
+      "targets": 270,
+      "success": 263,
+      "both_dates": 263
+    }
+  },
+  "failed": [
+    {
+      "key": "ios:cn:6755426265",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6762199388",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6772951007",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6778393009",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6783668121",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6794182747",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6795026537",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6797497714",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6800314521",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6803478700",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6805868531",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6806678157",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6807693044",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6810655731",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6812693698",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6825755236",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:cn:6828398851",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:jp:1446874445",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:jp:1498019884",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:jp:6775121055",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:jp:6782923681",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:jp:6796562814",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:jp:6797761628",
+      "error": "official dates unavailable"
+    },
+    {
+      "key": "ios:jp:6799583064",
+      "error": "official dates unavailable"
+    }
+  ]
+}

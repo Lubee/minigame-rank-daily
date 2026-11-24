@@ -21,7 +21,7 @@ OUT = ROOT / 'outputs' / ('basic-profile-backfill-' + DAY)
 FIELDS = ('name', 'publisher', 'description', 'version', 'icon', 'screenshots', 'category',
           'supported_platforms', 'free', 'price', 'currency', 'rating', 'rating_count',
           'review_count', 'installs', 'metrics_checked_at', 'videos', 'video_checked_at',
-          'media_status', 'media_missing')
+          'media_status', 'media_missing', 'release_date', 'last_updated_date')
 
 
 def main():
@@ -89,7 +89,7 @@ def main():
         app['url'] = result['url']
         app['media_checked_at'] = now.isoformat()
         app['details_checked_on' if original['platform'] == 'android' else 'checked_on'] = DAY
-        raw_fields = ('trackId', 'trackName', 'genreIds', 'primaryGenreId', 'releaseDate', 'price', 'currency', 'sellerName', 'artistName', 'artworkUrl512', 'supportedDevices') if original['platform'] == 'ios' else ('appId', 'title', 'genreId', 'released', 'developer', 'free', 'price', 'currency', 'icon', *VIDEO_FIELDS)
+        raw_fields = ('trackId', 'trackName', 'genreIds', 'primaryGenreId', 'releaseDate', 'currentVersionReleaseDate', 'price', 'currency', 'sellerName', 'artistName', 'artworkUrl512', 'supportedDevices') if original['platform'] == 'ios' else ('appId', 'title', 'genreId', 'released', 'updated', 'developer', 'free', 'price', 'currency', 'icon', *VIDEO_FIELDS)
         app['release_info'] = {field: detail.get(field) for field in (*raw_fields, *METRIC_FIELDS)}
         if original['platform'] == 'android':
             app['video_error'] = None

@@ -14,7 +14,7 @@ from urllib.parse import urlencode
 
 import scrape_googleplay as googleplay
 from scrape_ios import _fetch_json, _entry_icon
-from store_apps import METRIC_FIELDS, store_metrics
+from store_apps import METRIC_FIELDS, store_metrics, store_dates, store_date as release_date
 from store_videos import VIDEO_FIELDS, google_videos
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -40,20 +40,6 @@ def save(path, data):
 
 def load(path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
-
-
-def release_date(value):
-    if not isinstance(value, str) or not value.strip():
-        return None
-    try:
-        return datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
-    except ValueError:
-        for pattern in ("%b %d, %Y", "%B %d, %Y"):
-            try:
-                return datetime.strptime(value, pattern).date().isoformat()
-            except ValueError:
-                pass
-    return None
 
 
 def assess(record, detail, now):
@@ -87,6 +73,7 @@ def assess(record, detail, now):
         r"https://(?:[\w.-]+\.mzstatic\.com|play-lh\.googleusercontent\.com)/", url)))
     result = {
         **store_metrics(detail, record["platform"], now.isoformat()),
+        **store_dates(detail, record["platform"]),
         **({"videos": google_videos(detail), "video_checked_at": now.isoformat(), "video_error": None} if not ios else {}),
         "status": "scheduled" if future else ("verified" if released else "undated"),
         "name": name.strip(), "release_date": released, "release_date_raw": raw_date,
@@ -281,7 +268,7 @@ def run(data_dir, now=None, log=print):
                         result["videos"] = video_cache["videos"]
                 elif cached and known.get("video_checked_at"):
                     result["video_checked_at"] = known["video_checked_at"]
-                for field in ("description", "version", "icon", "screenshots", "publisher"):
+                for field in ("description", "version", "icon", "screenshots", "publisher", "last_updated_date"):
                     previous_value = record.get(field) or known.get(field) or (known.get("developer") if field == "publisher" else None)
                     if not result.get(field) and previous_value:
                         result[field] = previous_value
@@ -290,13 +277,13 @@ def run(data_dir, now=None, log=print):
                 result["media_checked_at"] = now.isoformat()
                 result["_store"] = {
                     **{key: result[key] for key in ("videos", "video_checked_at", "video_attempted_at", "video_error") if key in result},
-                    **{key: result[key] for key in ("rating", "rating_count", "review_count", "installs", "metrics_checked_at") if key in result},
+                    **{key: result[key] for key in ("rating", "rating_count", "review_count", "installs", "metrics_checked_at", "last_updated_date") if key in result},
                     **{key: result[key] for key in ("name", "description", "version", "icon", "screenshots", "category",
                          "release_date", "free", "price", "currency", "media_status", "media_missing", "media_checked_at", "supported_platforms")},
                     "platform": record["platform"], "country": "us", "id": record["id"], "url": result["url"],
                     "publisher": result["publisher"], "developer": result["publisher"],
-                    "release_info": {key: detail.get(key) for key in (("trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "price", "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices", *METRIC_FIELDS)
-                        if record["platform"] == "ios" else ("appId", "title", "genreId", "released", "developer", "free", "price", "currency", "icon", *METRIC_FIELDS, *VIDEO_FIELDS))},
+                    "release_info": {key: detail.get(key) for key in (("trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "currentVersionReleaseDate", "price", "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices", *METRIC_FIELDS)
+                        if record["platform"] == "ios" else ("appId", "title", "genreId", "released", "updated", "developer", "free", "price", "currency", "icon", *METRIC_FIELDS, *VIDEO_FIELDS))},
                 }
             return {**result, "last_attempt_at": now.isoformat(), "checked_at": now.isoformat(), "error": None}
         except Exception as error:

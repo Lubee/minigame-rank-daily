@@ -117,7 +117,8 @@
       "media_checked_at": "2026-11-23T05:18:40.873684+00:00",
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.873684+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.873684+00:00",
+      "last_updated_date": "2027-01-14"
     },
     {
       "platform": "ios",
@@ -172,7 +173,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-12-17"
     },
     {
       "platform": "ios",
@@ -217,7 +219,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -264,7 +267,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -312,7 +316,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "ios",
@@ -361,7 +366,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "ios",
@@ -419,7 +425,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -465,7 +472,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "ios",
@@ -513,7 +521,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "ios",
@@ -573,7 +582,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "ios",
@@ -659,7 +669,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "ios",
@@ -713,7 +724,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "ios",
@@ -755,7 +767,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -798,7 +811,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -852,7 +866,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -898,7 +913,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "ios",
@@ -958,7 +974,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "ios",
@@ -1006,7 +1023,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1052,7 +1070,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "ios",
@@ -1105,7 +1124,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1156,7 +1176,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1203,7 +1224,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1247,7 +1269,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "ios",
@@ -1300,7 +1323,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1355,7 +1379,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1406,7 +1431,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1455,7 +1481,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.044376+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1500,7 +1527,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.045375+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.045375+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1553,7 +1581,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.171714+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.171714+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "ios",
@@ -1606,7 +1635,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "ios",
@@ -1655,7 +1685,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1698,7 +1729,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "ios",
@@ -1743,7 +1775,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:45.172713+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1790,7 +1823,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1835,7 +1869,8 @@
       ],
       "rating": 2,
       "rating_count": 1,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "ios",
@@ -1880,7 +1915,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1927,7 +1963,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -1976,7 +2013,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.874683+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2022,7 +2060,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2066,7 +2105,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "ios",
@@ -2121,7 +2161,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2174,7 +2215,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.875680+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2219,7 +2261,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "ios",
@@ -2266,7 +2309,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:40.876706+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2323,7 +2367,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.041354+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.041354+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2373,7 +2418,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2425,7 +2471,8 @@
       ],
       "rating": 5,
       "rating_count": 4,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2470,7 +2517,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.042382+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2525,7 +2573,8 @@
       ],
       "rating": 5,
       "rating_count": 9,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "ios",
@@ -2577,7 +2626,8 @@
       ],
       "rating": 0,
       "rating_count": 0,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "ios",
@@ -2626,7 +2676,8 @@
         }
       ],
       "video_attempted_at": "2026-11-19T10:37:45.326057+00:00",
-      "video_checked_at": "2026-11-19T10:37:45.326057+00:00"
+      "video_checked_at": "2026-11-19T10:37:45.326057+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "ios",
@@ -2671,7 +2722,8 @@
       ],
       "rating": 5,
       "rating_count": 1,
-      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00"
+      "metrics_checked_at": "2026-11-23T05:18:43.043380+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -2716,7 +2768,8 @@
       "review_count": 1180,
       "installs": "10,000,000+",
       "metrics_checked_at": "2026-11-23T05:22:10.947609+00:00",
-      "video_checked_at": "2026-11-23T05:22:10.947609+00:00"
+      "video_checked_at": "2026-11-23T05:22:10.947609+00:00",
+      "last_updated_date": "2026-11-06"
     },
     {
       "platform": "android",
@@ -2762,7 +2815,8 @@
       "review_count": 228,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:07.849163+00:00",
-      "video_checked_at": "2026-11-23T05:20:07.849163+00:00"
+      "video_checked_at": "2026-11-23T05:20:07.849163+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -2817,7 +2871,8 @@
           "fallback_url": "https://www.youtube.com/embed/3OB-iP4IpI4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:22:09.091393+00:00"
+      "video_checked_at": "2026-11-23T05:22:09.091393+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -2860,7 +2915,8 @@
       "review_count": 143,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:21:13.196618+00:00",
-      "video_checked_at": "2026-11-23T05:21:13.196618+00:00"
+      "video_checked_at": "2026-11-23T05:21:13.196618+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -2960,7 +3016,8 @@
       "review_count": 57,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:22:56.820488+00:00",
-      "video_checked_at": "2026-11-23T05:22:56.820488+00:00"
+      "video_checked_at": "2026-11-23T05:22:56.820488+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -3012,7 +3069,8 @@
       "review_count": 76,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:34.809626+00:00",
-      "video_checked_at": "2026-11-23T05:20:34.809626+00:00"
+      "video_checked_at": "2026-11-23T05:20:34.809626+00:00",
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -3060,7 +3118,8 @@
       "review_count": 186,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:44.725527+00:00",
-      "video_checked_at": "2026-11-23T05:22:44.725527+00:00"
+      "video_checked_at": "2026-11-23T05:22:44.725527+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -3103,7 +3162,8 @@
       "review_count": 6,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:19:57.747953+00:00",
-      "video_checked_at": "2026-11-23T05:19:57.747953+00:00"
+      "video_checked_at": "2026-11-23T05:19:57.747953+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -3145,7 +3205,8 @@
       "review_count": 61,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:32.484799+00:00",
-      "video_checked_at": "2026-11-23T05:21:32.484799+00:00"
+      "video_checked_at": "2026-11-23T05:21:32.484799+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -3206,7 +3267,8 @@
       "review_count": 37,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:57.365658+00:00",
-      "video_checked_at": "2026-11-23T05:21:57.365658+00:00"
+      "video_checked_at": "2026-11-23T05:21:57.365658+00:00",
+      "last_updated_date": "2026-11-09"
     },
     {
       "platform": "android",
@@ -3249,7 +3311,8 @@
       "review_count": 55,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:53.577894+00:00",
-      "video_checked_at": "2026-11-23T05:20:53.577894+00:00"
+      "video_checked_at": "2026-11-23T05:20:53.577894+00:00",
+      "last_updated_date": "2026-11-04"
     },
     {
       "platform": "android",
@@ -3298,7 +3361,8 @@
       "review_count": 2,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:20:36.635854+00:00",
-      "video_checked_at": "2026-11-23T05:20:36.635854+00:00"
+      "video_checked_at": "2026-11-23T05:20:36.635854+00:00",
+      "last_updated_date": "2026-10-28"
     },
     {
       "platform": "android",
@@ -3340,7 +3404,8 @@
       "review_count": 8,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:19:02.328976+00:00",
-      "video_checked_at": "2026-11-23T05:19:02.328976+00:00"
+      "video_checked_at": "2026-11-23T05:19:02.328976+00:00",
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -3384,7 +3449,8 @@
       "review_count": 33,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:29.413133+00:00",
-      "video_checked_at": "2026-11-23T05:22:29.413133+00:00"
+      "video_checked_at": "2026-11-23T05:22:29.413133+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -3426,7 +3492,8 @@
       "review_count": 125,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:25.945908+00:00",
-      "video_checked_at": "2026-11-23T05:19:25.945908+00:00"
+      "video_checked_at": "2026-11-23T05:19:25.945908+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -3467,7 +3534,8 @@
       "review_count": 29,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:48.515592+00:00",
-      "video_checked_at": "2026-11-23T05:21:48.515592+00:00"
+      "video_checked_at": "2026-11-23T05:21:48.515592+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -3506,7 +3574,8 @@
       "review_count": 41,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:45.807030+00:00",
-      "video_checked_at": "2026-11-23T05:20:45.807030+00:00"
+      "video_checked_at": "2026-11-23T05:20:45.807030+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "android",
@@ -3564,7 +3633,8 @@
       "review_count": 54,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:44.480538+00:00",
-      "video_checked_at": "2026-11-23T05:19:44.480538+00:00"
+      "video_checked_at": "2026-11-23T05:19:44.480538+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -3609,7 +3679,8 @@
       "review_count": 2,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:32.865283+00:00",
-      "video_checked_at": "2026-11-23T05:22:32.865283+00:00"
+      "video_checked_at": "2026-11-23T05:22:32.865283+00:00",
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -3653,7 +3724,8 @@
       "review_count": 76,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:19.986380+00:00",
-      "video_checked_at": "2026-11-23T05:20:19.986380+00:00"
+      "video_checked_at": "2026-11-23T05:20:19.986380+00:00",
+      "last_updated_date": "2026-10-20"
     },
     {
       "platform": "android",
@@ -3703,7 +3775,8 @@
       "review_count": 23,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:18:54.725851+00:00",
-      "video_checked_at": "2026-11-23T05:18:54.725851+00:00"
+      "video_checked_at": "2026-11-23T05:18:54.725851+00:00",
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -3756,7 +3829,8 @@
       "review_count": 92,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:18:51.206967+00:00",
-      "video_checked_at": "2026-11-23T05:18:51.206967+00:00"
+      "video_checked_at": "2026-11-23T05:18:51.206967+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -3798,7 +3872,8 @@
       "review_count": 39,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:57.785744+00:00",
-      "video_checked_at": "2026-11-23T05:20:57.785744+00:00"
+      "video_checked_at": "2026-11-23T05:20:57.785744+00:00",
+      "last_updated_date": "2026-10-22"
     },
     {
       "platform": "android",
@@ -3840,7 +3915,8 @@
       "review_count": 61,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:19.985381+00:00",
-      "video_checked_at": "2026-11-23T05:20:19.985381+00:00"
+      "video_checked_at": "2026-11-23T05:20:19.985381+00:00",
+      "last_updated_date": "2026-10-30"
     },
     {
       "platform": "android",
@@ -3884,7 +3960,8 @@
       "review_count": 18,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:18.052090+00:00",
-      "video_checked_at": "2026-11-23T05:19:18.052090+00:00"
+      "video_checked_at": "2026-11-23T05:19:18.052090+00:00",
+      "last_updated_date": "2026-11-15"
     },
     {
       "platform": "android",
@@ -3939,7 +4016,8 @@
       "review_count": 19,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:39.427997+00:00",
-      "video_checked_at": "2026-11-23T05:21:39.427997+00:00"
+      "video_checked_at": "2026-11-23T05:21:39.427997+00:00",
+      "last_updated_date": "2026-11-14"
     },
     {
       "platform": "android",
@@ -3981,7 +4059,8 @@
       "review_count": 67,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:35.339693+00:00",
-      "video_checked_at": "2026-11-23T05:22:35.339693+00:00"
+      "video_checked_at": "2026-11-23T05:22:35.339693+00:00",
+      "last_updated_date": "2026-10-27"
     },
     {
       "platform": "android",
@@ -4034,7 +4113,8 @@
       "review_count": 24,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:08.616071+00:00",
-      "video_checked_at": "2026-11-23T05:20:08.616071+00:00"
+      "video_checked_at": "2026-11-23T05:20:08.616071+00:00",
+      "last_updated_date": "2026-11-03"
     },
     {
       "platform": "android",
@@ -4076,7 +4156,8 @@
       "review_count": 28,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:14.350263+00:00",
-      "video_checked_at": "2026-11-23T05:22:14.350263+00:00"
+      "video_checked_at": "2026-11-23T05:22:14.350263+00:00",
+      "last_updated_date": "2026-10-31"
     },
     {
       "platform": "android",
@@ -4130,7 +4211,8 @@
           "fallback_url": "https://www.youtube.com/embed/K8vEwXsoyw8?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:18:50.346236+00:00"
+      "video_checked_at": "2026-11-23T05:18:50.346236+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -4183,7 +4265,8 @@
       "review_count": 17,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:44.299063+00:00",
-      "video_checked_at": "2026-11-23T05:20:44.299063+00:00"
+      "video_checked_at": "2026-11-23T05:20:44.299063+00:00",
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -4222,7 +4305,8 @@
       "media_checked_at": "2026-11-23T05:19:44.480538+00:00",
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:19:44.480538+00:00",
-      "video_checked_at": "2026-11-23T05:19:44.480538+00:00"
+      "video_checked_at": "2026-11-23T05:19:44.480538+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -4274,7 +4358,8 @@
           "fallback_url": "https://www.youtube.com/embed/TY6adGfHO78?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:18:55.800389+00:00"
+      "video_checked_at": "2026-11-23T05:18:55.800389+00:00",
+      "last_updated_date": "2026-11-06"
     },
     {
       "platform": "android",
@@ -4315,7 +4400,8 @@
       "review_count": 38,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:22:19.892211+00:00",
-      "video_checked_at": "2026-11-23T05:22:19.892211+00:00"
+      "video_checked_at": "2026-11-23T05:22:19.892211+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -4368,7 +4454,8 @@
           "fallback_url": "https://www.youtube.com/embed/Ej2QYyqNNXE?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:18.190133+00:00"
+      "video_checked_at": "2026-11-23T05:19:18.190133+00:00",
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -4410,7 +4497,8 @@
       "review_count": 7,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:55.725377+00:00",
-      "video_checked_at": "2026-11-23T05:21:55.725377+00:00"
+      "video_checked_at": "2026-11-23T05:21:55.725377+00:00",
+      "last_updated_date": "2026-10-30"
     },
     {
       "platform": "android",
@@ -4472,7 +4560,8 @@
           "fallback_url": "https://www.youtube.com/embed/jobdtk4tNGg?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:20:10.472390+00:00"
+      "video_checked_at": "2026-11-23T05:20:10.472390+00:00",
+      "last_updated_date": "2026-11-10"
     },
     {
       "platform": "android",
@@ -4512,7 +4601,8 @@
       "review_count": 13,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:39.022022+00:00",
-      "video_checked_at": "2026-11-23T05:20:39.022022+00:00"
+      "video_checked_at": "2026-11-23T05:20:39.022022+00:00",
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -4554,7 +4644,8 @@
       "review_count": 16,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:57.748951+00:00",
-      "video_checked_at": "2026-11-23T05:19:57.748951+00:00"
+      "video_checked_at": "2026-11-23T05:19:57.748951+00:00",
+      "last_updated_date": "2026-10-23"
     },
     {
       "platform": "android",
@@ -4596,7 +4687,8 @@
       "review_count": 6,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:38.764210+00:00",
-      "video_checked_at": "2026-11-23T05:19:38.764210+00:00"
+      "video_checked_at": "2026-11-23T05:19:38.764210+00:00",
+      "last_updated_date": "2026-11-02"
     },
     {
       "platform": "android",
@@ -4638,7 +4730,8 @@
       "review_count": 3,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:00.896093+00:00",
-      "video_checked_at": "2026-11-23T05:22:00.896093+00:00"
+      "video_checked_at": "2026-11-23T05:22:00.896093+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -4680,7 +4773,8 @@
       "review_count": 3,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:22:00.198432+00:00",
-      "video_checked_at": "2026-11-23T05:22:00.198432+00:00"
+      "video_checked_at": "2026-11-23T05:22:00.198432+00:00",
+      "last_updated_date": "2026-11-10"
     },
     {
       "platform": "android",
@@ -4723,7 +4817,8 @@
       "review_count": 30,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:47.647873+00:00",
-      "video_checked_at": "2026-11-23T05:20:47.647873+00:00"
+      "video_checked_at": "2026-11-23T05:20:47.647873+00:00",
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -4766,7 +4861,8 @@
       "review_count": 6,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:18.052090+00:00",
-      "video_checked_at": "2026-11-23T05:19:18.052090+00:00"
+      "video_checked_at": "2026-11-23T05:19:18.052090+00:00",
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -4810,7 +4906,8 @@
       "review_count": 18,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:23:00.109286+00:00",
-      "video_checked_at": "2026-11-23T05:23:00.109286+00:00"
+      "video_checked_at": "2026-11-23T05:23:00.109286+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -4861,7 +4958,8 @@
           "fallback_url": "https://www.youtube.com/embed/AlN7PBGYr8A?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:34.376111+00:00"
+      "video_checked_at": "2026-11-23T05:21:34.376111+00:00",
+      "last_updated_date": "2026-11-10"
     },
     {
       "platform": "android",
@@ -4906,7 +5004,8 @@
       "review_count": 1,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:51.775634+00:00",
-      "video_checked_at": "2026-11-23T05:20:51.775634+00:00"
+      "video_checked_at": "2026-11-23T05:20:51.775634+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -4953,7 +5052,8 @@
       "review_count": 7,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:18:49.452824+00:00",
-      "video_checked_at": "2026-11-23T05:18:49.452824+00:00"
+      "video_checked_at": "2026-11-23T05:18:49.452824+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -4996,7 +5096,8 @@
       "review_count": 247,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:53.430919+00:00",
-      "video_checked_at": "2026-11-23T05:19:53.430919+00:00"
+      "video_checked_at": "2026-11-23T05:19:53.430919+00:00",
+      "last_updated_date": "2026-11-07"
     },
     {
       "platform": "android",
@@ -5037,7 +5138,8 @@
       "review_count": 38,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:22:07.064026+00:00",
-      "video_checked_at": "2026-11-23T05:22:07.064026+00:00"
+      "video_checked_at": "2026-11-23T05:22:07.064026+00:00",
+      "last_updated_date": "2026-11-04"
     },
     {
       "platform": "android",
@@ -5082,7 +5184,8 @@
       "review_count": 34,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:03.822704+00:00",
-      "video_checked_at": "2026-11-23T05:20:03.822704+00:00"
+      "video_checked_at": "2026-11-23T05:20:03.822704+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -5142,7 +5245,8 @@
           "fallback_url": "https://www.youtube.com/embed/afeqxKMwTJ4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:16.121590+00:00"
+      "video_checked_at": "2026-11-23T05:21:16.121590+00:00",
+      "last_updated_date": "2026-11-12"
     },
     {
       "platform": "android",
@@ -5184,7 +5288,8 @@
       "review_count": 141,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:55.729714+00:00",
-      "video_checked_at": "2026-11-23T05:20:55.729714+00:00"
+      "video_checked_at": "2026-11-23T05:20:55.729714+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -5226,7 +5331,8 @@
       "review_count": 205,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:59.188246+00:00",
-      "video_checked_at": "2026-11-23T05:21:59.188246+00:00"
+      "video_checked_at": "2026-11-23T05:21:59.188246+00:00",
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -5268,7 +5374,8 @@
       "review_count": 17,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:11.505149+00:00",
-      "video_checked_at": "2026-11-23T05:19:11.505149+00:00"
+      "video_checked_at": "2026-11-23T05:19:11.505149+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -5313,7 +5420,8 @@
       "review_count": 24,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:31.285429+00:00",
-      "video_checked_at": "2026-11-23T05:19:31.285429+00:00"
+      "video_checked_at": "2026-11-23T05:19:31.285429+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -5360,7 +5468,8 @@
       "review_count": 62,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:40.624776+00:00",
-      "video_checked_at": "2026-11-23T05:19:40.624776+00:00"
+      "video_checked_at": "2026-11-23T05:19:40.624776+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -5402,7 +5511,8 @@
       "review_count": 5,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:21:25.806813+00:00",
-      "video_checked_at": "2026-11-23T05:21:25.806813+00:00"
+      "video_checked_at": "2026-11-23T05:21:25.806813+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -5464,7 +5574,8 @@
           "fallback_url": "https://www.youtube.com/embed/U5nXhNMHgkI?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:21:04.704664+00:00"
+      "video_checked_at": "2026-11-23T05:21:04.704664+00:00",
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -5509,7 +5620,8 @@
       "review_count": 56,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:16.189381+00:00",
-      "video_checked_at": "2026-11-23T05:19:16.189381+00:00"
+      "video_checked_at": "2026-11-23T05:19:16.189381+00:00",
+      "last_updated_date": "2026-10-21"
     },
     {
       "platform": "android",
@@ -5554,7 +5666,8 @@
       "review_count": 5,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:15.527456+00:00",
-      "video_checked_at": "2026-11-23T05:20:15.527456+00:00"
+      "video_checked_at": "2026-11-23T05:20:15.527456+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -5601,7 +5714,8 @@
       "review_count": 17,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:21:25.361959+00:00",
-      "video_checked_at": "2026-11-23T05:21:25.361959+00:00"
+      "video_checked_at": "2026-11-23T05:21:25.361959+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -5644,7 +5758,8 @@
       "review_count": 5,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:13.736345+00:00",
-      "video_checked_at": "2026-11-23T05:20:13.736345+00:00"
+      "video_checked_at": "2026-11-23T05:20:13.736345+00:00",
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -5685,7 +5800,8 @@
       "review_count": 24,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:20.870768+00:00",
-      "video_checked_at": "2026-11-23T05:19:20.870768+00:00"
+      "video_checked_at": "2026-11-23T05:19:20.870768+00:00",
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -5736,7 +5852,8 @@
           "fallback_url": "https://www.youtube.com/embed/KLx3dSgOlFg?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:27.503626+00:00"
+      "video_checked_at": "2026-11-23T05:19:27.503626+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -5776,7 +5893,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:58.394544+00:00",
-      "video_checked_at": "2026-11-23T05:21:58.394544+00:00"
+      "video_checked_at": "2026-11-23T05:21:58.394544+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -5827,7 +5945,8 @@
           "fallback_url": "https://www.youtube.com/embed/FR4ePxohAPM?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:50.107296+00:00"
+      "video_checked_at": "2026-11-23T05:19:50.107296+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -5871,7 +5990,8 @@
       "review_count": 20,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:38.764210+00:00",
-      "video_checked_at": "2026-11-23T05:19:38.764210+00:00"
+      "video_checked_at": "2026-11-23T05:19:38.764210+00:00",
+      "last_updated_date": "2026-11-14"
     },
     {
       "platform": "android",
@@ -5912,7 +6032,8 @@
       "review_count": 12,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:19:13.054410+00:00",
-      "video_checked_at": "2026-11-23T05:19:13.054410+00:00"
+      "video_checked_at": "2026-11-23T05:19:13.054410+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -5954,7 +6075,8 @@
       "review_count": 60,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:43.122032+00:00",
-      "video_checked_at": "2026-11-23T05:21:43.122032+00:00"
+      "video_checked_at": "2026-11-23T05:21:43.122032+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -5998,7 +6120,8 @@
       "review_count": 0,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:11.398885+00:00",
-      "video_checked_at": "2026-11-23T05:21:11.398885+00:00"
+      "video_checked_at": "2026-11-23T05:21:11.398885+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -6042,7 +6165,8 @@
       "review_count": 4,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:17.292525+00:00",
-      "video_checked_at": "2026-11-23T05:20:17.292525+00:00"
+      "video_checked_at": "2026-11-23T05:20:17.292525+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -6086,7 +6210,8 @@
       "review_count": 3,
       "installs": "500,000+",
       "metrics_checked_at": "2026-11-23T05:21:41.231019+00:00",
-      "video_checked_at": "2026-11-23T05:21:41.231019+00:00"
+      "video_checked_at": "2026-11-23T05:21:41.231019+00:00",
+      "last_updated_date": "2026-11-02"
     },
     {
       "platform": "android",
@@ -6131,7 +6256,8 @@
       "review_count": 1,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:43.122032+00:00",
-      "video_checked_at": "2026-11-23T05:21:43.122032+00:00"
+      "video_checked_at": "2026-11-23T05:21:43.122032+00:00",
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -6170,7 +6296,8 @@
       "error": null,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:21:21.358382+00:00",
-      "video_checked_at": "2026-11-23T05:21:21.358382+00:00"
+      "video_checked_at": "2026-11-23T05:21:21.358382+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -6211,7 +6338,8 @@
       "review_count": 28,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:46.864272+00:00",
-      "video_checked_at": "2026-11-23T05:20:46.864272+00:00"
+      "video_checked_at": "2026-11-23T05:20:46.864272+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -6254,7 +6382,8 @@
       "review_count": 13,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:22:05.068808+00:00",
-      "video_checked_at": "2026-11-23T05:22:05.068808+00:00"
+      "video_checked_at": "2026-11-23T05:22:05.068808+00:00",
+      "last_updated_date": "2026-10-30"
     },
     {
       "platform": "android",
@@ -6298,7 +6427,8 @@
       "review_count": 13,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:20:06.502853+00:00",
-      "video_checked_at": "2026-11-23T05:20:06.502853+00:00"
+      "video_checked_at": "2026-11-23T05:20:06.502853+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -6337,7 +6467,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:13.742301+00:00",
-      "video_checked_at": "2026-11-23T05:20:13.742301+00:00"
+      "video_checked_at": "2026-11-23T05:20:13.742301+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -6379,7 +6510,8 @@
       "review_count": 43,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:46.137191+00:00",
-      "video_checked_at": "2026-11-23T05:21:46.137191+00:00"
+      "video_checked_at": "2026-11-23T05:21:46.137191+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -6422,7 +6554,8 @@
       "review_count": 8,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:34.485007+00:00",
-      "video_checked_at": "2026-11-23T05:21:34.485007+00:00"
+      "video_checked_at": "2026-11-23T05:21:34.485007+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -6464,7 +6597,8 @@
       "review_count": 21,
       "installs": "1,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:05.152005+00:00",
-      "video_checked_at": "2026-11-23T05:20:05.152005+00:00"
+      "video_checked_at": "2026-11-23T05:20:05.152005+00:00",
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -6505,7 +6639,8 @@
       "review_count": 44,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:21:32.596702+00:00",
-      "video_checked_at": "2026-11-23T05:21:32.596702+00:00"
+      "video_checked_at": "2026-11-23T05:21:32.596702+00:00",
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -6545,7 +6680,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:21:28.893476+00:00",
-      "video_checked_at": "2026-11-23T05:21:28.893476+00:00"
+      "video_checked_at": "2026-11-23T05:21:28.893476+00:00",
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -6587,7 +6723,8 @@
       "review_count": 106,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:16.389272+00:00",
-      "video_checked_at": "2026-11-23T05:19:16.389272+00:00"
+      "video_checked_at": "2026-11-23T05:19:16.389272+00:00",
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -6649,7 +6786,8 @@
           "fallback_url": "https://www.youtube.com/embed/O0P5Kiv-ibA?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:19:29.538799+00:00"
+      "video_checked_at": "2026-11-23T05:19:29.538799+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -6692,7 +6830,8 @@
       "review_count": 14,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:36.527332+00:00",
-      "video_checked_at": "2026-11-23T05:19:36.527332+00:00"
+      "video_checked_at": "2026-11-23T05:19:36.527332+00:00",
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -6731,7 +6870,8 @@
       "error": null,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:00.373706+00:00",
-      "video_checked_at": "2026-11-23T05:20:00.373706+00:00"
+      "video_checked_at": "2026-11-23T05:20:00.373706+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -6776,7 +6916,8 @@
       "review_count": 0,
       "installs": "5,000,000+",
       "metrics_checked_at": "2026-11-23T05:20:09.030059+00:00",
-      "video_checked_at": "2026-11-23T05:20:09.030059+00:00"
+      "video_checked_at": "2026-11-23T05:20:09.030059+00:00",
+      "last_updated_date": "2026-11-14"
     },
     {
       "platform": "android",
@@ -6818,7 +6959,8 @@
       "review_count": 77,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:53.688473+00:00",
-      "video_checked_at": "2026-11-23T05:20:53.688473+00:00"
+      "video_checked_at": "2026-11-23T05:20:53.688473+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -6861,7 +7003,8 @@
       "review_count": 8,
       "installs": "50,000+",
       "metrics_checked_at": "2026-11-23T05:20:45.140445+00:00",
-      "video_checked_at": "2026-11-23T05:20:45.140445+00:00"
+      "video_checked_at": "2026-11-23T05:20:45.140445+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "android",
@@ -6906,7 +7049,8 @@
       "review_count": 13,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:34.836646+00:00",
-      "video_checked_at": "2026-11-23T05:19:34.836646+00:00"
+      "video_checked_at": "2026-11-23T05:19:34.836646+00:00",
+      "last_updated_date": "2026-10-20"
     },
     {
       "platform": "android",
@@ -6949,7 +7093,8 @@
       "review_count": 7,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:20:51.781618+00:00",
-      "video_checked_at": "2026-11-23T05:20:51.781618+00:00"
+      "video_checked_at": "2026-11-23T05:20:51.781618+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -6992,7 +7137,8 @@
       "review_count": 6,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:27.807787+00:00",
-      "video_checked_at": "2026-11-23T05:19:27.807787+00:00"
+      "video_checked_at": "2026-11-23T05:19:27.807787+00:00",
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "android",
@@ -7039,7 +7185,8 @@
       "review_count": 43,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:19:07.600609+00:00",
-      "video_checked_at": "2026-11-23T05:19:07.600609+00:00"
+      "video_checked_at": "2026-11-23T05:19:07.600609+00:00",
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -7084,7 +7231,8 @@
       "review_count": 35,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:19:09.652060+00:00",
-      "video_checked_at": "2026-11-23T05:19:09.652060+00:00"
+      "video_checked_at": "2026-11-23T05:19:09.652060+00:00",
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -7137,7 +7285,8 @@
       "review_count": 32,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:20:55.729714+00:00",
-      "video_checked_at": "2026-11-23T05:20:55.729714+00:00"
+      "video_checked_at": "2026-11-23T05:20:55.729714+00:00",
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -7179,7 +7328,8 @@
       "review_count": 12,
       "installs": "5,000+",
       "metrics_checked_at": "2026-11-23T05:19:45.650674+00:00",
-      "video_checked_at": "2026-11-23T05:19:45.650674+00:00"
+      "video_checked_at": "2026-11-23T05:19:45.650674+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -7223,7 +7373,8 @@
       "review_count": 1,
       "installs": "100,000+",
       "metrics_checked_at": "2026-11-23T05:19:55.147896+00:00",
-      "video_checked_at": "2026-11-23T05:19:55.147896+00:00"
+      "video_checked_at": "2026-11-23T05:19:55.147896+00:00",
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -7277,7 +7428,8 @@
           "fallback_url": "https://www.youtube.com/embed/qGrt0PtxIyM?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:06.913379+00:00"
+      "video_checked_at": "2026-11-23T05:23:06.913379+00:00",
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -7331,7 +7483,8 @@
           "fallback_url": "https://www.youtube.com/embed/pcwNDJQvQJA?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:06.914376+00:00"
+      "video_checked_at": "2026-11-23T05:23:06.914376+00:00",
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -7393,7 +7546,8 @@
           "fallback_url": "https://www.youtube.com/embed/vc00woXSPzQ?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:10.068240+00:00"
+      "video_checked_at": "2026-11-23T05:23:10.068240+00:00",
+      "last_updated_date": "2026-10-28"
     },
     {
       "platform": "android",
@@ -7449,7 +7603,8 @@
           "fallback_url": "https://www.youtube.com/embed/llEazs2o3Kc?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:10.068240+00:00"
+      "video_checked_at": "2026-11-23T05:23:10.068240+00:00",
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -7506,7 +7661,8 @@
           "fallback_url": "https://www.youtube.com/embed/dDypJVR1MQ4?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:10.068240+00:00"
+      "video_checked_at": "2026-11-23T05:23:10.068240+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -7560,7 +7716,8 @@
           "fallback_url": "https://www.youtube.com/embed/yKd1qB18Nng?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:11.800461+00:00"
+      "video_checked_at": "2026-11-23T05:23:11.800461+00:00",
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -7612,7 +7769,8 @@
           "fallback_url": "https://www.youtube.com/embed/53a5HL33A3I?vq=large&rel=0&autohide=1&showinfo=0"
         }
       ],
-      "video_checked_at": "2026-11-23T05:23:12.156163+00:00"
+      "video_checked_at": "2026-11-23T05:23:12.156163+00:00",
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -7678,7 +7836,8 @@
       "media_checked_at": "2026-11-23T05:23:12.156163+00:00",
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:12.156163+00:00",
-      "video_checked_at": "2026-11-23T05:23:12.156163+00:00"
+      "video_checked_at": "2026-11-23T05:23:12.156163+00:00",
+      "last_updated_date": "2026-11-14"
     },
     {
       "platform": "android",
@@ -7722,7 +7881,8 @@
       "review_count": 16,
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:13.516778+00:00",
-      "video_checked_at": "2026-11-23T05:23:13.516778+00:00"
+      "video_checked_at": "2026-11-23T05:23:13.516778+00:00",
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -7788,7 +7948,8 @@
       "media_checked_at": "2026-11-23T05:23:13.624405+00:00",
       "installs": "500+",
       "metrics_checked_at": "2026-11-23T05:23:13.624405+00:00",
-      "video_checked_at": "2026-11-23T05:23:13.624405+00:00"
+      "video_checked_at": "2026-11-23T05:23:13.624405+00:00",
+      "last_updated_date": "2026-11-14"
     },
     {
       "platform": "android",
@@ -7830,7 +7991,8 @@
       "media_checked_at": "2026-11-23T05:23:13.940208+00:00",
       "installs": "100+",
       "metrics_checked_at": "2026-11-23T05:23:13.940208+00:00",
-      "video_checked_at": "2026-11-23T05:23:13.940208+00:00"
+      "video_checked_at": "2026-11-23T05:23:13.940208+00:00",
+      "last_updated_date": "2026-11-15"
     },
     {
       "platform": "android",
@@ -7879,7 +8041,8 @@
       "review_count": 46,
       "installs": "10,000+",
       "metrics_checked_at": "2026-11-23T05:23:15.313246+00:00",
-      "video_checked_at": "2026-11-23T05:23:15.313246+00:00"
+      "video_checked_at": "2026-11-23T05:23:15.313246+00:00",
+      "last_updated_date": "2026-11-03"
     },
     {
       "platform": "android",
@@ -7921,7 +8084,8 @@
       "media_checked_at": "2026-11-23T05:23:15.459029+00:00",
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:15.459029+00:00",
-      "video_checked_at": "2026-11-23T05:23:15.459029+00:00"
+      "video_checked_at": "2026-11-23T05:23:15.459029+00:00",
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -7969,7 +8133,8 @@
       "error": null,
       "installs": "1,000+",
       "metrics_checked_at": "2026-11-23T05:23:06.913379+00:00",
-      "video_checked_at": "2026-11-23T05:23:06.913379+00:00"
+      "video_checked_at": "2026-11-23T05:23:06.913379+00:00",
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -8014,7 +8179,8 @@
       "media_checked_at": "2026-11-23T05:23:15.780555+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -8059,7 +8225,8 @@
       "media_checked_at": "2026-11-23T05:23:20.235664+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -8105,7 +8272,8 @@
       "media_checked_at": "2026-11-23T05:23:21.688351+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-02"
     },
     {
       "platform": "android",
@@ -8161,7 +8329,8 @@
       "error": null,
       "rating": 4.4,
       "rating_count": 93,
-      "review_count": 5
+      "review_count": 5,
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -8207,7 +8376,8 @@
       "media_checked_at": "2026-11-23T05:23:22.197170+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -8261,7 +8431,8 @@
       "media_checked_at": "2026-11-23T05:23:23.597365+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-28"
     },
     {
       "platform": "android",
@@ -8306,7 +8477,8 @@
       "media_checked_at": "2026-11-23T05:23:23.597365+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -8359,7 +8531,8 @@
       "media_checked_at": "2026-11-23T05:23:25.304480+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-24"
     },
     {
       "platform": "android",
@@ -8404,7 +8577,8 @@
       "media_checked_at": "2026-11-23T05:23:24.010443+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-24"
     },
     {
       "platform": "android",
@@ -8449,7 +8623,8 @@
       "error": null,
       "rating": 3.4,
       "rating_count": 5,
-      "review_count": 5
+      "review_count": 5,
+      "last_updated_date": "2026-11-10"
     },
     {
       "platform": "android",
@@ -8505,7 +8680,8 @@
       "media_checked_at": "2026-11-23T05:23:28.962463+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -8559,7 +8735,8 @@
       "media_checked_at": "2026-11-23T05:23:20.234667+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -8611,7 +8788,8 @@
       "media_checked_at": "2026-11-23T05:23:20.235664+00:00",
       "last_attempt_at": "2026-11-19T10:37:45.326057+00:00",
       "checked_at": "2026-11-19T10:37:45.326057+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -8659,7 +8837,8 @@
       "media_checked_at": "2026-11-23T05:23:32.469444+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -8706,7 +8885,8 @@
       "error": null,
       "rating": 4.677419,
       "rating_count": 137,
-      "review_count": 4
+      "review_count": 4,
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -8770,7 +8950,8 @@
       "media_checked_at": "2026-11-23T05:23:34.289077+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -8813,7 +8994,8 @@
       "media_checked_at": "2026-11-23T05:23:34.471949+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -8858,7 +9040,8 @@
       "media_checked_at": "2026-11-23T05:23:34.471949+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -8903,7 +9086,8 @@
       "media_checked_at": "2026-11-23T05:23:37.115722+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-04"
     },
     {
       "platform": "android",
@@ -8947,7 +9131,8 @@
       "media_checked_at": "2026-11-23T05:23:40.266103+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-04"
     },
     {
       "platform": "android",
@@ -8994,7 +9179,8 @@
       "media_checked_at": "2026-11-23T05:23:40.266103+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -9039,7 +9225,8 @@
       "media_checked_at": "2026-11-23T05:23:40.299328+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -9083,7 +9270,8 @@
       "media_checked_at": "2026-11-23T05:23:42.053891+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -9125,7 +9313,8 @@
       "media_checked_at": "2026-11-23T05:23:42.110205+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-10"
     },
     {
       "platform": "android",
@@ -9170,7 +9359,8 @@
       "media_checked_at": "2026-11-23T05:23:42.149637+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -9215,7 +9405,8 @@
       "media_checked_at": "2026-11-23T05:23:43.883068+00:00",
       "last_attempt_at": "2026-11-20T10:18:29.960331+00:00",
       "checked_at": "2026-11-20T10:18:29.960331+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -9260,7 +9451,8 @@
       "media_checked_at": "2026-11-23T05:23:44.169971+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -9302,7 +9494,8 @@
       "media_checked_at": "2026-11-23T05:23:45.934343+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-04"
     },
     {
       "platform": "android",
@@ -9352,7 +9545,8 @@
       "media_checked_at": "2026-11-23T05:23:45.934343+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -9397,7 +9591,8 @@
       "media_checked_at": "2026-11-23T05:23:46.032425+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-12"
     },
     {
       "platform": "android",
@@ -9443,7 +9638,8 @@
       "media_checked_at": "2026-11-23T05:23:50.099815+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -9489,7 +9685,8 @@
       "media_checked_at": "2026-11-23T05:23:50.099815+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -9539,7 +9736,8 @@
       "media_checked_at": "2026-11-23T05:23:50.099815+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -9633,7 +9831,8 @@
       "media_checked_at": "2026-11-23T05:23:50.873767+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -9681,7 +9880,8 @@
       "error": null,
       "rating": 4.6538463,
       "rating_count": 130,
-      "review_count": 6
+      "review_count": 6,
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -9726,7 +9926,8 @@
       "media_checked_at": "2026-11-23T05:23:52.547040+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -9772,7 +9973,8 @@
       "media_checked_at": "2026-11-23T05:23:52.595787+00:00",
       "last_attempt_at": "2026-11-21T10:03:54.099771+00:00",
       "checked_at": "2026-11-21T10:03:54.099771+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -9826,7 +10028,8 @@
       "media_checked_at": "2026-11-23T05:23:59.791308+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -9869,7 +10072,8 @@
       "media_checked_at": "2026-11-23T05:23:59.840022+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -9925,7 +10129,8 @@
       "media_checked_at": "2026-11-23T05:24:01.681812+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -9969,7 +10174,8 @@
       "media_checked_at": "2026-11-23T05:24:01.681812+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -10022,7 +10228,8 @@
       "media_checked_at": "2026-11-23T05:24:01.815579+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-24"
     },
     {
       "platform": "android",
@@ -10069,7 +10276,8 @@
       "media_checked_at": "2026-11-23T05:24:03.399508+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -10125,7 +10333,8 @@
       "media_checked_at": "2026-11-23T05:24:03.596616+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-21"
     },
     {
       "platform": "android",
@@ -10173,7 +10382,8 @@
       "media_checked_at": "2026-11-23T05:24:03.640739+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -10233,7 +10443,8 @@
       "media_checked_at": "2026-11-23T05:24:05.250363+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -10276,7 +10487,8 @@
       "media_checked_at": "2026-11-23T05:24:05.430731+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-23"
     },
     {
       "platform": "android",
@@ -10321,7 +10533,8 @@
       "media_checked_at": "2026-11-23T05:24:05.470213+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-02"
     },
     {
       "platform": "android",
@@ -10374,7 +10587,8 @@
       "media_checked_at": "2026-11-23T05:23:59.809759+00:00",
       "last_attempt_at": "2026-11-22T09:59:50.391070+00:00",
       "checked_at": "2026-11-22T09:59:50.391070+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -10420,7 +10634,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-12"
     },
     {
       "platform": "android",
@@ -10465,7 +10680,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "android",
@@ -10510,7 +10726,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-10-30"
     },
     {
       "platform": "android",
@@ -10555,7 +10772,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -10597,7 +10815,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-10"
     },
     {
       "platform": "android",
@@ -10642,7 +10861,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -10688,7 +10908,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-16"
     },
     {
       "platform": "android",
@@ -10741,7 +10962,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -10787,7 +11009,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-22"
     },
     {
       "platform": "android",
@@ -10831,7 +11054,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -10873,7 +11097,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     },
     {
       "platform": "android",
@@ -10915,7 +11140,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -10967,7 +11193,8 @@
       "media_checked_at": "2026-11-23T10:58:48.815813+00:00",
       "last_attempt_at": "2026-11-23T10:58:48.815813+00:00",
       "checked_at": "2026-11-23T10:58:48.815813+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-17"
     },
     {
       "platform": "android",
@@ -11010,7 +11237,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -11056,7 +11284,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -11110,7 +11339,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-05"
     },
     {
       "platform": "android",
@@ -11157,7 +11387,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-23"
     },
     {
       "platform": "android",
@@ -11213,7 +11444,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-18"
     },
     {
       "platform": "android",
@@ -11258,7 +11490,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-11"
     },
     {
       "platform": "android",
@@ -11303,7 +11536,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-13"
     },
     {
       "platform": "android",
@@ -11343,7 +11577,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-19"
     },
     {
       "platform": "android",
@@ -11396,7 +11631,8 @@
       "media_checked_at": "2026-11-24T04:00:11.637182+00:00",
       "last_attempt_at": "2026-11-24T04:00:11.637182+00:00",
       "checked_at": "2026-11-24T04:00:11.637182+00:00",
-      "error": null
+      "error": null,
+      "last_updated_date": "2026-11-20"
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "targets": 707,
+  "success": 696,
+  "failed": [
+    {
+      "key": "ios:us:1498019884",
+      "error": "official app unavailable"
+    },
+    {
+      "key": "ios:us:596402997",
+      "error": "official app unavailable"
+    },
+    {
+      "key": "ios:us:6833957187",
+      "error": "official app unavailable"
+    },
+    {
+      "key": "android:com.arrow.romantic.puzzle.goddess",
+      "error": "App not found (404)"
+    },
+    {
+      "key": "android:com.blaze.casino.b.android",
+      "error": "App not found (404)"
+    },
+    {
+      "key": "android:com.combo.cubesmash",
+      "error": "App not found (404)"
+    },
+    {
+      "key": "android:com.gameloft.android.ANMP.GloftDMHM",
+      "error": "App not found (404)"
+    },
+    {
+      "key": "android:com.matchinggo.puzzlegames",
+      "error": "Command '['D:\\\\AIProject\\\\应用市场检测系统\\\\minigame-rank-daily\\\\.runtime\\\\node.exe', '--use-env-proxy', '--use-system-ca', 'D:\\\\AIProject\\\\应用市场检测系统\\\\minigame-rank-daily\\\\scripts\\\\googleplay_chart.mjs', '--ap"
+    },
+    {
+      "key": "android:com.pawakuma.hitfortune",
+      "error": "App not found (404)"
+    },
+    {
+      "key": "android:com.wanda.transformers.gg.am",
+      "error": "Command '['D:\\\\AIProject\\\\应用市场检测系统\\\\minigame-rank-daily\\\\.runtime\\\\node.exe', '--use-env-proxy', '--use-system-ca', 'D:\\\\AIProject\\\\应用市场检测系统\\\\minigame-rank-daily\\\\scripts\\\\googleplay_chart.mjs', '--ap"
+    },
+    {
+      "key": "android:jp.konami.epjCastlevania1",
+      "error": "App not found (404)"
+    }
+  ]
+}

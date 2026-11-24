@@ -30,6 +30,9 @@ class ReleaseProfileTests(unittest.TestCase):
                             "name": "Example", "description": "", "version": "", "screenshots": []}},
                             "data/base/games.json": {"games": {}}, "data/detail/index.json": {"games": {}},
                             "data/releases/2026-11-18.json": {"apps": [app]}}
+                        if has_shots:
+                            app.update({"release_info": {"releaseDate": "2012-11-14T23:41:32Z", "currentVersionReleaseDate": "2026-11-18T06:26:06Z"}} if platform == "ios" else
+                                       {"release_info": {"released": "Nov 14, 2012", "updated": 1576868577000}})
                         page = browser.new_page()
                         page.set_default_timeout(2000)
                         def serve(route):
@@ -49,6 +52,10 @@ class ReleaseProfileTests(unittest.TestCase):
                         section.wait_for(state='visible')
                         self.assertIn('Official game introduction', section.inner_text())
                         self.assertIn('1.2', section.inner_text())
+                        release_date = section.locator('dt', has_text='发布日期').locator('+ dd').inner_text()
+                        updated_date = section.locator('dt', has_text='最近更新日期').locator('+ dd').inner_text()
+                        self.assertEqual(release_date, '2012-11-14' if has_shots else '官方暂未提供')
+                        self.assertEqual(updated_date, ('2026-11-18' if platform == 'ios' else '2019-12-20') if has_shots else '官方暂未提供')
                         description = section.locator('.gp-app-description')
                         self.assertEqual(description.evaluate('(el)=>getComputedStyle(el).webkitLineClamp'), '3')
                         if has_shots:

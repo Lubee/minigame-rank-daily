@@ -13,6 +13,7 @@ class GooglePlayStoreTests(unittest.TestCase):
                 for i in range(15)}
         def details(package):
             return {"appId": package, "title": "Example", "developer": "Developer",
+                    "released": "Nov 14, 2012", "updated": 1576868577000,
                     "score": 4.6, "ratings": 1200, "reviews": 0, "installs": "100,000+",
                     "previewVideo": "https://play-games.googleusercontent.com/vp/mp4/example.mp4",
                     "description": "Official rules", "version": "2.0", "screenshots": ["https://play-lh.googleusercontent.com/shot"]}

@@ -835,6 +835,8 @@
         ["商店分类", app.category],
         [ios || tap ? "App ID" : "包名", app.id],
         ["版本", app.version],
+        ["发布日期", tap ? null : formatStoreDate(app.release_date, app.release_info?.[ios ? "releaseDate" : "released"])],
+        ["最近更新日期", tap ? null : formatStoreDate(app.last_updated_date, app.release_info?.[ios ? "currentVersionReleaseDate" : "updated"])],
         ["评分", Number.isFinite(app.rating) && app.rating >= 0 && app.rating <= 5 ? `${Number(app.rating.toFixed(2))} / 5` : null],
         ["评分人数", count(app.rating_count)],
         ["评论数", count(app.review_count)],
@@ -883,6 +885,23 @@
       }
       section.hidden = false;
     }
+  }
+
+  function formatStoreDate(...values) {
+    for (const value of values) {
+      if (typeof value === "number" && Number.isFinite(value) && value > 0) {
+        const date = new Date(value);
+        if (!Number.isNaN(date.getTime())) return date.toISOString().slice(0, 10);
+      }
+      if (typeof value !== "string" || !value.trim()) continue;
+      const text = value.trim();
+      if (/^\d{4}-\d{2}-\d{2}(?:$|T)/.test(text) && !Number.isNaN(Date.parse(text))) return text.slice(0, 10);
+      if (/^[A-Za-z]+ \d{1,2}, \d{4}$/.test(text)) {
+        const date = new Date(text + " UTC");
+        if (!Number.isNaN(date.getTime())) return date.toISOString().slice(0, 10);
+      }
+    }
+    return "官方暂未提供";
   }
 
   function renderDescription(parent, text) {

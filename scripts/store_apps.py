@@ -8,7 +8,7 @@ import subprocess
 import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import urlencode
@@ -19,6 +19,32 @@ from store_videos import VIDEO_FIELDS, apple_video_record, google_videos
 
 
 METRIC_FIELDS = ("averageUserRating", "userRatingCount", "score", "ratings", "reviews", "installs")
+
+
+def store_date(value):
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        try:
+            return datetime.fromtimestamp(value / 1000, timezone.utc).date().isoformat() if value > 0 else None
+        except (ValueError, OverflowError, OSError):
+            return None
+    if not isinstance(value, str) or not value.strip():
+        return None
+    value = value.strip()
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        for pattern in ("%b %d, %Y", "%B %d, %Y"):
+            try:
+                return datetime.strptime(value, pattern).date().isoformat()
+            except ValueError:
+                pass
+    return None
+
+
+def store_dates(detail, platform):
+    fields = (("release_date", "releaseDate"), ("last_updated_date", "currentVersionReleaseDate")) if platform == "ios" else (
+        ("release_date", "released"), ("last_updated_date", "updated"))
+    return {target: parsed for target, source in fields if (parsed := store_date(detail.get(source)))}
 
 
 def store_metrics(detail: dict, platform: str, checked_at: str):
@@ -119,9 +145,10 @@ def refresh_ios(apps: dict, keys: list[str], today: str, log):
                 result = by_id.get(app["id"], {})
                 if result:
                     app["release_info"] = {field: result.get(field) for field in (
-                        "trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "price",
+                        "trackId", "trackName", "genreIds", "primaryGenreId", "releaseDate", "currentVersionReleaseDate", "price",
                         "currency", "sellerName", "artistName", "artworkUrl512", "supportedDevices", *METRIC_FIELDS)}
                     app.update(store_metrics(result, "ios", today))
+                    app.update(store_dates(result, "ios"))
                 for field, source in (
                     ("developer", "sellerName"),
                     ("description", "description"),
@@ -152,12 +179,13 @@ def refresh_googleplay(apps: dict, keys: list[str], today: str, log):
             app = fetch_googleplay_details(apps[key]["id"])
             return {
                 **store_metrics(app, "android", today),
+                **store_dates(app, "android"),
                 "videos": google_videos(app), "video_checked_at": today, "video_error": None,
                 "developer": app.get("developer"), "description": app.get("description"),
                 "version": app.get("version"), "icon": app.get("icon"),
                 "screenshots": app.get("screenshots"),
                 "release_info": {field: app.get(field) for field in (
-                    "appId", "title", "genreId", "released", "developer", "free", "price", "currency", "icon", *METRIC_FIELDS, *VIDEO_FIELDS)},
+                    "appId", "title", "genreId", "released", "updated", "developer", "free", "price", "currency", "icon", *METRIC_FIELDS, *VIDEO_FIELDS)},
             }
         except (OSError, ValueError, subprocess.SubprocessError) as error:
             log(f"[Google Play/{apps[key]['id']}] 详情查询失败，保留已有资料：{error}")
