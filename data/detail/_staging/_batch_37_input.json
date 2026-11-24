@@ -1,0 +1,160 @@
+{
+  "batch": 37,
+  "games": [
+    {
+      "name": "Arrow Puzzle: Tap Puzzle Games",
+      "slug": "Arrow_Puzzle_Tap_Puzzle_Games_54c0ac",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 81
+      },
+      "platform_app_ids": {
+        "android": "com.easybrain.arrow.puzzle.game"
+      },
+      "publisher": "Easybrain",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 29,
+      "best_rank": 13,
+      "seen_days": 29,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Disney Solitaire ディズニー ソリティア",
+      "slug": "Disney_Solitaire_ディズニー_ソリティア_d171eb",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 22
+      },
+      "platform_app_ids": {
+        "ios": "6475757306"
+      },
+      "publisher": "SuperPlay",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-10-08",
+      "appearances": 27,
+      "best_rank": 13,
+      "seen_days": 27,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Bolt Out - Puzzle Game",
+      "slug": "Bolt_Out_Puzzle_Game_feaccb",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 18
+      },
+      "platform_app_ids": {
+        "android": "com.gl.unbolt"
+      },
+      "publisher": "Loyalty Gaming",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 5,
+      "best_rank": 14,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Squeeze: Jelly Cat Puzzle",
+      "slug": "Squeeze_Jelly_Cat_Puzzle_a279f3",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 24
+      },
+      "platform_app_ids": {
+        "android": "com.squee.ze"
+      },
+      "publisher": "Little Hugo",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 5,
+      "best_rank": 20,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Point Away 3D: Cube Puzzle",
+      "slug": "Point_Away_3D_Cube_Puzzle_434cbb",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 20
+      },
+      "platform_app_ids": {
+        "android": "com.pointaway.gp"
+      },
+      "publisher": "UniRise Studio",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-19",
+      "appearances": 4,
+      "best_rank": 20,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "batch": 38,
+  "games": [
+    {
+      "name": "Yarn Loop: Knit Puzzle",
+      "slug": "Yarn_Loop_Knit_Puzzle_fe4bd8",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 73,
+        "android/美区免费榜": 27
+      },
+      "platform_app_ids": {
+        "ios": "6755183085",
+        "android": "com.combo.yarnflow"
+      },
+      "publisher": "Combo Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 30,
+      "best_rank": 25,
+      "seen_days": 30,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Stack Smash - Block 3D Puzzle",
+      "slug": "Stack_Smash_Block_3D_Puzzle_14c5c3",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 62
+      },
+      "platform_app_ids": {
+        "android": "com.tripledot.blockssmashgame"
+      },
+      "publisher": "Tripledot Studios Limited",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 22,
+      "best_rank": 25,
+      "seen_days": 22,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Zen Word® - Relax Puzzle Game",
+      "slug": "Zen_Word_Relax_Puzzle_Game_9e90cf",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 82,
+        "android/美区免费榜": 89
+      },
+      "platform_app_ids": {
+        "ios": "1660171117",
+        "android": "kidultlovin.word.zen"
+      },
+      "publisher": "Oakever Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 24,
+      "best_rank": 26,
+      "seen_days": 24,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Jelly Busters: Puzzle Game",
+      "slug": "Jelly_Busters_Puzzle_Game_c90352",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 74
+      },
+      "platform_app_ids": {
+        "ios": "6756058501"
+      },
+      "publisher": "Moon Active",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 24,
+      "best_rank": 26,
+      "seen_days": 24,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Brainy Master 2: Tricky Puzzle",
+      "slug": "Brainy_Master_2_Tricky_Puzzle_9d3d91",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 26
+      },
+      "platform_app_ids": {
+        "android": "com.trickypuzzle.brainyquest.logic.teaser"
+      },
+      "publisher": "Metagame.Ltd",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-20",
+      "appearances": 3,
+      "best_rank": 26,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}
