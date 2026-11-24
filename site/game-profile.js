@@ -34,15 +34,20 @@
       .filter(item => !board || item.label === board)
       .flatMap(item => item.rows || []).find(row => row.name === name);
     let row = find(await miniGameData(path));
+    let iconRow = row;
     if (!row?.icon) {
       const base = await loadBaseGames();
       const dates = Object.entries(base[name]?.board_history || {})
         .filter(([key]) => key.startsWith(platform + "/") && (!board || key === `${platform}/${board}`))
         .map(([, entry]) => entry.last_seen).filter(date => /^\d{4}-\d{2}-\d{2}$/.test(date || "")).sort();
-      if (dates.length) row = find(await miniGameData(`data/daily/${dates.at(-1)}.json`)) || row;
+      if (dates.length) {
+        const fallback = find(await miniGameData(`data/daily/${dates.at(-1)}.json`));
+        row ||= fallback;
+        iconRow = fallback || row;
+      }
     }
-    let icon = row?.icon;
-    if (!icon && row?.app_id) icon = (await miniGameData("data/base/game-icons.json"))[platform]?.[row.app_id];
+    let icon = iconRow?.icon;
+    if (!icon && iconRow?.app_id) icon = (await miniGameData("data/base/game-icons.json"))[platform]?.[iconRow.app_id];
     if (!icon) {
       try {
         await loadDetailIndex();
@@ -52,7 +57,13 @@
         if (detail?.boards?.some(key => key.startsWith(platform + "/"))) icon = detail.icon;
       } catch { /* Keep the existing placeholder when optional metadata is unavailable. */ }
     }
-    if (current() && icon) renderProfileIcon(name, icon);
+    if (current()) {
+      if (row) {
+        state.profileRank = { name, publisher: row.publisher || "", category: row.category || "" };
+        renderView(state.profiles[name] || { game_name: name }, false);
+      }
+      if (icon) renderProfileIcon(name, icon);
+    }
   }
 
   function loadBaseGames() {
@@ -68,6 +79,15 @@
       first_seen_at: entry?.first_seen_anywhere || "",
       category: entry?.categories?.[0] || "",
       publisher_name: entry?.publishers?.[0] || "",
+    };
+  }
+
+  function preferRankFields(game, fallback) {
+    return {
+      ...game,
+      first_seen_at: game.first_seen_at || fallback?.first_seen_at,
+      publisher_name: fallback ? fallback.publisher_name : game.publisher_name,
+      category: fallback ? fallback.category : game.category,
     };
   }
 
@@ -173,12 +193,7 @@
     const byName = new Map(Object.entries(base).map(([name, entry]) => [name, baseGame(name, entry)]));
     for (const game of games) {
       const fallback = byName.get(game.name);
-      byName.set(game.name, {
-        ...game,
-        first_seen_at: game.first_seen_at || fallback?.first_seen_at,
-        publisher_name: game.publisher_name || fallback?.publisher_name,
-        category: game.category || fallback?.category,
-      });
+      byName.set(game.name, preferRankFields(game, fallback));
     }
     state.boardMap = Object.fromEntries(Object.entries(base).map(([name, entry]) => [name, entry.board_history || {}]));
     // 从最新榜单快照构建: 名称 -> {榜单key: 当前排名}
@@ -245,12 +260,7 @@
     const [[game], profiles] = await Promise.all([gamePromise, profilesPromise, basePromise]);
     if (state.current !== name || state.fullListLoaded) return;
     if (game) {
-      state.games = [{
-        ...game,
-        first_seen_at: game.first_seen_at || state.games[0]?.first_seen_at,
-        publisher_name: game.publisher_name || state.games[0]?.publisher_name,
-        category: game.category || state.games[0]?.category,
-      }];
+      state.games = [preferRankFields(game, state.games.find(row => row.name === name))];
     }
     const profile = profiles?.[0];
     state.profilesLoaded = profiles !== null;
@@ -655,6 +665,7 @@
 
   function showView(name, storeContext) {
     state.current = name;
+    state.profileRank = null;
     state.isNew = false;
     $("gp-toolbar").style.display = "none";
     $("gp-table-wrap").style.display = "none";
@@ -688,6 +699,7 @@
 
   function renderView(p, loadDetail = true) {
     const game = state.games.find((row) => row.name === p.game_name);
+    const rank = state.profileRank?.name === p.game_name ? state.profileRank : null;
     const history = state.boardMap[p.game_name] || {};
     const lastSeen = Object.values(history).map((entry) => entry.last_seen).filter(Boolean).sort().pop();
     const boardHistory = sortBoardKeys(Object.keys(history)).map((key) => {
@@ -700,8 +712,8 @@
     }).join("\n");
     const fields = [
       ["开发商", p.developer],
-      ["发行商", game?.publisher_name],
-      ["分类", game?.category],
+      ["发行商", (rank ? rank.publisher : game?.publisher_name) || "未知"],
+      ["分类", rank ? rank.category : game?.category],
       ["首次上榜", game?.first_seen_at?.slice(0, 10)],
       ["最近上榜", lastSeen],
       ["上榜记录", boardHistory],
@@ -801,12 +813,19 @@
           return source === app.platform && (source !== "ios" || regions[label] === app.country);
         });
       });
+    if (platform) {
+      // A platform-specific profile must not inherit another store's historical publisher.
+      const app = apps.length === 1 && apps[0].platform === platform ? apps[0] : null;
+      state.profileRank = { name, publisher: app ? app.publisher || app.developer || "" : "", category: app?.category || "" };
+      renderView(state.profiles[name] || { game_name: name }, false);
+      if (!app) renderProfileIcon(name);
+    }
     for (const app of apps) {
       if (platform && app.platform !== platform) continue;
       const ios = app.platform === "ios";
       const tap = app.platform === "taptap";
       const storeName = ios ? "App Store" : tap ? "TapTap" : "Google Play";
-      if (app.icon) renderProfileIcon(name, app.icon);
+      if (app.icon && apps.length === 1) renderProfileIcon(name, app.icon);
       const count = value => Number.isSafeInteger(value) && value >= 0 ? value.toLocaleString("en-US") : null;
       const heading = document.createElement("h3");
       heading.textContent = ios ? `${storeName} · ${app.country.toUpperCase()}` : storeName;
@@ -1344,15 +1363,16 @@
   }
 
   async function reloadList() {
-    const [games, profiles, shots] = await Promise.all([
+    const [games, profiles, shots, base] = await Promise.all([
       // 排序键必须**唯一**：sb.select 用 Range 分页（每页 1000），而
       // first_seen_at 精确到日、大量记录同值，仅按它排会得到不确定的顺序，
       // 跨页可能重复返回同一行（列表里出现两条同名记录）。补 name 兜底成全序。
       window.sb.select("games", { select: "name,first_seen_at,category,publisher_name", order: "first_seen_at.desc,name.asc", limit: 5000 }),
       window.sb.select("game_profiles", { limit: 5000 }),
       window.sb.select("game_screenshots", { select: "id,game_name,url,sort_order", order: "sort_order.asc,id.asc", limit: 5000 }),
+      loadBaseGames(),
     ]);
-    state.games = games || [];
+    state.games = (games || []).map(game => preferRankFields(game, base[game.name] ? baseGame(game.name, base[game.name]) : null));
     state.profiles = {};
     for (const p of profiles || []) state.profiles[p.game_name] = p;
     state.shots = {};

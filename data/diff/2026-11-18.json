@@ -39,14 +39,15 @@
         {
           "rank": 70,
           "name": "寻物脑洞",
-          "category": "",
-          "category_rank": null,
-          "subcategory": "",
-          "slogan": "休闲 · 64名",
-          "publisher": "益智",
-          "change": "--",
+          "category": "休闲",
+          "category_rank": 64,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
           "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/63222ee7375debe6284ec8f28d630cac",
-          "change_direction": "flat"
+          "change_direction": "unknown",
+          "change_source": "unavailable"
         }
       ],
       "first_on_board": [],
@@ -61,14 +62,15 @@
         {
           "rank": 70,
           "name": "寻物脑洞",
-          "category": "",
-          "category_rank": null,
-          "subcategory": "",
-          "slogan": "休闲 · 64名",
-          "publisher": "益智",
-          "change": "--",
+          "category": "休闲",
+          "category_rank": 64,
+          "subcategory": "益智",
+          "slogan": "",
+          "publisher": "",
+          "change": "",
           "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/63222ee7375debe6284ec8f28d630cac",
-          "change_direction": "flat"
+          "change_direction": "unknown",
+          "change_source": "unavailable"
         }
       ]
     },

@@ -68,7 +68,7 @@ UA = (
 
 # ---------- parsing ----------
 
-def parse_row(text: str, index_in_board: int) -> dict:
+def parse_row(text: str, index_in_board: int, parts: dict | None = None) -> dict:
     """Parse one rank row's innerText blob into structured fields."""
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
     rank: int | None = None
@@ -97,6 +97,25 @@ def parse_row(text: str, index_in_board: int) -> dict:
         publisher = lines[2] if lines[2] != "--" else ""
     if len(lines) >= 4:
         change = lines[3]
+
+    if parts is not None:
+        # Read semantic elements: WX has separate main/subcategory tags, Douyin has a description.
+        name = parts.get("name", "").strip()
+        if not name:
+            raise ValueError("榜单缺少游戏名称节点，停止保存以避免字段错位")
+        tags = [tag.strip() for tag in parts.get("tags", []) if tag.strip() and tag.strip() != "--"]
+        category = subcategory = ""
+        cat_rank = None
+        if tags:
+            match = re.fullmatch(r"(.+?)\s*[:：·]\s*(\d+)\s*名", tags[0])
+            category = match.group(1).strip() if match else tags[0]
+            cat_rank = int(match.group(2)) if match else None
+            subcategory = " / ".join(tags[1:])
+        publisher = parts.get("publisher", "").strip()
+        if publisher == "--" or re.fullmatch(r"\+\d+", publisher):
+            publisher = ""
+        slogan = parts.get("description", "").strip().strip('"“”')
+        change = " ".join(parts.get("change", "").split())
 
     return {
         "rank": rank,
@@ -178,6 +197,13 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
             continue
         loaded = bh.locator(".rank-child-item").count()
         rows_text = bh.locator(".rank-child-item").all_inner_texts()
+        row_parts = bh.locator(".rank-child-item").evaluate_all("""items => items.map(item => ({
+          name: item.querySelector('.rank-app-name')?.textContent || '',
+          tags: [...item.querySelectorAll('.rank-tags-row .categorize')].map(tag => tag.textContent || ''),
+          description: item.querySelector('.rank-app-description')?.textContent || '',
+          publisher: item.querySelector('.app-publisher__name')?.textContent || '',
+          change: item.querySelector('.rank-right-item')?.innerText || ''
+        }))""")
         icons = bh.locator(".rank-child-item").evaluate_all("""items => items.map(item => {
           const image = item.querySelector(".rank-center-item img");
           return image ? image.currentSrc || image.src : "";
@@ -230,7 +256,7 @@ def scrape_current_platform(page, platform: str, top_n: int, log=print) -> dict:
         }""")
         rows = []
         for j, t in enumerate(rows_text):
-            r = parse_row(t, j)
+            r = parse_row(t, j, row_parts[j])
             if j < len(icons) and icons[j].startswith("https://"):
                 r["icon"] = icons[j]
             r["change_direction"] = (

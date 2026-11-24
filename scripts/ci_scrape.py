@@ -164,7 +164,7 @@ def scrape_gravity(auth, top_n, daily_dir, hist_date, log):
     return scrape_browser(None, anonymous_limit)
 
 
-def main():
+def main(gravity_snapshot=None):
     log = print
 
     daily_dir = ROOT / "data" / "daily"
@@ -181,6 +181,8 @@ def main():
     now_bj = datetime.now(BEIJING_TZ)
     day_label = hist_date or now_bj.strftime("%Y-%m-%d")
     out_path = daily_dir / f"{day_label}.json"
+    if gravity_snapshot is not None and gravity_snapshot.get("date_beijing") != day_label:
+        raise ValueError("已登录源站导出日期与写入日期不一致")
 
     # Keep the first daily snapshot; only repair a missing Google Play chart.
     # The Gravity Engine site occasionally rewrites its own rankings
@@ -196,14 +198,17 @@ def main():
 
     auth = resolve_auth(log)
     top_env = os.environ.get("GRAVITY_TOP_N", "").strip()
-    top_n = int(top_env) if top_env else (100 if auth else 20)
+    top_n = int(top_env) if top_env else (100 if auth or gravity_snapshot else 20)
 
     # Gravity Engine (wx/douyin) is the primary source, but a failure here
     # must NOT block the auxiliary sources below (they may succeed while gravity-engine
     # times out — e.g. a transient outage or a slow day). Degrade to a
     # partial snapshot so iOS/TapTap data still lands in the daily file.
     try:
-        data = scrape_gravity(auth, top_n, daily_dir, hist_date, log)
+        if gravity_snapshot is not None:
+            data = gravity_snapshot
+        else:
+            data = scrape_gravity(auth, top_n, daily_dir, hist_date, log)
     except Exception as e:
         log(f"[引力引擎] 抓取失败，继续采集独立数据源（{type(e).__name__}）")
         data = {

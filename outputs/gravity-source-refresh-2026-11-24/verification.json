@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-24",
+  "boards": [
+    {
+      "platform": "wx",
+      "board": "人气榜",
+      "rows": 100,
+      "source_publisher_missing": 23
+    },
+    {
+      "platform": "wx",
+      "board": "畅销榜",
+      "rows": 100,
+      "source_publisher_missing": 7
+    },
+    {
+      "platform": "wx",
+      "board": "畅玩榜",
+      "rows": 100,
+      "source_publisher_missing": 8
+    },
+    {
+      "platform": "douyin",
+      "board": "热门榜",
+      "rows": 100,
+      "source_publisher_missing": 0
+    },
+    {
+      "platform": "douyin",
+      "board": "畅销榜",
+      "rows": 100,
+      "source_publisher_missing": 0
+    },
+    {
+      "platform": "douyin",
+      "board": "新游榜",
+      "rows": 100,
+      "source_publisher_missing": 0
+    }
+  ],
+  "checked_rows": 600,
+  "examples": [
+    {
+      "platform": "wx",
+      "board": "人气榜",
+      "name": "腾讯桌球",
+      "publisher": "深圳市腾讯计算机系统有限公司"
+    },
+    {
+      "platform": "wx",
+      "board": "人气榜",
+      "name": "俄罗斯方块拼图",
+      "publisher": "广州京游网络科技有限公司"
+    },
+    {
+      "platform": "wx",
+      "board": "畅玩榜",
+      "name": "俄罗斯方块拼图",
+      "publisher": "广州京游网络科技有限公司"
+    },
+    {
+      "platform": "douyin",
+      "board": "热门榜",
+      "name": "俄罗斯方块拼图",
+      "publisher": "广州京游网络科技有限公司"
+    }
+  ]
+}

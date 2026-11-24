@@ -360,7 +360,7 @@ function renderDiffTables() {
       <td>${gameCell(r.name, s, ab)}</td>
       <td>${escapeHTML(category)}</td>
       <td class="cell-truncate" title="${escapeHTML(subcategory || slogan)}">${escapeHTML(subcategory) || `<span class="slogan">${escapeHTML(slogan)}</span>`}</td>
-      <td>${escapeHTML(r.publisher || "")}</td>
+      <td>${r.publisher ? escapeHTML(r.publisher) : '<span class="muted">未知</span>'}</td>
       <td>${studioCell}</td>`;
     tbodyG.appendChild(tr);
   }
@@ -442,7 +442,7 @@ function renderFullBoard() {
       <td>${gameCell(r.name, r, ab, r.slogan)}</td>
       <td>${escapeHTML(r.category || "")}${r.category_rank ? ` <span class="muted">#${r.category_rank}</span>` : ""}</td>
       <td>${escapeHTML(r.subcategory || "")}</td>
-      <td>${escapeHTML(r.publisher || "")}</td>
+      <td>${r.publisher ? escapeHTML(r.publisher) : '<span class="muted">未知</span>'}</td>
       <td>${changeCell(r)}</td>
       <td>${isNew ? `<span class="badge-new">NEW</span>` : ""}</td>`;
     tbody.appendChild(tr);
