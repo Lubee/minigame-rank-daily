@@ -1,0 +1,170 @@
+{
+  "batch": 42,
+  "source_task_id": "workbuddy-2026-11-24-20",
+  "games": [
+    {
+      "name": "元梦之星",
+      "slug": "元梦之星_344add",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/国区免费榜",
+        "wx/人气榜",
+        "wx/畅销榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 61,
+        "wx/畅销榜": 97,
+        "ios/国区免费榜": 91
+      },
+      "platform_app_ids": {
+        "ios": "1632344522"
+      },
+      "publisher": "深圳市腾讯计算机系统有限公司",
+      "category_l1": "动作",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 60,
+      "best_rank": 22,
+      "seen_days": 61,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "消俄罗斯方块 - 经典消除益智小游戏",
+      "slug": "消俄罗斯方块_经典消除益智小游戏_14d8b0",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/国区免费榜"
+      ],
+      "ranks": {
+        "ios/国区免费榜": 88
+      },
+      "platform_app_ids": {
+        "ios": "6758330501"
+      },
+      "publisher": "巧莲 李",
+      "category_l1": "游戏",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 7,
+      "best_rank": 26,
+      "seen_days": 7,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Spin Ring Cash Puzzle",
+      "slug": "Spin_Ring_Cash_Puzzle_894810",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 27
+      },
+      "platform_app_ids": {
+        "android": "com.spinringcashpuzzlezl.game"
+      },
+      "publisher": "Bgt groups",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 5,
+      "best_rank": 27,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Magic Jigsaw Puzzles-Games HD",
+      "slug": "Magic_Jigsaw_Puzzles_Games_HD_e3255e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 93
+      },
+      "platform_app_ids": {
+        "android": "com.bandagames.mpuzzle.gp"
+      },
+      "publisher": "ZiMAD",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 5,
+      "best_rank": 28,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Pink Pour: Water Sort",
+      "slug": "Pink_Pour_Water_Sort_592f07",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 28
+      },
+      "platform_app_ids": {
+        "android": "com.yourstudio.pinkpour"
+      },
+      "publisher": "NEW PACE PRODUCTIONS",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 1,
+      "best_rank": 28,
+      "seen_days": 1,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

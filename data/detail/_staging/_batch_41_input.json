@@ -1,0 +1,164 @@
+{
+  "batch": 41,
+  "source_task_id": "workbuddy-2026-11-24-20",
+  "games": [
+    {
+      "name": "家园跑刀撤离",
+      "slug": "家园跑刀撤离_2098d4",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 12
+      },
+      "platform_app_ids": {},
+      "publisher": "深圳市天善力思科技有限公司",
+      "category_l1": "动作",
+      "category_l2": "益智",
+      "first_seen": "2026-07-29",
+      "appearances": 32,
+      "best_rank": 6,
+      "seen_days": 32,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "割草乱斗王",
+      "slug": "割草乱斗王_5e1b31",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 61
+      },
+      "platform_app_ids": {
+        "wx": "wx387463c90a055773"
+      },
+      "publisher": "益智",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-05",
+      "appearances": 5,
+      "best_rank": 6,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "打个麻将",
+      "slug": "打个麻将_517025",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 7
+      },
+      "platform_app_ids": {
+        "wx": "wx9fb4eef1f15aeb77"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-25",
+      "appearances": 2,
+      "best_rank": 6,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "脑洞全能王",
+      "slug": "脑洞全能王_2834d2",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 91,
+        "wx/畅玩榜": 93
+      },
+      "platform_app_ids": {},
+      "publisher": "广州宝可梦科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-12",
+      "appearances": 35,
+      "best_rank": 7,
+      "seen_days": 35,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "疯狂卡片消",
+      "slug": "疯狂卡片消_2808f1",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 84,
+        "wx/畅玩榜": 75
+      },
+      "platform_app_ids": {},
+      "publisher": "武汉聚优量信息科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-20",
+      "appearances": 14,
+      "best_rank": 7,
+      "seen_days": 14,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

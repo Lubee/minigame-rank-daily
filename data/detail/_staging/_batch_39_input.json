@@ -1,0 +1,168 @@
+{
+  "batch": 39,
+  "source_task_id": "workbuddy-2026-11-24-20",
+  "games": [
+    {
+      "name": "铸剑大师小游戏",
+      "slug": "铸剑大师小游戏_011780",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 8
+      },
+      "platform_app_ids": {
+        "wx": "wx3bb5d19f9ff9efce"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-19",
+      "appearances": 2,
+      "best_rank": 4,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "百变魔方益智",
+      "slug": "百变魔方益智_acb14b",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜"
+      ],
+      "ranks": {
+        "douyin/热门榜": 17
+      },
+      "platform_app_ids": {
+        "douyin": "tt07d9716498e19fb3"
+      },
+      "publisher": "上海阳笙信息技术服务有限公司",
+      "category_l1": "1",
+      "category_l2": "",
+      "first_seen": "2026-11-02",
+      "appearances": 4,
+      "best_rank": 4,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "洁癖大师",
+      "slug": "洁癖大师_3f1f0a",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜",
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "douyin/新游榜": 49,
+        "wx/人气榜": 8,
+        "wx/畅玩榜": 81
+      },
+      "platform_app_ids": {},
+      "publisher": "广州湾心科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-23",
+      "appearances": 9,
+      "best_rank": 5,
+      "seen_days": 10,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "沙画消消",
+      "slug": "沙画消消_9d5bd7",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 58,
+        "wx/人气榜": 94
+      },
+      "platform_app_ids": {},
+      "publisher": "长沙指极星科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-06-29",
+      "appearances": 73,
+      "best_rank": 5,
+      "seen_days": 73,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "抓金猪挑战",
+      "slug": "抓金猪挑战_e3a1ab",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 39,
+        "wx/畅玩榜": 59
+      },
+      "platform_app_ids": {},
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-07-12",
+      "appearances": 12,
+      "best_rank": 5,
+      "seen_days": 13,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

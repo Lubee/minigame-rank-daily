@@ -1,0 +1,174 @@
+{
+  "batch": 40,
+  "source_task_id": "workbuddy-2026-11-24-20",
+  "games": [
+    {
+      "name": "轻松挑战赛",
+      "slug": "轻松挑战赛_808adb",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 88,
+        "wx/畅玩榜": 17
+      },
+      "platform_app_ids": {},
+      "publisher": "长沙青芒极途网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-02",
+      "appearances": 24,
+      "best_rank": 5,
+      "seen_days": 26,
+      "profile_value": "mid",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "沙画,Sand,传送带",
+        "tags": [
+          "沙画",
+          "Sand",
+          "传送带"
+        ],
+        "notes": "",
+        "developer": "长沙青芒极途网络科技有限公司"
+      },
+      "media": {}
+    },
+    {
+      "name": "武器失控进化",
+      "slug": "武器失控进化_d64c5e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜",
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 85,
+        "wx/畅玩榜": 97,
+        "douyin/热门榜": 18
+      },
+      "platform_app_ids": {
+        "douyin": "tt379c4121a9f96eb907"
+      },
+      "publisher": "厦门傅斯网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-01",
+      "appearances": 19,
+      "best_rank": 6,
+      "seen_days": 20,
+      "profile_value": "low",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "Roblox 模拟器玩法。",
+        "tags": [
+          "休闲",
+          "roblox",
+          "模拟器"
+        ],
+        "notes": "",
+        "developer": "厦门傅斯网络科技有限公司"
+      },
+      "media": {}
+    },
+    {
+      "name": "汉字老六",
+      "slug": "汉字老六_3125f2",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 91,
+        "wx/畅玩榜": 100
+      },
+      "platform_app_ids": {},
+      "publisher": "上海游之幻网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-06",
+      "appearances": 26,
+      "best_rank": 6,
+      "seen_days": 27,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "消除快乐多",
+      "slug": "消除快乐多_74e58c",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜"
+      ],
+      "ranks": {
+        "douyin/新游榜": 6
+      },
+      "platform_app_ids": {},
+      "publisher": "广州轻游信息科技有限公司",
+      "category_l1": "",
+      "category_l2": "",
+      "first_seen": "2026-07-20",
+      "appearances": 7,
+      "best_rank": 6,
+      "seen_days": 7,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "搞怪闯难关",
+      "slug": "搞怪闯难关_9372f9",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 99
+      },
+      "platform_app_ids": {},
+      "publisher": "广州如是网络有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-26",
+      "appearances": 13,
+      "best_rank": 6,
+      "seen_days": 13,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}
