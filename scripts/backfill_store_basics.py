@@ -1,4 +1,4 @@
-"""One resumable US metadata pass; no AI research or Apple video requests."""
+"""One resumable regional metadata pass; no AI research or Apple video requests."""
 from __future__ import annotations
 
 import copy
@@ -17,7 +17,7 @@ from store_videos import VIDEO_FIELDS
 
 ROOT = Path(__file__).resolve().parents[1]
 DAY = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
-OUT = ROOT / 'outputs' / ('basic-profile-backfill-' + DAY)
+OUT = ROOT.parent / 'outputs' / ('basic-profile-backfill-' + DAY)
 FIELDS = ('name', 'publisher', 'description', 'version', 'icon', 'screenshots', 'category',
           'supported_platforms', 'free', 'price', 'currency', 'rating', 'rating_count',
           'review_count', 'installs', 'metrics_checked_at', 'videos', 'video_checked_at',
@@ -40,7 +40,8 @@ def main():
     progress_path = OUT / 'progress.json'
     progress = json.loads(progress_path.read_text(encoding='utf-8')) if progress_path.exists() else {}
     targets = {key: copy.deepcopy(app) for key, app in store.items()
-               if app.get('platform') in ('ios', 'android') and app.get('country') == 'us'}
+               if ((app.get('platform') == 'ios' and app.get('country') in ('us', 'cn', 'jp'))
+                   or (app.get('platform') == 'android' and app.get('country') == 'us'))}
     for record in catalog.get('apps', {}).values():
         if record.get('platform') not in ('ios', 'android') or record.get('status') == 'not_game':
             continue
@@ -81,12 +82,15 @@ def main():
             raise ValueError('Official result: ' + result['status'])
         assert detail is not None and str(detail.get('trackId') or detail.get('appId')) == str(original['id'])
         app = store.setdefault(key, copy.deepcopy(original))
+        names = set(app.get('names', [])) | {name for name in (app.get('name'), result.get('name')) if name}
+        app['names'] = sorted(names)
         for field in FIELDS:
             value = result.get(field)
             if value is not None and value != '' and (value != [] or field == 'media_missing'):
                 app[field] = value
         app['developer'] = result['publisher'] or app.get('developer', '')
-        app['url'] = result['url']
+        app['url'] = (f"https://apps.apple.com/{original['country']}/app/id{original['id']}"
+                      if original['platform'] == 'ios' else result['url'])
         app['media_checked_at'] = now.isoformat()
         app['details_checked_on' if original['platform'] == 'android' else 'checked_on'] = DAY
         raw_fields = ('trackId', 'trackName', 'genreIds', 'primaryGenreId', 'releaseDate', 'currentVersionReleaseDate', 'price', 'currency', 'sellerName', 'artistName', 'artworkUrl512', 'supportedDevices') if original['platform'] == 'ios' else ('appId', 'title', 'genreId', 'released', 'updated', 'developer', 'free', 'price', 'currency', 'icon', *VIDEO_FIELDS)
@@ -102,15 +106,16 @@ def main():
 
     print(f'Targets: {len(targets)}; Apple video paused', flush=True)
     for round_index in range(2):
-        for platform in ('ios', 'android'):
-            pending = [key for key, app in targets.items() if app['platform'] == platform and progress.get(key, {}).get('status') != 'success']
+        for platform, country in (('ios', 'us'), ('ios', 'cn'), ('ios', 'jp'), ('android', 'us')):
+            pending = [key for key, app in targets.items() if app['platform'] == platform
+                       and app['country'] == country and progress.get(key, {}).get('status') != 'success']
             size = 25 if platform == 'ios' else 12
             for start in range(0, len(pending), size):
                 batch = pending[start:start + size]
                 rate_limited = False
                 if platform == 'ios':
                     try:
-                        details = {str(row.get('trackId')): row for row in lookup_apps('us', [str(targets[key]['id']) for key in batch])}
+                        details = {str(row.get('trackId')): row for row in lookup_apps(country, [str(targets[key]['id']) for key in batch])}
                         for key in batch:
                             try:
                                 accept(key, details.get(str(targets[key]['id'])))
@@ -137,7 +142,7 @@ def main():
                                 failure(key, error)
                 checkpoint()
                 successes = sum(progress.get(key, {}).get('status') == 'success' for key in targets)
-                print(f'Round {round_index + 1} {platform} {min(start + size, len(pending))}/{len(pending)}; total success={successes}/{len(targets)}', flush=True)
+                print(f'Round {round_index + 1} {platform}/{country} {min(start + size, len(pending))}/{len(pending)}; total success={successes}/{len(targets)}', flush=True)
                 if rate_limited:
                     print('Rate limited; stop this platform until retry round', flush=True)
                     break
@@ -146,13 +151,21 @@ def main():
             print('Retry remaining records after 30 seconds', flush=True)
             time.sleep(30)
     checkpoint()
-    summary = {'targets': len(targets), 'platforms': {}, 'apple_video': 'paused', 'failed': []}
+    summary = {'targets': len(targets), 'platforms': {}, 'regions': {}, 'apple_video': 'paused', 'failed': []}
     for platform in ('ios', 'android'):
         records = [(key, app) for key, app in targets.items() if app['platform'] == platform]
         summary['platforms'][platform] = {'total': len(records), 'success': sum(progress.get(key, {}).get('status') == 'success' for key, _ in records),
             'ratings': sum('rating' in store.get(key, {}) for key, _ in records),
             'videos': sum(bool(store.get(key, {}).get('videos')) for key, _ in records),
             'complete_media': sum(store.get(key, {}).get('media_status') == 'complete' for key, _ in records)}
+    for platform, country in (('ios', 'us'), ('ios', 'cn'), ('ios', 'jp'), ('android', 'us')):
+        keys = [key for key, app in targets.items() if app['platform'] == platform and app['country'] == country]
+        summary['regions'][f'{platform}:{country}'] = {
+            'total': len(keys),
+            'success': sum(progress.get(key, {}).get('status') == 'success' for key in keys),
+            'failed': sum(progress.get(key, {}).get('status') == 'failed' for key in keys),
+            'unattempted': sum(key not in progress for key in keys),
+        }
     summary['failed'] = [{'key': key, **progress.get(key, {'status': 'unattempted'})} for key in targets if progress.get(key, {}).get('status') != 'success']
     save(OUT / 'summary.json', summary)
     print(json.dumps(summary, ensure_ascii=True), flush=True)
