@@ -1,0 +1,4025 @@
+{
+  "boards": [
+    {
+      "heading": "rank-heading-popularity",
+      "rows": [
+        {
+          "change": "霸榜40天",
+          "change_direction": "top",
+          "description": "\"现象级的小游戏，日活人数破百万，日均视频、直播场景曝光超500万，目前DAU稳步提升\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/336c5f7548b7a16829a9ea4e7ec3cf6e",
+          "name": "羊了个羊：星球",
+          "publisher": "北京简游科技有限公司天津分公司",
+          "rank": 1,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"现象级小游戏，峰值活跃人数超千万，发行人直播日均开播人数800+，短视频投稿人数日均300+，GMV稳步提升\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3ae89e1398b59bb9c3f73261d30f76fe",
+          "name": "抓大鹅",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 2,
+          "tags": []
+        },
+        {
+          "change": "62",
+          "change_direction": "down",
+          "description": "\"打破常规，脑洞解谜闯关\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5ca818dbeacaf898fa40e4b9e0720371",
+          "name": "盒子解谜",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "rank": 3,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "up",
+          "description": "\"策略品类头部产品，日均流水达百万量级，发行人短视频吸量，近14天GMV增幅达40%\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/77de0b06cb4ad4e1b6d84607733ad6bb",
+          "name": "疯狂水世界",
+          "publisher": "益世界网络科技有限公司",
+          "rank": 4,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"合成缤纷食材，烹饪美味佳肴，打造属于你的美食街！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/156e30bfc9c73035e67be87b0406b53f",
+          "name": "肥鹅美食街",
+          "publisher": "北京豪腾创想科技有限公司",
+          "rank": 5,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"上线当周DAU数十万，近7天DAU环比涨幅15%，头部达人单周累计挂载破万，TOP直播间acu过千级，且arpu较高\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5cf0d2fdf0cd4ad78030759d28428a28",
+          "name": "赵云与阿斗",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "rank": 6,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "down",
+          "description": "\"棋牌赛道头部游戏，日均活跃人数50万级，日均内容场景曝光破百万级。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8a652b5801031dd1a143e8bdaa05763e",
+          "name": "多乐升级",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 7,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"指尖快消是一款画风简约玩法简单的挪车消除小游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ead6c6a6627d6e5e2f221fecbeefbb9b",
+          "name": "指尖快消",
+          "publisher": "厦门营火科技有限公司",
+          "rank": 8,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"二合赛道头部产品，活跃长期稳定，近期DAU增幅超20%，内容场景日均曝光及流水长期居高，历史带动单直播单日观众数破百万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/899151519a546b9ecce38cc5119e174a",
+          "name": "浪漫餐厅",
+          "publisher": "北京柠檬曲奇科技有限公司",
+          "rank": 9,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"古风消除头部产品，历史DAU峰值百万，近期DAU增幅近20%，GMV增幅近30%，带动短视频曝光千万次\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e13171b6c921981c6bea0361d515c0c7",
+          "name": "梦幻消除战",
+          "publisher": "广州喜势网络科技有限公司",
+          "rank": 10,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"重回圆明园，与旧人再续前缘！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/44a396fee2fd008eb17b384284ebfdb3",
+          "name": "甄嬛传：归来",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "rank": 11,
+          "tags": []
+        },
+        {
+          "change": "11",
+          "change_direction": "down",
+          "description": "\"趣味麻将消除！点击麻将移入卡槽，凑成对子即可消除闯关。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/58f8c5473c3b16e2ae799202218c6be9",
+          "name": "吃碰大消除",
+          "publisher": "厦门登游科技有限公司",
+          "rank": 12,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"烧脑的益智解谜游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/834d790307437fc34d5143db9827e41b",
+          "name": "最后亿关",
+          "publisher": "重庆宸启互娱科技有限公司",
+          "rank": 13,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"近期DAU稳步提升，日活峰值达十万级，发行人短视频日均投破千级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0c93ebd1661800494e66ea361921bd90",
+          "name": "象棋达人",
+          "publisher": "深圳市一锋科技有限公司",
+          "rank": 14,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"山地滑板竞速，冲刺下坡赛道，比拼速度争夺第一名！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/94fcf79311df534b40fbe0a7a50297b8",
+          "name": "独自向前冲",
+          "publisher": "成都畅游宇宙科技有限公司",
+          "rank": 15,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"流水峰值近百万，近7天涨幅25%，社交分享裂变表现佳，内容场景潜力足\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/86afdd948b5cf347896a2c4c3ee91ddd",
+          "name": "向往的生活",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "rank": 16,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "up",
+          "description": "\"头部短视频，带动分享来源DAU十万级，视频播放量百万级，DAU峰值破百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a35b748eb30c73b439ca51c9146dccbb",
+          "name": "躺平发育",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "rank": 17,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"发行人短视频日均投稿数破万，连续多日单条视频转化人数破万。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/544ae7457a46697b3bf9945f81915502",
+          "name": "天天台球",
+          "publisher": "北京喜云网络科技有限公司",
+          "rank": 18,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "down",
+          "description": "\"梦回甄嬛传，合成物品推进剧情，收集角色卡牌、装扮家园与皮肤。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e1e8a78c7123f2ddd1d46cdddc245bfe",
+          "name": "梦回甄嬛传",
+          "publisher": "广州擎迅网络科技有限公司",
+          "rank": 19,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"创意派对小游戏，躲藏者可自由涂色伪装自身，融入场景躲避搜寻！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/aed9cff08b2449fac2f386ffe4e15e59",
+          "name": "速通脑洞王",
+          "publisher": "深圳市烽镞互娱科技有限公司",
+          "rank": 20,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"门不倒，人不跑，看看你能撑几秒！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b82941a5b30aa165ce81cd7c2664678f",
+          "name": "猛鬼宿舍",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "rank": 21,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "down",
+          "description": "\"单周多个直播间挂载启动人数过万，并多个直播间看播人数上万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/06d2eb7fbee08109bb46c97bd1b0a124",
+          "name": "救救我鸭",
+          "publisher": "北京起跃文化有限公司",
+          "rank": 22,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"商场经营类细分赛道头部，日活和GMV双百万级，近期增幅接近15%，受产品玩法影响未来内容挖掘空间极大\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fa6b5fe1dc7c09b65bd062fe48999429",
+          "name": "时尚百货城",
+          "publisher": "深圳市爱的番茄科技有限公司",
+          "rank": 23,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"疯狂黑洞，吞掉一切！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/17c18ac44d397fb3bd7c6cc53ffd004f",
+          "name": "黑洞入侵",
+          "publisher": "邯郸太空船信息科技有限公司",
+          "rank": 24,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"操控小人不断锻炼！最终推动巨石！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a62259b09d366fbf4c13695ae9e4a3e6",
+          "name": "成为最强肌肉人",
+          "publisher": "北京玩伴同乐科技有限公司",
+          "rank": 25,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "down",
+          "description": "\"国民级游戏，开播人数稳步提升，“线下面杀”、“赛事”、“对战”等直播内容丰富，内容场景带流水收入占比超30%\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cee622f7ddace277f02308c701a6e63c",
+          "name": "三国杀",
+          "publisher": "杭州游卡网络技术有限公司",
+          "rank": 26,
+          "tags": []
+        },
+        {
+          "change": "15",
+          "change_direction": "down",
+          "description": "\"活跃长期稳定，近期月流水达千万量级，题材和玩法对女性用户具有吸引力\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c931165ed25a2f40b4ab391785a3bebf",
+          "name": "四季合合",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 27,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "down",
+          "description": "\"棋牌赛道头部游戏，发行人直播日均开播人数100+，短视频日均投稿人数200+。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b7584cc4179a3e165b02f674cc0e0174",
+          "name": "掼蛋",
+          "publisher": "杭州边锋网络技术有限公司",
+          "rank": 28,
+          "tags": []
+        },
+        {
+          "change": "13",
+          "change_direction": "up",
+          "description": "\"国民级小游戏，发行人短视频日均投稿人数峰值破万级，日均直播人数500，头部视频播放破千万。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b762f6ee25402d42f17fe708297a455e",
+          "name": "贪吃蛇大作战",
+          "publisher": "武汉微派网络科技有限公司",
+          "rank": 29,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"模拟网约车接送乘客，赚钱养家，畅游城市公路。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/46c4f2c134714c5fafe8f9b116635921",
+          "name": "暖伴时光",
+          "publisher": "成都布尔凯索科技有限公司",
+          "rank": 30,
+          "tags": []
+        },
+        {
+          "change": "14",
+          "change_direction": "up",
+          "description": "\"组装赛车运送货物抵达终点，发挥你的想象力DIY赛车\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/989d45e081d53257d580149efa50a52a",
+          "name": "极速赛车向前冲",
+          "publisher": "深圳市引力乐园科技有限公司",
+          "rank": 31,
+          "tags": []
+        },
+        {
+          "change": "22",
+          "change_direction": "down",
+          "description": "\"开心找不停~\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5f14ea450ed7760285a9dc1ee011986a",
+          "name": "开心找不停",
+          "publisher": "广州池骋网络科技有限公司",
+          "rank": 32,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"活跃玩家规模稳定，近30内流水峰值破80万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f1fb5302fda170b67a09034f58e0374e",
+          "name": "狱国争霸",
+          "publisher": "北京智诚互娱科技有限公司",
+          "rank": 33,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"控球弹跳，计算冲刺终点！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8b4fe39cf17c2bc806b9ffdbb59ac8b9",
+          "name": "完美解压神器",
+          "publisher": "厦门市玩转地球科技有限公司",
+          "rank": 34,
+          "tags": []
+        },
+        {
+          "change": "11",
+          "change_direction": "down",
+          "description": "\"模拟经营赛道头部游戏，话题性强，社交场景月流水过百万，日均200+主播开播，官号直播间成为标杆。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0662b6723e64e66b267f6d3882d7395b",
+          "name": "我的花园世界",
+          "publisher": "海南途趣科技有限公司",
+          "rank": 35,
+          "tags": []
+        },
+        {
+          "change": "23",
+          "change_direction": "down",
+          "description": "\"好玩又上瘾的消除游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5df832eb7f715648f75d25fab231c0d3",
+          "name": "砖了个砖",
+          "publisher": "北京简游互娱科技有限公司",
+          "rank": 36,
+          "tags": []
+        },
+        {
+          "change": "20",
+          "change_direction": "down",
+          "description": "\"近期DAU超十万级，在棋牌新游中表现优秀\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1b045347c6d8ac94f8e534865670b76f",
+          "name": "多乐掼蛋",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 37,
+          "tags": []
+        },
+        {
+          "change": "18",
+          "change_direction": "down",
+          "description": "\"眼力大挑战，沉浸式收纳\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/77a80719093c844286fdec58d04a57d0",
+          "name": "就你眼神好",
+          "publisher": "北京起跃文化有限公司",
+          "rank": 38,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"联动达人制作对局玩法视频，视频爆量带动10万-&gt;250万增量，其中短视频+搜索、社交裂变各占50%，分享裂变渗透率达45%。同时带动全渠道分享、搜索量增长超100倍增长，登顶多个榜单，全渠道超500万DAU。带动#狙击外星人话题超10亿次播放，话题#玩狙击外星人很小众吗 登上热点榜top40和挑战榜top8\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8a528f5fa0fc1870ef35704efc7cc20d",
+          "name": "狙击外星人",
+          "publisher": "厦门营火科技有限公司",
+          "rank": 39,
+          "tags": []
+        },
+        {
+          "change": "11",
+          "change_direction": "down",
+          "description": "\"多个TOP达人直播间收益上万，人群分布较为年轻化，23岁以下用户群体占比高，在分享场景表现好\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/19d36b8b4e615e41bc5bbf6cb7c38e68",
+          "name": "佛系消消消",
+          "publisher": "厦门行上网络科技有限公司",
+          "rank": 40,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "down",
+          "description": "\"这也太解压了！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2637eefeaa487d55c387d21d50934c13",
+          "name": "这关消一消",
+          "publisher": "福州联创乐游网络科技有限公司",
+          "rank": 41,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"经典中国象棋，除了残局闯关、联机对弈、赛季争霸之外，还有妙趣横生的五子棋玩法，快喊上好友来在线对决吧！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d9404ee212dfbb0a3eaf89161d671bb2",
+          "name": "JJ象棋",
+          "publisher": "竞技世界（北京）网络技术有限公司",
+          "rank": 42,
+          "tags": []
+        },
+        {
+          "change": "40",
+          "change_direction": "down",
+          "description": "\"俄罗斯方块堆叠塔防\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a79c2baa10c666158fc8706b5d0de6f6",
+          "name": "王牌射手",
+          "publisher": "北京伟恩无限信息技术有限公司",
+          "rank": 43,
+          "tags": []
+        },
+        {
+          "change": "24",
+          "change_direction": "up",
+          "description": "\"《蛋仔派对》是一款欢乐世界休闲竞技游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5701a6a9738b105676460a9f65fbb98e",
+          "name": "蛋仔派对",
+          "publisher": "杭州网易雷火科技有限公司",
+          "rank": 44,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"这是一款末日题材的塔防类割草游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/74e47487e35fdaffd9d545f246b2871a",
+          "name": "向僵尸开炮",
+          "publisher": "海南盛昌网络科技有限公司",
+          "rank": 45,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "down",
+          "description": "\"直播场景头部主播单周累计挂载启动人数破万，短视频场景头部视频单周播放量百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3050e76e68de009ffcdaf4d55a44a807",
+          "name": "爆裂守卫",
+          "publisher": "邯郸太空船信息科技有限公司",
+          "rank": 46,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"经典正宗五子棋。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/43e98288adb4f477afe0c17741b38886",
+          "name": "五子棋达人",
+          "publisher": "深圳市一锋科技有限公司",
+          "rank": 47,
+          "tags": []
+        },
+        {
+          "change": "12",
+          "change_direction": "up",
+          "description": "\"《勇者乱斗》是一款蔬果拟人风格的合成升级自走棋游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4de8b90bac686c92d73092b017487a96",
+          "name": "勇者乱斗",
+          "publisher": "杭州电梦网络科技有限公司",
+          "rank": 48,
+          "tags": []
+        },
+        {
+          "change": "19",
+          "change_direction": "down",
+          "description": "\"包含象棋、揭棋、翻翻棋等经典玩法，随时开局，以棋会友\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a184248132d1d0982ef43afb0cf507f9",
+          "name": "多乐中国象棋",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 49,
+          "tags": []
+        },
+        {
+          "change": "25",
+          "change_direction": "down",
+          "description": "\"合成悟空，是仙非魔！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f9e2f962ffddfd08d0b9d87897fe996b",
+          "name": "悟空别走",
+          "publisher": "湖南中昱智云物联科技有限公司",
+          "rank": 50,
+          "tags": []
+        },
+        {
+          "change": "25",
+          "change_direction": "up",
+          "description": "\"一款趣味烧脑的脑洞游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c9698816a1accdd3eaaa85e5bb5f13ae",
+          "name": "动动大脑汁",
+          "publisher": "深圳市欢乐畅玩科技有限公司",
+          "rank": 51,
+          "tags": []
+        },
+        {
+          "change": "21",
+          "change_direction": "down",
+          "description": "\"挪车接人，越玩越上头\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2f5872b5c4075a00e95082b0ba7195f0",
+          "name": "再闯这一关",
+          "publisher": "广州小贝科技有限公司",
+          "rank": 52,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"高压水枪！冲就完事了！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/28e9ca79c9f1496e55ecb33836996cb8",
+          "name": "清洁模拟",
+          "publisher": "厦门弦游科技有限公司",
+          "rank": 53,
+          "tags": []
+        },
+        {
+          "change": "25",
+          "change_direction": "down",
+          "description": "\"挪车让小人全部上车小游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3d2a73ab852f131ac69a108079a8fd83",
+          "name": "小人大作战",
+          "publisher": "重庆云威科技有限公司",
+          "rank": 54,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"走进美味餐厅后厨，亲手削土豆、控制损耗、完成备菜任务挑战！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6ed0a725b4c32712447c321e0abcf8e1",
+          "name": "美味餐厅",
+          "publisher": "厦门焕游科技有限公司",
+          "rank": 55,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "up",
+          "description": "\"一款休闲益智小游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d93a40b906dff36912f3ef97681f2883",
+          "name": "听说你很菜",
+          "publisher": "重庆苍玄科技有限公司",
+          "rank": 56,
+          "tags": []
+        },
+        {
+          "change": "52",
+          "change_direction": "up",
+          "description": "\"一款人人都能玩的超解压赛车游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8d7f028fc5de52ab9e3402f88ce0ddb5",
+          "name": "全民飞车王",
+          "publisher": "个人开发者",
+          "rank": 57,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "down",
+          "description": "\"指尖控车，稳行赛道赢挑战！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/30f915a3d806d6bbeae25279def1df2c",
+          "name": "车速狂飙",
+          "publisher": "武汉爆鸣互娱科技有限公司",
+          "rank": 58,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"轻松加愉快的解压小游戏~\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/794de1b6cd7d90fc2e8f7589d3215f56",
+          "name": "天天打龙",
+          "publisher": "广州轻游信息科技有限公司",
+          "rank": 59,
+          "tags": []
+        },
+        {
+          "change": "35",
+          "change_direction": "up",
+          "description": "\"解锁迷宫，联机真人对战！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/06b93347c17a193a7d2b60885a08c48c",
+          "name": "染色迷宫",
+          "publisher": "天津能量工坊科技有限公司",
+          "rank": 60,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"RPG赛道头部产品，近期月均流水在千万以上级别，有稳定的玩家群体\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/09dcdbad4d4ebe195a2c33ad64fd1ff2",
+          "name": "灵画师",
+          "publisher": "广州光游网络科技有限公司",
+          "rank": 61,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"近一周表现优异，日流水近百万级，单日DAU峰值破十万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e4fb04bfa0def4cdf114b9e0be3780fa",
+          "name": "造化仙府",
+          "publisher": "上海沛炫网络科技有限公司",
+          "rank": 62,
+          "tags": []
+        },
+        {
+          "change": "21",
+          "change_direction": "down",
+          "description": "\"入选抖音高质量精选游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ede1c7b2e8f9aaf70563bf5cbe76736c",
+          "name": "每天数独",
+          "publisher": "海南三百斤科技有限公司",
+          "rank": 63,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"一款休闲小游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/bac42a03a433370194a6f0bff0506fbf",
+          "name": "最牛大冒险",
+          "publisher": "重庆苍玄科技有限公司",
+          "rank": 64,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "up",
+          "description": "\"脑洞找茬小游戏，让你意向不到的答案\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a0d7816715536f7f46bd8498b728ebdd",
+          "name": "脑子挺好的",
+          "publisher": "武汉市掌上乐玩科技有限公司",
+          "rank": 65,
+          "tags": []
+        },
+        {
+          "change": "25",
+          "change_direction": "down",
+          "description": "\"救救这只猪\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c05ca6fbcefdac814ffafc4cfe194729",
+          "name": "猪了个猪",
+          "publisher": "杭州同趣科技有限公司",
+          "rank": 66,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"#射击找茬#FPS#解压#一元之争#你狙我躲#夫妻对战#朋友联机\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9f6079e81300be29dbfaa4c791aee16d",
+          "name": "小样哪里躲",
+          "publisher": "厦门营火科技有限公司",
+          "rank": 67,
+          "tags": []
+        },
+        {
+          "change": "25",
+          "change_direction": "up",
+          "description": "\"一款音乐节奏类游戏，玩家控制跳跃的小球，跟随节奏完成挑战。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e21e66a1e024d7d66169c12d0c68442f",
+          "name": "音悦节奏球",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "rank": 68,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"拆木块，保平衡，稳稳落地才算赢！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/52013798e312501f815b8859e8be2309",
+          "name": "别拆我台",
+          "publisher": "青岛汇研互娱网络科技有限公司",
+          "rank": 69,
+          "tags": []
+        },
+        {
+          "change": "15",
+          "change_direction": "down",
+          "description": "\"帮助彩色小人上车！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3caea45291167d243694f350b0167649",
+          "name": "看谁先上车",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "rank": 70,
+          "tags": []
+        },
+        {
+          "change": "21",
+          "change_direction": "up",
+          "description": "\"近期日流水峰值破百万，活跃玩家规模总体稳定\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/441e4ad54489812f16583631de70964c",
+          "name": "跃动小子",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "rank": 71,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近期日均GMV规模超五十万级，DAU日均超十万级，塔防品类中表现优秀\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8340c9e2d5391890352507a59e98e581",
+          "name": "不服来通关",
+          "publisher": "长沙游品科技有限公司",
+          "rank": 72,
+          "tags": []
+        },
+        {
+          "change": "21",
+          "change_direction": "up",
+          "description": "\"萌猫持枪闯战域，升级火力一路变强\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a900d0d79caab4b93c09e6642ebe8005",
+          "name": "喵骑战域",
+          "publisher": "重庆很开心科技有限公司",
+          "rank": 73,
+          "tags": []
+        },
+        {
+          "change": "20",
+          "change_direction": "down",
+          "description": "\"你能过几关？\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f4b7e38e9ae52e85f75722ae1fe6475b",
+          "name": "这局有点秀",
+          "publisher": "广州池骋网络科技有限公司",
+          "rank": 74,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"打牌不缺豆，还有福利领！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/61e1868e7c3a745979d65f530fbabe4a",
+          "name": "欢喜斗地主",
+          "publisher": "深圳市其乐游戏科技有限公司",
+          "rank": 75,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"植物暴走，爽翻全场！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/53a2780caf6e87c5fa9028afe65daed7",
+          "name": "暴走植物园",
+          "publisher": "海南椰路信息科技有限公司",
+          "rank": 76,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"全新脑经急转弯，眼疾手也快。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/91f84abc8ee0ff48a74ccb3441d120cc",
+          "name": "轻点别眨眼",
+          "publisher": "重庆斐爵科技有限公司",
+          "rank": 77,
+          "tags": []
+        },
+        {
+          "change": "69",
+          "change_direction": "up",
+          "description": "\"益智解谜，泼墨山河\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f02c44d499a711dbad4e8aefaa8b81b4",
+          "name": "泼墨大神",
+          "publisher": "成都鱼游濠上科技有限公司",
+          "rank": 78,
+          "tags": []
+        },
+        {
+          "change": "42",
+          "change_direction": "up",
+          "description": "\"无需下载，点击即玩！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/94ded2c60358f121e1515fee6d51d84d",
+          "name": "我要考眼力",
+          "publisher": "上海密幂科技有限公司",
+          "rank": 79,
+          "tags": []
+        },
+        {
+          "change": "12",
+          "change_direction": "down",
+          "description": "\"经典华容道搭配沙画消除！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8154d668a40af44df93ebbc8e885d375",
+          "name": "这关超级消",
+          "publisher": "长沙指色网络科技有限公司",
+          "rank": 80,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"棋牌赛道头部游戏，日均近百主播开播，自建赛事房间直播内容看播高，内容场景曝光破百万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fe5d380042f02b4d226f894abbe0059d",
+          "name": "多乐够级",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 81,
+          "tags": []
+        },
+        {
+          "change": "13",
+          "change_direction": "down",
+          "description": "\"好玩的休闲小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e2fe6e46b540b26f0841ebf8460336cd",
+          "name": "守了个桥",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "rank": 82,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"近期DAU稳定提升，GMV峰值破十万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/535feaeef762ad8079d4b5ae30bf1552",
+          "name": "难不倒你吧",
+          "publisher": "一克科技（广州）有限公司",
+          "rank": 83,
+          "tags": []
+        },
+        {
+          "change": "80",
+          "change_direction": "up",
+          "description": "\"简单点击即可操控球体向前冲锋，击碎眼前层层堆叠的障碍层级。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4fb4878b4f3c6e138374b5743bec9f7c",
+          "name": "天天有冒险",
+          "publisher": "厦门御钦网络科技有限公司",
+          "rank": 84,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"享受充满创意与乐趣的混乱世界！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c692d052c7d35313843684e364ae0a3a",
+          "name": "狂野游乐园",
+          "publisher": "广州童梦岛科技有限公司",
+          "rank": 85,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "down",
+          "description": "\"《永不言弃：镜世界》，开启一场虐心的音乐节奏之旅！​\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6a6289e2764075364e39df9a39c5fc55",
+          "name": "永不言弃：镜世界",
+          "publisher": "重庆黑耀智能科技研究院有限公司",
+          "rank": 86,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "up",
+          "description": "\"多人同场实时暗标竞价，考验你的眼力与心理博弈。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/37ac46bedf5b1f112453fd2e08fbdf9e",
+          "name": "俱乐大玩家",
+          "publisher": "海南临游科技有限公司",
+          "rank": 87,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "up",
+          "description": "\"塔防品类头部产品，日均流水过百万，UGC内容带流水效果佳\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/bc2dd579233d232bb2881d0a65999060",
+          "name": "超能下蛋鸭",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "rank": 88,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"解压拼豆小游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a6b1a47c7c54c6d5bfa1d170c63ffbaf",
+          "name": "拼就完了",
+          "publisher": "长沙指色网络科技有限公司",
+          "rank": 89,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"比拼思维反应，挑战脑力极限与指尖速度\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2d0b27aa02cebf00eda787ca1bc3b0a1",
+          "name": "一玩就废",
+          "publisher": "重庆虚屿科技有限公司",
+          "rank": 90,
+          "tags": []
+        },
+        {
+          "change": "31",
+          "change_direction": "up",
+          "description": "\"5千万人爱玩的俄罗斯方块新玩法，休闲又益智，快来挑战吧！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e452a6ab7803755e2318a8342bea9ab1",
+          "name": "俄罗斯方块拼图",
+          "publisher": "广州京游网络科技有限公司",
+          "rank": 91,
+          "tags": []
+        },
+        {
+          "change": "57",
+          "change_direction": "up",
+          "description": "\"趣味跑酷狂欢派对，跳跃闯关不停歇，畅享指尖冒险！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/05d655b3705d6151a37d0ceef04405f6",
+          "name": "蛋仔乐园跑酷",
+          "publisher": "厦门流萤之夏网络科技有限公司",
+          "rank": 92,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"趣味闯关小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a57ff7b55f9dfbb88a7bf9a27775b0d7",
+          "name": "脑子一团火",
+          "publisher": "深圳市烽镞互娱科技有限公司",
+          "rank": 93,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"库洛酱安静书，手作魔法治愈时光\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7b6655070836ae4a99aa867dbfb6d6e6",
+          "name": "库洛酱安静书",
+          "publisher": "厦门梅普露网络科技有限公司",
+          "rank": 94,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"重生1980,做整条街最靓老板娘！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cf6a7ff1b24c726f46b6e0957f121db8",
+          "name": "工匠小能手",
+          "publisher": "深圳市统掌科技有限公司",
+          "rank": 95,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "up",
+          "description": "\"头部短视频周维度单条启动破万级，播放量破百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e7494bf3d48f514f62c9f16f1edbb547",
+          "name": "兵器王者",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 96,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"脑洞闯关大冒险\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b4d04cec42e32420ca12c25841740cfb",
+          "name": "疯狂脑洞世界",
+          "publisher": "深圳市鸿鑫网络科技有限公司",
+          "rank": 97,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"赛车漂起来！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ce69145ffdd6ac25f5bece37ace70fe0",
+          "name": "漂移小飞车",
+          "publisher": "广州卿云网络有限公司",
+          "rank": 98,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"转生商贾之女，重振江南丝织厂\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/add8add93a718e98dcb9f01db3e90a72",
+          "name": "空格之境",
+          "publisher": "江西启游互动科技有限公司",
+          "rank": 99,
+          "tags": []
+        },
+        {
+          "change": "66",
+          "change_direction": "up",
+          "description": "\"头部达人单周直播间累计看播人数十万级，曝光启动率较高\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4ed29d43055d705d0e6cd632cdc53f2e",
+          "name": "火柴人逆袭",
+          "publisher": "深圳市指点天下科技有限公司",
+          "rank": 100,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "heading": "rank-heading-bestseller",
+      "rows": [
+        {
+          "change": "霸榜4天",
+          "change_direction": "top",
+          "description": "\"策略品类头部产品，日均流水达百万量级，发行人短视频吸量，近14天GMV增幅达40%\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/77de0b06cb4ad4e1b6d84607733ad6bb",
+          "name": "疯狂水世界",
+          "publisher": "益世界网络科技有限公司",
+          "rank": 1,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近一周表现优异，日流水近百万级，单日DAU峰值破十万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e4fb04bfa0def4cdf114b9e0be3780fa",
+          "name": "造化仙府",
+          "publisher": "上海沛炫网络科技有限公司",
+          "rank": 2,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "down",
+          "description": "\"地下古城探险游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e44a3855f6ebac20882acf6c2cbb4656",
+          "name": "镇邪人",
+          "publisher": "安徽雷虎网络科技有限公司",
+          "rank": 3,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"RPG赛道头部产品，近期月均流水在千万以上级别，有稳定的玩家群体\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/09dcdbad4d4ebe195a2c33ad64fd1ff2",
+          "name": "灵画师",
+          "publisher": "广州光游网络科技有限公司",
+          "rank": 4,
+          "tags": []
+        },
+        {
+          "change": "13",
+          "change_direction": "down",
+          "description": "\"策略赛道头部产品，日均流水过百万，发行人场景带流水稳步提升。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1ddad92f8f707d894c49cd6ebfa3b23e",
+          "name": "三国：冰河时代",
+          "publisher": "欢游互动（北京）科技有限公司",
+          "rank": 5,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"合成缤纷食材，烹饪美味佳肴，打造属于你的美食街！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/156e30bfc9c73035e67be87b0406b53f",
+          "name": "肥鹅美食街",
+          "publisher": "北京豪腾创想科技有限公司",
+          "rank": 6,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"古风消除头部产品，历史DAU峰值百万，近期DAU增幅近20%，GMV增幅近30%，带动短视频曝光千万次\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e13171b6c921981c6bea0361d515c0c7",
+          "name": "梦幻消除战",
+          "publisher": "广州喜势网络科技有限公司",
+          "rank": 7,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"这是一款末日题材的塔防类割草游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/74e47487e35fdaffd9d545f246b2871a",
+          "name": "向僵尸开炮",
+          "publisher": "海南盛昌网络科技有限公司",
+          "rank": 8,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"流水峰值近百万，近7天涨幅25%，社交分享裂变表现佳，内容场景潜力足\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/86afdd948b5cf347896a2c4c3ee91ddd",
+          "name": "向往的生活",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "rank": 9,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"商场经营类细分赛道头部，日活和GMV双百万级，近期增幅接近15%，受产品玩法影响未来内容挖掘空间极大\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fa6b5fe1dc7c09b65bd062fe48999429",
+          "name": "时尚百货城",
+          "publisher": "深圳市爱的番茄科技有限公司",
+          "rank": 10,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"模拟经营赛道头部游戏，话题性强，社交场景月流水过百万，日均200+主播开播，官号直播间成为标杆。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0662b6723e64e66b267f6d3882d7395b",
+          "name": "我的花园世界",
+          "publisher": "海南途趣科技有限公司",
+          "rank": 11,
+          "tags": []
+        },
+        {
+          "change": "15",
+          "change_direction": "down",
+          "description": "\"社交场景新增规模大，日均流水近百万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4397670150e5631a34e830c37679d06d",
+          "name": "次神光之觉醒",
+          "publisher": "北京雪境科技有限公司",
+          "rank": 12,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"二合赛道头部产品，活跃长期稳定，近期DAU增幅超20%，内容场景日均曝光及流水长期居高，历史带动单直播单日观众数破百万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/899151519a546b9ecce38cc5119e174a",
+          "name": "浪漫餐厅",
+          "publisher": "北京柠檬曲奇科技有限公司",
+          "rank": 13,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"近期峰值流水超百万级，DAU稳定在十万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b7adbcddc57606076dcb1ad3d4ebeb06",
+          "name": "指尖幻影",
+          "publisher": "海南异界科技有限公司",
+          "rank": 14,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "up",
+          "description": "\"塔防品类头部产品，日均流水过百万，UGC内容带流水效果佳\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/bc2dd579233d232bb2881d0a65999060",
+          "name": "超能下蛋鸭",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "rank": 15,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"活跃玩家规模稳定，近30内流水峰值破80万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f1fb5302fda170b67a09034f58e0374e",
+          "name": "狱国争霸",
+          "publisher": "北京智诚互娱科技有限公司",
+          "rank": 16,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"重回圆明园，与旧人再续前缘！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/44a396fee2fd008eb17b384284ebfdb3",
+          "name": "甄嬛传：归来",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "rank": 17,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"转生商贾之女，重振江南丝织厂\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/add8add93a718e98dcb9f01db3e90a72",
+          "name": "空格之境",
+          "publisher": "江西启游互动科技有限公司",
+          "rank": 18,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"近期日均GMV规模超五十万级，DAU日均超十万级，塔防品类中表现优秀\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8340c9e2d5391890352507a59e98e581",
+          "name": "不服来通关",
+          "publisher": "长沙游品科技有限公司",
+          "rank": 19,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "up",
+          "description": "\"梦回甄嬛传，合成物品推进剧情，收集角色卡牌、装扮家园与皮肤。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e1e8a78c7123f2ddd1d46cdddc245bfe",
+          "name": "梦回甄嬛传",
+          "publisher": "广州擎迅网络科技有限公司",
+          "rank": 20,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近期日流水峰值破百万，活跃玩家规模总体稳定\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/441e4ad54489812f16583631de70964c",
+          "name": "跃动小子",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "rank": 21,
+          "tags": []
+        },
+        {
+          "change": "17",
+          "change_direction": "down",
+          "description": "\"塔防细分赛道头部产品，流水峰值达百万量级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/06e01daeda9f87f3ea534cb594fecb3a",
+          "name": "遗弃之地",
+          "publisher": "北京智诚互娱科技有限公司",
+          "rank": 22,
+          "tags": []
+        },
+        {
+          "change": "14",
+          "change_direction": "down",
+          "description": "\"《保卫向日葵》是融合背包合成、Roguelike、塔防元素的休闲游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/03087661432792a18b63b3ec1cb69f8d",
+          "name": "保卫向日葵",
+          "publisher": "深圳市一起梦游科技有限公司",
+          "rank": 23,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "down",
+          "description": "\"轻松抓鬼，躺成守护神！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/504f90fbbbadea178eef5f25d11ad5d3",
+          "name": "下方了",
+          "publisher": "深圳飞鱼星空科技有限公司",
+          "rank": 24,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"全新高清三职业，无限爆装，爽感拉满！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8ccc13aaf621a6bf19a3310c901baf8a",
+          "name": "烈焰觉醒",
+          "publisher": "杭州悦妙网络科技有限公司",
+          "rank": 25,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"指尖快消是一款画风简约玩法简单的挪车消除小游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ead6c6a6627d6e5e2f221fecbeefbb9b",
+          "name": "指尖快消",
+          "publisher": "厦门营火科技有限公司",
+          "rank": 26,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"长期位于畅销榜前列的现象级SLG游戏，单日广告消耗超千万。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/90fe3247b07deba4fba98645b7f17a33",
+          "name": "无尽冬日",
+          "publisher": "上海青笛科技有限公司",
+          "rank": 27,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"暗黑西游放置卡牌小游戏，离线挂机积攒资源，闯关竞技一键畅玩。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6ed995559f633123285c0f840e09392",
+          "name": "永夜起源",
+          "publisher": "海南书慕网络科技有限公司",
+          "rank": 28,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "down",
+          "description": "\"策略塔防对决，随心布局御敌，指尖操作解压，轻松享受攻防乐趣～\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f0ac1e202192c596ffc583516a22db8d",
+          "name": "英雄大对决",
+          "publisher": "重庆煌秀信息技术有限公司",
+          "rank": 29,
+          "tags": []
+        },
+        {
+          "change": "13",
+          "change_direction": "down",
+          "description": "\"情系揽仙，梦回天墉。一声道友，一生朋友\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8f779b0d13cf0dcdb767fbde9301c18d",
+          "name": "道友来挖宝",
+          "publisher": "深圳雷霆信息技术有限公司",
+          "rank": 30,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "up",
+          "description": "\"活跃长期稳定，近期月流水达千万量级，题材和玩法对女性用户具有吸引力\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c931165ed25a2f40b4ab391785a3bebf",
+          "name": "四季合合",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 31,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"现象级的小游戏，日活人数破百万，日均视频、直播场景曝光超500万，目前DAU稳步提升\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/336c5f7548b7a16829a9ea4e7ec3cf6e",
+          "name": "羊了个羊：星球",
+          "publisher": "北京简游科技有限公司天津分公司",
+          "rank": 32,
+          "tags": []
+        },
+        {
+          "change": "17",
+          "change_direction": "up",
+          "description": "\"正版IP授权的放置RPG手游，让你畅享原汁原味的斗罗冒险体验。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6bd2d000feb9dbeea21e88ac2c0d7df8",
+          "name": "斗罗大陆：传承",
+          "publisher": "广州盈心网络科技有限公司",
+          "rank": 33,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"上线当周DAU数十万，近7天DAU环比涨幅15%，头部达人单周累计挂载破万，TOP直播间acu过千级，且arpu较高\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5cf0d2fdf0cd4ad78030759d28428a28",
+          "name": "赵云与阿斗",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "rank": 34,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "up",
+          "description": "\"2024最爽快射击的割草游戏\n成为英雄，迎击尸潮！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8a7af94ac82ccccac7662ce4dae9f52a",
+          "name": "手机反恐特别行动",
+          "publisher": "成都疾风劲趣科技有限公司",
+          "rank": 35,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "down",
+          "description": "\"近期增长势头迅猛，单日GMV峰值破百万级，DAU近14天达新高峰\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7ca213d575a3cd8259e2f5a71cadfd28",
+          "name": "占城大师",
+          "publisher": "武汉多趣信息技术有限公司",
+          "rank": 36,
+          "tags": []
+        },
+        {
+          "change": "17",
+          "change_direction": "down",
+          "description": "\"格斗之巅，热血重燃，一招决胜！\n\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/60afab5cf4b2d19370cc44be2db2be32",
+          "name": "最强斗王",
+          "publisher": "广西天牛信息技术有限公司",
+          "rank": 37,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "up",
+          "description": "\"《勇者乱斗》是一款蔬果拟人风格的合成升级自走棋游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4de8b90bac686c92d73092b017487a96",
+          "name": "勇者乱斗",
+          "publisher": "杭州电梦网络科技有限公司",
+          "rank": 38,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"棋牌赛道头部游戏，日均活跃人数50万级，日均内容场景曝光破百万级。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8a652b5801031dd1a143e8bdaa05763e",
+          "name": "多乐升级",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 39,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近期日均GMV规模超五十万级，DAU近期日均峰值超十万级，有稳定玩家群体\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/635506ea699dd02ed169c640e3155482",
+          "name": "神器传说",
+          "publisher": "深圳市拾光筑梦文化传媒有限公司",
+          "rank": 40,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"国风原味，轻松放置，解放双手感受欢乐三国\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3ba5a2a5010fc4f48dacc541a2460215",
+          "name": "欢乐战三国",
+          "publisher": "海南哎呦互娱网络科技有限公司",
+          "rank": 41,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "down",
+          "description": "\"一款可以休闲挂机的仙侠题材的角色扮演游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5a4379575d562930f7928d8293a6f69d",
+          "name": "幻想仙灵",
+          "publisher": "广州熠游网络科技有限公司",
+          "rank": 42,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"无厘头宅男，欢乐搜打撤，在丧尸群中三进三出！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f58ab9c89a7e62a4e28b50270ffb4d57",
+          "name": "阿皮大冒险",
+          "publisher": "北京豪腾创想科技有限公司",
+          "rank": 43,
+          "tags": []
+        },
+        {
+          "change": "36",
+          "change_direction": "down",
+          "description": "\"国民级游戏，开播人数稳步提升，“线下面杀”、“赛事”、“对战”等直播内容丰富，内容场景带流水收入占比超30%\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cee622f7ddace277f02308c701a6e63c",
+          "name": "三国杀",
+          "publisher": "杭州游卡网络技术有限公司",
+          "rank": 44,
+          "tags": []
+        },
+        {
+          "change": "14",
+          "change_direction": "up",
+          "description": "\"躺平收妖，猛将护床！塔防摸鱼爽到嗨~\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07841888c1d61cecf6804c761abb4e94",
+          "name": "妖怪金手指",
+          "publisher": "霍尔果斯天翔信息技术有限公司",
+          "rank": 45,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "up",
+          "description": "\"暗黑西游题材放置卡牌，重构混沌三界，改写西行命运。\n\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3a1bc5ae3cc12231b8695eb205cce105",
+          "name": "三界降妖录",
+          "publisher": "广州联动网络科技有限公司",
+          "rank": 46,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"趣味麻将消除！点击麻将移入卡槽，凑成对子即可消除闯关。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/58f8c5473c3b16e2ae799202218c6be9",
+          "name": "吃碰大消除",
+          "publisher": "厦门登游科技有限公司",
+          "rank": 47,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"眼力大挑战，沉浸式收纳\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/77a80719093c844286fdec58d04a57d0",
+          "name": "就你眼神好",
+          "publisher": "北京起跃文化有限公司",
+          "rank": 48,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"现象级小游戏，峰值活跃人数超千万，发行人直播日均开播人数800+，短视频投稿人数日均300+，GMV稳步提升\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3ae89e1398b59bb9c3f73261d30f76fe",
+          "name": "抓大鹅",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 49,
+          "tags": []
+        },
+        {
+          "change": "17",
+          "change_direction": "down",
+          "description": "\"塔防开局，战争策略联盟会战！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ecc2c4e8d1bc1cff9146dddc913ec990",
+          "name": "指尖王国",
+          "publisher": "深圳市掌娱趣科技有限公司",
+          "rank": 50,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"植物暴走，爽翻全场！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/53a2780caf6e87c5fa9028afe65daed7",
+          "name": "暴走植物园",
+          "publisher": "海南椰路信息科技有限公司",
+          "rank": 51,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"多人同场实时暗标竞价，考验你的眼力与心理博弈。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/37ac46bedf5b1f112453fd2e08fbdf9e",
+          "name": "俱乐大玩家",
+          "publisher": "海南临游科技有限公司",
+          "rank": 52,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"国风仙侠RPG游戏，解压休闲，放置挂机。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/56eccb50b7753b91561c5afc9ee10aef",
+          "name": "青云诀之伏魔",
+          "publisher": "海南青时信息技术有限公司",
+          "rank": 53,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "up",
+          "description": "\"开心找不停~\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5f14ea450ed7760285a9dc1ee011986a",
+          "name": "开心找不停",
+          "publisher": "广州池骋网络科技有限公司",
+          "rank": 54,
+          "tags": []
+        },
+        {
+          "change": "7",
+          "change_direction": "up",
+          "description": "\"《时光大爆炸》是一款带有模拟经营玩法的角色扮演类游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0235d8cff436fadc0b34087caa3c1480",
+          "name": "时光大爆炸",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "rank": 55,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"合成悟空，是仙非魔！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f9e2f962ffddfd08d0b9d87897fe996b",
+          "name": "悟空别走",
+          "publisher": "湖南中昱智云物联科技有限公司",
+          "rank": 56,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"“搜打撤”玩法中表现最佳，月流水过千万，有一定话题热度\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3419e6fd95fc5c1ae88dbc54d36abf5d",
+          "name": "生存33天",
+          "publisher": "广州龙畅网络科技有限公司",
+          "rank": 57,
+          "tags": []
+        },
+        {
+          "change": "27",
+          "change_direction": "down",
+          "description": "\"向末日开炮是一款末日丧尸与合作重建元素的策略slg\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cd44ad45a273fb41a9f507cd5a6f540e",
+          "name": "向末日开炮",
+          "publisher": "海南游椰科技有限公司",
+          "rank": 58,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"一款轻松好玩的小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/954a0c4275fc3ba3a9aea8b1a7dbf938",
+          "name": "小兵有前途",
+          "publisher": "北京宝可嘻科技有限公司",
+          "rank": 59,
+          "tags": []
+        },
+        {
+          "change": "30",
+          "change_direction": "down",
+          "description": "\"趣味肉鸽塔防，您将扮演守护者，抵御外星生物攻击，保卫家园。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/99c031d57345c0c5507af9e906b87826",
+          "name": "我的防线",
+          "publisher": "杭州烈酷科技有限公司",
+          "rank": 60,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"重生1980,做整条街最靓老板娘！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cf6a7ff1b24c726f46b6e0957f121db8",
+          "name": "工匠小能手",
+          "publisher": "深圳市统掌科技有限公司",
+          "rank": 61,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"萌猫持枪闯战域，升级火力一路变强\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a900d0d79caab4b93c09e6642ebe8005",
+          "name": "喵骑战域",
+          "publisher": "重庆很开心科技有限公司",
+          "rank": 62,
+          "tags": []
+        },
+        {
+          "change": "7",
+          "change_direction": "up",
+          "description": "\"《永远的蔚蓝星球》是一款策略塔防竞技手游。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0eb3172ec5ef513bc96f5654fabbd5f4",
+          "name": "永远的蔚蓝星球",
+          "publisher": "广州颂悦信息技术有限公司",
+          "rank": 63,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"《三国大冒险》是一款基于放置挂机闯关玩法的新国风三国卡牌手游\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d355d368f8211551dd7ed8aa7f58f72e",
+          "name": "三国大冒险",
+          "publisher": "广州天纵信息技术有限公司",
+          "rank": 64,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "up",
+          "description": "\"棋牌赛道头部游戏，发行人直播日均开播人数100+，短视频日均投稿人数200+。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b7584cc4179a3e165b02f674cc0e0174",
+          "name": "掼蛋",
+          "publisher": "杭州边锋网络技术有限公司",
+          "rank": 65,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "down",
+          "description": "\"《奔奔王国》是一款融合塔防与模拟经营的中世纪生存题材游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c6122691f2638dc282160f921f778215",
+          "name": "奔奔王国",
+          "publisher": "福州点点松禾科技有限公司",
+          "rank": 66,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"一款融合Rouguelike元素的武侠割草手游。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e36219ff62b2cc0057443bc448e7c403",
+          "name": "武侠大明星",
+          "publisher": "海南临游科技有限公司",
+          "rank": 67,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "down",
+          "description": "\"上线后DAU增长迅猛，单日GMV迅速突破十万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4eef2db2ef086d515e4687b918b4f7e6",
+          "name": "勇者突围",
+          "publisher": "广州轻游信息科技有限公司",
+          "rank": 68,
+          "tags": []
+        },
+        {
+          "change": "29",
+          "change_direction": "down",
+          "description": "\"踏上一段充满挑战与惊喜的弹射之旅！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f99f70124a57857c2c2898df0a573830",
+          "name": "元气蛋蛋王",
+          "publisher": "深圳澎云科技有限公司",
+          "rank": 69,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"网易经典IP大话西游新作。还原经典端游画风、重制全新放置回合\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9c1bb3e2e698e4a3a019492e2efd72ab",
+          "name": "大话西游：归来",
+          "publisher": "杭州网易雷火科技有限公司",
+          "rank": 70,
+          "tags": []
+        },
+        {
+          "change": "14",
+          "change_direction": "up",
+          "description": "\"挪车接人，越玩越上头\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2f5872b5c4075a00e95082b0ba7195f0",
+          "name": "再闯这一关",
+          "publisher": "广州小贝科技有限公司",
+          "rank": 71,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"东方志怪故事背景的恋爱卡牌养成游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1fdcf3d30dac8b0d963a70d48e75386b",
+          "name": "心跳陷落",
+          "publisher": "苏州沁游网络科技有限公司天璇分公司",
+          "rank": 72,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "down",
+          "description": "\"三国群英特色国战策略游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d282d3b039b31f7fd989cda7c45f7e39",
+          "name": "百战群英",
+          "publisher": "上海勉游网络科技有限公司",
+          "rank": 73,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"一款休闲益智小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/bf311d4740a4d4b725617af458be2e73",
+          "name": "真消不过你",
+          "publisher": "广州小贝科技有限公司",
+          "rank": 74,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"直播场景头部主播单周累计挂载启动人数破万，短视频场景头部视频单周播放量百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3050e76e68de009ffcdaf4d55a44a807",
+          "name": "爆裂守卫",
+          "publisher": "邯郸太空船信息科技有限公司",
+          "rank": 75,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"《英雄没有闪》是一款2D卡通风格题材的放置ARPG手游。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/df301c94dd5d50f6a506d9c273f9acb7",
+          "name": "英雄没有闪",
+          "publisher": "广州盈心网络科技有限公司",
+          "rank": 76,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"正版都市职场养成手游\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0b007b71d2ff4238be0b2d6d9bfc63fd",
+          "name": "杜拉拉升职记",
+          "publisher": "苏州沁游网络科技有限公司",
+          "rank": 77,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "up",
+          "description": "\"帮助彩色小人上车！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3caea45291167d243694f350b0167649",
+          "name": "看谁先上车",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "rank": 78,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "up",
+          "description": "\"梦幻西游网页版爆爽来袭，这是你从没见过的梦幻西游\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/50d4258fcb206e9fe655818027527e22",
+          "name": "梦幻西游网页版",
+          "publisher": "广州网易计算机系统有限公司",
+          "rank": 79,
+          "tags": []
+        },
+        {
+          "change": "7",
+          "change_direction": "up",
+          "description": "\"重温热血激情，再战经典\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/aad39b5accaab6889e5de04563b7a92f",
+          "name": "战影破穹",
+          "publisher": "杭州悦忻网络科技有限公司",
+          "rank": 80,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "up",
+          "description": "\"集结你的子民，铸就属于你的传奇防线吧！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f26218f7f58d140f19db10879e67bc05",
+          "name": "全境守卫",
+          "publisher": "重庆汇量云科技有限公司",
+          "rank": 81,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"一款好玩、有趣的卡牌游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d33d82221eb1769e2cae2bb07b4eede5",
+          "name": "忍者冒险团",
+          "publisher": "海口见多识广科技有限公司",
+          "rank": 82,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"欢迎来到萌趣世界，开启指尖策略风暴！\n\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e3a150f127fa838b111bb993d012a9c1",
+          "name": "黎明特攻",
+          "publisher": "海南悦神网络科技有限公司",
+          "rank": 83,
+          "tags": []
+        },
+        {
+          "change": "21",
+          "change_direction": "up",
+          "description": "\"可体验挂机修仙、主支线剧情，通过打怪升级提升战力\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/70cd7301832681af240458b42e6eb650",
+          "name": "梦仙灵",
+          "publisher": "广州信跃网络技术有限公司",
+          "rank": 84,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"好玩解压的塔防小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f2ef68b241f2b745feeb49853f7b2538",
+          "name": "家园防御战",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "rank": 85,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "down",
+          "description": "\"一款荒野探险的肉鸽割草游戏，适用于年满12周岁以上的用户。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d10b4ae00f166e86947ce77b537cea82",
+          "name": "一路狂飙",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "rank": 86,
+          "tags": []
+        },
+        {
+          "change": "15",
+          "change_direction": "up",
+          "description": "\"头部短视频周维度单条启动破万级，播放量破百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e7494bf3d48f514f62c9f16f1edbb547",
+          "name": "兵器王者",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 87,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"单周多个直播间挂载启动人数过万，并多个直播间看播人数上万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/06d2eb7fbee08109bb46c97bd1b0a124",
+          "name": "救救我鸭",
+          "publisher": "北京起跃文化有限公司",
+          "rank": 88,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"一款超有趣休闲益智小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ed51dcba9302cd04b8e6aaa97339c649",
+          "name": "楚新钓",
+          "publisher": "海南易多量科技有限公司",
+          "rank": 89,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"大富翁x肉鸽，收集万界美人！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/94d3f1d84aa1d19c63ec98ffd25adc2f",
+          "name": "逆转回合",
+          "publisher": "厦门游力信息科技有限公司",
+          "rank": 90,
+          "tags": []
+        },
+        {
+          "change": "20",
+          "change_direction": "up",
+          "description": "\"《蔚蓝远征》是一款休闲合成游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0c1be76efc7dbce5f6ce2dec8c1c0403",
+          "name": "蔚蓝远征",
+          "publisher": "广州游伦网络科技有限公司",
+          "rank": 91,
+          "tags": []
+        },
+        {
+          "change": "13",
+          "change_direction": "up",
+          "description": "\"名将觉醒，兽魂爆发！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/79ec8023b994d703c4de8ae7ee7d7ccb",
+          "name": "霸途",
+          "publisher": "杭州上趣网络科技有限公司",
+          "rank": 92,
+          "tags": []
+        },
+        {
+          "change": "19",
+          "change_direction": "up",
+          "description": "\"化身武侠宗师，铸就Q版梦里江湖！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/236fddb1be2938fe8d47249f2e0a4c68",
+          "name": "剑侠传奇",
+          "publisher": "深圳市小黑龙网络科技有限公司",
+          "rank": 93,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"快叫上伙伴一起踏上这场充满惊喜之旅吧！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c667629cb6467690e84dfae2a6cf7c6c",
+          "name": "最强小队",
+          "publisher": "海南祺曜互动娱乐有限公司",
+          "rank": 94,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "up",
+          "description": "\"这也太解压了！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2637eefeaa487d55c387d21d50934c13",
+          "name": "这关消一消",
+          "publisher": "福州联创乐游网络科技有限公司",
+          "rank": 95,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "up",
+          "description": "\"摸鱼神器，美人如云\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/91fe904a87aa2d77b90daf0098f266fd",
+          "name": "我要当城主",
+          "publisher": "广西天牛信息技术有限公司",
+          "rank": 96,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "up",
+          "description": "\"打破天命定数，开启暗黑三界冒险！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f1526bb84d0f0679fe6987e10bd1ba26",
+          "name": "天命行者",
+          "publisher": "广州大蓝网络科技有限公司",
+          "rank": 97,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"巨人首款放置征途，自动打怪，挂机升级！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c437780c1699a0c278097bd94894813a",
+          "name": "王者征途",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "rank": 98,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"开局一座城，靠连线称霸三国\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7f2f58f4012be2945276eafc1cfe1574",
+          "name": "咸鱼·进化",
+          "publisher": "北京豪腾致远科技有限公司",
+          "rank": 99,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"你能过几关？\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f4b7e38e9ae52e85f75722ae1fe6475b",
+          "name": "这局有点秀",
+          "publisher": "广州池骋网络科技有限公司",
+          "rank": 100,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "heading": "rank-heading-fresh_game",
+      "rows": [
+        {
+          "change": "霸榜5天",
+          "change_direction": "top",
+          "description": "\"植物暴走，爽翻全场！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/53a2780caf6e87c5fa9028afe65daed7",
+          "name": "暴走植物园",
+          "publisher": "海南椰路信息科技有限公司",
+          "rank": 1,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"对手再强也得先过你这一关，一起制霸全国吧！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fa161df7f4091a93195b87716639499a",
+          "name": "单挑排球",
+          "publisher": "武汉爱物极物科技有限公司",
+          "rank": 2,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"快叫上伙伴一起踏上这场充满惊喜之旅吧！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c667629cb6467690e84dfae2a6cf7c6c",
+          "name": "最强小队",
+          "publisher": "海南祺曜互动娱乐有限公司",
+          "rank": 3,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"天命加身，重走西行探险之路\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/46978c7a5759ec2553f6c85781bd5da7",
+          "name": "方舟之旅",
+          "publisher": "海南梦境科技有限公司",
+          "rank": 4,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"开局全屏神技，装备无损二合一\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0efc667cf49752e746a400cbb306c6fd",
+          "name": "魔龙争霸",
+          "publisher": "广州百悦网络科技有限公司",
+          "rank": 5,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"《龙胆破军》是一款文字合成三国武将的塔防游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1c92aaf4128a7cef54f64b3b15093859",
+          "name": "龙胆破军",
+          "publisher": "广州游伦网络科技有限公司",
+          "rank": 6,
+          "tags": []
+        },
+        {
+          "change": "7",
+          "change_direction": "down",
+          "description": "\"你能坚持到第几关？\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/dafd281731ee4bc485c74c2e7d5bdcef",
+          "name": "眼力冲关",
+          "publisher": "成都敏亿敏网络科技有限公司",
+          "rank": 7,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "down",
+          "description": "\"挪开遮挡物品分类收纳，破解实物拼图，挑战烧脑闯关！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/34300ec198ad9640484ffd9e7dd6e0f5",
+          "name": "拼图烧脑王",
+          "publisher": "武汉昀路安洋信息技术有限公司",
+          "rank": 8,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"挥拳砸破高墙，逃出生天！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/130e98b6441281fc7f42dd57f5519771",
+          "name": "危险逃离",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "rank": 9,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"全员无双零损换将、策略布阵智取强敌，开启有温度的幻想三国！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f12cf5f21e98b197a19044299f2ce331",
+          "name": "三国志幻想大陆",
+          "publisher": "广州龙畅网络科技有限公司",
+          "rank": 10,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "down",
+          "description": "\"种菜做饭开店，体验海岛治愈生活\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4b3dc1316f61cc8b757e19beb180e560",
+          "name": "解忧梦幻岛",
+          "publisher": "深圳市星糖网络科技有限公司",
+          "rank": 11,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "down",
+          "description": "\"一款可以休闲挂机的仙侠题材的角色扮演游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9d46d21846c04e19e185357f6701877f",
+          "name": "梦幻仙游",
+          "publisher": "广州卓游网络有限公司",
+          "rank": 12,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "down",
+          "description": "\"轻闲治愈随行，开启像素冒险新征程！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1c5600b44aab37a4119f2c52ea7e1c8f",
+          "name": "萌宠之森",
+          "publisher": "山东闪电顺游科技发展有限公司",
+          "rank": 13,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"点击屏幕+1力量+1速度，每秒强一点，成为最强！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/91bc5495e3c1d633746b9ae3cd2bf88b",
+          "name": "每秒强一点",
+          "publisher": "厦门修邦信息科技有限公司",
+          "rank": 14,
+          "tags": []
+        },
+        {
+          "change": "17",
+          "change_direction": "down",
+          "description": "\"集结软萌萌物，构筑卡牌小队，开启轻松有趣的策略冒险！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e696df1dba847a19da6beffa6d44a2e7",
+          "name": "萌物大冒险",
+          "publisher": "上海荀鹿网络科技有限公司",
+          "rank": 15,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "down",
+          "description": "\"弓箭枪械造就狩猎捕获高手！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/6691e5ce1415e551ecc2196cc61a08f8",
+          "name": "狩猎捕获高手",
+          "publisher": "广州银辉通讯科技有限公司",
+          "rank": 16,
+          "tags": []
+        },
+        {
+          "change": "7",
+          "change_direction": "down",
+          "description": "\"你能坚持到第几关？\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/273a3d11c502032f9da5b03dd4b30211",
+          "name": "点点找茬",
+          "publisher": "成都敏亿敏网络科技有限公司",
+          "rank": 17,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"激光眼破墙闯关，冲击极限！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/10a207d78421e2113aa17bb37e9b854f",
+          "name": "生存冒险挑战",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "rank": 18,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"共生毒液，无限进化变强！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d2b5c678fef86fd0ec108e55910ce444",
+          "name": "动物进化论",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "rank": 19,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "down",
+          "description": "\"一款西游火柴人塔防爽游\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/eb3daf7517825dfbb6a5c9ca9dadcb95",
+          "name": "来过一关吧",
+          "publisher": "武汉手盟网络科技股份有限公司",
+          "rank": 20,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"欢迎来到佩皮的王国小镇\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/14faf242edaa4489c0c9bf7d2d6b69a8",
+          "name": "佩皮的王国小镇",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "rank": 21,
+          "tags": []
+        },
+        {
+          "change": "12",
+          "change_direction": "down",
+          "description": "\"整理房间，别笑，你来也过不了第二关!\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a8c41ccdec48ec4c3c2d620bb0cbc74b",
+          "name": "聪慧大脑瓜",
+          "publisher": "广州宝可梦科技有限公司",
+          "rank": 22,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"甜瓜游乐园沙盒模拟\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2ac17f7ed7495e2e017d00dc9370c2f8",
+          "name": "甜瓜乱斗游乐场",
+          "publisher": "厦门哟咯科技有限公司",
+          "rank": 23,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"全新魔兽小游戏，再现经典，超高爆率，轻松霸服！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e4b48cb3afa87b03935f76c6e352ed18",
+          "name": "酷跑英雄",
+          "publisher": "广州多游信息技术有限公司",
+          "rank": 24,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "down",
+          "description": "\"一款好玩的小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5d6a6a78ec2200804462eb80d0c3b453",
+          "name": "开心西游",
+          "publisher": "广州予音网络科技有限公司",
+          "rank": 25,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "down",
+          "description": "\"喂养小猪接订单，赚钱升级猪场。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/159e70bfc1e8bfba8e11d444c1a63aa9",
+          "name": "回家养猪吧",
+          "publisher": "北京豪腾创想科技有限公司",
+          "rank": 26,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "down",
+          "description": "\"组装飞机，看谁飞得更远\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/190bbd4c59cc6b1bfb1b05777965cc6c",
+          "name": "星球探险",
+          "publisher": "深圳市益欣网络科技有限公司",
+          "rank": 27,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"是一款温馨治愈的解谜闯关游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/384c2671d5ba1f2d6bc959fe76b30030",
+          "name": "小金鱼大闯关",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "rank": 28,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"碾碎豪车，解压粉碎一切！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b675479377135f0c716a0d50d323fb74",
+          "name": "我是拼装大师",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "rank": 29,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"自由沙盒模拟器，支持多模式，海量地图随心玩\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/22c13b878a43ed20151c9d8b21ff3b96",
+          "name": "盖瑞模组大冒险",
+          "publisher": "武汉浔游科技有限公司",
+          "rank": 30,
+          "tags": []
+        },
+        {
+          "change": "11",
+          "change_direction": "down",
+          "description": "\"开局一间破医馆，救活一个算一个\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4b17039eedb9e714af8eca40d2317074",
+          "name": "我在古代有座城",
+          "publisher": "安徽盈趣网络科技有限公司",
+          "rank": 31,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"抓准停车时机，保持场内车辆安全通行！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/29cde6760f69cfa7a6fa959e099a30bd",
+          "name": "脑洞谜题等你来",
+          "publisher": "成都之牧互动网络科技有限公司",
+          "rank": 32,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "down",
+          "description": "\"写实古风仙侠，御剑凌云纵横三界\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b51f567f3bc4c320b155e876de80e0e3",
+          "name": "灵域传说",
+          "publisher": "北海鹏润网络科技有限公司",
+          "rank": 33,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"和菲菲一起前往全国各地，通过合成制作特色料理、重建美食街区！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3b435f1cae8a085222798c3900f6edcc",
+          "name": "菲菲奇旅记",
+          "publisher": "北京点点星耀科技有限公司",
+          "rank": 34,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "up",
+          "description": "\"推动巨石、开辟山路，体验轻松有趣的移山之旅\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/74c7b9242156c4409904e8866ae39fcc",
+          "name": "愚公真移山",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "rank": 35,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"无敌进化，塔防制胜！\n\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d577706b502546f8c6284efe6fc8653b",
+          "name": "无敌超进化",
+          "publisher": "实丰（深圳）网络科技有限公司",
+          "rank": 36,
+          "tags": []
+        },
+        {
+          "change": "35",
+          "change_direction": "down",
+          "description": "\"全新自走棋，烧脑又好玩\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ab546ee9e8750bff3e8db9fac218fb29",
+          "name": "欢乐精灵",
+          "publisher": "广州心营科技有限公司",
+          "rank": 37,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"按提示排好顺序，移动动物锯子完成图案！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/be224762a7cec14e20ae158e23305ed1",
+          "name": "绕过迷惑看穿真相",
+          "publisher": "成都之牧互动网络科技有限公司",
+          "rank": 38,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"这一路，师徒听你布阵！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c3d9ddf7cb65a4cdcff48ea90c51c605",
+          "name": "小怪往哪逃",
+          "publisher": "长沙游品科技有限公司",
+          "rank": 39,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "down",
+          "description": "\"你的找茬之神到了，请签收！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b8d9cfee7f12d3877094c3f3c2a04a52",
+          "name": "茬神来了",
+          "publisher": "深圳市大数据无线科技有限公司",
+          "rank": 40,
+          "tags": []
+        },
+        {
+          "change": "43",
+          "change_direction": "down",
+          "description": "\"是一款暖心的画线解谜游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ffaee294d79c61b010c4918d4dbfd5ba",
+          "name": "画线救下它",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "rank": 41,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"蜘蛛侠蛛丝摆荡跑酷\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4ff1e8efc48e4a889150d79855c35625",
+          "name": "VR蜘蛛英雄",
+          "publisher": "武汉庐游科技有限公司",
+          "rank": 42,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"进门翻倍，全军出击！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/70016330d58bc0d031ce55efdefa7e59",
+          "name": "无尽火线",
+          "publisher": "北京星乐天空科技有限公司",
+          "rank": 43,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"沉浸式收拾，整理杂乱物品\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0e7a959b61c4016b376da7160463375c",
+          "name": "全员收纳大王",
+          "publisher": "深圳海草科技有限公司",
+          "rank": 44,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"创意美发 DIY，解锁百变颜值！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d28f96f21d051e1e9ff983497222430d",
+          "name": "奇妙脑洞大挑战",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "rank": 45,
+          "tags": []
+        },
+        {
+          "change": "14",
+          "change_direction": "down",
+          "description": "\"收养丛林萌宠，照顾、装扮宠物，打造专属丛林家园。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/af0a87d0148e46c8448cf753d3325402",
+          "name": "丛林萌宠乐园",
+          "publisher": "厦门喵帕鲁科技有限公司",
+          "rank": 46,
+          "tags": []
+        },
+        {
+          "change": "3",
+          "change_direction": "up",
+          "description": "\"穿梭池核诡异空间，击败怪兽探索神秘梦境。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e5a010626fcde38f8a04288a76a89c4",
+          "name": "梦核模拟器",
+          "publisher": "北京游戏王国科技有限公司",
+          "rank": 47,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"我要做最牛的滑雪高手！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/81da362ae091d0373016a180d213ad00",
+          "name": "滑了个雪",
+          "publisher": "邯郸小空科技有限公司",
+          "rank": 48,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "up",
+          "description": "\"本款是主打「合成升阶 + 波次防守」的休闲策略小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/139b4d9899d55e65a5e0e3cce25bf760",
+          "name": "别被包围咯",
+          "publisher": "湖南快乐芒果互娱科技有限公司",
+          "rank": 49,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "down",
+          "description": "\"鲜花放进花盆，集齐三朵即成一单\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7fa351ab59a2e154ee2fd75261132554",
+          "name": "实在不简单",
+          "publisher": "成都木木互娱科技有限公司",
+          "rank": 50,
+          "tags": []
+        },
+        {
+          "change": "34",
+          "change_direction": "down",
+          "description": "\"这是一款轻松又有趣的水果碰撞消除游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ff82ded21a7ee09471ffa2127c1c661f",
+          "name": "全民消除水果",
+          "publisher": "株洲花与叶网络科技有限公司",
+          "rank": 51,
+          "tags": []
+        },
+        {
+          "change": "5",
+          "change_direction": "up",
+          "description": "\"合理排布选择兵种，赢得胜利\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7ba20f53caa7067f7c0db0c48713fa31",
+          "name": "蓝方战地模拟器",
+          "publisher": "厦门格拇科技有限公司",
+          "rank": 52,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"球球你也消不动\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3b2347121c75e478f243d64b1b759786",
+          "name": "球你来消",
+          "publisher": "广州鲸彩网络科技有限公司",
+          "rank": 53,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "up",
+          "description": "\"棉花糖手工制作\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c42254d09bc9f6bad8d46fde3b950eca",
+          "name": "手工棉花糖",
+          "publisher": "深圳市锋玩时刻科技有限公司",
+          "rank": 54,
+          "tags": []
+        },
+        {
+          "change": "7",
+          "change_direction": "up",
+          "description": "\"外卖骑手模拟器\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/11088a63b9bb8eefcbe73e77c95822b2",
+          "name": "欢乐开局",
+          "publisher": "广州卿云网络有限公司",
+          "rank": 55,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"全员备战，迎战无尽敌潮！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/609ea4785d23e8a66a5bc2f30cc9fb00",
+          "name": "无限守护",
+          "publisher": "广州绿之洲科技有限公司",
+          "rank": 56,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"经营加油站，接待八方来客！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/702508b3b0e130a4673c69d88eecf92d",
+          "name": "模拟经营大亨2",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "rank": 57,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"动物城休闲放置模拟经营，打造动物城里人气爆棚的钱庄。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cc1bc3f1f1833ce0080b19ffa26ede4a",
+          "name": "创意经营家",
+          "publisher": "深圳市灵星网络科技有限公司",
+          "rank": 58,
+          "tags": []
+        },
+        {
+          "change": "16",
+          "change_direction": "up",
+          "description": "\"超好玩的钢琴小游戏！跟着钢琴节拍动动小手，弹出美妙乐曲！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ec53a1dc47f29a4711800f4d938e1629",
+          "name": "指尖点点钢琴",
+          "publisher": "深圳市积木互娱科技有限公司",
+          "rank": 59,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"挥起锅铲疯狂拍大鸡，攒烹饪进度换现金，解锁亿级魔性料理！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8f6b7216aa9e382ab4c005ffb1c29d29",
+          "name": "休闲模拟解压",
+          "publisher": "厦门落英科技有限公司",
+          "rank": 60,
+          "tags": []
+        },
+        {
+          "change": "30",
+          "change_direction": "down",
+          "description": "\"转出装备击退恶鬼！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a62ee29647f053c5545be26bfd93f769",
+          "name": "小人跑圈",
+          "publisher": "厦门火星椰子信息科技有限公司",
+          "rank": 61,
+          "tags": []
+        },
+        {
+          "change": "2",
+          "change_direction": "down",
+          "description": "\"打破常规，脑洞解谜闯关\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5ca818dbeacaf898fa40e4b9e0720371",
+          "name": "盒子解谜",
+          "publisher": "上海阳笙信息技术服务有限公司",
+          "rank": 62,
+          "tags": []
+        },
+        {
+          "change": "9",
+          "change_direction": "up",
+          "description": "\"勇夺空岛神蛋，飞翔躲避追击！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/18a7063593c3ba199fc7480cf47bafea",
+          "name": "危险生存大逃离",
+          "publisher": "厦门猫咪游网络科技有限公司",
+          "rank": 63,
+          "tags": []
+        },
+        {
+          "change": "14",
+          "change_direction": "down",
+          "description": "\"通过整理收纳完成各种趣味挑战，享受轻松解压的闯关体验。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/825884e055c8c86249aacf1e6b492245",
+          "name": "收纳达人秀",
+          "publisher": "厦门真嘟假嘟网络科技有限公司",
+          "rank": 64,
+          "tags": []
+        },
+        {
+          "change": "4",
+          "change_direction": "up",
+          "description": "\"二次元美甲挑战\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/533d2a15db460f422de0f57d7f525922",
+          "name": "二次元美甲",
+          "publisher": "深圳市锋玩时刻科技有限公司",
+          "rank": 65,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"借环境隐蔽身形，在险境中生存！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d0fd6f518df8c2ddc4c1bdcca9e60d5e",
+          "name": "生存双人",
+          "publisher": "厦门星核创域网络科技有限公司",
+          "rank": 66,
+          "tags": []
+        },
+        {
+          "change": "20",
+          "change_direction": "down",
+          "description": "\"补一补这个虚线吧！完成这幅画通关一下！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c4e1d0e2838f0111bb6efe36afd86da3",
+          "name": "智力小状元",
+          "publisher": "广州偶玩网络技术有限公司",
+          "rank": 67,
+          "tags": []
+        },
+        {
+          "change": "13",
+          "change_direction": "up",
+          "description": "\"超多奇葩载具竞速闯关，赛车、直升机、消防车随便开！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3cceee4fe5b610b9ab445f8740ff7537",
+          "name": "极限竞速专家",
+          "publisher": "广州银辉通讯科技有限公司",
+          "rank": 68,
+          "tags": []
+        },
+        {
+          "change": "12",
+          "change_direction": "up",
+          "description": "\"快来参加冰淇淋跑酷比赛吧！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f6da8b7ffecd916668867ced75a34491",
+          "name": "暴富甜品店",
+          "publisher": "深圳萌萌科技有限公司",
+          "rank": 69,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"是一款休闲益智游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b4e6e2f7a1b787560f6338f2f5ead0d6",
+          "name": "脑洞乐园大冒险",
+          "publisher": "深圳市小橙网络科技有限公司",
+          "rank": 70,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "down",
+          "description": "\"多种画线解谜合集游戏，开动脑筋一笔画出路线，破解关卡谜题！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/174ae28041ec246358f85357a6560401",
+          "name": "脑瓜超聪明",
+          "publisher": "创游时代（广州）网络有限公司",
+          "rank": 71,
+          "tags": []
+        },
+        {
+          "change": "20",
+          "change_direction": "up",
+          "description": "\"经营最大的动物蛋农场！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/538135b3bb5d35cddb4a072998ac8bdf",
+          "name": "偷走动物蛋",
+          "publisher": "厦门格拇科技有限公司",
+          "rank": 72,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"无需下载，立刻拯救！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c36a5ff22c4c8fcfee4cefe2c3248540",
+          "name": "是解压达人",
+          "publisher": "广州灵桃网络科技有限公司",
+          "rank": 73,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"文字塔防pvp新标杆，等你来战。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/af066c182bb6330a716aeb16ec3fb6c1",
+          "name": "挑战很多关",
+          "publisher": "上海流彦网络科技有限公司",
+          "rank": 74,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"是一款休闲益智游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/9787cfdf776a5ca8df3c4ca0be4b2f98",
+          "name": "解压治愈合集",
+          "publisher": "深圳市小橙网络科技有限公司",
+          "rank": 75,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "down",
+          "description": "\"水墨国风三国卡牌\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c2cb50d1a3baa275ef4af0493e897760",
+          "name": "天天迷城",
+          "publisher": "广州天刃网络科技有限公司",
+          "rank": 76,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"超市模拟经营游戏，布置货架改造门店，体验打理超市的休闲玩法。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ba89ea4ecb1d95c87331323e0b687a44",
+          "name": "开家便利店",
+          "publisher": "深圳市欢乐畅玩科技有限公司",
+          "rank": 77,
+          "tags": []
+        },
+        {
+          "change": "10",
+          "change_direction": "up",
+          "description": "\"自制DIY拼豆本萌趣世界\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/45177b289e972392b60e5704c27cf371",
+          "name": "拼豆图纸合集",
+          "publisher": "深圳市天善力思科技有限公司",
+          "rank": 78,
+          "tags": []
+        },
+        {
+          "change": "1",
+          "change_direction": "down",
+          "description": "\"清理别墅大作战\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0e5eafda75527475519b59947f3ef2ae",
+          "name": "清理别墅",
+          "publisher": "厦门格拇科技有限公司",
+          "rank": 79,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"是一款沉浸式飞行模拟游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fcf6d1a68b1d9344d35127ea31ec6db0",
+          "name": "模拟飞行体验",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "rank": 80,
+          "tags": []
+        },
+        {
+          "change": "15",
+          "change_direction": "down",
+          "description": "\"为了联盟，为了部落！不胜利，毋宁死！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/15fdc4633e623de00f56b14eb7b3d580",
+          "name": "勇者历险记",
+          "publisher": "广州市火幻网络科技有限公司",
+          "rank": 81,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"精致少女养成记！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1a799b6b92f060c015e652c52efad573",
+          "name": "养成精致少女",
+          "publisher": "武汉摸鱼岛科技有限公司",
+          "rank": 82,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"这是一款模拟经营小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c9cffe67cfb4e6b08b869d155e029a20",
+          "name": "开局我逆袭",
+          "publisher": "广州湾心科技有限公司",
+          "rank": 83,
+          "tags": []
+        },
+        {
+          "change": "15",
+          "change_direction": "down",
+          "description": "\"是一款集合了多种趣味玩法的休闲小游戏合集。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/109cb8e2b7551b5f32d2362aa10b08da",
+          "name": "解压小游戏盒",
+          "publisher": "深圳市青澜舟行网络科技有限公司",
+          "rank": 84,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"经典贪吃蛇融合闯关玩法，吃食物成长，躲避障碍，过关解谜。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3510c3e48950272aecc6eca36eecaa8e",
+          "name": "贪吃蛇吃食大作战",
+          "publisher": "厦门回形针网络科技有限公司",
+          "rank": 85,
+          "tags": []
+        },
+        {
+          "change": "23",
+          "change_direction": "up",
+          "description": "\"是一款休闲益智游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2afbf3e5f45160d0cdceaf8844ec691e",
+          "name": "集合守中路",
+          "publisher": "深圳市小橙网络科技有限公司",
+          "rank": 86,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"真实操作，模拟挖掘机游玩，体验真实的挖掘机感受~\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f8d0a1e083f12334d9df5d663773cd06",
+          "name": "挖掘机驾驶模拟器软件",
+          "publisher": "厦门奇幻圣光文化传媒有限公司",
+          "rank": 87,
+          "tags": []
+        },
+        {
+          "change": "13",
+          "change_direction": "up",
+          "description": "\"潮流服饰搭配，时尚达人秀秀\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3be6bd5bb5fc05e3d36beb941df7aee2",
+          "name": "潮流达人秀",
+          "publisher": "深圳市锋玩时刻科技有限公司",
+          "rank": 88,
+          "tags": []
+        },
+        {
+          "change": "15",
+          "change_direction": "up",
+          "description": "\"日常温馨整理收纳\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5665f7574ceffb57a9263a981ad44b3b",
+          "name": "治愈整理日常",
+          "publisher": "深圳市锋玩时刻科技有限公司",
+          "rank": 89,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"玩出不一样的宫廷\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f93fb26ed93cfc64e6bc89417ac275c0",
+          "name": "宫廷玩出花",
+          "publisher": "石家庄阳迪网络科技有限公司",
+          "rank": 90,
+          "tags": []
+        },
+        {
+          "change": "29",
+          "change_direction": "up",
+          "description": "\"快乐奇妙闯关试炼\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e8a118f08cfc053a077728b0fd0d3d22",
+          "name": "欢乐妙趣试炼",
+          "publisher": "深圳市锋玩时刻科技有限公司",
+          "rank": 91,
+          "tags": []
+        },
+        {
+          "change": "46",
+          "change_direction": "up",
+          "description": "\"收集武器合并升级，横扫所有敌人，成为战场枪械王者！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2b96d2ccbcc3e63cd5ff87f60583a451",
+          "name": "枪械进化王者",
+          "publisher": "深圳市欢乐畅玩科技有限公司",
+          "rank": 92,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"《巨龙猎手》是3D修仙为背景高福利高画质的免费代金券版仙侠手游\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/480a9bdae93568fd9db883fb807fb244",
+          "name": "巨龙猎手",
+          "publisher": "上海坤势德网络科技有限公司",
+          "rank": 93,
+          "tags": []
+        },
+        {
+          "change": "43",
+          "change_direction": "up",
+          "description": "\"发射小球，归入同色盒子闯关\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/48d85b40dfd0da394add0a943db55896",
+          "name": "这就是高手",
+          "publisher": "成都木木互娱科技有限公司",
+          "rank": 94,
+          "tags": []
+        },
+        {
+          "change": "6",
+          "change_direction": "up",
+          "description": "\"带娃模拟体验\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e54f9783d9021c58cd27693a75979c55",
+          "name": "时尚潮流带娃",
+          "publisher": "深圳市锋玩时刻科技有限公司",
+          "rank": 95,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"麻麻将消消是国风麻将主题连连看休闲游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4e14e9041ac648b04b1c5e8a8f88b0b6",
+          "name": "麻麻将消消",
+          "publisher": "深圳市小创趣游网络科技有限公司",
+          "rank": 96,
+          "tags": []
+        },
+        {
+          "change": "38",
+          "change_direction": "up",
+          "description": "\"空岛之上方块求生\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a7dcefff5a4226297c9c9e7b158b88df",
+          "name": "空岛像素沙盒生存",
+          "publisher": "武汉昌游科技有限公司",
+          "rank": 97,
+          "tags": []
+        },
+        {
+          "change": "8",
+          "change_direction": "up",
+          "description": "\"驾驶车辆挑战特殊坡道，穿越崎岖地形，完成运输任务并升级车辆！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/98e835d86878bb9d8a6d55736cf4c7e5",
+          "name": "特技坡道车",
+          "publisher": "北京慧正世纪信息技术有限公司",
+          "rank": 98,
+          "tags": []
+        },
+        {
+          "change": "新进榜",
+          "change_direction": "new",
+          "description": "\"快点操控黑洞吞噬整个城市吧！\n\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/08c45d4281c52412cc7cf47ffb53ea7d",
+          "name": "大洞吞小洞",
+          "publisher": "石家庄序程观科技有限公司",
+          "rank": 99,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"休闲益智的捉迷藏玩法小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7d7aa9e085a59d4a4a40c6b0d0e4116f",
+          "name": "找个大头鬼",
+          "publisher": "厦门查字典科技有限公司",
+          "rank": 100,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "heading": "rank-heading-publisher_heat",
+      "rows": [
+        {
+          "change": "霸榜26天",
+          "change_direction": "top",
+          "description": "\"现象级小游戏，峰值活跃人数超千万，发行人直播日均开播人数800+，短视频投稿人数日均300+，GMV稳步提升\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3ae89e1398b59bb9c3f73261d30f76fe",
+          "name": "抓大鹅",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 1,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"现象级的小游戏，日活人数破百万，日均视频、直播场景曝光超500万，目前DAU稳步提升\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/336c5f7548b7a16829a9ea4e7ec3cf6e",
+          "name": "羊了个羊：星球",
+          "publisher": "北京简游科技有限公司天津分公司",
+          "rank": 2,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"棋牌赛道头部游戏，日均活跃人数50万级，日均内容场景曝光破百万级。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8a652b5801031dd1a143e8bdaa05763e",
+          "name": "多乐升级",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 3,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"棋牌赛道头部游戏，发行人直播日均开播人数100+，短视频日均投稿人数200+。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b7584cc4179a3e165b02f674cc0e0174",
+          "name": "掼蛋",
+          "publisher": "杭州边锋网络技术有限公司",
+          "rank": 4,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"国民级游戏，开播人数稳步提升，“线下面杀”、“赛事”、“对战”等直播内容丰富，内容场景带流水收入占比超30%\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/cee622f7ddace277f02308c701a6e63c",
+          "name": "三国杀",
+          "publisher": "杭州游卡网络技术有限公司",
+          "rank": 5,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近期DAU稳步提升，日活峰值达十万级，发行人短视频日均投破千级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0c93ebd1661800494e66ea361921bd90",
+          "name": "象棋达人",
+          "publisher": "深圳市一锋科技有限公司",
+          "rank": 6,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"发行人短视频日均投稿数破万，连续多日单条视频转化人数破万。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/544ae7457a46697b3bf9945f81915502",
+          "name": "天天台球",
+          "publisher": "北京喜云网络科技有限公司",
+          "rank": 7,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"上线当周DAU数十万，近7天DAU环比涨幅15%，头部达人单周累计挂载破万，TOP直播间acu过千级，且arpu较高\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5cf0d2fdf0cd4ad78030759d28428a28",
+          "name": "赵云与阿斗",
+          "publisher": "北京蜜獾兄弟科技有限公司",
+          "rank": 8,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近期DAU超十万级，在棋牌新游中表现优秀\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1b045347c6d8ac94f8e534865670b76f",
+          "name": "多乐掼蛋",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 9,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"一款休闲益智的小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/35f51e730fc7dfa5d88a362d5e2ffe9f",
+          "name": "疯狂小鱼塘",
+          "publisher": "成都有条链接科技有限公司",
+          "rank": 10,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"寻找碎片拼青花瓷，边玩边认识传统美学！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c7fca300ea36ff7cd78ed67f98019076",
+          "name": "合一合",
+          "publisher": "厦门营火科技有限公司",
+          "rank": 11,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"二合赛道头部产品，活跃长期稳定，近期DAU增幅超20%，内容场景日均曝光及流水长期居高，历史带动单直播单日观众数破百万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/899151519a546b9ecce38cc5119e174a",
+          "name": "浪漫餐厅",
+          "publisher": "北京柠檬曲奇科技有限公司",
+          "rank": 12,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"国民级小游戏，发行人短视频日均投稿人数峰值破万级，日均直播人数500，头部视频播放破千万。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b762f6ee25402d42f17fe708297a455e",
+          "name": "贪吃蛇大作战",
+          "publisher": "武汉微派网络科技有限公司",
+          "rank": 13,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"棋牌赛道头部游戏，日均近百主播开播，自建赛事房间直播内容看播高，内容场景曝光破百万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/fe5d380042f02b4d226f894abbe0059d",
+          "name": "多乐够级",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 14,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"头部短视频，带动分享来源DAU十万级，视频播放量百万级，DAU峰值破百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a35b748eb30c73b439ca51c9146dccbb",
+          "name": "躺平发育",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "rank": 15,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"活跃玩家规模稳定，近30内流水峰值破80万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f1fb5302fda170b67a09034f58e0374e",
+          "name": "狱国争霸",
+          "publisher": "北京智诚互娱科技有限公司",
+          "rank": 16,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"棋牌赛道头部游戏，日活人数15万＋，日均内容场景曝光300万+\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4b83b17dcf89974363b1a180c11ca705",
+          "name": "富豪麻将",
+          "publisher": "在线途游（北京）科技有限公司",
+          "rank": 17,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"策略品类头部产品，日均流水达百万量级，发行人短视频吸量，近14天GMV增幅达40%\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/77de0b06cb4ad4e1b6d84607733ad6bb",
+          "name": "疯狂水世界",
+          "publisher": "益世界网络科技有限公司",
+          "rank": 18,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"救救这只猪\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c05ca6fbcefdac814ffafc4cfe194729",
+          "name": "猪了个猪",
+          "publisher": "杭州同趣科技有限公司",
+          "rank": 19,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"古风消除头部产品，历史DAU峰值百万，近期DAU增幅近20%，GMV增幅近30%，带动短视频曝光千万次\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e13171b6c921981c6bea0361d515c0c7",
+          "name": "梦幻消除战",
+          "publisher": "广州喜势网络科技有限公司",
+          "rank": 20,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"帮助彩色小人上车！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3caea45291167d243694f350b0167649",
+          "name": "看谁先上车",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "rank": 21,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"策略赛道头部产品，日均流水过百万，发行人场景带流水稳步提升。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1ddad92f8f707d894c49cd6ebfa3b23e",
+          "name": "三国：冰河时代",
+          "publisher": "欢游互动（北京）科技有限公司",
+          "rank": 22,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"发行人直播日均开播人数500+，短视频日均投稿人数900+，每日多条短视频转化破千。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b35607275df23d2584ad71e4ecf25944",
+          "name": "芒果斗地主",
+          "publisher": "深圳市林子互娱科技有限公司",
+          "rank": 23,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"好玩又上瘾的消除游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5df832eb7f715648f75d25fab231c0d3",
+          "name": "砖了个砖",
+          "publisher": "北京简游互娱科技有限公司",
+          "rank": 24,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"发行人直播日开播人数100+，短视频日均投稿人数200+，多条视频转化破千，发行人视频场景日均带激活5万+\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/7327b93567d8109ff760dffa977367cc",
+          "name": "开运麻将",
+          "publisher": "深圳市林子互娱科技有限公司",
+          "rank": 25,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"模拟经营赛道头部游戏，话题性强，社交场景月流水过百万，日均200+主播开播，官号直播间成为标杆。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0662b6723e64e66b267f6d3882d7395b",
+          "name": "我的花园世界",
+          "publisher": "海南途趣科技有限公司",
+          "rank": 26,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"联动达人制作对局玩法视频，视频爆量带动10万-&gt;250万增量，其中短视频+搜索、社交裂变各占50%，分享裂变渗透率达45%。同时带动全渠道分享、搜索量增长超100倍增长，登顶多个榜单，全渠道超500万DAU。带动#狙击外星人话题超10亿次播放，话题#玩狙击外星人很小众吗 登上热点榜top40和挑战榜top8\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8a528f5fa0fc1870ef35704efc7cc20d",
+          "name": "狙击外星人",
+          "publisher": "厦门营火科技有限公司",
+          "rank": 27,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"好玩解压的塔防小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f2ef68b241f2b745feeb49853f7b2538",
+          "name": "家园防御战",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "rank": 28,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"流水峰值近百万，近7天涨幅25%，社交分享裂变表现佳，内容场景潜力足\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/86afdd948b5cf347896a2c4c3ee91ddd",
+          "name": "向往的生活",
+          "publisher": "深圳市必凡娱乐科技有限公司",
+          "rank": 29,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"微乐斗地主经典场人人会玩、免洗局惊喜不断！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/57aa8ebd12cf78dd5db76e670bf4950b",
+          "name": "微乐斗地主",
+          "publisher": "家乡互动（厦门）网络科技有限公司",
+          "rank": 30,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"指尖快消是一款画风简约玩法简单的挪车消除小游戏。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ead6c6a6627d6e5e2f221fecbeefbb9b",
+          "name": "指尖快消",
+          "publisher": "厦门营火科技有限公司",
+          "rank": 31,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"合成缤纷食材，烹饪美味佳肴，打造属于你的美食街！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/156e30bfc9c73035e67be87b0406b53f",
+          "name": "肥鹅美食街",
+          "publisher": "北京豪腾创想科技有限公司",
+          "rank": 32,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"挪车让小人全部上车小游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3d2a73ab852f131ac69a108079a8fd83",
+          "name": "小人大作战",
+          "publisher": "重庆云威科技有限公司",
+          "rank": 33,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"真实赛场共振，无界自由交易，逆转何须剧本，奇迹自有其名。 \"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e52bbf25d39e666c26010043429fe5ca",
+          "name": "美职篮奇迹梦之队",
+          "publisher": "深圳市柚游信息技术有限公司",
+          "rank": 34,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"经典棋牌游戏，发行人短视频日均投稿200+，内容场景曝光日均550万+\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/56fa0d0dcaf41b7d7f69b21d3aeb10c0",
+          "name": "微乐四川麻将移动版",
+          "publisher": "家乡互动（厦门）网络科技有限公司",
+          "rank": 35,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"别笑，第三关你也过不了。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/d48e58b44ab7128d808febe87e5ec482",
+          "name": "解救计划",
+          "publisher": "青岛星云无界网络科技有限公司",
+          "rank": 36,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"《清洁达人》是一款超解压的打扫模拟游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4a4513490b404c705ab4fff68dc765fe",
+          "name": "清洁达人",
+          "publisher": "深圳市指点天下科技有限公司",
+          "rank": 37,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"组装赛车运送货物抵达终点，发挥你的想象力DIY赛车\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/989d45e081d53257d580149efa50a52a",
+          "name": "极速赛车向前冲",
+          "publisher": "深圳市引力乐园科技有限公司",
+          "rank": 38,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"是一款趣味益智游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/210bf234af2d295ea23df2c047c7f12e",
+          "name": "脑洞画线我最强",
+          "publisher": "深圳市指点天下科技有限公司",
+          "rank": 39,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"门不倒，人不跑，看看你能撑几秒！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/b82941a5b30aa165ce81cd7c2664678f",
+          "name": "猛鬼宿舍",
+          "publisher": "北京蜜獾工坊科技有限公司",
+          "rank": 40,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"开局一把狙击枪，真实3D狙击手射击游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/13c3fb318c820057cce983eb63a32a11",
+          "name": "天天狙击3D",
+          "publisher": "河北传娱网络科技有限公司",
+          "rank": 41,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"好玩的休闲小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e2fe6e46b540b26f0841ebf8460336cd",
+          "name": "守了个桥",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "rank": 42,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"多人同场实时暗标竞价，考验你的眼力与心理博弈。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/37ac46bedf5b1f112453fd2e08fbdf9e",
+          "name": "俱乐大玩家",
+          "publisher": "海南临游科技有限公司",
+          "rank": 43,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"一款休闲的动作跑酷闯关游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/5811070a7a1fc5d2365d34756e17f0f2",
+          "name": "暴走的球球",
+          "publisher": "深圳市益欣网络科技有限公司",
+          "rank": 44,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"打牌不缺豆，还有福利领！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/61e1868e7c3a745979d65f530fbabe4a",
+          "name": "欢喜斗地主",
+          "publisher": "深圳市其乐游戏科技有限公司",
+          "rank": 45,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"超爽不洗牌真人对局，天天疯狂扔连炸\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/75051e0f1950c69f28422d24747851e2",
+          "name": "途游斗地主（比赛版）",
+          "publisher": "在线途游（北京）科技有限公司",
+          "rank": 46,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"经典正宗五子棋。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/43e98288adb4f477afe0c17741b38886",
+          "name": "五子棋达人",
+          "publisher": "深圳市一锋科技有限公司",
+          "rank": 47,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"这是一款休闲益智小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4d211955bf5ac8e6c1aee8b7c7ed8cdb",
+          "name": "我就爱整活",
+          "publisher": "广州沃乐趣科技有限公司",
+          "rank": 48,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"RPG赛道头部产品，近期月均流水在千万以上级别，有稳定的玩家群体\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/09dcdbad4d4ebe195a2c33ad64fd1ff2",
+          "name": "灵画师",
+          "publisher": "广州光游网络科技有限公司",
+          "rank": 49,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"山海经题材文字塔防游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/48dae06cee658dbf55231f69de34080d",
+          "name": "万妖图录卷",
+          "publisher": "深圳盟趣科技有限公司",
+          "rank": 50,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"包含象棋、揭棋、翻翻棋等经典玩法，随时开局，以棋会友\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a184248132d1d0982ef43afb0cf507f9",
+          "name": "多乐中国象棋",
+          "publisher": "北京蓝色创想网络科技有限责任公司",
+          "rank": 51,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"单周多个直播间挂载启动人数过万，并多个直播间看播人数上万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/06d2eb7fbee08109bb46c97bd1b0a124",
+          "name": "救救我鸭",
+          "publisher": "北京起跃文化有限公司",
+          "rank": 52,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"长盛不衰，8亿人都在玩\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/07fc833a69bee2c402227093caa3e9cd",
+          "name": "开心消消乐",
+          "publisher": "乐元素科技（北京）股份有限公司",
+          "rank": 53,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"头部短视频周维度单条启动破万级，播放量破百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e7494bf3d48f514f62c9f16f1edbb547",
+          "name": "兵器王者",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 54,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"好玩的休闲小游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/554320da4a2314a274c7cc64606708e5",
+          "name": "守桥道人",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "rank": 55,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"来修复损坏的节奏盒子吧\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/91b4e3635ab03f41a50abd86e4caf536",
+          "name": "来玩安静书",
+          "publisher": "深圳快乐游科技有限公司",
+          "rank": 56,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"头部达人单周直播间累计看播人数十万级，曝光启动率较高\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/4ed29d43055d705d0e6cd632cdc53f2e",
+          "name": "火柴人逆袭",
+          "publisher": "深圳市指点天下科技有限公司",
+          "rank": 57,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"重建梦幻小岛！探究隐藏秘密～\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/139067ebc3f94887343fffdc4332f880",
+          "name": "梦幻旅行",
+          "publisher": "北京柠檬微趣科技股份有限公司",
+          "rank": 58,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"你会拼词吗？\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/740b792963582cff96a4fd59c55b350b",
+          "name": "全民拼成语",
+          "publisher": "厦门六角一袋科技有限公司",
+          "rank": 59,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"草莓开局就有缝儿~\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e022775b10ca18f38b51715f6cd5ef4c",
+          "name": "大丰收",
+          "publisher": "北京米兜科技有限公司",
+          "rank": 60,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"经典的俄罗斯方块游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/309f9c295b1af917c3f640c6081d66ee",
+          "name": "俄罗斯方块新版",
+          "publisher": "深圳市探娱互动科学文化有限公司",
+          "rank": 61,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"塔防品类头部产品，日均流水过百万，UGC内容带流水效果佳\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/bc2dd579233d232bb2881d0a65999060",
+          "name": "超能下蛋鸭",
+          "publisher": "世熠网络科技（上海）有限公司",
+          "rank": 62,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"《光之契约》是一款模拟类策略游戏，从一个小小的钻井平台起步。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/457255ce3eec9835ea269bbbfd160e87",
+          "name": "光之契约",
+          "publisher": "青岛畅玩视界信息科技有限公司",
+          "rank": 63,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"萌猫持枪闯战域，升级火力一路变强\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a900d0d79caab4b93c09e6642ebe8005",
+          "name": "喵骑战域",
+          "publisher": "重庆很开心科技有限公司",
+          "rank": 64,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"疯狂黑洞，吞掉一切！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/17c18ac44d397fb3bd7c6cc53ffd004f",
+          "name": "黑洞入侵",
+          "publisher": "邯郸太空船信息科技有限公司",
+          "rank": 65,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"无厘头宅男，欢乐搜打撤，在丧尸群中三进三出！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f58ab9c89a7e62a4e28b50270ffb4d57",
+          "name": "阿皮大冒险",
+          "publisher": "北京豪腾创想科技有限公司",
+          "rank": 66,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"棋牌赛道头部游戏，发行人直播日均开播人数400+，短视频日均投稿人数600+，连续多日有带激活破万的直播间。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f38fefb0b8bfcbe32baba1bd713e773f",
+          "name": "全民象棋",
+          "publisher": "南京莫邪网络科技有限公司",
+          "rank": 67,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"拆木块，保平衡，稳稳落地才算赢！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/52013798e312501f815b8859e8be2309",
+          "name": "别拆我台",
+          "publisher": "青岛汇研互娱网络科技有限公司",
+          "rank": 68,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"双人物理搞怪对决，巧用机关道具比拼谁先出局\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a96c306e3b3582aef3023f8347094d47",
+          "name": "双人对战比拼",
+          "publisher": "南京标节网络科技有限公司",
+          "rank": 69,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"趣味麻将消除！点击麻将移入卡槽，凑成对子即可消除闯关。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/58f8c5473c3b16e2ae799202218c6be9",
+          "name": "吃碰大消除",
+          "publisher": "厦门登游科技有限公司",
+          "rank": 70,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"欢迎来到充满未知与挑战的冒险世界！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/93ada97ffdb0fdf6ea295e4f7b166d06",
+          "name": "寻景者",
+          "publisher": "广州软客网络科技有限公司",
+          "rank": 71,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"经典的俄罗斯方块游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1806b0bacb47f666bfcc848499958518",
+          "name": "疯狂的俄罗斯方块",
+          "publisher": "长沙市创艺工场数码技术有限公司",
+          "rank": 72,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"解锁迷宫，联机真人对战！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/06b93347c17a193a7d2b60885a08c48c",
+          "name": "染色迷宫",
+          "publisher": "天津能量工坊科技有限公司",
+          "rank": 73,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"直播场景头部主播单周累计挂载启动人数破万，短视频场景头部视频单周播放量百万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3050e76e68de009ffcdaf4d55a44a807",
+          "name": "爆裂守卫",
+          "publisher": "邯郸太空船信息科技有限公司",
+          "rank": 74,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近一周表现优异，日流水近百万级，单日DAU峰值破十万\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e4fb04bfa0def4cdf114b9e0be3780fa",
+          "name": "造化仙府",
+          "publisher": "上海沛炫网络科技有限公司",
+          "rank": 75,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"活跃长期稳定，近期月流水达千万量级，题材和玩法对女性用户具有吸引力\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c931165ed25a2f40b4ab391785a3bebf",
+          "name": "四季合合",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 76,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"无需下载，点击即玩！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/03f90e781ce3ec4cc584b9149bbc60e6",
+          "name": "我要闯个关",
+          "publisher": "上海密幂科技有限公司",
+          "rank": 77,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"消消拼豆，畅爽解压！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2370af175aa3c32f97ddd1e4484f9afe",
+          "name": "消除大解压",
+          "publisher": "长沙四五互娱网络科技有限公司",
+          "rank": 78,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"全球鱼类大乱斗，小鱼吃吃变大鱼！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/64f2f35c740dcd8b51462e0a6883d30c",
+          "name": "鱼吃鱼",
+          "publisher": "青岛蓝飞互娱科技股份有限公司",
+          "rank": 79,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"欢迎来到模拟小世界，开启属于你的开放式冒险！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/1da79b991ca4e92a1b66e0e77207c65a",
+          "name": "模拟小世界",
+          "publisher": "海南柠檬创想科技有限公司",
+          "rank": 80,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近期DAU稳定提升，GMV峰值破十万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/535feaeef762ad8079d4b5ae30bf1552",
+          "name": "难不倒你吧",
+          "publisher": "一克科技（广州）有限公司",
+          "rank": 81,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"趣味肉鸽塔防，您将扮演守护者，抵御外星生物攻击，保卫家园。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/99c031d57345c0c5507af9e906b87826",
+          "name": "我的防线",
+          "publisher": "杭州烈酷科技有限公司",
+          "rank": 82,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"发行人任务上线次日直播爆量，一周内DAU百万+\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a04e1cf110fc7815e5b82772a3033678",
+          "name": "超级消消",
+          "publisher": "广州联曼信息科技有限公司",
+          "rank": 83,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"捏水精灵大赛开始，你做的能比隔壁小孩强吗\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/0fbdb180aeaf9fabd481c7662da3e6d9",
+          "name": "一起来清理",
+          "publisher": "石家庄奇焕信息科技有限公司",
+          "rank": 84,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"随点随玩，治愈你的碎片时间\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/c09c33b7a4abd8cceebf5fe49ee9ff18",
+          "name": "这关我会过啊",
+          "publisher": "成都布尔凯索科技有限公司",
+          "rank": 85,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"用手指来挪动车，解开每一个关卡就可以闯关成功了\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/151aa92d9ae3cb2ccec6e8be560e8f0b",
+          "name": "挪车冲冲冲",
+          "publisher": "杭州同趣科技有限公司",
+          "rank": 86,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"梦回甄嬛传，合成物品推进剧情，收集角色卡牌、装扮家园与皮肤。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e1e8a78c7123f2ddd1d46cdddc245bfe",
+          "name": "梦回甄嬛传",
+          "publisher": "广州擎迅网络科技有限公司",
+          "rank": 87,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"赛车碰撞大乱斗，操控改装飞车撞击对手，畅享解压飙车快感！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ec21c1188b770da0c55a650537dfb4e5",
+          "name": "碰撞飞车模拟",
+          "publisher": "厦门妙游生花信息科技有限公司",
+          "rank": 88,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"百年帝王梦，一世翡翠情！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/230c941df89243e77e5975d34d589705",
+          "name": "翡翠大王",
+          "publisher": "石家庄时玄科技有限公司",
+          "rank": 89,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"多个TOP达人直播间收益上万，人群分布较为年轻化，23岁以下用户群体占比高，在分享场景表现好\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/19d36b8b4e615e41bc5bbf6cb7c38e68",
+          "name": "佛系消消消",
+          "publisher": "厦门行上网络科技有限公司",
+          "rank": 90,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"无穷无尽的跑酷，让欢乐永不止步。\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ac7adb5ee84b21923271a46d06799d71",
+          "name": "汤姆猫跑酷",
+          "publisher": "广州金科文化科技有限公司",
+          "rank": 91,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"轻松消除，快乐解压\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/e830576a213d795df8c681250fa67000",
+          "name": "一起推方块",
+          "publisher": "长沙市米小游网络科技有限公司",
+          "rank": 92,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"入选抖音高质量精选游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/ede1c7b2e8f9aaf70563bf5cbe76736c",
+          "name": "每天数独",
+          "publisher": "海南三百斤科技有限公司",
+          "rank": 93,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"这也太解压了！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/2637eefeaa487d55c387d21d50934c13",
+          "name": "这关消一消",
+          "publisher": "福州联创乐游网络科技有限公司",
+          "rank": 94,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"官方正版，6亿人都在玩的国民游戏！\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/65e45e08536928d49dbc0f565a2531c6",
+          "name": "球球大作战",
+          "publisher": "上海巨人统平网络科技有限公司",
+          "rank": 95,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"近期日流水峰值破百万，活跃玩家规模总体稳定\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/441e4ad54489812f16583631de70964c",
+          "name": "跃动小子",
+          "publisher": "柏项网络科技（上海）有限公司",
+          "rank": 96,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"头部达人单周累计挂载启动人数破万，多个直播间累计看播人数数万级\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/8be2a11e0a964ffa8ce0dfea50e5410e",
+          "name": "修勾逃生巨人危机",
+          "publisher": "深圳市鸿鑫网络科技有限公司",
+          "rank": 97,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"“搜打撤”玩法中表现最佳，月流水过千万，有一定话题热度\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/3419e6fd95fc5c1ae88dbc54d36abf5d",
+          "name": "生存33天",
+          "publisher": "广州龙畅网络科技有限公司",
+          "rank": 98,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"魔法画笔，画一画让他们变得开心吧\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/f657e2927199bab00ba395220be33b17",
+          "name": "开心魔法师",
+          "publisher": "徐州牛犊信息科技有限公司",
+          "rank": 99,
+          "tags": []
+        },
+        {
+          "change": "- 稳定",
+          "change_direction": "flat",
+          "description": "\"天天爱掼蛋，经典掼蛋游戏\"",
+          "icon": "https://gravity-client-resource.oss-cn-hangzhou.aliyuncs.com/1/icon/a41153cbe7e6183a18feff7527b2e9be",
+          "name": "天天爱掼蛋",
+          "publisher": "南京呆萌猫网络科技有限公司",
+          "rank": 100,
+          "tags": []
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-24(今天)"
+}
