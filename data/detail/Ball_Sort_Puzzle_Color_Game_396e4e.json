@@ -1,0 +1,180 @@
+{
+ "schema_version": 1,
+ "name": "Ball Sort Puzzle - Color Game",
+ "updated_at": "2026-11-25",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Guru Puzzle Game",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 97
+  },
+  "platform_app_ids": {
+   "android": "ball.sort.puzzle.color.sorting.bubble.games"
+  },
+  "first_seen": "2026-09-10",
+  "appearances": 7,
+  "best_rank": 40,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，Guru 同系列排序产品通用）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "纯色小球 + 透明试管，扁平明快，浅色背景，几乎无纹理",
+  "dims": {
+   "engine": 2,
+   "art": 2,
+   "anim": 2,
+   "physics": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 1
+  },
+  "dim_notes": {
+   "engine": "球排序是成熟模板，改配置即可出关卡",
+   "art": "只有球、试管、背景三件套，皮肤是唯一美术增量，iOS 包体 285MB 主要来自多套皮肤与广告 SDK",
+   "anim": "球在试管内弹跳、落位的小动效，简单但必须跟手",
+   "physics": "球落位与试管容量判定必须精确，错一格就会被骂「不讲道理」",
+   "logic": "数千关需要生成 + 可解性校验，防止出现无解关卡",
+   "data": "金币仅能买皮肤（玩家评价明确吐槽），无成长线",
+   "server": "离线可玩，统计联网",
+   "audio": "通用音效即可"
+  },
+  "asset_notes": "素材成本极低，纯色球体 + 半透明试管，可程序化生成；主要投入在关卡与广告 SDK 集成",
+  "notes": "验收说明：WorkBuddy只搜索摘要，未读取全部原文、未试玩或观看实机视频，具体机制与指标按网络转述/综合推断接收，多渠道主体并列，不等于官方确认。发行方 Google Play 显示 Guru Puzzle Game，开发者实体为 Guru Smart Holding Limited；另有 iOS 版（id 1625097467）",
+  "cost_score": 2.12,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "网络资料转述/分析推断，未实测：点试管取最上面的球，倒进同色球顶部或有空位的试管，把每种颜色归到同一根管里即过关。每管最多 4 球，无计时，卡住可撤销或加管。",
+  "highlights": [
+   "「一步错满盘堵」的强因果：所有失败都是自己走出来的，玩家会怪自己而不是怪游戏",
+   "球落下去弹一下的物理反馈，配合落位音，构成极低成本但有效的满足感",
+   "无计时 + 可随时重开，让玩家愿意反复试，单关时长自动拉长",
+   "数千关的难度渐进，几乎不会出现断崖式卡关"
+  ],
+  "innovations": [
+   "无实质创新，是球排序品类的标准实现（最大规模的那一版）"
+  ],
+  "target_user": "全年龄，成人逻辑题爱好者为主，通勤与睡前",
+  "monetization": "网络分析/待核：IAA 为主：加管与撤销看激励视频；金币只能买皮肤，另有去广告内购",
+  "lifecycle": "长线常青，5000 万+ 下载、4.9 分百万评价，属品类头部存量产品"
+ },
+ "clone": {
+  "verdict": "原样复刻",
+  "rationale": "球排序是无版权壁垒的纯玩法原型，实现成本极低，适合当内部练手或产品填充位。但它已被头部做到 5000 万下载、买量单价被抬高，当主力产品没有胜算。",
+  "suggestions": [
+   "当填充位用：直接复刻核心，1:1 保留「撤销 + 加管」两个卡点，用于新手期留存与广告位填充",
+   "若要独立立项，必须换标的：球换成「胶囊药丸」「螺丝」「水果」，并加一条题材化长线",
+   "把「金币只能买皮肤」这个差评点改掉：让金币能换加管次数，提升付费公平感"
+  ],
+  "risks": [
+   "品类头部已锁死，独立立项买量打不平",
+   "数千关的内容量与可解性校验容易被低估",
+   "广告频次过高引发差评（现版本已有大量此类反馈）"
+  ],
+  "effort": "8–12 人日（1 前端 + 0.5 美术）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "爽点是最纯粹的因果可控：每一步都能算清后果，5000 万下载、4.9 分近百万评价证明这是全球通吃的底层需求"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得清，无计时无惩罚，任何年龄层都能玩，不需要任何本地化"
+    },
+    {
+     "lens": "业务",
+     "text": "「取球-倒球-归色」是可整块搬的最小分类组件，纯离线无服务器，一周能接进任何产品"
+    },
+    {
+     "lens": "业务",
+     "text": "现在缺的是零成本填充内容，这类玩法素材可程序化生成，是性价比最高的补位方案"
+    }
+   ],
+   "how": [
+    "直接复刻做 15 关填充小游戏，接在新手引导末尾，看新手次日留存变化",
+    "把它「加管」这一步做成激励视频位，A/B 看广告次数与卡关流失的平衡点"
+   ],
+   "gain": [
+    "拿到一个零美术成本、可长期复用的填充组件",
+    "验证「无计时逻辑题」对新手的留人效果，决定是否扩到 100 关",
+    "省掉美术与关卡外包：程序化配色 + 参数化关卡即可",
+    "明确不做独立立项，避免与品类头部正面撞量"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "开发者实体为 Guru Smart Holding Limited，Google Play 显示 5000 万+ 下载，自研自发且规模远超我们",
+    "球排序为通用玩法无授权价值，商务上无可谈项"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "药房用药提醒",
+     "how": "把球换成药丸，按颜色/剂量归管，做成服药顺序训练小游戏"
+    },
+    {
+     "scene": "仓储容量演示",
+     "how": "把试管当货位，球当货物，演练「先出后进」的出入库规则"
+    }
+   ]
+  },
+  "summary": "零成本分类组件适合当填充位，不宜作主力立项"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "Google Play 5000 万+ 下载、4.9 分（约 100 万条评价），最新版本 5.7.0（2026-10-15）",
+   "level": "inferred"
+  },
+  {
+   "claim": "玩法为点管取球、倒入同色或有空位的试管，每管 4 球，无计时，含撤销与加管",
+   "level": "inferred"
+  },
+  {
+   "claim": "金币仅能用于购买皮肤，加管需看广告（玩家评价明确吐槽此设计）",
+   "level": "inferred"
+  },
+  {
+   "claim": "开发者实体为 Guru Smart Holding Limited，iOS 版 id 1625097467 包体 285.5MB",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎推断为 Unity，无官方技术侧确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/store/apps/details?id=ball.sort.puzzle.color.sorting.bubble.games",
+  "https://apps.apple.com/cz/app/ball-sort-puzzle-color-game/id1625097467",
+  "https://gamezone.shresult.com/games/ball-sort-puzzle"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Ball_Sort_Puzzle_Color_Game_396e4e"
+}

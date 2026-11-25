@@ -1,0 +1,160 @@
+{
+  "batch": 48,
+  "games": [
+    {
+      "name": "3D Colorful SortTM 魔法の水",
+      "slug": "3D_Colorful_SortTM_魔法の水_a4f383",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 54
+      },
+      "platform_app_ids": {
+        "ios": "6757832779"
+      },
+      "publisher": "Gaming Flight Limited",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 24,
+      "best_rank": 34,
+      "seen_days": 24,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Point Out: Color Escape Puzzle",
+      "slug": "Point_Out_Color_Escape_Puzzle_442dcc",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 61
+      },
+      "platform_app_ids": {
+        "android": "com.arrow.out"
+      },
+      "publisher": "Lion Studios Plus",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 21,
+      "best_rank": 34,
+      "seen_days": 21,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Sweet Match - Puzzle Games",
+      "slug": "Sweet_Match_Puzzle_Games_4c47cc",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 59
+      },
+      "platform_app_ids": {
+        "android": "com.sweetmagic.match3.puzzlegame"
+      },
+      "publisher": "Wood Puzzle Sudoku Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-20",
+      "appearances": 5,
+      "best_rank": 34,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Solitaire - Classic Card Games",
+      "slug": "Solitaire_Classic_Card_Games_fe2446",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 72
+      },
+      "platform_app_ids": {
+        "android": "solitaire.patience.card.games.klondike.free"
+      },
+      "publisher": "Guru Puzzle Game",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 28,
+      "best_rank": 35,
+      "seen_days": 28,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Line Tangle: Untangle Puzzle",
+      "slug": "Line_Tangle_Untangle_Puzzle_993931",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 36
+      },
+      "platform_app_ids": {
+        "android": "line.tangle.twist.away.puzzle"
+      },
+      "publisher": "Shycheese",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-21",
+      "appearances": 4,
+      "best_rank": 36,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

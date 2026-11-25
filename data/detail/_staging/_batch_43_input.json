@@ -1,0 +1,165 @@
+{
+  "batch": 43,
+  "games": [
+    {
+      "name": "甄嬛传:归来",
+      "slug": "甄嬛传_归来_863ab9",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜",
+        "douyin/热门榜",
+        "douyin/畅销榜",
+        "wx/人气榜",
+        "wx/畅销榜"
+      ],
+      "ranks": {
+        "douyin/新游榜": 3,
+        "douyin/热门榜": 11,
+        "wx/人气榜": 20,
+        "wx/畅销榜": 16,
+        "douyin/畅销榜": 17
+      },
+      "platform_app_ids": {
+        "douyin": "ttd2f0a44d4c8b63a102"
+      },
+      "publisher": "深圳市拾光筑梦文化传媒有限公司",
+      "category_l1": "1",
+      "category_l2": "益智",
+      "first_seen": "2026-10-17",
+      "appearances": 11,
+      "best_rank": 2,
+      "seen_days": 22,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "上课偷吃作弊模拟器",
+      "slug": "上课偷吃作弊模拟器_195f78",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 2
+      },
+      "platform_app_ids": {},
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-11-19",
+      "appearances": 6,
+      "best_rank": 2,
+      "seen_days": 6,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "砸墙模拟器小游戏",
+      "slug": "砸墙模拟器小游戏_cba0d3",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 4
+      },
+      "platform_app_ids": {},
+      "publisher": "厦门市途华投资有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-20",
+      "appearances": 5,
+      "best_rank": 4,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "龙岛起源进化",
+      "slug": "龙岛起源进化_4eb53d",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 8
+      },
+      "platform_app_ids": {},
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-21",
+      "appearances": 4,
+      "best_rank": 4,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "全民抓鸡",
+      "slug": "全民抓鸡_700586",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 44
+      },
+      "platform_app_ids": {},
+      "publisher": "北京简游互娱科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-31",
+      "appearances": 2,
+      "best_rank": 7,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

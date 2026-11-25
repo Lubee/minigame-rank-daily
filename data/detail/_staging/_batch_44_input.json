@@ -1,0 +1,167 @@
+{
+  "batch": 44,
+  "games": [
+    {
+      "name": "脑力我最强",
+      "slug": "脑力我最强_514aaf",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 9
+      },
+      "platform_app_ids": {
+        "wx": "wx6d2ee605390a0abe"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-10-04",
+      "appearances": 2,
+      "best_rank": 7,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "火锅串串消",
+      "slug": "火锅串串消_1bb230",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜",
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 100,
+        "wx/畅玩榜": 99,
+        "douyin/热门榜": 93
+      },
+      "platform_app_ids": {},
+      "publisher": "成都木木互娱科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-06-30",
+      "appearances": 60,
+      "best_rank": 8,
+      "seen_days": 60,
+      "profile_value": "mid",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "火锅，match3",
+        "tags": [
+          "火锅，match3"
+        ],
+        "notes": "",
+        "developer": "成都木木互娱科技有限公司"
+      },
+      "media": {}
+    },
+    {
+      "name": "赛场极限漂移",
+      "slug": "赛场极限漂移_789bed",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 8
+      },
+      "platform_app_ids": {
+        "wx": "wx2a1a415ead2c581f"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-09-26",
+      "appearances": 1,
+      "best_rank": 8,
+      "seen_days": 1,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "眼神儿挺好",
+      "slug": "眼神儿挺好_db774b",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 8
+      },
+      "platform_app_ids": {
+        "wx": "wx1d40b2048314c570"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "消除",
+      "first_seen": "2026-10-18",
+      "appearances": 3,
+      "best_rank": 8,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "越狱模拟器小游戏",
+      "slug": "越狱模拟器小游戏_02b1e4",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 14
+      },
+      "platform_app_ids": {},
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-20",
+      "appearances": 5,
+      "best_rank": 8,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

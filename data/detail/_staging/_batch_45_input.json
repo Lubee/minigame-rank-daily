@@ -1,0 +1,168 @@
+{
+  "batch": 45,
+  "games": [
+    {
+      "name": "轻松就通关",
+      "slug": "轻松就通关_b29eea",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 58,
+        "wx/畅玩榜": 100
+      },
+      "platform_app_ids": {},
+      "publisher": "湖南快乐芒果互娱科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-08-05",
+      "appearances": 21,
+      "best_rank": 9,
+      "seen_days": 22,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "梗类产品",
+      "seed": {
+        "gameplay_desc": "梗类",
+        "tags": [
+          "梗类"
+        ],
+        "notes": "",
+        "developer": "湖南芒果互娱"
+      },
+      "media": {}
+    },
+    {
+      "name": "孤狼街区搜刮",
+      "slug": "孤狼街区搜刮_d1882b",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 57
+      },
+      "platform_app_ids": {},
+      "publisher": "广州易游互玩科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-16",
+      "appearances": 25,
+      "best_rank": 9,
+      "seen_days": 25,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "渔力全开",
+      "slug": "渔力全开_031075",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 9
+      },
+      "platform_app_ids": {
+        "wx": "wxabecbaacfc9ee31c"
+      },
+      "publisher": "厦门玖伍贰叁网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-09-20",
+      "appearances": 3,
+      "best_rank": 9,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {
+        "matched": false,
+        "fetched_at": "2026-09-21T01:09:54+08:00"
+      }
+    },
+    {
+      "name": "装满黑洞",
+      "slug": "装满黑洞_5e5d32",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 9
+      },
+      "platform_app_ids": {
+        "wx": "wx912021d5edeefde7"
+      },
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-09-27",
+      "appearances": 1,
+      "best_rank": 9,
+      "seen_days": 1,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "单车骑行挑战",
+      "slug": "单车骑行挑战_7615f1",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 17
+      },
+      "platform_app_ids": {
+        "wx": "wxd28ef4d0fe426d8a"
+      },
+      "publisher": "广州落音科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-09",
+      "appearances": 7,
+      "best_rank": 9,
+      "seen_days": 7,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

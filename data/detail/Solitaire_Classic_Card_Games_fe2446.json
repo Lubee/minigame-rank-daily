@@ -1,0 +1,159 @@
+{
+ "schema_version": 1,
+ "name": "Solitaire - Classic Card Games",
+ "updated_at": "2026-11-25",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Guru Puzzle Game",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 72
+  },
+  "platform_app_ids": {
+   "android": "solitaire.patience.card.games.klondike.free"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 28,
+  "best_rank": 35,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知，未取得本作引擎披露",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "表现分析：经典Klondike接龙对应的界面与关卡反馈，未逐帧观察。",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 1,
+   "logic": 4,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "原型成本估算：牌局状态、解序与整组拖动涉及引擎与框架；非原作内部技术测量。",
+   "art": "原型成本估算：牌局状态、解序与整组拖动涉及美术素材量；非原作内部技术测量。",
+   "anim": "原型成本估算：牌局状态、解序与整组拖动涉及动画与特效；非原作内部技术测量。",
+   "physics": "原型成本估算：牌局状态、解序与整组拖动涉及物理与手感；非原作内部技术测量。",
+   "logic": "原型成本估算：牌局状态、解序与整组拖动涉及玩法逻辑与关卡；非原作内部技术测量。",
+   "data": "原型成本估算：牌局状态、解序与整组拖动涉及数值与养成体系；非原作内部技术测量。",
+   "server": "原型成本估算：牌局状态、解序与整组拖动涉及服务端与联网；非原作内部技术测量。",
+   "audio": "原型成本估算：牌局状态、解序与整组拖动涉及音频；非原作内部技术测量。"
+  },
+  "asset_notes": "需盘点牌局状态、解序与整组拖动对应素材和关卡内容；包体结构、素材授权与量产工时未确认。",
+  "notes": "基准为输入商店ID/包名对应页面，发行主体来源为Guru Puzzle Game，多渠道主体可并列；成本和业务均为推断。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "将52张牌按花色从A到K移入基础堆；列间按红黑交替递减排列，只能把K放进空列，可整组拖动直到完成四种花色。",
+  "highlights": [
+   "经典Klondike接龙的操作目标可明确呈现。",
+   "牌局状态、解序与整组拖动是规则与体验共同的验证重点。"
+  ],
+  "innovations": [
+   "组合观察：经典Klondike接龙形成差异化，不声称原创独占。"
+  ],
+  "target_user": "分析假设：偏好经典Klondike接龙的休闲益智玩家，真实年龄性别分布未知。",
+  "monetization": "商店标注免费及广告或内购；具体展示点位、频次与收入结构未实测。",
+  "lifecycle": "未知，需持续内容产能和留存回收数据判断，不以榜位替代。"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "参考经典Klondike接龙规则，以自有素材和代码重建；重点是牌局状态、解序与整组拖动。",
+  "suggestions": [
+   "先制作经典Klondike接龙的10关原型并核验判定。",
+   "将牌局状态、解序与整组拖动拆成独立模块，记录异常和卡关。",
+   "采用自有题材对照测试理解和重复开局，再扩关。"
+  ],
+  "risks": [
+   "原作素材、词库和品牌授权需独立确认。",
+   "难度、内容产能及商业回收未验证。"
+  ],
+  "effort": "原型估算20–40人日，仅含有限关卡，不含完整内容量产及商业化验证。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "分析假设：经典Klondike接龙提供明确的单局目标，需实测理解与首关完成率。"
+    },
+    {
+     "lens": "用户",
+     "text": "保留牌局状态、解序与整组拖动的关键约束，先对照验证删减后体验。"
+    },
+    {
+     "lens": "业务",
+     "text": "若有兼容活动入口，牌局状态、解序与整组拖动可模块化接入，实际基建未知。"
+    },
+    {
+     "lens": "业务",
+     "text": "先验证经典Klondike接龙对自有用户的价值，不从榜位推导收入或复访。"
+    }
+   ],
+   "how": [
+    "制作牌局状态、解序与整组拖动的自有原型，记录错误输入、首关完成与二次开局。",
+    "用相同入口对照测试经典Klondike接龙的简化规则，核算单关工时再决定扩量。"
+   ],
+   "gain": [
+    "预期沉淀牌局状态、解序与整组拖动实现与校验经验。",
+    "获得经典Klondike接龙的用户理解数据，不承诺收入。",
+    "明确约束带来的体验增益与内容成本。",
+    "避免未经验证就量产素材和关卡。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "代理、授权及合作意向未知，不从发行主体推断。",
+    "如需接触先确认经典Klondike接龙相关的渠道与素材权利。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "会员每日益智活动",
+     "how": "以自有主题替换经典Klondike接龙表现，接会员积分结算。"
+    }
+   ]
+  },
+  "summary": "先验证核心规则，再做自有场景改编"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "本轮实际读取对应商店原文，玩法为来源转述；未试玩或观看视频。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "技术成本、目标用户、改编和业务收益均为分析假设。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/store/apps/details?id=solitaire.patience.card.games.klondike.free"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Solitaire_Classic_Card_Games_fe2446"
+}

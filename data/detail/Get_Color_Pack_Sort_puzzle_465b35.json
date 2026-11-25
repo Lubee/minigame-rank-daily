@@ -1,0 +1,175 @@
+{
+ "schema_version": 1,
+ "name": "Get Color Pack: Sort puzzle",
+ "updated_at": "2026-11-25",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Tripledot Studios",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 45
+  },
+  "platform_app_ids": {
+   "ios": "6756665708"
+  },
+  "first_seen": "2026-09-05",
+  "appearances": 9,
+  "best_rank": 37,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，与安卓版同一产品同一技术栈）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "极简玻璃瓶 + 高饱和液体分层，柔和光照，ASMR 质感",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "倒水分类模板成熟，双端共用一套逻辑",
+   "art": "iOS 包体 408.5MB，比安卓版更大，说明含较多皮肤、动效与高清贴图",
+   "anim": "倾倒流体形变与液面回落是核心观感",
+   "physics": "液面与颜色块堆叠必须视觉正确，否则误判可倒性",
+   "logic": "关卡需保证有解，随机关卡要做可解性校验",
+   "data": "金币与皮肤，无成长线",
+   "server": "离线可玩，仅统计与云存档联网",
+   "audio": "ASMR 音效，可素材库"
+  },
+  "asset_notes": "与安卓版共用素材，iOS 侧为高清版本；素材可程序化生成",
+  "notes": "验收说明：WorkBuddy只搜索摘要，未读取全部原文、未试玩或观看实机视频，具体机制与指标按网络转述/综合推断接收，多渠道主体并列，不等于官方确认。与安卓版《Get Color Pack: Sort Puzzle》（com.zm.waterpack）为同一产品的双端版本，仅榜单名大小写与区域不同；本档按输入 name 单独产出，技术栈与评分按同一产品给",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "网络资料转述/分析推断，未实测：点瓶倒液，只能倒在同色液体上或空瓶里，把每个瓶子理成单色过关；卡住用撤销、加瓶、看隐藏层。无计时，按自己节奏推进。",
+  "highlights": [
+   "流体倾倒的动效与音效构成 ASMR 体验，操作本身就是放松",
+   "死局前的「差一步」张力，让撤销与加瓶成为高频决策点",
+   "无计时无惩罚，玩家可以随时退出再回来，不产生压力负债",
+   "隐藏层揭示带来的小惊喜，缓解同质关卡的疲劳"
+  ],
+  "innovations": [
+   "无实质创新，属 water sort 的高完成度复刻；差异化在画面与关卡曲线而非机制"
+  ],
+  "target_user": "30-55 岁女性为主，日区/欧美区通勤与睡前用户",
+  "monetization": "网络分析/待核：IAA + IAP 混合：工具类广告位 + 去广告内购 + 皮肤",
+  "lifecycle": "长线常青，靠关卡与皮肤持续更新"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "与安卓版同一产品，机制无壁垒、成本极低，卡位完全在题材与买量。日区已有多款同类产品占据榜单，直接照搬必撞车，换题材是唯一现实路径。",
+  "suggestions": [
+   "针对日本市场换题材：做「和果子分层」「温泉汤色」等本土化视觉，比通用水瓶更讨喜",
+   "把「加瓶」从广告奖励改成关卡内资源，弱化广告感以提升日区评价",
+   "加入「每日一题」与最短步数挑战，用轻竞技替代纯关卡堆量"
+  ],
+  "risks": [
+   "日区同类产品密集，本地化不足会被迅速挤出",
+   "iOS 包体 400MB+ 对下载转化有影响",
+   "广告频次过高会拉低评分（同类产品常见差评点）"
+  ],
+  "effort": "12–18 人日（1 前端 + 0.5 美术/TA + 本地化）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "本作 iOS 侧 4.82 分、1.2 万条评价，证明「无计时纯逻辑」在成熟市场依然能拿到高口碑，用户不是要新玩法而是要稳定品质"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得清，且失败无惩罚，用户不会因为卡关而卸载，留存曲线更平"
+    },
+    {
+     "lens": "业务",
+     "text": "与安卓版共用一套逻辑，做多端多区只需换皮与本地化，边际成本极低"
+    },
+    {
+     "lens": "业务",
+     "text": "若自有产品线要出海或做多区版本，这套「一套逻辑多区换皮」的做法可直接复用，省掉重复开发"
+    }
+   ],
+   "how": [
+    "用同一套分类逻辑做两个题材版本（本地化配色 + 本地化音效），各投一个小渠道，两周对比 CPI 与次留",
+    "把工具位广告改成「看一次广告解锁当日无限撤销」，测试订阅式广告位对留存的影晌"
+   ],
+   "gain": [
+    "拿到「一套逻辑多区换皮」的复用范式，后续出海项目可直接套用",
+    "验证题材本地化对 CPI 的影响，为素材策略提供依据",
+    "省掉重复开发成本，双端只维护一份关卡数据",
+    "规避风险：不做重运营活动，避免多区同时维护的负担"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Tripledot 自研自发，且刚完成对 AppLovin 游戏业务的收购，处于扩张期无代理需求",
+    "同类玩法其自有多个马甲并行，不存在对外授权空间"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "日本市场本土化活动",
+     "how": "把液体换成季节限定的樱花苏打/抹茶分层，按节日换配色做期间限定关卡"
+    },
+    {
+     "scene": "跨境美妆试色",
+     "how": "把颜色分类换成「粉底色号匹配」，匹配成功推荐商品"
+    }
+   ]
+  },
+  "summary": "与安卓版同源，多区换皮范式可复用，题材需本地化"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "iOS 版 id 6756665708，开发商 Tripledot Studios，评分 4.82（12,259 条评价），包体 408.5MB，2026 年 4 月上架，最新版本 1.6.9",
+   "level": "inferred"
+  },
+  {
+   "claim": "官方描述为 water sort 玩法：只能倒在同色或空瓶，1000+ 关，无计时，含撤销/加瓶/看隐藏层",
+   "level": "inferred"
+  },
+  {
+   "claim": "与安卓版 com.zm.waterpack 为同一产品的双端版本（同一发行商、同一描述与玩法）",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎推断为 Unity，无官方技术侧确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://www.appbrain.com/appstore/get-color-pack-sort-puzzle/ios-6756665708",
+  "https://play.google.com/pc-store/games/details?hl=zh_HK&id=com.zm.waterpack"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Get_Color_Pack_Sort_puzzle_465b35"
+}

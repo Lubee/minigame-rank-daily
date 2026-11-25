@@ -1,0 +1,171 @@
+{
+  "batch": 47,
+  "games": [
+    {
+      "name": "消灭星星全新版",
+      "slug": "消灭星星全新版_31f24c",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜",
+        "douyin/热门榜",
+        "ios/国区免费榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "douyin/新游榜": 18,
+        "douyin/热门榜": 94,
+        "ios/国区免费榜": 90,
+        "wx/畅玩榜": 93
+      },
+      "platform_app_ids": {
+        "ios": "834878585"
+      },
+      "publisher": "掌游天下（北京）信息技术股份有限公司",
+      "category_l1": "游戏",
+      "category_l2": "消除",
+      "first_seen": "2026-07-20",
+      "appearances": 11,
+      "best_rank": 4,
+      "seen_days": 24,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Sand Out - Drop Puzzle",
+      "slug": "Sand_Out_Drop_Puzzle_7b070f",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 34
+      },
+      "platform_app_ids": {
+        "android": "com.tripledot.puzzleword"
+      },
+      "publisher": "Tripledot Studios Limited",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 7,
+      "best_rank": 31,
+      "seen_days": 7,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Tidy Master Puzzle",
+      "slug": "Tidy_Master_Puzzle_f1d0e0",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 32
+      },
+      "platform_app_ids": {
+        "android": "com.tidymasterpuzzle1.gp"
+      },
+      "publisher": "YOUGUAN NETWORK TECHNOLOGY LIMITED",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-21",
+      "appearances": 4,
+      "best_rank": 32,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Zoodoku: Brain Puzzle Games",
+      "slug": "Zoodoku_Brain_Puzzle_Games_bad017",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 33
+      },
+      "platform_app_ids": {
+        "android": "com.nebula.zoodoku"
+      },
+      "publisher": "Nebula  Studio",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-23",
+      "appearances": 2,
+      "best_rank": 33,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Word Jam - Screw Puzzle",
+      "slug": "Word_Jam_Screw_Puzzle_10d6e6",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 38,
+        "ios/日区免费榜": 84,
+        "android/美区免费榜": 51
+      },
+      "platform_app_ids": {
+        "ios": "6761419783",
+        "android": "com.webyerim.game.word.jam"
+      },
+      "publisher": "Zego Global Pte Ltd",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-19",
+      "appearances": 6,
+      "best_rank": 34,
+      "seen_days": 6,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

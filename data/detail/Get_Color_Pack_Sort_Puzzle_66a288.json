@@ -1,0 +1,177 @@
+{
+ "schema_version": 1,
+ "name": "Get Color Pack: Sort Puzzle",
+ "updated_at": "2026-11-25",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Tripledot Studios Limited",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 80
+  },
+  "platform_app_ids": {
+   "android": "com.zm.waterpack"
+  },
+  "first_seen": "2026-08-28",
+  "appearances": 13,
+  "best_rank": 37,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，Tripledot 同类休闲产品线通用）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "极简玻璃瓶 + 高饱和液体分层，柔和光照与流体高光，ASMR 质感",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "倒水分类是成熟模板，主流引擎都有现成实现，改配置即可",
+   "art": "液体分层渲染 + 瓶子与背景皮肤 + 1000 关配色，iOS 包体 408MB 说明素材不止几何体",
+   "anim": "倾倒时的流体形变、液面回落、瓶子轻微晃动是核心观感，需专门调",
+   "physics": "液面高度与颜色块的堆叠必须视觉正确，否则玩家会误判可倒性",
+   "logic": "关卡需保证「有解且不必需看广告」，随机关卡要多跑一次可解性校验",
+   "data": "金币与皮肤收集，无成长线",
+   "server": "完全离线可玩，仅统计与云存档联网",
+   "audio": "倒水声、瓶塞声等 ASMR 音效，可外包素材库"
+  },
+  "asset_notes": "主要投入在液体 Shader 与配色体系，可用同一套材质换色批量出关；素材可程序化，无需大量手绘",
+  "notes": "验收说明：WorkBuddy只搜索摘要，未读取全部原文、未试玩或观看实机视频，具体机制与指标按网络转述/综合推断接收，多渠道主体并列，不等于官方确认。与 iOS 版《Get Color Pack: Sort puzzle》（id 6756665708）为同一产品的双端版本，本档按榜单名分别产出，技术与玩法给同一套分",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "网络资料转述/分析推断，未实测：瓶子里装着分层混色液体，点一个瓶倒到另一个瓶（只能倒在同色或空瓶上），把每个瓶子理成单色即过关。没有计时，卡住可用撤销、加瓶、看隐藏层。",
+  "highlights": [
+   "倒下去那一瞬间液面下滑、颜色对齐的流体动效，是纯粹的秩序快感，几乎每次操作都有反馈",
+   "「差一格就能倒」的死局感极强，逼玩家回退重排，天然驱动「撤销」和「加瓶」两个卡点",
+   "没有计时器，玩家可以慢慢想，压力为零但思考密度高，适合长时间连续玩",
+   "隐藏层被揭开时的意外感，让同质关卡之间有了小惊喜"
+  ],
+  "innovations": [
+   "无实质创新，是 water sort 品类的「高质量复刻」：画面质感、关卡曲线、广告频次三项做得比同类更细",
+   "真正的新意在发行侧（集团级买量 + 多马甲并行），不在玩法"
+  ],
+  "target_user": "30-55 岁女性为主，通勤与睡前求放松，喜欢无压力逻辑题",
+  "monetization": "网络分析/待核：IAA + IAP 混合：撤销/加瓶/看隐藏层大量挂激励视频，另有去广告与皮肤内购",
+  "lifecycle": "长线，靠 1000+ 关卡与皮肤更新维持，属可长期吃量的常青品类"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "机制完全通用（倒水分类无版权壁垒），代码与素材都能程序化，两周可出可玩版；但要正视这是红海中的红海，Tripledot 靠集团买量把单位获客成本压到别人跑不动。换皮只在题材与「卡点设计」上有差异化空间。",
+  "suggestions": [
+   "换载体：把「液体」换成「奶茶分层」「颜料罐」「香水调香」，用题材的视觉愉悦度抢量",
+   "把「卡点」从广告变成玩法：加一条「每关限三次倾倒」的硬约束，做成真·逻辑题而非广告题",
+   "做「关卡编辑器 + 每日挑战」，用 UGC 与日更解决 1000 关的内容压力"
+  ],
+  "risks": [
+   "water sort 品类极度饱和，商店同类推荐一屏列不完",
+   "头部厂商买量规模碾压，小团队 CPI 打不平",
+   "流体渲染做不好会显得廉价，直接影响留存"
+  ],
+  "effort": "12–18 人日（1 前端 + 0.5 美术/TA）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "用户要的是「无压力的秩序感」，本作 iOS 侧 1.2 万条评价 4.82 分、安卓月下载仍在 2 万/日量级，说明这类需求不靠新鲜感靠稳定供给"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得清（同色才能倒），中老年用户零门槛，且随时可停，完美贴合碎片场景"
+    },
+    {
+     "lens": "业务",
+     "text": "「分类 + 卡点 + 撤销/加瓶」是可整块搬的活动位组件，纯离线无服务器成本，接入只需两周"
+    },
+    {
+     "lens": "业务",
+     "text": "现在缺的是可以长期挂着、不需要运营的常青内容，这类玩法上次后基本不用管，性价比最高"
+    }
+   ],
+   "how": [
+    "把「倒水分类」做成 20 关常驻小游戏（换自有题材配色），挂活动页一个月，看 DAU 贡献与广告渗透",
+    "把它「撤销/加瓶/看隐藏层」三处广告位的触发阈值复刻，A/B 校准自有分类类玩法的点位"
+   ],
+   "gain": [
+    "拿到一个可长期常驻、几乎零运营成本的分类组件",
+    "验证「无计时」对中老年用户留存的拉动，扩宽自有产品的人群",
+    "省掉美术外包：几何体 + 纯色材质即可上线",
+    "规避风险：不做实时与社交，避免背上服务器与审核负担"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Tripledot 2025 年以约 8 亿美元收购 AppLovin 全部移动游戏业务，自研自发且体量远超我们，无代理需求",
+    "自家同时运营 Sortago、Nut Sort 等多款同类马甲，不可能把同类玩法对外授权"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "茶饮品牌点单互动",
+     "how": "把「倒液体」换成「调奶茶分层」，调出指定配方解锁优惠券"
+    },
+    {
+     "scene": "美妆试色",
+     "how": "把颜色分类换成「口红色号归类」，归类正确解锁试色卡"
+    }
+   ]
+  },
+  "summary": "分类组件可常驻复用，红海品类不宜正面立项"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为 water sort：瓶子装分层液体，只能倒在同色或空瓶，理成单色过关，1000+ 关，无计时",
+   "level": "inferred"
+  },
+  {
+   "claim": "含撤销、加瓶、看隐藏层三类工具，完全离线可玩；安卓包体约 210MB",
+   "level": "inferred"
+  },
+  {
+   "claim": "发行商 Tripledot Studios Limited，2025 年以约 4 亿美元现金加约 20% 股权（合计约 8 亿美元）收购 AppLovin 移动游戏业务",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎推断为 Unity，无官方技术侧确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/pc-store/games/details?hl=en_IE&id=com.zm.waterpack",
+  "https://get-color-pack.en.uptodown.com/android",
+  "https://www.lightgame.cc/game/gplay-d8cf519322.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Get_Color_Pack_Sort_Puzzle_66a288"
+}

@@ -1,0 +1,181 @@
+{
+ "schema_version": 1,
+ "name": "Fish Sort Puzzle: ソート 泡を消そうゲーム",
+ "updated_at": "2026-11-25",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Shycheese",
+  "category_l1": "ゲーム",
+  "category_l2": "",
+  "boards": [
+   "ios/日区免费榜"
+  ],
+  "ranks": {
+   "ios/日区免费榜": 38
+  },
+  "platform_app_ids": {
+   "ios": "6771681639"
+  },
+  "first_seen": "2026-09-07",
+  "appearances": 7,
+  "best_rank": 38,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "Unity（推断，3D 场景与 Shycheese 同框架产品一致）",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "3D 海底水族箱，卡通鱼类与透明气泡，色彩柔和，ASMR 风格",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "三消分类是 Shycheese 的通用框架，换题材即出新款，工程成本被摊薄",
+   "art": "多种鱼类 3D 模型 + 水族箱 + 气泡层级，题材化美术是主要开销",
+   "anim": "鱼在气泡里翻滚位移、消除时的气泡爆破，是全作主要反馈",
+   "physics": "气泡内鱼的翻滚与层叠下移需看起来自然，直接影响操作可读性",
+   "logic": "订单配额 + 槽位容量 + 限时订单三层约束，关卡需逐关配平",
+   "data": "金币、稀有鱼收集、鱼缸扩建，轻成长",
+   "server": "离线可玩，活动与排行联网",
+   "audio": "水下环境音与气泡音，定制感中等"
+  },
+  "asset_notes": "鱼类可用统一骨架换皮，气泡用 Shader 即可；成本集中在题材化视觉而非数量",
+  "notes": "验收说明：WorkBuddy只搜索摘要，未读取全部原文、未试玩或观看实机视频，具体机制与指标按网络转述/综合推断接收，多渠道主体并列，不等于官方确认。与安卓版《Fish Sort Puzzle: Match Games》/《Fish Sort Puzzle - Bubble Jam》为同一产品的多区多端版本；商标属 SUPLIFE PTE. LTD.",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "网络资料转述/分析推断，未实测：点气泡里的鱼，把它送进需要这种鱼的水族箱，凑满配额即完成一组；对不上号的鱼进临时槽位，槽位满了就失败。清空所有气泡过关。",
+  "highlights": [
+   "「槽位就是血条」的压迫感：每一只放错的鱼都在消耗生命，手指会自己变谨慎",
+   "凑满三只消掉的那一下，气泡连爆 + 鱼群游走，反馈非常干净",
+   "限时订单插进来打断节奏，逼玩家在「先做急单」和「先清屏」之间取舍",
+   "稀有鱼与鱼缸扩建给了长线目标，收集欲被持续勾住"
+  ],
+  "innovations": [
+   "把 Triple Match（三消分类）的槽位机制套进「鱼—水族箱」题材，用配额替代纯三消匹配",
+   "无机制创新，属品类题材化改造，靠题材讨喜度取胜"
+  ],
+  "target_user": "25-50 岁女性为主，喜欢水族/治愈题材，日区与欧美区通吃",
+  "monetization": "网络分析/待核：IAA 为主：额外槽位、冻结时间、撤销、洗牌全挂激励视频；金币可翻倍看广告",
+  "lifecycle": "中长线，靠新鱼种、鱼缸场景与限时活动（水族箱挑战）维持"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "槽位压力 + 配额订单是当下买量效率最高的形态之一，规则一眼看懂；但同质化最严重，Shycheese 自家就有十余款同框架产品互相分流。照抄必被淹没，必须换掉「分类标的」这一环。",
+  "suggestions": [
+   "把「鱼—水族箱」换成「快递—驿站货架」或「药材—药柜抽屉」，保留槽位压力与配额订单",
+   "把限时订单升级为核心：订单不断刷新，玩家要在有限槽位里做优先级调度，做成「分拣员」体验",
+   "砍掉稀有鱼收集，改成「鱼缸装修」，把收集欲转成可视化成果"
+  ],
+  "risks": [
+   "三消分类赛道极度拥挤，素材同质化严重",
+   "有限槽位天然逼氪/逼广告，评分容易被差评拉低",
+   "Shycheese 等厂商换皮速度极快，题材窗口期短"
+  ],
+  "effort": "15–22 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "可复用",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "爽点是「有限空间里的精准安置」：槽位只剩一格时的紧张感，比纯消除更抓人，本作安卓下载破百万、美区 App Store 休闲榜进前 20"
+    },
+    {
+     "lens": "用户",
+     "text": "规则一句话讲得清（把鱼送进要它的缸），题材讨喜，女性与中老年用户接受度高"
+    },
+    {
+     "lens": "业务",
+     "text": "「槽位 + 配额 + 订单」是可整块搬的活动位组件，比纯三消更容易做出紧张感，开发量约两周"
+    },
+    {
+     "lens": "业务",
+     "text": "现在缺的是能制造「差一点就满」紧张感的短循环，这类结构天然适配激励视频，不做就还在用硬广"
+    }
+   ],
+   "how": [
+    "把「槽位分拣」做成 10 关活动小游戏（分拣自家资源/道具），接活动页，一周看失败率与广告复活率",
+    "把「加槽位/冻结/撤销/洗牌」四个道具位按它的触发时机复刻，A/B 校准自有广告点位"
+   ],
+   "gain": [
+    "拿到一个「有限槽位」组件，可复用到所有分拣/整理类玩法",
+    "验证「失败即广告」的转化效率，为复活位定价提供依据",
+    "省掉三消类美术外包：换题材即可复用同一套框架",
+    "规避风险：不做稀有收集长线，避免内容产能压力"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "Shycheese 为矩阵化测品厂商，同期在架十余款同框架产品，单款起量即加投，存在素材/联运合作空间",
+    "可谈点仅在区域代理或题材定制，玩法本身无授权壁垒"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "快递驿站分拣",
+     "how": "把鱼换成包裹，按货架配额分拣，槽位当临时堆放区，超时算爆仓"
+    },
+    {
+     "scene": "药店抓药台",
+     "how": "把鱼换成药材，按处方配额抓取，抓错进「待归位」槽，满则调剂失败"
+    }
+   ]
+  },
+  "summary": "槽位+配额的分拣组件可搬做活动位，赛道拥挤需换标的"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为点鱼送入对应水族箱、凑满配额消除，临时槽位满即失败，清空气泡过关",
+   "level": "inferred"
+  },
+  {
+   "claim": "含限时订单、加速道具（冻结/撤销/洗牌/额外槽位）与限时活动（水族箱挑战、稀有鱼收集）",
+   "level": "inferred"
+  },
+  {
+   "claim": "2026 年 5 月底上线 iPhone 端，安卓下载破百万，曾进入美区 App Store 休闲榜前 20；11 月版本 2.0 新增场景",
+   "level": "inferred"
+  },
+  {
+   "claim": "开发商 Shycheese，商标属 SUPLIFE PTE. LTD.，同期在架 Hot Pot Sort、Smash Away、Tape Fever 等十余款同框架产品",
+   "level": "inferred"
+  },
+  {
+   "claim": "引擎推断为 Unity，无官方技术侧确认",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://tipsandtricksfor.com/fish-sort-puzzle-tips-and-tricks-guide",
+  "https://www.memuplay.com/tw/how-to-play-triple.sorting.bubble.fish.match-on-pc.html",
+  "https://www.lightgame.cc/game/gplay-f40d2c70ab.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Fish_Sort_Puzzle_ソート_泡を消そうゲーム_8ccfa0"
+}

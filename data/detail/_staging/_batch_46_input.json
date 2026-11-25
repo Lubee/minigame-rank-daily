@@ -1,0 +1,168 @@
+{
+  "batch": 46,
+  "games": [
+    {
+      "name": "Get Color Pack: Sort Puzzle",
+      "slug": "Get_Color_Pack_Sort_Puzzle_66a288",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 80
+      },
+      "platform_app_ids": {
+        "android": "com.zm.waterpack"
+      },
+      "publisher": "Tripledot Studios Limited",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-28",
+      "appearances": 13,
+      "best_rank": 37,
+      "seen_days": 13,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Get Color Pack: Sort puzzle",
+      "slug": "Get_Color_Pack_Sort_puzzle_465b35",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 45
+      },
+      "platform_app_ids": {
+        "ios": "6756665708"
+      },
+      "publisher": "Tripledot Studios",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-09-05",
+      "appearances": 9,
+      "best_rank": 37,
+      "seen_days": 9,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Fish Sort Puzzle: ソート 泡を消そうゲーム",
+      "slug": "Fish_Sort_Puzzle_ソート_泡を消そうゲーム_8ccfa0",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 38
+      },
+      "platform_app_ids": {
+        "ios": "6771681639"
+      },
+      "publisher": "Shycheese",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-09-07",
+      "appearances": 7,
+      "best_rank": 38,
+      "seen_days": 7,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Ball Sort Puzzle - Color Game",
+      "slug": "Ball_Sort_Puzzle_Color_Game_396e4e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 97
+      },
+      "platform_app_ids": {
+        "android": "ball.sort.puzzle.color.sorting.bubble.games"
+      },
+      "publisher": "Guru Puzzle Game",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-09-10",
+      "appearances": 7,
+      "best_rank": 40,
+      "seen_days": 7,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Yarn Fever! Unravel Puzzle",
+      "slug": "Yarn_Fever_Unravel_Puzzle_65991f",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 77,
+        "ios/美区免费榜": 98
+      },
+      "platform_app_ids": {
+        "android": "puzzle.yarn.fever.unravel.puzzle",
+        "ios": "6747875092"
+      },
+      "publisher": "Brave HK Limited",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 21,
+      "best_rank": 41,
+      "seen_days": 22,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}
