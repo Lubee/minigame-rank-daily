@@ -1,0 +1,162 @@
+{
+  "batch": 54,
+  "games": [
+    {
+      "name": "Pack the Mess: Find & Sort",
+      "slug": "Pack_the_Mess_Find_Sort_cb391c",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 49
+      },
+      "platform_app_ids": {
+        "android": "com.kiwigames.packthemess.find.sort"
+      },
+      "publisher": "LifeSim",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-22",
+      "appearances": 4,
+      "best_rank": 49,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Bus Go:Traffic Puzzle",
+      "slug": "Bus_Go_Traffic_Puzzle_853470",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 50
+      },
+      "platform_app_ids": {
+        "android": "bus.traffic.fever.jam.puzzle.busgo"
+      },
+      "publisher": "PopStoneGameTechnologyLimited-Shooting",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-25",
+      "appearances": 1,
+      "best_rank": 50,
+      "seen_days": 1,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Paint Shape: Block Puzzle",
+      "slug": "Paint_Shape_Block_Puzzle_9c01b0",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 51
+      },
+      "platform_app_ids": {
+        "android": "com.fiogonia.drawshape"
+      },
+      "publisher": "FIOGONIA LIMITED",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-24",
+      "appearances": 2,
+      "best_rank": 51,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Marble Sort!",
+      "slug": "Marble_Sort_76b00c",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 69
+      },
+      "platform_app_ids": {
+        "ios": "6754558455"
+      },
+      "publisher": "Voodoo",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-08-24",
+      "appearances": 17,
+      "best_rank": 52,
+      "seen_days": 17,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Snake Puzzle: Slither to Eat!",
+      "slug": "Snake_Puzzle_Slither_to_Eat_7e2257",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 99,
+        "ios/日区免费榜": 95
+      },
+      "platform_app_ids": {
+        "ios": "6751537447"
+      },
+      "publisher": "Superboost Soft Limited",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 20,
+      "best_rank": 53,
+      "seen_days": 22,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

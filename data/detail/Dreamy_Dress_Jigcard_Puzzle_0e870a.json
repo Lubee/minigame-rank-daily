@@ -1,0 +1,174 @@
+{
+ "schema_version": 1,
+ "name": "Dreamy Dress Jigcard Puzzle",
+ "updated_at": "2026-11-26",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "LoveColoring Game",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费新游榜"
+  ],
+  "ranks": {
+   "android/美区免费新游榜": 70
+  },
+  "platform_app_ids": {
+   "android": "com.dreamy.dress.jigcard.puzzle.free.games"
+  },
+  "first_seen": "2026-11-18",
+  "appearances": 4,
+  "best_rank": 55,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未公开；按 2D 卡牌拼图与 LoveColoring 产品线推断 Unity 2D",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "高精度时尚插画，维多利亚礼服与公主裙主题，柔光质感",
+  "dims": {
+   "engine": 3,
+   "art": 4,
+   "anim": 2,
+   "physics": 1,
+   "logic": 3,
+   "data": 3,
+   "server": 2,
+   "audio": 2
+  },
+  "dim_notes": {
+   "art": "每张完成图都是一幅独立礼服插画，画质要求高，图库就是产品本身，是绝对的成本主体",
+   "logic": "碎片切割、翻牌揭示、相邻拼合判定与吸附要逐图配，还要保证碎片可辨识",
+   "engine": "卡牌拖动、翻面动画与拼合吸附在 2D 框架内即可，但有大量卡牌时需要合批优化",
+   "data": "图鉴收集、关卡进度与广告解锁构成轻成长",
+   "physics": "无物理，拼合靠相邻坐标判定与吸附"
+  },
+  "asset_notes": "纯 2D 插画资产，单张精度要求高，可用 AI 生图加人工精修批量产出；无 3D 与骨骼，成本在出图产能与版权",
+  "notes": "2026 年 10 月 22 日上线的新品，属「拼图 + 卡牌 + 换装审美」的混合形态，靠广告变现为主；验收说明：本档案综合网络二手资料，未实机验证。引擎、实现成本、目标用户与商业化建议属于分析推断；具体规则、数值及运营情况以所列来源描述为准，不代表已获官方确认。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "棋盘上散落背面朝上的卡牌，翻牌露出画面碎片，把相邻碎片拖到一起拼合，拼完整张图即看到一幅完整礼服画作；一张图一个服装主题，逐图解锁。",
+  "highlights": [
+   "翻牌揭图的惊喜感叠加拼合的过程，比纯拼图多一层开箱",
+   "碎片吸附到位那一下的「咔」很干净，反馈密度高",
+   "维多利亚礼服、公主裙这类题材本身就是审美驱动，用户为「好看」而玩",
+   "无倒计时，随时停下再回来，压力为零"
+  ],
+  "innovations": [
+   "把拼图碎片做成卡牌，形成「翻牌揭示 + 拼合」两段式，属结构上的有效小改",
+   "题材上把拼图从风景静物转到时装审美，瞄准的是女性向审美人群"
+  ],
+  "target_user": "25–55 岁女性为主，喜欢时装、拼图与收藏",
+  "monetization": "纯 IAA 为主：翻牌次数、提示、额外碎片看激励视频，局间插屏（用户评论反映每关后广告较多）",
+  "lifecycle": "新品期，2026 年 10 月上线 30 天内约 3.6 万安装、4.86 星 2796 条评价，俄罗斯等市场新游榜第 2"
+ },
+ "clone": {
+  "verdict": "变种创意",
+  "rationale": "「翻牌 + 拼合」两段式确实是拼图品类里少见的改法，且题材的审美驱动力强；但产品价值几乎全部押在插画图库上，照抄会变成又一款时装拼图。必须改一处结构：换掉图库主题，或换掉「翻牌」这一步的规则。",
+  "suggestions": [
+   "把图库主题换成「古建筑」「中药图谱」「老相机」，用垂直审美人群替代宽泛时装",
+   "把翻牌改成「按线索解锁碎片」，用解谜前置替代纯运气翻牌，提高策略感",
+   "把广告频次压到两关一次，用体验换评分，避免新品期被差评拖死"
+  ],
+  "risks": [
+   "插画图库涉及画师版权与 AI 生成合规，源头必须干净",
+   "广告过密会直接压低评分（现有评论已反映）",
+   "拼图品类同质化重，纯靠题材难建立壁垒"
+  ],
+  "effort": "25–35 人日（1 前端 + 1.5 美术产能）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "拼图的完成欲加翻牌的开箱感是双重驱动，本作上线一个月 4.86 星、近 2800 条评价，说明「好看 + 好拼」这条组合成立"
+    },
+    {
+     "lens": "用户",
+     "text": "用户为画面而来，若自有产品图库质量不够，玩法再顺也留不住，迁移成败在美术而非规则"
+    },
+    {
+     "lens": "业务",
+     "text": "可迁移的是「翻牌 + 拼合」的交互组件，能做成换装或图鉴类活动；图库需要按主题重做，不能复用现成素材"
+    },
+    {
+     "lens": "业务",
+     "text": "不宜现在做：图库产能与版权清理周期长，与活动位的节奏不匹配"
+    }
+   ],
+   "how": [
+    "用 12 张自有主题插画做一次拼图活动，一周内看完成率与分享率",
+    "把翻牌次数做成广告触点（每关 1 次），A/B 校准广告密度与评分的平衡点"
+   ],
+   "gain": [
+    "拿到「翻牌 + 拼合」的交互组件，可复用到图鉴与收集类玩法",
+    "验证审美型内容对女性用户的留存拉动",
+    "明确单张插画的产能与成本，避免按整套图库报价立项",
+    "规避掉广告过密导致评分下滑的坑，直接引用它的用户反馈"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "LoveColoring Game 为新晋小团队、纯广告变现，处于起量期，联运或素材合作有空间",
+    "可谈点只有图库主题，而插画版权归属需先查清，否则合作即担风险"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "婚纱摄影获客",
+     "how": "把礼服图库换成店内样片，拼完即生成一张带店招的成品图可分享"
+    },
+    {
+     "scene": "博物馆文创",
+     "how": "把藏品做成拼图卡，拼完显示文物解说与购买入口"
+    }
+   ]
+  },
+  "summary": "翻牌拼图交互可做审美向活动，图库产能与版权是门槛。"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "玩法为卡牌式拼图：移动卡牌、翻牌揭示画面、匹配相邻碎片并拼合，完成一幅礼服画作",
+   "level": "confirmed"
+  },
+  {
+   "claim": "上线 30 天内约 3.6 万安装、4.86 星 2796 条评价，APK 约 84.4MB，2026 年 10 月 22 日发布",
+   "level": "confirmed"
+  },
+  {
+   "claim": "含广告、无内购（AppBrain 标注）；用户评论反映每关结束后广告较多",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity 2D（无官方技术披露，按 LoveColoring 产品线与 2D 表现推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://appglint.com/app/google-play/com.dreamy.dress.jigcard.puzzle.free.games",
+  "https://www.ldplayer.tw/games/dreamy-dress-jigcard-puzzle-on-pc.html",
+  "http://de.appbrain.com/app/dreamy-dress-jigcard-puzzle/com.dreamy.dress.jigcard.puzzle.free.games"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Dreamy_Dress_Jigcard_Puzzle_0e870a"
+}

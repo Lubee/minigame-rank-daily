@@ -1,0 +1,159 @@
+{
+ "schema_version": 1,
+ "name": "Bus Go:Traffic Puzzle",
+ "updated_at": "2026-11-26",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "PopStoneGameTechnologyLimited-Shooting",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 50
+  },
+  "platform_app_ids": {
+   "android": "bus.traffic.fever.jam.puzzle.busgo"
+  },
+  "first_seen": "2026-11-25",
+  "appearances": 1,
+  "best_rank": 50,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未知，未取得本作引擎披露",
+  "engine_evidence": "inferred",
+  "dimension": "2D",
+  "art_style": "表现分析：公交移动疏通的界面和反馈；未逐帧或实机核验。",
+  "dims": {
+   "engine": 2,
+   "art": 3,
+   "anim": 3,
+   "physics": 2,
+   "logic": 4,
+   "data": 3,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "engine": "方案成本估算：车道占用、移动合法性和目标路径涉及引擎与框架，非原作技术测量。",
+   "art": "方案成本估算：车道占用、移动合法性和目标路径涉及美术素材量，非原作技术测量。",
+   "anim": "方案成本估算：车道占用、移动合法性和目标路径涉及动画与特效，非原作技术测量。",
+   "physics": "方案成本估算：车道占用、移动合法性和目标路径涉及物理与手感，非原作技术测量。",
+   "logic": "方案成本估算：车道占用、移动合法性和目标路径涉及玩法逻辑与关卡，非原作技术测量。",
+   "data": "方案成本估算：车道占用、移动合法性和目标路径涉及数值与养成体系，非原作技术测量。",
+   "server": "方案成本估算：车道占用、移动合法性和目标路径涉及服务端与联网，非原作技术测量。",
+   "audio": "方案成本估算：车道占用、移动合法性和目标路径涉及音频，非原作技术测量。"
+  },
+  "asset_notes": "需核算车道占用、移动合法性和目标路径对应素材与内容量产，未知包体结构不推导资源构成。",
+  "notes": "采用输入商店ID或包名对应版本；成本、业务为推断，渠道主体可不同。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "规划并移动公交和汽车，疏通拥堵道路，将乘客引导到目的地后推进关卡；当前介绍未给固定停车位数或乘客配色细则。",
+  "highlights": [
+   "公交移动疏通提供明确的操作目标。",
+   "车道占用、移动合法性和目标路径形成可测试的决策约束。"
+  ],
+  "innovations": [
+   "组合分析：公交移动疏通的规则与进度结合，不声称原创。"
+  ],
+  "target_user": "分析假设：偏好公交移动疏通的益智用户；实际年龄性别分布未知。",
+  "monetization": "商店标注免费；广告/内购/现金比赛情况依版本与地区，具体点位和收入占比未实测。",
+  "lifecycle": "未知，需关卡产能、留存及回收数据判断，不据榜位保证收益。"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "参考公交移动疏通规则用自有代码素材重建，重点是车道占用、移动合法性和目标路径。",
+  "suggestions": [
+   "先做车道占用、移动合法性和目标路径的10关自有原型。",
+   "用约束开关比较公交移动疏通的理解和复玩。",
+   "扩关前统计工时、异常和可解性。"
+  ],
+  "risks": [
+   "原作素材和代码授权未取得。",
+   "内容量产和商业回收未验证。"
+  ],
+  "effort": "原型估算20–40人日，不含完整内容与渠道商业化。"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "分析假设：公交移动疏通提供短局目标，需验证首关理解。"
+    },
+    {
+     "lens": "用户",
+     "text": "保留车道占用、移动合法性和目标路径约束，对照测试删减后的体验。"
+    },
+    {
+     "lens": "业务",
+     "text": "若有活动入口，可模块化接入车道占用、移动合法性和目标路径，实际基建未知。"
+    },
+    {
+     "lens": "业务",
+     "text": "先验证公交移动疏通对自有用户的价值，再投入量产。"
+    }
+   ],
+   "how": [
+    "制作车道占用、移动合法性和目标路径原型，记录首关完成率和操作错误。",
+    "对照测试公交移动疏通简化规则并核算单关工时。"
+   ],
+   "gain": [
+    "预期获得车道占用、移动合法性和目标路径的可复用判定。",
+    "取得公交移动疏通的用户理解数据。",
+    "明确约束的体验收益与内容成本。",
+    "减少未经验证即量产的损失。"
+   ]
+  },
+  "opportunity": {
+   "fit": "可观望",
+   "points": [
+    "授权代理合作意向未知，不由榜位推断。",
+    "需先核实公交移动疏通的渠道与素材权利。"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "会员益智活动",
+     "how": "替换公交移动疏通为自有主题，接积分结算。"
+    }
+   ]
+  },
+  "summary": "先验证规则与成本，再决定自有改编"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "本轮实际读取对应商店原文，玩法为来源转述，未实机或看视频。",
+   "level": "confirmed"
+  },
+  {
+   "claim": "成本、目标用户、改编与收益为分析假设。",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/store/apps/details?id=bus.traffic.fever.jam.puzzle.busgo"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Bus_Go_Traffic_Puzzle_853470"
+}

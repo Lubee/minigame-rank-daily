@@ -1,0 +1,164 @@
+{
+  "batch": 49,
+  "games": [
+    {
+      "name": "砸墙模拟器无限金币",
+      "slug": "砸墙模拟器无限金币_bebdad",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 3
+      },
+      "platform_app_ids": {},
+      "publisher": "个人开发者",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-25",
+      "appearances": 1,
+      "best_rank": 3,
+      "seen_days": 1,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "一环套一环",
+      "slug": "一环套一环_9a5948",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 9
+      },
+      "platform_app_ids": {
+        "wx": "wx7a23ed91d1d08fcd"
+      },
+      "publisher": "武汉羽嘉网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-10",
+      "appearances": 2,
+      "best_rank": 9,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "抱个蛋就溜",
+      "slug": "抱个蛋就溜_f7e184",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 10
+      },
+      "platform_app_ids": {
+        "wx": "wxe48a67c3efa75174"
+      },
+      "publisher": "广州易游互玩科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-10-26",
+      "appearances": 3,
+      "best_rank": 9,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {
+        "matched": false,
+        "fetched_at": "2026-11-03T12:31:56+08:00"
+      }
+    },
+    {
+      "name": "吃播大挑战",
+      "slug": "吃播大挑战_790c70",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 60
+      },
+      "platform_app_ids": {
+        "wx": "wx95e1ba94810fae77"
+      },
+      "publisher": "深圳市森灵游科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-04",
+      "appearances": 19,
+      "best_rank": 9,
+      "seen_days": 19,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "我带过的最差一届正版",
+      "slug": "我带过的最差一届正版_8dc760",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 46
+      },
+      "platform_app_ids": {},
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-11-17",
+      "appearances": 9,
+      "best_rank": 9,
+      "seen_days": 9,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

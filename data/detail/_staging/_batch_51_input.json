@@ -1,0 +1,161 @@
+{
+  "batch": 51,
+  "games": [
+    {
+      "name": "眼力突围",
+      "slug": "眼力突围_3923a1",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜",
+        "wx/畅玩榜"
+      ],
+      "ranks": {
+        "wx/畅玩榜": 59,
+        "wx/人气榜": 96
+      },
+      "platform_app_ids": {},
+      "publisher": "长沙指创网络科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 67,
+      "best_rank": 11,
+      "seen_days": 67,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "来玩安静书",
+      "slug": "来玩安静书_16acae",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜",
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "douyin/热门榜": 32,
+        "wx/人气榜": 28
+      },
+      "platform_app_ids": {},
+      "publisher": "深圳快乐游科技有限公司",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-06-30",
+      "appearances": 55,
+      "best_rank": 11,
+      "seen_days": 55,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "战场突击先锋",
+      "slug": "战场突击先锋_ff6731",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "wx/人气榜"
+      ],
+      "ranks": {
+        "wx/人气榜": 45
+      },
+      "platform_app_ids": {},
+      "publisher": "",
+      "category_l1": "休闲",
+      "category_l2": "益智",
+      "first_seen": "2026-07-20",
+      "appearances": 5,
+      "best_rank": 11,
+      "seen_days": 5,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "连续消除王",
+      "slug": "连续消除王_0a6f0a",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/热门榜"
+      ],
+      "ranks": {
+        "douyin/热门榜": 88
+      },
+      "platform_app_ids": {},
+      "publisher": "北京泰格青川网络技术有限公司",
+      "category_l1": "",
+      "category_l2": "",
+      "first_seen": "2026-08-08",
+      "appearances": 2,
+      "best_rank": 11,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "消除有点菜",
+      "slug": "消除有点菜_1aea7e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "douyin/新游榜"
+      ],
+      "ranks": {
+        "douyin/新游榜": 11
+      },
+      "platform_app_ids": {
+        "douyin": "tt743b0286ea5c492b02"
+      },
+      "publisher": "厦门次元趣界网络科技有限公司",
+      "category_l1": "1",
+      "category_l2": "",
+      "first_seen": "2026-10-13",
+      "appearances": 2,
+      "best_rank": 11,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}

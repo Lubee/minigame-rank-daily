@@ -1,0 +1,177 @@
+{
+ "schema_version": 1,
+ "name": "Car Sort: Color Puzzle",
+ "updated_at": "2026-11-26",
+ "collected": true,
+ "generated_by": "agent",
+ "identity": {
+  "publisher": "Rollic Games",
+  "category_l1": "Games",
+  "category_l2": "",
+  "boards": [
+   "android/美区免费榜",
+   "ios/美区免费榜"
+  ],
+  "ranks": {
+   "android/美区免费榜": 70,
+   "ios/美区免费榜": 99
+  },
+  "platform_app_ids": {
+   "android": "com.duykanbakay.carconveyortransfer",
+   "ios": "6758138698"
+  },
+  "first_seen": "2026-08-21",
+  "appearances": 9,
+  "best_rank": 53,
+  "profile_value": "",
+  "profile_abandoned": false,
+  "profile_abandon_reason": "",
+  "seed": {
+   "gameplay_desc": "",
+   "tags": [],
+   "notes": "",
+   "developer": ""
+  }
+ },
+ "tech": {
+  "engine": "未公开；Rollic 休闲产品线多为 Unity，且商店提供 Windows 版与 Intel 优化，推断为 Unity",
+  "engine_evidence": "inferred",
+  "dimension": "3D",
+  "art_style": "低模糖果色小车与环形赛道，俯视斜角，UI 极简",
+  "dims": {
+   "engine": 3,
+   "art": 3,
+   "anim": 3,
+   "physics": 3,
+   "logic": 3,
+   "data": 2,
+   "server": 1,
+   "audio": 2
+  },
+  "dim_notes": {
+   "logic": "每关要配车数、颜色分布、车库位置与环形路径，还要保证存在解，关卡生成器是核心工作量",
+   "physics": "小车沿路径连续移动、避让与互锁判定需要稳定的路径跟随，不是刚体模拟但要求不穿模",
+   "art": "车与车库为低模加纯色材质，可批量换色；场景复用率高，素材量中等",
+   "anim": "车流连续移动与停入车库的缓动，是视觉流畅度的关键",
+   "server": "纯单机，无联网对战，仅广告与内购需联网"
+  },
+  "asset_notes": "低模车模与车库可同一套资产换色，赛道为模块化拼接；包体约 224MB 含多语言与广告 SDK，素材本身不重",
+  "notes": "同一产品在 Google Play 与 App Store 双端上架（包名 com.duykanbakay.carconveyortransfer / iOS 6758138698），发行商 Rollic Games 为 Zynga 旗下；验收说明：本档案综合网络二手资料，未实机验证。引擎、实现成本、目标用户与商业化建议属于分析推断；具体规则、数值及运营情况以所列来源描述为准，不代表已获官方确认。",
+  "cost_score": 2.5,
+  "cost_level": "低"
+ },
+ "play": {
+  "core_loop": "点击不同颜色的汽车，使其沿环形车道行驶，进入同色车库并逐步清空场地。车位安排与道路拥堵构成主要规划挑战；具体闸门、锁定等细节依据二手资料，未实机核验。",
+  "highlights": [
+   "一次点击改变整条车流，「差一点就堵死」的悬念每次都在",
+   "车流连续移动的视觉非常流畅，天然适合做短视频素材",
+   "颜色闸门「不匹配不放行」把抽象的分类规则变成物理拦截，理解成本为零",
+   "单关几十秒，失败立刻重来，节奏适配碎片时间"
+  ],
+  "innovations": [
+   "把 ball sort 的「容器 + 颜色」抽象逻辑翻译成停车场调度，额外加了空间推理成分",
+   "属主题迭代而非机制创新，真正的新意在于用汽车题材把受众从解谜玩家扩到泛人群"
+  ],
+  "target_user": "25–55 岁休闲解谜用户，男女均衡，欧美市场为主",
+  "monetization": "混合变现：激励视频（撤销、加步数、多给一个车库）加内购（$0.99–$99.99），含插屏与 banner",
+  "lifecycle": "中长线，2026 年 9 月上线后靠 Rollic 规模化买量，Google Play 已破 100 万下载"
+ },
+ "clone": {
+  "verdict": "换肤",
+  "rationale": "底层是已被反复验证的颜色分类机制，代码与关卡生成器都能复用，3D 车流是表现层而非难点。真正的门槛在题材命中率与关卡曲线，而「汽车」这层差异化保质期只有几个月，后来者换个题材就能平移，所以必须换皮而不是复刻。",
+  "suggestions": [
+   "把「停车入库」换成「行李分拣」或「快递装车」，同一套颜色闸门与路径逻辑，题材立刻区分",
+   "把颜色闸门改成「形状闸门」，增加一层匹配维度，避免与 Rollic 正面撞机制",
+   "关卡生成器做成可配参数（车数/颜色数/车库数），用 200 关起步快速验证留存"
+  ],
+  "risks": [
+   "sort 品类已接近饱和，同类产品买量成本高",
+   "3D 车流的路径跟随若出现穿模会直接毁掉体验",
+   "汽车题材的差异化壁垒短，需要快速迭代题材"
+  ],
+  "effort": "25–35 人日（1 前端 + 1 美术 + 0.5 策划）"
+ },
+ "biz": {
+  "internal": {
+   "fit": "需改造",
+   "why": [
+    {
+     "lens": "用户",
+     "text": "颜色分类有现成认知，本作 Google Play 破百万下载、3.7 万条评价，说明「一眼看懂 + 停不下来的清盘」这条公式仍有效"
+    },
+    {
+     "lens": "用户",
+     "text": "搬到自有产品里，用户要的是「车流别堵死」的紧张感，若改成静态格子摆放松弛感就没了，体验会掉一档"
+    },
+    {
+     "lens": "业务",
+     "text": "可迁移的是「颜色/形状闸门 + 缓冲位」这条判定规则，接 2D 棋盘即可用；3D 车流需要独立渲染与路径系统，与现有框架不兼容"
+    },
+    {
+     "lens": "业务",
+     "text": "不做也不算损失：sort 赛道拥挤，现在接进来很难抢到量"
+    }
+   ],
+   "how": [
+    "把「闸门判定」抽出来加到现有分类玩法上，做 10 关 A/B，一周内看失败率与广告触发",
+    "复刻它的「撤销 / 加步数 / 多给车库」三个广告触点，校准自有点位的价值"
+   ],
+   "gain": [
+    "拿到可复用的「闸门匹配 + 缓冲位」规则组件，能迁到多个配对玩法",
+    "明确 3D 路径跟随的机型成本，避免误判排期",
+    "广告位多一套已校准的三段触点，直接抬高单用户广告次数",
+    "规避掉跟 Rollic 正面竞争的题材，省下一轮试错投放"
+   ]
+  },
+  "opportunity": {
+   "fit": "不建议接触",
+   "points": [
+    "Rollic 为 Zynga 旗下发行厂，自研自发、手握规模化买量能力，不存在代理需求",
+    "题材由土耳其工作室供给、发行权在 Rollic 手上，没有可谈的授权入口"
+   ]
+  },
+  "extension": {
+   "scenes": [
+    {
+     "scene": "停车场会员引流",
+     "how": "把颜色闸门换成会员等级闸门，等级不够的车只能进慢车道，用排队时长做权益对比"
+    },
+    {
+     "scene": "物流分拣培训",
+     "how": "把车库换成目的地格口，颜色换成线路色，错分即堵塞，用失败演出替代流程宣讲"
+    }
+   ]
+  },
+  "summary": "闸门匹配与缓冲位可低成本移植，3D 车流需独立渲染。"
+ },
+ "shots": [],
+ "evidence": [
+  {
+   "claim": "商店描述：点击让小车沿赛道行驶，匹配颜色停入对应车库，每次点击都会改变车流",
+   "level": "confirmed"
+  },
+  {
+   "claim": "Google Play 100 万+ 下载、3.9 星 3.7 万条评价；APK 约 194–224MB；含广告与内购（$0.99–$99.99）",
+   "level": "confirmed"
+  },
+  {
+   "claim": "发行商为 Rollic Games（Zynga 旗下），包名 com.duykanbakay.carconveyortransfer 指向土耳其开发团队",
+   "level": "confirmed"
+  },
+  {
+   "claim": "引擎为 Unity（无官方技术披露，据发行商产品线与 Windows 版支持推断）",
+   "level": "inferred"
+  }
+ ],
+ "sources": [
+  "https://play.google.com/store/apps/details?id=com.duykanbakay.carconveyortransfer",
+  "https://m.apkpure.net/cn/car-sort-color-puzzle/com.duykanbakay.carconveyortransfer",
+  "https://www.lightgame.cc/game/gplay-c48bb4c41a.html"
+ ],
+ "notes": "",
+ "issues": [],
+ "media": {
+  "matched": false
+ },
+ "slug": "Car_Sort_Color_Puzzle_167328"
+}

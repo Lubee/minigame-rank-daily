@@ -1,0 +1,160 @@
+{
+  "batch": 53,
+  "games": [
+    {
+      "name": "Vial Magic: Color Sort",
+      "slug": "Vial_Magic_Color_Sort_4f7bb0",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 34
+      },
+      "platform_app_ids": {
+        "android": "com.vialmagic.colorsort"
+      },
+      "publisher": "juyi",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-23",
+      "appearances": 3,
+      "best_rank": 34,
+      "seen_days": 3,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Solitaire Cash: Win Real Money",
+      "slug": "Solitaire_Cash_Win_Real_Money_62d1b4",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "ios/美区免费榜": 61
+      },
+      "platform_app_ids": {
+        "ios": "1446254576"
+      },
+      "publisher": "Papaya Gaming",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 33,
+      "best_rank": 41,
+      "seen_days": 33,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Water Sort Puzzle - Order Up",
+      "slug": "Water_Sort_Puzzle_Order_Up_1627d7",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/日区免费榜"
+      ],
+      "ranks": {
+        "ios/日区免费榜": 92
+      },
+      "platform_app_ids": {
+        "ios": "6757671759"
+      },
+      "publisher": "GlimmerJoy Limited",
+      "category_l1": "ゲーム",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 24,
+      "best_rank": 41,
+      "seen_days": 24,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Wordsect - Word Puzzle Games",
+      "slug": "Wordsect_Word_Puzzle_Games_8af95d",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 42
+      },
+      "platform_app_ids": {
+        "android": "com.oakever.wordtile"
+      },
+      "publisher": "Oakever Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 8,
+      "best_rank": 42,
+      "seen_days": 8,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    },
+    {
+      "name": "Arrow Puzzle:Beauty Prize",
+      "slug": "Arrow_Puzzle_Beauty_Prize_2f2fb0",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 88
+      },
+      "platform_app_ids": {
+        "android": "com.arrpuzbeapri.apbp"
+      },
+      "publisher": "Cenblu",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 6,
+      "best_rank": 45,
+      "seen_days": 6,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      }
+    }
+  ]
+}

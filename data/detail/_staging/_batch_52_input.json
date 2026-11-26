@@ -1,0 +1,168 @@
+{
+  "batch": 52,
+  "games": [
+    {
+      "name": "Car Sort: Color Puzzle",
+      "slug": "Car_Sort_Color_Puzzle_167328",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜",
+        "ios/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 70,
+        "ios/美区免费榜": 99
+      },
+      "platform_app_ids": {
+        "android": "com.duykanbakay.carconveyortransfer",
+        "ios": "6758138698"
+      },
+      "publisher": "Rollic Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 9,
+      "best_rank": 53,
+      "seen_days": 11,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Solitaire",
+      "slug": "Solitaire_fccf7e",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 99
+      },
+      "platform_app_ids": {
+        "android": "com.smilerlee.klondike"
+      },
+      "publisher": "Mouse Games",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 26,
+      "best_rank": 53,
+      "seen_days": 26,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Screw Out 3D: Nut Sort Jam",
+      "slug": "Screw_Out_3D_Nut_Sort_Jam_feba69",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费榜"
+      ],
+      "ranks": {
+        "android/美区免费榜": 65
+      },
+      "platform_app_ids": {
+        "android": "net.happywit.screw.out.jam"
+      },
+      "publisher": "Unico Studio",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-08-21",
+      "appearances": 27,
+      "best_rank": 55,
+      "seen_days": 27,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "Dreamy Dress Jigcard Puzzle",
+      "slug": "Dreamy_Dress_Jigcard_Puzzle_0e870a",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "android/美区免费新游榜"
+      ],
+      "ranks": {
+        "android/美区免费新游榜": 70
+      },
+      "platform_app_ids": {
+        "android": "com.dreamy.dress.jigcard.puzzle.free.games"
+      },
+      "publisher": "LoveColoring Game",
+      "category_l1": "Games",
+      "category_l2": "",
+      "first_seen": "2026-11-18",
+      "appearances": 4,
+      "best_rank": 55,
+      "seen_days": 4,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    },
+    {
+      "name": "超萌趣消消 - 货架收纳消除小游戏",
+      "slug": "超萌趣消消_货架收纳消除小游戏_f9dd7f",
+      "status": "pending",
+      "icon_url": "",
+      "boards": [
+        "ios/国区免费榜"
+      ],
+      "ranks": {
+        "ios/国区免费榜": 55
+      },
+      "platform_app_ids": {
+        "ios": "6810902589"
+      },
+      "publisher": "梦游",
+      "category_l1": "游戏",
+      "category_l2": "",
+      "first_seen": "2026-11-20",
+      "appearances": 2,
+      "best_rank": 55,
+      "seen_days": 2,
+      "profile_value": "",
+      "profile_abandoned": false,
+      "profile_abandon_reason": "",
+      "seed": {
+        "gameplay_desc": "",
+        "tags": [],
+        "notes": "",
+        "developer": ""
+      },
+      "media": {}
+    }
+  ]
+}
