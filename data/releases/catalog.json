@@ -29828,25 +29828,25 @@
   },
   "sources": {
     "apple:newapplications": {
-      "attempted_at": "2026-11-26T11:17:55.561907+00:00",
-      "last_success_at": "2026-11-26T11:17:55.561907+00:00",
-      "source_updated_at": "2026-11-26T03:17:55-07:00",
+      "attempted_at": "2026-11-26T13:01:22.432596+00:00",
+      "last_success_at": "2026-11-26T13:01:22.432596+00:00",
+      "source_updated_at": "2026-11-26T05:01:22-07:00",
       "candidates": 20,
       "error": null,
       "latest_candidate_release_date": "2026-11-25"
     },
     "apple:newfreeapplications": {
-      "attempted_at": "2026-11-26T11:17:55.561907+00:00",
-      "last_success_at": "2026-11-26T11:17:55.561907+00:00",
-      "source_updated_at": "2026-11-26T03:17:56-07:00",
+      "attempted_at": "2026-11-26T13:01:22.432596+00:00",
+      "last_success_at": "2026-11-26T13:01:22.432596+00:00",
+      "source_updated_at": "2026-11-26T05:01:23-07:00",
       "candidates": 15,
       "error": null,
       "latest_candidate_release_date": "2026-11-25"
     },
     "apple:newpaidapplications": {
-      "attempted_at": "2026-11-26T11:17:55.561907+00:00",
-      "last_success_at": "2026-11-26T11:17:55.561907+00:00",
-      "source_updated_at": "2026-11-26T03:17:56-07:00",
+      "attempted_at": "2026-11-26T13:01:22.432596+00:00",
+      "last_success_at": "2026-11-26T13:01:22.432596+00:00",
+      "source_updated_at": "2026-11-26T05:01:23-07:00",
       "candidates": 41,
       "error": null,
       "latest_candidate_release_date": "2026-11-25"
@@ -29868,21 +29868,21 @@
       "latest_candidate_release_date": null
     },
     "apple:free": {
-      "attempted_at": "2026-11-26T11:17:55.561907+00:00",
-      "last_success_at": "2026-11-26T11:17:55.561907+00:00",
+      "attempted_at": "2026-11-26T13:01:22.432596+00:00",
+      "last_success_at": "2026-11-26T13:01:22.432596+00:00",
       "source_updated_at": "2026-11-26T11:17:39+00:00",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     },
     "google:free": {
-      "attempted_at": "2026-11-26T11:17:55.561907+00:00",
-      "last_success_at": "2026-11-26T11:17:55.561907+00:00",
+      "attempted_at": "2026-11-26T13:01:22.432596+00:00",
+      "last_success_at": "2026-11-26T13:01:22.432596+00:00",
       "source_updated_at": "2026-11-26T11:17:50Z",
       "candidates": 100,
       "error": null,
       "latest_candidate_release_date": null
     }
   },
-  "updated_at": "2026-11-26T11:17:59.444190+00:00"
+  "updated_at": "2026-11-26T13:01:24.268424+00:00"
 }
